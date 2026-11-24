@@ -953,12 +953,13 @@
         "name": "Sydney Sixers",
         "tier": "single",
         "aliases": [
-          "Sixers"
+          "Sixers",
+          "Sydney"
         ],
         "verified": {
           "wiki": "Sydney Sixers",
           "date": "2026-11-24",
-          "key": "1owkmf7"
+          "key": "ift539"
         },
         "views": 76561
       },
@@ -966,12 +967,13 @@
         "name": "Perth Scorchers",
         "tier": "single",
         "aliases": [
-          "Scorchers"
+          "Scorchers",
+          "Perth"
         ],
         "verified": {
           "wiki": "Perth Scorchers",
           "date": "2026-11-24",
-          "key": "x54422"
+          "key": "pbz01r"
         },
         "views": 81751
       },
@@ -981,10 +983,11 @@
         "verified": {
           "wiki": "Melbourne Stars",
           "date": "2026-11-24",
-          "key": "177kyuc"
+          "key": "1g26ylt"
         },
         "aliases": [
-          "Stars"
+          "Stars",
+          "Melbourne"
         ],
         "views": 60608
       },
@@ -992,12 +995,13 @@
         "name": "Lahore Qalandars",
         "tier": "single",
         "aliases": [
-          "Qalandars"
+          "Qalandars",
+          "Lahore"
         ],
         "verified": {
           "wiki": "Lahore Qalandars",
           "date": "2026-11-24",
-          "key": "16tqoq4"
+          "key": "7y2wfp"
         },
         "views": 80698
       },
@@ -1007,9 +1011,12 @@
         "verified": {
           "wiki": "Karachi Kings",
           "date": "2026-11-24",
-          "key": "g8v0nc"
+          "key": "7g8tu3"
         },
-        "views": 64134
+        "views": 64134,
+        "aliases": [
+          "Karachi"
+        ]
       },
       {
         "name": "Trinbago Knight Riders",
@@ -1017,12 +1024,15 @@
         "aliases": [
           "TKR",
           "Trinidad and Tobago Red Steel",
-          "Red Steel"
+          "Red Steel",
+          "Trinbago",
+          "Trinidad",
+          "Trinidad and Tobago"
         ],
         "verified": {
           "wiki": "Trinbago Knight Riders",
           "date": "2026-11-24",
-          "key": "1sidduk"
+          "key": "17vke4j"
         },
         "views": 73178
       },
@@ -1032,10 +1042,11 @@
         "verified": {
           "wiki": "Brisbane Heat",
           "date": "2026-11-24",
-          "key": "509irf"
+          "key": "ojvib9"
         },
         "aliases": [
-          "Heat"
+          "Heat",
+          "Brisbane"
         ],
         "views": 44742
       },
@@ -1069,12 +1080,13 @@
         "name": "Adelaide Strikers",
         "tier": "four",
         "aliases": [
-          "Strikers"
+          "Strikers",
+          "Adelaide"
         ],
         "verified": {
           "wiki": "Adelaide Strikers",
           "date": "2026-11-24",
-          "key": "1u1fupa"
+          "key": "4old41"
         },
         "views": 48150
       },
@@ -1095,12 +1107,13 @@
         "name": "Peshawar Zalmi",
         "tier": "single",
         "aliases": [
-          "Zalmi"
+          "Zalmi",
+          "Peshawar"
         ],
         "verified": {
           "wiki": "Peshawar Zalmi",
           "date": "2026-11-24",
-          "key": "cfne38"
+          "key": "t5oat5"
         },
         "views": 82713
       },
@@ -1108,12 +1121,13 @@
         "name": "Guyana Amazon Warriors",
         "tier": "four",
         "aliases": [
-          "Amazon Warriors"
+          "Amazon Warriors",
+          "Guyana"
         ],
         "verified": {
           "wiki": "Guyana Amazon Warriors",
           "date": "2026-11-24",
-          "key": "qrb7dw"
+          "key": "10afrx1"
         },
         "views": 52079
       },
@@ -1121,12 +1135,13 @@
         "name": "Hobart Hurricanes",
         "tier": "four",
         "aliases": [
-          "Hurricanes"
+          "Hurricanes",
+          "Hobart"
         ],
         "verified": {
           "wiki": "Hobart Hurricanes",
           "date": "2026-11-24",
-          "key": "v9lcph"
+          "key": "2fg1np"
         },
         "views": 56570
       },
@@ -1134,12 +1149,13 @@
         "name": "Quetta Gladiators",
         "tier": "two",
         "aliases": [
-          "Gladiators"
+          "Gladiators",
+          "Quetta"
         ],
         "verified": {
           "wiki": "Quetta Gladiators",
           "date": "2026-11-24",
-          "key": "dc3y5b"
+          "key": "4mqf69"
         },
         "views": 61392
       },
@@ -1147,12 +1163,13 @@
         "name": "Jamaica Tallawahs",
         "tier": "six",
         "aliases": [
-          "Tallawahs"
+          "Tallawahs",
+          "Jamaica"
         ],
         "verified": {
           "wiki": "Jamaica Tallawahs",
           "date": "2026-11-24",
-          "key": "110lxmp"
+          "key": "1x6j437"
         },
         "views": 24960
       },
@@ -1160,12 +1177,13 @@
         "name": "Multan Sultans",
         "tier": "single",
         "aliases": [
-          "Sultans"
+          "Sultans",
+          "Multan"
         ],
         "verified": {
           "wiki": "Multan Sultans",
           "date": "2026-11-24",
-          "key": "1las2lg"
+          "key": "1pkn8n7"
         },
         "views": 94813
       },
@@ -1174,12 +1192,13 @@
         "tier": "six",
         "aliases": [
           "Barbados Tridents",
-          "Royals"
+          "Royals",
+          "Barbados"
         ],
         "verified": {
           "wiki": "Barbados Tridents",
           "date": "2026-11-24",
-          "key": "1qx28l2"
+          "key": "1ce4qbk"
         },
         "views": 24283
       },
@@ -1189,12 +1208,15 @@
         "aliases": [
           "Saint Kitts and Nevis Patriots",
           "SKN Patriots",
-          "Patriots"
+          "Patriots",
+          "St Kitts",
+          "Saint Kitts",
+          "St Kitts and Nevis"
         ],
         "verified": {
           "wiki": "St Kitts & Nevis Patriots",
           "date": "2026-11-24",
-          "key": "1ku5o65"
+          "key": "1i21emp"
         },
         "views": 22472
       },
@@ -1207,12 +1229,14 @@
           "Saint Lucia Zouks",
           "St Lucia Stars",
           "Saint Lucia Stars",
-          "Zouks"
+          "Zouks",
+          "St Lucia",
+          "Saint Lucia"
         ],
         "verified": {
           "wiki": "Saint Lucia Kings",
           "date": "2026-11-24",
-          "key": "y28qwt"
+          "key": "iv04fx"
         },
         "views": 37270
       },
@@ -1221,12 +1245,14 @@
         "tier": "six",
         "aliases": [
           "Antigua Falcons",
-          "Falcons"
+          "Falcons",
+          "Antigua",
+          "Antigua and Barbuda"
         ],
         "verified": {
           "wiki": "Antigua & Barbuda Falcons",
           "date": "2026-11-24",
-          "key": "qyvl47"
+          "key": "1vv53ix"
         },
         "views": 28320
       },
@@ -3347,10 +3373,11 @@
         "verified": {
           "wiki": "Sydney Sixers",
           "date": "2026-11-24",
-          "key": "a8xo78"
+          "key": "1jf7lvm"
         },
         "aliases": [
-          "Sixers"
+          "Sixers",
+          "Sydney"
         ],
         "views": 76561
       },
@@ -3360,10 +3387,11 @@
         "verified": {
           "wiki": "Perth Scorchers",
           "date": "2026-11-24",
-          "key": "19r2z05"
+          "key": "1sttra8"
         },
         "aliases": [
-          "Scorchers"
+          "Scorchers",
+          "Perth"
         ],
         "views": 81751
       },
@@ -3373,9 +3401,12 @@
         "verified": {
           "wiki": "Mumbai Indians",
           "date": "2026-11-24",
-          "key": "csy4bd"
+          "key": "k41ht0"
         },
-        "views": 394401
+        "views": 394401,
+        "aliases": [
+          "Mumbai"
+        ]
       },
       {
         "name": "Southern Brave",
@@ -3409,10 +3440,11 @@
         "verified": {
           "wiki": "Brisbane Heat",
           "date": "2026-11-24",
-          "key": "1vjgfik"
+          "key": "1yehu7m"
         },
         "aliases": [
-          "Heat"
+          "Heat",
+          "Brisbane"
         ],
         "views": 44742
       },
@@ -3422,10 +3454,11 @@
         "verified": {
           "wiki": "Adelaide Strikers",
           "date": "2026-11-24",
-          "key": "1jxcf0p"
+          "key": "9amx6m"
         },
         "aliases": [
-          "Strikers"
+          "Strikers",
+          "Adelaide"
         ],
         "views": 48150
       },
@@ -3435,10 +3468,11 @@
         "verified": {
           "wiki": "Melbourne Stars",
           "date": "2026-11-24",
-          "key": "1ums1or"
+          "key": "jt3p3i"
         },
         "aliases": [
-          "Stars"
+          "Stars",
+          "Melbourne"
         ],
         "views": 60608
       },
@@ -3461,12 +3495,14 @@
         "aliases": [
           "Royal Challengers Bangalore",
           "RCB",
-          "Royal Challengers"
+          "Royal Challengers",
+          "Bengaluru",
+          "Bangalore"
         ],
         "verified": {
           "wiki": "Women's Premier League (cricket)",
           "date": "2026-11-24",
-          "key": "n9zk32"
+          "key": "1ug9q84"
         },
         "views": 943622
       },
@@ -3474,12 +3510,13 @@
         "name": "Delhi Capitals",
         "tier": "single",
         "verified": {
-          "wiki": "The Hundred (cricket)",
+          "wiki": "Women's Big Bash League",
           "date": "2026-11-24",
-          "key": "18bcnta"
+          "key": "1oqz0sg"
         },
         "aliases": [
-          "Capitals"
+          "Capitals",
+          "Delhi"
         ],
         "views": 537618
       },
@@ -3489,10 +3526,11 @@
         "verified": {
           "wiki": "Trent Rockets",
           "date": "2026-11-24",
-          "key": "1ylfccv"
+          "key": "1qv8jks"
         },
         "aliases": [
-          "Rockets"
+          "Rockets",
+          "Nottingham"
         ],
         "views": 84587
       },
@@ -3528,10 +3566,11 @@
         "verified": {
           "wiki": "Hobart Hurricanes",
           "date": "2026-11-24",
-          "key": "1b8gl3m"
+          "key": "19l90te"
         },
         "aliases": [
-          "Hurricanes"
+          "Hurricanes",
+          "Hobart"
         ],
         "views": 56570
       },
@@ -3541,10 +3580,11 @@
         "verified": {
           "wiki": "London Spirit",
           "date": "2026-11-24",
-          "key": "wz5zn6"
+          "key": "xgvjrm"
         },
         "aliases": [
-          "Spirit"
+          "Spirit",
+          "London"
         ],
         "views": 112566
       },
@@ -3554,9 +3594,12 @@
         "verified": {
           "wiki": "Welsh Fire",
           "date": "2026-11-24",
-          "key": "1hdb2zf"
+          "key": "1a5g2k7"
         },
-        "views": 74888
+        "views": 74888,
+        "aliases": [
+          "Wales"
+        ]
       },
       {
         "name": "Birmingham Phoenix",
@@ -3564,10 +3607,11 @@
         "verified": {
           "wiki": "Birmingham Phoenix",
           "date": "2026-11-24",
-          "key": "jk5svi"
+          "key": "jgf16e"
         },
         "aliases": [
-          "Phoenix"
+          "Phoenix",
+          "Birmingham"
         ],
         "views": 140130
       },
@@ -3577,10 +3621,11 @@
         "verified": {
           "wiki": "The Hundred (cricket)",
           "date": "2026-11-24",
-          "key": "oc4jfc"
+          "key": "l7uk14"
         },
         "aliases": [
-          "Giants"
+          "Giants",
+          "Gujarat"
         ],
         "views": 537618
       },
@@ -3590,10 +3635,11 @@
         "verified": {
           "wiki": "Manchester Super Giants",
           "date": "2026-11-24",
-          "key": "8oidfw"
+          "key": "1q6o8ak"
         },
         "aliases": [
-          "Originals"
+          "Originals",
+          "Manchester"
         ],
         "views": 154706
       },
@@ -3603,12 +3649,13 @@
         "aliases": [
           "UP Warriors",
           "Uttar Pradesh Warriorz",
-          "Warriorz"
+          "Warriorz",
+          "Uttar Pradesh"
         ],
         "verified": {
           "wiki": "UP Warriorz",
           "date": "2026-11-24",
-          "key": "1lttbay"
+          "key": "1lqxa2h"
         },
         "views": 68371
       }
@@ -6517,12 +6564,13 @@
         "name": "MI Cape Town",
         "tier": "two",
         "aliases": [
-          "MICT"
+          "MICT",
+          "Cape Town"
         ],
         "verified": {
           "wiki": "MI Cape Town",
           "date": "2026-11-24",
-          "key": "zo3b3u"
+          "key": "1hn4ted"
         },
         "views": 56538
       },
@@ -6531,12 +6579,13 @@
         "tier": "single",
         "aliases": [
           "SEC",
-          "Sunrisers"
+          "Sunrisers",
+          "Eastern Cape"
         ],
         "verified": {
           "wiki": "Sunrisers Eastern Cape",
           "date": "2026-11-24",
-          "key": "1uunxkq"
+          "key": "zl5iyl"
         },
         "views": 97425
       },
@@ -6545,12 +6594,14 @@
         "tier": "two",
         "aliases": [
           "JSK",
-          "Johannesburg Super Kings"
+          "Johannesburg Super Kings",
+          "Joburg",
+          "Johannesburg"
         ],
         "verified": {
           "wiki": "Joburg Super Kings",
           "date": "2026-11-24",
-          "key": "1mxofu1"
+          "key": "1n28dyu"
         },
         "views": 64900
       },
@@ -6558,12 +6609,13 @@
         "name": "MI New York",
         "tier": "single",
         "aliases": [
-          "MINY"
+          "MINY",
+          "New York"
         ],
         "verified": {
           "wiki": "MI New York",
           "date": "2026-11-24",
-          "key": "b3iex0"
+          "key": "4n1sdh"
         },
         "views": 83527
       },
@@ -6571,12 +6623,13 @@
         "name": "Texas Super Kings",
         "tier": "single",
         "aliases": [
-          "TSK"
+          "TSK",
+          "Texas"
         ],
         "verified": {
           "wiki": "Texas Super Kings",
           "date": "2026-11-24",
-          "key": "8mlmje"
+          "key": "1d7to8d"
         },
         "views": 80811
       },
@@ -6586,9 +6639,12 @@
         "verified": {
           "wiki": "MI Emirates",
           "date": "2026-11-24",
-          "key": "1gya1dy"
+          "key": "1a5dzj6"
         },
-        "views": 55587
+        "views": 55587,
+        "aliases": [
+          "Emirates"
+        ]
       },
       {
         "name": "Paarl Royals",
@@ -6596,10 +6652,11 @@
         "verified": {
           "wiki": "Paarl Royals",
           "date": "2026-11-24",
-          "key": "t3lqgk"
+          "key": "8vdpfc"
         },
         "aliases": [
-          "Royals"
+          "Royals",
+          "Paarl"
         ],
         "views": 51645
       },
@@ -6608,12 +6665,13 @@
         "tier": "two",
         "aliases": [
           "Durban Super Giants",
-          "DSG"
+          "DSG",
+          "Durban"
         ],
         "verified": {
           "wiki": "Durban's Super Giants",
           "date": "2026-11-24",
-          "key": "12bwj90"
+          "key": "644uo6"
         },
         "views": 63051
       },
@@ -6623,9 +6681,12 @@
         "verified": {
           "wiki": "Pretoria Capitals",
           "date": "2026-11-24",
-          "key": "1oiosyn"
+          "key": "10e81w3"
         },
-        "views": 43897
+        "views": 43897,
+        "aliases": [
+          "Pretoria"
+        ]
       },
       {
         "name": "Washington Freedom",
@@ -6633,10 +6694,11 @@
         "verified": {
           "wiki": "2024 Major League Cricket season",
           "date": "2026-11-24",
-          "key": "1azye8o"
+          "key": "xwj14"
         },
         "aliases": [
-          "Freedom"
+          "Freedom",
+          "Washington"
         ],
         "views": 9184
       },
@@ -6646,10 +6708,11 @@
         "verified": {
           "wiki": "Seattle Orcas",
           "date": "2026-11-24",
-          "key": "1vlsa86"
+          "key": "k0vzvi"
         },
         "aliases": [
-          "Orcas"
+          "Orcas",
+          "Seattle"
         ],
         "views": 50642
       },
@@ -6659,10 +6722,11 @@
         "verified": {
           "wiki": "San Francisco Unicorns",
           "date": "2026-11-24",
-          "key": "6wx6sc"
+          "key": "95ym6k"
         },
         "aliases": [
-          "Unicorns"
+          "Unicorns",
+          "San Francisco"
         ],
         "views": 73340
       },
@@ -6671,12 +6735,14 @@
         "tier": "single",
         "aliases": [
           "LA Knight Riders",
-          "LAKR"
+          "LAKR",
+          "Los Angeles",
+          "LA"
         ],
         "verified": {
           "wiki": "Los Angeles Knight Riders",
           "date": "2026-11-24",
-          "key": "otnsyk"
+          "key": "n4sjzc"
         },
         "views": 82174
       },
@@ -6684,12 +6750,13 @@
         "name": "Abu Dhabi Knight Riders",
         "tier": "four",
         "aliases": [
-          "ADKR"
+          "ADKR",
+          "Abu Dhabi"
         ],
         "verified": {
           "wiki": "Abu Dhabi Knight Riders",
           "date": "2026-11-24",
-          "key": "dpuky2"
+          "key": "1prxzqm"
         },
         "views": 45357
       },
@@ -6699,9 +6766,12 @@
         "verified": {
           "wiki": "Dubai Capitals",
           "date": "2026-11-24",
-          "key": "7co7ny"
+          "key": "1fl48p7"
         },
-        "views": 40224
+        "views": 40224,
+        "aliases": [
+          "Dubai"
+        ]
       },
       {
         "name": "Gulf Giants",
@@ -6731,12 +6801,13 @@
         "tier": "four",
         "aliases": [
           "Sharjah Warriorz",
-          "Warriors"
+          "Warriors",
+          "Sharjah"
         ],
         "verified": {
           "wiki": "Sharjah Warriorz",
           "date": "2026-11-24",
-          "key": "15d72tk"
+          "key": "602zx"
         },
         "views": 26994
       },
@@ -6746,9 +6817,12 @@
         "verified": {
           "wiki": "Jaffna Kings",
           "date": "2026-11-24",
-          "key": "ufwv9s"
+          "key": "4r3nr8"
         },
-        "views": 31598
+        "views": 31598,
+        "aliases": [
+          "Jaffna"
+        ]
       },
       {
         "name": "Colombo Strikers",
@@ -6756,10 +6830,11 @@
         "verified": {
           "wiki": "Colombo Kaps",
           "date": "2026-11-24",
-          "key": "ghuch5"
+          "key": "14hm5jq"
         },
         "aliases": [
-          "Strikers"
+          "Strikers",
+          "Colombo"
         ],
         "views": 12760
       },
@@ -6769,10 +6844,11 @@
         "verified": {
           "wiki": "Galle Gallants",
           "date": "2026-11-24",
-          "key": "1k33lm1"
+          "key": "1059bpg"
         },
         "aliases": [
-          "Marvels"
+          "Marvels",
+          "Galle"
         ],
         "views": 10422
       },
@@ -6782,10 +6858,11 @@
         "verified": {
           "wiki": "Dambulla Sixers",
           "date": "2026-11-24",
-          "key": "1waswru"
+          "key": "1kl7gny"
         },
         "aliases": [
-          "Sixers"
+          "Sixers",
+          "Dambulla"
         ],
         "views": 11607
       },
@@ -6794,12 +6871,13 @@
         "tier": "six",
         "aliases": [
           "B-Love Kandy",
-          "Falcons"
+          "Falcons",
+          "Kandy"
         ],
         "verified": {
           "wiki": "Kandy Royals",
           "date": "2026-11-24",
-          "key": "12zz0qj"
+          "key": "1wgqb5k"
         },
         "views": 10503
       }

@@ -15,6 +15,12 @@ npm test                   # the bank rules, run offline from the stored results
 
 ## 1. Write
 
+**Audience:** aim slightly at UK-based fans who know English county cricket and international
+cricket from the mid-1990s on. Answers can range further afield or further back, but nearly every
+question should have at least a few answers that fan would know. A question about less familiar
+cricket still fits if its answers are guessable from geography (cities, states, countries,
+counties), with place names accepted (see Spellings).
+
 Questions live in `src/data/questions/*.json` as a flat pool. Older day-grouped files can be
 converted with `npm run content:import -- <file>`. A question:
 
@@ -71,6 +77,9 @@ Add the rest to each answer by hand:
     grounds ("the G" for the MCG, "the Home of Cricket" for Lord's).
   - Former, sponsor and non-sponsor names ("Narendra Modi Stadium" / "Motera").
   - Short names that aren't just the name minus generic words ("Sunrisers", "Murali", "Pindi").
+  - **Place names for teams named after a place** ("Dhaka", "Cape Town", "Texas"), so a fan can
+    get there from geography. Where several teams share a place, the place name goes on the
+    best-known one (the most common tier), so it scores that team.
 
   A nickname only goes in if it clearly means that one answer within this question; if two answers
   share it (two players called "Smudge"), leave it out. The bank tests reject collisions.

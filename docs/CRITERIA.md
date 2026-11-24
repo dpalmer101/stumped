@@ -59,6 +59,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Every question: ≥ 20 answers, exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.
 - [ ] Every answer list is **complete**: any correct answer a player could give is accepted (otherwise a right answer counts as a miss). Prefer closed sets of 20–60 answers; bound time-sensitive sets by date.
 - [ ] No duplicate answers or aliases within a question after normalisation.
+- [ ] Nearly every question has a few answers a UK fan of county and international cricket since the mid-1990s would know, or answers guessable from geography; teams named after a place accept the place name.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
 - [ ] Every scheduled day has 6 distinct, existing question ids.
 - [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)

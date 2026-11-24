@@ -1549,10 +1549,11 @@
         "verified": {
           "wiki": "Sydney Sixers",
           "date": "2026-11-24",
-          "key": "ngfddl"
+          "key": "1yhlelf"
         },
         "aliases": [
-          "Sixers"
+          "Sixers",
+          "Sydney"
         ],
         "views": 76561
       },
@@ -1697,7 +1698,8 @@
       {
         "name": "Barbados Tridents",
         "aliases": [
-          "Barbados Royals"
+          "Barbados Royals",
+          "Barbados"
         ],
         "wiki": "Barbados Royals",
         "values": [
@@ -1707,14 +1709,15 @@
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
-          "key": "1u4poef"
+          "key": "xbqnbl"
         },
         "views": 333072
       },
       {
         "name": "Highveld Lions",
         "aliases": [
-          "Lions"
+          "Lions",
+          "Highveld"
         ],
         "wiki": "Highveld Lions cricket team",
         "values": [
@@ -1724,14 +1727,16 @@
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
-          "key": "lrd8l9"
+          "key": "1o04sje"
         },
         "views": 333072
       },
       {
         "name": "Cape Cobras",
         "aliases": [
-          "Cobras"
+          "Cobras",
+          "Cape Town",
+          "Western Cape"
         ],
         "values": [
           3
@@ -1740,7 +1745,7 @@
         "verified": {
           "wiki": "Cape Cobras",
           "date": "2026-11-24",
-          "key": "oqdv30"
+          "key": "9xc4iu"
         },
         "views": 8293
       },
@@ -2525,7 +2530,9 @@
         "name": "Comilla Victorians",
         "aliases": [
           "Cumilla Victorians",
-          "Victorians"
+          "Victorians",
+          "Comilla",
+          "Cumilla"
         ],
         "values": [
           7
@@ -2534,14 +2541,15 @@
         "verified": {
           "wiki": "Comilla Victorians",
           "date": "2026-11-24",
-          "key": "mrqlvz"
+          "key": "2e35p"
         },
         "views": 18770
       },
       {
         "name": "Rangpur Riders",
         "aliases": [
-          "Riders"
+          "Riders",
+          "Rangpur"
         ],
         "values": [
           9
@@ -2550,7 +2558,7 @@
         "verified": {
           "wiki": "Rangpur Riders",
           "date": "2026-11-24",
-          "key": "15841mi"
+          "key": "u6ckqf"
         },
         "views": 47467
       },
@@ -2574,7 +2582,8 @@
       {
         "name": "Dhaka Dynamites",
         "aliases": [
-          "Dynamites"
+          "Dynamites",
+          "Dhaka"
         ],
         "values": [
           4
@@ -2583,7 +2592,7 @@
         "verified": {
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
-          "key": "1s79l8u"
+          "key": "10abkn5"
         },
         "views": 33247
       },
@@ -2596,9 +2605,12 @@
         "verified": {
           "wiki": "Khulna Tigers",
           "date": "2026-11-24",
-          "key": "15wuos8"
+          "key": "3hwnfn"
         },
-        "views": 9165
+        "views": 9165,
+        "aliases": [
+          "Khulna"
+        ]
       },
       {
         "name": "Sylhet Strikers",
@@ -2609,14 +2621,19 @@
         "verified": {
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
-          "key": "s8j493"
+          "key": "lng5ny"
         },
-        "views": 27633
+        "views": 27633,
+        "aliases": [
+          "Sylhet"
+        ]
       },
       {
         "name": "Chittagong Vikings",
         "aliases": [
-          "Chattogram Vikings"
+          "Chattogram Vikings",
+          "Chittagong",
+          "Chattogram"
         ],
         "values": [
           4
@@ -2625,7 +2642,7 @@
         "verified": {
           "wiki": "Chattogram Royals",
           "date": "2026-11-24",
-          "key": "v74fy1"
+          "key": "1upq4a9"
         },
         "views": 23432
       },
@@ -2654,9 +2671,12 @@
         "verified": {
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
-          "key": "141pky3"
+          "key": "1yxo4n5"
         },
-        "views": 35737
+        "views": 35737,
+        "aliases": [
+          "Rajshahi"
+        ]
       },
       {
         "name": "Khulna Titans",

@@ -5,7 +5,7 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 
 ## 1. Audience and platform
 
-- Cricket fans of any level. English-language UI.
+- Cricket fans of any level, with questions aimed slightly at UK-based fans who know English county and international cricket from the mid-1990s on. English-language UI.
 - Static web app on GitHub Pages: no backend, no accounts. Only anonymous counts (GoatCounter):
   visits, overs started and overs finished. No cookies, no personal data, no answers or scores;
   nothing counted on local copies or when the browser asks not to be tracked.
@@ -176,3 +176,4 @@ the anonymous counts in §1.
 - 2026-11-24: Days are locked once pushed and started anywhere (UTC+14): no changes to their questions, prompts, answer types, answers or tiers. Aliases and misspellings can be added and the file format can change. Enforced by `locked-days.json`, the unit tests and a CI check against the locks published on the live site.
 - 2026-11-24: The home screen shows one of 30 made-up pun quotes from made-up people, picked at random on each page load, under the format picker.
 - 2026-11-24: A synthesised crowd reacts to each ball: claps for a single or two, a cheer that grows with a four, six or out of the ground, and a groan for a wicket. Mute silences sounds already playing.
+- 2026-11-24: Questions lean towards UK fans of county and international cricket since the mid-1990s: nearly every question has a few answers they'd know, or answers guessable from geography. Teams named after a place accept the place name (on the best-known team where several share it).

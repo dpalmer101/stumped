@@ -2,6 +2,8 @@
 
 A daily cricket knowledge game. One over: six balls, twenty seconds each — the rarer your answer, the bigger the shot.
 
+**Play it: [dpalmer101.github.io/stumped](https://dpalmer101.github.io/stumped/)**
+
 ![Stumped in its four formats: the home screen, a ball in play, an out-of-the-ground hit and the scorecard](docs/screenshots/overview.png)
 
 Pick a format, face each ball, and name a right answer before the 20-second timer runs out. Rare

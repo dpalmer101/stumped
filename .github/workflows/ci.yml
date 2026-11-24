@@ -1,8 +1,8 @@
 name: CI
 on:
-  push:
-    branches: [main]
   pull_request:
+  # Also run by deploy.yml before every deploy.
+  workflow_call:
 
 jobs:
   check:

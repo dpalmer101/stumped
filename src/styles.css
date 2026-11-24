@@ -488,7 +488,9 @@ button {
 /* ---------- Scorecard and answers ---------- */
 .card {
   flex: 1;
-  padding: 4px 14px 16px;
+  /* Scorecard and answers scroll, which can hide the browser's bottom bar; keep the last lines
+     clear of rounded screen corners and the home indicator. */
+  padding: 4px 14px calc(40px + env(safe-area-inset-bottom, 0px));
 }
 .card .pips {
   padding: 0 0 10px;

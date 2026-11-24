@@ -147,8 +147,9 @@ export function sceneSvg(theme: ThemeKey): string {
   ] as const)
     s += px(0, r, 90, h, c.stripe);
   for (let r = 25; r < 55; r++) {
-    const half = 10 + (r - 25) * 0.45;
-    s += px(Math.round(45 - half), r, Math.round(half * 2), 1, c.pitch);
+    // One rounded half-width for both sides, so the right edge steps exactly like the left.
+    const half = Math.round(10 + (r - 25) * 0.45);
+    s += px(45 - half, r, half * 2, 1, c.pitch);
   }
   s += px(35, 27, 20, 1, "#fff") + px(25, 49, 40, 1, "#fff");
   // Far stumps peek out beside the batter.

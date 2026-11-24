@@ -175,3 +175,4 @@ the anonymous counts in §1.
 - 2026-11-24: Anonymous play counts via GoatCounter, sent as a plain request (no third-party script, no cookies, no personal data), live site only, Do Not Track respected. Replaces "no tracking".
 - 2026-11-24: Days are locked once pushed and started anywhere (UTC+14): no changes to their questions, prompts, answer types, answers or tiers. Aliases and misspellings can be added and the file format can change. Enforced by `locked-days.json`, the unit tests and a CI check against the locks published on the live site.
 - 2026-11-24: The home screen shows one of 30 made-up pun quotes from made-up people, picked at random on each page load, under the format picker.
+- 2026-11-24: A synthesised crowd reacts to each ball: claps for a single or two, a cheer that grows with a four, six or out of the ground, and a groan for a wicket. Mute silences sounds already playing.

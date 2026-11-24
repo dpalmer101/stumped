@@ -284,6 +284,17 @@ export class Sound {
     }
   }
 
+  /** A short burst of crowd delight, for the easter eggs. */
+  cheer(): void {
+    this.applause(0, 1.2, 12, 0.5);
+    this.voices(0, 1.2, 0.7, { pitch: 260, glide: 1.2, formants: [750, 1200, 2600] });
+  }
+
+  /** A short crowd groan, without the out tones. */
+  groan(): void {
+    this.voices(0, 1, 0.8, { pitch: 170, glide: 0.75, formants: [450, 800, 2400] });
+  }
+
   out(): void {
     this.voices(0, 1.35, 1, { pitch: 170, glide: 0.7, formants: [450, 800, 2400] });
     this.tone(523, 0, 0.18, "square", 0.04);

@@ -11,7 +11,7 @@ import {
   replaceBall,
   total,
 } from "../engine/innings";
-import { createMatcher, type Matcher } from "../engine/match";
+import { createMatcher, type Matcher, normalise } from "../engine/match";
 import { puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
 import {
@@ -34,7 +34,7 @@ import {
 import { browserStore, load, readRaw, type Saved, STORAGE_KEY, save, THEME_KEYS } from "../storage";
 import { Sound } from "./audio";
 import { pickQuote } from "./quotes";
-import { Pitch, sceneSvg } from "./scene";
+import { duckSvg, Pitch, sceneSvg } from "./scene";
 import { THEMES } from "./themes";
 
 type View = "home" | "play" | "scorecard" | "answers";
@@ -181,6 +181,10 @@ interface InstallPromptEvent extends Event {
 }
 
 const SECRET_HOLD_MS = 3000;
+const APPEALS = new Set(["howzat", "howsthat", "hows that"].map(normalise));
+/** Taps on the far stumps, within this long of each other, that knock the bails off. */
+const STUMP_TAPS = 5;
+const STUMP_TAP_GAP_MS = 600;
 
 export class App {
   private readonly store = browserStore();
@@ -652,7 +656,7 @@ export class App {
       <div class="total flip" id="flip"><div class="flip-inner">
         <div class="face"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>
         <div class="lbl">1 over · ${plural(boundaries, "boundary", "boundaries")}</div></div>
-      </div></div>
+      </div>${runs === 0 ? `<div class="duck" aria-hidden="true">${duckSvg()}</div>` : ""}</div>
       ${this.pips(-1)}<table aria-label="Scorecard">${rows}</table>
       <div class="share" id="shareText">${esc(this.shareText())}</div>
       <div class="two"><button class="btn" data-act="share">Share</button><button class="btn ghost" data-act="answers">See all answers</button></div>
@@ -732,6 +736,31 @@ export class App {
     this.root
       .querySelector<HTMLButtonElement>('[data-act="share"]')
       ?.focus({ preventScroll: true });
+  }
+
+  private stumpTaps: number[] = [];
+
+  /** Easter egg: five quick taps on the far stumps knock the bails off, even mid-ball. */
+  private tapStumps() {
+    // Not while a result is playing out, where flying bails would look like a dismissal.
+    if (this.busy) return;
+    const now = Date.now();
+    const last = this.stumpTaps.at(-1);
+    this.stumpTaps =
+      last !== undefined && now - last <= STUMP_TAP_GAP_MS ? [...this.stumpTaps, now] : [now];
+    if (this.stumpTaps.length < STUMP_TAPS) return;
+    this.stumpTaps = [];
+    this.callout("Howzat!", "ootg");
+    // Unlike a real result it mustn't stay over the pitch.
+    this.calloutTimer = window.setTimeout(
+      () => this.root.querySelector("#callout")?.classList.remove("show"),
+      1500,
+    );
+    this.announce("Howzat! The bails are off.");
+    this.sound.cheer();
+    void this.pitch?.knockBails();
+    // Keep the keyboard up if a ball is live.
+    if (this.liveBall()) this.root.querySelector<HTMLInputElement>("#guess")?.focus();
   }
 
   /** Clears today's over and its stats entry, so it can be played again. */
@@ -904,6 +933,15 @@ export class App {
     const ball = this.liveBall();
     if (!input || !ball) return;
     const text = input.value;
+    if (APPEALS.has(normalise(text))) {
+      // Easter egg: an appeal isn't a guess. The clock keeps running, though.
+      input.value = "";
+      this.callout("Howzat!", "miss");
+      this.announce("Howzat!");
+      this.sound.groan();
+      input.focus();
+      return;
+    }
     const { ball: next, outcome } = guess(
       ball,
       text,
@@ -936,6 +974,7 @@ export class App {
   }
 
   private onClick(e: Event) {
+    if ((e.target as Element).closest?.('[data-part="stumps-hit"]')) return this.tapStumps();
     const target = (e.target as HTMLElement).closest<HTMLElement>("button");
     if (!target) return;
     // Re-read storage first. Ball actions on stale state stop and redraw; navigation carries on.

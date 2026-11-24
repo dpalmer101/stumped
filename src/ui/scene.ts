@@ -161,6 +161,8 @@ export function sceneSvg(theme: ThemeKey): string {
   s += `<g data-part="bat" style="transform-origin:${46 * P}px ${14 * P}px">${px(46, 13, 1, 2, "#333")}${px(45, 15, 2, 10, "#d9b779")}</g></g>`;
   s += px(41, 44, 2, 11, WOOD) + px(44, 44, 2, 11, WOOD) + px(47, 44, 2, 11, WOOD);
   s += `<g data-part="bowler">${px(30, 48, 2, 7, c.kit2)}${px(33, 48, 2, 7, c.kit2)}${px(29, 39, 7, 10, c.kit2)}${px(35, 31, 2, 9, c.kit2)}${px(30, 34, 5, 5, "#5a3b26")}</g>`;
+  // Invisible, generous tap target over the far stumps (an easter egg; see App.tapStumps).
+  s += px(44, 12, 11, 18, "transparent", 'data-part="stumps-hit"');
   s += `<rect data-part="ball" x="-2" y="-2" width="4" height="4" fill="${c.ball}" transform="translate(144 122) scale(2)"/>`;
   return `<svg viewBox="0 0 360 220" shape-rendering="crispEdges" role="img" aria-label="Looking down the pitch at the batter">${s}</svg>`;
 }
@@ -404,6 +406,17 @@ export class Pitch {
     }
   }
 
+  /** Easter egg: the bails fly off for no reason at all, then settle back. */
+  async knockBails(): Promise<void> {
+    const gen = this.gen;
+    await this.flyBails(0);
+    await new Promise((r) => setTimeout(r, 1200));
+    if (gen !== this.gen) return;
+    for (const i of [1, 2]) {
+      for (const a of this.part(`bail${i}`).getAnimations()) a.cancel();
+    }
+  }
+
   private async flyBails(delay: number): Promise<void> {
     await Promise.all(
       [1, 2].map((i) =>
@@ -419,4 +432,21 @@ export class Pitch {
       ),
     );
   }
+}
+
+/** An 8-bit duck for a total of nought. Our own pixel art. */
+export function duckSvg(): string {
+  const d = (x: number, y: number, w: number, h: number, fill: string) =>
+    `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${fill}"/>`;
+  const body = "#f5c518";
+  const s =
+    d(6, 0, 4, 4, body) +
+    d(8, 1, 1, 1, "#222") +
+    d(10, 2, 2, 1, "#f08a1c") +
+    d(0, 3, 2, 2, body) +
+    d(1, 4, 9, 4, body) +
+    d(3, 5, 4, 2, "#d9a514") +
+    d(4, 8, 1, 2, "#f08a1c") +
+    d(7, 8, 1, 2, "#f08a1c");
+  return `<svg viewBox="0 0 12 10" width="36" height="30" shape-rendering="crispEdges">${s}</svg>`;
 }

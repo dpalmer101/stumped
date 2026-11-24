@@ -179,3 +179,4 @@ the anonymous counts in §1.
 - 2026-11-24: Questions lean towards UK fans of county and international cricket since the mid-1990s: nearly every question has a few answers they'd know, or answers guessable from geography. Teams named after a place accept the place name (on the best-known team where several share it).
 - 2026-11-24: Typo tolerance can't swap a short word: "silly mid-on" no longer counts as "silly mid-off".
 - 2026-11-24: The owner can replay today's over: holding the innings total for 3 s flips it to reveal a reset. Unadvertised; not offered for an earlier day.
+- 2026-11-24: Three easter eggs, none affecting the score: a duck paces back and forth under a total of nought; five quick taps on the far stumps knock the bails off (any time except while a result plays out) ("Howzat!"); typing "Howzat" during a ball is an appeal (shows "Howzat!"), not a guess, though the clock keeps running.

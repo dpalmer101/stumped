@@ -180,3 +180,50 @@ test("holding the innings total reveals a hidden reset for today's over", async 
   await page.getByRole("button", { name: "Walk out to bat" }).click();
   await expect(page.getByRole("button", { name: "Face ball" })).toBeVisible();
 });
+
+test.describe("easter eggs", () => {
+  test("a total of nought brings out the duck", async ({ context }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await faceBall(page);
+    for (let i = 0; i < 6; i++) {
+      await page.clock.runFor(21_000);
+      // "Face ball Two" etc. goes straight into the next ball.
+      await page.getByRole("button", { name: i === 5 ? "See scorecard" : /Face ball/ }).click();
+    }
+    await expect(page.locator("#total")).toHaveText("0/6");
+    await expect(page.locator(".duck")).toBeVisible();
+  });
+
+  test("five quick taps on the far stumps knock the bails off, even mid-ball", async ({
+    context,
+  }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    const stumps = page.locator('[data-part="stumps-hit"]');
+    for (let i = 0; i < 4; i++) await stumps.click({ force: true });
+    await expect(page.locator("#callout")).not.toHaveText("Howzat!");
+    await stumps.click({ force: true });
+    await expect(page.locator("#callout")).toHaveText("Howzat!");
+
+    await faceBall(page);
+    await page.clock.runFor(2000);
+    for (let i = 0; i < 5; i++) await stumps.click({ force: true });
+    await expect(page.locator("#callout")).toHaveText("Howzat!");
+    await expect(page.locator("#guess")).toBeFocused();
+    // Still a live ball: nothing was scored or lost.
+    await answer(page, single(dayOne[0] as Question));
+    await expect(page.locator(".res .call")).toHaveText("Single");
+  });
+
+  test("typing Howzat is an appeal, not a guess", async ({ context }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await faceBall(page);
+    await answer(page, "Howzat!");
+    await expect(page.locator("#callout")).toHaveText("Howzat!");
+    await expect(page.locator("#misses span")).toHaveCount(0);
+    await answer(page, single(dayOne[0] as Question));
+    await expect(page.locator(".res .call")).toHaveText("Single");
+  });
+});

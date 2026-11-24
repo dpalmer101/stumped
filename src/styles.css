@@ -1044,3 +1044,64 @@ td .tt {
   font-size: 12px;
   color: var(--muted);
 }
+
+/* Easter egg: a duck for a total of nought waddles back and forth along the bottom of the total. */
+.total {
+  position: relative;
+  overflow: hidden;
+}
+/* Room for the duck's walk below the labels, clear of the score. */
+.total:has(.duck) {
+  padding-bottom: 40px;
+}
+.duck {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  animation: duck-pace 12s steps(72, end) infinite;
+}
+.duck svg {
+  display: block;
+  animation: duck-bob 0.3s steps(2, end) infinite;
+}
+.flipped .duck {
+  display: none;
+}
+/* Faces right as drawn; turns round at each end. */
+@keyframes duck-pace {
+  0% {
+    left: 0;
+    transform: scaleX(1);
+  }
+  49.9% {
+    left: calc(100% - 36px);
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(100% - 36px);
+    transform: scaleX(-1);
+  }
+  99.9% {
+    left: 0;
+    transform: scaleX(-1);
+  }
+  100% {
+    left: 0;
+    transform: scaleX(1);
+  }
+}
+@keyframes duck-bob {
+  50% {
+    transform: translateY(-2px) rotate(-6deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .duck,
+  .duck svg {
+    animation: none;
+  }
+  .duck {
+    left: auto;
+    right: 8px;
+  }
+}

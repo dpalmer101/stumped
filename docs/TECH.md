@@ -38,4 +38,4 @@ docs/          requirements, criteria, content process, tech choices
 
 ## Scripts (planned)
 
-`dev`, `build`, `preview`, `lint`, `typecheck`, `test`, `test:e2e` — CI runs all of them.
+`dev`, `build`, `preview`, `lint`, `typecheck`, `test`, `test:e2e` — CI runs all of them, with the end-to-end tests split into one parallel job per browser.

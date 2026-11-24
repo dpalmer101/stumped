@@ -44,7 +44,7 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] Short forms, acronyms and listed misspellings match; a generated form shared by two answers matches neither. 🤖
 - [ ] Well-known nicknames for players, teams and grounds are accepted as aliases when they point to a single answer in the question. 🤖
 - [ ] Every answer's accepted forms are reviewed with `content:spellings` (aliases and misspellings added where people would type something else).
-- [ ] Typo tolerance per REQUIREMENTS §7; never matches two answers ambiguously. 🤖
+- [ ] Typo tolerance per REQUIREMENTS §7; never matches two answers ambiguously, and never turns a different short word into a right answer ("silly mid-on" is not "silly mid-off"). 🤖
 - [ ] No autocomplete or hints that leak answers.
 
 ## Question bank 🤖 (validator runs in the unit tests)

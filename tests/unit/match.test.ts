@@ -63,6 +63,26 @@ describe("createMatcher", () => {
     expect(grounds("SGC")).toBeNull();
   });
 
+  it("doesn't treat a different short word as a typo", () => {
+    const offSide = createMatcher({
+      ...playersQuestion,
+      answerType: "position",
+      answers: [
+        { name: "Silly mid-off", tier: "four" as const },
+        { name: "Long off", tier: "two" as const },
+        { name: "Cover point", tier: "four" as const },
+      ],
+    });
+    // Leg-side positions are wrong answers, however close the spelling.
+    expect(offSide("silly mid-on")).toBeNull();
+    expect(offSide("Long on")).toBeNull();
+    expect(offSide("Cover leg")).toBeNull();
+    // Real typos still count.
+    expect(offSide("silly mid-of")?.name).toBe("Silly mid-off");
+    expect(offSide("Sily mid off")?.name).toBe("Silly mid-off");
+    expect(offSide("Covr point")?.name).toBe("Cover point");
+  });
+
   it("refuses a typo that is close to two different answers", () => {
     const q = {
       ...playersQuestion,

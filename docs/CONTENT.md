@@ -62,6 +62,8 @@ The matcher handles some of this automatically:
 - **Ignored:** case, accents, punctuation, spaces, a leading "the", and "&" vs "and".
 - **Small typos:** one slip in 5–8 letters, two in 9 or more. Swapped letters count as one slip,
   and doubled or missing double letters are forgiven ("Flintof", "Traford").
+  A short word (three letters or fewer) can take at most one slip, so "mid-on" never passes for
+  "mid-off", nor "leg" for "off".
 - **Short forms:** generic words are dropped ("Lancashire" for "Lancashire County Cricket Club",
   "Wankhede" for "Wankhede Stadium").
 - **Acronyms:** three or more letters ("MCG", "CSK"), or two for teams ("MI").

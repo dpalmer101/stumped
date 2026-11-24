@@ -137,6 +137,18 @@ export function generatedForms(question: Matchable): Map<string, Answer> {
 export type Matcher = (guess: string) => Answer | null;
 type Matchable = Pick<Question, "answerType" | "answers">;
 
+/**
+ * A short word swapped for another ("mid-on" for "mid-off", "leg" for "off") is a different
+ * answer, not a typo, even when the whole name is long enough to allow two slips.
+ */
+function changesShortWord(guess: string[], candidate: string[]): boolean {
+  if (guess.length !== candidate.length) return false;
+  return guess.some((g, i) => {
+    const c = candidate[i] ?? "";
+    return Math.min(g.length, c.length) <= 3 && editDistance(g, c) > 1;
+  });
+}
+
 export function createMatcher(question: Matchable): Matcher {
   const exact = new Map<string, Answer>();
   for (const answer of question.answers) {
@@ -144,7 +156,18 @@ export function createMatcher(question: Matchable): Matcher {
   }
   const generated = generatedForms(question);
   // Typos are measured against full names, aliases, misspellings and short forms, not acronyms.
-  const fuzzyTargets = [...exact, ...[...generated].filter(([f]) => f.length >= 5)];
+  const fuzzyTargets: { key: string; parts: string[]; answer: Answer }[] = [
+    ...question.answers.flatMap((answer) =>
+      [answer.name, ...(answer.aliases ?? []), ...(answer.misspellings ?? [])].map((text) => ({
+        key: normalise(text),
+        parts: words(text),
+        answer,
+      })),
+    ),
+    ...[...generated]
+      .filter(([f]) => f.length >= 5)
+      .map(([key, answer]) => ({ key, parts: [key], answer })),
+  ].filter((t) => t.key);
 
   return (guess: string) => {
     const key = normalise(guess);
@@ -155,8 +178,10 @@ export function createMatcher(question: Matchable): Matcher {
     const allowance = typoAllowance(key);
     if (allowance === 0) return null;
     const near = new Set<Answer>();
-    for (const [candidate, answer] of fuzzyTargets) {
+    const guessParts = words(guess);
+    for (const { key: candidate, parts, answer } of fuzzyTargets) {
       if (Math.abs(candidate.length - key.length) > allowance + 2) continue;
+      if (changesShortWord(guessParts, parts)) continue;
       const limit = Math.min(allowance, typoAllowance(candidate));
       const distance = Math.min(
         editDistance(key, candidate),

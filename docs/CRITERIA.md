@@ -1,0 +1,94 @@
+# Stumped — acceptance criteria
+
+Check every change against this list before committing. If a change needs a rule to change,
+update [REQUIREMENTS.md](REQUIREMENTS.md) and this file in the same commit.
+
+Items marked 🤖 must be enforced by an automated test.
+
+## Hosting
+
+- [ ] Runs as static files on GitHub Pages under a sub-path (`/stumped/`); no server code, no API calls. 🤖 (build + e2e against `vite preview` with base path)
+- [ ] No third-party scripts, fonts or trackers at runtime; works offline once loaded.
+- [ ] Production bundle (JS + CSS, gzipped) ≤ 100 KB; question content is loaded one day at a time, so the bundle doesn't grow with the schedule. 🤖 (retry e2e test)
+
+## Content and licensing
+
+- [ ] Everything shipped is our own or generated: graphics are drawn in code (SVG/CSS), sounds are synthesised (Web Audio), copy is written for the game. No copyrighted or trademarked images, sounds, fonts, logos, names, branding or colour schemes.
+- [ ] The only exception is question answers, which may name real things as facts (players, grounds including sponsored names, teams, tournaments).
+- [ ] Every dependency (runtime and dev) is open source and free to use with no commercial restrictions. Allowed licences: MIT, ISC, BSD-2-Clause, BSD-3-Clause, 0BSD, Apache-2.0, MPL-2.0, CC0-1.0, Unlicense. Not allowed: GPL/AGPL/LGPL, SSPL, BUSL, Elastic, Commons Clause, CC-BY-NC, unlicensed or proprietary. 🤖
+- [ ] Prefer no runtime dependencies; adding one needs a reason.
+
+## Gameplay
+
+- [ ] Exactly 6 balls (one over) per puzzle, in a fixed order. 🤖
+- [ ] Same date → same puzzle for every player; puzzle changes at local midnight. 🤖
+- [ ] Each ball lasts 20 s, measured from a stored start timestamp. 🤖
+- [ ] First correct answer ends the ball; wrong answers are misses and the ball continues. 🤖
+- [ ] Repeat wrong guesses are not counted twice. 🤖
+- [ ] Timeout = OUT, 0 runs, +1 wicket; zero guesses = "Timed out". 🤖
+- [ ] Runs per tier: OOTG 12, Six 6, Four 4, Two 2, Single 1, Out 0. 🤖
+- [ ] Innings total shown as runs/wickets after ball 6. 🤖
+- [ ] All 6 balls are always played; an out never ends the innings. 🤖
+- [ ] No answer other than the player's own is shown until all 6 balls are done. 🤖
+- [ ] Dismissal is deterministic for (puzzle, ball). 🤖
+- [ ] A finished puzzle can't be replayed; reopening or reloading shows the scorecard until the next day. 🤖
+- [ ] The timer keeps running while the page is hidden or closed; on return the ball resumes with the time left, or is OUT if it ran out. 🤖
+- [ ] A ball's question is not in the page until that ball is faced and its timer has started. 🤖
+- [ ] Progress is saved when a ball is faced and after every guess. 🤖
+
+## Answer matching
+
+- [ ] Case, accents, punctuation, leading "the", `&`/`and` don't affect matching. 🤖
+- [ ] Aliases match. Surnames match only when unique within the question. 🤖
+- [ ] Short forms, acronyms and listed misspellings match; a generated form shared by two answers matches neither. 🤖
+- [ ] Well-known nicknames for players, teams and grounds are accepted as aliases when they point to a single answer in the question. 🤖
+- [ ] Every answer's accepted forms are reviewed with `content:spellings` (aliases and misspellings added where people would type something else).
+- [ ] Typo tolerance per REQUIREMENTS §7; never matches two answers ambiguously. 🤖
+- [ ] No autocomplete or hints that leak answers.
+
+## Question bank 🤖 (validator runs in the unit tests)
+
+Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
+
+- [ ] Every answer is verified against English Wikipedia by `content:verify` (stored `verified`), never by hand.
+- [ ] Every tier comes from `content:rank` (page views plus question-specific metrics); manual overrides need a written reason.
+- [ ] Every day passes the variety rules: unique categories, ≤ 2 of one answer type, ≤ 3 of one format, at least one question beyond men's international cricket.
+
+- [ ] Every question: ≥ 20 answers, exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.
+- [ ] Every answer list is **complete**: any correct answer a player could give is accepted (otherwise a right answer counts as a miss). Prefer closed sets of 20–60 answers; bound time-sensitive sets by date.
+- [ ] No duplicate answers or aliases within a question after normalisation.
+- [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
+- [ ] Every scheduled day has 6 distinct, existing question ids; no id reused across days.
+- [ ] Schedule covers at least the next 7 days from launch.
+
+## Timer, sound, animation
+
+- [ ] Timer bar visible throughout a ball, no seconds shown; time left announced to screen readers at 10/5 s.
+- [ ] Pulse sound speeds up at 10 s and 5 s; no sound before the first user gesture.
+- [ ] Mute toggle works and persists. 🤖
+- [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)
+- [ ] `prefers-reduced-motion` disables motion-heavy animation.
+- [ ] Animations never block input for longer than 2 s.
+
+## Accessibility and UX
+
+- [ ] All four format themes render every screen; switching theme never changes questions, state or score. 🤖
+- [ ] Every theme meets WCAG AA contrast for text and tier labels.
+- [ ] No real competition, team or brand names, logos or colour schemes in themes or UI copy.
+
+- [ ] Fully playable by keyboard; focus returns to the answer box after each miss.
+- [ ] Colour is never the only signal for a tier; contrast meets WCAG AA.
+- [ ] Usable at 360 px wide without horizontal scroll.
+- [ ] Lighthouse accessibility ≥ 90, performance ≥ 90 (mobile).
+
+## Persistence and sharing
+
+- [ ] Progress, stats, streak and mute stored in localStorage under one versioned key. 🤖
+- [ ] Corrupt or old-version storage is discarded safely, not crashing the app. 🤖
+- [ ] Share text contains no answers. 🤖
+
+## Engineering
+
+- [ ] `npm run lint`, `npm run typecheck`, `npm test`, `npm run test:e2e`, `npm run build` all pass.
+- [ ] Game logic is pure TypeScript with no DOM access, and has unit tests.
+- [ ] New behaviour comes with tests that would fail if it were reverted.

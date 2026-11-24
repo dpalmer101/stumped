@@ -1,0 +1,8042 @@
+[
+  {
+    "id": "off-side-fielding-positions",
+    "prompt": "Name a fielding position on the off side (for a right-handed batter)",
+    "category": "Fielding",
+    "answerType": "position",
+    "answers": [
+      {
+        "name": "Slip",
+        "tier": "single",
+        "aliases": [
+          "slips",
+          "fourth slip",
+          "fifth slip",
+          "slip cordon",
+          "wide slip"
+        ],
+        "wiki": "Slip (cricket)",
+        "verified": {
+          "wiki": "Slip (cricket)",
+          "date": "2026-11-24",
+          "key": "ttmy9q"
+        }
+      },
+      {
+        "name": "Gully",
+        "tier": "single",
+        "aliases": [
+          "gulley"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "jmp1nw"
+        }
+      },
+      {
+        "name": "Point",
+        "tier": "single",
+        "wiki": "Point (cricket)",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "5dqlz0"
+        }
+      },
+      {
+        "name": "Cover",
+        "tier": "single",
+        "aliases": [
+          "covers"
+        ],
+        "wiki": "Cover (cricket)",
+        "verified": {
+          "wiki": "Cover (cricket)",
+          "date": "2026-11-24",
+          "key": "xer7rq"
+        }
+      },
+      {
+        "name": "Mid-off",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1q9rptr"
+        }
+      },
+      {
+        "name": "Third man",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1a3ge7j"
+        },
+        "aliases": [
+          "3rd man"
+        ]
+      },
+      {
+        "name": "Extra cover",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1cp8vn4"
+        }
+      },
+      {
+        "name": "Cover point",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1cm918"
+        }
+      },
+      {
+        "name": "Backward point",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1t24j0m"
+        }
+      },
+      {
+        "name": "Silly point",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "yqx1d0"
+        }
+      },
+      {
+        "name": "Long off",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "w2nvwa"
+        }
+      },
+      {
+        "name": "Deep cover",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1g7ujm0"
+        }
+      },
+      {
+        "name": "Silly mid-off",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "efyorc"
+        }
+      },
+      {
+        "name": "Deep extra cover",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "l0muhi"
+        }
+      },
+      {
+        "name": "Sweeper",
+        "tier": "four",
+        "aliases": [
+          "sweeper cover",
+          "cover sweeper"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "6rp89y"
+        }
+      },
+      {
+        "name": "Fly slip",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "6jj8z0"
+        }
+      },
+      {
+        "name": "Short third man",
+        "tier": "six",
+        "aliases": [
+          "short 3rd man"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1te05rn"
+        }
+      },
+      {
+        "name": "First slip",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1obeygt"
+        }
+      },
+      {
+        "name": "Second slip",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1nneyef"
+        }
+      },
+      {
+        "name": "Third slip",
+        "tier": "six",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "iffovg"
+        }
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fielding_(cricket)",
+      "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
+      "https://en.wikipedia.org/wiki/Off_side"
+    ]
+  },
+  {
+    "id": "first-class-and-national-counties",
+    "prompt": "Name a county side that plays in the County Championship or the National Counties Championship (2026)",
+    "category": "Counties",
+    "answerType": "county",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Yorkshire",
+        "tier": "single",
+        "aliases": [
+          "yorks",
+          "Yorkshire Vikings"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "kaje58"
+        }
+      },
+      {
+        "name": "Lancashire",
+        "tier": "single",
+        "aliases": [
+          "lancs",
+          "Lancashire Lightning"
+        ],
+        "wiki": "Lancashire County Cricket Club",
+        "verified": {
+          "wiki": "Lancashire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1qhgd0a"
+        }
+      },
+      {
+        "name": "Surrey",
+        "tier": "single",
+        "wiki": "Surrey County Cricket Club",
+        "verified": {
+          "wiki": "Surrey County Cricket Club",
+          "date": "2026-11-24",
+          "key": "30l2kv"
+        }
+      },
+      {
+        "name": "Middlesex",
+        "tier": "single",
+        "wiki": "Middlesex County Cricket Club",
+        "verified": {
+          "wiki": "Middlesex County Cricket Club",
+          "date": "2026-11-24",
+          "key": "d0kq3b"
+        },
+        "aliases": [
+          "Middx"
+        ]
+      },
+      {
+        "name": "Kent",
+        "tier": "single",
+        "wiki": "Kent County Cricket Club",
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1kmdrvg"
+        },
+        "aliases": [
+          "Kent Spitfires"
+        ]
+      },
+      {
+        "name": "Essex",
+        "tier": "single",
+        "wiki": "Essex County Cricket Club",
+        "verified": {
+          "wiki": "Essex County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1lafcl6"
+        },
+        "aliases": [
+          "Essex Eagles"
+        ]
+      },
+      {
+        "name": "Sussex",
+        "tier": "single",
+        "wiki": "Sussex County Cricket Club",
+        "verified": {
+          "wiki": "Sussex County Cricket Club",
+          "date": "2026-11-24",
+          "key": "aqyebi"
+        },
+        "aliases": [
+          "Sussex Sharks"
+        ]
+      },
+      {
+        "name": "Nottinghamshire",
+        "tier": "two",
+        "aliases": [
+          "notts",
+          "Notts Outlaws"
+        ],
+        "wiki": "Nottinghamshire County Cricket Club",
+        "verified": {
+          "wiki": "Nottinghamshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1rx1dhg"
+        }
+      },
+      {
+        "name": "Warwickshire",
+        "tier": "two",
+        "aliases": [
+          "warks",
+          "Birmingham Bears"
+        ],
+        "wiki": "Warwickshire County Cricket Club",
+        "verified": {
+          "wiki": "Warwickshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "6l9qk8"
+        }
+      },
+      {
+        "name": "Hampshire",
+        "tier": "two",
+        "aliases": [
+          "hants",
+          "Hampshire Hawks"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1jeaw3s"
+        }
+      },
+      {
+        "name": "Somerset",
+        "tier": "two",
+        "wiki": "Somerset County Cricket Club",
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1jgorn"
+        }
+      },
+      {
+        "name": "Durham",
+        "tier": "two",
+        "wiki": "Durham County Cricket Club",
+        "verified": {
+          "wiki": "Durham County Cricket Club",
+          "date": "2026-11-24",
+          "key": "14gznan"
+        }
+      },
+      {
+        "name": "Glamorgan",
+        "tier": "two",
+        "wiki": "Glamorgan County Cricket Club",
+        "verified": {
+          "wiki": "Glamorgan County Cricket Club",
+          "date": "2026-11-24",
+          "key": "w3i8df"
+        }
+      },
+      {
+        "name": "Gloucestershire",
+        "tier": "two",
+        "aliases": [
+          "glos"
+        ],
+        "wiki": "Gloucestershire County Cricket Club",
+        "verified": {
+          "wiki": "Gloucestershire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "goxa5a"
+        }
+      },
+      {
+        "name": "Worcestershire",
+        "tier": "two",
+        "aliases": [
+          "worcs",
+          "Worcestershire Rapids"
+        ],
+        "wiki": "Worcestershire County Cricket Club",
+        "verified": {
+          "wiki": "Worcestershire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1w182a7"
+        }
+      },
+      {
+        "name": "Derbyshire",
+        "tier": "four",
+        "aliases": [
+          "derbys",
+          "Derbyshire Falcons"
+        ],
+        "wiki": "Derbyshire County Cricket Club",
+        "verified": {
+          "wiki": "Derbyshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "zlpvt"
+        }
+      },
+      {
+        "name": "Leicestershire",
+        "tier": "four",
+        "aliases": [
+          "leics",
+          "Leicestershire Foxes"
+        ],
+        "wiki": "Leicestershire County Cricket Club",
+        "verified": {
+          "wiki": "Leicestershire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1f6q3cj"
+        }
+      },
+      {
+        "name": "Northamptonshire",
+        "tier": "four",
+        "aliases": [
+          "northants",
+          "Northamptonshire Steelbacks",
+          "Steelbacks"
+        ],
+        "wiki": "Northamptonshire County Cricket Club",
+        "verified": {
+          "wiki": "Northamptonshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1gpr335"
+        }
+      },
+      {
+        "name": "Devon",
+        "tier": "four",
+        "wiki": "Devon County Cricket Club",
+        "verified": {
+          "wiki": "Devon County Cricket Club",
+          "date": "2026-11-24",
+          "key": "18aw2fv"
+        }
+      },
+      {
+        "name": "Cornwall",
+        "tier": "four",
+        "wiki": "Cornwall County Cricket Club",
+        "verified": {
+          "wiki": "Cornwall County Cricket Club",
+          "date": "2026-11-24",
+          "key": "xwz9f3"
+        }
+      },
+      {
+        "name": "Norfolk",
+        "tier": "four",
+        "wiki": "Norfolk County Cricket Club",
+        "verified": {
+          "wiki": "Norfolk County Cricket Club",
+          "date": "2026-11-24",
+          "key": "zk6zcl"
+        }
+      },
+      {
+        "name": "Cheshire",
+        "tier": "four",
+        "wiki": "Cheshire County Cricket Club",
+        "verified": {
+          "wiki": "Cheshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "8477y3"
+        }
+      },
+      {
+        "name": "Berkshire",
+        "tier": "four",
+        "aliases": [
+          "berks"
+        ],
+        "wiki": "Berkshire County Cricket Club",
+        "verified": {
+          "wiki": "Berkshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1867306"
+        }
+      },
+      {
+        "name": "Buckinghamshire",
+        "tier": "four",
+        "aliases": [
+          "bucks"
+        ],
+        "wiki": "Buckinghamshire County Cricket Club",
+        "verified": {
+          "wiki": "Buckinghamshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1xx9bi1"
+        }
+      },
+      {
+        "name": "Bedfordshire",
+        "tier": "six",
+        "aliases": [
+          "beds"
+        ],
+        "wiki": "Bedfordshire County Cricket Club",
+        "verified": {
+          "wiki": "Bedfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1nhk0sf"
+        }
+      },
+      {
+        "name": "Cambridgeshire",
+        "tier": "six",
+        "aliases": [
+          "cambs"
+        ],
+        "wiki": "Cambridgeshire County Cricket Club",
+        "verified": {
+          "wiki": "Cambridgeshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1vdbgcn"
+        }
+      },
+      {
+        "name": "Dorset",
+        "tier": "six",
+        "wiki": "Dorset County Cricket Club",
+        "verified": {
+          "wiki": "Dorset County Cricket Club",
+          "date": "2026-11-24",
+          "key": "msoe07"
+        }
+      },
+      {
+        "name": "Hertfordshire",
+        "tier": "six",
+        "aliases": [
+          "herts"
+        ],
+        "wiki": "Hertfordshire County Cricket Club",
+        "verified": {
+          "wiki": "Hertfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "kucidv"
+        }
+      },
+      {
+        "name": "Lincolnshire",
+        "tier": "six",
+        "aliases": [
+          "lincs"
+        ],
+        "wiki": "Lincolnshire County Cricket Club",
+        "verified": {
+          "wiki": "Lincolnshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "fdizg6"
+        }
+      },
+      {
+        "name": "Northumberland",
+        "tier": "six",
+        "wiki": "Northumberland County Cricket Club",
+        "verified": {
+          "wiki": "Northumberland County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1maq6pn"
+        }
+      },
+      {
+        "name": "Oxfordshire",
+        "tier": "six",
+        "aliases": [
+          "oxon"
+        ],
+        "wiki": "Oxfordshire County Cricket Club",
+        "verified": {
+          "wiki": "Oxfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "mehx3n"
+        }
+      },
+      {
+        "name": "Shropshire",
+        "tier": "six",
+        "wiki": "Shropshire County Cricket Club",
+        "verified": {
+          "wiki": "Shropshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "5vzgae"
+        },
+        "aliases": [
+          "Salop"
+        ]
+      },
+      {
+        "name": "Staffordshire",
+        "tier": "six",
+        "aliases": [
+          "staffs"
+        ],
+        "wiki": "Staffordshire County Cricket Club",
+        "verified": {
+          "wiki": "Staffordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1jd1sp0"
+        }
+      },
+      {
+        "name": "Suffolk",
+        "tier": "six",
+        "wiki": "Suffolk County Cricket Club",
+        "verified": {
+          "wiki": "Suffolk County Cricket Club",
+          "date": "2026-11-24",
+          "key": "63ob6z"
+        }
+      },
+      {
+        "name": "Wiltshire",
+        "tier": "six",
+        "aliases": [
+          "wilts"
+        ],
+        "wiki": "Wiltshire County Cricket Club",
+        "verified": {
+          "wiki": "Wiltshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "37uhk"
+        }
+      },
+      {
+        "name": "Herefordshire",
+        "tier": "six",
+        "wiki": "Herefordshire County Cricket Club",
+        "verified": {
+          "wiki": "Herefordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "naudyf"
+        }
+      },
+      {
+        "name": "Cumbria",
+        "tier": "six",
+        "aliases": [
+          "cumberland"
+        ],
+        "wiki": "Cumbria County Cricket Club",
+        "verified": {
+          "wiki": "Cumbria County Cricket Club",
+          "date": "2026-11-24",
+          "key": "jnszt4"
+        }
+      },
+      {
+        "name": "Wales National County",
+        "tier": "ootg",
+        "aliases": [
+          "wales",
+          "wales minor counties",
+          "wales national counties"
+        ],
+        "wiki": "Wales National County Cricket Club",
+        "verified": {
+          "wiki": "Wales National County Cricket Club",
+          "date": "2026-11-24",
+          "key": "hkaenu"
+        }
+      }
+    ],
+    "tags": [
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/County_Championship",
+      "https://en.wikipedia.org/wiki/National_Counties_Cricket_Championship"
+    ]
+  },
+  {
+    "id": "test-triple-centurions",
+    "prompt": "Name a player who has scored a triple century in a men's Test match",
+    "category": "Batting records",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Brian Lara",
+        "tier": "single",
+        "verified": {
+          "wiki": "Brian Lara",
+          "date": "2026-11-24",
+          "key": "okkx0i"
+        },
+        "misspellings": [
+          "Bryan Lara"
+        ]
+      },
+      {
+        "name": "Don Bradman",
+        "tier": "single",
+        "aliases": [
+          "donald bradman",
+          "The Don",
+          "Sir Donald Bradman"
+        ],
+        "verified": {
+          "wiki": "Don Bradman",
+          "date": "2026-11-24",
+          "key": "17qvpkq"
+        }
+      },
+      {
+        "name": "Virender Sehwag",
+        "tier": "single",
+        "verified": {
+          "wiki": "Virender Sehwag",
+          "date": "2026-11-24",
+          "key": "k9b3by"
+        },
+        "aliases": [
+          "Viru"
+        ]
+      },
+      {
+        "name": "Matthew Hayden",
+        "tier": "single",
+        "verified": {
+          "wiki": "Matthew Hayden",
+          "date": "2026-11-24",
+          "key": "r09b22"
+        },
+        "aliases": [
+          "Matt Hayden",
+          "Haydos"
+        ]
+      },
+      {
+        "name": "Chris Gayle",
+        "tier": "single",
+        "verified": {
+          "wiki": "Chris Gayle",
+          "date": "2026-11-24",
+          "key": "10euyqz"
+        },
+        "aliases": [
+          "Universe Boss"
+        ]
+      },
+      {
+        "name": "Garfield Sobers",
+        "tier": "single",
+        "aliases": [
+          "garry sobers",
+          "gary sobers"
+        ],
+        "verified": {
+          "wiki": "Garfield Sobers",
+          "date": "2026-11-24",
+          "key": "pun568"
+        }
+      },
+      {
+        "name": "Mahela Jayawardene",
+        "tier": "two",
+        "verified": {
+          "wiki": "Mahela Jayawardene",
+          "date": "2026-11-24",
+          "key": "139d9oh"
+        },
+        "aliases": [
+          "Mahela"
+        ]
+      },
+      {
+        "name": "David Warner",
+        "tier": "two",
+        "wiki": "David Warner (cricketer)",
+        "verified": {
+          "wiki": "David Warner (cricketer)",
+          "date": "2026-11-24",
+          "key": "1rsi8kk"
+        }
+      },
+      {
+        "name": "Len Hutton",
+        "tier": "two",
+        "aliases": [
+          "leonard hutton"
+        ],
+        "verified": {
+          "wiki": "Len Hutton",
+          "date": "2026-11-24",
+          "key": "zu22p0"
+        }
+      },
+      {
+        "name": "Kumar Sangakkara",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kumar Sangakkara",
+          "date": "2026-11-24",
+          "key": "6bj1me"
+        },
+        "aliases": [
+          "Sanga"
+        ]
+      },
+      {
+        "name": "Michael Clarke",
+        "tier": "two",
+        "wiki": "Michael Clarke (cricketer)",
+        "verified": {
+          "wiki": "Michael Clarke (cricketer)",
+          "date": "2026-11-24",
+          "key": "129h3yd"
+        },
+        "aliases": [
+          "Pup"
+        ]
+      },
+      {
+        "name": "Harry Brook",
+        "tier": "two",
+        "verified": {
+          "wiki": "Harry Brook",
+          "date": "2026-11-24",
+          "key": "6av3mt"
+        }
+      },
+      {
+        "name": "Inzamam-ul-Haq",
+        "tier": "two",
+        "aliases": [
+          "inzamam",
+          "inzi"
+        ],
+        "verified": {
+          "wiki": "Inzamam-ul-Haq",
+          "date": "2026-11-24",
+          "key": "1xm6do3"
+        }
+      },
+      {
+        "name": "Mark Taylor",
+        "tier": "two",
+        "wiki": "Mark Taylor (cricketer)",
+        "verified": {
+          "wiki": "Mark Taylor (cricketer)",
+          "date": "2026-11-24",
+          "key": "dt31ut"
+        },
+        "aliases": [
+          "Tubby Taylor",
+          "Tubby"
+        ]
+      },
+      {
+        "name": "Karun Nair",
+        "tier": "two",
+        "verified": {
+          "wiki": "Karun Nair",
+          "date": "2026-11-24",
+          "key": "1ks39st"
+        }
+      },
+      {
+        "name": "Graham Gooch",
+        "tier": "two",
+        "verified": {
+          "wiki": "Graham Gooch",
+          "date": "2026-11-24",
+          "key": "1s0acbm"
+        }
+      },
+      {
+        "name": "Hashim Amla",
+        "tier": "four",
+        "verified": {
+          "wiki": "Hashim Amla",
+          "date": "2026-11-24",
+          "key": "7ebc8n"
+        }
+      },
+      {
+        "name": "Brendon McCullum",
+        "tier": "four",
+        "verified": {
+          "wiki": "Brendon McCullum",
+          "date": "2026-11-24",
+          "key": "ou0dz9"
+        },
+        "aliases": [
+          "Baz"
+        ]
+      },
+      {
+        "name": "Sanath Jayasuriya",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sanath Jayasuriya",
+          "date": "2026-11-24",
+          "key": "6ps9bv"
+        }
+      },
+      {
+        "name": "Younis Khan",
+        "tier": "four",
+        "aliases": [
+          "younus khan"
+        ],
+        "verified": {
+          "wiki": "Younis Khan",
+          "date": "2026-11-24",
+          "key": "ywmjus"
+        }
+      },
+      {
+        "name": "Wally Hammond",
+        "tier": "four",
+        "aliases": [
+          "walter hammond"
+        ],
+        "verified": {
+          "wiki": "Wally Hammond",
+          "date": "2026-11-24",
+          "key": "1tjpa38"
+        }
+      },
+      {
+        "name": "Hanif Mohammad",
+        "tier": "four",
+        "verified": {
+          "wiki": "Hanif Mohammad",
+          "date": "2026-11-24",
+          "key": "pb4tc8"
+        }
+      },
+      {
+        "name": "Wiaan Mulder",
+        "tier": "four",
+        "wiki": "Wiaan Mulder",
+        "verified": {
+          "wiki": "Wiaan Mulder",
+          "date": "2026-11-24",
+          "key": "o85haf"
+        }
+      },
+      {
+        "name": "Azhar Ali",
+        "tier": "four",
+        "verified": {
+          "wiki": "Azhar Ali",
+          "date": "2026-11-24",
+          "key": "j547em"
+        }
+      },
+      {
+        "name": "Bob Simpson",
+        "tier": "six",
+        "aliases": [
+          "bobby simpson"
+        ],
+        "wiki": "Bob Simpson (cricketer)",
+        "verified": {
+          "wiki": "Bob Simpson (cricketer)",
+          "date": "2026-11-24",
+          "key": "1d652yl"
+        }
+      },
+      {
+        "name": "John Edrich",
+        "tier": "six",
+        "verified": {
+          "wiki": "John Edrich",
+          "date": "2026-11-24",
+          "key": "dd8594"
+        }
+      },
+      {
+        "name": "Bob Cowper",
+        "tier": "six",
+        "verified": {
+          "wiki": "Bob Cowper",
+          "date": "2026-11-24",
+          "key": "196xviz"
+        }
+      },
+      {
+        "name": "Lawrence Rowe",
+        "tier": "six",
+        "verified": {
+          "wiki": "Lawrence Rowe",
+          "date": "2026-11-24",
+          "key": "1bwrt8k"
+        }
+      },
+      {
+        "name": "Andy Sandham",
+        "tier": "ootg",
+        "aliases": [
+          "andrew sandham"
+        ],
+        "verified": {
+          "wiki": "Andy Sandham",
+          "date": "2026-11-24",
+          "key": "akt3v9"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_triple_centuries"
+    ]
+  },
+  {
+    "id": "types-of-delivery",
+    "prompt": "Name a type of delivery a bowler can bowl",
+    "category": "Bowling",
+    "answerType": "other",
+    "answers": [
+      {
+        "name": "Yorker",
+        "tier": "single",
+        "aliases": [
+          "toe crusher"
+        ],
+        "verified": {
+          "wiki": "Yorker",
+          "date": "2026-11-24",
+          "key": "16to391"
+        }
+      },
+      {
+        "name": "Bouncer",
+        "tier": "single",
+        "aliases": [
+          "bumper",
+          "short ball",
+          "short-pitched ball"
+        ],
+        "wiki": "Bouncer (cricket)",
+        "verified": {
+          "wiki": "Bouncer (cricket)",
+          "date": "2026-11-24",
+          "key": "1g6jsxn"
+        }
+      },
+      {
+        "name": "Googly",
+        "tier": "single",
+        "aliases": [
+          "wrong'un",
+          "bosie",
+          "bosey"
+        ],
+        "verified": {
+          "wiki": "Googly",
+          "date": "2026-11-24",
+          "key": "1cfrau9"
+        }
+      },
+      {
+        "name": "Doosra",
+        "tier": "single",
+        "verified": {
+          "wiki": "Doosra",
+          "date": "2026-11-24",
+          "key": "canrd1"
+        }
+      },
+      {
+        "name": "Leg break",
+        "tier": "single",
+        "aliases": [
+          "leg spinner",
+          "leg spin",
+          "leg-spin delivery"
+        ],
+        "verified": {
+          "wiki": "Leg spin",
+          "date": "2026-11-24",
+          "key": "ae1czq"
+        }
+      },
+      {
+        "name": "Off break",
+        "tier": "single",
+        "aliases": [
+          "off spinner",
+          "off spin"
+        ],
+        "verified": {
+          "wiki": "Off spin",
+          "date": "2026-11-24",
+          "key": "v56mo2"
+        }
+      },
+      {
+        "name": "Inswinger",
+        "tier": "single",
+        "aliases": [
+          "inswing",
+          "in-dipper",
+          "inswinging delivery",
+          "inducker"
+        ],
+        "verified": {
+          "wiki": "Inswinger",
+          "date": "2026-11-24",
+          "key": "bfsrhc"
+        }
+      },
+      {
+        "name": "Outswinger",
+        "tier": "single",
+        "aliases": [
+          "outswing",
+          "away swinger",
+          "outducker"
+        ],
+        "verified": {
+          "wiki": "Outswinger",
+          "date": "2026-11-24",
+          "key": "m7mokt"
+        }
+      },
+      {
+        "name": "Flipper",
+        "tier": "two",
+        "wiki": "Flipper (cricket)",
+        "verified": {
+          "wiki": "Flipper (cricket)",
+          "date": "2026-11-24",
+          "key": "1jzzpw2"
+        }
+      },
+      {
+        "name": "Beamer",
+        "tier": "two",
+        "wiki": "Beamer (cricket)",
+        "verified": {
+          "wiki": "Beamer (cricket)",
+          "date": "2026-11-24",
+          "key": "ery9wo"
+        },
+        "aliases": [
+          "beam ball"
+        ]
+      },
+      {
+        "name": "Slower ball",
+        "tier": "two",
+        "aliases": [
+          "slower one",
+          "slow ball",
+          "change of pace",
+          "slower bouncer",
+          "slower bumper"
+        ],
+        "verified": {
+          "wiki": "Slower ball",
+          "date": "2026-11-24",
+          "key": "dpkqnl"
+        }
+      },
+      {
+        "name": "Off cutter",
+        "tier": "two",
+        "aliases": [
+          "off cut",
+          "nip-backer",
+          "break-back"
+        ],
+        "verified": {
+          "wiki": "Off cutter",
+          "date": "2026-11-24",
+          "key": "qzf43f"
+        }
+      },
+      {
+        "name": "Leg cutter",
+        "tier": "two",
+        "aliases": [
+          "leg cut"
+        ],
+        "verified": {
+          "wiki": "Leg cutter",
+          "date": "2026-11-24",
+          "key": "j5ulcw"
+        }
+      },
+      {
+        "name": "Top spinner",
+        "tier": "two",
+        "aliases": [
+          "topspin"
+        ],
+        "verified": {
+          "wiki": "Topspinner",
+          "date": "2026-11-24",
+          "key": "rokkkk"
+        }
+      },
+      {
+        "name": "Arm ball",
+        "tier": "two",
+        "verified": {
+          "wiki": "Arm ball",
+          "date": "2026-11-24",
+          "key": "enzzeg"
+        }
+      },
+      {
+        "name": "Carrom ball",
+        "tier": "two",
+        "aliases": [
+          "carom ball"
+        ],
+        "verified": {
+          "wiki": "Carrom ball",
+          "date": "2026-11-24",
+          "key": "33v0al"
+        }
+      },
+      {
+        "name": "Full toss",
+        "tier": "two",
+        "verified": {
+          "wiki": "Full toss",
+          "date": "2026-11-24",
+          "key": "kmnkoj"
+        }
+      },
+      {
+        "name": "Knuckle ball",
+        "tier": "two",
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1sq5v5p"
+        }
+      },
+      {
+        "name": "Slider",
+        "tier": "four",
+        "wiki": "Slider (cricket)",
+        "verified": {
+          "wiki": "Slider (cricket)",
+          "date": "2026-11-24",
+          "key": "4k85sy"
+        }
+      },
+      {
+        "name": "Teesra",
+        "tier": "four",
+        "verified": {
+          "wiki": "Teesra",
+          "date": "2026-11-24",
+          "key": "nyg899"
+        }
+      },
+      {
+        "name": "Chinaman",
+        "tier": "four",
+        "aliases": [
+          "left-arm wrist spin",
+          "left arm unorthodox",
+          "left-arm unorthodox spin"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "xu6nn6"
+        }
+      },
+      {
+        "name": "Half-volley",
+        "tier": "four",
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "18bzhxy"
+        }
+      },
+      {
+        "name": "Long hop",
+        "tier": "four",
+        "verified": {
+          "wiki": "Long hop",
+          "date": "2026-11-24",
+          "key": "783bti"
+        }
+      },
+      {
+        "name": "Reverse swing",
+        "tier": "four",
+        "aliases": [
+          "reverse swinger",
+          "reverse-swinging delivery"
+        ],
+        "verified": {
+          "wiki": "Swing bowling",
+          "date": "2026-11-24",
+          "key": "es8mj7"
+        }
+      },
+      {
+        "name": "Wide yorker",
+        "tier": "four",
+        "verified": {
+          "wiki": "Yorker",
+          "date": "2026-11-24",
+          "key": "141peym"
+        }
+      },
+      {
+        "name": "Good length ball",
+        "tier": "four",
+        "aliases": [
+          "good length",
+          "length ball"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "3q6nvz"
+        }
+      },
+      {
+        "name": "Back-of-the-hand slower ball",
+        "tier": "six",
+        "aliases": [
+          "back of the hand",
+          "back of hand slower ball"
+        ],
+        "verified": {
+          "wiki": "Slower ball",
+          "date": "2026-11-24",
+          "key": "v1cef9"
+        }
+      },
+      {
+        "name": "Split-finger slower ball",
+        "tier": "six",
+        "aliases": [
+          "split finger"
+        ],
+        "verified": {
+          "wiki": "Slower ball",
+          "date": "2026-11-24",
+          "key": "jvuukn"
+        }
+      },
+      {
+        "name": "Cross-seam delivery",
+        "tier": "six",
+        "aliases": [
+          "cross seam",
+          "cross-seamer"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "60we44"
+        }
+      },
+      {
+        "name": "Floater",
+        "tier": "six",
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1460awa"
+        }
+      },
+      {
+        "name": "Back-spinner",
+        "tier": "six",
+        "aliases": [
+          "backspin"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "17zq8ar"
+        }
+      },
+      {
+        "name": "Underarm",
+        "tier": "six",
+        "aliases": [
+          "underarm delivery",
+          "underarm ball"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "dp58e8"
+        }
+      },
+      {
+        "name": "Zooter",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "ypmlgw"
+        }
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
+      "https://en.wikipedia.org/wiki/Delivery_(cricket)",
+      "https://en.wikipedia.org/wiki/Slower_ball",
+      "https://en.wikipedia.org/wiki/Yorker"
+    ]
+  },
+  {
+    "id": "odi-world-cup-semi-final-and-final-grounds",
+    "prompt": "Name a ground that hosted a men's ODI World Cup semi-final or final (1975–2023)",
+    "category": "World Cup venues",
+    "answerType": "ground",
+    "answers": [
+      {
+        "name": "Lord's",
+        "tier": "single",
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-24",
+          "key": "6qpdy5"
+        },
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ]
+      },
+      {
+        "name": "Melbourne Cricket Ground",
+        "tier": "single",
+        "aliases": [
+          "mcg",
+          "melbourne",
+          "the G"
+        ],
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-24",
+          "key": "byi4ut"
+        }
+      },
+      {
+        "name": "Eden Gardens",
+        "tier": "single",
+        "aliases": [
+          "kolkata",
+          "calcutta"
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-24",
+          "key": "15pr34w"
+        }
+      },
+      {
+        "name": "Wankhede Stadium",
+        "tier": "single",
+        "aliases": [
+          "wankhede",
+          "mumbai"
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-24",
+          "key": "14cef6w"
+        }
+      },
+      {
+        "name": "Narendra Modi Stadium",
+        "tier": "single",
+        "aliases": [
+          "motera",
+          "ahmedabad",
+          "sardar patel stadium"
+        ],
+        "verified": {
+          "wiki": "Narendra Modi Stadium",
+          "date": "2026-11-24",
+          "key": "8tm82w"
+        }
+      },
+      {
+        "name": "Old Trafford",
+        "tier": "two",
+        "aliases": [
+          "manchester",
+          "Emirates Old Trafford"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-24",
+          "key": "ueh106"
+        }
+      },
+      {
+        "name": "Edgbaston",
+        "tier": "two",
+        "aliases": [
+          "birmingham"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-24",
+          "key": "as0h5f"
+        }
+      },
+      {
+        "name": "The Oval",
+        "tier": "two",
+        "aliases": [
+          "kennington oval",
+          "kia oval",
+          "Brit Oval",
+          "Foster's Oval"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-24",
+          "key": "1ysm7j7"
+        }
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "tier": "two",
+        "aliases": [
+          "scg",
+          "sydney"
+        ],
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-24",
+          "key": "5nty95"
+        }
+      },
+      {
+        "name": "Gaddafi Stadium",
+        "tier": "two",
+        "aliases": [
+          "gaddafi",
+          "lahore"
+        ],
+        "verified": {
+          "wiki": "Gaddafi Stadium",
+          "date": "2026-11-24",
+          "key": "1wcwmsk"
+        }
+      },
+      {
+        "name": "Kensington Oval",
+        "tier": "two",
+        "aliases": [
+          "bridgetown",
+          "barbados"
+        ],
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-24",
+          "key": "1top0kb"
+        }
+      },
+      {
+        "name": "Headingley",
+        "tier": "four",
+        "aliases": [
+          "leeds"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-24",
+          "key": "1ocexwy"
+        }
+      },
+      {
+        "name": "Punjab Cricket Association Stadium",
+        "tier": "four",
+        "aliases": [
+          "mohali",
+          "pca stadium",
+          "is bindra stadium",
+          "inderjit singh bindra stadium"
+        ],
+        "wiki": "Inderjit Singh Bindra Stadium",
+        "verified": {
+          "wiki": "1996 Cricket World Cup",
+          "date": "2026-11-24",
+          "key": "1br3du2"
+        }
+      },
+      {
+        "name": "Eden Park",
+        "tier": "four",
+        "aliases": [
+          "auckland"
+        ],
+        "verified": {
+          "wiki": "Eden Park",
+          "date": "2026-11-24",
+          "key": "1pzz48t"
+        }
+      },
+      {
+        "name": "Wanderers",
+        "tier": "four",
+        "aliases": [
+          "wanderers stadium",
+          "johannesburg",
+          "bullring"
+        ],
+        "wiki": "Wanderers Stadium",
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-24",
+          "key": "xo2cs7"
+        }
+      },
+      {
+        "name": "R Premadasa Stadium",
+        "tier": "four",
+        "aliases": [
+          "premadasa",
+          "khettarama",
+          "colombo"
+        ],
+        "wiki": "R. Premadasa Stadium",
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-24",
+          "key": "10prqdm"
+        }
+      },
+      {
+        "name": "Kingsmead",
+        "tier": "six",
+        "aliases": [
+          "durban"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-24",
+          "key": "7kilnl"
+        }
+      },
+      {
+        "name": "St George's Park",
+        "tier": "six",
+        "aliases": [
+          "port elizabeth",
+          "gqeberha"
+        ],
+        "wiki": "St George's Park Cricket Ground",
+        "verified": {
+          "wiki": "St George's Park Cricket Ground",
+          "date": "2026-11-24",
+          "key": "4ga8ur"
+        }
+      },
+      {
+        "name": "Sabina Park",
+        "tier": "six",
+        "aliases": [
+          "kingston",
+          "jamaica"
+        ],
+        "verified": {
+          "wiki": "Sabina Park",
+          "date": "2026-11-24",
+          "key": "9wpv15"
+        }
+      },
+      {
+        "name": "Beausejour Stadium",
+        "tier": "ootg",
+        "aliases": [
+          "beausejour",
+          "daren sammy cricket ground",
+          "daren sammy stadium",
+          "gros islet",
+          "st lucia"
+        ],
+        "wiki": "Daren Sammy Cricket Ground",
+        "verified": {
+          "wiki": "2007 Cricket World Cup",
+          "date": "2026-11-24",
+          "key": "qvojkf"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/1975_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1979_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1983_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1987_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1992_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1996_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1999_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2003_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2007_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2011_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2015_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2023_Cricket_World_Cup"
+    ]
+  },
+  {
+    "id": "odi-debut-centurions",
+    "prompt": "Name a man who scored a century on his men's ODI debut",
+    "category": "Debuts",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "KL Rahul",
+        "tier": "single",
+        "aliases": [
+          "lokesh rahul"
+        ],
+        "verified": {
+          "wiki": "KL Rahul",
+          "date": "2026-11-24",
+          "key": "133qbvc"
+        }
+      },
+      {
+        "name": "Martin Guptill",
+        "tier": "single",
+        "verified": {
+          "wiki": "Martin Guptill",
+          "date": "2026-11-24",
+          "key": "ri7kmp"
+        }
+      },
+      {
+        "name": "Desmond Haynes",
+        "tier": "single",
+        "verified": {
+          "wiki": "Desmond Haynes",
+          "date": "2026-11-24",
+          "key": "1d14tgj"
+        }
+      },
+      {
+        "name": "Temba Bavuma",
+        "tier": "single",
+        "verified": {
+          "wiki": "Temba Bavuma",
+          "date": "2026-11-24",
+          "key": "1hkdcpy"
+        }
+      },
+      {
+        "name": "Phillip Hughes",
+        "tier": "two",
+        "aliases": [
+          "phil hughes"
+        ],
+        "verified": {
+          "wiki": "Phillip Hughes",
+          "date": "2026-11-24",
+          "key": "1m9zzji"
+        }
+      },
+      {
+        "name": "Imam-ul-Haq",
+        "tier": "two",
+        "aliases": [
+          "imam"
+        ],
+        "verified": {
+          "wiki": "Imam-ul-Haq",
+          "date": "2026-11-24",
+          "key": "rkwc1w"
+        }
+      },
+      {
+        "name": "Rahmanullah Gurbaz",
+        "tier": "two",
+        "aliases": [
+          "gurbaz"
+        ],
+        "verified": {
+          "wiki": "Rahmanullah Gurbaz",
+          "date": "2026-11-24",
+          "key": "mve2be"
+        }
+      },
+      {
+        "name": "Dennis Amiss",
+        "tier": "two",
+        "verified": {
+          "wiki": "Dennis Amiss",
+          "date": "2026-11-24",
+          "key": "y9d6fx"
+        }
+      },
+      {
+        "name": "Andy Flower",
+        "tier": "two",
+        "verified": {
+          "wiki": "Andy Flower",
+          "date": "2026-11-24",
+          "key": "f996w2"
+        }
+      },
+      {
+        "name": "Colin Ingram",
+        "tier": "four",
+        "verified": {
+          "wiki": "Colin Ingram",
+          "date": "2026-11-24",
+          "key": "1howctm"
+        }
+      },
+      {
+        "name": "Reeza Hendricks",
+        "tier": "four",
+        "verified": {
+          "wiki": "Reeza Hendricks",
+          "date": "2026-11-24",
+          "key": "1s6tuc3"
+        }
+      },
+      {
+        "name": "Matthew Breetzke",
+        "tier": "four",
+        "verified": {
+          "wiki": "Matthew Breetzke",
+          "date": "2026-11-24",
+          "key": "1kbrugb"
+        }
+      },
+      {
+        "name": "Mark Chapman",
+        "tier": "four",
+        "wiki": "Mark Chapman (cricketer)",
+        "verified": {
+          "wiki": "Mark Chapman (cricketer)",
+          "date": "2026-11-24",
+          "key": "dch2od"
+        }
+      },
+      {
+        "name": "Michael Lumb",
+        "tier": "four",
+        "verified": {
+          "wiki": "Michael Lumb (cricketer)",
+          "date": "2026-11-24",
+          "key": "1lcozx6"
+        }
+      },
+      {
+        "name": "Rob Nicol",
+        "tier": "six",
+        "verified": {
+          "wiki": "Rob Nicol",
+          "date": "2026-11-24",
+          "key": "1jwqym7"
+        }
+      },
+      {
+        "name": "Abid Ali",
+        "tier": "six",
+        "wiki": "Abid Ali (cricketer, born 1987)",
+        "verified": {
+          "wiki": "List of centuries scored on One Day International cricket debut",
+          "date": "2026-11-24",
+          "key": "iskxbr"
+        }
+      },
+      {
+        "name": "Saleem Elahi",
+        "tier": "six",
+        "aliases": [
+          "salim elahi"
+        ],
+        "verified": {
+          "wiki": "Saleem Elahi",
+          "date": "2026-11-24",
+          "key": "1h8dab4"
+        }
+      },
+      {
+        "name": "Amir Jangoo",
+        "tier": "six",
+        "verified": {
+          "wiki": "Amir Jangoo",
+          "date": "2026-11-24",
+          "key": "qc8bhq"
+        }
+      },
+      {
+        "name": "Jordan Hermann",
+        "tier": "six",
+        "verified": {
+          "wiki": "Jordan Hermann",
+          "date": "2026-11-24",
+          "key": "1ojn23m"
+        }
+      },
+      {
+        "name": "Michael English",
+        "tier": "ootg",
+        "wiki": "Michael English (cricketer)",
+        "verified": {
+          "wiki": "Michael English (cricketer)",
+          "date": "2026-11-24",
+          "key": "7t0cxv"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_centuries_scored_on_One_Day_International_cricket_debut"
+    ]
+  },
+  {
+    "id": "batting-shots",
+    "prompt": "Name a batting shot",
+    "category": "Batting",
+    "answerType": "other",
+    "answers": [
+      {
+        "name": "Cover drive",
+        "tier": "single",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1lw1e7r"
+        }
+      },
+      {
+        "name": "Straight drive",
+        "tier": "single",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "qus11k"
+        }
+      },
+      {
+        "name": "Pull",
+        "tier": "single",
+        "aliases": [
+          "pull shot",
+          "front-foot pull"
+        ],
+        "wiki": "Pull (cricket)",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "5mviyx"
+        }
+      },
+      {
+        "name": "Hook",
+        "tier": "single",
+        "aliases": [
+          "hook shot"
+        ],
+        "wiki": "Hook (cricket)",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1yclywy"
+        }
+      },
+      {
+        "name": "Cut",
+        "tier": "single",
+        "aliases": [
+          "cut shot"
+        ],
+        "wiki": "Cut (cricket)",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1hw6zad"
+        }
+      },
+      {
+        "name": "Sweep",
+        "tier": "single",
+        "aliases": [
+          "sweep shot"
+        ],
+        "wiki": "Sweep (cricket)",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "hj53k1"
+        }
+      },
+      {
+        "name": "Reverse sweep",
+        "tier": "single",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "jlh6sw"
+        }
+      },
+      {
+        "name": "On drive",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "cwv205"
+        }
+      },
+      {
+        "name": "Off drive",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1008krt"
+        }
+      },
+      {
+        "name": "Square cut",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "jtf5y7"
+        }
+      },
+      {
+        "name": "Late cut",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "dynv05"
+        },
+        "aliases": [
+          "steer",
+          "steer to third man",
+          "dab",
+          "late dab",
+          "glide"
+        ]
+      },
+      {
+        "name": "Leg glance",
+        "tier": "two",
+        "aliases": [
+          "glance",
+          "glide off the pads",
+          "tickle"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1h05ddf"
+        }
+      },
+      {
+        "name": "Flick",
+        "tier": "two",
+        "aliases": [
+          "wrist flick",
+          "leg-side flick",
+          "clip",
+          "whip"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "j82fk6"
+        }
+      },
+      {
+        "name": "Forward defensive",
+        "tier": "two",
+        "aliases": [
+          "forward defence",
+          "forward defense"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "4el3g0"
+        }
+      },
+      {
+        "name": "Scoop",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "eyspye"
+        }
+      },
+      {
+        "name": "Ramp",
+        "tier": "two",
+        "aliases": [
+          "ramp shot"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "yeub2k"
+        }
+      },
+      {
+        "name": "Switch hit",
+        "tier": "two",
+        "verified": {
+          "wiki": "Switch hit",
+          "date": "2026-11-24",
+          "key": "2gn0bx"
+        }
+      },
+      {
+        "name": "Helicopter shot",
+        "tier": "two",
+        "aliases": [
+          "helicopter"
+        ],
+        "verified": {
+          "wiki": "Helicopter shot",
+          "date": "2026-11-24",
+          "key": "15lzchc"
+        }
+      },
+      {
+        "name": "Upper cut",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "ytkvl2"
+        }
+      },
+      {
+        "name": "Slog sweep",
+        "tier": "two",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "sglygt"
+        }
+      },
+      {
+        "name": "Drive",
+        "tier": "two",
+        "wiki": "Drive (cricket)",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "ewa2rh"
+        }
+      },
+      {
+        "name": "Square drive",
+        "tier": "four",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "182y3bn"
+        }
+      },
+      {
+        "name": "Lofted drive",
+        "tier": "four",
+        "aliases": [
+          "lofted shot",
+          "chip",
+          "chip shot"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1gd5jk2"
+        }
+      },
+      {
+        "name": "Paddle sweep",
+        "tier": "four",
+        "aliases": [
+          "paddle",
+          "paddle scoop"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "12enbx8"
+        }
+      },
+      {
+        "name": "Backward defensive",
+        "tier": "four",
+        "aliases": [
+          "back-foot defence",
+          "back foot defensive"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "18qr4gy"
+        }
+      },
+      {
+        "name": "Dilscoop",
+        "tier": "four",
+        "verified": {
+          "wiki": "Paddle scoop",
+          "date": "2026-11-24",
+          "key": "1ghkgwk"
+        },
+        "aliases": [
+          "Dilshan scoop"
+        ]
+      },
+      {
+        "name": "Leave",
+        "tier": "four",
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "1pdr2bt"
+        },
+        "aliases": [
+          "shoulder arms",
+          "no shot"
+        ]
+      },
+      {
+        "name": "Back-foot punch",
+        "tier": "four",
+        "aliases": [
+          "punch",
+          "back-foot drive"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1b5pzr4"
+        }
+      },
+      {
+        "name": "Slog",
+        "tier": "four",
+        "verified": {
+          "wiki": "Slog",
+          "date": "2026-11-24",
+          "key": "1t7p6dk"
+        },
+        "aliases": [
+          "heave"
+        ]
+      },
+      {
+        "name": "Inside-out drive",
+        "tier": "four",
+        "aliases": [
+          "inside out",
+          "inside-out shot"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1h89adc"
+        }
+      },
+      {
+        "name": "Reverse scoop",
+        "tier": "four",
+        "aliases": [
+          "reverse ramp"
+        ],
+        "verified": {
+          "wiki": "Paddle scoop",
+          "date": "2026-11-24",
+          "key": "p59pwy"
+        }
+      },
+      {
+        "name": "Block",
+        "tier": "four",
+        "aliases": [
+          "defensive shot",
+          "defence",
+          "defend"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "n56hm"
+        }
+      },
+      {
+        "name": "Lap sweep",
+        "tier": "four",
+        "aliases": [
+          "lap",
+          "lap shot"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1w4t9xx"
+        }
+      },
+      {
+        "name": "French cut",
+        "tier": "six",
+        "aliases": [
+          "chinese cut",
+          "harrow drive",
+          "surrey cut",
+          "inside edge"
+        ],
+        "verified": {
+          "wiki": "Batting (cricket)",
+          "date": "2026-11-24",
+          "key": "qz4yb5"
+        }
+      },
+      {
+        "name": "Hoick",
+        "tier": "six",
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "1qyjs4j"
+        },
+        "aliases": [
+          "hoik"
+        ]
+      },
+      {
+        "name": "Nudge",
+        "tier": "six",
+        "aliases": [
+          "nurdle"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "h9h363"
+        }
+      },
+      {
+        "name": "Pick-up shot",
+        "tier": "six",
+        "aliases": [
+          "pick up"
+        ],
+        "verified": {
+          "wiki": "Glossary of cricket terms",
+          "date": "2026-11-24",
+          "key": "avisal"
+        }
+      },
+      {
+        "name": "Marillier shot",
+        "tier": "ootg",
+        "aliases": [
+          "marillier",
+          "marillier flick"
+        ],
+        "verified": {
+          "wiki": "Paddle scoop",
+          "date": "2026-11-24",
+          "key": "1r5bjfq"
+        }
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Batting_(cricket)",
+      "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
+      "https://en.wikipedia.org/wiki/Paddle_scoop"
+    ]
+  },
+  {
+    "id": "ranji-trophy-teams-2025-26",
+    "prompt": "Name a team that played in the 2025–26 Ranji Trophy",
+    "category": "Indian domestic",
+    "answerType": "team",
+    "answers": [
+      {
+        "name": "Mumbai",
+        "tier": "single",
+        "aliases": [
+          "bombay"
+        ],
+        "wiki": "Mumbai cricket team",
+        "verified": {
+          "wiki": "Mumbai cricket team",
+          "date": "2026-11-24",
+          "key": "1m57l5b"
+        }
+      },
+      {
+        "name": "Delhi",
+        "tier": "single",
+        "wiki": "Delhi cricket team",
+        "verified": {
+          "wiki": "Delhi cricket team",
+          "date": "2026-11-24",
+          "key": "urc8ql"
+        }
+      },
+      {
+        "name": "Karnataka",
+        "tier": "single",
+        "aliases": [
+          "mysore"
+        ],
+        "wiki": "Karnataka cricket team",
+        "verified": {
+          "wiki": "Karnataka cricket team",
+          "date": "2026-11-24",
+          "key": "1801bm2"
+        }
+      },
+      {
+        "name": "Tamil Nadu",
+        "tier": "single",
+        "aliases": [
+          "madras"
+        ],
+        "wiki": "Tamil Nadu cricket team",
+        "verified": {
+          "wiki": "Tamil Nadu cricket team",
+          "date": "2026-11-24",
+          "key": "bbz9zl"
+        }
+      },
+      {
+        "name": "Bengal",
+        "tier": "single",
+        "wiki": "Bengal cricket team",
+        "verified": {
+          "wiki": "Bengal cricket team",
+          "date": "2026-11-24",
+          "key": "oju361"
+        }
+      },
+      {
+        "name": "Saurashtra",
+        "tier": "two",
+        "wiki": "Saurashtra cricket team",
+        "verified": {
+          "wiki": "Saurashtra cricket team",
+          "date": "2026-11-24",
+          "key": "yflhpl"
+        }
+      },
+      {
+        "name": "Vidarbha",
+        "tier": "two",
+        "wiki": "Vidarbha cricket team",
+        "verified": {
+          "wiki": "Vidarbha cricket team",
+          "date": "2026-11-24",
+          "key": "lqpnux"
+        }
+      },
+      {
+        "name": "Madhya Pradesh",
+        "tier": "two",
+        "aliases": [
+          "mp"
+        ],
+        "wiki": "Madhya Pradesh cricket team",
+        "verified": {
+          "wiki": "Madhya Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "1q0fkrk"
+        }
+      },
+      {
+        "name": "Punjab",
+        "tier": "two",
+        "wiki": "Punjab cricket team",
+        "verified": {
+          "wiki": "Ranji Trophy",
+          "date": "2026-11-24",
+          "key": "1rrn8qh"
+        }
+      },
+      {
+        "name": "Rajasthan",
+        "tier": "two",
+        "wiki": "Rajasthan cricket team",
+        "verified": {
+          "wiki": "Rajasthan cricket team",
+          "date": "2026-11-24",
+          "key": "xyq61h"
+        }
+      },
+      {
+        "name": "Hyderabad",
+        "tier": "two",
+        "wiki": "Hyderabad cricket team",
+        "verified": {
+          "wiki": "Hyderabad cricket team",
+          "date": "2026-11-24",
+          "key": "bkz1dl"
+        }
+      },
+      {
+        "name": "Baroda",
+        "tier": "two",
+        "wiki": "Baroda cricket team",
+        "verified": {
+          "wiki": "Baroda cricket team",
+          "date": "2026-11-24",
+          "key": "e0gc9d"
+        }
+      },
+      {
+        "name": "Uttar Pradesh",
+        "tier": "two",
+        "aliases": [
+          "up"
+        ],
+        "wiki": "Uttar Pradesh cricket team",
+        "verified": {
+          "wiki": "Uttar Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "11qag9c"
+        }
+      },
+      {
+        "name": "Gujarat",
+        "tier": "two",
+        "wiki": "Gujarat cricket team",
+        "verified": {
+          "wiki": "Gujarat cricket team",
+          "date": "2026-11-24",
+          "key": "itrtk9"
+        }
+      },
+      {
+        "name": "Kerala",
+        "tier": "two",
+        "wiki": "Kerala cricket team",
+        "verified": {
+          "wiki": "Kerala cricket team",
+          "date": "2026-11-24",
+          "key": "1tl369d"
+        }
+      },
+      {
+        "name": "Maharashtra",
+        "tier": "two",
+        "wiki": "Maharashtra cricket team",
+        "verified": {
+          "wiki": "Maharashtra cricket team",
+          "date": "2026-11-24",
+          "key": "xfmfw1"
+        }
+      },
+      {
+        "name": "Railways",
+        "tier": "two",
+        "aliases": [
+          "indian railways"
+        ],
+        "wiki": "Railways cricket team",
+        "verified": {
+          "wiki": "Railways cricket team",
+          "date": "2026-11-24",
+          "key": "oy0r7u"
+        }
+      },
+      {
+        "name": "Andhra",
+        "tier": "four",
+        "aliases": [
+          "andhra pradesh"
+        ],
+        "wiki": "Andhra cricket team",
+        "verified": {
+          "wiki": "Andhra cricket team",
+          "date": "2026-11-24",
+          "key": "1fn7cum"
+        }
+      },
+      {
+        "name": "Haryana",
+        "tier": "four",
+        "wiki": "Haryana cricket team",
+        "verified": {
+          "wiki": "Haryana cricket team",
+          "date": "2026-11-24",
+          "key": "5wlnqx"
+        }
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "tier": "four",
+        "aliases": [
+          "j&k",
+          "kashmir"
+        ],
+        "wiki": "Jammu and Kashmir cricket team",
+        "verified": {
+          "wiki": "Jammu and Kashmir cricket team",
+          "date": "2026-11-24",
+          "key": "1f7g3bf"
+        }
+      },
+      {
+        "name": "Jharkhand",
+        "tier": "four",
+        "wiki": "Jharkhand cricket team",
+        "verified": {
+          "wiki": "Jharkhand cricket team",
+          "date": "2026-11-24",
+          "key": "11dnmgj"
+        }
+      },
+      {
+        "name": "Odisha",
+        "tier": "four",
+        "aliases": [
+          "orissa"
+        ],
+        "wiki": "Odisha cricket team",
+        "verified": {
+          "wiki": "Odisha cricket team",
+          "date": "2026-11-24",
+          "key": "1h5l8jw"
+        }
+      },
+      {
+        "name": "Assam",
+        "tier": "four",
+        "wiki": "Assam cricket team",
+        "verified": {
+          "wiki": "Assam cricket team",
+          "date": "2026-11-24",
+          "key": "1dtlutz"
+        }
+      },
+      {
+        "name": "Himachal Pradesh",
+        "tier": "four",
+        "aliases": [
+          "himachal"
+        ],
+        "wiki": "Himachal Pradesh cricket team",
+        "verified": {
+          "wiki": "Himachal Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "1m9v6n2"
+        }
+      },
+      {
+        "name": "Services",
+        "tier": "four",
+        "wiki": "Services cricket team",
+        "verified": {
+          "wiki": "Services cricket team",
+          "date": "2026-11-24",
+          "key": "uem3sh"
+        }
+      },
+      {
+        "name": "Goa",
+        "tier": "four",
+        "wiki": "Goa cricket team",
+        "verified": {
+          "wiki": "Goa cricket team",
+          "date": "2026-11-24",
+          "key": "n4w2rj"
+        }
+      },
+      {
+        "name": "Bihar",
+        "tier": "four",
+        "wiki": "Bihar cricket team",
+        "verified": {
+          "wiki": "Bihar cricket team",
+          "date": "2026-11-24",
+          "key": "dfca0x"
+        }
+      },
+      {
+        "name": "Tripura",
+        "tier": "four",
+        "wiki": "Tripura cricket team",
+        "verified": {
+          "wiki": "Tripura cricket team",
+          "date": "2026-11-24",
+          "key": "1er3ik3"
+        }
+      },
+      {
+        "name": "Chhattisgarh",
+        "tier": "four",
+        "wiki": "Chhattisgarh cricket team",
+        "verified": {
+          "wiki": "Chhattisgarh cricket team",
+          "date": "2026-11-24",
+          "key": "1dzh2x5"
+        }
+      },
+      {
+        "name": "Uttarakhand",
+        "tier": "four",
+        "aliases": [
+          "uttaranchal"
+        ],
+        "wiki": "Uttarakhand cricket team",
+        "verified": {
+          "wiki": "Uttarakhand cricket team",
+          "date": "2026-11-24",
+          "key": "1oapeqk"
+        }
+      },
+      {
+        "name": "Chandigarh",
+        "tier": "six",
+        "wiki": "Chandigarh cricket team",
+        "verified": {
+          "wiki": "Chandigarh cricket team",
+          "date": "2026-11-24",
+          "key": "1bwzbwl"
+        }
+      },
+      {
+        "name": "Puducherry",
+        "tier": "six",
+        "aliases": [
+          "pondicherry"
+        ],
+        "wiki": "Puducherry cricket team",
+        "verified": {
+          "wiki": "Pondicherry cricket team",
+          "date": "2026-11-24",
+          "key": "1nsq9h6"
+        }
+      },
+      {
+        "name": "Manipur",
+        "tier": "six",
+        "wiki": "Manipur cricket team",
+        "verified": {
+          "wiki": "Manipur cricket team",
+          "date": "2026-11-24",
+          "key": "1cm07n9"
+        }
+      },
+      {
+        "name": "Meghalaya",
+        "tier": "six",
+        "wiki": "Meghalaya cricket team",
+        "verified": {
+          "wiki": "Meghalaya cricket team",
+          "date": "2026-11-24",
+          "key": "e2hgqv"
+        }
+      },
+      {
+        "name": "Mizoram",
+        "tier": "six",
+        "wiki": "Mizoram cricket team",
+        "verified": {
+          "wiki": "Mizoram cricket team",
+          "date": "2026-11-24",
+          "key": "s5b433"
+        }
+      },
+      {
+        "name": "Nagaland",
+        "tier": "six",
+        "wiki": "Nagaland cricket team",
+        "verified": {
+          "wiki": "Nagaland cricket team",
+          "date": "2026-11-24",
+          "key": "rlj0z5"
+        }
+      },
+      {
+        "name": "Sikkim",
+        "tier": "six",
+        "wiki": "Sikkim cricket team",
+        "verified": {
+          "wiki": "Sikkim cricket team",
+          "date": "2026-11-24",
+          "key": "m6ebw1"
+        }
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "tier": "ootg",
+        "aliases": [
+          "arunachal"
+        ],
+        "wiki": "Arunachal Pradesh cricket team",
+        "verified": {
+          "wiki": "Arunachal Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "uol6po"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "domestic",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ranji_Trophy"
+    ]
+  },
+  {
+    "id": "test-hat-trick-bowlers",
+    "prompt": "Name a bowler who has taken a hat-trick in a men's Test match",
+    "category": "Bowling records",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Shane Warne",
+        "tier": "single",
+        "verified": {
+          "wiki": "Shane Warne",
+          "date": "2026-11-24",
+          "key": "1swdedj"
+        },
+        "aliases": [
+          "Warney"
+        ]
+      },
+      {
+        "name": "Stuart Broad",
+        "tier": "single",
+        "verified": {
+          "wiki": "Stuart Broad",
+          "date": "2026-11-24",
+          "key": "1wvbvqd"
+        },
+        "aliases": [
+          "Broady"
+        ]
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jasprit Bumrah",
+          "date": "2026-11-24",
+          "key": "cvzf4d"
+        }
+      },
+      {
+        "name": "Glenn McGrath",
+        "tier": "single",
+        "verified": {
+          "wiki": "Glenn McGrath",
+          "date": "2026-11-24",
+          "key": "1xq8q59"
+        },
+        "aliases": [
+          "Pigeon"
+        ]
+      },
+      {
+        "name": "Wasim Akram",
+        "tier": "single",
+        "verified": {
+          "wiki": "Wasim Akram",
+          "date": "2026-11-24",
+          "key": "1mb2hwh"
+        },
+        "aliases": [
+          "Wasim"
+        ]
+      },
+      {
+        "name": "Harbhajan Singh",
+        "tier": "single",
+        "aliases": [
+          "harbhajan",
+          "bhajji"
+        ],
+        "verified": {
+          "wiki": "Harbhajan Singh",
+          "date": "2026-11-24",
+          "key": "4m0cy2"
+        }
+      },
+      {
+        "name": "Irfan Pathan",
+        "tier": "single",
+        "verified": {
+          "wiki": "Irfan Pathan",
+          "date": "2026-11-24",
+          "key": "18l5kv5"
+        }
+      },
+      {
+        "name": "Moeen Ali",
+        "tier": "two",
+        "verified": {
+          "wiki": "Moeen Ali",
+          "date": "2026-11-24",
+          "key": "shhn45"
+        },
+        "aliases": [
+          "Moeen",
+          "Mo Ali"
+        ]
+      },
+      {
+        "name": "Peter Siddle",
+        "tier": "two",
+        "verified": {
+          "wiki": "Peter Siddle",
+          "date": "2026-11-24",
+          "key": "191tac"
+        }
+      },
+      {
+        "name": "Darren Gough",
+        "tier": "two",
+        "verified": {
+          "wiki": "Darren Gough",
+          "date": "2026-11-24",
+          "key": "fsqixj"
+        },
+        "aliases": [
+          "Goughie",
+          "Dazzler"
+        ]
+      },
+      {
+        "name": "Dominic Cork",
+        "tier": "two",
+        "verified": {
+          "wiki": "Dominic Cork",
+          "date": "2026-11-24",
+          "key": "1fcic2l"
+        }
+      },
+      {
+        "name": "Matthew Hoggard",
+        "tier": "two",
+        "verified": {
+          "wiki": "Matthew Hoggard",
+          "date": "2026-11-24",
+          "key": "1o1wr9v"
+        },
+        "aliases": [
+          "Hoggy"
+        ]
+      },
+      {
+        "name": "Naseem Shah",
+        "tier": "two",
+        "wiki": "Naseem Shah (cricketer)",
+        "verified": {
+          "wiki": "Naseem Shah",
+          "date": "2026-11-24",
+          "key": "rliipr"
+        }
+      },
+      {
+        "name": "Courtney Walsh",
+        "tier": "two",
+        "verified": {
+          "wiki": "Courtney Walsh",
+          "date": "2026-11-24",
+          "key": "1u0i3vr"
+        }
+      },
+      {
+        "name": "Merv Hughes",
+        "tier": "two",
+        "verified": {
+          "wiki": "Merv Hughes",
+          "date": "2026-11-24",
+          "key": "l8n45l"
+        },
+        "aliases": [
+          "Merv"
+        ]
+      },
+      {
+        "name": "Gus Atkinson",
+        "tier": "two",
+        "verified": {
+          "wiki": "Gus Atkinson",
+          "date": "2026-11-24",
+          "key": "duafkh"
+        }
+      },
+      {
+        "name": "Scott Boland",
+        "tier": "two",
+        "verified": {
+          "wiki": "Scott Boland",
+          "date": "2026-11-24",
+          "key": "15nm96i"
+        }
+      },
+      {
+        "name": "Keshav Maharaj",
+        "tier": "two",
+        "verified": {
+          "wiki": "Keshav Maharaj",
+          "date": "2026-11-24",
+          "key": "aomyh3"
+        }
+      },
+      {
+        "name": "Rangana Herath",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rangana Herath",
+          "date": "2026-11-24",
+          "key": "cgt3or"
+        }
+      },
+      {
+        "name": "Ryan Sidebottom",
+        "tier": "four",
+        "verified": {
+          "wiki": "Ryan Sidebottom",
+          "date": "2026-11-24",
+          "key": "3fe3xj"
+        }
+      },
+      {
+        "name": "Abdul Razzaq",
+        "tier": "four",
+        "aliases": [
+          "abdul razzak"
+        ],
+        "wiki": "Abdul Razzaq (cricketer)",
+        "verified": {
+          "wiki": "Abdul Razzaq (cricketer)",
+          "date": "2026-11-24",
+          "key": "1f81td4"
+        }
+      },
+      {
+        "name": "Mohammad Sami",
+        "tier": "four",
+        "verified": {
+          "wiki": "Mohammad Sami",
+          "date": "2026-11-24",
+          "key": "18dlwyz"
+        }
+      },
+      {
+        "name": "Wes Hall",
+        "tier": "four",
+        "aliases": [
+          "wesley hall"
+        ],
+        "verified": {
+          "wiki": "Wes Hall",
+          "date": "2026-11-24",
+          "key": "1yfgxw7"
+        }
+      },
+      {
+        "name": "Lance Gibbs",
+        "tier": "four",
+        "verified": {
+          "wiki": "Lance Gibbs",
+          "date": "2026-11-24",
+          "key": "d801cz"
+        }
+      },
+      {
+        "name": "Fred Spofforth",
+        "tier": "four",
+        "aliases": [
+          "frederick spofforth",
+          "The Demon"
+        ],
+        "verified": {
+          "wiki": "Fred Spofforth",
+          "date": "2026-11-24",
+          "key": "13se92x"
+        }
+      },
+      {
+        "name": "Damien Fleming",
+        "tier": "four",
+        "verified": {
+          "wiki": "Damien Fleming",
+          "date": "2026-11-24",
+          "key": "1o72km7"
+        }
+      },
+      {
+        "name": "Nuwan Zoysa",
+        "tier": "four",
+        "verified": {
+          "wiki": "Nuwan Zoysa",
+          "date": "2026-11-24",
+          "key": "1sk02zy"
+        }
+      },
+      {
+        "name": "Noman Ali",
+        "tier": "four",
+        "aliases": [
+          "nauman ali"
+        ],
+        "verified": {
+          "wiki": "Noman Ali",
+          "date": "2026-11-24",
+          "key": "e5u9kk"
+        }
+      },
+      {
+        "name": "James Franklin",
+        "tier": "four",
+        "wiki": "James Franklin (cricketer)",
+        "verified": {
+          "wiki": "James Franklin (cricketer)",
+          "date": "2026-11-24",
+          "key": "1s1l9d1"
+        }
+      },
+      {
+        "name": "Jermaine Lawson",
+        "tier": "four",
+        "verified": {
+          "wiki": "Jermaine Lawson",
+          "date": "2026-11-24",
+          "key": "1s3t4cc"
+        }
+      },
+      {
+        "name": "Sohag Gazi",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sohag Gazi",
+          "date": "2026-11-24",
+          "key": "7xf1ka"
+        }
+      },
+      {
+        "name": "Alok Kapali",
+        "tier": "six",
+        "verified": {
+          "wiki": "Alok Kapali",
+          "date": "2026-11-24",
+          "key": "c5htsk"
+        }
+      },
+      {
+        "name": "Andy Blignaut",
+        "tier": "six",
+        "verified": {
+          "wiki": "Andy Blignaut",
+          "date": "2026-11-24",
+          "key": "shbacr"
+        }
+      },
+      {
+        "name": "Hugh Trumble",
+        "tier": "six",
+        "verified": {
+          "wiki": "Hugh Trumble",
+          "date": "2026-11-24",
+          "key": "1ejsnrs"
+        }
+      },
+      {
+        "name": "Jimmy Matthews",
+        "tier": "six",
+        "aliases": [
+          "tj matthews",
+          "thomas james matthews"
+        ],
+        "wiki": "Jimmy Matthews (cricketer)",
+        "verified": {
+          "wiki": "List of Test cricket hat-tricks",
+          "date": "2026-11-24",
+          "key": "1pawp4j"
+        }
+      },
+      {
+        "name": "Geoff Griffin",
+        "tier": "six",
+        "aliases": [
+          "geoffrey griffin"
+        ],
+        "verified": {
+          "wiki": "Geoff Griffin",
+          "date": "2026-11-24",
+          "key": "1mo44mz"
+        }
+      },
+      {
+        "name": "Lindsay Kline",
+        "tier": "six",
+        "verified": {
+          "wiki": "Lindsay Kline",
+          "date": "2026-11-24",
+          "key": "keiw1m"
+        }
+      },
+      {
+        "name": "Peter Loader",
+        "tier": "six",
+        "verified": {
+          "wiki": "Peter Loader",
+          "date": "2026-11-24",
+          "key": "11eggaw"
+        }
+      },
+      {
+        "name": "Tom Goddard",
+        "tier": "six",
+        "wiki": "Tom Goddard (cricketer)",
+        "verified": {
+          "wiki": "List of Test cricket hat-tricks",
+          "date": "2026-11-24",
+          "key": "jzqjjr"
+        }
+      },
+      {
+        "name": "Billy Bates",
+        "tier": "six",
+        "aliases": [
+          "willie bates"
+        ],
+        "wiki": "Billy Bates (cricketer)",
+        "verified": {
+          "wiki": "List of Test cricket hat-tricks",
+          "date": "2026-11-24",
+          "key": "1tycyg8"
+        }
+      },
+      {
+        "name": "Johnny Briggs",
+        "tier": "six",
+        "wiki": "Johnny Briggs (cricketer)",
+        "verified": {
+          "wiki": "Johnny Briggs (cricketer)",
+          "date": "2026-11-24",
+          "key": "1jor1j1"
+        }
+      },
+      {
+        "name": "George Lohmann",
+        "tier": "six",
+        "verified": {
+          "wiki": "George Lohmann",
+          "date": "2026-11-24",
+          "key": "1lj3n1l"
+        }
+      },
+      {
+        "name": "Peter Petherick",
+        "tier": "six",
+        "verified": {
+          "wiki": "Peter Petherick",
+          "date": "2026-11-24",
+          "key": "3j4fke"
+        }
+      },
+      {
+        "name": "Hasan Mahmud",
+        "tier": "six",
+        "wiki": "Hasan Mahmud (cricketer)",
+        "verified": {
+          "wiki": "Hasan Mahmud (cricketer)",
+          "date": "2026-11-24",
+          "key": "iqikb1"
+        }
+      },
+      {
+        "name": "Jack Hearne",
+        "tier": "six",
+        "aliases": [
+          "jt hearne",
+          "john thomas hearne"
+        ],
+        "wiki": "J. T. Hearne",
+        "verified": {
+          "wiki": "J. T. Hearne",
+          "date": "2026-11-24",
+          "key": "dmfvjs"
+        }
+      },
+      {
+        "name": "Maurice Allom",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Maurice Allom",
+          "date": "2026-11-24",
+          "key": "1jebx6a"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_hat-tricks"
+    ]
+  },
+  {
+    "id": "england-test-debut-centurions",
+    "prompt": "Name an England men's player who scored a century on Test debut",
+    "category": "Debuts",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Alastair Cook",
+        "tier": "single",
+        "verified": {
+          "wiki": "Alastair Cook",
+          "date": "2026-11-24",
+          "key": "nz8xje"
+        },
+        "aliases": [
+          "Chef"
+        ]
+      },
+      {
+        "name": "Andrew Strauss",
+        "tier": "single",
+        "verified": {
+          "wiki": "Andrew Strauss",
+          "date": "2026-11-24",
+          "key": "2qo6ox"
+        }
+      },
+      {
+        "name": "Jonathan Trott",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jonathan Trott",
+          "date": "2026-11-24",
+          "key": "320tqt"
+        }
+      },
+      {
+        "name": "Ben Foakes",
+        "tier": "single",
+        "verified": {
+          "wiki": "Ben Foakes",
+          "date": "2026-11-24",
+          "key": "co8jir"
+        }
+      },
+      {
+        "name": "Matt Prior",
+        "tier": "two",
+        "aliases": [
+          "matthew prior"
+        ],
+        "verified": {
+          "wiki": "Matt Prior",
+          "date": "2026-11-24",
+          "key": "1wrl6ex"
+        }
+      },
+      {
+        "name": "Graham Thorpe",
+        "tier": "two",
+        "verified": {
+          "wiki": "Graham Thorpe",
+          "date": "2026-11-24",
+          "key": "1iazgc7"
+        },
+        "misspellings": [
+          "Graeme Thorpe"
+        ]
+      },
+      {
+        "name": "Keaton Jennings",
+        "tier": "two",
+        "verified": {
+          "wiki": "Keaton Jennings",
+          "date": "2026-11-24",
+          "key": "l286df"
+        }
+      },
+      {
+        "name": "Peter May",
+        "tier": "two",
+        "wiki": "Peter May (cricketer)",
+        "verified": {
+          "wiki": "Peter May (cricketer)",
+          "date": "2026-11-24",
+          "key": "yimqkx"
+        }
+      },
+      {
+        "name": "WG Grace",
+        "tier": "two",
+        "wiki": "W. G. Grace",
+        "verified": {
+          "wiki": "W. G. Grace",
+          "date": "2026-11-24",
+          "key": "1in3f8g"
+        },
+        "aliases": [
+          "W.G.",
+          "The Doctor",
+          "William Gilbert Grace"
+        ]
+      },
+      {
+        "name": "Ranjitsinhji",
+        "tier": "four",
+        "aliases": [
+          "ranji",
+          "ks ranjitsinhji",
+          "prince ranjitsinhji"
+        ],
+        "wiki": "Ranjitsinhji",
+        "verified": {
+          "wiki": "List of centuries scored on Test cricket debut",
+          "date": "2026-11-24",
+          "key": "lpqglp"
+        }
+      },
+      {
+        "name": "Pelham Warner",
+        "tier": "four",
+        "aliases": [
+          "plum warner"
+        ],
+        "verified": {
+          "wiki": "Pelham Warner",
+          "date": "2026-11-24",
+          "key": "is2162"
+        }
+      },
+      {
+        "name": "Nawab of Pataudi",
+        "tier": "four",
+        "aliases": [
+          "iftikhar ali khan pataudi",
+          "pataudi senior"
+        ],
+        "wiki": "Iftikhar Ali Khan Pataudi",
+        "verified": {
+          "wiki": "Iftikhar Ali Khan Pataudi",
+          "date": "2026-11-24",
+          "key": "4qqcm8"
+        }
+      },
+      {
+        "name": "Tip Foster",
+        "tier": "four",
+        "aliases": [
+          "re foster",
+          "reginald foster"
+        ],
+        "wiki": "Tip Foster",
+        "verified": {
+          "wiki": "R. E. Foster",
+          "date": "2026-11-24",
+          "key": "6htund"
+        }
+      },
+      {
+        "name": "Frank Hayes",
+        "tier": "four",
+        "wiki": "Frank Hayes (cricketer)",
+        "verified": {
+          "wiki": "Frank Hayes (cricketer)",
+          "date": "2026-11-24",
+          "key": "zclno7"
+        }
+      },
+      {
+        "name": "George Gunn",
+        "tier": "six",
+        "wiki": "George Gunn (cricketer, born 1879)",
+        "verified": {
+          "wiki": "List of centuries scored on Test cricket debut",
+          "date": "2026-11-24",
+          "key": "y6r03t"
+        }
+      },
+      {
+        "name": "Paul Gibb",
+        "tier": "six",
+        "verified": {
+          "wiki": "Paul Gibb",
+          "date": "2026-11-24",
+          "key": "7aew35"
+        }
+      },
+      {
+        "name": "Billy Griffith",
+        "tier": "six",
+        "verified": {
+          "wiki": "Billy Griffith",
+          "date": "2026-11-24",
+          "key": "wdnmii"
+        }
+      },
+      {
+        "name": "Arthur Milton",
+        "tier": "six",
+        "verified": {
+          "wiki": "Arthur Milton",
+          "date": "2026-11-24",
+          "key": "v2llme"
+        }
+      },
+      {
+        "name": "John Hampshire",
+        "tier": "six",
+        "verified": {
+          "wiki": "John Hampshire",
+          "date": "2026-11-24",
+          "key": "1gtygn"
+        }
+      },
+      {
+        "name": "Bryan Valentine",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Bryan Valentine",
+          "date": "2026-11-24",
+          "key": "1mipbjp"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_centuries_scored_on_Test_cricket_debut"
+    ]
+  },
+  {
+    "id": "batting-and-keeping-kit",
+    "prompt": "Name an item of kit a batter or wicketkeeper wears or carries in a Test match",
+    "category": "Equipment",
+    "answerType": "other",
+    "answers": [
+      {
+        "name": "Bat",
+        "tier": "single",
+        "aliases": [
+          "cricket bat"
+        ],
+        "wiki": "Cricket bat",
+        "verified": {
+          "wiki": "Cricket bat",
+          "date": "2026-11-24",
+          "key": "173hll1"
+        }
+      },
+      {
+        "name": "Pads",
+        "tier": "single",
+        "aliases": [
+          "leg guards",
+          "leg pads",
+          "batting pads"
+        ],
+        "wiki": "Pads (cricket)",
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "jfsv1h"
+        }
+      },
+      {
+        "name": "Gloves",
+        "tier": "single",
+        "aliases": [
+          "batting gloves"
+        ],
+        "verified": {
+          "wiki": "Glove",
+          "date": "2026-11-24",
+          "key": "rtdefg"
+        }
+      },
+      {
+        "name": "Helmet",
+        "tier": "single",
+        "verified": {
+          "wiki": "Helmet",
+          "date": "2026-11-24",
+          "key": "1b6j2bh"
+        },
+        "aliases": [
+          "lid",
+          "batting helmet"
+        ]
+      },
+      {
+        "name": "Box",
+        "tier": "two",
+        "aliases": [
+          "abdominal guard",
+          "abdo guard",
+          "protector",
+          "cup",
+          "jockstrap"
+        ],
+        "wiki": "Box (cricket)",
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "36j03w"
+        }
+      },
+      {
+        "name": "Thigh pad",
+        "tier": "two",
+        "aliases": [
+          "thigh guard",
+          "thigh guards"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "q4zvan"
+        }
+      },
+      {
+        "name": "Arm guard",
+        "tier": "two",
+        "aliases": [
+          "elbow guard",
+          "forearm guard",
+          "arm guards"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "1hxki35"
+        }
+      },
+      {
+        "name": "Wicketkeeping gloves",
+        "tier": "two",
+        "aliases": [
+          "keeping gloves",
+          "keeper gloves",
+          "keeper's gloves",
+          "gauntlets"
+        ],
+        "verified": {
+          "wiki": "Wicket-keeper's gloves",
+          "date": "2026-11-24",
+          "key": "1ugw3cl"
+        }
+      },
+      {
+        "name": "Spikes",
+        "tier": "two",
+        "aliases": [
+          "boots",
+          "cricket shoes",
+          "shoes",
+          "studs",
+          "spiked shoes"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "1vcy89d"
+        }
+      },
+      {
+        "name": "Cap",
+        "tier": "two",
+        "aliases": [
+          "baggy green",
+          "cricket cap"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "h4wjef"
+        }
+      },
+      {
+        "name": "Inner gloves",
+        "tier": "ootg",
+        "aliases": [
+          "inners",
+          "batting inners"
+        ],
+        "verified": {
+          "wiki": "Wicket-keeper's gloves",
+          "date": "2026-11-24",
+          "key": "qgmq26"
+        }
+      },
+      {
+        "name": "Chest guard",
+        "tier": "four",
+        "aliases": [
+          "chest pad",
+          "rib guard",
+          "chest guards"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "10l8b2s"
+        }
+      },
+      {
+        "name": "Sun hat",
+        "tier": "four",
+        "aliases": [
+          "floppy hat",
+          "wide-brimmed hat",
+          "bucket hat"
+        ],
+        "verified": {
+          "wiki": "Sun hat",
+          "date": "2026-11-24",
+          "key": "1u0tsl9"
+        }
+      },
+      {
+        "name": "Sweater",
+        "tier": "four",
+        "aliases": [
+          "jumper",
+          "cricket jumper",
+          "slipover",
+          "sleeveless sweater",
+          "tank top",
+          "vest"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "1t36ws"
+        }
+      },
+      {
+        "name": "Whites",
+        "tier": "four",
+        "aliases": [
+          "cricket whites"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "hs2nj4"
+        }
+      },
+      {
+        "name": "Shirt",
+        "tier": "four",
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "15q6j3g"
+        },
+        "aliases": [
+          "cricket shirt"
+        ]
+      },
+      {
+        "name": "Trousers",
+        "tier": "four",
+        "aliases": [
+          "cricket trousers"
+        ],
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "10mvuf8"
+        }
+      },
+      {
+        "name": "Grip",
+        "tier": "six",
+        "aliases": [
+          "bat grip"
+        ],
+        "verified": {
+          "wiki": "Cricket bat",
+          "date": "2026-11-24",
+          "key": "tdrkzg"
+        }
+      },
+      {
+        "name": "Neck guard",
+        "tier": "four",
+        "aliases": [
+          "stem guard",
+          "neck protector",
+          "neck protectors"
+        ],
+        "verified": {
+          "wiki": "Cricket helmet",
+          "date": "2026-11-24",
+          "key": "1ffh2me"
+        }
+      },
+      {
+        "name": "Visor",
+        "tier": "six",
+        "verified": {
+          "wiki": "Cricket clothing and equipment",
+          "date": "2026-11-24",
+          "key": "1e5auhi"
+        }
+      },
+      {
+        "name": "Grille",
+        "tier": "six",
+        "aliases": [
+          "helmet grille",
+          "face guard",
+          "grill"
+        ],
+        "verified": {
+          "wiki": "Cricket helmet",
+          "date": "2026-11-24",
+          "key": "1dam6em"
+        }
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cricket_clothing_and_equipment",
+      "https://en.wikipedia.org/wiki/Cricket_helmet",
+      "https://en.wikipedia.org/wiki/Wicket-keeper%27s_gloves",
+      "https://en.wikipedia.org/wiki/Cricket_bat"
+    ]
+  },
+  {
+    "id": "leg-side-fielding-positions",
+    "prompt": "Name a fielding position on the leg side (for a right-handed batter)",
+    "category": "Fielding",
+    "answerType": "position",
+    "answers": [
+      {
+        "name": "Fine leg",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "199ic4"
+        }
+      },
+      {
+        "name": "Square leg",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "r8u7rr"
+        }
+      },
+      {
+        "name": "Mid-on",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "b0yev4"
+        }
+      },
+      {
+        "name": "Mid-wicket",
+        "tier": "single",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "ko25a"
+        }
+      },
+      {
+        "name": "Long on",
+        "tier": "two",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "13un6cb"
+        }
+      },
+      {
+        "name": "Deep square leg",
+        "tier": "two",
+        "aliases": [
+          "deep square"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1cdkcas"
+        }
+      },
+      {
+        "name": "Short leg",
+        "tier": "two",
+        "aliases": [
+          "bat pad"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1s5lig6"
+        }
+      },
+      {
+        "name": "Leg slip",
+        "tier": "two",
+        "verified": {
+          "wiki": "Slip (cricket)",
+          "date": "2026-11-24",
+          "key": "130hczy"
+        }
+      },
+      {
+        "name": "Cow corner",
+        "tier": "two",
+        "verified": {
+          "wiki": "Cow corner",
+          "date": "2026-11-24",
+          "key": "jj8y4o"
+        }
+      },
+      {
+        "name": "Deep mid-wicket",
+        "tier": "two",
+        "wiki": "Fielding (cricket)",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "10zv7wh"
+        }
+      },
+      {
+        "name": "Long leg",
+        "tier": "four",
+        "verified": {
+          "wiki": "Leg side",
+          "date": "2026-11-24",
+          "key": "t1qyde"
+        }
+      },
+      {
+        "name": "Short fine leg",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "anf2aa"
+        }
+      },
+      {
+        "name": "Backward square leg",
+        "tier": "four",
+        "aliases": [
+          "backward square"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "pvfpja"
+        }
+      },
+      {
+        "name": "Leg gully",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "whho7b"
+        }
+      },
+      {
+        "name": "Silly mid-on",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "142nlf5"
+        }
+      },
+      {
+        "name": "Forward short leg",
+        "tier": "six",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "ulwh07"
+        }
+      },
+      {
+        "name": "Deep backward square leg",
+        "tier": "six",
+        "aliases": [
+          "deep backward square"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1l9et4w"
+        }
+      },
+      {
+        "name": "Backward short leg",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "c4t6e3"
+        }
+      },
+      {
+        "name": "On the 45",
+        "tier": "six",
+        "aliases": [
+          "the 45"
+        ],
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "1bduxoj"
+        }
+      },
+      {
+        "name": "Sweeper",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
+          "key": "132topz"
+        }
+      }
+    ],
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fielding_(cricket)",
+      "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
+      "https://en.wikipedia.org/wiki/Leg_side"
+    ]
+  },
+  {
+    "id": "test-300-wicket-bowlers",
+    "prompt": "Name a bowler who had taken 300 or more men's Test wickets by the end of October 2026",
+    "category": "Bowling records",
+    "answerType": "player",
+    "answers": [
+      {
+        "name": "Muttiah Muralitharan",
+        "tier": "single",
+        "aliases": [
+          "murali",
+          "muralidaran"
+        ],
+        "verified": {
+          "wiki": "Muttiah Muralitharan",
+          "date": "2026-11-24",
+          "key": "y4mwxy"
+        }
+      },
+      {
+        "name": "Shane Warne",
+        "tier": "single",
+        "verified": {
+          "wiki": "Shane Warne",
+          "date": "2026-11-24",
+          "key": "1np6yh8"
+        },
+        "aliases": [
+          "Warney"
+        ]
+      },
+      {
+        "name": "James Anderson",
+        "tier": "single",
+        "aliases": [
+          "jimmy anderson",
+          "Jimmy"
+        ],
+        "wiki": "James Anderson (cricketer)",
+        "verified": {
+          "wiki": "James Anderson (cricketer)",
+          "date": "2026-11-24",
+          "key": "cszvl0"
+        }
+      },
+      {
+        "name": "Anil Kumble",
+        "tier": "single",
+        "verified": {
+          "wiki": "Anil Kumble",
+          "date": "2026-11-24",
+          "key": "gzeofr"
+        },
+        "aliases": [
+          "Jumbo"
+        ]
+      },
+      {
+        "name": "Stuart Broad",
+        "tier": "single",
+        "verified": {
+          "wiki": "Stuart Broad",
+          "date": "2026-11-24",
+          "key": "1gevulq"
+        },
+        "aliases": [
+          "Broady"
+        ]
+      },
+      {
+        "name": "Glenn McGrath",
+        "tier": "single",
+        "verified": {
+          "wiki": "Glenn McGrath",
+          "date": "2026-11-24",
+          "key": "xmjbee"
+        },
+        "aliases": [
+          "Pigeon"
+        ]
+      },
+      {
+        "name": "Nathan Lyon",
+        "tier": "single",
+        "verified": {
+          "wiki": "Nathan Lyon",
+          "date": "2026-11-24",
+          "key": "zdnbem"
+        }
+      },
+      {
+        "name": "Ravichandran Ashwin",
+        "tier": "single",
+        "aliases": [
+          "r ashwin"
+        ],
+        "wiki": "Ravichandran Ashwin",
+        "verified": {
+          "wiki": "Ravichandran Ashwin",
+          "date": "2026-11-24",
+          "key": "1t9wykp"
+        }
+      },
+      {
+        "name": "Courtney Walsh",
+        "tier": "two",
+        "verified": {
+          "wiki": "Courtney Walsh",
+          "date": "2026-11-24",
+          "key": "2l3wdo"
+        }
+      },
+      {
+        "name": "Dale Steyn",
+        "tier": "two",
+        "verified": {
+          "wiki": "Dale Steyn",
+          "date": "2026-11-24",
+          "key": "p2xo7o"
+        },
+        "aliases": [
+          "Steyn Gun"
+        ]
+      },
+      {
+        "name": "Kapil Dev",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kapil Dev",
+          "date": "2026-11-24",
+          "key": "ibvyjs"
+        },
+        "aliases": [
+          "Kapil",
+          "Haryana Hurricane"
+        ]
+      },
+      {
+        "name": "Richard Hadlee",
+        "tier": "two",
+        "verified": {
+          "wiki": "Richard Hadlee",
+          "date": "2026-11-24",
+          "key": "tm3tuz"
+        },
+        "aliases": [
+          "Paddles"
+        ]
+      },
+      {
+        "name": "Wasim Akram",
+        "tier": "two",
+        "verified": {
+          "wiki": "Wasim Akram",
+          "date": "2026-11-24",
+          "key": "6hnd02"
+        },
+        "aliases": [
+          "Wasim"
+        ]
+      },
+      {
+        "name": "Curtly Ambrose",
+        "tier": "two",
+        "verified": {
+          "wiki": "Curtly Ambrose",
+          "date": "2026-11-24",
+          "key": "1hw5i1s"
+        }
+      },
+      {
+        "name": "Mitchell Starc",
+        "tier": "two",
+        "verified": {
+          "wiki": "Mitchell Starc",
+          "date": "2026-11-24",
+          "key": "1811wgp"
+        },
+        "aliases": [
+          "Mitch Starc"
+        ]
+      },
+      {
+        "name": "Harbhajan Singh",
+        "tier": "two",
+        "aliases": [
+          "harbhajan",
+          "bhajji"
+        ],
+        "verified": {
+          "wiki": "Harbhajan Singh",
+          "date": "2026-11-24",
+          "key": "15el4s7"
+        }
+      },
+      {
+        "name": "Ian Botham",
+        "tier": "two",
+        "verified": {
+          "wiki": "Ian Botham",
+          "date": "2026-11-24",
+          "key": "1x30r5e"
+        },
+        "aliases": [
+          "Beefy"
+        ]
+      },
+      {
+        "name": "Pat Cummins",
+        "tier": "two",
+        "verified": {
+          "wiki": "Pat Cummins",
+          "date": "2026-11-24",
+          "key": "1r7578j"
+        }
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "tier": "two",
+        "verified": {
+          "wiki": "Ravindra Jadeja",
+          "date": "2026-11-24",
+          "key": "1v48ewq"
+        },
+        "aliases": [
+          "Jaddu"
+        ]
+      },
+      {
+        "name": "Waqar Younis",
+        "tier": "two",
+        "verified": {
+          "wiki": "Waqar Younis",
+          "date": "2026-11-24",
+          "key": "ip915j"
+        }
+      },
+      {
+        "name": "Malcolm Marshall",
+        "tier": "two",
+        "verified": {
+          "wiki": "Malcolm Marshall",
+          "date": "2026-11-24",
+          "key": "b3roco"
+        },
+        "aliases": [
+          "Macko"
+        ]
+      },
+      {
+        "name": "Rangana Herath",
+        "tier": "four",
+        "verified": {
+          "wiki": "Rangana Herath",
+          "date": "2026-11-24",
+          "key": "wcqsm0"
+        }
+      },
+      {
+        "name": "Shaun Pollock",
+        "tier": "four",
+        "verified": {
+          "wiki": "Shaun Pollock",
+          "date": "2026-11-24",
+          "key": "12k9chl"
+        }
+      },
+      {
+        "name": "Tim Southee",
+        "tier": "four",
+        "verified": {
+          "wiki": "Tim Southee",
+          "date": "2026-11-24",
+          "key": "1876peh"
+        }
+      },
+      {
+        "name": "Makhaya Ntini",
+        "tier": "four",
+        "verified": {
+          "wiki": "Makhaya Ntini",
+          "date": "2026-11-24",
+          "key": "1hk180w"
+        }
+      },
+      {
+        "name": "Imran Khan",
+        "tier": "four",
+        "verified": {
+          "wiki": "Imran Khan",
+          "date": "2026-11-24",
+          "key": "1rchzog"
+        },
+        "aliases": [
+          "Imran"
+        ]
+      },
+      {
+        "name": "Daniel Vettori",
+        "tier": "four",
+        "verified": {
+          "wiki": "Daniel Vettori",
+          "date": "2026-11-24",
+          "key": "1fzarmo"
+        },
+        "aliases": [
+          "Dan Vettori"
+        ]
+      },
+      {
+        "name": "Dennis Lillee",
+        "tier": "four",
+        "verified": {
+          "wiki": "Dennis Lillee",
+          "date": "2026-11-24",
+          "key": "12loif2"
+        }
+      },
+      {
+        "name": "Chaminda Vaas",
+        "tier": "four",
+        "verified": {
+          "wiki": "Chaminda Vaas",
+          "date": "2026-11-24",
+          "key": "1nidzlw"
+        }
+      },
+      {
+        "name": "Kagiso Rabada",
+        "tier": "four",
+        "verified": {
+          "wiki": "Kagiso Rabada",
+          "date": "2026-11-24",
+          "key": "tcd7np"
+        }
+      },
+      {
+        "name": "Allan Donald",
+        "tier": "four",
+        "verified": {
+          "wiki": "Allan Donald",
+          "date": "2026-11-24",
+          "key": "cn0cax"
+        },
+        "aliases": [
+          "White Lightning"
+        ]
+      },
+      {
+        "name": "Trent Boult",
+        "tier": "four",
+        "verified": {
+          "wiki": "Trent Boult",
+          "date": "2026-11-24",
+          "key": "l0mauh"
+        },
+        "misspellings": [
+          "Bolt"
+        ]
+      },
+      {
+        "name": "Brett Lee",
+        "tier": "four",
+        "verified": {
+          "wiki": "Brett Lee",
+          "date": "2026-11-24",
+          "key": "yslhrf"
+        },
+        "aliases": [
+          "Bing"
+        ]
+      },
+      {
+        "name": "Zaheer Khan",
+        "tier": "four",
+        "verified": {
+          "wiki": "Zaheer Khan",
+          "date": "2026-11-24",
+          "key": "7yzfp6"
+        },
+        "aliases": [
+          "Zaheer",
+          "Zak"
+        ]
+      },
+      {
+        "name": "Mitchell Johnson",
+        "tier": "four",
+        "wiki": "Mitchell Johnson (cricketer)",
+        "verified": {
+          "wiki": "Mitchell Johnson",
+          "date": "2026-11-24",
+          "key": "1m0z1yc"
+        },
+        "aliases": [
+          "Mitch Johnson"
+        ]
+      },
+      {
+        "name": "Josh Hazlewood",
+        "tier": "four",
+        "verified": {
+          "wiki": "Josh Hazlewood",
+          "date": "2026-11-24",
+          "key": "1be9tr1"
+        }
+      },
+      {
+        "name": "Bob Willis",
+        "tier": "six",
+        "verified": {
+          "wiki": "Bob Willis",
+          "date": "2026-11-24",
+          "key": "mt1qe9"
+        }
+      },
+      {
+        "name": "Ishant Sharma",
+        "tier": "six",
+        "verified": {
+          "wiki": "Ishant Sharma",
+          "date": "2026-11-24",
+          "key": "cfwf0g"
+        },
+        "aliases": [
+          "Lambu"
+        ]
+      },
+      {
+        "name": "Morne Morkel",
+        "tier": "six",
+        "wiki": "Morné Morkel",
+        "verified": {
+          "wiki": "Morné Morkel",
+          "date": "2026-11-24",
+          "key": "11m9gar"
+        }
+      },
+      {
+        "name": "Fred Trueman",
+        "tier": "six",
+        "aliases": [
+          "freddie trueman",
+          "Fiery Fred"
+        ],
+        "verified": {
+          "wiki": "Fred Trueman",
+          "date": "2026-11-24",
+          "key": "1lotj02"
+        }
+      },
+      {
+        "name": "Kemar Roach",
+        "tier": "six",
+        "verified": {
+          "wiki": "Kemar Roach",
+          "date": "2026-11-24",
+          "key": "3ff4pt"
+        }
+      },
+      {
+        "name": "Lance Gibbs",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Lance Gibbs",
+          "date": "2026-11-24",
+          "key": "11e1p5s"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_bowlers_who_have_taken_300_or_more_wickets_in_Test_cricket"
+    ]
+  },
+  {
+    "id": "england-wales-odi-grounds",
+    "prompt": "Name a ground (or its town) in England or Wales that has hosted a men's ODI",
+    "category": "Grounds",
+    "answerType": "ground",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Lord's",
+        "tier": "single",
+        "aliases": [
+          "lords cricket ground",
+          "Home of Cricket"
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-24",
+          "key": "7kpv7d"
+        }
+      },
+      {
+        "name": "The Oval",
+        "tier": "single",
+        "aliases": [
+          "kennington oval",
+          "kia oval",
+          "Brit Oval",
+          "Foster's Oval"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-24",
+          "key": "1i0tnbw"
+        }
+      },
+      {
+        "name": "Old Trafford",
+        "tier": "single",
+        "aliases": [
+          "manchester",
+          "emirates old trafford"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-24",
+          "key": "x80gtv"
+        }
+      },
+      {
+        "name": "Edgbaston",
+        "tier": "single",
+        "aliases": [
+          "birmingham"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-24",
+          "key": "x96ze4"
+        }
+      },
+      {
+        "name": "Headingley",
+        "tier": "single",
+        "aliases": [
+          "leeds"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-24",
+          "key": "114m4hz"
+        }
+      },
+      {
+        "name": "Trent Bridge",
+        "tier": "single",
+        "aliases": [
+          "nottingham"
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-24",
+          "key": "1mosqvc"
+        }
+      },
+      {
+        "name": "Rose Bowl",
+        "tier": "two",
+        "aliases": [
+          "ageas bowl",
+          "utilita bowl",
+          "hampshire bowl",
+          "southampton"
+        ],
+        "wiki": "Rose Bowl (cricket ground)",
+        "verified": {
+          "wiki": "Rose Bowl (cricket ground)",
+          "date": "2026-11-24",
+          "key": "1djn8id"
+        }
+      },
+      {
+        "name": "Sophia Gardens",
+        "tier": "two",
+        "aliases": [
+          "cardiff",
+          "swalec stadium",
+          "SSE SWALEC"
+        ],
+        "wiki": "Sophia Gardens Cricket Ground",
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-24",
+          "key": "tux9i5"
+        }
+      },
+      {
+        "name": "Riverside Ground",
+        "tier": "two",
+        "aliases": [
+          "chester-le-street",
+          "riverside",
+          "seat unique riverside",
+          "emirates riverside"
+        ],
+        "wiki": "Riverside Ground",
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-24",
+          "key": "9ntyo9"
+        }
+      },
+      {
+        "name": "Bristol",
+        "tier": "two",
+        "aliases": [
+          "nevil road",
+          "bristol county ground",
+          "seat unique stadium"
+        ],
+        "wiki": "Bristol County Ground",
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-24",
+          "key": "3smg8c"
+        }
+      },
+      {
+        "name": "Taunton",
+        "tier": "two",
+        "aliases": [
+          "cooper associates county ground"
+        ],
+        "wiki": "County Ground, Taunton",
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-24",
+          "key": "ofhngl"
+        }
+      },
+      {
+        "name": "Chelmsford",
+        "tier": "four",
+        "aliases": [
+          "cloudfm county ground"
+        ],
+        "wiki": "County Ground, Chelmsford",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-24",
+          "key": "633ura"
+        }
+      },
+      {
+        "name": "Canterbury",
+        "tier": "four",
+        "aliases": [
+          "st lawrence ground",
+          "spitfire ground"
+        ],
+        "wiki": "St Lawrence Ground",
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-24",
+          "key": "7xvdqq"
+        }
+      },
+      {
+        "name": "Hove",
+        "tier": "four",
+        "aliases": [
+          "1st central county ground"
+        ],
+        "wiki": "County Cricket Ground, Hove",
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-24",
+          "key": "165u4dw"
+        }
+      },
+      {
+        "name": "Northampton",
+        "tier": "four",
+        "aliases": [
+          "wantage road"
+        ],
+        "wiki": "County Ground, Northampton",
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-24",
+          "key": "6tyd44"
+        }
+      },
+      {
+        "name": "Leicester",
+        "tier": "four",
+        "aliases": [
+          "grace road"
+        ],
+        "wiki": "Grace Road",
+        "verified": {
+          "wiki": "Grace Road",
+          "date": "2026-11-24",
+          "key": "14u817w"
+        }
+      },
+      {
+        "name": "Worcester",
+        "tier": "four",
+        "aliases": [
+          "new road"
+        ],
+        "wiki": "New Road",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-24",
+          "key": "nvrg5m"
+        }
+      },
+      {
+        "name": "Derby",
+        "tier": "four",
+        "aliases": [
+          "racecourse ground",
+          "incora county ground"
+        ],
+        "wiki": "County Cricket Ground, Derby",
+        "verified": {
+          "wiki": "County Cricket Ground, Derby",
+          "date": "2026-11-24",
+          "key": "v18pnq"
+        }
+      },
+      {
+        "name": "Scarborough",
+        "tier": "six",
+        "aliases": [
+          "north marine road"
+        ],
+        "wiki": "North Marine Road Ground",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-24",
+          "key": "ejlszg"
+        }
+      },
+      {
+        "name": "Tunbridge Wells",
+        "tier": "six",
+        "aliases": [
+          "nevill ground",
+          "royal tunbridge wells"
+        ],
+        "wiki": "Nevill Ground",
+        "verified": {
+          "wiki": "Nevill Ground",
+          "date": "2026-11-24",
+          "key": "kglao1"
+        }
+      },
+      {
+        "name": "Northlands Road",
+        "tier": "six",
+        "aliases": [
+          "county ground southampton"
+        ],
+        "wiki": "County Ground, Southampton",
+        "verified": {
+          "wiki": "County Ground, Southampton",
+          "date": "2026-11-24",
+          "key": "1lzzx5n"
+        }
+      },
+      {
+        "name": "St Helen's",
+        "tier": "ootg",
+        "aliases": [
+          "swansea",
+          "st helens swansea"
+        ],
+        "wiki": "St Helen's Rugby and Cricket Ground",
+        "verified": {
+          "wiki": "St Helen's Rugby and Cricket Ground",
+          "date": "2026-11-24",
+          "key": "17moow4"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds"
+    ]
+  },
+  {
+    "id": "world-cup-qualifier-teams",
+    "prompt": "Name a team that played at the men's ICC Trophy / Cricket World Cup Qualifier (1979–2023)",
+    "category": "World Cups",
+    "answerType": "country",
+    "answers": [
+      {
+        "name": "Ireland",
+        "tier": "single",
+        "wiki": "Ireland national cricket team",
+        "verified": {
+          "wiki": "Ireland cricket team",
+          "date": "2026-11-24",
+          "key": "1t8a6jo"
+        }
+      },
+      {
+        "name": "Netherlands",
+        "tier": "single",
+        "aliases": [
+          "holland"
+        ],
+        "wiki": "Netherlands national cricket team",
+        "verified": {
+          "wiki": "Netherlands national cricket team",
+          "date": "2026-11-24",
+          "key": "iev0wa"
+        }
+      },
+      {
+        "name": "Scotland",
+        "tier": "single",
+        "wiki": "Scotland national cricket team",
+        "verified": {
+          "wiki": "Scotland national cricket team",
+          "date": "2026-11-24",
+          "key": "8dx2th"
+        },
+        "aliases": [
+          "Saltires"
+        ]
+      },
+      {
+        "name": "Zimbabwe",
+        "tier": "single",
+        "wiki": "Zimbabwe national cricket team",
+        "verified": {
+          "wiki": "Zimbabwe national cricket team",
+          "date": "2026-11-24",
+          "key": "1aebmb2"
+        },
+        "aliases": [
+          "Chevrons"
+        ]
+      },
+      {
+        "name": "Kenya",
+        "tier": "single",
+        "wiki": "Kenya national cricket team",
+        "verified": {
+          "wiki": "Kenya national cricket team",
+          "date": "2026-11-24",
+          "key": "6fqpoy"
+        }
+      },
+      {
+        "name": "Afghanistan",
+        "tier": "two",
+        "wiki": "Afghanistan national cricket team",
+        "verified": {
+          "wiki": "Afghanistan national cricket team",
+          "date": "2026-11-24",
+          "key": "791p2y"
+        }
+      },
+      {
+        "name": "United Arab Emirates",
+        "tier": "two",
+        "aliases": [
+          "uae"
+        ],
+        "wiki": "United Arab Emirates national cricket team",
+        "verified": {
+          "wiki": "United Arab Emirates national cricket team",
+          "date": "2026-11-24",
+          "key": "1m3cf07"
+        }
+      },
+      {
+        "name": "West Indies",
+        "tier": "two",
+        "aliases": [
+          "windies",
+          "WI"
+        ],
+        "wiki": "West Indies cricket team",
+        "verified": {
+          "wiki": "West Indies cricket team",
+          "date": "2026-11-24",
+          "key": "23xjpx"
+        }
+      },
+      {
+        "name": "Sri Lanka",
+        "tier": "two",
+        "wiki": "Sri Lanka national cricket team",
+        "verified": {
+          "wiki": "Sri Lanka national cricket team",
+          "date": "2026-11-24",
+          "key": "pgmhvq"
+        },
+        "aliases": [
+          "Lions",
+          "SL"
+        ]
+      },
+      {
+        "name": "Bangladesh",
+        "tier": "two",
+        "wiki": "Bangladesh national cricket team",
+        "verified": {
+          "wiki": "Bangladesh national cricket team",
+          "date": "2026-11-24",
+          "key": "1ncs5b1"
+        },
+        "aliases": [
+          "Tigers",
+          "Bangla Tigers"
+        ]
+      },
+      {
+        "name": "Canada",
+        "tier": "two",
+        "wiki": "Canada national cricket team",
+        "verified": {
+          "wiki": "Canada national cricket team",
+          "date": "2026-11-24",
+          "key": "1kxpuwi"
+        }
+      },
+      {
+        "name": "Namibia",
+        "tier": "two",
+        "wiki": "Namibia national cricket team",
+        "verified": {
+          "wiki": "Namibia national cricket team",
+          "date": "2026-11-24",
+          "key": "3w4bw3"
+        },
+        "aliases": [
+          "Eagles"
+        ]
+      },
+      {
+        "name": "United States",
+        "tier": "two",
+        "aliases": [
+          "usa",
+          "united states of america",
+          "america"
+        ],
+        "wiki": "United States national cricket team",
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-24",
+          "key": "2y3t0z"
+        }
+      },
+      {
+        "name": "Nepal",
+        "tier": "four",
+        "wiki": "Nepal national cricket team",
+        "verified": {
+          "wiki": "Nepal national cricket team",
+          "date": "2026-11-24",
+          "key": "10ts1ya"
+        }
+      },
+      {
+        "name": "Oman",
+        "tier": "four",
+        "wiki": "Oman national cricket team",
+        "verified": {
+          "wiki": "Oman national cricket team",
+          "date": "2026-11-24",
+          "key": "162tjb6"
+        }
+      },
+      {
+        "name": "Hong Kong",
+        "tier": "four",
+        "wiki": "Hong Kong national cricket team",
+        "verified": {
+          "wiki": "Hong Kong national cricket team",
+          "date": "2026-11-24",
+          "key": "yrx2v8"
+        }
+      },
+      {
+        "name": "Papua New Guinea",
+        "tier": "four",
+        "aliases": [
+          "png",
+          "Barramundis"
+        ],
+        "wiki": "Papua New Guinea national cricket team",
+        "verified": {
+          "wiki": "Papua New Guinea national cricket team",
+          "date": "2026-11-24",
+          "key": "124ow27"
+        }
+      },
+      {
+        "name": "Bermuda",
+        "tier": "four",
+        "wiki": "Bermuda national cricket team",
+        "verified": {
+          "wiki": "Bermuda national cricket team",
+          "date": "2026-11-24",
+          "key": "1dwuh42"
+        }
+      },
+      {
+        "name": "Denmark",
+        "tier": "four",
+        "wiki": "Denmark national cricket team",
+        "verified": {
+          "wiki": "Denmark national cricket team",
+          "date": "2026-11-24",
+          "key": "10mzy8a"
+        }
+      },
+      {
+        "name": "Uganda",
+        "tier": "four",
+        "wiki": "Uganda national cricket team",
+        "verified": {
+          "wiki": "Uganda national cricket team",
+          "date": "2026-11-24",
+          "key": "bwgp42"
+        }
+      },
+      {
+        "name": "Malaysia",
+        "tier": "four",
+        "wiki": "Malaysia national cricket team",
+        "verified": {
+          "wiki": "Malaysia national cricket team",
+          "date": "2026-11-24",
+          "key": "1gk1yi2"
+        }
+      },
+      {
+        "name": "Singapore",
+        "tier": "six",
+        "wiki": "Singapore national cricket team",
+        "verified": {
+          "wiki": "Singapore national cricket team",
+          "date": "2026-11-24",
+          "key": "1h6f1u2"
+        }
+      },
+      {
+        "name": "Fiji",
+        "tier": "six",
+        "wiki": "Fiji national cricket team",
+        "verified": {
+          "wiki": "Fiji national cricket team",
+          "date": "2026-11-24",
+          "key": "1remskq"
+        }
+      },
+      {
+        "name": "Argentina",
+        "tier": "six",
+        "wiki": "Argentina national cricket team",
+        "verified": {
+          "wiki": "Argentina national cricket team",
+          "date": "2026-11-24",
+          "key": "1r00zuc"
+        }
+      },
+      {
+        "name": "Israel",
+        "tier": "six",
+        "wiki": "Israel national cricket team",
+        "verified": {
+          "wiki": "Israel national cricket team",
+          "date": "2026-11-24",
+          "key": "18rso2"
+        }
+      },
+      {
+        "name": "Italy",
+        "tier": "six",
+        "wiki": "Italy national cricket team",
+        "verified": {
+          "wiki": "Italy national cricket team",
+          "date": "2026-11-24",
+          "key": "1thlw6c"
+        }
+      },
+      {
+        "name": "Germany",
+        "tier": "six",
+        "wiki": "Germany national cricket team",
+        "verified": {
+          "wiki": "Germany national cricket team",
+          "date": "2026-11-24",
+          "key": "hlgvkk"
+        }
+      },
+      {
+        "name": "Gibraltar",
+        "tier": "six",
+        "wiki": "Gibraltar national cricket team",
+        "verified": {
+          "wiki": "Gibraltar national cricket team",
+          "date": "2026-11-24",
+          "key": "1ya7p6a"
+        }
+      },
+      {
+        "name": "France",
+        "tier": "six",
+        "wiki": "France national cricket team",
+        "verified": {
+          "wiki": "France national cricket team",
+          "date": "2026-11-24",
+          "key": "1l8m4lq"
+        }
+      },
+      {
+        "name": "East Africa",
+        "tier": "six",
+        "wiki": "East Africa cricket team",
+        "verified": {
+          "wiki": "East Africa cricket team",
+          "date": "2026-11-24",
+          "key": "n0vqee"
+        }
+      },
+      {
+        "name": "West Africa",
+        "tier": "six",
+        "wiki": "West Africa cricket team",
+        "verified": {
+          "wiki": "West Africa cricket team",
+          "date": "2026-11-24",
+          "key": "10ag5ye"
+        }
+      },
+      {
+        "name": "Wales",
+        "tier": "six",
+        "wiki": "Wales national cricket team",
+        "verified": {
+          "wiki": "Wales national cricket team",
+          "date": "2026-11-24",
+          "key": "1tfdwgi"
+        }
+      },
+      {
+        "name": "East and Central Africa",
+        "tier": "ootg",
+        "wiki": "East and Central Africa cricket team",
+        "verified": {
+          "wiki": "East and Central Africa cricket team",
+          "date": "2026-11-24",
+          "key": "ydxkh6"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cricket_World_Cup_Qualifier"
+    ]
+  },
+  {
+    "id": "ten-thousand-run-men",
+    "prompt": "Name a man who had scored 10,000 runs in men's Tests or in men's ODIs by the end of October 2026",
+    "category": "Batting records",
+    "answerType": "player",
+    "answers": [
+      {
+        "name": "Sachin Tendulkar",
+        "tier": "single",
+        "verified": {
+          "wiki": "Sachin Tendulkar",
+          "date": "2026-11-24",
+          "key": "zqhkul"
+        },
+        "aliases": [
+          "Sachin",
+          "Little Master",
+          "Master Blaster"
+        ]
+      },
+      {
+        "name": "Virat Kohli",
+        "tier": "single",
+        "verified": {
+          "wiki": "Virat Kohli",
+          "date": "2026-11-24",
+          "key": "1vjksgr"
+        },
+        "aliases": [
+          "King Kohli"
+        ]
+      },
+      {
+        "name": "Ricky Ponting",
+        "tier": "single",
+        "verified": {
+          "wiki": "Ricky Ponting",
+          "date": "2026-11-24",
+          "key": "1cqvtph"
+        },
+        "aliases": [
+          "Punter"
+        ]
+      },
+      {
+        "name": "Brian Lara",
+        "tier": "single",
+        "verified": {
+          "wiki": "Brian Lara",
+          "date": "2026-11-24",
+          "key": "ywebeu"
+        },
+        "misspellings": [
+          "Bryan Lara"
+        ]
+      },
+      {
+        "name": "Jacques Kallis",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jacques Kallis",
+          "date": "2026-11-24",
+          "key": "1dpqp98"
+        },
+        "aliases": [
+          "Jakes"
+        ]
+      },
+      {
+        "name": "Rahul Dravid",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rahul Dravid",
+          "date": "2026-11-24",
+          "key": "1715g3r"
+        },
+        "aliases": [
+          "The Wall"
+        ]
+      },
+      {
+        "name": "Kumar Sangakkara",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kumar Sangakkara",
+          "date": "2026-11-24",
+          "key": "j8237m"
+        },
+        "aliases": [
+          "Sanga"
+        ]
+      },
+      {
+        "name": "Alastair Cook",
+        "tier": "two",
+        "verified": {
+          "wiki": "Alastair Cook",
+          "date": "2026-11-24",
+          "key": "od7pq3"
+        },
+        "aliases": [
+          "Chef"
+        ]
+      },
+      {
+        "name": "Joe Root",
+        "tier": "two",
+        "verified": {
+          "wiki": "Joe Root",
+          "date": "2026-11-24",
+          "key": "s2j2k2"
+        }
+      },
+      {
+        "name": "MS Dhoni",
+        "tier": "two",
+        "aliases": [
+          "mahendra singh dhoni",
+          "Mahi",
+          "Captain Cool"
+        ],
+        "wiki": "MS Dhoni",
+        "verified": {
+          "wiki": "MS Dhoni",
+          "date": "2026-11-24",
+          "key": "6w4f2"
+        }
+      },
+      {
+        "name": "Rohit Sharma",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rohit Sharma",
+          "date": "2026-11-24",
+          "key": "ygbolt"
+        },
+        "aliases": [
+          "Hitman"
+        ]
+      },
+      {
+        "name": "Chris Gayle",
+        "tier": "two",
+        "verified": {
+          "wiki": "Chris Gayle",
+          "date": "2026-11-24",
+          "key": "1ohpbjn"
+        },
+        "aliases": [
+          "Universe Boss"
+        ]
+      },
+      {
+        "name": "Mahela Jayawardene",
+        "tier": "two",
+        "verified": {
+          "wiki": "Mahela Jayawardene",
+          "date": "2026-11-24",
+          "key": "n742m1"
+        },
+        "aliases": [
+          "Mahela"
+        ]
+      },
+      {
+        "name": "Sanath Jayasuriya",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sanath Jayasuriya",
+          "date": "2026-11-24",
+          "key": "1xn7qv7"
+        }
+      },
+      {
+        "name": "Sourav Ganguly",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sourav Ganguly",
+          "date": "2026-11-24",
+          "key": "xkjme7"
+        },
+        "aliases": [
+          "Dada"
+        ]
+      },
+      {
+        "name": "Inzamam-ul-Haq",
+        "tier": "four",
+        "aliases": [
+          "inzamam",
+          "inzi"
+        ],
+        "verified": {
+          "wiki": "Inzamam-ul-Haq",
+          "date": "2026-11-24",
+          "key": "ppu4or"
+        }
+      },
+      {
+        "name": "Sunil Gavaskar",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sunil Gavaskar",
+          "date": "2026-11-24",
+          "key": "ly4dwh"
+        }
+      },
+      {
+        "name": "Steve Smith",
+        "tier": "four",
+        "aliases": [
+          "steven smith",
+          "Smudge"
+        ],
+        "wiki": "Steve Smith (cricketer)",
+        "verified": {
+          "wiki": "Steve Smith (cricketer)",
+          "date": "2026-11-24",
+          "key": "j3jgmh"
+        }
+      },
+      {
+        "name": "Steve Waugh",
+        "tier": "four",
+        "aliases": [
+          "stephen waugh",
+          "Tugga"
+        ],
+        "verified": {
+          "wiki": "Steve Waugh",
+          "date": "2026-11-24",
+          "key": "avgz2m"
+        }
+      },
+      {
+        "name": "Allan Border",
+        "tier": "four",
+        "verified": {
+          "wiki": "Allan Border",
+          "date": "2026-11-24",
+          "key": "1f7pslt"
+        },
+        "aliases": [
+          "AB"
+        ]
+      },
+      {
+        "name": "Shivnarine Chanderpaul",
+        "tier": "six",
+        "verified": {
+          "wiki": "Shivnarine Chanderpaul",
+          "date": "2026-11-24",
+          "key": "zlkgbs"
+        }
+      },
+      {
+        "name": "Younis Khan",
+        "tier": "six",
+        "aliases": [
+          "younus khan"
+        ],
+        "verified": {
+          "wiki": "Younis Khan",
+          "date": "2026-11-24",
+          "key": "6573g0"
+        }
+      },
+      {
+        "name": "Tillakaratne Dilshan",
+        "tier": "ootg",
+        "aliases": [
+          "tm dilshan"
+        ],
+        "verified": {
+          "wiki": "Tillakaratne Dilshan",
+          "date": "2026-11-24",
+          "key": "6kndav"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_records",
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_records",
+      "https://en.wikipedia.org/wiki/List_of_players_who_have_scored_10,000_or_more_runs_in_Test_cricket",
+      "https://en.wikipedia.org/wiki/List_of_players_who_have_scored_10,000_or_more_runs_in_One_Day_International_cricket"
+    ]
+  },
+  {
+    "id": "ranji-trophy-winners",
+    "prompt": "Name a team that has won the Ranji Trophy (up to 2025–26)",
+    "category": "Indian domestic",
+    "answerType": "team",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Mumbai",
+        "tier": "single",
+        "aliases": [
+          "bombay"
+        ],
+        "wiki": "Mumbai cricket team",
+        "verified": {
+          "wiki": "Mumbai cricket team",
+          "date": "2026-11-24",
+          "key": "1m57l5b"
+        }
+      },
+      {
+        "name": "Karnataka",
+        "tier": "single",
+        "aliases": [
+          "mysore"
+        ],
+        "wiki": "Karnataka cricket team",
+        "verified": {
+          "wiki": "Karnataka cricket team",
+          "date": "2026-11-24",
+          "key": "1801bm2"
+        }
+      },
+      {
+        "name": "Delhi",
+        "tier": "single",
+        "wiki": "Delhi cricket team",
+        "verified": {
+          "wiki": "Delhi cricket team",
+          "date": "2026-11-24",
+          "key": "urc8ql"
+        }
+      },
+      {
+        "name": "Tamil Nadu",
+        "tier": "two",
+        "aliases": [
+          "madras"
+        ],
+        "wiki": "Tamil Nadu cricket team",
+        "verified": {
+          "wiki": "Tamil Nadu cricket team",
+          "date": "2026-11-24",
+          "key": "bbz9zl"
+        }
+      },
+      {
+        "name": "Baroda",
+        "tier": "two",
+        "wiki": "Baroda cricket team",
+        "verified": {
+          "wiki": "Baroda cricket team",
+          "date": "2026-11-24",
+          "key": "e0gc9d"
+        }
+      },
+      {
+        "name": "Bengal",
+        "tier": "two",
+        "wiki": "Bengal cricket team",
+        "verified": {
+          "wiki": "Bengal cricket team",
+          "date": "2026-11-24",
+          "key": "oju361"
+        }
+      },
+      {
+        "name": "Hyderabad",
+        "tier": "two",
+        "wiki": "Hyderabad cricket team",
+        "verified": {
+          "wiki": "Hyderabad cricket team",
+          "date": "2026-11-24",
+          "key": "bkz1dl"
+        }
+      },
+      {
+        "name": "Madhya Pradesh",
+        "tier": "two",
+        "aliases": [
+          "mp"
+        ],
+        "wiki": "Madhya Pradesh cricket team",
+        "verified": {
+          "wiki": "Madhya Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "1q0fkrk"
+        }
+      },
+      {
+        "name": "Vidarbha",
+        "tier": "two",
+        "wiki": "Vidarbha cricket team",
+        "verified": {
+          "wiki": "Vidarbha cricket team",
+          "date": "2026-11-24",
+          "key": "lqpnux"
+        }
+      },
+      {
+        "name": "Saurashtra",
+        "tier": "two",
+        "wiki": "Saurashtra cricket team",
+        "verified": {
+          "wiki": "Saurashtra cricket team",
+          "date": "2026-11-24",
+          "key": "yflhpl"
+        }
+      },
+      {
+        "name": "Rajasthan",
+        "tier": "four",
+        "wiki": "Rajasthan cricket team",
+        "verified": {
+          "wiki": "Rajasthan cricket team",
+          "date": "2026-11-24",
+          "key": "xyq61h"
+        }
+      },
+      {
+        "name": "Railways",
+        "tier": "four",
+        "wiki": "Railways cricket team",
+        "verified": {
+          "wiki": "Railways cricket team",
+          "date": "2026-11-24",
+          "key": "1vfrk1l"
+        }
+      },
+      {
+        "name": "Maharashtra",
+        "tier": "four",
+        "wiki": "Maharashtra cricket team",
+        "verified": {
+          "wiki": "Maharashtra cricket team",
+          "date": "2026-11-24",
+          "key": "xfmfw1"
+        }
+      },
+      {
+        "name": "Haryana",
+        "tier": "four",
+        "wiki": "Haryana cricket team",
+        "verified": {
+          "wiki": "Haryana cricket team",
+          "date": "2026-11-24",
+          "key": "5wlnqx"
+        }
+      },
+      {
+        "name": "Punjab",
+        "tier": "four",
+        "wiki": "Punjab cricket team",
+        "verified": {
+          "wiki": "Ranji Trophy",
+          "date": "2026-11-24",
+          "key": "1rrn8qh"
+        }
+      },
+      {
+        "name": "Uttar Pradesh",
+        "tier": "four",
+        "aliases": [
+          "up"
+        ],
+        "wiki": "Uttar Pradesh cricket team",
+        "verified": {
+          "wiki": "Uttar Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "11qag9c"
+        }
+      },
+      {
+        "name": "Gujarat",
+        "tier": "four",
+        "wiki": "Gujarat cricket team",
+        "verified": {
+          "wiki": "Gujarat cricket team",
+          "date": "2026-11-24",
+          "key": "itrtk9"
+        }
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "tier": "four",
+        "aliases": [
+          "j&k",
+          "kashmir"
+        ],
+        "wiki": "Jammu and Kashmir cricket team",
+        "verified": {
+          "wiki": "Jammu and Kashmir cricket team",
+          "date": "2026-11-24",
+          "key": "1f7g3bf"
+        }
+      },
+      {
+        "name": "Holkar",
+        "tier": "six",
+        "wiki": "Holkar cricket team",
+        "verified": {
+          "wiki": "Madhya Pradesh cricket team",
+          "date": "2026-11-24",
+          "key": "5z14mh"
+        }
+      },
+      {
+        "name": "Nawanagar",
+        "tier": "six",
+        "wiki": "Nawanagar cricket team",
+        "verified": {
+          "wiki": "Nawanagar cricket team",
+          "date": "2026-11-24",
+          "key": "1kqxkwp"
+        }
+      },
+      {
+        "name": "Western India",
+        "tier": "ootg",
+        "wiki": "Western India cricket team",
+        "verified": {
+          "wiki": "Western India cricket team",
+          "date": "2026-11-24",
+          "key": "1tyznmn"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "domestic",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ranji_Trophy"
+    ]
+  },
+  {
+    "id": "odi-hat-trick-bowlers",
+    "prompt": "Name a bowler who has taken a hat-trick in a men's ODI",
+    "category": "Bowling records",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Lasith Malinga",
+        "tier": "single",
+        "verified": {
+          "wiki": "Lasith Malinga",
+          "date": "2026-11-24",
+          "key": "6kljrt"
+        }
+      },
+      {
+        "name": "Wasim Akram",
+        "tier": "single",
+        "verified": {
+          "wiki": "Wasim Akram",
+          "date": "2026-11-24",
+          "key": "10z32xn"
+        },
+        "aliases": [
+          "Wasim"
+        ]
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "tier": "single",
+        "verified": {
+          "wiki": "Kuldeep Yadav",
+          "date": "2026-11-24",
+          "key": "fviuy2"
+        }
+      },
+      {
+        "name": "Mohammed Shami",
+        "tier": "single",
+        "aliases": [
+          "mohammad shami"
+        ],
+        "verified": {
+          "wiki": "Mohammed Shami",
+          "date": "2026-11-24",
+          "key": "5pip8n"
+        }
+      },
+      {
+        "name": "Brett Lee",
+        "tier": "single",
+        "verified": {
+          "wiki": "Brett Lee",
+          "date": "2026-11-24",
+          "key": "39dyfy"
+        },
+        "aliases": [
+          "Bing"
+        ]
+      },
+      {
+        "name": "Trent Boult",
+        "tier": "single",
+        "verified": {
+          "wiki": "Trent Boult",
+          "date": "2026-11-24",
+          "key": "lsgla4"
+        },
+        "misspellings": [
+          "Bolt"
+        ]
+      },
+      {
+        "name": "Waqar Younis",
+        "tier": "two",
+        "verified": {
+          "wiki": "Waqar Younis",
+          "date": "2026-11-24",
+          "key": "k0unky"
+        }
+      },
+      {
+        "name": "Saqlain Mushtaq",
+        "tier": "two",
+        "verified": {
+          "wiki": "Saqlain Mushtaq",
+          "date": "2026-11-24",
+          "key": "1xfwe02"
+        },
+        "aliases": [
+          "Saqlain"
+        ],
+        "misspellings": [
+          "Saklain Mustak"
+        ]
+      },
+      {
+        "name": "Chaminda Vaas",
+        "tier": "two",
+        "verified": {
+          "wiki": "Chaminda Vaas",
+          "date": "2026-11-24",
+          "key": "xxxp7h"
+        }
+      },
+      {
+        "name": "Andrew Flintoff",
+        "tier": "two",
+        "aliases": [
+          "freddie flintoff",
+          "Freddie"
+        ],
+        "verified": {
+          "wiki": "Andrew Flintoff",
+          "date": "2026-11-24",
+          "key": "1q6bfdk"
+        }
+      },
+      {
+        "name": "Steven Finn",
+        "tier": "two",
+        "aliases": [
+          "steve finn"
+        ],
+        "verified": {
+          "wiki": "Steven Finn",
+          "date": "2026-11-24",
+          "key": "imrsev"
+        }
+      },
+      {
+        "name": "Kagiso Rabada",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kagiso Rabada",
+          "date": "2026-11-24",
+          "key": "1ru89f4"
+        }
+      },
+      {
+        "name": "Shane Bond",
+        "tier": "two",
+        "verified": {
+          "wiki": "Shane Bond",
+          "date": "2026-11-24",
+          "key": "mwe6c7"
+        }
+      },
+      {
+        "name": "Steve Harmison",
+        "tier": "two",
+        "aliases": [
+          "stephen harmison"
+        ],
+        "verified": {
+          "wiki": "Steve Harmison",
+          "date": "2026-11-24",
+          "key": "17qnfv9"
+        }
+      },
+      {
+        "name": "Imran Tahir",
+        "tier": "two",
+        "verified": {
+          "wiki": "Imran Tahir",
+          "date": "2026-11-24",
+          "key": "1fm59dw"
+        }
+      },
+      {
+        "name": "Chetan Sharma",
+        "tier": "two",
+        "verified": {
+          "wiki": "Chetan Sharma",
+          "date": "2026-11-24",
+          "key": "t172q8"
+        }
+      },
+      {
+        "name": "Kapil Dev",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kapil Dev",
+          "date": "2026-11-24",
+          "key": "ayqdbc"
+        },
+        "aliases": [
+          "Kapil"
+        ]
+      },
+      {
+        "name": "JP Duminy",
+        "tier": "four",
+        "aliases": [
+          "jean-paul duminy"
+        ],
+        "verified": {
+          "wiki": "JP Duminy",
+          "date": "2026-11-24",
+          "key": "1y6wa3q"
+        }
+      },
+      {
+        "name": "Kemar Roach",
+        "tier": "four",
+        "verified": {
+          "wiki": "Kemar Roach",
+          "date": "2026-11-24",
+          "key": "zex6us"
+        }
+      },
+      {
+        "name": "Wanindu Hasaranga",
+        "tier": "four",
+        "verified": {
+          "wiki": "Wanindu Hasaranga",
+          "date": "2026-11-24",
+          "key": "914wgp"
+        }
+      },
+      {
+        "name": "Maheesh Theekshana",
+        "tier": "four",
+        "verified": {
+          "wiki": "Maheesh Theekshana",
+          "date": "2026-11-24",
+          "key": "1yhbfia"
+        }
+      },
+      {
+        "name": "Taskin Ahmed",
+        "tier": "four",
+        "verified": {
+          "wiki": "Taskin Ahmed",
+          "date": "2026-11-24",
+          "key": "fbh6r6"
+        }
+      },
+      {
+        "name": "James Faulkner",
+        "tier": "four",
+        "verified": {
+          "wiki": "James Faulkner (cricketer)",
+          "date": "2026-11-24",
+          "key": "5yfg55"
+        }
+      },
+      {
+        "name": "Mohammad Sami",
+        "tier": "four",
+        "verified": {
+          "wiki": "Mohammad Sami",
+          "date": "2026-11-24",
+          "key": "cu6qqx"
+        }
+      },
+      {
+        "name": "Jerome Taylor",
+        "tier": "four",
+        "verified": {
+          "wiki": "Jerome Taylor",
+          "date": "2026-11-24",
+          "key": "1k0jbsm"
+        }
+      },
+      {
+        "name": "Thisara Perera",
+        "tier": "four",
+        "verified": {
+          "wiki": "Thisara Perera",
+          "date": "2026-11-24",
+          "key": "1hdmbug"
+        }
+      },
+      {
+        "name": "Dan Christian",
+        "tier": "four",
+        "aliases": [
+          "daniel christian"
+        ],
+        "verified": {
+          "wiki": "Dan Christian",
+          "date": "2026-11-24",
+          "key": "780zyf"
+        }
+      },
+      {
+        "name": "Aaqib Javed",
+        "tier": "four",
+        "aliases": [
+          "aqib javed"
+        ],
+        "verified": {
+          "wiki": "Aaqib Javed",
+          "date": "2026-11-24",
+          "key": "hhvwiu"
+        }
+      },
+      {
+        "name": "Bruce Reid",
+        "tier": "four",
+        "verified": {
+          "wiki": "Bruce Reid",
+          "date": "2026-11-24",
+          "key": "6c0i8w"
+        }
+      },
+      {
+        "name": "Danny Morrison",
+        "tier": "four",
+        "wiki": "Danny Morrison (cricketer)",
+        "verified": {
+          "wiki": "Danny Morrison (cricketer)",
+          "date": "2026-11-24",
+          "key": "1jhr70f"
+        }
+      },
+      {
+        "name": "Clint McKay",
+        "tier": "four",
+        "verified": {
+          "wiki": "Clint McKay",
+          "date": "2026-11-24",
+          "key": "oawkke"
+        }
+      },
+      {
+        "name": "Eddo Brandes",
+        "tier": "six",
+        "verified": {
+          "wiki": "Eddo Brandes",
+          "date": "2026-11-24",
+          "key": "1urqack"
+        }
+      },
+      {
+        "name": "Anthony Stuart",
+        "tier": "six",
+        "wiki": "Anthony Stuart (cricketer)",
+        "verified": {
+          "wiki": "Anthony Stuart (cricketer)",
+          "date": "2026-11-24",
+          "key": "c5doxj"
+        }
+      },
+      {
+        "name": "Charl Langeveldt",
+        "tier": "six",
+        "verified": {
+          "wiki": "Charl Langeveldt",
+          "date": "2026-11-24",
+          "key": "1r6fegt"
+        }
+      },
+      {
+        "name": "Shahadat Hossain",
+        "tier": "six",
+        "wiki": "Shahadat Hossain (cricketer)",
+        "verified": {
+          "wiki": "List of One Day International cricket hat-tricks",
+          "date": "2026-11-24",
+          "key": "1h4huil"
+        },
+        "aliases": [
+          "Shahadat"
+        ]
+      },
+      {
+        "name": "Farveez Maharoof",
+        "tier": "six",
+        "verified": {
+          "wiki": "Farveez Maharoof",
+          "date": "2026-11-24",
+          "key": "1ipik2l"
+        }
+      },
+      {
+        "name": "Abdur Razzak",
+        "tier": "six",
+        "wiki": "Abdur Razzak (cricketer)",
+        "verified": {
+          "wiki": "Abdur Razzak (cricketer)",
+          "date": "2026-11-24",
+          "key": "1k3u1uv"
+        }
+      },
+      {
+        "name": "Rubel Hossain",
+        "tier": "six",
+        "verified": {
+          "wiki": "Rubel Hossain",
+          "date": "2026-11-24",
+          "key": "1ltwwgc"
+        },
+        "aliases": [
+          "Rubel"
+        ]
+      },
+      {
+        "name": "Prosper Utseya",
+        "tier": "six",
+        "verified": {
+          "wiki": "Prosper Utseya",
+          "date": "2026-11-24",
+          "key": "1we11rx"
+        }
+      },
+      {
+        "name": "Taijul Islam",
+        "tier": "six",
+        "verified": {
+          "wiki": "Taijul Islam",
+          "date": "2026-11-24",
+          "key": "yfkhlq"
+        }
+      },
+      {
+        "name": "Shehan Madushanka",
+        "tier": "six",
+        "verified": {
+          "wiki": "Shehan Madushanka",
+          "date": "2026-11-24",
+          "key": "2gt74h"
+        }
+      },
+      {
+        "name": "Wessly Madhevere",
+        "tier": "six",
+        "verified": {
+          "wiki": "Wessly Madhevere",
+          "date": "2026-11-24",
+          "key": "195ia5j"
+        }
+      },
+      {
+        "name": "Dilshan Madushanka",
+        "tier": "six",
+        "verified": {
+          "wiki": "Dilshan Madushanka",
+          "date": "2026-11-24",
+          "key": "5r2k8l"
+        }
+      },
+      {
+        "name": "Jalal-ud-Din",
+        "tier": "ootg",
+        "wiki": "Jalal-ud-Din (cricketer)",
+        "verified": {
+          "wiki": "Jalal-ud-Din (cricketer)",
+          "date": "2026-11-24",
+          "key": "hw5qrz"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_hat-tricks"
+    ]
+  },
+  {
+    "id": "t20-world-cup-semi-final-and-final-grounds",
+    "prompt": "Name a ground that hosted a men's T20 World Cup semi-final or final (2007–2024)",
+    "category": "World Cup venues",
+    "answerType": "ground",
+    "answers": [
+      {
+        "name": "Lord's",
+        "tier": "single",
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-24",
+          "key": "1yzn0s2"
+        },
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ]
+      },
+      {
+        "name": "Melbourne Cricket Ground",
+        "tier": "single",
+        "aliases": [
+          "mcg",
+          "melbourne",
+          "the G"
+        ],
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-24",
+          "key": "ogh9kq"
+        }
+      },
+      {
+        "name": "Kensington Oval",
+        "tier": "single",
+        "aliases": [
+          "bridgetown",
+          "barbados"
+        ],
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-24",
+          "key": "4ycv0s"
+        }
+      },
+      {
+        "name": "Eden Gardens",
+        "tier": "single",
+        "aliases": [
+          "kolkata",
+          "calcutta"
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-24",
+          "key": "14rkuhz"
+        }
+      },
+      {
+        "name": "Wankhede Stadium",
+        "tier": "single",
+        "aliases": [
+          "wankhede",
+          "mumbai"
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-24",
+          "key": "5k5man"
+        }
+      },
+      {
+        "name": "The Oval",
+        "tier": "two",
+        "aliases": [
+          "kennington oval",
+          "kia oval",
+          "Brit Oval",
+          "Foster's Oval"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-24",
+          "key": "hw6pd0"
+        }
+      },
+      {
+        "name": "Wanderers",
+        "tier": "two",
+        "aliases": [
+          "wanderers stadium",
+          "johannesburg",
+          "bullring"
+        ],
+        "wiki": "Wanderers Stadium",
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-24",
+          "key": "1anxm80"
+        }
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "tier": "two",
+        "aliases": [
+          "dubai",
+          "dubai international stadium"
+        ],
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "11thopl"
+        }
+      },
+      {
+        "name": "Adelaide Oval",
+        "tier": "two",
+        "aliases": [
+          "adelaide"
+        ],
+        "verified": {
+          "wiki": "Adelaide Oval",
+          "date": "2026-11-24",
+          "key": "q296jx"
+        }
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "tier": "two",
+        "aliases": [
+          "scg",
+          "sydney"
+        ],
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-24",
+          "key": "1ar1nza"
+        }
+      },
+      {
+        "name": "R Premadasa Stadium",
+        "tier": "four",
+        "aliases": [
+          "premadasa",
+          "khettarama",
+          "colombo"
+        ],
+        "wiki": "R. Premadasa Stadium",
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-24",
+          "key": "1bit4it"
+        }
+      },
+      {
+        "name": "Sher-e-Bangla National Stadium",
+        "tier": "four",
+        "aliases": [
+          "sher-e-bangla",
+          "mirpur",
+          "dhaka"
+        ],
+        "wiki": "Sher-e-Bangla National Cricket Stadium",
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "12t9kfb"
+        }
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "tier": "four",
+        "aliases": [
+          "feroz shah kotla",
+          "kotla",
+          "delhi"
+        ],
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "113osrg"
+        }
+      },
+      {
+        "name": "Newlands",
+        "tier": "four",
+        "aliases": [
+          "cape town"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-24",
+          "key": "1sldf4r"
+        }
+      },
+      {
+        "name": "Kingsmead",
+        "tier": "four",
+        "aliases": [
+          "durban"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-24",
+          "key": "3f15vy"
+        }
+      },
+      {
+        "name": "Trent Bridge",
+        "tier": "four",
+        "aliases": [
+          "nottingham"
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-24",
+          "key": "i1d2g0"
+        }
+      },
+      {
+        "name": "Sheikh Zayed Stadium",
+        "tier": "six",
+        "aliases": [
+          "sheikh zayed cricket stadium",
+          "zayed cricket stadium",
+          "abu dhabi"
+        ],
+        "wiki": "Sheikh Zayed Cricket Stadium",
+        "verified": {
+          "wiki": "Sheikh Zayed Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "ayvvst"
+        }
+      },
+      {
+        "name": "Beausejour Stadium",
+        "tier": "six",
+        "aliases": [
+          "beausejour",
+          "daren sammy cricket ground",
+          "daren sammy stadium",
+          "gros islet",
+          "st lucia"
+        ],
+        "wiki": "Daren Sammy Cricket Ground",
+        "verified": {
+          "wiki": "Daren Sammy Cricket Ground",
+          "date": "2026-11-24",
+          "key": "1pp3siw"
+        }
+      },
+      {
+        "name": "Providence Stadium",
+        "tier": "six",
+        "aliases": [
+          "providence",
+          "guyana national stadium",
+          "guyana"
+        ],
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-24",
+          "key": "1jzthgj"
+        }
+      },
+      {
+        "name": "Brian Lara Stadium",
+        "tier": "ootg",
+        "aliases": [
+          "brian lara cricket academy",
+          "tarouba",
+          "trinidad"
+        ],
+        "wiki": "Brian Lara Cricket Academy",
+        "verified": {
+          "wiki": "Brian Lara Cricket Academy",
+          "date": "2026-11-24",
+          "key": "vobima"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2007_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2009_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2010_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2012_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2014_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2016_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2021_ICC_Men%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2022_ICC_Men%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2024_ICC_Men%27s_T20_World_Cup"
+    ]
+  },
+  {
+    "id": "other-nations-100-tests",
+    "prompt": "Name a player who has played 100 men's Tests for a country other than England or Australia",
+    "category": "Appearances",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Sachin Tendulkar",
+        "tier": "single",
+        "verified": {
+          "wiki": "Sachin Tendulkar",
+          "date": "2026-11-24",
+          "key": "15gfr3"
+        },
+        "aliases": [
+          "Sachin",
+          "Little Master"
+        ]
+      },
+      {
+        "name": "Virat Kohli",
+        "tier": "single",
+        "verified": {
+          "wiki": "Virat Kohli",
+          "date": "2026-11-24",
+          "key": "1qokgm"
+        },
+        "aliases": [
+          "King Kohli"
+        ]
+      },
+      {
+        "name": "Rahul Dravid",
+        "tier": "single",
+        "verified": {
+          "wiki": "Rahul Dravid",
+          "date": "2026-11-24",
+          "key": "cw48nm"
+        },
+        "aliases": [
+          "The Wall"
+        ]
+      },
+      {
+        "name": "Brian Lara",
+        "tier": "single",
+        "verified": {
+          "wiki": "Brian Lara",
+          "date": "2026-11-24",
+          "key": "vybgsl"
+        },
+        "misspellings": [
+          "Bryan Lara"
+        ]
+      },
+      {
+        "name": "Jacques Kallis",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jacques Kallis",
+          "date": "2026-11-24",
+          "key": "1e2hfyn"
+        }
+      },
+      {
+        "name": "Kumar Sangakkara",
+        "tier": "single",
+        "verified": {
+          "wiki": "Kumar Sangakkara",
+          "date": "2026-11-24",
+          "key": "1584l35"
+        },
+        "aliases": [
+          "Sanga"
+        ]
+      },
+      {
+        "name": "Muttiah Muralitharan",
+        "tier": "single",
+        "aliases": [
+          "murali",
+          "muralidaran"
+        ],
+        "verified": {
+          "wiki": "Muttiah Muralitharan",
+          "date": "2026-11-24",
+          "key": "ku1orv"
+        }
+      },
+      {
+        "name": "Sunil Gavaskar",
+        "tier": "two",
+        "verified": {
+          "wiki": "Sunil Gavaskar",
+          "date": "2026-11-24",
+          "key": "wfvxxw"
+        }
+      },
+      {
+        "name": "Kapil Dev",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kapil Dev",
+          "date": "2026-11-24",
+          "key": "rnzy54"
+        },
+        "aliases": [
+          "Kapil"
+        ]
+      },
+      {
+        "name": "Anil Kumble",
+        "tier": "two",
+        "verified": {
+          "wiki": "Anil Kumble",
+          "date": "2026-11-24",
+          "key": "1v1gc4m"
+        },
+        "aliases": [
+          "Jumbo"
+        ]
+      },
+      {
+        "name": "VVS Laxman",
+        "tier": "two",
+        "verified": {
+          "wiki": "VVS Laxman",
+          "date": "2026-11-24",
+          "key": "4tetsi"
+        },
+        "aliases": [
+          "VVS"
+        ],
+        "misspellings": [
+          "Lakshman",
+          "VVS Lakshman"
+        ]
+      },
+      {
+        "name": "Sourav Ganguly",
+        "tier": "two",
+        "verified": {
+          "wiki": "Sourav Ganguly",
+          "date": "2026-11-24",
+          "key": "1quf2x6"
+        },
+        "aliases": [
+          "Dada"
+        ]
+      },
+      {
+        "name": "Virender Sehwag",
+        "tier": "two",
+        "verified": {
+          "wiki": "Virender Sehwag",
+          "date": "2026-11-24",
+          "key": "o2d9t5"
+        },
+        "aliases": [
+          "Viru"
+        ]
+      },
+      {
+        "name": "Ravichandran Ashwin",
+        "tier": "two",
+        "aliases": [
+          "r ashwin"
+        ],
+        "wiki": "Ravichandran Ashwin",
+        "verified": {
+          "wiki": "Ravichandran Ashwin",
+          "date": "2026-11-24",
+          "key": "i68mas"
+        }
+      },
+      {
+        "name": "Mahela Jayawardene",
+        "tier": "two",
+        "verified": {
+          "wiki": "Mahela Jayawardene",
+          "date": "2026-11-24",
+          "key": "5g1jyk"
+        },
+        "aliases": [
+          "Mahela"
+        ]
+      },
+      {
+        "name": "Viv Richards",
+        "tier": "two",
+        "aliases": [
+          "vivian richards",
+          "King Viv"
+        ],
+        "verified": {
+          "wiki": "Viv Richards",
+          "date": "2026-11-24",
+          "key": "1hrz4gp"
+        }
+      },
+      {
+        "name": "Shivnarine Chanderpaul",
+        "tier": "two",
+        "verified": {
+          "wiki": "Shivnarine Chanderpaul",
+          "date": "2026-11-24",
+          "key": "6gt227"
+        }
+      },
+      {
+        "name": "Courtney Walsh",
+        "tier": "two",
+        "verified": {
+          "wiki": "Courtney Walsh",
+          "date": "2026-11-24",
+          "key": "9t6d65"
+        }
+      },
+      {
+        "name": "Kane Williamson",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kane Williamson",
+          "date": "2026-11-24",
+          "key": "gfedwr"
+        }
+      },
+      {
+        "name": "AB de Villiers",
+        "tier": "two",
+        "verified": {
+          "wiki": "AB de Villiers",
+          "date": "2026-11-24",
+          "key": "1dm7f71"
+        },
+        "aliases": [
+          "AB",
+          "ABD",
+          "Mr 360"
+        ]
+      },
+      {
+        "name": "Hashim Amla",
+        "tier": "two",
+        "verified": {
+          "wiki": "Hashim Amla",
+          "date": "2026-11-24",
+          "key": "gsbnua"
+        }
+      },
+      {
+        "name": "Graeme Smith",
+        "tier": "two",
+        "verified": {
+          "wiki": "Graeme Smith",
+          "date": "2026-11-24",
+          "key": "7qmg7d"
+        },
+        "misspellings": [
+          "Graham Smith"
+        ]
+      },
+      {
+        "name": "Inzamam-ul-Haq",
+        "tier": "two",
+        "aliases": [
+          "inzamam",
+          "inzi"
+        ],
+        "verified": {
+          "wiki": "Inzamam-ul-Haq",
+          "date": "2026-11-24",
+          "key": "17z946u"
+        }
+      },
+      {
+        "name": "Wasim Akram",
+        "tier": "two",
+        "verified": {
+          "wiki": "Wasim Akram",
+          "date": "2026-11-24",
+          "key": "12x2a2f"
+        },
+        "aliases": [
+          "Wasim"
+        ]
+      },
+      {
+        "name": "Harbhajan Singh",
+        "tier": "four",
+        "aliases": [
+          "harbhajan",
+          "bhajji"
+        ],
+        "verified": {
+          "wiki": "Harbhajan Singh",
+          "date": "2026-11-24",
+          "key": "10wueue"
+        }
+      },
+      {
+        "name": "Cheteshwar Pujara",
+        "tier": "four",
+        "verified": {
+          "wiki": "Cheteshwar Pujara",
+          "date": "2026-11-24",
+          "key": "1iowynu"
+        }
+      },
+      {
+        "name": "Ishant Sharma",
+        "tier": "four",
+        "verified": {
+          "wiki": "Ishant Sharma",
+          "date": "2026-11-24",
+          "key": "1kf91mk"
+        }
+      },
+      {
+        "name": "Chris Gayle",
+        "tier": "four",
+        "verified": {
+          "wiki": "Chris Gayle",
+          "date": "2026-11-24",
+          "key": "1lqu6he"
+        }
+      },
+      {
+        "name": "Clive Lloyd",
+        "tier": "four",
+        "verified": {
+          "wiki": "Clive Lloyd",
+          "date": "2026-11-24",
+          "key": "1ywxe2a"
+        }
+      },
+      {
+        "name": "Gordon Greenidge",
+        "tier": "four",
+        "verified": {
+          "wiki": "Gordon Greenidge",
+          "date": "2026-11-24",
+          "key": "vdziyy"
+        }
+      },
+      {
+        "name": "Desmond Haynes",
+        "tier": "four",
+        "verified": {
+          "wiki": "Desmond Haynes",
+          "date": "2026-11-24",
+          "key": "134btft"
+        }
+      },
+      {
+        "name": "Mark Boucher",
+        "tier": "four",
+        "verified": {
+          "wiki": "Mark Boucher",
+          "date": "2026-11-24",
+          "key": "1dyugx6"
+        }
+      },
+      {
+        "name": "Shaun Pollock",
+        "tier": "four",
+        "verified": {
+          "wiki": "Shaun Pollock",
+          "date": "2026-11-24",
+          "key": "16a0hkk"
+        }
+      },
+      {
+        "name": "Younis Khan",
+        "tier": "four",
+        "aliases": [
+          "younus khan"
+        ],
+        "verified": {
+          "wiki": "Younis Khan",
+          "date": "2026-11-24",
+          "key": "1xjnanr"
+        }
+      },
+      {
+        "name": "Javed Miandad",
+        "tier": "four",
+        "verified": {
+          "wiki": "Javed Miandad",
+          "date": "2026-11-24",
+          "key": "qq9hzh"
+        }
+      },
+      {
+        "name": "Sanath Jayasuriya",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sanath Jayasuriya",
+          "date": "2026-11-24",
+          "key": "17kib9a"
+        }
+      },
+      {
+        "name": "Chaminda Vaas",
+        "tier": "four",
+        "verified": {
+          "wiki": "Chaminda Vaas",
+          "date": "2026-11-24",
+          "key": "99i85"
+        }
+      },
+      {
+        "name": "Angelo Mathews",
+        "tier": "four",
+        "verified": {
+          "wiki": "Angelo Mathews",
+          "date": "2026-11-24",
+          "key": "twwku0"
+        }
+      },
+      {
+        "name": "Ross Taylor",
+        "tier": "four",
+        "wiki": "Ross Taylor (cricketer)",
+        "verified": {
+          "wiki": "List of cricketers who have played 100 Tests",
+          "date": "2026-11-24",
+          "key": "br4dsj"
+        }
+      },
+      {
+        "name": "Brendon McCullum",
+        "tier": "four",
+        "verified": {
+          "wiki": "Brendon McCullum",
+          "date": "2026-11-24",
+          "key": "ciqsyg"
+        },
+        "aliases": [
+          "Baz"
+        ]
+      },
+      {
+        "name": "Daniel Vettori",
+        "tier": "four",
+        "verified": {
+          "wiki": "Daniel Vettori",
+          "date": "2026-11-24",
+          "key": "7m47l3"
+        }
+      },
+      {
+        "name": "Tim Southee",
+        "tier": "four",
+        "verified": {
+          "wiki": "Tim Southee",
+          "date": "2026-11-24",
+          "key": "16pksic"
+        }
+      },
+      {
+        "name": "Stephen Fleming",
+        "tier": "four",
+        "verified": {
+          "wiki": "Stephen Fleming",
+          "date": "2026-11-24",
+          "key": "1s7mlx0"
+        }
+      },
+      {
+        "name": "Dilip Vengsarkar",
+        "tier": "four",
+        "verified": {
+          "wiki": "Dilip Vengsarkar",
+          "date": "2026-11-24",
+          "key": "itqvbt"
+        }
+      },
+      {
+        "name": "Carl Hooper",
+        "tier": "six",
+        "verified": {
+          "wiki": "Carl Hooper",
+          "date": "2026-11-24",
+          "key": "1purztq"
+        }
+      },
+      {
+        "name": "Kraigg Brathwaite",
+        "tier": "six",
+        "verified": {
+          "wiki": "Kraigg Brathwaite",
+          "date": "2026-11-24",
+          "key": "rqocxh"
+        }
+      },
+      {
+        "name": "Gary Kirsten",
+        "tier": "six",
+        "verified": {
+          "wiki": "Gary Kirsten",
+          "date": "2026-11-24",
+          "key": "1i9a3ua"
+        }
+      },
+      {
+        "name": "Makhaya Ntini",
+        "tier": "six",
+        "verified": {
+          "wiki": "Makhaya Ntini",
+          "date": "2026-11-24",
+          "key": "vtyn29"
+        }
+      },
+      {
+        "name": "Saleem Malik",
+        "tier": "six",
+        "aliases": [
+          "salim malik"
+        ],
+        "verified": {
+          "wiki": "Saleem Malik",
+          "date": "2026-11-24",
+          "key": "1b4owq6"
+        }
+      },
+      {
+        "name": "Mushfiqur Rahim",
+        "tier": "six",
+        "verified": {
+          "wiki": "Mushfiqur Rahim",
+          "date": "2026-11-24",
+          "key": "cem76w"
+        }
+      },
+      {
+        "name": "Dimuth Karunaratne",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Dimuth Karunaratne",
+          "date": "2026-11-24",
+          "key": "72hf7e"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_cricketers_who_have_played_100_Tests"
+    ]
+  },
+  {
+    "id": "england-test-debut-five-fors",
+    "prompt": "Name an England men's bowler who took five wickets in an innings on Test debut",
+    "category": "Debuts",
+    "answerType": "player",
+    "asOf": "2026-11-24",
+    "answers": [
+      {
+        "name": "Ian Botham",
+        "tier": "single",
+        "verified": {
+          "wiki": "Ian Botham",
+          "date": "2026-11-24",
+          "key": "acgeva"
+        },
+        "aliases": [
+          "Beefy"
+        ]
+      },
+      {
+        "name": "James Anderson",
+        "tier": "single",
+        "aliases": [
+          "jimmy anderson"
+        ],
+        "wiki": "James Anderson (cricketer)",
+        "verified": {
+          "wiki": "James Anderson (cricketer)",
+          "date": "2026-11-24",
+          "key": "jndnui"
+        }
+      },
+      {
+        "name": "Jim Laker",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jim Laker",
+          "date": "2026-11-24",
+          "key": "kwxlrt"
+        }
+      },
+      {
+        "name": "Dominic Cork",
+        "tier": "single",
+        "verified": {
+          "wiki": "Dominic Cork",
+          "date": "2026-11-24",
+          "key": "dtyii"
+        }
+      },
+      {
+        "name": "Gus Atkinson",
+        "tier": "single",
+        "verified": {
+          "wiki": "Gus Atkinson",
+          "date": "2026-11-24",
+          "key": "g9njna"
+        }
+      },
+      {
+        "name": "Adil Rashid",
+        "tier": "single",
+        "verified": {
+          "wiki": "Adil Rashid",
+          "date": "2026-11-24",
+          "key": "3l4obl"
+        }
+      },
+      {
+        "name": "Alec Bedser",
+        "tier": "two",
+        "verified": {
+          "wiki": "Alec Bedser",
+          "date": "2026-11-24",
+          "key": "kx6up2"
+        }
+      },
+      {
+        "name": "Wally Hammond",
+        "tier": "two",
+        "aliases": [
+          "walter hammond"
+        ],
+        "verified": {
+          "wiki": "Wally Hammond",
+          "date": "2026-11-24",
+          "key": "17tpwd2"
+        }
+      },
+      {
+        "name": "Graham Onions",
+        "tier": "two",
+        "verified": {
+          "wiki": "Graham Onions",
+          "date": "2026-11-24",
+          "key": "1t5tp2i"
+        }
+      },
+      {
+        "name": "Tom Hartley",
+        "tier": "two",
+        "wiki": "Tom Hartley (cricketer)",
+        "verified": {
+          "wiki": "Tom Hartley (cricketer)",
+          "date": "2026-11-24",
+          "key": "bekjf0"
+        }
+      },
+      {
+        "name": "Rehan Ahmed",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rehan Ahmed",
+          "date": "2026-11-24",
+          "key": "kjwgiz"
+        }
+      },
+      {
+        "name": "Sydney Barnes",
+        "tier": "two",
+        "aliases": [
+          "syd barnes",
+          "sf barnes"
+        ],
+        "verified": {
+          "wiki": "Sydney Barnes",
+          "date": "2026-11-24",
+          "key": "1tkc130"
+        }
+      },
+      {
+        "name": "Trevor Bailey",
+        "tier": "two",
+        "verified": {
+          "wiki": "Trevor Bailey",
+          "date": "2026-11-24",
+          "key": "109lr9k"
+        }
+      },
+      {
+        "name": "Will Jacks",
+        "tier": "two",
+        "verified": {
+          "wiki": "Will Jacks",
+          "date": "2026-11-24",
+          "key": "1hagkwq"
+        }
+      },
+      {
+        "name": "Josh Tongue",
+        "tier": "two",
+        "verified": {
+          "wiki": "Josh Tongue",
+          "date": "2026-11-24",
+          "key": "1ki031m"
+        }
+      },
+      {
+        "name": "Phil Edmonds",
+        "tier": "two",
+        "aliases": [
+          "philippe edmonds"
+        ],
+        "verified": {
+          "wiki": "Phil Edmonds",
+          "date": "2026-11-24",
+          "key": "61ipbw"
+        }
+      },
+      {
+        "name": "Toby Roland-Jones",
+        "tier": "two",
+        "aliases": [
+          "roland-jones"
+        ],
+        "verified": {
+          "wiki": "Toby Roland-Jones",
+          "date": "2026-11-24",
+          "key": "lvwvdi"
+        }
+      },
+      {
+        "name": "Richard Johnson",
+        "tier": "two",
+        "wiki": "Richard Johnson (cricketer)",
+        "verified": {
+          "wiki": "List of England cricketers who have taken five-wicket hauls on Test debut",
+          "date": "2026-11-24",
+          "key": "x0q8uy"
+        }
+      },
+      {
+        "name": "James Kirtley",
+        "tier": "four",
+        "verified": {
+          "wiki": "James Kirtley",
+          "date": "2026-11-24",
+          "key": "1aazb1m"
+        }
+      },
+      {
+        "name": "Peter Such",
+        "tier": "four",
+        "verified": {
+          "wiki": "Peter Such",
+          "date": "2026-11-24",
+          "key": "ol6afn"
+        }
+      },
+      {
+        "name": "Neil Mallender",
+        "tier": "four",
+        "verified": {
+          "wiki": "Neil Mallender",
+          "date": "2026-11-24",
+          "key": "1d9e8iq"
+        }
+      },
+      {
+        "name": "Nick Cook",
+        "tier": "four",
+        "wiki": "Nick Cook (cricketer)",
+        "verified": {
+          "wiki": "Nick Cook (cricketer)",
+          "date": "2026-11-24",
+          "key": "1wn3owo"
+        }
+      },
+      {
+        "name": "John Lever",
+        "tier": "four",
+        "wiki": "John Lever (cricketer, born 1949)",
+        "verified": {
+          "wiki": "List of England cricketers who have taken five-wicket hauls on Test debut",
+          "date": "2026-11-24",
+          "key": "1lk4l6i"
+        }
+      },
+      {
+        "name": "Ken Shuttleworth",
+        "tier": "four",
+        "verified": {
+          "wiki": "Ken Shuttleworth (cricketer)",
+          "date": "2026-11-24",
+          "key": "1nhzzgf"
+        }
+      },
+      {
+        "name": "Bobby Peel",
+        "tier": "four",
+        "verified": {
+          "wiki": "Bobby Peel",
+          "date": "2026-11-24",
+          "key": "cg0c0e"
+        }
+      },
+      {
+        "name": "Tom Richardson",
+        "tier": "four",
+        "wiki": "Tom Richardson (cricketer)",
+        "verified": {
+          "wiki": "Tom Richardson (cricketer)",
+          "date": "2026-11-24",
+          "key": "1w39gou"
+        }
+      },
+      {
+        "name": "Ken Farnes",
+        "tier": "four",
+        "verified": {
+          "wiki": "Ken Farnes",
+          "date": "2026-11-24",
+          "key": "1bfpoa1"
+        }
+      },
+      {
+        "name": "Len Braund",
+        "tier": "four",
+        "verified": {
+          "wiki": "Len Braund",
+          "date": "2026-11-24",
+          "key": "1guy247"
+        }
+      },
+      {
+        "name": "C Aubrey Smith",
+        "tier": "four",
+        "aliases": [
+          "aubrey smith",
+          "charles aubrey smith"
+        ],
+        "wiki": "C. Aubrey Smith",
+        "verified": {
+          "wiki": "C. Aubrey Smith",
+          "date": "2026-11-24",
+          "key": "1ml2q5l"
+        }
+      },
+      {
+        "name": "Bill Lockwood",
+        "tier": "four",
+        "verified": {
+          "wiki": "Bill Lockwood (cricketer)",
+          "date": "2026-11-24",
+          "key": "k4c0kz"
+        }
+      },
+      {
+        "name": "Frank Foster",
+        "tier": "four",
+        "wiki": "Frank Foster (cricketer)",
+        "verified": {
+          "wiki": "Frank Foster (cricketer)",
+          "date": "2026-11-24",
+          "key": "109j44m"
+        }
+      },
+      {
+        "name": "Maurice Allom",
+        "tier": "four",
+        "verified": {
+          "wiki": "Maurice Allom",
+          "date": "2026-11-24",
+          "key": "1jl5d8x"
+        }
+      },
+      {
+        "name": "Alfred Shaw",
+        "tier": "six",
+        "verified": {
+          "wiki": "Alfred Shaw",
+          "date": "2026-11-24",
+          "key": "1rvjmex"
+        }
+      },
+      {
+        "name": "Fred Morley",
+        "tier": "six",
+        "verified": {
+          "wiki": "Fred Morley",
+          "date": "2026-11-24",
+          "key": "pb3pl9"
+        }
+      },
+      {
+        "name": "Frederick Martin",
+        "tier": "six",
+        "aliases": [
+          "nutty martin"
+        ],
+        "wiki": "Fred Martin (cricketer)",
+        "verified": {
+          "wiki": "Frederick Martin (cricketer)",
+          "date": "2026-11-24",
+          "key": "mzefpd"
+        }
+      },
+      {
+        "name": "Bill Bradley",
+        "tier": "six",
+        "wiki": "Bill Bradley (cricketer)",
+        "verified": {
+          "wiki": "Bill Bradley (cricketer)",
+          "date": "2026-11-24",
+          "key": "139ssbe"
+        }
+      },
+      {
+        "name": "Arnold Warren",
+        "tier": "six",
+        "verified": {
+          "wiki": "Arnold Warren",
+          "date": "2026-11-24",
+          "key": "1nx3xzt"
+        }
+      },
+      {
+        "name": "Walter Lees",
+        "tier": "six",
+        "verified": {
+          "wiki": "Walter Lees (cricketer)",
+          "date": "2026-11-24",
+          "key": "ypraos"
+        }
+      },
+      {
+        "name": "Douglas Carr",
+        "tier": "six",
+        "verified": {
+          "wiki": "Douglas Carr",
+          "date": "2026-11-24",
+          "key": "7jw3ab"
+        }
+      },
+      {
+        "name": "George Simpson-Hayward",
+        "tier": "six",
+        "aliases": [
+          "simpson-hayward"
+        ],
+        "verified": {
+          "wiki": "George Simpson-Hayward",
+          "date": "2026-11-24",
+          "key": "153xw6r"
+        }
+      },
+      {
+        "name": "George Macaulay",
+        "tier": "six",
+        "verified": {
+          "wiki": "George Macaulay",
+          "date": "2026-11-24",
+          "key": "2egsko"
+        }
+      },
+      {
+        "name": "James Langridge",
+        "tier": "six",
+        "verified": {
+          "wiki": "James Langridge",
+          "date": "2026-11-24",
+          "key": "1ijqunt"
+        }
+      },
+      {
+        "name": "Charles Marriott",
+        "tier": "six",
+        "aliases": [
+          "father marriott"
+        ],
+        "wiki": "Father Marriott",
+        "verified": {
+          "wiki": "Charles Marriott",
+          "date": "2026-11-24",
+          "key": "99s6s9"
+        }
+      },
+      {
+        "name": "Jim Smith",
+        "tier": "six",
+        "wiki": "Jim Smith (cricketer, born 1906)",
+        "verified": {
+          "wiki": "Jim Smith (cricketer, born 1906)",
+          "date": "2026-11-24",
+          "key": "1ce8t63"
+        }
+      },
+      {
+        "name": "Reg Perks",
+        "tier": "six",
+        "verified": {
+          "wiki": "Reg Perks",
+          "date": "2026-11-24",
+          "key": "16i5lm1"
+        }
+      },
+      {
+        "name": "Bill Copson",
+        "tier": "six",
+        "verified": {
+          "wiki": "Bill Copson",
+          "date": "2026-11-24",
+          "key": "2vnq07"
+        }
+      },
+      {
+        "name": "Dick Pollard",
+        "tier": "six",
+        "verified": {
+          "wiki": "Dick Pollard",
+          "date": "2026-11-24",
+          "key": "nojgb5"
+        }
+      },
+      {
+        "name": "Bob Berry",
+        "tier": "six",
+        "wiki": "Bob Berry (cricketer)",
+        "verified": {
+          "wiki": "Bob Berry (cricketer)",
+          "date": "2026-11-24",
+          "key": "3cqe2w"
+        }
+      },
+      {
+        "name": "Bob Appleyard",
+        "tier": "six",
+        "verified": {
+          "wiki": "Bob Appleyard",
+          "date": "2026-11-24",
+          "key": "103yr7l"
+        }
+      },
+      {
+        "name": "Len Coldwell",
+        "tier": "six",
+        "verified": {
+          "wiki": "Len Coldwell",
+          "date": "2026-11-24",
+          "key": "u3z4xh"
+        }
+      },
+      {
+        "name": "David Larter",
+        "tier": "six",
+        "verified": {
+          "wiki": "David Larter",
+          "date": "2026-11-24",
+          "key": "jeza8y"
+        }
+      },
+      {
+        "name": "Christopher Heseltine",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Christopher Heseltine",
+          "date": "2026-11-24",
+          "key": "1ezpy4o"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_England_cricketers_who_have_taken_five-wicket_hauls_on_Test_debut"
+    ]
+  },
+  {
+    "id": "india-world-cup-winning-squads",
+    "prompt": "Name a player in India's squad for the 2011 men's ODI World Cup or the 2024 men's T20 World Cup (both won)",
+    "category": "India",
+    "answerType": "player",
+    "answers": [
+      {
+        "name": "MS Dhoni",
+        "tier": "single",
+        "aliases": [
+          "mahendra singh dhoni",
+          "Mahi",
+          "Captain Cool"
+        ],
+        "wiki": "MS Dhoni",
+        "verified": {
+          "wiki": "2011 Cricket World Cup squads",
+          "date": "2026-11-24",
+          "key": "1l5kvkz"
+        }
+      },
+      {
+        "name": "Sachin Tendulkar",
+        "tier": "single",
+        "verified": {
+          "wiki": "Sachin Tendulkar",
+          "date": "2026-11-24",
+          "key": "1dfgcul"
+        },
+        "aliases": [
+          "Sachin",
+          "Little Master"
+        ]
+      },
+      {
+        "name": "Virat Kohli",
+        "tier": "single",
+        "verified": {
+          "wiki": "Virat Kohli",
+          "date": "2026-11-24",
+          "key": "1c6nzwa"
+        },
+        "aliases": [
+          "King Kohli"
+        ]
+      },
+      {
+        "name": "Rohit Sharma",
+        "tier": "single",
+        "verified": {
+          "wiki": "Rohit Sharma",
+          "date": "2026-11-24",
+          "key": "14ywymg"
+        },
+        "aliases": [
+          "Hitman"
+        ]
+      },
+      {
+        "name": "Yuvraj Singh",
+        "tier": "single",
+        "aliases": [
+          "yuvraj"
+        ],
+        "verified": {
+          "wiki": "Yuvraj Singh",
+          "date": "2026-11-24",
+          "key": "am2qp4"
+        }
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "tier": "single",
+        "verified": {
+          "wiki": "Jasprit Bumrah",
+          "date": "2026-11-24",
+          "key": "1oa2cvl"
+        }
+      },
+      {
+        "name": "Virender Sehwag",
+        "tier": "two",
+        "verified": {
+          "wiki": "Virender Sehwag",
+          "date": "2026-11-24",
+          "key": "1us0nlz"
+        },
+        "aliases": [
+          "Viru"
+        ]
+      },
+      {
+        "name": "Gautam Gambhir",
+        "tier": "two",
+        "verified": {
+          "wiki": "Gautam Gambhir",
+          "date": "2026-11-24",
+          "key": "6n3r84"
+        },
+        "aliases": [
+          "Gauti"
+        ]
+      },
+      {
+        "name": "Zaheer Khan",
+        "tier": "two",
+        "verified": {
+          "wiki": "Zaheer Khan",
+          "date": "2026-11-24",
+          "key": "1c61k25"
+        },
+        "aliases": [
+          "Zaheer",
+          "Zak"
+        ]
+      },
+      {
+        "name": "Harbhajan Singh",
+        "tier": "two",
+        "aliases": [
+          "harbhajan",
+          "bhajji"
+        ],
+        "verified": {
+          "wiki": "Harbhajan Singh",
+          "date": "2026-11-24",
+          "key": "7v8iiy"
+        }
+      },
+      {
+        "name": "Suresh Raina",
+        "tier": "two",
+        "verified": {
+          "wiki": "Suresh Raina",
+          "date": "2026-11-24",
+          "key": "1qnohgy"
+        }
+      },
+      {
+        "name": "Hardik Pandya",
+        "tier": "two",
+        "verified": {
+          "wiki": "Hardik Pandya",
+          "date": "2026-11-24",
+          "key": "1c1oefw"
+        },
+        "aliases": [
+          "Hardik"
+        ]
+      },
+      {
+        "name": "Rishabh Pant",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rishabh Pant",
+          "date": "2026-11-24",
+          "key": "txan8t"
+        }
+      },
+      {
+        "name": "Suryakumar Yadav",
+        "tier": "two",
+        "aliases": [
+          "surya",
+          "sky"
+        ],
+        "verified": {
+          "wiki": "Suryakumar Yadav",
+          "date": "2026-11-24",
+          "key": "k6fz0x"
+        }
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "tier": "two",
+        "verified": {
+          "wiki": "Ravindra Jadeja",
+          "date": "2026-11-24",
+          "key": "1m12sy5"
+        },
+        "aliases": [
+          "Jaddu"
+        ]
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "tier": "two",
+        "verified": {
+          "wiki": "Kuldeep Yadav",
+          "date": "2026-11-24",
+          "key": "qywpwg"
+        },
+        "aliases": [
+          "Kuldeep"
+        ]
+      },
+      {
+        "name": "Arshdeep Singh",
+        "tier": "two",
+        "aliases": [
+          "arshdeep"
+        ],
+        "verified": {
+          "wiki": "Arshdeep Singh",
+          "date": "2026-11-24",
+          "key": "voyh8"
+        }
+      },
+      {
+        "name": "Axar Patel",
+        "tier": "two",
+        "aliases": [
+          "akshar patel"
+        ],
+        "verified": {
+          "wiki": "Axar Patel",
+          "date": "2026-11-24",
+          "key": "3xdwm3"
+        }
+      },
+      {
+        "name": "Yusuf Pathan",
+        "tier": "four",
+        "verified": {
+          "wiki": "Yusuf Pathan",
+          "date": "2026-11-24",
+          "key": "1phuavp"
+        }
+      },
+      {
+        "name": "Ashish Nehra",
+        "tier": "four",
+        "verified": {
+          "wiki": "Ashish Nehra",
+          "date": "2026-11-24",
+          "key": "19ijo2f"
+        }
+      },
+      {
+        "name": "S Sreesanth",
+        "tier": "four",
+        "aliases": [
+          "sreesanth",
+          "shanthakumaran sreesanth"
+        ],
+        "wiki": "Sreesanth",
+        "verified": {
+          "wiki": "S. Sreesanth",
+          "date": "2026-11-24",
+          "key": "6a5z5n"
+        }
+      },
+      {
+        "name": "Ravichandran Ashwin",
+        "tier": "four",
+        "aliases": [
+          "r ashwin"
+        ],
+        "wiki": "Ravichandran Ashwin",
+        "verified": {
+          "wiki": "Ravichandran Ashwin",
+          "date": "2026-11-24",
+          "key": "1hworjc"
+        }
+      },
+      {
+        "name": "Yashasvi Jaiswal",
+        "tier": "four",
+        "verified": {
+          "wiki": "Yashasvi Jaiswal",
+          "date": "2026-11-24",
+          "key": "kjoamy"
+        }
+      },
+      {
+        "name": "Sanju Samson",
+        "tier": "four",
+        "verified": {
+          "wiki": "Sanju Samson",
+          "date": "2026-11-24",
+          "key": "1jumdvx"
+        }
+      },
+      {
+        "name": "Shivam Dube",
+        "tier": "four",
+        "verified": {
+          "wiki": "Shivam Dube",
+          "date": "2026-11-24",
+          "key": "1pn6ttt"
+        }
+      },
+      {
+        "name": "Yuzvendra Chahal",
+        "tier": "four",
+        "verified": {
+          "wiki": "Yuzvendra Chahal",
+          "date": "2026-11-24",
+          "key": "1fvnix"
+        },
+        "aliases": [
+          "Yuzi Chahal",
+          "Yuzi"
+        ]
+      },
+      {
+        "name": "Munaf Patel",
+        "tier": "six",
+        "verified": {
+          "wiki": "Munaf Patel",
+          "date": "2026-11-24",
+          "key": "r876qd"
+        },
+        "aliases": [
+          "Munaf"
+        ]
+      },
+      {
+        "name": "Mohammed Siraj",
+        "tier": "six",
+        "verified": {
+          "wiki": "Mohammed Siraj",
+          "date": "2026-11-24",
+          "key": "1utsqg"
+        }
+      },
+      {
+        "name": "Piyush Chawla",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Piyush Chawla",
+          "date": "2026-11-24",
+          "key": "udh7pb"
+        }
+      }
+    ],
+    "tags": [
+      "men",
+      "odi",
+      "t20",
+      "international",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011_Cricket_World_Cup_squads",
+      "https://en.wikipedia.org/wiki/2024_ICC_Men%27s_T20_World_Cup_squads"
+    ]
+  }
+]

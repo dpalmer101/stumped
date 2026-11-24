@@ -1,0 +1,5796 @@
+[
+  {
+    "id": "pak-sl-ban-test-grounds-before-2025",
+    "prompt": "Name a ground in Pakistan, Sri Lanka or Bangladesh that hosted a men's Test before 2025",
+    "category": "Subcontinent Test grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "pakistan",
+      "sri-lanka"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Men's Tests hosted (to November 2026)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Galle International Stadium",
+        "aliases": [
+          "Galle"
+        ],
+        "values": [
+          50
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Galle International Stadium",
+          "date": "2026-11-24",
+          "key": "naimds"
+        }
+      },
+      {
+        "name": "National Stadium, Karachi",
+        "aliases": [
+          "National Stadium",
+          "Karachi National Stadium",
+          "National Bank Stadium"
+        ],
+        "wiki": "National Stadium, Karachi",
+        "values": [
+          47
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "National Stadium, Karachi",
+          "date": "2026-11-24",
+          "key": "1hxi0a2"
+        }
+      },
+      {
+        "name": "Sinhalese Sports Club Ground",
+        "aliases": [
+          "SSC",
+          "Sinhalese Sports Club",
+          "SSC Ground"
+        ],
+        "wiki": "Singhalese Sports Club Cricket Ground",
+        "values": [
+          47
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "hbtsci"
+        },
+        "misspellings": [
+          "Singhalese Sports Club"
+        ]
+      },
+      {
+        "name": "Gaddafi Stadium",
+        "aliases": [
+          "Gaddafi"
+        ],
+        "values": [
+          42
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Gaddafi Stadium",
+          "date": "2026-11-24",
+          "key": "1x3lj6a"
+        },
+        "misspellings": [
+          "Gadaffi Stadium",
+          "Qaddafi Stadium",
+          "Gadaffi"
+        ]
+      },
+      {
+        "name": "Sher-e-Bangla National Cricket Stadium",
+        "aliases": [
+          "Sher-e-Bangla",
+          "Mirpur",
+          "Mirpur Stadium",
+          "Shere Bangla Stadium"
+        ],
+        "values": [
+          31
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "1tigbft"
+        }
+      },
+      {
+        "name": "Zohur Ahmed Chowdhury Stadium",
+        "aliases": [
+          "Zahur Ahmed Chowdhury Stadium",
+          "ZAC Stadium"
+        ],
+        "values": [
+          26
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "12d8cqu"
+        }
+      },
+      {
+        "name": "Iqbal Stadium",
+        "aliases": [
+          "Faisalabad"
+        ],
+        "values": [
+          24
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Iqbal Stadium",
+          "date": "2026-11-24",
+          "key": "1q7fj0n"
+        }
+      },
+      {
+        "name": "Paikiasothy Saravanamuttu Stadium",
+        "aliases": [
+          "P Sara Oval",
+          "P Sara",
+          "Colombo Oval",
+          "P. Saravanamuttu Stadium",
+          "Saravanamuttu Stadium"
+        ],
+        "values": [
+          22
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Paikiasothy Saravanamuttu Stadium",
+          "date": "2026-11-24",
+          "key": "dhuk33"
+        }
+      },
+      {
+        "name": "Asgiriya Stadium",
+        "aliases": [
+          "Asgiriya",
+          "Kandy"
+        ],
+        "values": [
+          21
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Asgiriya Stadium",
+          "date": "2026-11-24",
+          "key": "1ojxz8x"
+        }
+      },
+      {
+        "name": "Rawalpindi Cricket Stadium",
+        "aliases": [
+          "Pindi Cricket Stadium",
+          "Pindi Stadium"
+        ],
+        "values": [
+          19
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Rawalpindi Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "1438lbh"
+        }
+      },
+      {
+        "name": "Bangabandhu National Stadium",
+        "aliases": [
+          "Bangabandhu Stadium",
+          "Dhaka Stadium",
+          "National Stadium Dhaka",
+          "Dhaka National Stadium"
+        ],
+        "values": [
+          17
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "National Stadium, Dhaka",
+          "date": "2026-11-24",
+          "key": "1t8nkmb"
+        }
+      },
+      {
+        "name": "Multan Cricket Stadium",
+        "values": [
+          10
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Multan Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "ol9woc"
+        }
+      },
+      {
+        "name": "R. Premadasa Stadium",
+        "aliases": [
+          "Premadasa",
+          "Premadasa Stadium",
+          "Khettarama"
+        ],
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-24",
+          "key": "199o5w3"
+        }
+      },
+      {
+        "name": "Pallekele International Cricket Stadium",
+        "aliases": [
+          "Pallekele"
+        ],
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Pallekele International Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "159amyv"
+        }
+      },
+      {
+        "name": "M. A. Aziz Stadium",
+        "aliases": [
+          "Aziz Stadium"
+        ],
+        "values": [
+          8
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "df7w9x"
+        }
+      },
+      {
+        "name": "Sylhet International Cricket Stadium",
+        "aliases": [
+          "Sylhet"
+        ],
+        "values": [
+          7
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sylhet International Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "x9wfeb"
+        }
+      },
+      {
+        "name": "Arbab Niaz Stadium",
+        "values": [
+          6
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "1gj8qj8"
+        }
+      },
+      {
+        "name": "Niaz Stadium",
+        "aliases": [
+          "Hyderabad"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Niaz Stadium",
+          "date": "2026-11-24",
+          "key": "17oa0ew"
+        }
+      },
+      {
+        "name": "Jinnah Stadium, Sialkot",
+        "aliases": [
+          "Sialkot"
+        ],
+        "wiki": "Jinnah Stadium (Sialkot)",
+        "values": [
+          4
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Jinnah Stadium, Sialkot",
+          "date": "2026-11-24",
+          "key": "1gkpn16"
+        }
+      },
+      {
+        "name": "De Soysa Stadium",
+        "aliases": [
+          "Tyronne Fernando Stadium",
+          "Moratuwa"
+        ],
+        "values": [
+          4
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "De Soysa Stadium",
+          "date": "2026-11-24",
+          "key": "15zwel3"
+        }
+      },
+      {
+        "name": "Bagh-e-Jinnah",
+        "aliases": [
+          "Lawrence Gardens",
+          "Bagh-i-Jinnah"
+        ],
+        "wiki": "Bagh-e-Jinnah, Lahore",
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Bagh-e-Jinnah, Lahore",
+          "date": "2026-11-24",
+          "key": "4sj9lp"
+        }
+      },
+      {
+        "name": "Colombo Cricket Club Ground",
+        "aliases": [
+          "Colombo Cricket Club"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Colombo Cricket Club Ground",
+          "date": "2026-11-24",
+          "key": "pl6lfe"
+        }
+      },
+      {
+        "name": "Sheikh Abu Naser Stadium",
+        "aliases": [
+          "Khulna"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "ud99g8"
+        }
+      },
+      {
+        "name": "Sheikhupura Stadium",
+        "aliases": [
+          "Sheikhupura"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sheikhupura Stadium",
+          "date": "2026-11-24",
+          "key": "fgamm0"
+        }
+      },
+      {
+        "name": "Khan Shaheb Osman Ali Stadium",
+        "aliases": [
+          "Fatullah",
+          "Fatullah Osmani Stadium",
+          "Fatullah Stadium"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "10dv3gt"
+        }
+      },
+      {
+        "name": "Jinnah Stadium, Gujranwala",
+        "aliases": [
+          "Gujranwala"
+        ],
+        "wiki": "Jinnah Stadium (Gujranwala)",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Jinnah Stadium, Gujranwala",
+          "date": "2026-11-24",
+          "key": "1ogin8f"
+        }
+      },
+      {
+        "name": "Southend Club Cricket Stadium",
+        "aliases": [
+          "Southend Club"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Southend Club Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "1qqcs9p"
+        }
+      },
+      {
+        "name": "Peshawar Club Ground",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Peshawar Club Ground",
+          "date": "2026-11-24",
+          "key": "1bglr7j"
+        }
+      },
+      {
+        "name": "Pindi Club Ground",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Pindi Club Ground",
+          "date": "2026-11-24",
+          "key": "bkym7u"
+        }
+      },
+      {
+        "name": "Bahawal Stadium",
+        "aliases": [
+          "Bahawalpur"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "1ch0qk3"
+        }
+      },
+      {
+        "name": "Ibn-e-Qasim Bagh Stadium",
+        "aliases": [
+          "Ibn-e-Qasim Bagh",
+          "Qasim Bagh Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Ibn-e-Qasim Bagh Stadium",
+          "date": "2026-11-24",
+          "key": "1u8n7qc"
+        }
+      },
+      {
+        "name": "Shaheed Chandu Stadium",
+        "aliases": [
+          "Bogra",
+          "Bogura"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Shaheed Chandu Stadium",
+          "date": "2026-11-24",
+          "key": "15ivfss"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wi-zim-uae-ire-test-grounds-before-2025",
+    "prompt": "Name a ground in the West Indies, Zimbabwe, the UAE or Ireland that hosted a men's Test before 2025",
+    "category": "Test grounds beyond the big six",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "west-indies"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Men's Tests hosted (to November 2026)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Queen's Park Oval",
+        "aliases": [
+          "Port of Spain",
+          "QPO",
+          "Trinidad"
+        ],
+        "values": [
+          64
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Queen's Park Oval",
+          "date": "2026-11-24",
+          "key": "1w5eiqf"
+        }
+      },
+      {
+        "name": "Kensington Oval",
+        "aliases": [
+          "Bridgetown",
+          "Kensington",
+          "Barbados"
+        ],
+        "values": [
+          56
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-24",
+          "key": "4fry9e"
+        }
+      },
+      {
+        "name": "Sabina Park",
+        "aliases": [
+          "Kingston",
+          "Sabina",
+          "Jamaica"
+        ],
+        "values": [
+          56
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sabina Park",
+          "date": "2026-11-24",
+          "key": "1jmafpu"
+        }
+      },
+      {
+        "name": "Harare Sports Club",
+        "aliases": [
+          "Harare"
+        ],
+        "values": [
+          41
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Harare Sports Club",
+          "date": "2026-11-24",
+          "key": "1hxvrc4"
+        }
+      },
+      {
+        "name": "Queens Sports Club",
+        "aliases": [
+          "Queens"
+        ],
+        "values": [
+          32
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Queens Sports Club",
+          "date": "2026-11-24",
+          "key": "1quxwpc"
+        }
+      },
+      {
+        "name": "Bourda",
+        "aliases": [
+          "Georgetown",
+          "Bourda Oval"
+        ],
+        "values": [
+          30
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Bourda",
+          "date": "2026-11-24",
+          "key": "h562be"
+        }
+      },
+      {
+        "name": "Antigua Recreation Ground",
+        "aliases": [
+          "ARG",
+          "Recreation Ground",
+          "Antigua Rec"
+        ],
+        "values": [
+          22
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Antigua Recreation Ground",
+          "date": "2026-11-24",
+          "key": "13j7nnz"
+        }
+      },
+      {
+        "name": "Sheikh Zayed Cricket Stadium",
+        "aliases": [
+          "Sheikh Zayed Stadium",
+          "Zayed Cricket Stadium",
+          "Zayed Stadium"
+        ],
+        "values": [
+          16
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sheikh Zayed Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "bqa1fj"
+        }
+      },
+      {
+        "name": "Sir Vivian Richards Stadium",
+        "aliases": [
+          "Vivian Richards Stadium",
+          "Viv Richards Stadium",
+          "North Sound"
+        ],
+        "values": [
+          15
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sir Vivian Richards Stadium",
+          "date": "2026-11-24",
+          "key": "1xu8gnd"
+        }
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "aliases": [
+          "Dubai",
+          "Dubai International Stadium"
+        ],
+        "values": [
+          13
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "12oedr9"
+        }
+      },
+      {
+        "name": "Sharjah Cricket Stadium",
+        "aliases": [
+          "Sharjah",
+          "Sharjah Cricket Association Stadium"
+        ],
+        "values": [
+          11
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sharjah Cricket Stadium",
+          "date": "2026-11-24",
+          "key": "wluccb"
+        }
+      },
+      {
+        "name": "Daren Sammy Cricket Ground",
+        "aliases": [
+          "Darren Sammy Cricket Ground",
+          "Daren Sammy National Cricket Stadium",
+          "Beausejour Stadium",
+          "Beausejour",
+          "Gros Islet",
+          "Saint Lucia",
+          "St Lucia"
+        ],
+        "wiki": "Daren Sammy Cricket Ground",
+        "values": [
+          10
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "bqcmzj"
+        }
+      },
+      {
+        "name": "Windsor Park",
+        "aliases": [
+          "Roseau",
+          "Dominica"
+        ],
+        "wiki": "Windsor Park (Dominica)",
+        "values": [
+          6
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Windsor Park (Dominica)",
+          "date": "2026-11-24",
+          "key": "3h5eb2"
+        }
+      },
+      {
+        "name": "National Cricket Stadium, Grenada",
+        "aliases": [
+          "Grenada National Stadium",
+          "Queen's Park, Grenada",
+          "National Cricket Stadium",
+          "St George's"
+        ],
+        "wiki": "National Cricket Stadium (Grenada)",
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "National Cricket Stadium (Grenada)",
+          "date": "2026-11-24",
+          "key": "c5vhdg"
+        }
+      },
+      {
+        "name": "Arnos Vale Stadium",
+        "aliases": [
+          "Arnos Vale",
+          "Kingstown",
+          "St Vincent",
+          "Saint Vincent"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Arnos Vale Stadium",
+          "date": "2026-11-24",
+          "key": "1k8awg"
+        }
+      },
+      {
+        "name": "Warner Park",
+        "aliases": [
+          "Warner Park Stadium",
+          "Basseterre",
+          "St Kitts",
+          "Saint Kitts"
+        ],
+        "wiki": "Warner Park Sporting Complex",
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Warner Park Sporting Complex",
+          "date": "2026-11-24",
+          "key": "g7vqtu"
+        }
+      },
+      {
+        "name": "Providence Stadium",
+        "aliases": [
+          "Providence",
+          "Guyana National Stadium"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-24",
+          "key": "1tbpeb6"
+        }
+      },
+      {
+        "name": "Stormont",
+        "aliases": [
+          "Stormont Cricket Ground",
+          "Belfast"
+        ],
+        "wiki": "Stormont (cricket ground)",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Stormont Cricket Ground",
+          "date": "2026-11-24",
+          "key": "10uqqic"
+        }
+      },
+      {
+        "name": "Bulawayo Athletic Club",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Bulawayo Athletic Club",
+          "date": "2026-11-24",
+          "key": "9xkv2d"
+        }
+      },
+      {
+        "name": "Tolerance Oval",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Tolerance Oval",
+          "date": "2026-11-24",
+          "key": "11hptjk"
+        }
+      },
+      {
+        "name": "Malahide Cricket Club Ground",
+        "aliases": [
+          "Malahide",
+          "The Village",
+          "Dublin"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "List of Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "1y809is"
+        }
+      }
+    ]
+  },
+  {
+    "id": "australia-womens-test-grounds-before-2025",
+    "prompt": "Name an Australian ground that hosted a women's Test before 2025",
+    "category": "Women's Test grounds",
+    "answerType": "ground",
+    "tags": [
+      "women",
+      "test",
+      "international",
+      "australia"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_women%27s_Test_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Women's Tests hosted (to November 2026)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Melbourne Cricket Ground",
+        "aliases": [
+          "MCG",
+          "The G"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-24",
+          "key": "q3vm2b"
+        }
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "aliases": [
+          "SCG"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-24",
+          "key": "ocj3k6"
+        }
+      },
+      {
+        "name": "Adelaide Oval",
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Adelaide Oval",
+          "date": "2026-11-24",
+          "key": "uflfi6"
+        }
+      },
+      {
+        "name": "WACA Ground",
+        "aliases": [
+          "WACA",
+          "Perth"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "WACA Ground",
+          "date": "2026-11-24",
+          "key": "om6n7"
+        }
+      },
+      {
+        "name": "The Gabba",
+        "aliases": [
+          "Brisbane Cricket Ground",
+          "Woolloongabba"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "The Gabba",
+          "date": "2026-11-24",
+          "key": "16xrl3f"
+        }
+      },
+      {
+        "name": "North Sydney Oval",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "North Sydney Oval",
+          "date": "2026-11-24",
+          "key": "1u8tsk5"
+        },
+        "aliases": [
+          "North Sydney"
+        ]
+      },
+      {
+        "name": "Manuka Oval",
+        "aliases": [
+          "Manuka",
+          "Canberra"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Manuka Oval",
+          "date": "2026-11-24",
+          "key": "838cfp"
+        }
+      },
+      {
+        "name": "Junction Oval",
+        "aliases": [
+          "St Kilda Cricket Ground",
+          "Junction"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Junction Oval",
+          "date": "2026-11-24",
+          "key": "1s1cc9x"
+        }
+      },
+      {
+        "name": "Bankstown Oval",
+        "aliases": [
+          "Bankstown",
+          "Bankstown Memorial Oval"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Bankstown Oval",
+          "date": "2026-11-24",
+          "key": "1u7ujaa"
+        }
+      },
+      {
+        "name": "Bradman Oval",
+        "aliases": [
+          "Bowral"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Bradman Oval",
+          "date": "2026-11-24",
+          "key": "15qunf9"
+        }
+      },
+      {
+        "name": "Carrara Stadium",
+        "aliases": [
+          "Carrara",
+          "Metricon Stadium",
+          "Gold Coast",
+          "People First Stadium",
+          "Heritage Bank Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Carrara Stadium",
+          "date": "2026-11-24",
+          "key": "18ecmdg"
+        }
+      },
+      {
+        "name": "Punt Road Oval",
+        "aliases": [
+          "Punt Road",
+          "Swinburne Centre"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Punt Road Oval",
+          "date": "2026-11-24",
+          "key": "1nitsjd"
+        }
+      },
+      {
+        "name": "Brisbane Exhibition Ground",
+        "aliases": [
+          "Exhibition Ground",
+          "Brisbane Showgrounds"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of women's Test cricket grounds",
+          "date": "2026-11-24",
+          "key": "148xsba"
+        }
+      },
+      {
+        "name": "Central Coast Stadium",
+        "aliases": [
+          "Gosford",
+          "Grahame Park",
+          "Bluetongue Stadium",
+          "Industree Group Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Coast Stadium",
+          "date": "2026-11-24",
+          "key": "1xz5yw2"
+        }
+      },
+      {
+        "name": "Queen Elizabeth Oval",
+        "aliases": [
+          "Queen Elizabeth II Oval",
+          "QEO",
+          "Bendigo"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Queen Elizabeth Oval",
+          "date": "2026-11-24",
+          "key": "gkpcti"
+        }
+      },
+      {
+        "name": "Arden Street Oval",
+        "aliases": [
+          "Arden Street"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Arden Street Oval",
+          "date": "2026-11-24",
+          "key": "15hsn5p"
+        }
+      },
+      {
+        "name": "Unley Oval",
+        "aliases": [
+          "Unley"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Unley Oval",
+          "date": "2026-11-24",
+          "key": "dbbm6p"
+        }
+      },
+      {
+        "name": "Albert Cricket Ground",
+        "aliases": [
+          "Albert Ground"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Albert Cricket Ground",
+          "date": "2026-11-24",
+          "key": "1i429u2"
+        }
+      },
+      {
+        "name": "Barton Oval",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Barton Oval",
+          "date": "2026-11-24",
+          "key": "12t6i9x"
+        }
+      },
+      {
+        "name": "University Oval, Sydney",
+        "aliases": [
+          "Sydney University Oval"
+        ],
+        "wiki": "University Oval, Sydney",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "University Oval, Sydney",
+          "date": "2026-11-24",
+          "key": "yeo4i6"
+        }
+      },
+      {
+        "name": "King's College Oval",
+        "aliases": [
+          "Pembroke School"
+        ],
+        "wiki": "Pembroke School, Adelaide",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Pembroke School, Adelaide",
+          "date": "2026-11-24",
+          "key": "ooj2hh"
+        }
+      },
+      {
+        "name": "St Peter's College",
+        "aliases": [
+          "St Peter's College Oval"
+        ],
+        "wiki": "St Peter's College, Adelaide",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "St Peter's College, Adelaide",
+          "date": "2026-11-24",
+          "key": "nslq9t"
+        }
+      },
+      {
+        "name": "Hale School",
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Hale School",
+          "date": "2026-11-24",
+          "key": "48ntqn"
+        }
+      }
+    ]
+  },
+  {
+    "id": "clt20-teams-2009-2014",
+    "prompt": "Name a team that played in the Champions League Twenty20, including its qualifying stage (2009–2014)",
+    "category": "Champions League T20",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "t20",
+      "franchise",
+      "domestic"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Champions_League_Twenty20"
+    ],
+    "metrics": [
+      {
+        "label": "Editions qualified for",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Chennai Super Kings",
+        "aliases": [
+          "CSK",
+          "Chennai",
+          "Super Kings"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Chennai Super Kings",
+          "date": "2026-11-24",
+          "key": "1s5ckji"
+        }
+      },
+      {
+        "name": "Mumbai Indians",
+        "aliases": [
+          "MI",
+          "Mumbai"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Mumbai Indians",
+          "date": "2026-11-24",
+          "key": "2z5t1f"
+        }
+      },
+      {
+        "name": "Royal Challengers Bangalore",
+        "aliases": [
+          "Royal Challengers Bengaluru",
+          "RCB",
+          "Royal Challengers",
+          "Bangalore",
+          "Bengaluru"
+        ],
+        "wiki": "Royal Challengers Bengaluru",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Royal Challengers Bengaluru",
+          "date": "2026-11-24",
+          "key": "fx8b2g"
+        }
+      },
+      {
+        "name": "Kolkata Knight Riders",
+        "aliases": [
+          "KKR",
+          "Kolkata",
+          "Knight Riders"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Kolkata Knight Riders",
+          "date": "2026-11-24",
+          "key": "1dh0ihp"
+        }
+      },
+      {
+        "name": "Rajasthan Royals",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rajasthan Royals",
+          "date": "2026-11-24",
+          "key": "z7kayv"
+        },
+        "aliases": [
+          "Rajasthan"
+        ]
+      },
+      {
+        "name": "Delhi Daredevils",
+        "aliases": [
+          "Delhi Capitals",
+          "Daredevils",
+          "Delhi"
+        ],
+        "wiki": "Delhi Capitals",
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Delhi Capitals",
+          "date": "2026-11-24",
+          "key": "aiwfdw"
+        }
+      },
+      {
+        "name": "Kings XI Punjab",
+        "aliases": [
+          "Punjab Kings",
+          "Kings XI",
+          "Punjab"
+        ],
+        "wiki": "Punjab Kings",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Punjab Kings",
+          "date": "2026-11-24",
+          "key": "1oy0s7m"
+        }
+      },
+      {
+        "name": "Sunrisers Hyderabad",
+        "aliases": [
+          "SRH",
+          "Sunrisers",
+          "Hyderabad"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sunrisers Hyderabad",
+          "date": "2026-11-24",
+          "key": "skja14"
+        }
+      },
+      {
+        "name": "Deccan Chargers",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Deccan Chargers",
+          "date": "2026-11-24",
+          "key": "dbv04j"
+        },
+        "aliases": [
+          "Chargers",
+          "Deccan"
+        ]
+      },
+      {
+        "name": "Sydney Sixers",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sydney Sixers",
+          "date": "2026-11-24",
+          "key": "ngfddl"
+        },
+        "aliases": [
+          "Sixers"
+        ]
+      },
+      {
+        "name": "Perth Scorchers",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Perth Scorchers",
+          "date": "2026-11-24",
+          "key": "ozoh8d"
+        },
+        "aliases": [
+          "Scorchers",
+          "Perth"
+        ]
+      },
+      {
+        "name": "Brisbane Heat",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Brisbane Heat",
+          "date": "2026-11-24",
+          "key": "fi80kz"
+        },
+        "aliases": [
+          "Heat",
+          "Brisbane"
+        ]
+      },
+      {
+        "name": "Hobart Hurricanes",
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Hobart Hurricanes",
+          "date": "2026-11-24",
+          "key": "19ya6pv"
+        },
+        "aliases": [
+          "Hurricanes",
+          "Hobart"
+        ]
+      },
+      {
+        "name": "New South Wales Blues",
+        "aliases": [
+          "New South Wales",
+          "NSW",
+          "NSW Blues"
+        ],
+        "wiki": "New South Wales cricket team",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "New South Wales cricket team",
+          "date": "2026-11-24",
+          "key": "1urpegh"
+        }
+      },
+      {
+        "name": "Victorian Bushrangers",
+        "aliases": [
+          "Victoria",
+          "Bushrangers"
+        ],
+        "wiki": "Victoria cricket team",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Victoria cricket team",
+          "date": "2026-11-24",
+          "key": "1ugrn25"
+        }
+      },
+      {
+        "name": "Southern Redbacks",
+        "aliases": [
+          "South Australia",
+          "Redbacks"
+        ],
+        "wiki": "South Australia cricket team",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "South Australia cricket team",
+          "date": "2026-11-24",
+          "key": "rcrd6e"
+        }
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "aliases": [
+          "T&T",
+          "Trinidad"
+        ],
+        "wiki": "Trinidad and Tobago national cricket team",
+        "values": [
+          5
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Trinidad and Tobago national cricket team",
+          "date": "2026-11-24",
+          "key": "n5xyy9"
+        }
+      },
+      {
+        "name": "Guyana",
+        "wiki": "Guyana national cricket team",
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Guyana national cricket team",
+          "date": "2026-11-24",
+          "key": "11o6dvc"
+        }
+      },
+      {
+        "name": "Barbados Tridents",
+        "aliases": [
+          "Barbados Royals"
+        ],
+        "wiki": "Barbados Royals",
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "1u4poef"
+        }
+      },
+      {
+        "name": "Highveld Lions",
+        "aliases": [
+          "Lions"
+        ],
+        "wiki": "Highveld Lions cricket team",
+        "values": [
+          3
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "lrd8l9"
+        }
+      },
+      {
+        "name": "Cape Cobras",
+        "aliases": [
+          "Cobras"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Cape Cobras",
+          "date": "2026-11-24",
+          "key": "oqdv30"
+        }
+      },
+      {
+        "name": "Titans",
+        "wiki": "Titans cricket team",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Titans cricket team",
+          "date": "2026-11-24",
+          "key": "rn3aga"
+        }
+      },
+      {
+        "name": "Warriors",
+        "wiki": "Warriors (cricket team)",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Warriors (cricket team)",
+          "date": "2026-11-24",
+          "key": "1ncx5wx"
+        }
+      },
+      {
+        "name": "Dolphins",
+        "wiki": "Dolphins cricket team",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "8yb91h"
+        },
+        "aliases": [
+          "KwaZulu-Natal",
+          "KZN"
+        ]
+      },
+      {
+        "name": "Diamond Eagles",
+        "aliases": [
+          "Eagles"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "xtogod"
+        }
+      },
+      {
+        "name": "Somerset",
+        "wiki": "Somerset County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-24",
+          "key": "rwi7rp"
+        },
+        "aliases": [
+          "Somerset Sabres"
+        ]
+      },
+      {
+        "name": "Sussex Sharks",
+        "aliases": [
+          "Sussex"
+        ],
+        "wiki": "Sussex County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sussex County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1py866y"
+        }
+      },
+      {
+        "name": "Yorkshire Carnegie",
+        "aliases": [
+          "Yorkshire",
+          "Yorkshire Vikings"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1d98abo"
+        }
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hampshire Royals",
+          "Hampshire Hawks"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "16cpozn"
+        }
+      },
+      {
+        "name": "Leicestershire Foxes",
+        "aliases": [
+          "Leicestershire"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "1c3ewr4"
+        }
+      },
+      {
+        "name": "Auckland Aces",
+        "aliases": [
+          "Auckland"
+        ],
+        "wiki": "Auckland cricket team",
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Auckland cricket team",
+          "date": "2026-11-24",
+          "key": "106ew6r"
+        }
+      },
+      {
+        "name": "Otago Volts",
+        "aliases": [
+          "Otago"
+        ],
+        "wiki": "Otago cricket team",
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Otago cricket team",
+          "date": "2026-11-24",
+          "key": "8t8w4g"
+        }
+      },
+      {
+        "name": "Central Stags",
+        "aliases": [
+          "Central Districts"
+        ],
+        "wiki": "Central Districts cricket team",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Districts cricket team",
+          "date": "2026-11-24",
+          "key": "1885mmn"
+        }
+      },
+      {
+        "name": "Northern Knights",
+        "aliases": [
+          "Northern Districts"
+        ],
+        "wiki": "Northern Districts men's cricket team",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Northern Districts men's cricket team",
+          "date": "2026-11-24",
+          "key": "c9zhw8"
+        }
+      },
+      {
+        "name": "Wayamba",
+        "aliases": [
+          "Wayamba Elevens"
+        ],
+        "wiki": "Wayamba cricket team",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Wayamba cricket team",
+          "date": "2026-11-24",
+          "key": "4mh97q"
+        }
+      },
+      {
+        "name": "Kandurata Maroons",
+        "aliases": [
+          "Kandurata"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Kandurata Maroons",
+          "date": "2026-11-24",
+          "key": "1j5dv1y"
+        }
+      },
+      {
+        "name": "Ruhuna Royals",
+        "aliases": [
+          "Ruhuna"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Ruhuna Royals",
+          "date": "2026-11-24",
+          "key": "9blz03"
+        }
+      },
+      {
+        "name": "Uva Next",
+        "aliases": [
+          "Uva"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Uva Next",
+          "date": "2026-11-24",
+          "key": "1vobeoc"
+        }
+      },
+      {
+        "name": "Southern Express",
+        "wiki": "Southern Express T20",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Champions League Twenty20",
+          "date": "2026-11-24",
+          "key": "lxe52e"
+        },
+        "aliases": [
+          "Express"
+        ]
+      },
+      {
+        "name": "Lahore Lions",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Lahore Lions",
+          "date": "2026-11-24",
+          "key": "1wh0li"
+        },
+        "aliases": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "Sialkot Stallions",
+        "aliases": [
+          "Sialkot"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Sialkot Stallions",
+          "date": "2026-11-24",
+          "key": "1gx5o0u"
+        }
+      },
+      {
+        "name": "Faisalabad Wolves",
+        "aliases": [
+          "Faisalabad"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Faisalabad Wolves",
+          "date": "2026-11-24",
+          "key": "1349s9x"
+        }
+      }
+    ]
+  },
+  {
+    "id": "aus-nz-sa-first-class-teams-2023-24",
+    "prompt": "Name a team that played in the 2023–24 Sheffield Shield, Plunket Shield or South Africa's four-day domestic series",
+    "category": "First-class domestic teams",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "domestic",
+      "australia",
+      "new-zealand",
+      "south-africa"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sheffield_Shield",
+      "https://en.wikipedia.org/wiki/Plunket_Shield",
+      "https://en.wikipedia.org/wiki/CSA_4-Day_Domestic_Series"
+    ],
+    "answers": [
+      {
+        "name": "New South Wales",
+        "aliases": [
+          "NSW",
+          "New South Wales Blues",
+          "NSW Blues"
+        ],
+        "wiki": "New South Wales cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "New South Wales cricket team",
+          "date": "2026-11-24",
+          "key": "5s22x8"
+        }
+      },
+      {
+        "name": "Victoria",
+        "aliases": [
+          "Victorian Bushrangers",
+          "Bushrangers"
+        ],
+        "wiki": "Victoria cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Victoria cricket team",
+          "date": "2026-11-24",
+          "key": "r66zmu"
+        }
+      },
+      {
+        "name": "Queensland",
+        "aliases": [
+          "Queensland Bulls",
+          "Bulls"
+        ],
+        "wiki": "Queensland cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Queensland cricket team",
+          "date": "2026-11-24",
+          "key": "12glomf"
+        }
+      },
+      {
+        "name": "Western Australia",
+        "aliases": [
+          "WA",
+          "Western Australian Warriors",
+          "Western Warriors"
+        ],
+        "wiki": "Western Australia cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Western Australia cricket team",
+          "date": "2026-11-24",
+          "key": "xosbl"
+        }
+      },
+      {
+        "name": "South Australia",
+        "aliases": [
+          "Southern Redbacks",
+          "Redbacks",
+          "SA Redbacks"
+        ],
+        "wiki": "South Australia cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "South Australia cricket team",
+          "date": "2026-11-24",
+          "key": "1qk0580"
+        }
+      },
+      {
+        "name": "Tasmania",
+        "aliases": [
+          "Tasmanian Tigers",
+          "Tigers"
+        ],
+        "wiki": "Tasmania cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Tasmania cricket team",
+          "date": "2026-11-24",
+          "key": "13xho33"
+        }
+      },
+      {
+        "name": "Auckland",
+        "aliases": [
+          "Auckland Aces",
+          "Aces"
+        ],
+        "wiki": "Auckland cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Auckland cricket team",
+          "date": "2026-11-24",
+          "key": "1hp3qu6"
+        }
+      },
+      {
+        "name": "Canterbury",
+        "aliases": [
+          "Canterbury Kings",
+          "Canterbury Wizards"
+        ],
+        "wiki": "Canterbury cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Canterbury cricket team",
+          "date": "2026-11-24",
+          "key": "57tt8f"
+        }
+      },
+      {
+        "name": "Wellington",
+        "aliases": [
+          "Wellington Firebirds",
+          "Firebirds"
+        ],
+        "wiki": "Wellington cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Wellington cricket team",
+          "date": "2026-11-24",
+          "key": "1g0vrwe"
+        }
+      },
+      {
+        "name": "Otago",
+        "aliases": [
+          "Otago Volts",
+          "Volts"
+        ],
+        "wiki": "Otago cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Otago cricket team",
+          "date": "2026-11-24",
+          "key": "yj77lj"
+        }
+      },
+      {
+        "name": "Central Districts",
+        "aliases": [
+          "Central Stags",
+          "Stags"
+        ],
+        "wiki": "Central Districts cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Districts cricket team",
+          "date": "2026-11-24",
+          "key": "u700a2"
+        }
+      },
+      {
+        "name": "Northern Districts",
+        "aliases": [
+          "Northern Brave",
+          "Northern Knights"
+        ],
+        "wiki": "Northern Districts men's cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Northern Districts men's cricket team",
+          "date": "2026-11-24",
+          "key": "158gu9z"
+        }
+      },
+      {
+        "name": "Western Province",
+        "wiki": "Western Province cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Western Province cricket team",
+          "date": "2026-11-24",
+          "key": "1czlvsl"
+        }
+      },
+      {
+        "name": "Titans",
+        "aliases": [
+          "Northerns"
+        ],
+        "wiki": "Titans (cricket team)",
+        "tier": "two",
+        "verified": {
+          "wiki": "Titans cricket team",
+          "date": "2026-11-24",
+          "key": "1o5j6rf"
+        }
+      },
+      {
+        "name": "Lions",
+        "aliases": [
+          "Imperial Lions",
+          "DP World Lions",
+          "Highveld Lions",
+          "Gauteng"
+        ],
+        "wiki": "Imperial Lions",
+        "tier": "four",
+        "verified": {
+          "wiki": "Lions cricket team (South Africa)",
+          "date": "2026-11-24",
+          "key": "1toe0d6"
+        }
+      },
+      {
+        "name": "Dolphins",
+        "aliases": [
+          "KwaZulu-Natal",
+          "KZN Coastal",
+          "Hollywoodbets Dolphins"
+        ],
+        "wiki": "Dolphins (South African cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Dolphins (South African cricket team)",
+          "date": "2026-11-24",
+          "key": "3beet3"
+        }
+      },
+      {
+        "name": "Warriors",
+        "aliases": [
+          "Eastern Province"
+        ],
+        "wiki": "Warriors (cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Warriors (cricket team)",
+          "date": "2026-11-24",
+          "key": "1h0980i"
+        }
+      },
+      {
+        "name": "Knights",
+        "aliases": [
+          "Free State"
+        ],
+        "wiki": "Knights (cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Knights cricket team",
+          "date": "2026-11-24",
+          "key": "7wciql"
+        }
+      },
+      {
+        "name": "Boland",
+        "wiki": "Boland (cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Boland cricket team",
+          "date": "2026-11-24",
+          "key": "1dga2du"
+        }
+      },
+      {
+        "name": "North West",
+        "aliases": [
+          "North West Dragons",
+          "Dragons"
+        ],
+        "wiki": "North West (cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "North West cricket team",
+          "date": "2026-11-24",
+          "key": "1c4ahgc"
+        }
+      },
+      {
+        "name": "Border",
+        "wiki": "Border (cricket team)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Border cricket team",
+          "date": "2026-11-24",
+          "key": "19bzkxa"
+        }
+      },
+      {
+        "name": "Easterns",
+        "wiki": "Easterns (cricket team)",
+        "tier": "six",
+        "verified": {
+          "wiki": "Easterns cricket team",
+          "date": "2026-11-24",
+          "key": "1u1devi"
+        }
+      },
+      {
+        "name": "KwaZulu-Natal Inland",
+        "aliases": [
+          "KZN Inland",
+          "Inland"
+        ],
+        "wiki": "KwaZulu-Natal Inland (cricket team)",
+        "tier": "six",
+        "verified": {
+          "wiki": "KwaZulu-Natal Inland cricket team",
+          "date": "2026-11-24",
+          "key": "1d0u3f3"
+        }
+      },
+      {
+        "name": "South Western Districts",
+        "aliases": [
+          "SWD"
+        ],
+        "wiki": "South Western Districts (cricket team)",
+        "tier": "six",
+        "verified": {
+          "wiki": "South Western Districts cricket team",
+          "date": "2026-11-24",
+          "key": "qczlta"
+        }
+      },
+      {
+        "name": "Northern Cape",
+        "aliases": [
+          "Northern Cape Heat",
+          "Griqualand West"
+        ],
+        "wiki": "Northern Cape (cricket team)",
+        "tier": "six",
+        "verified": {
+          "wiki": "Northern Cape cricket team",
+          "date": "2026-11-24",
+          "key": "y3emhy"
+        }
+      },
+      {
+        "name": "Limpopo",
+        "aliases": [
+          "Limpopo Impala"
+        ],
+        "wiki": "Limpopo (cricket team)",
+        "tier": "six",
+        "verified": {
+          "wiki": "Limpopo cricket team",
+          "date": "2026-11-24",
+          "key": "1kwomtu"
+        }
+      },
+      {
+        "name": "Mpumalanga",
+        "aliases": [
+          "Mpumalanga Rhinos"
+        ],
+        "wiki": "Mpumalanga (cricket team)",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Mpumalanga cricket team",
+          "date": "2026-11-24",
+          "key": "17umooa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bpl-teams-2012-2025-26",
+    "prompt": "Name a team that played in the Bangladesh Premier League, from 2012 up to the 2025–26 season",
+    "category": "Bangladesh Premier League",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "t20",
+      "franchise"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bangladesh_Premier_League"
+    ],
+    "metrics": [
+      {
+        "label": "Seasons played under this name",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Comilla Victorians",
+        "aliases": [
+          "Cumilla Victorians",
+          "Victorians"
+        ],
+        "values": [
+          7
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Comilla Victorians",
+          "date": "2026-11-24",
+          "key": "mrqlvz"
+        }
+      },
+      {
+        "name": "Rangpur Riders",
+        "aliases": [
+          "Riders"
+        ],
+        "values": [
+          9
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rangpur Riders",
+          "date": "2026-11-24",
+          "key": "15841mi"
+        }
+      },
+      {
+        "name": "Fortune Barishal",
+        "aliases": [
+          "Barishal",
+          "Barisal"
+        ],
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Fortune Barishal",
+          "date": "2026-11-24",
+          "key": "xny36e"
+        }
+      },
+      {
+        "name": "Dhaka Dynamites",
+        "aliases": [
+          "Dynamites"
+        ],
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "1s79l8u"
+        }
+      },
+      {
+        "name": "Khulna Tigers",
+        "values": [
+          5
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Khulna Tigers",
+          "date": "2026-11-24",
+          "key": "15wuos8"
+        }
+      },
+      {
+        "name": "Sylhet Strikers",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "s8j493"
+        }
+      },
+      {
+        "name": "Chittagong Vikings",
+        "aliases": [
+          "Chattogram Vikings"
+        ],
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Chattogram Royals",
+          "date": "2026-11-24",
+          "key": "v74fy1"
+        }
+      },
+      {
+        "name": "Dhaka Gladiators",
+        "aliases": [
+          "Gladiators"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "1snx4w4"
+        }
+      },
+      {
+        "name": "Rajshahi Kings",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rajshahi Warriors",
+          "date": "2026-11-24",
+          "key": "141pky3"
+        }
+      },
+      {
+        "name": "Khulna Titans",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Khulna Tigers",
+          "date": "2026-11-24",
+          "key": "kby3v7"
+        }
+      },
+      {
+        "name": "Chattogram Challengers",
+        "aliases": [
+          "Chittagong Challengers"
+        ],
+        "values": [
+          4
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Chattogram Royals",
+          "date": "2026-11-24",
+          "key": "k690th"
+        }
+      },
+      {
+        "name": "Barisal Burners",
+        "aliases": [
+          "Burners"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Fortune Barishal",
+          "date": "2026-11-24",
+          "key": "sadvet"
+        }
+      },
+      {
+        "name": "Chittagong Kings",
+        "aliases": [
+          "Chattogram Kings"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Chattogram Royals",
+          "date": "2026-11-24",
+          "key": "1glcoyh"
+        }
+      },
+      {
+        "name": "Sylhet Sixers",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "4659le"
+        }
+      },
+      {
+        "name": "Dhaka Capitals",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "m2jy95"
+        }
+      },
+      {
+        "name": "Duronto Rajshahi",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Rajshahi Warriors",
+          "date": "2026-11-24",
+          "key": "od9ot6"
+        }
+      },
+      {
+        "name": "Khulna Royal Bengals",
+        "aliases": [
+          "Royal Bengals"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Khulna Tigers",
+          "date": "2026-11-24",
+          "key": "18p0o0"
+        }
+      },
+      {
+        "name": "Sylhet Royals",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "nv7mk2"
+        }
+      },
+      {
+        "name": "Barisal Bulls",
+        "aliases": [
+          "Bulls"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Fortune Barishal",
+          "date": "2026-11-24",
+          "key": "1abiymf"
+        }
+      },
+      {
+        "name": "Dhaka Platoon",
+        "aliases": [
+          "Platoon"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "1rwhg84"
+        }
+      },
+      {
+        "name": "Minister Dhaka",
+        "aliases": [
+          "Minister Group Dhaka"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "1btdf96"
+        }
+      },
+      {
+        "name": "Dhaka Dominators",
+        "aliases": [
+          "Dominators"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "bcbb2s"
+        }
+      },
+      {
+        "name": "Durdanto Dhaka",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Dhaka Capitals",
+          "date": "2026-11-24",
+          "key": "1pfxgb9"
+        }
+      },
+      {
+        "name": "Rajshahi Royals",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Rajshahi Warriors",
+          "date": "2026-11-24",
+          "key": "1uaz1ef"
+        }
+      },
+      {
+        "name": "Rangpur Rangers",
+        "aliases": [
+          "Rangers"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Rangpur Riders",
+          "date": "2026-11-24",
+          "key": "10uhfk8"
+        }
+      },
+      {
+        "name": "Sylhet Thunder",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "122th8q"
+        }
+      },
+      {
+        "name": "Sylhet Sunrisers",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "1gk2tuw"
+        }
+      },
+      {
+        "name": "Sylhet Super Stars",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "1sl780q"
+        }
+      },
+      {
+        "name": "Comilla Warriors",
+        "aliases": [
+          "Cumilla Warriors"
+        ],
+        "wiki": "Cumilla Warriors",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Comilla Victorians",
+          "date": "2026-11-24",
+          "key": "4l4tws"
+        }
+      },
+      {
+        "name": "Durbar Rajshahi",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Rajshahi Warriors",
+          "date": "2026-11-24",
+          "key": "h8jblf"
+        }
+      },
+      {
+        "name": "Rajshahi Warriors",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Rajshahi Warriors",
+          "date": "2026-11-24",
+          "key": "1pk9iow"
+        }
+      },
+      {
+        "name": "Chattogram Royals",
+        "aliases": [
+          "Chittagong Royals"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Chattogram Royals",
+          "date": "2026-11-24",
+          "key": "yo0t2f"
+        }
+      },
+      {
+        "name": "Sylhet Titans",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Sylhet Titans",
+          "date": "2026-11-24",
+          "key": "1av6bg9"
+        }
+      },
+      {
+        "name": "Noakhali Express",
+        "aliases": [
+          "Noakhali"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Noakhali Express",
+          "date": "2026-11-24",
+          "key": "15slxn9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "icc-europe-members-2026",
+    "prompt": "Name a member of the ICC's Europe region in 2026",
+    "category": "ICC Europe",
+    "answerType": "country",
+    "tags": [
+      "international",
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ICC_Europe"
+    ],
+    "metrics": [
+      {
+        "label": "Year of ICC membership",
+        "rarerWhen": "higher"
+      }
+    ],
+    "answers": [
+      {
+        "name": "England",
+        "aliases": [
+          "England and Wales",
+          "Wales"
+        ],
+        "wiki": "England cricket team",
+        "values": [
+          1909
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "England cricket team",
+          "date": "2026-11-24",
+          "key": "1icvxki"
+        }
+      },
+      {
+        "name": "Ireland",
+        "aliases": [
+          "Northern Ireland"
+        ],
+        "wiki": "Ireland cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Ireland cricket team",
+          "date": "2026-11-24",
+          "key": "1yh96yl"
+        }
+      },
+      {
+        "name": "Scotland",
+        "wiki": "Scotland national cricket team",
+        "values": [
+          1994
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Scotland national cricket team",
+          "date": "2026-11-24",
+          "key": "nq1x36"
+        }
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "wiki": "Netherlands national cricket team",
+        "values": [
+          1966
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Netherlands national cricket team",
+          "date": "2026-11-24",
+          "key": "g05enu"
+        }
+      },
+      {
+        "name": "Italy",
+        "wiki": "Italy national cricket team",
+        "values": [
+          1995
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Italy national cricket team",
+          "date": "2026-11-24",
+          "key": "bg6gvs"
+        }
+      },
+      {
+        "name": "Germany",
+        "wiki": "Germany national cricket team",
+        "values": [
+          1999
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Germany national cricket team",
+          "date": "2026-11-24",
+          "key": "4j9pjc"
+        }
+      },
+      {
+        "name": "Denmark",
+        "wiki": "Denmark national cricket team",
+        "values": [
+          1966
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Denmark national cricket team",
+          "date": "2026-11-24",
+          "key": "ji5wyi"
+        }
+      },
+      {
+        "name": "France",
+        "wiki": "France national cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "France national cricket team",
+          "date": "2026-11-24",
+          "key": "l8rtzy"
+        }
+      },
+      {
+        "name": "Jersey",
+        "wiki": "Jersey cricket team",
+        "values": [
+          2007
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Jersey cricket team",
+          "date": "2026-11-24",
+          "key": "1tv5khc"
+        }
+      },
+      {
+        "name": "Guernsey",
+        "wiki": "Guernsey cricket team",
+        "values": [
+          2008
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Guernsey cricket team",
+          "date": "2026-11-24",
+          "key": "135pvqg"
+        }
+      },
+      {
+        "name": "Spain",
+        "wiki": "Spain national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Spain national cricket team",
+          "date": "2026-11-24",
+          "key": "1kocf34"
+        }
+      },
+      {
+        "name": "Austria",
+        "wiki": "Austria national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Austria national cricket team",
+          "date": "2026-11-24",
+          "key": "zyta9k"
+        }
+      },
+      {
+        "name": "Belgium",
+        "wiki": "Belgium national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Belgium national cricket team",
+          "date": "2026-11-24",
+          "key": "3oy44k"
+        }
+      },
+      {
+        "name": "Switzerland",
+        "wiki": "Switzerland national cricket team",
+        "values": [
+          1985
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Switzerland national cricket team",
+          "date": "2026-11-24",
+          "key": "1gfjyp0"
+        }
+      },
+      {
+        "name": "Sweden",
+        "wiki": "Sweden national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sweden national cricket team",
+          "date": "2026-11-24",
+          "key": "qheyoy"
+        }
+      },
+      {
+        "name": "Norway",
+        "wiki": "Norway national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Norway national cricket team",
+          "date": "2026-11-24",
+          "key": "1jpjszm"
+        }
+      },
+      {
+        "name": "Gibraltar",
+        "wiki": "Gibraltar national cricket team",
+        "values": [
+          1969
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Gibraltar national cricket team",
+          "date": "2026-11-24",
+          "key": "v14dvm"
+        }
+      },
+      {
+        "name": "Israel",
+        "wiki": "Israel national cricket team",
+        "values": [
+          1974
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Israel national cricket team",
+          "date": "2026-11-24",
+          "key": "1grq4nm"
+        }
+      },
+      {
+        "name": "Portugal",
+        "wiki": "Portugal national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Portugal national cricket team",
+          "date": "2026-11-24",
+          "key": "cjo3gm"
+        }
+      },
+      {
+        "name": "Isle of Man",
+        "wiki": "Isle of Man cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Isle of Man cricket team",
+          "date": "2026-11-24",
+          "key": "tos1q0"
+        }
+      },
+      {
+        "name": "Finland",
+        "wiki": "Finland national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Finland national cricket team",
+          "date": "2026-11-24",
+          "key": "1ubj6si"
+        }
+      },
+      {
+        "name": "Greece",
+        "wiki": "Greece national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Greece national cricket team",
+          "date": "2026-11-24",
+          "key": "1vppjga"
+        }
+      },
+      {
+        "name": "Cyprus",
+        "wiki": "Cyprus national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Cyprus national cricket team",
+          "date": "2026-11-24",
+          "key": "1msyp2m"
+        }
+      },
+      {
+        "name": "Czech Republic",
+        "aliases": [
+          "Czechia"
+        ],
+        "wiki": "Czech Republic national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Czech Republic national cricket team",
+          "date": "2026-11-24",
+          "key": "wjrn71"
+        }
+      },
+      {
+        "name": "Romania",
+        "wiki": "Romania national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Romania national cricket team",
+          "date": "2026-11-24",
+          "key": "1upgyis"
+        }
+      },
+      {
+        "name": "Luxembourg",
+        "wiki": "Luxembourg national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Luxembourg national cricket team",
+          "date": "2026-11-24",
+          "key": "7rrovm"
+        }
+      },
+      {
+        "name": "Malta",
+        "wiki": "Malta national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Malta national cricket team",
+          "date": "2026-11-24",
+          "key": "7ygglk"
+        }
+      },
+      {
+        "name": "Hungary",
+        "wiki": "Hungary national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Hungary national cricket team",
+          "date": "2026-11-24",
+          "key": "7nsi2q"
+        }
+      },
+      {
+        "name": "Bulgaria",
+        "wiki": "Bulgaria national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Bulgaria national cricket team",
+          "date": "2026-11-24",
+          "key": "1igl8xq"
+        }
+      },
+      {
+        "name": "Croatia",
+        "wiki": "Croatia national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Croatia national cricket team",
+          "date": "2026-11-24",
+          "key": "1xkzs6g"
+        }
+      },
+      {
+        "name": "Estonia",
+        "wiki": "Estonia national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Estonia national cricket team",
+          "date": "2026-11-24",
+          "key": "1txp69k"
+        }
+      },
+      {
+        "name": "Serbia",
+        "wiki": "Serbia national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Serbia national cricket team",
+          "date": "2026-11-24",
+          "key": "fxvfvq"
+        }
+      },
+      {
+        "name": "Turkey",
+        "aliases": [
+          "Türkiye"
+        ],
+        "wiki": "Turkey national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Turkey national cricket team",
+          "date": "2026-11-24",
+          "key": "lf2m1s"
+        }
+      },
+      {
+        "name": "Slovenia",
+        "wiki": "Slovenia national cricket team",
+        "values": [
+          2017
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Slovenia national cricket team",
+          "date": "2026-11-24",
+          "key": "r7koti"
+        }
+      }
+    ]
+  },
+  {
+    "id": "u19-world-cup-nations-1988-2026",
+    "prompt": "Name a country that played at the men's Under-19 World Cup (1988–2026)",
+    "category": "Under-19 World Cup nations",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Under-19_Men%27s_Cricket_World_Cup"
+    ],
+    "metrics": [
+      {
+        "label": "Year of first appearance",
+        "rarerWhen": "higher"
+      }
+    ],
+    "answers": [
+      {
+        "name": "India",
+        "wiki": "India national under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "India national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "zvupxc"
+        }
+      },
+      {
+        "name": "Australia",
+        "wiki": "Australia national under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Australia national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1cwb64y"
+        }
+      },
+      {
+        "name": "England",
+        "wiki": "England under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "England under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "s6e1jy"
+        }
+      },
+      {
+        "name": "Pakistan",
+        "wiki": "Pakistan national under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Pakistan national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1m5b22e"
+        }
+      },
+      {
+        "name": "South Africa",
+        "wiki": "South Africa national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "South Africa national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1mfy1ge"
+        },
+        "aliases": [
+          "Proteas"
+        ]
+      },
+      {
+        "name": "New Zealand",
+        "wiki": "New Zealand national under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "New Zealand national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1xh4nbs"
+        },
+        "aliases": [
+          "Black Caps"
+        ]
+      },
+      {
+        "name": "Sri Lanka",
+        "wiki": "Sri Lanka national under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sri Lanka national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1y582t8"
+        }
+      },
+      {
+        "name": "West Indies",
+        "aliases": [
+          "Windies"
+        ],
+        "wiki": "West Indies under-19 cricket team",
+        "values": [
+          1988
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "West Indies under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "w33b6f"
+        }
+      },
+      {
+        "name": "Bangladesh",
+        "wiki": "Bangladesh national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Bangladesh national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "tdngba"
+        },
+        "aliases": [
+          "Tigers"
+        ]
+      },
+      {
+        "name": "Zimbabwe",
+        "wiki": "Zimbabwe national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Zimbabwe national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "i3pii"
+        },
+        "aliases": [
+          "Chevrons"
+        ]
+      },
+      {
+        "name": "Afghanistan",
+        "wiki": "Afghanistan national under-19 cricket team",
+        "values": [
+          2010
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Afghanistan national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "y9rfra"
+        }
+      },
+      {
+        "name": "Ireland",
+        "wiki": "Ireland under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Ireland under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "989yka"
+        }
+      },
+      {
+        "name": "Scotland",
+        "wiki": "Scotland national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Scotland national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "8tosda"
+        }
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "wiki": "Netherlands national under-19 cricket team",
+        "values": [
+          2000
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Netherlands national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1nba2qe"
+        }
+      },
+      {
+        "name": "Nepal",
+        "wiki": "Nepal national under-19 cricket team",
+        "values": [
+          2000
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Nepal national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1o6bub2"
+        }
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "wiki": "United Arab Emirates national under-19 cricket team",
+        "values": [
+          2014
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "United Arab Emirates national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1rw1kq7"
+        }
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "America",
+          "United States of America"
+        ],
+        "wiki": "United States national under-19 cricket team",
+        "values": [
+          2006
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "United States national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1y59gj"
+        }
+      },
+      {
+        "name": "Canada",
+        "wiki": "Canada national under-19 cricket team",
+        "values": [
+          2002
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Canada national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "8ogn1a"
+        }
+      },
+      {
+        "name": "Kenya",
+        "wiki": "Kenya national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Kenya national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "vm7dry"
+        }
+      },
+      {
+        "name": "Namibia",
+        "wiki": "Namibia national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Namibia national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "xtkxos"
+        }
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "wiki": "Papua New Guinea national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Papua New Guinea national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "h1xn0j"
+        }
+      },
+      {
+        "name": "Hong Kong",
+        "wiki": "Hong Kong national under-19 cricket team",
+        "values": [
+          2010
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Hong Kong national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "xd6z04"
+        }
+      },
+      {
+        "name": "Uganda",
+        "wiki": "Uganda national under-19 cricket team",
+        "values": [
+          2004
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Uganda national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "14k8tim"
+        }
+      },
+      {
+        "name": "Japan",
+        "wiki": "Japan national under-19 cricket team",
+        "values": [
+          2020
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Japan national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1011ehq"
+        }
+      },
+      {
+        "name": "Nigeria",
+        "wiki": "Nigeria national under-19 cricket team",
+        "values": [
+          2020
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Nigeria national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "92qg18"
+        }
+      },
+      {
+        "name": "Denmark",
+        "wiki": "Denmark national under-19 cricket team",
+        "values": [
+          1998
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Denmark national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "147ex9y"
+        }
+      },
+      {
+        "name": "Bermuda",
+        "wiki": "Bermuda national under-19 cricket team",
+        "values": [
+          2008
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Bermuda national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "jufxpq"
+        }
+      },
+      {
+        "name": "Malaysia",
+        "wiki": "Malaysia national under-19 cricket team",
+        "values": [
+          2008
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Under-19 Men's Cricket World Cup",
+          "date": "2026-11-24",
+          "key": "yqfjdi"
+        }
+      },
+      {
+        "name": "Fiji",
+        "wiki": "Fiji national under-19 cricket team",
+        "values": [
+          2016
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Fiji national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "1gmx4wm"
+        }
+      },
+      {
+        "name": "Tanzania",
+        "wiki": "Tanzania national under-19 cricket team",
+        "values": [
+          2026
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Tanzania national under-19 cricket team",
+          "date": "2026-11-24",
+          "key": "11izkjm"
+        }
+      }
+    ]
+  },
+  {
+    "id": "t20-competitions-aus-eng-nz-sa-wi-before-2026",
+    "prompt": "Name a domestic T20 competition (men's or women's, current or defunct) held in Australia, England, New Zealand, South Africa or the West Indies before 2026",
+    "category": "Domestic T20 competitions",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "women",
+      "t20",
+      "domestic",
+      "franchise"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Twenty20_cricket_competitions"
+    ],
+    "metrics": [
+      {
+        "label": "First edition",
+        "rarerWhen": "higher"
+      }
+    ],
+    "specificWeight": 0.3,
+    "answers": [
+      {
+        "name": "Big Bash League",
+        "aliases": [
+          "BBL",
+          "Big Bash",
+          "KFC Big Bash League",
+          "KFC BBL"
+        ],
+        "values": [
+          2011
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Big Bash League",
+          "date": "2026-11-24",
+          "key": "1j0v9d2"
+        }
+      },
+      {
+        "name": "T20 Blast",
+        "aliases": [
+          "Vitality Blast",
+          "NatWest T20 Blast",
+          "Twenty20 Cup",
+          "Friends Life t20",
+          "Blast",
+          "T20 Cup"
+        ],
+        "values": [
+          2003
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-24",
+          "key": "1fm0cn0"
+        }
+      },
+      {
+        "name": "Caribbean Premier League",
+        "aliases": [
+          "CPL",
+          "Hero CPL"
+        ],
+        "values": [
+          2013
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Caribbean Premier League",
+          "date": "2026-11-24",
+          "key": "1sgfk8k"
+        }
+      },
+      {
+        "name": "SA20",
+        "values": [
+          2023
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "SA20",
+          "date": "2026-11-24",
+          "key": "l5xhxu"
+        },
+        "aliases": [
+          "Betway SA20"
+        ]
+      },
+      {
+        "name": "Women's Big Bash League",
+        "aliases": [
+          "WBBL",
+          "Women's Big Bash"
+        ],
+        "values": [
+          2015
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Women's Big Bash League",
+          "date": "2026-11-24",
+          "key": "qqkl9a"
+        }
+      },
+      {
+        "name": "Super Smash",
+        "aliases": [
+          "HRV Cup",
+          "State Twenty20",
+          "Women's Super Smash",
+          "Dream11 Super Smash",
+          "Burger King Super Smash"
+        ],
+        "wiki": "Super Smash (men's cricket)",
+        "values": [
+          2006
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Super Smash (men's cricket)",
+          "date": "2026-11-24",
+          "key": "r4jvrd"
+        }
+      },
+      {
+        "name": "Women's Caribbean Premier League",
+        "aliases": [
+          "WCPL",
+          "Women's CPL"
+        ],
+        "values": [
+          2022
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Women's Caribbean Premier League",
+          "date": "2026-11-24",
+          "key": "rgd35p"
+        }
+      },
+      {
+        "name": "Women's Cricket Super League",
+        "aliases": [
+          "Kia Super League",
+          "KSL",
+          "WCSL"
+        ],
+        "values": [
+          2016
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "List of Twenty20 cricket competitions",
+          "date": "2026-11-24",
+          "key": "1drif9j"
+        }
+      },
+      {
+        "name": "Charlotte Edwards Cup",
+        "values": [
+          2021
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Charlotte Edwards Cup",
+          "date": "2026-11-24",
+          "key": "13od716"
+        }
+      },
+      {
+        "name": "CSA T20 Challenge",
+        "aliases": [
+          "Standard Bank Pro20",
+          "Ram Slam",
+          "Ram Slam T20 Challenge",
+          "MiWay T20 Challenge",
+          "Momentum One Day Cup T20"
+        ],
+        "values": [
+          2004
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "CSA T20 Challenge",
+          "date": "2026-11-24",
+          "key": "wd30vf"
+        }
+      },
+      {
+        "name": "Stanford 20/20",
+        "aliases": [
+          "Stanford Twenty20",
+          "Stanford T20"
+        ],
+        "values": [
+          2006
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Stanford 20/20",
+          "date": "2026-11-24",
+          "key": "9p1bhd"
+        }
+      },
+      {
+        "name": "Mzansi Super League",
+        "aliases": [
+          "MSL"
+        ],
+        "values": [
+          2018
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Mzansi Super League",
+          "date": "2026-11-24",
+          "key": "1ttyhqk"
+        }
+      },
+      {
+        "name": "Women's T20 Blast",
+        "aliases": [
+          "Vitality Women's Blast"
+        ],
+        "values": [
+          2025
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Women's T20 Blast",
+          "date": "2026-11-24",
+          "key": "vgwgru"
+        }
+      },
+      {
+        "name": "Twenty20 Big Bash",
+        "aliases": [
+          "KFC Twenty20 Big Bash",
+          "KFC Big Bash"
+        ],
+        "values": [
+          2006
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Twenty20 Big Bash",
+          "date": "2026-11-24",
+          "key": "11r0b18"
+        }
+      },
+      {
+        "name": "Caribbean Twenty20",
+        "aliases": [
+          "KFC Caribbean Twenty20"
+        ],
+        "values": [
+          2010
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Caribbean Twenty20",
+          "date": "2026-11-24",
+          "key": "16qqy4s"
+        }
+      },
+      {
+        "name": "Women's Twenty20 Cup",
+        "aliases": [
+          "Women's T20 Cup"
+        ],
+        "values": [
+          2009
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Women's Twenty20 Cup",
+          "date": "2026-11-24",
+          "key": "avdw57"
+        }
+      },
+      {
+        "name": "T20 Spring Challenge",
+        "aliases": [
+          "Spring Challenge"
+        ],
+        "values": [
+          2024
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "T20 Spring Challenge",
+          "date": "2026-11-24",
+          "key": "46b4t0"
+        }
+      },
+      {
+        "name": "Women's T20 County Cup",
+        "values": [
+          2025
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Women's T20 County Cup",
+          "date": "2026-11-24",
+          "key": "t9susm"
+        }
+      },
+      {
+        "name": "Women's Twenty20 Blaze",
+        "aliases": [
+          "T20 Blaze",
+          "Twenty20 Blaze"
+        ],
+        "values": [
+          2012
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Women's Twenty20 Blaze",
+          "date": "2026-11-24",
+          "key": "1jouylk"
+        }
+      },
+      {
+        "name": "CSA Provincial T20 Cup",
+        "aliases": [
+          "CSA Provincial T20",
+          "Provincial T20 Cup",
+          "CSA T20 Knock-Out"
+        ],
+        "values": [
+          2019
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "List of Twenty20 cricket competitions",
+          "date": "2026-11-24",
+          "key": "zinlip"
+        }
+      },
+      {
+        "name": "Top End T20 Series",
+        "aliases": [
+          "Top End T20"
+        ],
+        "values": [
+          2022
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Top End T20 Series",
+          "date": "2026-11-24",
+          "key": "tct567"
+        }
+      },
+      {
+        "name": "Australian Women's Twenty20 Cup",
+        "aliases": [
+          "Australian Women's T20 Cup"
+        ],
+        "values": [
+          2009
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Australian Women's Twenty20 Cup",
+          "date": "2026-11-24",
+          "key": "214kbn"
+        }
+      },
+      {
+        "name": "West Indies Breakout League",
+        "aliases": [
+          "Breakout League"
+        ],
+        "values": [
+          2025
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "West Indies Breakout League",
+          "date": "2026-11-24",
+          "key": "1fbovtr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "t20-competitions-asia-before-2026",
+    "prompt": "Name a national or franchise T20 competition (men's or women's, current or defunct) held in an Asian country before 2026",
+    "category": "Asian T20 competitions",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "women",
+      "t20",
+      "domestic",
+      "franchise"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Twenty20_cricket_competitions"
+    ],
+    "metrics": [
+      {
+        "label": "First edition",
+        "rarerWhen": "higher"
+      }
+    ],
+    "specificWeight": 0.3,
+    "answers": [
+      {
+        "name": "Indian Premier League",
+        "aliases": [
+          "IPL",
+          "Tata IPL"
+        ],
+        "values": [
+          2008
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Indian Premier League",
+          "date": "2026-11-24",
+          "key": "sdzh60"
+        }
+      },
+      {
+        "name": "Pakistan Super League",
+        "aliases": [
+          "PSL",
+          "HBL PSL"
+        ],
+        "values": [
+          2016
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Pakistan Super League",
+          "date": "2026-11-24",
+          "key": "1y6faox"
+        }
+      },
+      {
+        "name": "Bangladesh Premier League",
+        "aliases": [
+          "BPL"
+        ],
+        "values": [
+          2012
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Bangladesh Premier League",
+          "date": "2026-11-24",
+          "key": "wpgez4"
+        }
+      },
+      {
+        "name": "Lanka Premier League",
+        "aliases": [
+          "LPL"
+        ],
+        "values": [
+          2020
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Lanka Premier League",
+          "date": "2026-11-24",
+          "key": "ojazc4"
+        }
+      },
+      {
+        "name": "International League T20",
+        "aliases": [
+          "ILT20",
+          "DP World ILT20"
+        ],
+        "values": [
+          2023
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "International League T20",
+          "date": "2026-11-24",
+          "key": "zjgvlf"
+        }
+      },
+      {
+        "name": "Women's Premier League",
+        "aliases": [
+          "WPL",
+          "Women's IPL"
+        ],
+        "wiki": "Women's Premier League (cricket)",
+        "values": [
+          2023
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Women's Premier League (cricket)",
+          "date": "2026-11-24",
+          "key": "1l4eajl"
+        }
+      },
+      {
+        "name": "Syed Mushtaq Ali Trophy",
+        "aliases": [
+          "Mushtaq Ali Trophy",
+          "SMAT",
+          "Mushtaq Ali"
+        ],
+        "values": [
+          2006
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Syed Mushtaq Ali Trophy",
+          "date": "2026-11-24",
+          "key": "kpqv6x"
+        }
+      },
+      {
+        "name": "Indian Cricket League",
+        "aliases": [
+          "ICL"
+        ],
+        "values": [
+          2007
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Indian Cricket League",
+          "date": "2026-11-24",
+          "key": "tfuz17"
+        }
+      },
+      {
+        "name": "National T20 Cup",
+        "aliases": [
+          "Pakistan National T20 Cup",
+          "Faysal Bank T20 Cup",
+          "Haier T20 Cup",
+          "National Twenty20 Cup"
+        ],
+        "values": [
+          2005
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "National T20 Cup",
+          "date": "2026-11-24",
+          "key": "yoh92v"
+        }
+      },
+      {
+        "name": "Afghanistan Premier League",
+        "aliases": [
+          "APL"
+        ],
+        "values": [
+          2018
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Afghanistan Premier League",
+          "date": "2026-11-24",
+          "key": "1iol7ni"
+        }
+      },
+      {
+        "name": "Nepal Premier League",
+        "aliases": [
+          "NPL"
+        ],
+        "values": [
+          2024
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Nepal Premier League",
+          "date": "2026-11-24",
+          "key": "140cjwv"
+        }
+      },
+      {
+        "name": "Sri Lanka Premier League",
+        "aliases": [
+          "SLPL"
+        ],
+        "values": [
+          2011
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sri Lanka Premier League",
+          "date": "2026-11-24",
+          "key": "1jr2pzl"
+        }
+      },
+      {
+        "name": "Shpageeza Cricket League",
+        "aliases": [
+          "Shpageeza"
+        ],
+        "values": [
+          2016
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Shpageeza Cricket League",
+          "date": "2026-11-24",
+          "key": "1g9ee8g"
+        }
+      },
+      {
+        "name": "Senior Women's T20 Trophy",
+        "aliases": [
+          "Senior Women's T20"
+        ],
+        "values": [
+          2008
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Senior Women's T20 Trophy",
+          "date": "2026-11-24",
+          "key": "1pgi05s"
+        }
+      },
+      {
+        "name": "Super 8 Twenty20 Cup",
+        "aliases": [
+          "Super 8 T20 Cup",
+          "Super Eight T20 Cup"
+        ],
+        "values": [
+          2011
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Super 8 Twenty20 Cup",
+          "date": "2026-11-24",
+          "key": "1alc2qx"
+        }
+      },
+      {
+        "name": "SLC Twenty20 Tournament",
+        "aliases": [
+          "SLC T20 Tournament",
+          "Inter-Provincial Twenty20"
+        ],
+        "values": [
+          2004
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "SLC Twenty20 Tournament",
+          "date": "2026-11-24",
+          "key": "4454h6"
+        }
+      },
+      {
+        "name": "Hong Kong T20 Blitz",
+        "aliases": [
+          "T20 Blitz"
+        ],
+        "values": [
+          2016
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Hong Kong T20 Blitz",
+          "date": "2026-11-24",
+          "key": "1jaxp77"
+        }
+      },
+      {
+        "name": "SLC Super Provincial Twenty20",
+        "aliases": [
+          "Super Provincial T20"
+        ],
+        "values": [
+          2008
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "SLC Super Provincial Twenty20",
+          "date": "2026-11-24",
+          "key": "1ou0pk7"
+        }
+      },
+      {
+        "name": "Senior Women's T20 Challenger Trophy",
+        "aliases": [
+          "Women's T20 Challenger Trophy"
+        ],
+        "values": [
+          2010
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Senior Women's T20 Challenger Trophy",
+          "date": "2026-11-24",
+          "key": "2gl496"
+        }
+      },
+      {
+        "name": "PCB Women's Twenty20 Tournament",
+        "aliases": [
+          "PCB Women's T20 Tournament"
+        ],
+        "values": [
+          2020
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "PCB Women's Twenty20 Tournament",
+          "date": "2026-11-24",
+          "key": "ec9sqv"
+        }
+      },
+      {
+        "name": "Nepal T20 League",
+        "aliases": [
+          "Nepal T20"
+        ],
+        "values": [
+          2022
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Nepal T20 League",
+          "date": "2026-11-24",
+          "key": "7tqiij"
+        }
+      },
+      {
+        "name": "Prime Minister Cup",
+        "aliases": [
+          "Men's Prime Minister Cup",
+          "PM Cup"
+        ],
+        "wiki": "Prime Minister Cup Men's National Cricket Tournament",
+        "values": [
+          2017
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Prime Minister Cup Men's National Cricket Tournament",
+          "date": "2026-11-24",
+          "key": "zca3k2"
+        }
+      },
+      {
+        "name": "Women's Prime Minister Cup",
+        "aliases": [
+          "Women's PM Cup"
+        ],
+        "wiki": "Prime Minister Cup Women's National Cricket Tournament",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Prime Minister Cup Women's National Cricket Tournament",
+          "date": "2026-11-24",
+          "key": "1gkpld6"
+        }
+      },
+      {
+        "name": "National T20 Championship",
+        "aliases": [
+          "Nepal National T20 Championship"
+        ],
+        "values": [
+          2023
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "National T20 Championship",
+          "date": "2026-11-24",
+          "key": "j5273k"
+        }
+      },
+      {
+        "name": "Lalitpur Mayor Women's Cup",
+        "aliases": [
+          "Lalitpur Mayor Cup"
+        ],
+        "values": [
+          2021
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Lalitpur Mayor Women's Cup",
+          "date": "2026-11-24",
+          "key": "1c432ia"
+        }
+      },
+      {
+        "name": "Afghanistan National T20 Cup",
+        "aliases": [
+          "National T20 Cup (Afghanistan)"
+        ],
+        "wiki": "National T20 Cup (Afghanistan)",
+        "values": [
+          2024
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "National T20 Cup (Afghanistan)",
+          "date": "2026-11-24",
+          "key": "10l1n7n"
+        }
+      }
+    ]
+  },
+  {
+    "id": "national-counties-champions-to-2026",
+    "prompt": "Name a county whose side (first or second XI) has won or shared the Minor Counties / National Counties Championship, up to 2026",
+    "category": "National Counties champions",
+    "answerType": "county",
+    "tags": [
+      "men",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/National_Counties_Cricket_Championship"
+    ],
+    "metrics": [
+      {
+        "label": "Titles won or shared",
+        "rarerWhen": "lower"
+      }
+    ],
+    "answers": [
+      {
+        "name": "Yorkshire",
+        "aliases": [
+          "Yorkshire II",
+          "Yorkshire Second XI"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "values": [
+          6
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1w7mmkh"
+        }
+      },
+      {
+        "name": "Lancashire",
+        "aliases": [
+          "Lancashire II",
+          "Lancashire Second XI"
+        ],
+        "wiki": "Lancashire County Cricket Club",
+        "values": [
+          7
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Lancashire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1cgvqcz"
+        }
+      },
+      {
+        "name": "Surrey",
+        "aliases": [
+          "Surrey II",
+          "Surrey Second XI"
+        ],
+        "wiki": "Surrey County Cricket Club",
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Surrey County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1hzflkf"
+        }
+      },
+      {
+        "name": "Kent",
+        "aliases": [
+          "Kent II",
+          "Kent Second XI"
+        ],
+        "wiki": "Kent County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-24",
+          "key": "ffhsoj"
+        }
+      },
+      {
+        "name": "Durham",
+        "wiki": "Durham County Cricket Club",
+        "values": [
+          9
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Durham County Cricket Club",
+          "date": "2026-11-24",
+          "key": "o7hupk"
+        }
+      },
+      {
+        "name": "Middlesex",
+        "aliases": [
+          "Middlesex II",
+          "Middlesex Second XI"
+        ],
+        "wiki": "Middlesex County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Middlesex County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1xkfbmd"
+        }
+      },
+      {
+        "name": "Warwickshire",
+        "aliases": [
+          "Warwickshire II",
+          "Warwickshire Second XI"
+        ],
+        "wiki": "Warwickshire County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Warwickshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "115ih9v"
+        }
+      },
+      {
+        "name": "Somerset",
+        "aliases": [
+          "Somerset II",
+          "Somerset Second XI"
+        ],
+        "wiki": "Somerset County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-24",
+          "key": "wbx9rn"
+        }
+      },
+      {
+        "name": "Glamorgan",
+        "wiki": "Glamorgan County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Glamorgan County Cricket Club",
+          "date": "2026-11-24",
+          "key": "ffscp1"
+        },
+        "aliases": [
+          "Glam"
+        ]
+      },
+      {
+        "name": "Worcestershire",
+        "wiki": "Worcestershire County Cricket Club",
+        "values": [
+          4
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Worcestershire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "cq2zqe"
+        },
+        "aliases": [
+          "Worcs"
+        ]
+      },
+      {
+        "name": "Northamptonshire",
+        "aliases": [
+          "Northants"
+        ],
+        "wiki": "Northamptonshire County Cricket Club",
+        "values": [
+          4
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Northamptonshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1easygv"
+        }
+      },
+      {
+        "name": "Leicestershire",
+        "aliases": [
+          "Leicestershire II",
+          "Leicestershire Second XI",
+          "Leics"
+        ],
+        "wiki": "Leicestershire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Leicestershire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "g4slg7"
+        }
+      },
+      {
+        "name": "Staffordshire",
+        "aliases": [
+          "Staffs"
+        ],
+        "wiki": "Staffordshire County Cricket Club",
+        "values": [
+          14
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Staffordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "uxwmzr"
+        }
+      },
+      {
+        "name": "Buckinghamshire",
+        "aliases": [
+          "Bucks"
+        ],
+        "wiki": "Buckinghamshire County Cricket Club",
+        "values": [
+          12
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Buckinghamshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "10bgnzu"
+        }
+      },
+      {
+        "name": "Berkshire",
+        "aliases": [
+          "Berks"
+        ],
+        "wiki": "Berkshire County Cricket Club",
+        "values": [
+          10
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Berkshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "y74rl5"
+        }
+      },
+      {
+        "name": "Devon",
+        "wiki": "Devon County Cricket Club",
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Devon County Cricket Club",
+          "date": "2026-11-24",
+          "key": "gobzkc"
+        }
+      },
+      {
+        "name": "Cheshire",
+        "wiki": "Cheshire County Cricket Club",
+        "values": [
+          7
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Cheshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "te5cmk"
+        }
+      },
+      {
+        "name": "Norfolk",
+        "wiki": "Norfolk County Cricket Club",
+        "values": [
+          6
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Norfolk County Cricket Club",
+          "date": "2026-11-24",
+          "key": "d675vi"
+        }
+      },
+      {
+        "name": "Oxfordshire",
+        "aliases": [
+          "Oxon"
+        ],
+        "wiki": "Oxfordshire County Cricket Club",
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Oxfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "kcjnbo"
+        }
+      },
+      {
+        "name": "Hertfordshire",
+        "aliases": [
+          "Herts"
+        ],
+        "wiki": "Hertfordshire County Cricket Club",
+        "values": [
+          4
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Hertfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1xo8evo"
+        }
+      },
+      {
+        "name": "Suffolk",
+        "wiki": "Suffolk County Cricket Club",
+        "values": [
+          4
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Suffolk County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1t1550c"
+        }
+      },
+      {
+        "name": "Cumberland",
+        "wiki": "Cumberland County Cricket Club",
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Cumbria County Cricket Club",
+          "date": "2026-11-24",
+          "key": "13bkg4z"
+        },
+        "aliases": [
+          "Cumbria"
+        ]
+      },
+      {
+        "name": "Bedfordshire",
+        "aliases": [
+          "Beds"
+        ],
+        "wiki": "Bedfordshire County Cricket Club",
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Bedfordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1c53tuw"
+        }
+      },
+      {
+        "name": "Lincolnshire",
+        "aliases": [
+          "Lincs"
+        ],
+        "wiki": "Lincolnshire County Cricket Club",
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Lincolnshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "71zjl5"
+        }
+      },
+      {
+        "name": "Dorset",
+        "wiki": "Dorset County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Dorset County Cricket Club",
+          "date": "2026-11-24",
+          "key": "132lla8"
+        }
+      },
+      {
+        "name": "Wiltshire",
+        "aliases": [
+          "Wilts"
+        ],
+        "wiki": "Wiltshire County Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Wiltshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1j31vk3"
+        }
+      },
+      {
+        "name": "Cornwall",
+        "wiki": "Cornwall County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Cornwall County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1buv6go"
+        }
+      },
+      {
+        "name": "Cambridgeshire",
+        "aliases": [
+          "Cambs"
+        ],
+        "wiki": "Cambridgeshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Cambridgeshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1h3uhkw"
+        }
+      },
+      {
+        "name": "Shropshire",
+        "wiki": "Shropshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Shropshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1y11u6h"
+        },
+        "aliases": [
+          "Salop"
+        ]
+      },
+      {
+        "name": "Herefordshire",
+        "wiki": "Herefordshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Herefordshire County Cricket Club",
+          "date": "2026-11-24",
+          "key": "1cb1q2o"
+        }
+      }
+    ]
+  },
+  {
+    "id": "forms-of-cricket",
+    "prompt": "Name a form or variant of cricket (professional, amateur, informal or simulated)",
+    "category": "Forms of cricket",
+    "answerType": "other",
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Forms_of_cricket"
+    ],
+    "answers": [
+      {
+        "name": "Test cricket",
+        "aliases": [
+          "Test",
+          "Test match",
+          "Tests",
+          "Five-day cricket"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Test cricket",
+          "date": "2026-11-24",
+          "key": "1bppppj"
+        }
+      },
+      {
+        "name": "Twenty20",
+        "aliases": [
+          "T20",
+          "Twenty20 cricket",
+          "T20 cricket"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Twenty20",
+          "date": "2026-11-24",
+          "key": "1c2qbay"
+        }
+      },
+      {
+        "name": "Limited overs cricket",
+        "aliases": [
+          "One-day cricket",
+          "ODI",
+          "One Day International",
+          "50-over cricket",
+          "50 overs"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Limited overs cricket",
+          "date": "2026-11-24",
+          "key": "hhqjgf"
+        }
+      },
+      {
+        "name": "First-class cricket",
+        "aliases": [
+          "First-class",
+          "Four-day cricket",
+          "Multi-day cricket"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "First-class cricket",
+          "date": "2026-11-24",
+          "key": "4kcupa"
+        }
+      },
+      {
+        "name": "List A cricket",
+        "aliases": [
+          "List A"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "List A cricket",
+          "date": "2026-11-24",
+          "key": "9z28mb"
+        }
+      },
+      {
+        "name": "100-ball cricket",
+        "aliases": [
+          "The Hundred"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "100-ball cricket",
+          "date": "2026-11-24",
+          "key": "njxui5"
+        }
+      },
+      {
+        "name": "T10 cricket",
+        "aliases": [
+          "T10",
+          "Ten10"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "T10 cricket",
+          "date": "2026-11-24",
+          "key": "7iasof"
+        }
+      },
+      {
+        "name": "Backyard cricket",
+        "aliases": [
+          "Beach cricket",
+          "Street cricket",
+          "Garden cricket",
+          "Gully cricket"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Backyard cricket",
+          "date": "2026-11-24",
+          "key": "aif6ya"
+        }
+      },
+      {
+        "name": "Indoor cricket",
+        "tier": "two",
+        "verified": {
+          "wiki": "Indoor cricket",
+          "date": "2026-11-24",
+          "key": "rmmefi"
+        }
+      },
+      {
+        "name": "French cricket",
+        "tier": "two",
+        "verified": {
+          "wiki": "French cricket",
+          "date": "2026-11-24",
+          "key": "v21ycj"
+        }
+      },
+      {
+        "name": "Tape ball cricket",
+        "aliases": [
+          "Tape ball"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "12twpn5"
+        }
+      },
+      {
+        "name": "Tennis ball cricket",
+        "tier": "two",
+        "verified": {
+          "wiki": "Tennis ball cricket",
+          "date": "2026-11-24",
+          "key": "1va8gq7"
+        }
+      },
+      {
+        "name": "Kwik cricket",
+        "aliases": [
+          "Quick cricket"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Kwik cricket",
+          "date": "2026-11-24",
+          "key": "1mdx67x"
+        }
+      },
+      {
+        "name": "Club cricket",
+        "aliases": [
+          "Village cricket",
+          "League cricket"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Club cricket",
+          "date": "2026-11-24",
+          "key": "1jj1enu"
+        }
+      },
+      {
+        "name": "Single wicket cricket",
+        "aliases": [
+          "Single wicket"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Single wicket cricket",
+          "date": "2026-11-24",
+          "key": "17p2iet"
+        }
+      },
+      {
+        "name": "Double wicket",
+        "aliases": [
+          "Pairs cricket"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1ji880a"
+        }
+      },
+      {
+        "name": "Blind cricket",
+        "aliases": [
+          "Visually impaired cricket"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Blind cricket",
+          "date": "2026-11-24",
+          "key": "1g64r8b"
+        }
+      },
+      {
+        "name": "Hand cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1m7ihb4"
+        },
+        "aliases": [
+          "Odd or even"
+        ]
+      },
+      {
+        "name": "Book cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1r5swio"
+        }
+      },
+      {
+        "name": "Pub cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "j9bdn2"
+        }
+      },
+      {
+        "name": "Kilikiti",
+        "aliases": [
+          "Kirikiti",
+          "Samoan cricket"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Kilikiti",
+          "date": "2026-11-24",
+          "key": "1w8xgrm"
+        }
+      },
+      {
+        "name": "Trobriand cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Trobriand cricket",
+          "date": "2026-11-24",
+          "key": "l0nfnu"
+        }
+      },
+      {
+        "name": "Vigoro",
+        "tier": "four",
+        "verified": {
+          "wiki": "Vigoro",
+          "date": "2026-11-24",
+          "key": "1npfixa"
+        }
+      },
+      {
+        "name": "Table cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Table Cricket",
+          "date": "2026-11-24",
+          "key": "okbdm7"
+        }
+      },
+      {
+        "name": "Walking cricket",
+        "tier": "four",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1118jhi"
+        }
+      },
+      {
+        "name": "Leg cricket",
+        "tier": "six",
+        "verified": {
+          "wiki": "Leg cricket",
+          "date": "2026-11-24",
+          "key": "16cuakn"
+        }
+      },
+      {
+        "name": "Short form cricket",
+        "aliases": [
+          "Last Man Stands",
+          "Short format cricket"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Short form cricket",
+          "date": "2026-11-24",
+          "key": "1w9e91s"
+        }
+      },
+      {
+        "name": "Three team cricket",
+        "aliases": [
+          "3TC",
+          "3TeamCricket"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1gyah19"
+        }
+      },
+      {
+        "name": "Declaration cricket",
+        "aliases": [
+          "Timed cricket"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "173szkj"
+        }
+      },
+      {
+        "name": "Non-stop cricket",
+        "aliases": [
+          "Continuous cricket"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "12dkm01"
+        }
+      },
+      {
+        "name": "Calculator cricket",
+        "tier": "six",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "fk154r"
+        }
+      },
+      {
+        "name": "Pencil cricket",
+        "aliases": [
+          "Owzthat"
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Forms of cricket",
+          "date": "2026-11-24",
+          "key": "1eyymz5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dismissals-extras-umpire-signals",
+    "prompt": "Name a method of dismissal, a type of extra, or a signal an umpire makes in cricket",
+    "category": "Outs, extras and signals",
+    "answerType": "other",
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dismissal_(cricket)",
+      "https://en.wikipedia.org/wiki/Extra_(cricket)",
+      "https://en.wikipedia.org/wiki/Umpire_(cricket)"
+    ],
+    "answers": [
+      {
+        "name": "Caught",
+        "aliases": [
+          "Catch",
+          "Caught out",
+          "Caught behind",
+          "Caught and bowled"
+        ],
+        "wiki": "Caught",
+        "tier": "single",
+        "verified": {
+          "wiki": "Caught",
+          "date": "2026-11-24",
+          "key": "sdkbq1"
+        }
+      },
+      {
+        "name": "Bowled",
+        "wiki": "Bowled",
+        "tier": "single",
+        "verified": {
+          "wiki": "Bowled",
+          "date": "2026-11-24",
+          "key": "v7goym"
+        },
+        "aliases": [
+          "Clean bowled"
+        ]
+      },
+      {
+        "name": "Leg before wicket",
+        "aliases": [
+          "LBW",
+          "Leg before"
+        ],
+        "wiki": "Leg before wicket",
+        "tier": "single",
+        "verified": {
+          "wiki": "Leg before wicket",
+          "date": "2026-11-24",
+          "key": "1fuuu5y"
+        }
+      },
+      {
+        "name": "Run out",
+        "wiki": "Run out",
+        "tier": "single",
+        "verified": {
+          "wiki": "Run out",
+          "date": "2026-11-24",
+          "key": "96c4fm"
+        }
+      },
+      {
+        "name": "Stumped",
+        "aliases": [
+          "Stumping"
+        ],
+        "wiki": "Stumped",
+        "tier": "single",
+        "verified": {
+          "wiki": "Stumped",
+          "date": "2026-11-24",
+          "key": "f7l009"
+        }
+      },
+      {
+        "name": "Wide",
+        "aliases": [
+          "Wide ball"
+        ],
+        "wiki": "Wide (cricket)",
+        "tier": "single",
+        "verified": {
+          "wiki": "Wide (cricket)",
+          "date": "2026-11-24",
+          "key": "1eauwlu"
+        }
+      },
+      {
+        "name": "No-ball",
+        "wiki": "No-ball",
+        "tier": "single",
+        "verified": {
+          "wiki": "No-ball",
+          "date": "2026-11-24",
+          "key": "fc4vn2"
+        }
+      },
+      {
+        "name": "Bye",
+        "aliases": [
+          "Byes"
+        ],
+        "wiki": "Bye (cricket)",
+        "tier": "two",
+        "verified": {
+          "wiki": "Bye (cricket)",
+          "date": "2026-11-24",
+          "key": "1knduyn"
+        }
+      },
+      {
+        "name": "Leg bye",
+        "aliases": [
+          "Leg byes"
+        ],
+        "wiki": "Leg bye",
+        "tier": "two",
+        "verified": {
+          "wiki": "Leg bye",
+          "date": "2026-11-24",
+          "key": "dw6g31"
+        }
+      },
+      {
+        "name": "Hit wicket",
+        "wiki": "Hit wicket",
+        "tier": "two",
+        "verified": {
+          "wiki": "Hit wicket",
+          "date": "2026-11-24",
+          "key": "52melc"
+        }
+      },
+      {
+        "name": "Four",
+        "aliases": [
+          "Boundary four"
+        ],
+        "wiki": "Four (cricket)",
+        "tier": "two",
+        "verified": {
+          "wiki": "Boundary (cricket)",
+          "date": "2026-11-24",
+          "key": "ebual2"
+        }
+      },
+      {
+        "name": "Six",
+        "aliases": [
+          "Boundary six"
+        ],
+        "wiki": "Six (cricket)",
+        "tier": "two",
+        "verified": {
+          "wiki": "Boundary (cricket)",
+          "date": "2026-11-24",
+          "key": "yadqkk"
+        }
+      },
+      {
+        "name": "Free hit",
+        "wiki": "Free hit",
+        "tier": "two",
+        "verified": {
+          "wiki": "Free hit",
+          "date": "2026-11-24",
+          "key": "b11bxs"
+        }
+      },
+      {
+        "name": "Penalty runs",
+        "aliases": [
+          "Penalty run",
+          "Five penalty runs"
+        ],
+        "wiki": "Penalty run",
+        "tier": "two",
+        "verified": {
+          "wiki": "Penalty run",
+          "date": "2026-11-24",
+          "key": "6arrkg"
+        }
+      },
+      {
+        "name": "Dead ball",
+        "wiki": "Dead ball",
+        "tier": "four",
+        "verified": {
+          "wiki": "Dead ball",
+          "date": "2026-11-24",
+          "key": "mv8fk2"
+        }
+      },
+      {
+        "name": "Handled the ball",
+        "aliases": [
+          "Handling the ball"
+        ],
+        "wiki": "Handled the ball",
+        "tier": "four",
+        "verified": {
+          "wiki": "Handled the ball",
+          "date": "2026-11-24",
+          "key": "11k39cb"
+        }
+      },
+      {
+        "name": "Obstructing the field",
+        "aliases": [
+          "Obstruction"
+        ],
+        "wiki": "Obstructing the field",
+        "tier": "four",
+        "verified": {
+          "wiki": "Obstructing the field",
+          "date": "2026-11-24",
+          "key": "snb0xc"
+        }
+      },
+      {
+        "name": "Timed out",
+        "wiki": "Timed out",
+        "tier": "four",
+        "verified": {
+          "wiki": "Timed out",
+          "date": "2026-11-24",
+          "key": "82btk6"
+        }
+      },
+      {
+        "name": "Hit the ball twice",
+        "aliases": [
+          "Hitting the ball twice"
+        ],
+        "wiki": "Hit the ball twice",
+        "tier": "four",
+        "verified": {
+          "wiki": "Hit the ball twice",
+          "date": "2026-11-24",
+          "key": "155lpll"
+        }
+      },
+      {
+        "name": "Retired out",
+        "aliases": [
+          "Retired"
+        ],
+        "wiki": "Retired (cricket)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Retired (cricket)",
+          "date": "2026-11-24",
+          "key": "1wo28o5"
+        }
+      },
+      {
+        "name": "Short run",
+        "aliases": [
+          "One short"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Umpire (cricket)",
+          "date": "2026-11-24",
+          "key": "4derj6"
+        }
+      },
+      {
+        "name": "Decision review",
+        "aliases": [
+          "DRS",
+          "TV review",
+          "Third umpire review",
+          "Referral"
+        ],
+        "wiki": "Umpire Decision Review System",
+        "tier": "six",
+        "verified": {
+          "wiki": "Decision Review System",
+          "date": "2026-11-24",
+          "key": "1ruer06"
+        }
+      },
+      {
+        "name": "Powerplay",
+        "wiki": "Powerplay (cricket)",
+        "tier": "six",
+        "verified": {
+          "wiki": "Powerplay (cricket)",
+          "date": "2026-11-24",
+          "key": "s81mps"
+        }
+      },
+      {
+        "name": "New ball",
+        "tier": "six",
+        "verified": {
+          "wiki": "Cricket ball",
+          "date": "2026-11-24",
+          "key": "slc7kl"
+        },
+        "aliases": [
+          "Second new ball"
+        ]
+      },
+      {
+        "name": "Last hour",
+        "tier": "six",
+        "verified": {
+          "wiki": "Umpire (cricket)",
+          "date": "2026-11-24",
+          "key": "1ji5gp"
+        },
+        "aliases": [
+          "Final hour"
+        ]
+      },
+      {
+        "name": "Revoke last signal",
+        "aliases": [
+          "Revoke"
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Umpire (cricket)",
+          "date": "2026-11-24",
+          "key": "1cyte1l"
+        }
+      }
+    ]
+  }
+]

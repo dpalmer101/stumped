@@ -1,0 +1,38 @@
+{
+  "name": "stumped",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "content:import": "tsx tools/content.ts import",
+    "content:verify": "tsx tools/content.ts verify",
+    "content:rank": "tsx tools/content.ts rank",
+    "content:report": "tsx tools/content.ts report",
+    "content:schedule": "tsx tools/content.ts schedule",
+    "content:spellings": "tsx tools/content.ts spellings",
+    "days": "tsx tools/build-days.ts",
+    "predev": "npm run days",
+    "prebuild": "npm run days",
+    "preview:https": "vite preview --mode https --port 4443 --strictPort"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@biomejs/biome": "^2.6.8",
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-basic-ssl": "^2.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

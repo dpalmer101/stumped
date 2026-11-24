@@ -522,7 +522,7 @@ export class App {
       const t = THEMES[k];
       return `<button data-theme="${k}" aria-pressed="${k === this.saved.theme}" style="background:${t.swatch[0]};box-shadow:inset 0 -6px ${t.swatch[1]}">${t.label}<small>${t.blurb}</small></button>`;
     }).join("");
-    return `<main class="home"><h1 class="big">Stumped</h1><div class="date">#${this.innings.puzzle} · ${date}</div>
+    return `<main class="home"><h1 class="big logo" aria-label="Stumped">${[..."Stumped"].map((l) => `<span class="l" aria-hidden="true">${l}</span>`).join("")}</h1><div class="date">#${this.innings.puzzle} · ${date}</div>
       <ul><li>1 over, 6 questions</li><li>Right answers get you runs</li><li>The rarer the answers, the bigger the shot</li></ul>
       <div class="cat" id="formats-label">Choose your format</div>
       <div class="formats" role="group" aria-labelledby="formats-label">${formats}</div>
@@ -736,6 +736,95 @@ export class App {
     this.root
       .querySelector<HTMLButtonElement>('[data-act="share"]')
       ?.focus({ preventScroll: true });
+  }
+
+  private logoKnocked = false;
+
+  /** Easter egg: tapping the home logo bowls a ball into it and the letters fly off like bails. */
+  private knockLogo() {
+    const logo = this.root.querySelector<HTMLElement>(".home .logo");
+    if (!logo || this.logoKnocked) return;
+    this.logoKnocked = true;
+    this.sound.unlock();
+    const letters = [...logo.querySelectorAll<HTMLElement>(".l")];
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const done = () => {
+      this.logoKnocked = false;
+    };
+    if (reduce) {
+      this.sound.crack();
+      void logo
+        .animate([{ opacity: 1 }, { opacity: 0.3 }, { opacity: 1 }], { duration: 600 })
+        .finished.then(done, done);
+      return;
+    }
+    const box = logo.getBoundingClientRect();
+    const ball = document.createElement("div");
+    ball.className = "logo-ball";
+    ball.setAttribute("aria-hidden", "true");
+    logo.append(ball);
+    // In from low on the left, striking the middle of the word.
+    const hitX = box.width / 2;
+    const hitY = box.height / 2;
+    const flight = ball.animate(
+      [
+        { transform: `translate(${-box.width / 2}px, ${box.height}px)` },
+        { transform: `translate(${hitX}px, ${hitY}px)` },
+      ],
+      { duration: 260, easing: "linear", fill: "forwards" },
+    );
+    void flight.finished.then(() => {
+      this.sound.crack();
+      ball
+        .animate(
+          [
+            { transform: `translate(${hitX}px, ${hitY}px)`, opacity: 1 },
+            { transform: `translate(${hitX + 60}px, ${hitY - 40}px)`, opacity: 0 },
+          ],
+          { duration: 300, fill: "forwards" },
+        )
+        .finished.then(
+          () => ball.remove(),
+          () => ball.remove(),
+        );
+      const flying = letters.map((el, i) => {
+        // Letters nearer the impact fly harder; each side flies its own way.
+        const centre = el.offsetLeft + el.offsetWidth / 2;
+        const side = centre < hitX ? -1 : 1;
+        const near = 1 - Math.min(1, Math.abs(centre - hitX) / (box.width / 2));
+        const dx = side * (40 + near * 80 + Math.random() * 30);
+        const up = 50 + near * 70 + Math.random() * 30;
+        const spin = side * (120 + Math.random() * 360);
+        return el.animate(
+          [
+            { transform: "none", opacity: 1 },
+            {
+              transform: `translate(${dx * 0.6}px, ${-up}px) rotate(${spin * 0.5}deg)`,
+              offset: 0.4,
+            },
+            { transform: `translate(${dx}px, ${up * 0.6}px) rotate(${spin}deg)`, opacity: 0 },
+          ],
+          { duration: 900, delay: i * 15, easing: "ease-out", fill: "forwards" },
+        );
+      });
+      void Promise.all(flying.map((a) => a.finished))
+        .then(() => new Promise((r) => setTimeout(r, 500)))
+        .then(() =>
+          Promise.all(
+            letters.map((el, i) => {
+              for (const a of el.getAnimations()) a.cancel();
+              return el.animate(
+                [
+                  { transform: "translateY(-12px)", opacity: 0 },
+                  { transform: "none", opacity: 1 },
+                ],
+                { duration: 250, delay: i * 40, easing: "ease-out", fill: "backwards" },
+              ).finished;
+            }),
+          ),
+        )
+        .then(done, done);
+    }, done);
   }
 
   private stumpTaps: number[] = [];
@@ -975,6 +1064,7 @@ export class App {
 
   private onClick(e: Event) {
     if ((e.target as Element).closest?.('[data-part="stumps-hit"]')) return this.tapStumps();
+    if ((e.target as Element).closest?.(".home .logo")) return this.knockLogo();
     const target = (e.target as HTMLElement).closest<HTMLElement>("button");
     if (!target) return;
     // Re-read storage first. Ball actions on stale state stop and redraw; navigation carries on.

@@ -284,6 +284,11 @@ export class Sound {
     }
   }
 
+  /** Ball on wood. */
+  crack(): void {
+    this.noise(0, 0.06, 0.4, 4000);
+  }
+
   /** A short burst of crowd delight, for the easter eggs. */
   cheer(): void {
     this.applause(0, 1.2, 12, 0.5);

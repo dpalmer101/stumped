@@ -403,6 +403,27 @@ button {
   color: var(--logo-color);
   margin: 8px 0 0;
 }
+.logo {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.logo .l {
+  display: inline-block;
+}
+.logo-ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border-radius: 50%;
+  /* A red ball reads on every format's background. */
+  background: #c0262d;
+  pointer-events: none;
+}
 .home .date {
   text-align: center;
   color: var(--muted);

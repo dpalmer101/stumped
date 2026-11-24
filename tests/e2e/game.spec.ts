@@ -227,3 +227,30 @@ test.describe("easter eggs", () => {
     await expect(page.locator(".res .call")).toHaveText("Single");
   });
 });
+
+test.describe("logo", () => {
+  // The rest of this file runs with reduced motion, which skips the ball.
+  test.use({ reducedMotion: "no-preference" });
+
+  test("tapping the logo knocks its letters off, and they come back", async ({ context }) => {
+    const page = await context.newPage();
+    await page.goto("./");
+    const logo = page.getByRole("heading", { name: "Stumped" });
+    await logo.click();
+    await expect(page.locator(".logo-ball")).toHaveCount(1);
+    // Letters are back in place and the ball is gone once it's over.
+    await expect(page.locator(".logo-ball")).toHaveCount(0, { timeout: 5000 });
+    await expect
+      .poll(
+        () =>
+          page
+            .locator(".logo .l")
+            .evaluateAll((els) => els.every((el) => el.getAnimations().length === 0)),
+        {
+          timeout: 5000,
+        },
+      )
+      .toBe(true);
+    await expect(logo).toBeVisible();
+  });
+});

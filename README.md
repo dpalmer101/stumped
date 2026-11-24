@@ -12,6 +12,13 @@ answers go for six or out of the ground; run out of time and you're out.
 See [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for how it plays, [docs/CRITERIA.md](docs/CRITERIA.md) for the
 acceptance criteria and [docs/CONTENT.md](docs/CONTENT.md) for how questions are written and checked.
 
+## Privacy
+
+The live site sends anonymous counts to [GoatCounter](https://www.goatcounter.com/): visits, overs
+started and overs finished. There are no cookies, no personal data, and no answers or scores; it's a
+plain request with no third-party script. Nothing is counted on local copies, in tests, or when the
+browser asks not to be tracked. The site code is set in `src/analytics.ts`.
+
 ## Running locally
 
 ```bash

@@ -6,7 +6,9 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 ## 1. Audience and platform
 
 - Cricket fans of any level. English-language UI.
-- Static web app on GitHub Pages: no backend, no accounts, no tracking.
+- Static web app on GitHub Pages: no backend, no accounts. Only anonymous counts (GoatCounter):
+  visits, overs started and overs finished. No cookies, no personal data, no answers or scores;
+  nothing counted on local copies or when the browser asks not to be tracked.
 - Mobile-first; works on current Chrome, Safari (iOS and macOS), Firefox, Edge.
 
 ## 2. The daily innings
@@ -143,7 +145,8 @@ Run out, Hit wicket.
 
 ## 13. Out of scope for v1
 
-Accounts, leaderboards, archive/practice mode, multiple languages, analytics, adverts.
+Accounts, leaderboards, archive/practice mode, multiple languages, adverts, and any analytics beyond
+the anonymous counts in §1.
 
 ## 14. Decisions log
 
@@ -169,3 +172,4 @@ Accounts, leaderboards, archive/practice mode, multiple languages, analytics, ad
 - 2026-11-24: From the UX review: a one-time "How to play" sheet (reopenable from home) explains that the first right answer ends the ball and shows the 1/2/4/6/12 ladder; the timer bar thickens and stripes in its last 5 s; the format chip is hidden while a ball is live; one tap goes from a result to the next ball; share text adds a verdict and streak.
 - 2026-11-24: Balls are named, not numbered, in the game ("Ball Three of Six", "Face ball Four").
 - 2026-11-24: Content variety: strongest within a day, then within a week; similar questions are fine after a week, and questions can be re-used after 30 days (see CONTENT.md).
+- 2026-11-24: Anonymous play counts via GoatCounter, sent as a plain request (no third-party script, no cookies, no personal data), live site only, Do Not Track respected. Replaces "no tracking".

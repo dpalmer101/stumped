@@ -15,6 +15,8 @@ export interface Saved {
   muted: boolean;
   /** The one-time how-to-play sheet has been dismissed. */
   seenHelp: boolean;
+  /** Anonymous play events already sent (e.g. "finished-3"), so none is counted twice. */
+  counted: string[];
   innings: Innings | null;
   history: History;
 }
@@ -25,6 +27,7 @@ export function defaults(): Saved {
     theme: "hundred",
     muted: false,
     seenHelp: false,
+    counted: [],
     innings: null,
     history: {},
   };
@@ -103,6 +106,10 @@ export function load(store: KeyValueStore | undefined): Saved {
       theme: THEME_KEYS.includes(data.theme as ThemeKey) ? (data.theme as ThemeKey) : base.theme,
       muted: data.muted === true,
       seenHelp: data.seenHelp === true,
+      // Only recent ones matter; cap the list so it can't grow without limit.
+      counted: Array.isArray(data.counted)
+        ? data.counted.filter((c): c is string => typeof c === "string").slice(-60)
+        : [],
       innings: isInnings(data.innings) ? data.innings : null,
       history: cleanHistory(data.history),
     };

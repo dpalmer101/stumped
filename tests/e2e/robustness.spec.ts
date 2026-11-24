@@ -297,3 +297,16 @@ test("How to play is a proper modal for keyboard users", async ({ context }) => 
   await page.keyboard.press("Escape");
   await expect(page.getByRole("button", { name: "How to play" })).toBeFocused();
 });
+
+test("local copies and tests never send play counts", async ({ context }) => {
+  const sent: string[] = [];
+  await context.route("**goatcounter.com/**", (route) => {
+    sent.push(route.request().url());
+    return route.abort();
+  });
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await page.getByRole("button", { name: "Face ball" }).click();
+  await page.clock.runFor(21_000);
+  expect(sent).toEqual([]);
+});

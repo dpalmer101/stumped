@@ -1,3 +1,4 @@
+import { claimEvent, countEvent, countVisit, eventKey, type PlayEvent } from "../analytics";
 import { loadDay, schedule } from "../data";
 import { type Ball, guess, MAX_GUESS, startBall, tick, timeLeft } from "../engine/ball";
 import { TIMED_OUT } from "../engine/dismissal";
@@ -124,6 +125,7 @@ const HOW_TO_PLAY = `<div class="sheet-backdrop">
       .join("")}</ul>
     <p>Wrong guesses are misses: they cost time, not runs. Run out of time and you're <b>out</b>.</p>
     <p>One over a day, the same for everyone.</p>
+    <p class="privacy">We count visits and overs played, anonymously: no cookies, no personal data.</p>
     <button class="btn wide" data-act="help-close">Got it</button>
   </section>
 </div>`;
@@ -234,7 +236,21 @@ export class App {
       this.installPrompt = null;
       if (this.loadedPuzzle && this.view === "home") this.render();
     });
+    countVisit();
     void this.boot();
+  }
+
+  /** Send an anonymous play count once per puzzle, remembering it in the save. */
+  private countOnce(name: PlayEvent) {
+    const claim = claimEvent(
+      eventKey(name, this.innings.puzzle),
+      this.saved.counted,
+      load(this.store).counted,
+    );
+    this.saved.counted = claim.counted;
+    if (!claim.send) return;
+    this.persist();
+    countEvent(name, this.innings.puzzle);
   }
 
   private async boot() {
@@ -323,6 +339,7 @@ export class App {
       return this.render();
     }
     if (ball.startedAt === undefined) {
+      if (ball.index === 0) this.countOnce("started");
       this.setBall(startBall(ball, Date.now()));
     }
     this.view = "play";
@@ -377,6 +394,8 @@ export class App {
       }
     }
     this.persist();
+    // The last ball may have run out while the player was away.
+    if (isComplete(this.innings)) this.countOnce("finished");
   }
 
   private persist() {
@@ -384,6 +403,7 @@ export class App {
     const stored = load(this.store);
     const newer = !!stored.innings && stored.innings.puzzle > this.innings.puzzle;
     this.saved.history = { ...stored.history, ...recordInnings(this.saved.history, this.innings) };
+    this.saved.counted = [...new Set([...stored.counted, ...this.saved.counted])].slice(-60);
     this.saved.innings = newer ? stored.innings : this.innings;
     save(this.store, this.saved);
     this.lastRaw = readRaw(this.store);
@@ -768,6 +788,7 @@ export class App {
       await this.pitch?.out(r.dismissal);
     }
     this.busy = false;
+    if (isComplete(this.innings)) this.countOnce("finished");
     // Storage events are ignored while animating; catch up on anything another tab did meanwhile.
     if (this.sync()) return this.render();
     if (this.view !== "play") return;

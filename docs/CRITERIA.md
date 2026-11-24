@@ -8,7 +8,8 @@ Items marked 🤖 must be enforced by an automated test.
 ## Hosting
 
 - [ ] Runs as static files on GitHub Pages under a sub-path (`/stumped/`); no server code, no API calls. 🤖 (build + e2e against `vite preview` with base path)
-- [ ] No third-party scripts, fonts or trackers at runtime; works offline once loaded.
+- [ ] No third-party scripts or fonts at runtime; works offline once loaded.
+- [ ] The only external request is an anonymous count to GoatCounter on the live site: no cookies, no personal data, never on local copies or in tests, skipped under Do Not Track. 🤖
 - [ ] Production bundle (JS + CSS, gzipped) ≤ 100 KB; question content is loaded one day at a time, so the bundle doesn't grow with the schedule. 🤖 (retry e2e test)
 
 ## Content and licensing

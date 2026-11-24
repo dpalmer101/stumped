@@ -123,3 +123,13 @@ describe("tampered or corrupt saves", () => {
     expect(load(memoryStore(raw)).history).toEqual({ 1: { runs: 4, wickets: 0, balls: ["four"] } });
   });
 });
+
+describe("counted events in the save", () => {
+  it("keeps strings only and caps the list", () => {
+    const counted = [1, null, ...Array.from({ length: 80 }, (_, i) => `started-${i}`)];
+    const loaded = load(memoryStore(JSON.stringify({ version: 1, counted })));
+    expect(loaded.counted).toHaveLength(60);
+    expect(loaded.counted.every((c) => typeof c === "string")).toBe(true);
+    expect(load(memoryStore(JSON.stringify({ version: 1, counted: "nope" }))).counted).toEqual([]);
+  });
+});

@@ -33,6 +33,7 @@ import {
 } from "../engine/types";
 import { browserStore, load, readRaw, type Saved, STORAGE_KEY, save, THEME_KEYS } from "../storage";
 import { Sound } from "./audio";
+import { pickQuote } from "./quotes";
 import { Pitch, sceneSvg } from "./scene";
 import { THEMES } from "./themes";
 
@@ -209,6 +210,8 @@ export class App {
   /** Questions for the day in play, fetched from its day file. */
   private questions = new Map<string, PlayableQuestion>();
   private loadedPuzzle = 0;
+  /** A new one each page load, not each redraw. */
+  private readonly quote = pickQuote();
 
   constructor(private readonly root: HTMLElement) {
     this.saved = load(this.store);
@@ -510,6 +513,7 @@ export class App {
       <ul><li>1 over, 6 questions</li><li>Right answers get you runs</li><li>The rarer the answers, the bigger the shot</li></ul>
       <div class="cat" id="formats-label">Choose your format</div>
       <div class="formats" role="group" aria-labelledby="formats-label">${formats}</div>
+      <figure class="quote"><blockquote>“${this.quote[0]}”</blockquote><figcaption>${this.quote[1]}</figcaption></figure>
       <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>
       <button class="btn ghost help-link" data-act="help">How to play</button>${stat}${this.installHtml()}</main>
       ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;

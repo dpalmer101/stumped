@@ -409,6 +409,28 @@ button {
   font-size: 13px;
   margin-top: -8px;
 }
+.home .quote {
+  margin: 6px 0 0;
+  padding: 14px 16px;
+  text-align: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.home .quote blockquote {
+  margin: 0;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.35;
+}
+.home .quote figcaption {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 6px;
+}
+.home .quote figcaption::before {
+  content: "\2014\00a0";
+}
 .home ul {
   margin: 0;
   padding: 14px 16px 14px 32px;

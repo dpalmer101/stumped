@@ -52,8 +52,5 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run content:check-pushed
-        env:
-          # First deploy of the locks only; remove once they're live.
-          STUMPED_LOCKS_UNPUBLISHED: "1"
       - id: deployment
         uses: actions/deploy-pages@v4

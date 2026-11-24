@@ -173,3 +173,4 @@ the anonymous counts in §1.
 - 2026-11-24: Balls are named, not numbered, in the game ("Ball Three of Six", "Face ball Four").
 - 2026-11-24: Content variety: strongest within a day, then within a week; similar questions are fine after a week, and questions can be re-used after 30 days (see CONTENT.md).
 - 2026-11-24: Anonymous play counts via GoatCounter, sent as a plain request (no third-party script, no cookies, no personal data), live site only, Do Not Track respected. Replaces "no tracking".
+- 2026-11-24: Days are locked once pushed and started anywhere (UTC+14): no changes to their questions, prompts, answer types, answers or tiers. Aliases and misspellings can be added and the file format can change. Enforced by `locked-days.json`, the unit tests and a CI check against the locks published on the live site.

@@ -7,7 +7,12 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!src/data/questions", "!src/data/schedule.json"]
+    "includes": [
+      "**",
+      "!src/data/questions",
+      "!src/data/schedule.json",
+      "!src/data/locked-days.json"
+    ]
   },
   "formatter": {
     "enabled": true,

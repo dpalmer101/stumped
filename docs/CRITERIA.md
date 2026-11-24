@@ -61,6 +61,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] No duplicate answers or aliases within a question after normalisation.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
 - [ ] Every scheduled day has 6 distinct, existing question ids.
+- [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)
 - [ ] Schedule covers at least the next 7 days from launch.
 
 ## Timer, sound, animation

@@ -19,6 +19,8 @@
     "content:report": "tsx tools/content.ts report",
     "content:schedule": "tsx tools/content.ts schedule",
     "content:spellings": "tsx tools/content.ts spellings",
+    "content:lock": "tsx tools/content.ts lock",
+    "content:check-pushed": "tsx tools/content.ts check-pushed",
     "days": "tsx tools/build-days.ts",
     "predev": "npm run days",
     "prebuild": "npm run days",

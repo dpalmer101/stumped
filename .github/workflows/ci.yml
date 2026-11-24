@@ -17,6 +17,11 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
+      - name: Started days unchanged from the live site
+        run: npm run content:check-pushed
+        env:
+          # First deploy of the locks only; remove once they're live.
+          STUMPED_LOCKS_UNPUBLISHED: "1"
       - run: npx playwright install --with-deps chromium webkit
       - run: npm run test:e2e
       - run: npm run build

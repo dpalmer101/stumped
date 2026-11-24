@@ -9,6 +9,7 @@ import { computeTiers, rarityScores } from "../src/engine/rarity";
 import { allocate } from "../src/engine/schedule";
 import { type Answer, BALLS_PER_INNINGS, type Question, type Schedule } from "../src/engine/types";
 import { validateContent, validateQuestion, verificationKey } from "../src/engine/validate";
+import { checkPushed, lock } from "./days";
 
 const DATA = "src/data";
 const POOL = join(DATA, "questions");
@@ -416,7 +417,14 @@ function schedule() {
   );
   const days = allocate(eligible, count, history);
   current.days.push(...days.map((d) => d.map((q) => q.id)));
+  const before = readFileSync(SCHEDULE, "utf8");
   writeJson(SCHEDULE, current);
+  try {
+    lock();
+  } catch (e) {
+    writeFileSync(SCHEDULE, before);
+    throw e;
+  }
   days.forEach((d, i) => {
     console.log(`Day ${current.days.length - days.length + i + 1}:`);
     for (const q of d)
@@ -432,11 +440,13 @@ const run: Record<string, () => unknown> = {
   report,
   spellings,
   schedule,
+  lock: () => lock(),
+  "check-pushed": () => checkPushed(process.argv[3] || undefined),
 };
 const fn = command ? run[command] : undefined;
 if (!fn) {
   console.log(
-    "Usage: tsx tools/content.ts <import FILE|verify [ids]|rank [ids]|report [ids]|spellings [ids]|schedule [--days=N]>",
+    "Usage: tsx tools/content.ts <import FILE|verify [ids]|rank [ids]|report [ids]|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
   );
   process.exitCode = 1;
 } else {

@@ -6,3 +6,4 @@ playwright-report
 content-reports
 recordings
 public/days
+public/locked-days.json

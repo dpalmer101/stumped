@@ -171,7 +171,31 @@ Variety matters most within a day, then within a week. After a week, similar que
 `npm run content:schedule -- --days=N` adds N days; add `--ranked-only` to use only questions that
 have finished verify and rank (handy while ranking is still running).
 
-Past days are never changed once they've been played (they are someone's scorecard). Only append.
+### Locked days
+
+Once a day has been pushed to GitHub and has started anywhere in the world (it starts at UTC+14,
+so today counts, and so can tomorrow), its questions can't change: someone may already be playing
+it, and finished days are someone's scorecard.
+
+- **Locked:** the questions, their order, the prompts, categories, answer types, answers and
+  tiers.
+- **Still allowed:** new aliases and misspellings (more ways to get a right answer), and format
+  changes such as file layout or ids. Don't remove an alias or misspelling from a started day:
+  that turns a right answer wrong (not checked automatically).
+- `src/data/locked-days.json` holds a fingerprint of each scheduled day. `content:schedule` locks
+  new days automatically; after editing a future day, run `npm run content:lock`, which refuses
+  if a started day would change. Never edit the lock file by hand.
+- Days only get appended. Removing, reordering or moving the launch date fails too.
+- **Schedule new days before the last one plays.** Once the schedule has looped back to day 1,
+  adding days would change which day the live over plays, so it's refused.
+- A day counts as started an hour before UTC+14 reaches it, to cover the time a deploy takes.
+- The build publishes the locks with the site, and CI checks every push and pull request
+  against the live site's locks (`npm run content:check-pushed`). So a failed push, a
+  force-push or an edited lock file can't sneak a change to a started day through. The deploy
+  job checks again, in case it's re-run later on its own.
+- Changing what `fingerprint()` in `src/engine/locks.ts` covers changes every day's hash, so
+  every push would fail against the live locks. Don't, once launched, unless the check is taught
+  to read both versions.
 
 The build turns each scheduled day into its own file (`days/N.json`) that the page fetches, so
 changes to questions or the schedule reach players on the next build and deploy.

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { difficulty } from "../../src/engine/rarity";
-import { allocate, dayProblems } from "../../src/engine/schedule";
+import { allocate, dayProblems, scheduleProblems } from "../../src/engine/schedule";
 import type { AnswerType, Question, Tag } from "../../src/engine/types";
 import { groundsQuestion } from "./fixtures";
 
@@ -81,5 +81,48 @@ describe("allocate", () => {
       category: "same",
     }));
     expect(() => allocate(samey, 1)).toThrow(/only got 1 questions/);
+  });
+});
+
+describe("variety beyond a single day", () => {
+  const cat = (id: string, category: string, tags: Tag[] = ["men", "international"]) => ({
+    ...q(id, Number(id.replace(/\D/g, "")) || 0, tags),
+    category,
+  });
+
+  it("allows at most two general-knowledge questions a day", () => {
+    const day = TYPES.map((_, i) => q(`g${i}`, i, i < 3 ? ["general"] : ["men", "international"]));
+    expect(dayProblems(day)).toContain("3 general-knowledge questions");
+  });
+
+  it("flags a category on more than two days in any week", () => {
+    const days = Array.from({ length: 7 }, (_, d) => [
+      cat(`w${d}`, d % 3 === 0 ? "Grounds" : `C${d}`),
+    ]);
+    expect(scheduleProblems(days).join()).toMatch(/"Grounds" on 3 days/);
+    const spaced = Array.from({ length: 9 }, (_, d) => [
+      cat(`s${d}`, d === 0 || d === 8 ? "Grounds" : `C${d}`),
+    ]);
+    expect(scheduleProblems(spaced)).toEqual([]);
+  });
+
+  it("re-uses a question only after 30 days", () => {
+    const days = Array.from({ length: 31 }, (_, d) => [
+      cat(d === 0 || d === 29 ? "same" : `u${d}`, `C${d}`),
+    ]);
+    expect(scheduleProblems(days).join()).toMatch(/day 30 reuses same from day 1/);
+    const later = Array.from({ length: 32 }, (_, d) => [
+      cat(d === 0 || d === 30 ? "same" : `u${d}`, `C${d}`),
+    ]);
+    expect(scheduleProblems(later)).toEqual([]);
+  });
+
+  it("the allocator keeps the week rule against days already scheduled", () => {
+    const history = [[cat("h1", "cat-p0")], [cat("h2", "cat-p0")]];
+    const pool = Array.from({ length: 12 }, (_, i) =>
+      q(`p${i}`, i, i % 6 === 0 ? ["women", "odi"] : ["men", "international"], 10 ** (1 + (i % 5))),
+    );
+    const days = allocate(pool, 1, history);
+    expect(days[0]?.some((x) => x.category === "cat-p0")).toBe(false);
   });
 });

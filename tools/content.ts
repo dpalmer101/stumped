@@ -8,7 +8,7 @@ import { answerKeys, generatedForms, normalise, words } from "../src/engine/matc
 import { computeTiers, rarityScores } from "../src/engine/rarity";
 import { allocate } from "../src/engine/schedule";
 import { type Answer, BALLS_PER_INNINGS, type Question, type Schedule } from "../src/engine/types";
-import { validateQuestion, verificationKey } from "../src/engine/validate";
+import { validateContent, validateQuestion, verificationKey } from "../src/engine/validate";
 
 const DATA = "src/data";
 const POOL = join(DATA, "questions");
@@ -400,16 +400,21 @@ function spellings() {
 
 function schedule() {
   const current = JSON.parse(readFileSync(SCHEDULE, "utf8")) as Schedule;
-  const used = new Set(current.days.flat());
   const pool = readPool().flatMap((pf) => pf.questions);
+  const byId = new Map(pool.map((q) => [q.id, q]));
+  const history = current.days.map((d) => d.map((id) => byId.get(id) as Question));
   const broken = pool.flatMap(validateQuestion);
   if (broken.length) throw new Error(`Fix these first:\n${broken.join("\n")}`);
-  const unused = pool.filter((q) => !used.has(q.id));
+  // --ranked-only: schedule from questions that have finished verify and rank, while the rest run.
+  const rankedOnly = process.argv.includes("--ranked-only");
+  // The allocator handles re-use (only after 30 days), so offer it the whole eligible pool.
+  const eligible = pool.filter((q) => !rankedOnly || validateContent(q).length === 0);
+  const unused = eligible.filter((q) => !current.days.flat().includes(q.id));
   const count = Number(
     process.argv.find((a) => a.startsWith("--days="))?.split("=")[1] ??
       Math.floor(unused.length / BALLS_PER_INNINGS),
   );
-  const days = allocate(unused, count);
+  const days = allocate(eligible, count, history);
   current.days.push(...days.map((d) => d.map((q) => q.id)));
   writeJson(SCHEDULE, current);
   days.forEach((d, i) => {

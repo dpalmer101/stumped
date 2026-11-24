@@ -20,11 +20,12 @@
           "wiki": "Slip (cricket)",
           "date": "2026-11-24",
           "key": "ttmy9q"
-        }
+        },
+        "mentions": 63
       },
       {
         "name": "Gully",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "gulley"
         ],
@@ -32,7 +33,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "jmp1nw"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Point",
@@ -42,7 +44,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "5dqlz0"
-        }
+        },
+        "mentions": 28
       },
       {
         "name": "Cover",
@@ -55,7 +58,8 @@
           "wiki": "Cover (cricket)",
           "date": "2026-11-24",
           "key": "xer7rq"
-        }
+        },
+        "mentions": 42
       },
       {
         "name": "Mid-off",
@@ -64,7 +68,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1q9rptr"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Third man",
@@ -76,7 +81,8 @@
         },
         "aliases": [
           "3rd man"
-        ]
+        ],
+        "mentions": 11
       },
       {
         "name": "Extra cover",
@@ -85,25 +91,28 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1cp8vn4"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Cover point",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1cm918"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Backward point",
-        "tier": "two",
+        "tier": "ootg",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1t24j0m"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Silly point",
@@ -112,7 +121,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "yqx1d0"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Long off",
@@ -121,16 +131,18 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "w2nvwa"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Deep cover",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1g7ujm0"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Silly mid-off",
@@ -139,16 +151,18 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "efyorc"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Deep extra cover",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "l0muhi"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Sweeper",
@@ -161,16 +175,18 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "6rp89y"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Fly slip",
-        "tier": "ootg",
+        "tier": "four",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "6jj8z0"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Short third man",
@@ -182,7 +198,8 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1te05rn"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "First slip",
@@ -191,25 +208,28 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1obeygt"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Second slip",
-        "tier": "four",
-        "verified": {
-          "wiki": "Fielding (cricket)",
-          "date": "2026-11-24",
-          "key": "1nneyef"
-        }
-      },
-      {
-        "name": "Third slip",
         "tier": "six",
         "verified": {
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
+          "key": "1nneyef"
+        },
+        "mentions": 1
+      },
+      {
+        "name": "Third slip",
+        "tier": "four",
+        "verified": {
+          "wiki": "Fielding (cricket)",
+          "date": "2026-11-24",
           "key": "iffovg"
-        }
+        },
+        "mentions": 1
       }
     ],
     "tags": [
@@ -219,7 +239,8 @@
       "https://en.wikipedia.org/wiki/Fielding_(cricket)",
       "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
       "https://en.wikipedia.org/wiki/Off_side"
-    ]
+    ],
+    "popularity": "mentions"
   },
   {
     "id": "first-class-and-national-counties",
@@ -240,7 +261,8 @@
           "wiki": "Yorkshire County Cricket Club",
           "date": "2026-11-24",
           "key": "kaje58"
-        }
+        },
+        "views": 70783
       },
       {
         "name": "Lancashire",
@@ -254,7 +276,8 @@
           "wiki": "Lancashire County Cricket Club",
           "date": "2026-11-24",
           "key": "1qhgd0a"
-        }
+        },
+        "views": 60548
       },
       {
         "name": "Surrey",
@@ -264,7 +287,8 @@
           "wiki": "Surrey County Cricket Club",
           "date": "2026-11-24",
           "key": "30l2kv"
-        }
+        },
+        "views": 68641
       },
       {
         "name": "Middlesex",
@@ -277,11 +301,12 @@
         },
         "aliases": [
           "Middx"
-        ]
+        ],
+        "views": 49472
       },
       {
         "name": "Kent",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Kent County Cricket Club",
         "verified": {
           "wiki": "Kent County Cricket Club",
@@ -290,11 +315,12 @@
         },
         "aliases": [
           "Kent Spitfires"
-        ]
+        ],
+        "views": 43478
       },
       {
         "name": "Essex",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Essex County Cricket Club",
         "verified": {
           "wiki": "Essex County Cricket Club",
@@ -303,11 +329,12 @@
         },
         "aliases": [
           "Essex Eagles"
-        ]
+        ],
+        "views": 40010
       },
       {
         "name": "Sussex",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Sussex County Cricket Club",
         "verified": {
           "wiki": "Sussex County Cricket Club",
@@ -316,11 +343,12 @@
         },
         "aliases": [
           "Sussex Sharks"
-        ]
+        ],
+        "views": 45870
       },
       {
         "name": "Nottinghamshire",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "notts",
           "Notts Outlaws"
@@ -330,11 +358,12 @@
           "wiki": "Nottinghamshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1rx1dhg"
-        }
+        },
+        "views": 51547
       },
       {
         "name": "Warwickshire",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "warks",
           "Birmingham Bears"
@@ -344,11 +373,12 @@
           "wiki": "Warwickshire County Cricket Club",
           "date": "2026-11-24",
           "key": "6l9qk8"
-        }
+        },
+        "views": 54674
       },
       {
         "name": "Hampshire",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "hants",
           "Hampshire Hawks"
@@ -358,37 +388,41 @@
           "wiki": "Hampshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1jeaw3s"
-        }
+        },
+        "views": 60084
       },
       {
         "name": "Somerset",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Somerset County Cricket Club",
         "verified": {
           "wiki": "Somerset County Cricket Club",
           "date": "2026-11-24",
           "key": "1jgorn"
-        }
+        },
+        "views": 59895
       },
       {
         "name": "Durham",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Durham County Cricket Club",
         "verified": {
           "wiki": "Durham County Cricket Club",
           "date": "2026-11-24",
           "key": "14gznan"
-        }
+        },
+        "views": 51874
       },
       {
         "name": "Glamorgan",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Glamorgan County Cricket Club",
         "verified": {
           "wiki": "Glamorgan County Cricket Club",
           "date": "2026-11-24",
           "key": "w3i8df"
-        }
+        },
+        "views": 57579
       },
       {
         "name": "Gloucestershire",
@@ -401,7 +435,8 @@
           "wiki": "Gloucestershire County Cricket Club",
           "date": "2026-11-24",
           "key": "goxa5a"
-        }
+        },
+        "views": 38762
       },
       {
         "name": "Worcestershire",
@@ -415,11 +450,12 @@
           "wiki": "Worcestershire County Cricket Club",
           "date": "2026-11-24",
           "key": "1w182a7"
-        }
+        },
+        "views": 33581
       },
       {
         "name": "Derbyshire",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "derbys",
           "Derbyshire Falcons"
@@ -429,11 +465,12 @@
           "wiki": "Derbyshire County Cricket Club",
           "date": "2026-11-24",
           "key": "zlpvt"
-        }
+        },
+        "views": 32212
       },
       {
         "name": "Leicestershire",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "leics",
           "Leicestershire Foxes"
@@ -443,11 +480,12 @@
           "wiki": "Leicestershire County Cricket Club",
           "date": "2026-11-24",
           "key": "1f6q3cj"
-        }
+        },
+        "views": 33687
       },
       {
         "name": "Northamptonshire",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "northants",
           "Northamptonshire Steelbacks",
@@ -458,17 +496,19 @@
           "wiki": "Northamptonshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1gpr335"
-        }
+        },
+        "views": 44595
       },
       {
         "name": "Devon",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Devon County Cricket Club",
         "verified": {
           "wiki": "Devon County Cricket Club",
           "date": "2026-11-24",
           "key": "18aw2fv"
-        }
+        },
+        "views": 4209
       },
       {
         "name": "Cornwall",
@@ -478,7 +518,8 @@
           "wiki": "Cornwall County Cricket Club",
           "date": "2026-11-24",
           "key": "xwz9f3"
-        }
+        },
+        "views": 3008
       },
       {
         "name": "Norfolk",
@@ -488,7 +529,8 @@
           "wiki": "Norfolk County Cricket Club",
           "date": "2026-11-24",
           "key": "zk6zcl"
-        }
+        },
+        "views": 3857
       },
       {
         "name": "Cheshire",
@@ -498,7 +540,8 @@
           "wiki": "Cheshire County Cricket Club",
           "date": "2026-11-24",
           "key": "8477y3"
-        }
+        },
+        "views": 3043
       },
       {
         "name": "Berkshire",
@@ -511,11 +554,12 @@
           "wiki": "Berkshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1867306"
-        }
+        },
+        "views": 3732
       },
       {
         "name": "Buckinghamshire",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "bucks"
         ],
@@ -524,11 +568,12 @@
           "wiki": "Buckinghamshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1xx9bi1"
-        }
+        },
+        "views": 4104
       },
       {
         "name": "Bedfordshire",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "beds"
         ],
@@ -537,11 +582,12 @@
           "wiki": "Bedfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1nhk0sf"
-        }
+        },
+        "views": 3052
       },
       {
         "name": "Cambridgeshire",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "cambs"
         ],
@@ -550,7 +596,8 @@
           "wiki": "Cambridgeshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1vdbgcn"
-        }
+        },
+        "views": 2989
       },
       {
         "name": "Dorset",
@@ -560,11 +607,12 @@
           "wiki": "Dorset County Cricket Club",
           "date": "2026-11-24",
           "key": "msoe07"
-        }
+        },
+        "views": 2438
       },
       {
         "name": "Hertfordshire",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "herts"
         ],
@@ -573,7 +621,8 @@
           "wiki": "Hertfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "kucidv"
-        }
+        },
+        "views": 3067
       },
       {
         "name": "Lincolnshire",
@@ -586,17 +635,19 @@
           "wiki": "Lincolnshire County Cricket Club",
           "date": "2026-11-24",
           "key": "fdizg6"
-        }
+        },
+        "views": 2703
       },
       {
         "name": "Northumberland",
-        "tier": "six",
+        "tier": "four",
         "wiki": "Northumberland County Cricket Club",
         "verified": {
           "wiki": "Northumberland County Cricket Club",
           "date": "2026-11-24",
           "key": "1maq6pn"
-        }
+        },
+        "views": 3687
       },
       {
         "name": "Oxfordshire",
@@ -609,7 +660,8 @@
           "wiki": "Oxfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "mehx3n"
-        }
+        },
+        "views": 2924
       },
       {
         "name": "Shropshire",
@@ -622,11 +674,12 @@
         },
         "aliases": [
           "Salop"
-        ]
+        ],
+        "views": 2595
       },
       {
         "name": "Staffordshire",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "staffs"
         ],
@@ -635,7 +688,8 @@
           "wiki": "Staffordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1jd1sp0"
-        }
+        },
+        "views": 3904
       },
       {
         "name": "Suffolk",
@@ -645,7 +699,8 @@
           "wiki": "Suffolk County Cricket Club",
           "date": "2026-11-24",
           "key": "63ob6z"
-        }
+        },
+        "views": 2955
       },
       {
         "name": "Wiltshire",
@@ -658,17 +713,19 @@
           "wiki": "Wiltshire County Cricket Club",
           "date": "2026-11-24",
           "key": "37uhk"
-        }
+        },
+        "views": 2870
       },
       {
         "name": "Herefordshire",
-        "tier": "six",
+        "tier": "ootg",
         "wiki": "Herefordshire County Cricket Club",
         "verified": {
           "wiki": "Herefordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "naudyf"
-        }
+        },
+        "views": 1738
       },
       {
         "name": "Cumbria",
@@ -681,11 +738,12 @@
           "wiki": "Cumbria County Cricket Club",
           "date": "2026-11-24",
           "key": "jnszt4"
-        }
+        },
+        "views": 2753
       },
       {
         "name": "Wales National County",
-        "tier": "ootg",
+        "tier": "four",
         "aliases": [
           "wales",
           "wales minor counties",
@@ -696,7 +754,8 @@
           "wiki": "Wales National County Cricket Club",
           "date": "2026-11-24",
           "key": "hkaenu"
-        }
+        },
+        "views": 3505
       }
     ],
     "tags": [
@@ -725,7 +784,8 @@
         },
         "misspellings": [
           "Bryan Lara"
-        ]
+        ],
+        "views": 287587
       },
       {
         "name": "Don Bradman",
@@ -739,7 +799,8 @@
           "wiki": "Don Bradman",
           "date": "2026-11-24",
           "key": "17qvpkq"
-        }
+        },
+        "views": 373006
       },
       {
         "name": "Virender Sehwag",
@@ -751,11 +812,12 @@
         },
         "aliases": [
           "Viru"
-        ]
+        ],
+        "views": 343710
       },
       {
         "name": "Matthew Hayden",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Matthew Hayden",
           "date": "2026-11-24",
@@ -764,7 +826,8 @@
         "aliases": [
           "Matt Hayden",
           "Haydos"
-        ]
+        ],
+        "views": 211089
       },
       {
         "name": "Chris Gayle",
@@ -776,7 +839,8 @@
         },
         "aliases": [
           "Universe Boss"
-        ]
+        ],
+        "views": 289548
       },
       {
         "name": "Garfield Sobers",
@@ -789,7 +853,8 @@
           "wiki": "Garfield Sobers",
           "date": "2026-11-24",
           "key": "pun568"
-        }
+        },
+        "views": 511663
       },
       {
         "name": "Mahela Jayawardene",
@@ -801,21 +866,23 @@
         },
         "aliases": [
           "Mahela"
-        ]
+        ],
+        "views": 110336
       },
       {
         "name": "David Warner",
-        "tier": "two",
+        "tier": "single",
         "wiki": "David Warner (cricketer)",
         "verified": {
           "wiki": "David Warner (cricketer)",
           "date": "2026-11-24",
           "key": "1rsi8kk"
-        }
+        },
+        "views": 240165
       },
       {
         "name": "Len Hutton",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "leonard hutton"
         ],
@@ -823,7 +890,8 @@
           "wiki": "Len Hutton",
           "date": "2026-11-24",
           "key": "zu22p0"
-        }
+        },
+        "views": 34988
       },
       {
         "name": "Kumar Sangakkara",
@@ -835,7 +903,8 @@
         },
         "aliases": [
           "Sanga"
-        ]
+        ],
+        "views": 238897
       },
       {
         "name": "Michael Clarke",
@@ -848,16 +917,18 @@
         },
         "aliases": [
           "Pup"
-        ]
+        ],
+        "views": 166866
       },
       {
         "name": "Harry Brook",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Harry Brook",
           "date": "2026-11-24",
           "key": "6av3mt"
-        }
+        },
+        "views": 429768
       },
       {
         "name": "Inzamam-ul-Haq",
@@ -870,11 +941,12 @@
           "wiki": "Inzamam-ul-Haq",
           "date": "2026-11-24",
           "key": "1xm6do3"
-        }
+        },
+        "views": 139576
       },
       {
         "name": "Mark Taylor",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Mark Taylor (cricketer)",
         "verified": {
           "wiki": "Mark Taylor (cricketer)",
@@ -884,38 +956,42 @@
         "aliases": [
           "Tubby Taylor",
           "Tubby"
-        ]
+        ],
+        "views": 53644
       },
       {
         "name": "Karun Nair",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Karun Nair",
           "date": "2026-11-24",
           "key": "1ks39st"
-        }
+        },
+        "views": 80145
       },
       {
         "name": "Graham Gooch",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Graham Gooch",
           "date": "2026-11-24",
           "key": "1s0acbm"
-        }
+        },
+        "views": 80384
       },
       {
         "name": "Hashim Amla",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Hashim Amla",
           "date": "2026-11-24",
           "key": "7ebc8n"
-        }
+        },
+        "views": 121184
       },
       {
         "name": "Brendon McCullum",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Brendon McCullum",
           "date": "2026-11-24",
@@ -923,16 +999,18 @@
         },
         "aliases": [
           "Baz"
-        ]
+        ],
+        "views": 260986
       },
       {
         "name": "Sanath Jayasuriya",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Sanath Jayasuriya",
           "date": "2026-11-24",
           "key": "6ps9bv"
-        }
+        },
+        "views": 170095
       },
       {
         "name": "Younis Khan",
@@ -944,7 +1022,8 @@
           "wiki": "Younis Khan",
           "date": "2026-11-24",
           "key": "ywmjus"
-        }
+        },
+        "views": 92185
       },
       {
         "name": "Wally Hammond",
@@ -956,7 +1035,8 @@
           "wiki": "Wally Hammond",
           "date": "2026-11-24",
           "key": "1tjpa38"
-        }
+        },
+        "views": 31164
       },
       {
         "name": "Hanif Mohammad",
@@ -965,26 +1045,29 @@
           "wiki": "Hanif Mohammad",
           "date": "2026-11-24",
           "key": "pb4tc8"
-        }
+        },
+        "views": 31802
       },
       {
         "name": "Wiaan Mulder",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Wiaan Mulder",
         "verified": {
           "wiki": "Wiaan Mulder",
           "date": "2026-11-24",
           "key": "o85haf"
-        }
+        },
+        "views": 101072
       },
       {
         "name": "Azhar Ali",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Azhar Ali",
           "date": "2026-11-24",
           "key": "j547em"
-        }
+        },
+        "views": 26871
       },
       {
         "name": "Bob Simpson",
@@ -997,7 +1080,8 @@
           "wiki": "Bob Simpson (cricketer)",
           "date": "2026-11-24",
           "key": "1d652yl"
-        }
+        },
+        "views": 23024
       },
       {
         "name": "John Edrich",
@@ -1006,16 +1090,18 @@
           "wiki": "John Edrich",
           "date": "2026-11-24",
           "key": "dd8594"
-        }
+        },
+        "views": 16386
       },
       {
         "name": "Bob Cowper",
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Bob Cowper",
           "date": "2026-11-24",
           "key": "196xviz"
-        }
+        },
+        "views": 4550
       },
       {
         "name": "Lawrence Rowe",
@@ -1024,11 +1110,12 @@
           "wiki": "Lawrence Rowe",
           "date": "2026-11-24",
           "key": "1bwrt8k"
-        }
+        },
+        "views": 11481
       },
       {
         "name": "Andy Sandham",
-        "tier": "ootg",
+        "tier": "six",
         "aliases": [
           "andrew sandham"
         ],
@@ -1036,7 +1123,8 @@
           "wiki": "Andy Sandham",
           "date": "2026-11-24",
           "key": "akt3v9"
-        }
+        },
+        "views": 5020
       }
     ],
     "tags": [
@@ -1056,7 +1144,7 @@
     "answers": [
       {
         "name": "Yorker",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "toe crusher"
         ],
@@ -1064,11 +1152,12 @@
           "wiki": "Yorker",
           "date": "2026-11-24",
           "key": "16to391"
-        }
+        },
+        "views": 18702
       },
       {
         "name": "Bouncer",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "bumper",
           "short ball",
@@ -1079,11 +1168,12 @@
           "wiki": "Bouncer (cricket)",
           "date": "2026-11-24",
           "key": "1g6jsxn"
-        }
+        },
+        "views": 18324
       },
       {
         "name": "Googly",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "wrong'un",
           "bosie",
@@ -1093,20 +1183,22 @@
           "wiki": "Googly",
           "date": "2026-11-24",
           "key": "1cfrau9"
-        }
+        },
+        "views": 32383
       },
       {
         "name": "Doosra",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Doosra",
           "date": "2026-11-24",
           "key": "canrd1"
-        }
+        },
+        "views": 20173
       },
       {
         "name": "Leg break",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "leg spinner",
           "leg spin",
@@ -1116,11 +1208,12 @@
           "wiki": "Leg spin",
           "date": "2026-11-24",
           "key": "ae1czq"
-        }
+        },
+        "views": 43041
       },
       {
         "name": "Off break",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "off spinner",
           "off spin"
@@ -1129,11 +1222,12 @@
           "wiki": "Off spin",
           "date": "2026-11-24",
           "key": "v56mo2"
-        }
+        },
+        "views": 35104
       },
       {
         "name": "Inswinger",
-        "tier": "single",
+        "tier": "six",
         "aliases": [
           "inswing",
           "in-dipper",
@@ -1144,11 +1238,12 @@
           "wiki": "Inswinger",
           "date": "2026-11-24",
           "key": "bfsrhc"
-        }
+        },
+        "views": 2990
       },
       {
         "name": "Outswinger",
-        "tier": "single",
+        "tier": "six",
         "aliases": [
           "outswing",
           "away swinger",
@@ -1158,21 +1253,23 @@
           "wiki": "Outswinger",
           "date": "2026-11-24",
           "key": "m7mokt"
-        }
+        },
+        "views": 2518
       },
       {
         "name": "Flipper",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Flipper (cricket)",
         "verified": {
           "wiki": "Flipper (cricket)",
           "date": "2026-11-24",
           "key": "1jzzpw2"
-        }
+        },
+        "views": 7034
       },
       {
         "name": "Beamer",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Beamer (cricket)",
         "verified": {
           "wiki": "Beamer (cricket)",
@@ -1181,11 +1278,12 @@
         },
         "aliases": [
           "beam ball"
-        ]
+        ],
+        "views": 6755
       },
       {
         "name": "Slower ball",
-        "tier": "two",
+        "tier": "six",
         "aliases": [
           "slower one",
           "slow ball",
@@ -1197,11 +1295,12 @@
           "wiki": "Slower ball",
           "date": "2026-11-24",
           "key": "dpkqnl"
-        }
+        },
+        "views": 2756
       },
       {
         "name": "Off cutter",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "off cut",
           "nip-backer",
@@ -1211,11 +1310,12 @@
           "wiki": "Off cutter",
           "date": "2026-11-24",
           "key": "qzf43f"
-        }
+        },
+        "views": 4779
       },
       {
         "name": "Leg cutter",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "leg cut"
         ],
@@ -1223,11 +1323,12 @@
           "wiki": "Leg cutter",
           "date": "2026-11-24",
           "key": "j5ulcw"
-        }
+        },
+        "views": 4083
       },
       {
         "name": "Top spinner",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "topspin"
         ],
@@ -1235,16 +1336,18 @@
           "wiki": "Topspinner",
           "date": "2026-11-24",
           "key": "rokkkk"
-        }
+        },
+        "views": 4175
       },
       {
         "name": "Arm ball",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Arm ball",
           "date": "2026-11-24",
           "key": "enzzeg"
-        }
+        },
+        "views": 4117
       },
       {
         "name": "Carrom ball",
@@ -1256,35 +1359,39 @@
           "wiki": "Carrom ball",
           "date": "2026-11-24",
           "key": "33v0al"
-        }
+        },
+        "views": 10984
       },
       {
         "name": "Full toss",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Full toss",
           "date": "2026-11-24",
           "key": "kmnkoj"
-        }
+        },
+        "views": 3817
       },
       {
         "name": "Knuckle ball",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1sq5v5p"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Slider",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Slider (cricket)",
         "verified": {
           "wiki": "Slider (cricket)",
           "date": "2026-11-24",
           "key": "4k85sy"
-        }
+        },
+        "views": 2832
       },
       {
         "name": "Teesra",
@@ -1293,11 +1400,12 @@
           "wiki": "Teesra",
           "date": "2026-11-24",
           "key": "nyg899"
-        }
+        },
+        "views": 3821
       },
       {
         "name": "Chinaman",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "left-arm wrist spin",
           "left arm unorthodox",
@@ -1307,29 +1415,32 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "xu6nn6"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Half-volley",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "18bzhxy"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Long hop",
-        "tier": "four",
+        "tier": "ootg",
         "verified": {
           "wiki": "Long hop",
           "date": "2026-11-24",
           "key": "783bti"
-        }
+        },
+        "views": 1410
       },
       {
         "name": "Reverse swing",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "reverse swinger",
           "reverse-swinging delivery"
@@ -1338,20 +1449,22 @@
           "wiki": "Swing bowling",
           "date": "2026-11-24",
           "key": "es8mj7"
-        }
+        },
+        "views": 28889
       },
       {
         "name": "Wide yorker",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Yorker",
           "date": "2026-11-24",
           "key": "141peym"
-        }
+        },
+        "views": 18702
       },
       {
         "name": "Good length ball",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "good length",
           "length ball"
@@ -1360,7 +1473,8 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "3q6nvz"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Back-of-the-hand slower ball",
@@ -1373,7 +1487,8 @@
           "wiki": "Slower ball",
           "date": "2026-11-24",
           "key": "v1cef9"
-        }
+        },
+        "views": 2756
       },
       {
         "name": "Split-finger slower ball",
@@ -1385,11 +1500,12 @@
           "wiki": "Slower ball",
           "date": "2026-11-24",
           "key": "jvuukn"
-        }
+        },
+        "views": 2756
       },
       {
         "name": "Cross-seam delivery",
-        "tier": "six",
+        "tier": "single",
         "aliases": [
           "cross seam",
           "cross-seamer"
@@ -1398,20 +1514,22 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "60we44"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Floater",
-        "tier": "six",
+        "tier": "single",
         "verified": {
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1460awa"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Back-spinner",
-        "tier": "six",
+        "tier": "single",
         "aliases": [
           "backspin"
         ],
@@ -1419,11 +1537,12 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "17zq8ar"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Underarm",
-        "tier": "six",
+        "tier": "single",
         "aliases": [
           "underarm delivery",
           "underarm ball"
@@ -1432,16 +1551,18 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "dp58e8"
-        }
+        },
+        "views": 149865
       },
       {
         "name": "Zooter",
-        "tier": "ootg",
+        "tier": "single",
         "verified": {
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "ypmlgw"
-        }
+        },
+        "views": 149865
       }
     ],
     "tags": [
@@ -1462,7 +1583,7 @@
     "answers": [
       {
         "name": "Lord's",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Lord's",
           "date": "2026-11-24",
@@ -1471,7 +1592,8 @@
         "aliases": [
           "Lord's Cricket Ground",
           "Home of Cricket"
-        ]
+        ],
+        "views": 149180
       },
       {
         "name": "Melbourne Cricket Ground",
@@ -1485,7 +1607,8 @@
           "wiki": "Melbourne Cricket Ground",
           "date": "2026-11-24",
           "key": "byi4ut"
-        }
+        },
+        "views": 310311
       },
       {
         "name": "Eden Gardens",
@@ -1498,11 +1621,12 @@
           "wiki": "Eden Gardens",
           "date": "2026-11-24",
           "key": "15pr34w"
-        }
+        },
+        "views": 154038
       },
       {
         "name": "Wankhede Stadium",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "wankhede",
           "mumbai"
@@ -1511,7 +1635,8 @@
           "wiki": "Wankhede Stadium",
           "date": "2026-11-24",
           "key": "14cef6w"
-        }
+        },
+        "views": 150283
       },
       {
         "name": "Narendra Modi Stadium",
@@ -1525,11 +1650,12 @@
           "wiki": "Narendra Modi Stadium",
           "date": "2026-11-24",
           "key": "8tm82w"
-        }
+        },
+        "views": 620850
       },
       {
         "name": "Old Trafford",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "manchester",
           "Emirates Old Trafford"
@@ -1539,11 +1665,12 @@
           "wiki": "Old Trafford Cricket Ground",
           "date": "2026-11-24",
           "key": "ueh106"
-        }
+        },
+        "views": 64941
       },
       {
         "name": "Edgbaston",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "birmingham"
         ],
@@ -1552,7 +1679,8 @@
           "wiki": "Edgbaston Cricket Ground",
           "date": "2026-11-24",
           "key": "as0h5f"
-        }
+        },
+        "views": 42934
       },
       {
         "name": "The Oval",
@@ -1567,7 +1695,8 @@
           "wiki": "The Oval",
           "date": "2026-11-24",
           "key": "1ysm7j7"
-        }
+        },
+        "views": 117145
       },
       {
         "name": "Sydney Cricket Ground",
@@ -1580,11 +1709,12 @@
           "wiki": "Sydney Cricket Ground",
           "date": "2026-11-24",
           "key": "5nty95"
-        }
+        },
+        "views": 83269
       },
       {
         "name": "Gaddafi Stadium",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "gaddafi",
           "lahore"
@@ -1593,11 +1723,12 @@
           "wiki": "Gaddafi Stadium",
           "date": "2026-11-24",
           "key": "1wcwmsk"
-        }
+        },
+        "views": 65298
       },
       {
         "name": "Kensington Oval",
-        "tier": "two",
+        "tier": "six",
         "aliases": [
           "bridgetown",
           "barbados"
@@ -1606,11 +1737,12 @@
           "wiki": "Kensington Oval",
           "date": "2026-11-24",
           "key": "1top0kb"
-        }
+        },
+        "views": 29813
       },
       {
         "name": "Headingley",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "leeds"
         ],
@@ -1619,11 +1751,12 @@
           "wiki": "Headingley Cricket Ground",
           "date": "2026-11-24",
           "key": "1ocexwy"
-        }
+        },
+        "views": 34129
       },
       {
         "name": "Punjab Cricket Association Stadium",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "mohali",
           "pca stadium",
@@ -1635,11 +1768,12 @@
           "wiki": "1996 Cricket World Cup",
           "date": "2026-11-24",
           "key": "1br3du2"
-        }
+        },
+        "views": 181488
       },
       {
         "name": "Eden Park",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "auckland"
         ],
@@ -1647,7 +1781,8 @@
           "wiki": "Eden Park",
           "date": "2026-11-24",
           "key": "1pzz48t"
-        }
+        },
+        "views": 108504
       },
       {
         "name": "Wanderers",
@@ -1662,7 +1797,8 @@
           "wiki": "Wanderers Stadium",
           "date": "2026-11-24",
           "key": "xo2cs7"
-        }
+        },
+        "views": 43896
       },
       {
         "name": "R Premadasa Stadium",
@@ -1677,11 +1813,12 @@
           "wiki": "R. Premadasa Stadium",
           "date": "2026-11-24",
           "key": "10prqdm"
-        }
+        },
+        "views": 81929
       },
       {
         "name": "Kingsmead",
-        "tier": "six",
+        "tier": "ootg",
         "aliases": [
           "durban"
         ],
@@ -1690,7 +1827,8 @@
           "wiki": "Kingsmead Cricket Ground",
           "date": "2026-11-24",
           "key": "7kilnl"
-        }
+        },
+        "views": 17194
       },
       {
         "name": "St George's Park",
@@ -1704,7 +1842,8 @@
           "wiki": "St George's Park Cricket Ground",
           "date": "2026-11-24",
           "key": "4ga8ur"
-        }
+        },
+        "views": 20273
       },
       {
         "name": "Sabina Park",
@@ -1717,11 +1856,12 @@
           "wiki": "Sabina Park",
           "date": "2026-11-24",
           "key": "9wpv15"
-        }
+        },
+        "views": 18227
       },
       {
         "name": "Beausejour Stadium",
-        "tier": "ootg",
+        "tier": "single",
         "aliases": [
           "beausejour",
           "daren sammy cricket ground",
@@ -1734,7 +1874,8 @@
           "wiki": "2007 Cricket World Cup",
           "date": "2026-11-24",
           "key": "qvojkf"
-        }
+        },
+        "views": 208696
       }
     ],
     "tags": [
@@ -1775,25 +1916,28 @@
           "wiki": "KL Rahul",
           "date": "2026-11-24",
           "key": "133qbvc"
-        }
+        },
+        "views": 715023
       },
       {
         "name": "Martin Guptill",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Martin Guptill",
           "date": "2026-11-24",
           "key": "ri7kmp"
-        }
+        },
+        "views": 55852
       },
       {
         "name": "Desmond Haynes",
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Desmond Haynes",
           "date": "2026-11-24",
           "key": "1d14tgj"
-        }
+        },
+        "views": 37524
       },
       {
         "name": "Temba Bavuma",
@@ -1802,11 +1946,12 @@
           "wiki": "Temba Bavuma",
           "date": "2026-11-24",
           "key": "1hkdcpy"
-        }
+        },
+        "views": 258285
       },
       {
         "name": "Phillip Hughes",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "phil hughes"
         ],
@@ -1814,7 +1959,8 @@
           "wiki": "Phillip Hughes",
           "date": "2026-11-24",
           "key": "1m9zzji"
-        }
+        },
+        "views": 369889
       },
       {
         "name": "Imam-ul-Haq",
@@ -1826,7 +1972,8 @@
           "wiki": "Imam-ul-Haq",
           "date": "2026-11-24",
           "key": "rkwc1w"
-        }
+        },
+        "views": 76285
       },
       {
         "name": "Rahmanullah Gurbaz",
@@ -1838,25 +1985,28 @@
           "wiki": "Rahmanullah Gurbaz",
           "date": "2026-11-24",
           "key": "mve2be"
-        }
+        },
+        "views": 106102
       },
       {
         "name": "Dennis Amiss",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Dennis Amiss",
           "date": "2026-11-24",
           "key": "y9d6fx"
-        }
+        },
+        "views": 19569
       },
       {
         "name": "Andy Flower",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Andy Flower",
           "date": "2026-11-24",
           "key": "f996w2"
-        }
+        },
+        "views": 219008
       },
       {
         "name": "Colin Ingram",
@@ -1865,7 +2015,8 @@
           "wiki": "Colin Ingram",
           "date": "2026-11-24",
           "key": "1howctm"
-        }
+        },
+        "views": 13624
       },
       {
         "name": "Reeza Hendricks",
@@ -1874,35 +2025,39 @@
           "wiki": "Reeza Hendricks",
           "date": "2026-11-24",
           "key": "1s6tuc3"
-        }
+        },
+        "views": 44027
       },
       {
         "name": "Matthew Breetzke",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Matthew Breetzke",
           "date": "2026-11-24",
           "key": "1kbrugb"
-        }
+        },
+        "views": 97150
       },
       {
         "name": "Mark Chapman",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Mark Chapman (cricketer)",
         "verified": {
           "wiki": "Mark Chapman (cricketer)",
           "date": "2026-11-24",
           "key": "dch2od"
-        }
+        },
+        "views": 58956
       },
       {
         "name": "Michael Lumb",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Michael Lumb (cricketer)",
           "date": "2026-11-24",
           "key": "1lcozx6"
-        }
+        },
+        "views": 8018
       },
       {
         "name": "Rob Nicol",
@@ -1911,7 +2066,8 @@
           "wiki": "Rob Nicol",
           "date": "2026-11-24",
           "key": "1jwqym7"
-        }
+        },
+        "views": 2182
       },
       {
         "name": "Abid Ali",
@@ -1921,7 +2077,8 @@
           "wiki": "List of centuries scored on One Day International cricket debut",
           "date": "2026-11-24",
           "key": "iskxbr"
-        }
+        },
+        "views": 8111
       },
       {
         "name": "Saleem Elahi",
@@ -1933,25 +2090,28 @@
           "wiki": "Saleem Elahi",
           "date": "2026-11-24",
           "key": "1h8dab4"
-        }
+        },
+        "views": 5219
       },
       {
         "name": "Amir Jangoo",
-        "tier": "six",
+        "tier": "single",
         "verified": {
           "wiki": "Amir Jangoo",
           "date": "2026-11-24",
           "key": "qc8bhq"
-        }
+        },
+        "views": 190390
       },
       {
         "name": "Jordan Hermann",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Jordan Hermann",
           "date": "2026-11-24",
           "key": "1ojn23m"
-        }
+        },
+        "views": 30105
       },
       {
         "name": "Michael English",
@@ -1961,7 +2121,8 @@
           "wiki": "Michael English (cricketer)",
           "date": "2026-11-24",
           "key": "7t0cxv"
-        }
+        },
+        "views": 1357
       }
     ],
     "tags": [
@@ -1981,25 +2142,27 @@
     "answers": [
       {
         "name": "Cover drive",
-        "tier": "single",
+        "tier": "six",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1lw1e7r"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Straight drive",
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "qus11k"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Pull",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "pull shot",
           "front-foot pull"
@@ -2009,11 +2172,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "5mviyx"
-        }
+        },
+        "mentions": 17
       },
       {
         "name": "Hook",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "hook shot"
         ],
@@ -2022,7 +2186,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1yclywy"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "Cut",
@@ -2035,7 +2200,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1hw6zad"
-        }
+        },
+        "mentions": 76
       },
       {
         "name": "Sweep",
@@ -2048,47 +2214,52 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "hj53k1"
-        }
+        },
+        "mentions": 57
       },
       {
         "name": "Reverse sweep",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "jlh6sw"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "On drive",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "cwv205"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Off drive",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1008krt"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Square cut",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "jtf5y7"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Late cut",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
@@ -2100,7 +2271,8 @@
           "dab",
           "late dab",
           "glide"
-        ]
+        ],
+        "mentions": 26
       },
       {
         "name": "Leg glance",
@@ -2114,7 +2286,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1h05ddf"
-        }
+        },
+        "mentions": 16
       },
       {
         "name": "Flick",
@@ -2129,11 +2302,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "j82fk6"
-        }
+        },
+        "mentions": 17
       },
       {
         "name": "Forward defensive",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "forward defence",
           "forward defense"
@@ -2142,20 +2316,22 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "4el3g0"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Scoop",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "eyspye"
-        }
+        },
+        "mentions": 41
       },
       {
         "name": "Ramp",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "ramp shot"
         ],
@@ -2163,7 +2339,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "yeub2k"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Switch hit",
@@ -2172,7 +2349,8 @@
           "wiki": "Switch hit",
           "date": "2026-11-24",
           "key": "2gn0bx"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Helicopter shot",
@@ -2184,35 +2362,39 @@
           "wiki": "Helicopter shot",
           "date": "2026-11-24",
           "key": "15lzchc"
-        }
+        },
+        "mentions": 18
       },
       {
         "name": "Upper cut",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "ytkvl2"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Slog sweep",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "sglygt"
-        }
+        },
+        "mentions": 6
       },
       {
         "name": "Drive",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Drive (cricket)",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "ewa2rh"
-        }
+        },
+        "mentions": 46
       },
       {
         "name": "Square drive",
@@ -2221,7 +2403,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "182y3bn"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Lofted drive",
@@ -2235,11 +2418,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "1gd5jk2"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Paddle sweep",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "paddle",
           "paddle scoop"
@@ -2248,11 +2432,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "12enbx8"
-        }
+        },
+        "mentions": 38
       },
       {
         "name": "Backward defensive",
-        "tier": "four",
+        "tier": "ootg",
         "aliases": [
           "back-foot defence",
           "back foot defensive"
@@ -2261,11 +2446,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "18qr4gy"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Dilscoop",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Paddle scoop",
           "date": "2026-11-24",
@@ -2273,11 +2459,12 @@
         },
         "aliases": [
           "Dilshan scoop"
-        ]
+        ],
+        "mentions": 11
       },
       {
         "name": "Leave",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
@@ -2286,11 +2473,12 @@
         "aliases": [
           "shoulder arms",
           "no shot"
-        ]
+        ],
+        "mentions": 16
       },
       {
         "name": "Back-foot punch",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "punch",
           "back-foot drive"
@@ -2299,11 +2487,12 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1b5pzr4"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Slog",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Slog",
           "date": "2026-11-24",
@@ -2311,11 +2500,12 @@
         },
         "aliases": [
           "heave"
-        ]
+        ],
+        "mentions": 31
       },
       {
         "name": "Inside-out drive",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "inside out",
           "inside-out shot"
@@ -2324,11 +2514,12 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1h89adc"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Reverse scoop",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "reverse ramp"
         ],
@@ -2336,11 +2527,12 @@
           "wiki": "Paddle scoop",
           "date": "2026-11-24",
           "key": "p59pwy"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Block",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "defensive shot",
           "defence",
@@ -2350,11 +2542,12 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "n56hm"
-        }
+        },
+        "mentions": 49
       },
       {
         "name": "Lap sweep",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "lap",
           "lap shot"
@@ -2363,11 +2556,12 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "1w4t9xx"
-        }
+        },
+        "mentions": 21
       },
       {
         "name": "French cut",
-        "tier": "six",
+        "tier": "single",
         "aliases": [
           "chinese cut",
           "harrow drive",
@@ -2378,7 +2572,8 @@
           "wiki": "Batting (cricket)",
           "date": "2026-11-24",
           "key": "qz4yb5"
-        }
+        },
+        "mentions": 19
       },
       {
         "name": "Hoick",
@@ -2390,7 +2585,8 @@
         },
         "aliases": [
           "hoik"
-        ]
+        ],
+        "mentions": 3
       },
       {
         "name": "Nudge",
@@ -2402,7 +2598,8 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "h9h363"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Pick-up shot",
@@ -2414,11 +2611,12 @@
           "wiki": "Glossary of cricket terms",
           "date": "2026-11-24",
           "key": "avisal"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Marillier shot",
-        "tier": "ootg",
+        "tier": "two",
         "aliases": [
           "marillier",
           "marillier flick"
@@ -2427,7 +2625,8 @@
           "wiki": "Paddle scoop",
           "date": "2026-11-24",
           "key": "1r5bjfq"
-        }
+        },
+        "mentions": 15
       }
     ],
     "tags": [
@@ -2437,7 +2636,8 @@
       "https://en.wikipedia.org/wiki/Batting_(cricket)",
       "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
       "https://en.wikipedia.org/wiki/Paddle_scoop"
-    ]
+    ],
+    "popularity": "mentions"
   },
   {
     "id": "ranji-trophy-teams-2025-26",
@@ -2456,7 +2656,8 @@
           "wiki": "Mumbai cricket team",
           "date": "2026-11-24",
           "key": "1m57l5b"
-        }
+        },
+        "views": 71091
       },
       {
         "name": "Delhi",
@@ -2466,7 +2667,8 @@
           "wiki": "Delhi cricket team",
           "date": "2026-11-24",
           "key": "urc8ql"
-        }
+        },
+        "views": 43256
       },
       {
         "name": "Karnataka",
@@ -2479,7 +2681,8 @@
           "wiki": "Karnataka cricket team",
           "date": "2026-11-24",
           "key": "1801bm2"
-        }
+        },
+        "views": 44770
       },
       {
         "name": "Tamil Nadu",
@@ -2492,17 +2695,19 @@
           "wiki": "Tamil Nadu cricket team",
           "date": "2026-11-24",
           "key": "bbz9zl"
-        }
+        },
+        "views": 41321
       },
       {
         "name": "Bengal",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Bengal cricket team",
         "verified": {
           "wiki": "Bengal cricket team",
           "date": "2026-11-24",
           "key": "oju361"
-        }
+        },
+        "views": 31780
       },
       {
         "name": "Saurashtra",
@@ -2512,17 +2717,19 @@
           "wiki": "Saurashtra cricket team",
           "date": "2026-11-24",
           "key": "yflhpl"
-        }
+        },
+        "views": 29319
       },
       {
         "name": "Vidarbha",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Vidarbha cricket team",
         "verified": {
           "wiki": "Vidarbha cricket team",
           "date": "2026-11-24",
           "key": "lqpnux"
-        }
+        },
+        "views": 50690
       },
       {
         "name": "Madhya Pradesh",
@@ -2535,17 +2742,19 @@
           "wiki": "Madhya Pradesh cricket team",
           "date": "2026-11-24",
           "key": "1q0fkrk"
-        }
+        },
+        "views": 29830
       },
       {
         "name": "Punjab",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Punjab cricket team",
         "verified": {
           "wiki": "Ranji Trophy",
           "date": "2026-11-24",
           "key": "1rrn8qh"
-        }
+        },
+        "views": 371665
       },
       {
         "name": "Rajasthan",
@@ -2555,7 +2764,8 @@
           "wiki": "Rajasthan cricket team",
           "date": "2026-11-24",
           "key": "xyq61h"
-        }
+        },
+        "views": 23210
       },
       {
         "name": "Hyderabad",
@@ -2565,17 +2775,19 @@
           "wiki": "Hyderabad cricket team",
           "date": "2026-11-24",
           "key": "bkz1dl"
-        }
+        },
+        "views": 29085
       },
       {
         "name": "Baroda",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Baroda cricket team",
         "verified": {
           "wiki": "Baroda cricket team",
           "date": "2026-11-24",
           "key": "e0gc9d"
-        }
+        },
+        "views": 34749
       },
       {
         "name": "Uttar Pradesh",
@@ -2588,7 +2800,8 @@
           "wiki": "Uttar Pradesh cricket team",
           "date": "2026-11-24",
           "key": "11qag9c"
-        }
+        },
+        "views": 30712
       },
       {
         "name": "Gujarat",
@@ -2598,7 +2811,8 @@
           "wiki": "Gujarat cricket team",
           "date": "2026-11-24",
           "key": "itrtk9"
-        }
+        },
+        "views": 25987
       },
       {
         "name": "Kerala",
@@ -2608,7 +2822,8 @@
           "wiki": "Kerala cricket team",
           "date": "2026-11-24",
           "key": "1tl369d"
-        }
+        },
+        "views": 27882
       },
       {
         "name": "Maharashtra",
@@ -2618,7 +2833,8 @@
           "wiki": "Maharashtra cricket team",
           "date": "2026-11-24",
           "key": "xfmfw1"
-        }
+        },
+        "views": 25516
       },
       {
         "name": "Railways",
@@ -2631,7 +2847,8 @@
           "wiki": "Railways cricket team",
           "date": "2026-11-24",
           "key": "oy0r7u"
-        }
+        },
+        "views": 25488
       },
       {
         "name": "Andhra",
@@ -2644,7 +2861,8 @@
           "wiki": "Andhra cricket team",
           "date": "2026-11-24",
           "key": "1fn7cum"
-        }
+        },
+        "views": 18037
       },
       {
         "name": "Haryana",
@@ -2654,11 +2872,12 @@
           "wiki": "Haryana cricket team",
           "date": "2026-11-24",
           "key": "5wlnqx"
-        }
+        },
+        "views": 17274
       },
       {
         "name": "Jammu and Kashmir",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "j&k",
           "kashmir"
@@ -2668,17 +2887,19 @@
           "wiki": "Jammu and Kashmir cricket team",
           "date": "2026-11-24",
           "key": "1f7g3bf"
-        }
+        },
+        "views": 48925
       },
       {
         "name": "Jharkhand",
-        "tier": "four",
+        "tier": "single",
         "wiki": "Jharkhand cricket team",
         "verified": {
           "wiki": "Jharkhand cricket team",
           "date": "2026-11-24",
           "key": "11dnmgj"
-        }
+        },
+        "views": 37721
       },
       {
         "name": "Odisha",
@@ -2691,7 +2912,8 @@
           "wiki": "Odisha cricket team",
           "date": "2026-11-24",
           "key": "1h5l8jw"
-        }
+        },
+        "views": 15571
       },
       {
         "name": "Assam",
@@ -2701,7 +2923,8 @@
           "wiki": "Assam cricket team",
           "date": "2026-11-24",
           "key": "1dtlutz"
-        }
+        },
+        "views": 16564
       },
       {
         "name": "Himachal Pradesh",
@@ -2714,7 +2937,8 @@
           "wiki": "Himachal Pradesh cricket team",
           "date": "2026-11-24",
           "key": "1m9v6n2"
-        }
+        },
+        "views": 8685
       },
       {
         "name": "Services",
@@ -2724,7 +2948,8 @@
           "wiki": "Services cricket team",
           "date": "2026-11-24",
           "key": "uem3sh"
-        }
+        },
+        "views": 22310
       },
       {
         "name": "Goa",
@@ -2734,17 +2959,19 @@
           "wiki": "Goa cricket team",
           "date": "2026-11-24",
           "key": "n4w2rj"
-        }
+        },
+        "views": 10803
       },
       {
         "name": "Bihar",
-        "tier": "four",
+        "tier": "single",
         "wiki": "Bihar cricket team",
         "verified": {
           "wiki": "Bihar cricket team",
           "date": "2026-11-24",
           "key": "dfca0x"
-        }
+        },
+        "views": 47503
       },
       {
         "name": "Tripura",
@@ -2754,7 +2981,8 @@
           "wiki": "Tripura cricket team",
           "date": "2026-11-24",
           "key": "1er3ik3"
-        }
+        },
+        "views": 10606
       },
       {
         "name": "Chhattisgarh",
@@ -2764,7 +2992,8 @@
           "wiki": "Chhattisgarh cricket team",
           "date": "2026-11-24",
           "key": "1dzh2x5"
-        }
+        },
+        "views": 9340
       },
       {
         "name": "Uttarakhand",
@@ -2777,7 +3006,8 @@
           "wiki": "Uttarakhand cricket team",
           "date": "2026-11-24",
           "key": "1oapeqk"
-        }
+        },
+        "views": 9378
       },
       {
         "name": "Chandigarh",
@@ -2787,7 +3017,8 @@
           "wiki": "Chandigarh cricket team",
           "date": "2026-11-24",
           "key": "1bwzbwl"
-        }
+        },
+        "views": 6589
       },
       {
         "name": "Puducherry",
@@ -2800,7 +3031,8 @@
           "wiki": "Pondicherry cricket team",
           "date": "2026-11-24",
           "key": "1nsq9h6"
-        }
+        },
+        "views": 7043
       },
       {
         "name": "Manipur",
@@ -2810,17 +3042,19 @@
           "wiki": "Manipur cricket team",
           "date": "2026-11-24",
           "key": "1cm07n9"
-        }
+        },
+        "views": 3822
       },
       {
         "name": "Meghalaya",
-        "tier": "six",
+        "tier": "ootg",
         "wiki": "Meghalaya cricket team",
         "verified": {
           "wiki": "Meghalaya cricket team",
           "date": "2026-11-24",
           "key": "e2hgqv"
-        }
+        },
+        "views": 3781
       },
       {
         "name": "Mizoram",
@@ -2830,7 +3064,8 @@
           "wiki": "Mizoram cricket team",
           "date": "2026-11-24",
           "key": "s5b433"
-        }
+        },
+        "views": 4784
       },
       {
         "name": "Nagaland",
@@ -2840,7 +3075,8 @@
           "wiki": "Nagaland cricket team",
           "date": "2026-11-24",
           "key": "rlj0z5"
-        }
+        },
+        "views": 4747
       },
       {
         "name": "Sikkim",
@@ -2850,11 +3086,12 @@
           "wiki": "Sikkim cricket team",
           "date": "2026-11-24",
           "key": "m6ebw1"
-        }
+        },
+        "views": 4665
       },
       {
         "name": "Arunachal Pradesh",
-        "tier": "ootg",
+        "tier": "six",
         "aliases": [
           "arunachal"
         ],
@@ -2863,7 +3100,8 @@
           "wiki": "Arunachal Pradesh cricket team",
           "date": "2026-11-24",
           "key": "uol6po"
-        }
+        },
+        "views": 4409
       }
     ],
     "tags": [
@@ -2892,7 +3130,8 @@
         },
         "aliases": [
           "Warney"
-        ]
+        ],
+        "views": 715790
       },
       {
         "name": "Stuart Broad",
@@ -2904,7 +3143,8 @@
         },
         "aliases": [
           "Broady"
-        ]
+        ],
+        "views": 283903
       },
       {
         "name": "Jasprit Bumrah",
@@ -2913,7 +3153,8 @@
           "wiki": "Jasprit Bumrah",
           "date": "2026-11-24",
           "key": "cvzf4d"
-        }
+        },
+        "views": 1017575
       },
       {
         "name": "Glenn McGrath",
@@ -2925,7 +3166,8 @@
         },
         "aliases": [
           "Pigeon"
-        ]
+        ],
+        "views": 246237
       },
       {
         "name": "Wasim Akram",
@@ -2937,7 +3179,8 @@
         },
         "aliases": [
           "Wasim"
-        ]
+        ],
+        "views": 353947
       },
       {
         "name": "Harbhajan Singh",
@@ -2950,7 +3193,8 @@
           "wiki": "Harbhajan Singh",
           "date": "2026-11-24",
           "key": "4m0cy2"
-        }
+        },
+        "views": 292516
       },
       {
         "name": "Irfan Pathan",
@@ -2959,11 +3203,12 @@
           "wiki": "Irfan Pathan",
           "date": "2026-11-24",
           "key": "18l5kv5"
-        }
+        },
+        "views": 226210
       },
       {
         "name": "Moeen Ali",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Moeen Ali",
           "date": "2026-11-24",
@@ -2972,16 +3217,18 @@
         "aliases": [
           "Moeen",
           "Mo Ali"
-        ]
+        ],
+        "views": 141630
       },
       {
         "name": "Peter Siddle",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Peter Siddle",
           "date": "2026-11-24",
           "key": "191tac"
-        }
+        },
+        "views": 121986
       },
       {
         "name": "Darren Gough",
@@ -2994,16 +3241,18 @@
         "aliases": [
           "Goughie",
           "Dazzler"
-        ]
+        ],
+        "views": 65449
       },
       {
         "name": "Dominic Cork",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Dominic Cork",
           "date": "2026-11-24",
           "key": "1fcic2l"
-        }
+        },
+        "views": 21914
       },
       {
         "name": "Matthew Hoggard",
@@ -3015,7 +3264,8 @@
         },
         "aliases": [
           "Hoggy"
-        ]
+        ],
+        "views": 34724
       },
       {
         "name": "Naseem Shah",
@@ -3025,16 +3275,18 @@
           "wiki": "Naseem Shah",
           "date": "2026-11-24",
           "key": "rliipr"
-        }
+        },
+        "views": 75433
       },
       {
         "name": "Courtney Walsh",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Courtney Walsh",
           "date": "2026-11-24",
           "key": "1u0i3vr"
-        }
+        },
+        "views": 97702
       },
       {
         "name": "Merv Hughes",
@@ -3046,34 +3298,38 @@
         },
         "aliases": [
           "Merv"
-        ]
+        ],
+        "views": 47350
       },
       {
         "name": "Gus Atkinson",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Gus Atkinson",
           "date": "2026-11-24",
           "key": "duafkh"
-        }
+        },
+        "views": 142438
       },
       {
         "name": "Scott Boland",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Scott Boland",
           "date": "2026-11-24",
           "key": "15nm96i"
-        }
+        },
+        "views": 234905
       },
       {
         "name": "Keshav Maharaj",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Keshav Maharaj",
           "date": "2026-11-24",
           "key": "aomyh3"
-        }
+        },
+        "views": 164209
       },
       {
         "name": "Rangana Herath",
@@ -3082,7 +3338,8 @@
           "wiki": "Rangana Herath",
           "date": "2026-11-24",
           "key": "cgt3or"
-        }
+        },
+        "views": 33688
       },
       {
         "name": "Ryan Sidebottom",
@@ -3091,11 +3348,12 @@
           "wiki": "Ryan Sidebottom",
           "date": "2026-11-24",
           "key": "3fe3xj"
-        }
+        },
+        "views": 23668
       },
       {
         "name": "Abdul Razzaq",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "abdul razzak"
         ],
@@ -3104,16 +3362,18 @@
           "wiki": "Abdul Razzaq (cricketer)",
           "date": "2026-11-24",
           "key": "1f81td4"
-        }
+        },
+        "views": 54939
       },
       {
         "name": "Mohammad Sami",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Mohammad Sami",
           "date": "2026-11-24",
           "key": "18dlwyz"
-        }
+        },
+        "views": 31828
       },
       {
         "name": "Wes Hall",
@@ -3125,7 +3385,8 @@
           "wiki": "Wes Hall",
           "date": "2026-11-24",
           "key": "1yfgxw7"
-        }
+        },
+        "views": 27639
       },
       {
         "name": "Lance Gibbs",
@@ -3134,7 +3395,8 @@
           "wiki": "Lance Gibbs",
           "date": "2026-11-24",
           "key": "d801cz"
-        }
+        },
+        "views": 27419
       },
       {
         "name": "Fred Spofforth",
@@ -3147,7 +3409,8 @@
           "wiki": "Fred Spofforth",
           "date": "2026-11-24",
           "key": "13se92x"
-        }
+        },
+        "views": 12652
       },
       {
         "name": "Damien Fleming",
@@ -3156,7 +3419,8 @@
           "wiki": "Damien Fleming",
           "date": "2026-11-24",
           "key": "1o72km7"
-        }
+        },
+        "views": 28065
       },
       {
         "name": "Nuwan Zoysa",
@@ -3165,7 +3429,8 @@
           "wiki": "Nuwan Zoysa",
           "date": "2026-11-24",
           "key": "1sk02zy"
-        }
+        },
+        "views": 7187
       },
       {
         "name": "Noman Ali",
@@ -3177,66 +3442,73 @@
           "wiki": "Noman Ali",
           "date": "2026-11-24",
           "key": "e5u9kk"
-        }
+        },
+        "views": 22564
       },
       {
         "name": "James Franklin",
-        "tier": "four",
+        "tier": "two",
         "wiki": "James Franklin (cricketer)",
         "verified": {
           "wiki": "James Franklin (cricketer)",
           "date": "2026-11-24",
           "key": "1s1l9d1"
-        }
+        },
+        "views": 31326
       },
       {
         "name": "Jermaine Lawson",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Jermaine Lawson",
           "date": "2026-11-24",
           "key": "1s3t4cc"
-        }
+        },
+        "views": 3300
       },
       {
         "name": "Sohag Gazi",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Sohag Gazi",
           "date": "2026-11-24",
           "key": "7xf1ka"
-        }
+        },
+        "views": 3273
       },
       {
         "name": "Alok Kapali",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Alok Kapali",
           "date": "2026-11-24",
           "key": "c5htsk"
-        }
+        },
+        "views": 10056
       },
       {
         "name": "Andy Blignaut",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Andy Blignaut",
           "date": "2026-11-24",
           "key": "shbacr"
-        }
+        },
+        "views": 10311
       },
       {
         "name": "Hugh Trumble",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Hugh Trumble",
           "date": "2026-11-24",
           "key": "1ejsnrs"
-        }
+        },
+        "views": 5931
       },
       {
         "name": "Jimmy Matthews",
-        "tier": "six",
+        "tier": "two",
         "aliases": [
           "tj matthews",
           "thomas james matthews"
@@ -3246,7 +3518,8 @@
           "wiki": "List of Test cricket hat-tricks",
           "date": "2026-11-24",
           "key": "1pawp4j"
-        }
+        },
+        "views": 29549
       },
       {
         "name": "Geoff Griffin",
@@ -3258,7 +3531,8 @@
           "wiki": "Geoff Griffin",
           "date": "2026-11-24",
           "key": "1mo44mz"
-        }
+        },
+        "views": 1406
       },
       {
         "name": "Lindsay Kline",
@@ -3267,7 +3541,8 @@
           "wiki": "Lindsay Kline",
           "date": "2026-11-24",
           "key": "keiw1m"
-        }
+        },
+        "views": 1578
       },
       {
         "name": "Peter Loader",
@@ -3276,21 +3551,23 @@
           "wiki": "Peter Loader",
           "date": "2026-11-24",
           "key": "11eggaw"
-        }
+        },
+        "views": 1721
       },
       {
         "name": "Tom Goddard",
-        "tier": "six",
+        "tier": "two",
         "wiki": "Tom Goddard (cricketer)",
         "verified": {
           "wiki": "List of Test cricket hat-tricks",
           "date": "2026-11-24",
           "key": "jzqjjr"
-        }
+        },
+        "views": 29549
       },
       {
         "name": "Billy Bates",
-        "tier": "six",
+        "tier": "two",
         "aliases": [
           "willie bates"
         ],
@@ -3299,7 +3576,8 @@
           "wiki": "List of Test cricket hat-tricks",
           "date": "2026-11-24",
           "key": "1tycyg8"
-        }
+        },
+        "views": 29549
       },
       {
         "name": "Johnny Briggs",
@@ -3309,16 +3587,18 @@
           "wiki": "Johnny Briggs (cricketer)",
           "date": "2026-11-24",
           "key": "1jor1j1"
-        }
+        },
+        "views": 4553
       },
       {
         "name": "George Lohmann",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "George Lohmann",
           "date": "2026-11-24",
           "key": "1lj3n1l"
-        }
+        },
+        "views": 14912
       },
       {
         "name": "Peter Petherick",
@@ -3327,17 +3607,19 @@
           "wiki": "Peter Petherick",
           "date": "2026-11-24",
           "key": "3j4fke"
-        }
+        },
+        "views": 1100
       },
       {
         "name": "Hasan Mahmud",
-        "tier": "six",
+        "tier": "two",
         "wiki": "Hasan Mahmud (cricketer)",
         "verified": {
           "wiki": "Hasan Mahmud (cricketer)",
           "date": "2026-11-24",
           "key": "iqikb1"
-        }
+        },
+        "views": 38473
       },
       {
         "name": "Jack Hearne",
@@ -3351,7 +3633,8 @@
           "wiki": "J. T. Hearne",
           "date": "2026-11-24",
           "key": "dmfvjs"
-        }
+        },
+        "views": 1602
       },
       {
         "name": "Maurice Allom",
@@ -3360,7 +3643,8 @@
           "wiki": "Maurice Allom",
           "date": "2026-11-24",
           "key": "1jebx6a"
-        }
+        },
+        "views": 1084
       }
     ],
     "tags": [
@@ -3389,7 +3673,8 @@
         },
         "aliases": [
           "Chef"
-        ]
+        ],
+        "views": 228267
       },
       {
         "name": "Andrew Strauss",
@@ -3398,25 +3683,28 @@
           "wiki": "Andrew Strauss",
           "date": "2026-11-24",
           "key": "2qo6ox"
-        }
+        },
+        "views": 121992
       },
       {
         "name": "Jonathan Trott",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Jonathan Trott",
           "date": "2026-11-24",
           "key": "320tqt"
-        }
+        },
+        "views": 85304
       },
       {
         "name": "Ben Foakes",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Ben Foakes",
           "date": "2026-11-24",
           "key": "co8jir"
-        }
+        },
+        "views": 34931
       },
       {
         "name": "Matt Prior",
@@ -3428,11 +3716,12 @@
           "wiki": "Matt Prior",
           "date": "2026-11-24",
           "key": "1wrl6ex"
-        }
+        },
+        "views": 45179
       },
       {
         "name": "Graham Thorpe",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Graham Thorpe",
           "date": "2026-11-24",
@@ -3440,30 +3729,33 @@
         },
         "misspellings": [
           "Graeme Thorpe"
-        ]
+        ],
+        "views": 97422
       },
       {
         "name": "Keaton Jennings",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Keaton Jennings",
           "date": "2026-11-24",
           "key": "l286df"
-        }
+        },
+        "views": 18087
       },
       {
         "name": "Peter May",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Peter May (cricketer)",
         "verified": {
           "wiki": "Peter May (cricketer)",
           "date": "2026-11-24",
           "key": "yimqkx"
-        }
+        },
+        "views": 17236
       },
       {
         "name": "WG Grace",
-        "tier": "two",
+        "tier": "single",
         "wiki": "W. G. Grace",
         "verified": {
           "wiki": "W. G. Grace",
@@ -3474,11 +3766,12 @@
           "W.G.",
           "The Doctor",
           "William Gilbert Grace"
-        ]
+        ],
+        "views": 88500
       },
       {
         "name": "Ranjitsinhji",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "ranji",
           "ks ranjitsinhji",
@@ -3489,7 +3782,8 @@
           "wiki": "List of centuries scored on Test cricket debut",
           "date": "2026-11-24",
           "key": "lpqglp"
-        }
+        },
+        "views": 18529
       },
       {
         "name": "Pelham Warner",
@@ -3501,11 +3795,12 @@
           "wiki": "Pelham Warner",
           "date": "2026-11-24",
           "key": "is2162"
-        }
+        },
+        "views": 8171
       },
       {
         "name": "Nawab of Pataudi",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "iftikhar ali khan pataudi",
           "pataudi senior"
@@ -3515,7 +3810,8 @@
           "wiki": "Iftikhar Ali Khan Pataudi",
           "date": "2026-11-24",
           "key": "4qqcm8"
-        }
+        },
+        "views": 134430
       },
       {
         "name": "Tip Foster",
@@ -3529,27 +3825,30 @@
           "wiki": "R. E. Foster",
           "date": "2026-11-24",
           "key": "6htund"
-        }
+        },
+        "views": 4826
       },
       {
         "name": "Frank Hayes",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Frank Hayes (cricketer)",
         "verified": {
           "wiki": "Frank Hayes (cricketer)",
           "date": "2026-11-24",
           "key": "zclno7"
-        }
+        },
+        "views": 4566
       },
       {
         "name": "George Gunn",
-        "tier": "six",
+        "tier": "two",
         "wiki": "George Gunn (cricketer, born 1879)",
         "verified": {
           "wiki": "List of centuries scored on Test cricket debut",
           "date": "2026-11-24",
           "key": "y6r03t"
-        }
+        },
+        "views": 18529
       },
       {
         "name": "Paul Gibb",
@@ -3558,7 +3857,8 @@
           "wiki": "Paul Gibb",
           "date": "2026-11-24",
           "key": "7aew35"
-        }
+        },
+        "views": 1318
       },
       {
         "name": "Billy Griffith",
@@ -3567,16 +3867,18 @@
           "wiki": "Billy Griffith",
           "date": "2026-11-24",
           "key": "wdnmii"
-        }
+        },
+        "views": 1919
       },
       {
         "name": "Arthur Milton",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Arthur Milton",
           "date": "2026-11-24",
           "key": "v2llme"
-        }
+        },
+        "views": 4920
       },
       {
         "name": "John Hampshire",
@@ -3585,7 +3887,8 @@
           "wiki": "John Hampshire",
           "date": "2026-11-24",
           "key": "1gtygn"
-        }
+        },
+        "views": 4632
       },
       {
         "name": "Bryan Valentine",
@@ -3594,7 +3897,8 @@
           "wiki": "Bryan Valentine",
           "date": "2026-11-24",
           "key": "1mipbjp"
-        }
+        },
+        "views": 999
       }
     ],
     "tags": [
@@ -3624,11 +3928,12 @@
           "wiki": "Cricket bat",
           "date": "2026-11-24",
           "key": "173hll1"
-        }
+        },
+        "mentions": 260
       },
       {
         "name": "Pads",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "leg guards",
           "leg pads",
@@ -3639,7 +3944,8 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "jfsv1h"
-        }
+        },
+        "mentions": 12
       },
       {
         "name": "Gloves",
@@ -3651,7 +3957,8 @@
           "wiki": "Glove",
           "date": "2026-11-24",
           "key": "rtdefg"
-        }
+        },
+        "mentions": 40
       },
       {
         "name": "Helmet",
@@ -3664,11 +3971,12 @@
         "aliases": [
           "lid",
           "batting helmet"
-        ]
+        ],
+        "mentions": 119
       },
       {
         "name": "Box",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "abdominal guard",
           "abdo guard",
@@ -3681,11 +3989,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "36j03w"
-        }
+        },
+        "mentions": 386
       },
       {
         "name": "Thigh pad",
-        "tier": "two",
+        "tier": "six",
         "aliases": [
           "thigh guard",
           "thigh guards"
@@ -3694,11 +4003,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "q4zvan"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Arm guard",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "elbow guard",
           "forearm guard",
@@ -3708,7 +4018,8 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "1hxki35"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Wicketkeeping gloves",
@@ -3723,11 +4034,12 @@
           "wiki": "Wicket-keeper's gloves",
           "date": "2026-11-24",
           "key": "1ugw3cl"
-        }
+        },
+        "mentions": 14
       },
       {
         "name": "Spikes",
-        "tier": "two",
+        "tier": "six",
         "aliases": [
           "boots",
           "cricket shoes",
@@ -3739,11 +4051,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "1vcy89d"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Cap",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "baggy green",
           "cricket cap"
@@ -3752,11 +4065,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "h4wjef"
-        }
+        },
+        "mentions": 28
       },
       {
         "name": "Inner gloves",
-        "tier": "ootg",
+        "tier": "four",
         "aliases": [
           "inners",
           "batting inners"
@@ -3765,11 +4079,12 @@
           "wiki": "Wicket-keeper's gloves",
           "date": "2026-11-24",
           "key": "qgmq26"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Chest guard",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "chest pad",
           "rib guard",
@@ -3779,11 +4094,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "10l8b2s"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Sun hat",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "floppy hat",
           "wide-brimmed hat",
@@ -3793,11 +4109,12 @@
           "wiki": "Sun hat",
           "date": "2026-11-24",
           "key": "1u0tsl9"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Sweater",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "jumper",
           "cricket jumper",
@@ -3810,11 +4127,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "1t36ws"
-        }
+        },
+        "mentions": 14
       },
       {
         "name": "Whites",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "cricket whites"
         ],
@@ -3822,11 +4140,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "hs2nj4"
-        }
+        },
+        "mentions": 14
       },
       {
         "name": "Shirt",
-        "tier": "four",
+        "tier": "ootg",
         "verified": {
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
@@ -3834,7 +4153,8 @@
         },
         "aliases": [
           "cricket shirt"
-        ]
+        ],
+        "mentions": 1
       },
       {
         "name": "Trousers",
@@ -3846,11 +4166,12 @@
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "10mvuf8"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Grip",
-        "tier": "six",
+        "tier": "two",
         "aliases": [
           "bat grip"
         ],
@@ -3858,11 +4179,12 @@
           "wiki": "Cricket bat",
           "date": "2026-11-24",
           "key": "tdrkzg"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Neck guard",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "stem guard",
           "neck protector",
@@ -3872,20 +4194,22 @@
           "wiki": "Cricket helmet",
           "date": "2026-11-24",
           "key": "1ffh2me"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Visor",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Cricket clothing and equipment",
           "date": "2026-11-24",
           "key": "1e5auhi"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Grille",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "helmet grille",
           "face guard",
@@ -3895,7 +4219,8 @@
           "wiki": "Cricket helmet",
           "date": "2026-11-24",
           "key": "1dam6em"
-        }
+        },
+        "mentions": 3
       }
     ],
     "tags": [
@@ -3906,7 +4231,8 @@
       "https://en.wikipedia.org/wiki/Cricket_helmet",
       "https://en.wikipedia.org/wiki/Wicket-keeper%27s_gloves",
       "https://en.wikipedia.org/wiki/Cricket_bat"
-    ]
+    ],
+    "popularity": "mentions"
   },
   {
     "id": "leg-side-fielding-positions",
@@ -3921,7 +4247,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "199ic4"
-        }
+        },
+        "mentions": 12
       },
       {
         "name": "Square leg",
@@ -3930,7 +4257,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "r8u7rr"
-        }
+        },
+        "mentions": 16
       },
       {
         "name": "Mid-on",
@@ -3939,7 +4267,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "b0yev4"
-        }
+        },
+        "mentions": 10
       },
       {
         "name": "Mid-wicket",
@@ -3948,7 +4277,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "ko25a"
-        }
+        },
+        "mentions": 11
       },
       {
         "name": "Long on",
@@ -3957,11 +4287,12 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "13un6cb"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Deep square leg",
-        "tier": "two",
+        "tier": "six",
         "aliases": [
           "deep square"
         ],
@@ -3969,11 +4300,12 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1cdkcas"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Short leg",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "bat pad"
         ],
@@ -3981,7 +4313,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1s5lig6"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "Leg slip",
@@ -3990,7 +4323,8 @@
           "wiki": "Slip (cricket)",
           "date": "2026-11-24",
           "key": "130hczy"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Cow corner",
@@ -3999,7 +4333,8 @@
           "wiki": "Cow corner",
           "date": "2026-11-24",
           "key": "jj8y4o"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Deep mid-wicket",
@@ -4009,16 +4344,18 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "10zv7wh"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Long leg",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Leg side",
           "date": "2026-11-24",
           "key": "t1qyde"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Short fine leg",
@@ -4027,11 +4364,12 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "anf2aa"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Backward square leg",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "backward square"
         ],
@@ -4039,7 +4377,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "pvfpja"
-        }
+        },
+        "mentions": 7
       },
       {
         "name": "Leg gully",
@@ -4048,7 +4387,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "whho7b"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Silly mid-on",
@@ -4057,7 +4397,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "142nlf5"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Forward short leg",
@@ -4066,7 +4407,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "ulwh07"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Deep backward square leg",
@@ -4078,7 +4420,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1l9et4w"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Backward short leg",
@@ -4087,11 +4430,12 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "c4t6e3"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "On the 45",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "the 45"
         ],
@@ -4099,7 +4443,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "1bduxoj"
-        }
+        },
+        "mentions": 1
       },
       {
         "name": "Sweeper",
@@ -4108,7 +4453,8 @@
           "wiki": "Fielding (cricket)",
           "date": "2026-11-24",
           "key": "132topz"
-        }
+        },
+        "mentions": 2
       }
     ],
     "tags": [
@@ -4118,7 +4464,8 @@
       "https://en.wikipedia.org/wiki/Fielding_(cricket)",
       "https://en.wikipedia.org/wiki/Glossary_of_cricket_terms",
       "https://en.wikipedia.org/wiki/Leg_side"
-    ]
+    ],
+    "popularity": "mentions"
   },
   {
     "id": "test-300-wicket-bowlers",

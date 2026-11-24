@@ -146,19 +146,30 @@ Metrics and overrides still apply on top.
 ## 4. Schedule (variety)
 
 `src/data/schedule.json` holds the launch date and each day's 6 question ids (one over) in ball order.
-`npm run content:schedule` appends new days from unused questions, and `npm test` checks every
-day against these rules:
+`npm run content:schedule` appends new days, and `npm test` checks the whole schedule.
 
-- **Different categories:** no two questions on a day share a `category`.
-- **Mixed answer types:** at most 2 questions of the same `answerType` per day.
-- **Mixed formats and audiences:** at most 3 questions per day share a format tag (`test`, `odi`,
-  `t20`); each day has at least one question not about men's international cricket (women's,
-  domestic, franchise or general cricket knowledge) when the pool allows.
-- **Balanced difficulty:** a question's difficulty is how little-known its well-known answers are
-  (page views of its 5th most-viewed answer). The scheduler deals hardest questions first onto the
-  day with the lowest difficulty so far, so days come out even.
-- **Gentle start:** each day is ordered from easiest to hardest, so ball 1 is the most approachable.
-- **No reuse:** a question is used on one day only.
+Variety matters most within a day, then within a week. After a week, similar questions are fine
+(new angles get harder to find), and after a month a question can be used again.
+
+**Within a day** (strongest):
+
+- **Different categories:** no two questions share a `category`.
+- **Different answer types:** at most one question per `answerType`, except players (up to two).
+- **Not too much general knowledge:** at most 2 questions tagged `general` (laws, kit, shots,
+  positions).
+- **Mixed formats:** at most 3 questions share a format tag (`test`, `odi`, `t20`).
+- **Beyond men's internationals:** at least one question about women's, domestic, franchise or
+  general cricket.
+- **Balanced difficulty:** a question's difficulty is how little-known its well-known answers are.
+  Days are dealt hardest-first onto the day with the lowest difficulty so far, and each day runs
+  from easiest to hardest, so ball one is the most approachable.
+
+**Within a week:** in any 7 days in a row, a category appears on at most 2 days.
+
+**Re-use:** a question can be scheduled again once 30 days have passed since it last played.
+
+`npm run content:schedule -- --days=N` adds N days; add `--ranked-only` to use only questions that
+have finished verify and rank (handy while ranking is still running).
 
 Past days are never changed once they've been played (they are someone's scorecard). Only append.
 

@@ -1,7 +1,7 @@
 import { hash } from "./hash";
 import { answerKeys } from "./match";
 import { computeTiers } from "./rarity";
-import { dayProblems } from "./schedule";
+import { dayProblems, scheduleProblems } from "./schedule";
 import {
   type Answer,
   BALLS_PER_INNINGS,
@@ -71,7 +71,6 @@ export function validateBank(questions: Question[], schedule: Schedule): string[
   }
 
   if (!ISO_DATE.test(schedule.launchDate)) errors.push("schedule launchDate must be YYYY-MM-DD");
-  const used = new Set<string>();
   const byId = new Map(questions.map((q) => [q.id, q]));
   schedule.days.forEach((day, i) => {
     const label = `day ${i + 1}`;
@@ -79,12 +78,12 @@ export function validateBank(questions: Question[], schedule: Schedule): string[
     for (const p of dayProblems(qs)) errors.push(`${label}: ${p}`);
     if (day.length !== BALLS_PER_INNINGS) errors.push(`${label} has ${day.length} questions`);
     if (new Set(day).size !== day.length) errors.push(`${label} repeats a question`);
-    for (const id of day) {
-      if (!ids.has(id)) errors.push(`${label} uses unknown question ${id}`);
-      else if (used.has(id)) errors.push(`${label} reuses ${id} from an earlier day`);
-      used.add(id);
-    }
+    for (const id of day) if (!ids.has(id)) errors.push(`${label} uses unknown question ${id}`);
   });
+  const days = schedule.days.map((d) =>
+    d.map((id) => byId.get(id)).filter((q): q is Question => !!q),
+  );
+  errors.push(...scheduleProblems(days));
   return errors;
 }
 

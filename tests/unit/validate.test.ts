@@ -80,7 +80,7 @@ describe("validateBank", () => {
     }).join("\n");
     expect(errors).toMatch(/day 2 repeats a question/);
     expect(errors).toMatch(/unknown question zz/);
-    expect(errors).toMatch(/reuses a0/);
+    expect(errors).toMatch(/reuses a0 from day 1 \(needs 30 days\)/);
   });
 
   it("flags days without 6 questions and duplicate ids", () => {

@@ -34,7 +34,8 @@
           "wiki": "Galle International Stadium",
           "date": "2026-11-24",
           "key": "naimds"
-        }
+        },
+        "views": 24809
       },
       {
         "name": "National Stadium, Karachi",
@@ -47,12 +48,13 @@
         "values": [
           47
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "National Stadium, Karachi",
           "date": "2026-11-24",
           "key": "1hxi0a2"
-        }
+        },
+        "views": 18434
       },
       {
         "name": "Sinhalese Sports Club Ground",
@@ -73,7 +75,8 @@
         },
         "misspellings": [
           "Singhalese Sports Club"
-        ]
+        ],
+        "views": 24610
       },
       {
         "name": "Gaddafi Stadium",
@@ -93,7 +96,8 @@
           "Gadaffi Stadium",
           "Qaddafi Stadium",
           "Gadaffi"
-        ]
+        ],
+        "views": 65298
       },
       {
         "name": "Sher-e-Bangla National Cricket Stadium",
@@ -111,7 +115,8 @@
           "wiki": "Sher-e-Bangla National Cricket Stadium",
           "date": "2026-11-24",
           "key": "1tigbft"
-        }
+        },
+        "views": 27323
       },
       {
         "name": "Zohur Ahmed Chowdhury Stadium",
@@ -127,7 +132,8 @@
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "12d8cqu"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Iqbal Stadium",
@@ -137,12 +143,13 @@
         "values": [
           24
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Iqbal Stadium",
           "date": "2026-11-24",
           "key": "1q7fj0n"
-        }
+        },
+        "views": 23159
       },
       {
         "name": "Paikiasothy Saravanamuttu Stadium",
@@ -156,12 +163,13 @@
         "values": [
           22
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Paikiasothy Saravanamuttu Stadium",
           "date": "2026-11-24",
           "key": "dhuk33"
-        }
+        },
+        "views": 8362
       },
       {
         "name": "Asgiriya Stadium",
@@ -177,7 +185,8 @@
           "wiki": "Asgiriya Stadium",
           "date": "2026-11-24",
           "key": "1ojxz8x"
-        }
+        },
+        "views": 5872
       },
       {
         "name": "Rawalpindi Cricket Stadium",
@@ -188,12 +197,13 @@
         "values": [
           19
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Rawalpindi Cricket Stadium",
           "date": "2026-11-24",
           "key": "1438lbh"
-        }
+        },
+        "views": 25347
       },
       {
         "name": "Bangabandhu National Stadium",
@@ -211,7 +221,8 @@
           "wiki": "National Stadium, Dhaka",
           "date": "2026-11-24",
           "key": "1t8nkmb"
-        }
+        },
+        "views": 23306
       },
       {
         "name": "Multan Cricket Stadium",
@@ -223,7 +234,8 @@
           "wiki": "Multan Cricket Stadium",
           "date": "2026-11-24",
           "key": "ol9woc"
-        }
+        },
+        "views": 11625
       },
       {
         "name": "R. Premadasa Stadium",
@@ -235,12 +247,13 @@
         "values": [
           9
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "R. Premadasa Stadium",
           "date": "2026-11-24",
           "key": "199o5w3"
-        }
+        },
+        "views": 81929
       },
       {
         "name": "Pallekele International Cricket Stadium",
@@ -250,12 +263,13 @@
         "values": [
           9
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Pallekele International Cricket Stadium",
           "date": "2026-11-24",
           "key": "159amyv"
-        }
+        },
+        "views": 40442
       },
       {
         "name": "M. A. Aziz Stadium",
@@ -270,7 +284,8 @@
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "df7w9x"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Sylhet International Cricket Stadium",
@@ -280,12 +295,13 @@
         "values": [
           7
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Sylhet International Cricket Stadium",
           "date": "2026-11-24",
           "key": "x9wfeb"
-        }
+        },
+        "views": 13088
       },
       {
         "name": "Arbab Niaz Stadium",
@@ -297,7 +313,8 @@
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "1gj8qj8"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Niaz Stadium",
@@ -312,7 +329,8 @@
           "wiki": "Niaz Stadium",
           "date": "2026-11-24",
           "key": "17oa0ew"
-        }
+        },
+        "views": 15520
       },
       {
         "name": "Jinnah Stadium, Sialkot",
@@ -328,7 +346,8 @@
           "wiki": "Jinnah Stadium, Sialkot",
           "date": "2026-11-24",
           "key": "1gkpn16"
-        }
+        },
+        "views": 6212
       },
       {
         "name": "De Soysa Stadium",
@@ -344,7 +363,8 @@
           "wiki": "De Soysa Stadium",
           "date": "2026-11-24",
           "key": "15zwel3"
-        }
+        },
+        "views": 2770
       },
       {
         "name": "Bagh-e-Jinnah",
@@ -361,7 +381,8 @@
           "wiki": "Bagh-e-Jinnah, Lahore",
           "date": "2026-11-24",
           "key": "4sj9lp"
-        }
+        },
+        "views": 6658
       },
       {
         "name": "Colombo Cricket Club Ground",
@@ -376,7 +397,8 @@
           "wiki": "Colombo Cricket Club Ground",
           "date": "2026-11-24",
           "key": "pl6lfe"
-        }
+        },
+        "views": 4124
       },
       {
         "name": "Sheikh Abu Naser Stadium",
@@ -386,12 +408,13 @@
         "values": [
           3
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "ud99g8"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Sheikhupura Stadium",
@@ -401,12 +424,13 @@
         "values": [
           2
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Sheikhupura Stadium",
           "date": "2026-11-24",
           "key": "fgamm0"
-        }
+        },
+        "views": 2015
       },
       {
         "name": "Khan Shaheb Osman Ali Stadium",
@@ -423,7 +447,8 @@
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "10dv3gt"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Jinnah Stadium, Gujranwala",
@@ -439,7 +464,8 @@
           "wiki": "Jinnah Stadium, Gujranwala",
           "date": "2026-11-24",
           "key": "1ogin8f"
-        }
+        },
+        "views": 4153
       },
       {
         "name": "Southend Club Cricket Stadium",
@@ -454,19 +480,21 @@
           "wiki": "Southend Club Cricket Stadium",
           "date": "2026-11-24",
           "key": "1qqcs9p"
-        }
+        },
+        "views": 1584
       },
       {
         "name": "Peshawar Club Ground",
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Peshawar Club Ground",
           "date": "2026-11-24",
           "key": "1bglr7j"
-        }
+        },
+        "views": 919
       },
       {
         "name": "Pindi Club Ground",
@@ -478,7 +506,8 @@
           "wiki": "Pindi Club Ground",
           "date": "2026-11-24",
           "key": "bkym7u"
-        }
+        },
+        "views": 1757
       },
       {
         "name": "Bahawal Stadium",
@@ -488,12 +517,13 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "1ch0qk3"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Ibn-e-Qasim Bagh Stadium",
@@ -509,7 +539,8 @@
           "wiki": "Ibn-e-Qasim Bagh Stadium",
           "date": "2026-11-24",
           "key": "1u8n7qc"
-        }
+        },
+        "views": 2308
       },
       {
         "name": "Shaheed Chandu Stadium",
@@ -520,12 +551,13 @@
         "values": [
           1
         ],
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Shaheed Chandu Stadium",
           "date": "2026-11-24",
           "key": "15ivfss"
-        }
+        },
+        "views": 2793
       }
     ]
   },
@@ -565,7 +597,8 @@
           "wiki": "Queen's Park Oval",
           "date": "2026-11-24",
           "key": "1w5eiqf"
-        }
+        },
+        "views": 16429
       },
       {
         "name": "Kensington Oval",
@@ -582,7 +615,8 @@
           "wiki": "Kensington Oval",
           "date": "2026-11-24",
           "key": "4fry9e"
-        }
+        },
+        "views": 29813
       },
       {
         "name": "Sabina Park",
@@ -599,7 +633,8 @@
           "wiki": "Sabina Park",
           "date": "2026-11-24",
           "key": "1jmafpu"
-        }
+        },
+        "views": 18227
       },
       {
         "name": "Harare Sports Club",
@@ -614,7 +649,8 @@
           "wiki": "Harare Sports Club",
           "date": "2026-11-24",
           "key": "1hxvrc4"
-        }
+        },
+        "views": 24814
       },
       {
         "name": "Queens Sports Club",
@@ -624,12 +660,13 @@
         "values": [
           32
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Queens Sports Club",
           "date": "2026-11-24",
           "key": "1quxwpc"
-        }
+        },
+        "views": 13935
       },
       {
         "name": "Bourda",
@@ -640,12 +677,13 @@
         "values": [
           30
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Bourda",
           "date": "2026-11-24",
           "key": "h562be"
-        }
+        },
+        "views": 5883
       },
       {
         "name": "Antigua Recreation Ground",
@@ -662,7 +700,8 @@
           "wiki": "Antigua Recreation Ground",
           "date": "2026-11-24",
           "key": "13j7nnz"
-        }
+        },
+        "views": 8729
       },
       {
         "name": "Sheikh Zayed Cricket Stadium",
@@ -679,7 +718,8 @@
           "wiki": "Sheikh Zayed Cricket Stadium",
           "date": "2026-11-24",
           "key": "bqa1fj"
-        }
+        },
+        "views": 10445
       },
       {
         "name": "Sir Vivian Richards Stadium",
@@ -691,12 +731,13 @@
         "values": [
           15
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Sir Vivian Richards Stadium",
           "date": "2026-11-24",
           "key": "1xu8gnd"
-        }
+        },
+        "views": 21461
       },
       {
         "name": "Dubai International Cricket Stadium",
@@ -712,7 +753,8 @@
           "wiki": "Dubai International Cricket Stadium",
           "date": "2026-11-24",
           "key": "12oedr9"
-        }
+        },
+        "views": 20522
       },
       {
         "name": "Sharjah Cricket Stadium",
@@ -728,7 +770,8 @@
           "wiki": "Sharjah Cricket Stadium",
           "date": "2026-11-24",
           "key": "wluccb"
-        }
+        },
+        "views": 21929
       },
       {
         "name": "Daren Sammy Cricket Ground",
@@ -745,12 +788,13 @@
         "values": [
           10
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "bqcmzj"
-        }
+        },
+        "views": 24610
       },
       {
         "name": "Windsor Park",
@@ -767,7 +811,8 @@
           "wiki": "Windsor Park (Dominica)",
           "date": "2026-11-24",
           "key": "3h5eb2"
-        }
+        },
+        "views": 6082
       },
       {
         "name": "National Cricket Stadium, Grenada",
@@ -781,12 +826,13 @@
         "values": [
           5
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "National Cricket Stadium (Grenada)",
           "date": "2026-11-24",
           "key": "c5vhdg"
-        }
+        },
+        "views": 5257
       },
       {
         "name": "Arnos Vale Stadium",
@@ -799,12 +845,13 @@
         "values": [
           3
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Arnos Vale Stadium",
           "date": "2026-11-24",
           "key": "1k8awg"
-        }
+        },
+        "views": 9800
       },
       {
         "name": "Warner Park",
@@ -823,7 +870,8 @@
           "wiki": "Warner Park Sporting Complex",
           "date": "2026-11-24",
           "key": "g7vqtu"
-        }
+        },
+        "views": 10452
       },
       {
         "name": "Providence Stadium",
@@ -834,12 +882,13 @@
         "values": [
           3
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Providence Stadium",
           "date": "2026-11-24",
           "key": "1tbpeb6"
-        }
+        },
+        "views": 17300
       },
       {
         "name": "Stormont",
@@ -856,7 +905,8 @@
           "wiki": "Stormont Cricket Ground",
           "date": "2026-11-24",
           "key": "10uqqic"
-        }
+        },
+        "views": 12363
       },
       {
         "name": "Bulawayo Athletic Club",
@@ -868,19 +918,21 @@
           "wiki": "Bulawayo Athletic Club",
           "date": "2026-11-24",
           "key": "9xkv2d"
-        }
+        },
+        "views": 2527
       },
       {
         "name": "Tolerance Oval",
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Tolerance Oval",
           "date": "2026-11-24",
           "key": "11hptjk"
-        }
+        },
+        "views": 1437
       },
       {
         "name": "Malahide Cricket Club Ground",
@@ -892,12 +944,13 @@
         "values": [
           1
         ],
-        "tier": "ootg",
+        "tier": "four",
         "verified": {
           "wiki": "List of Test cricket grounds",
           "date": "2026-11-24",
           "key": "1y809is"
-        }
+        },
+        "views": 24610
       }
     ]
   },
@@ -936,7 +989,8 @@
           "wiki": "Melbourne Cricket Ground",
           "date": "2026-11-24",
           "key": "q3vm2b"
-        }
+        },
+        "views": 310311
       },
       {
         "name": "Sydney Cricket Ground",
@@ -951,7 +1005,8 @@
           "wiki": "Sydney Cricket Ground",
           "date": "2026-11-24",
           "key": "ocj3k6"
-        }
+        },
+        "views": 83269
       },
       {
         "name": "Adelaide Oval",
@@ -963,7 +1018,8 @@
           "wiki": "Adelaide Oval",
           "date": "2026-11-24",
           "key": "uflfi6"
-        }
+        },
+        "views": 83171
       },
       {
         "name": "WACA Ground",
@@ -979,7 +1035,8 @@
           "wiki": "WACA Ground",
           "date": "2026-11-24",
           "key": "om6n7"
-        }
+        },
+        "views": 63298
       },
       {
         "name": "The Gabba",
@@ -995,14 +1052,15 @@
           "wiki": "The Gabba",
           "date": "2026-11-24",
           "key": "16xrl3f"
-        }
+        },
+        "views": 132489
       },
       {
         "name": "North Sydney Oval",
         "values": [
           3
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "North Sydney Oval",
           "date": "2026-11-24",
@@ -1010,7 +1068,8 @@
         },
         "aliases": [
           "North Sydney"
-        ]
+        ],
+        "views": 14398
       },
       {
         "name": "Manuka Oval",
@@ -1026,7 +1085,8 @@
           "wiki": "Manuka Oval",
           "date": "2026-11-24",
           "key": "838cfp"
-        }
+        },
+        "views": 21782
       },
       {
         "name": "Junction Oval",
@@ -1037,12 +1097,13 @@
         "values": [
           3
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Junction Oval",
           "date": "2026-11-24",
           "key": "1s1cc9x"
-        }
+        },
+        "views": 17206
       },
       {
         "name": "Bankstown Oval",
@@ -1058,7 +1119,8 @@
           "wiki": "Bankstown Oval",
           "date": "2026-11-24",
           "key": "1u7ujaa"
-        }
+        },
+        "views": 1670
       },
       {
         "name": "Bradman Oval",
@@ -1068,12 +1130,13 @@
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Bradman Oval",
           "date": "2026-11-24",
           "key": "15qunf9"
-        }
+        },
+        "views": 2866
       },
       {
         "name": "Carrara Stadium",
@@ -1092,7 +1155,8 @@
           "wiki": "Carrara Stadium",
           "date": "2026-11-24",
           "key": "18ecmdg"
-        }
+        },
+        "views": 44126
       },
       {
         "name": "Punt Road Oval",
@@ -1103,12 +1167,13 @@
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Punt Road Oval",
           "date": "2026-11-24",
           "key": "1nitsjd"
-        }
+        },
+        "views": 5997
       },
       {
         "name": "Brisbane Exhibition Ground",
@@ -1119,12 +1184,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "List of women's Test cricket grounds",
           "date": "2026-11-24",
           "key": "148xsba"
-        }
+        },
+        "views": 1973
       },
       {
         "name": "Central Coast Stadium",
@@ -1137,12 +1203,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Central Coast Stadium",
           "date": "2026-11-24",
           "key": "1xz5yw2"
-        }
+        },
+        "views": 22364
       },
       {
         "name": "Queen Elizabeth Oval",
@@ -1154,12 +1221,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Queen Elizabeth Oval",
           "date": "2026-11-24",
           "key": "gkpcti"
-        }
+        },
+        "views": 2208
       },
       {
         "name": "Arden Street Oval",
@@ -1174,7 +1242,8 @@
           "wiki": "Arden Street Oval",
           "date": "2026-11-24",
           "key": "15hsn5p"
-        }
+        },
+        "views": 7876
       },
       {
         "name": "Unley Oval",
@@ -1189,7 +1258,8 @@
           "wiki": "Unley Oval",
           "date": "2026-11-24",
           "key": "dbbm6p"
-        }
+        },
+        "views": 3188
       },
       {
         "name": "Albert Cricket Ground",
@@ -1204,7 +1274,8 @@
           "wiki": "Albert Cricket Ground",
           "date": "2026-11-24",
           "key": "1i429u2"
-        }
+        },
+        "views": 3075
       },
       {
         "name": "Barton Oval",
@@ -1216,7 +1287,8 @@
           "wiki": "Barton Oval",
           "date": "2026-11-24",
           "key": "12t6i9x"
-        }
+        },
+        "views": 711
       },
       {
         "name": "University Oval, Sydney",
@@ -1227,12 +1299,13 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "University Oval, Sydney",
           "date": "2026-11-24",
           "key": "yeo4i6"
-        }
+        },
+        "views": 633
       },
       {
         "name": "King's College Oval",
@@ -1243,12 +1316,13 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Pembroke School, Adelaide",
           "date": "2026-11-24",
           "key": "ooj2hh"
-        }
+        },
+        "views": 7260
       },
       {
         "name": "St Peter's College",
@@ -1259,24 +1333,26 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "St Peter's College, Adelaide",
           "date": "2026-11-24",
           "key": "nslq9t"
-        }
+        },
+        "views": 11643
       },
       {
         "name": "Hale School",
         "values": [
           1
         ],
-        "tier": "ootg",
+        "tier": "two",
         "verified": {
           "wiki": "Hale School",
           "date": "2026-11-24",
           "key": "48ntqn"
-        }
+        },
+        "views": 18184
       }
     ]
   },
@@ -1316,7 +1392,8 @@
           "wiki": "Chennai Super Kings",
           "date": "2026-11-24",
           "key": "1s5ckji"
-        }
+        },
+        "views": 603658
       },
       {
         "name": "Mumbai Indians",
@@ -1332,7 +1409,8 @@
           "wiki": "Mumbai Indians",
           "date": "2026-11-24",
           "key": "2z5t1f"
-        }
+        },
+        "views": 394401
       },
       {
         "name": "Royal Challengers Bangalore",
@@ -1352,7 +1430,8 @@
           "wiki": "Royal Challengers Bengaluru",
           "date": "2026-11-24",
           "key": "fx8b2g"
-        }
+        },
+        "views": 881356
       },
       {
         "name": "Kolkata Knight Riders",
@@ -1369,7 +1448,8 @@
           "wiki": "Kolkata Knight Riders",
           "date": "2026-11-24",
           "key": "1dh0ihp"
-        }
+        },
+        "views": 449890
       },
       {
         "name": "Rajasthan Royals",
@@ -1384,7 +1464,8 @@
         },
         "aliases": [
           "Rajasthan"
-        ]
+        ],
+        "views": 458906
       },
       {
         "name": "Delhi Daredevils",
@@ -1402,7 +1483,8 @@
           "wiki": "Delhi Capitals",
           "date": "2026-11-24",
           "key": "aiwfdw"
-        }
+        },
+        "views": 250199
       },
       {
         "name": "Kings XI Punjab",
@@ -1415,12 +1497,13 @@
         "values": [
           1
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Punjab Kings",
           "date": "2026-11-24",
           "key": "1oy0s7m"
-        }
+        },
+        "views": 316902
       },
       {
         "name": "Sunrisers Hyderabad",
@@ -1437,14 +1520,15 @@
           "wiki": "Sunrisers Hyderabad",
           "date": "2026-11-24",
           "key": "skja14"
-        }
+        },
+        "views": 397293
       },
       {
         "name": "Deccan Chargers",
         "values": [
           1
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Deccan Chargers",
           "date": "2026-11-24",
@@ -1453,14 +1537,15 @@
         "aliases": [
           "Chargers",
           "Deccan"
-        ]
+        ],
+        "views": 181143
       },
       {
         "name": "Sydney Sixers",
         "values": [
           1
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Sydney Sixers",
           "date": "2026-11-24",
@@ -1468,7 +1553,8 @@
         },
         "aliases": [
           "Sixers"
-        ]
+        ],
+        "views": 76561
       },
       {
         "name": "Perth Scorchers",
@@ -1484,14 +1570,15 @@
         "aliases": [
           "Scorchers",
           "Perth"
-        ]
+        ],
+        "views": 81751
       },
       {
         "name": "Brisbane Heat",
         "values": [
           1
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Brisbane Heat",
           "date": "2026-11-24",
@@ -1500,14 +1587,15 @@
         "aliases": [
           "Heat",
           "Brisbane"
-        ]
+        ],
+        "views": 44742
       },
       {
         "name": "Hobart Hurricanes",
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Hobart Hurricanes",
           "date": "2026-11-24",
@@ -1516,7 +1604,8 @@
         "aliases": [
           "Hurricanes",
           "Hobart"
-        ]
+        ],
+        "views": 56570
       },
       {
         "name": "New South Wales Blues",
@@ -1534,7 +1623,8 @@
           "wiki": "New South Wales cricket team",
           "date": "2026-11-24",
           "key": "1urpegh"
-        }
+        },
+        "views": 40574
       },
       {
         "name": "Victorian Bushrangers",
@@ -1551,7 +1641,8 @@
           "wiki": "Victoria cricket team",
           "date": "2026-11-24",
           "key": "1ugrn25"
-        }
+        },
+        "views": 27385
       },
       {
         "name": "Southern Redbacks",
@@ -1568,7 +1659,8 @@
           "wiki": "South Australia cricket team",
           "date": "2026-11-24",
           "key": "rcrd6e"
-        }
+        },
+        "views": 28340
       },
       {
         "name": "Trinidad and Tobago",
@@ -1580,12 +1672,13 @@
         "values": [
           5
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Trinidad and Tobago national cricket team",
           "date": "2026-11-24",
           "key": "n5xyy9"
-        }
+        },
+        "views": 18334
       },
       {
         "name": "Guyana",
@@ -1593,12 +1686,13 @@
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Guyana national cricket team",
           "date": "2026-11-24",
           "key": "11o6dvc"
-        }
+        },
+        "views": 15715
       },
       {
         "name": "Barbados Tridents",
@@ -1614,7 +1708,8 @@
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
           "key": "1u4poef"
-        }
+        },
+        "views": 333072
       },
       {
         "name": "Highveld Lions",
@@ -1625,12 +1720,13 @@
         "values": [
           3
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
           "key": "lrd8l9"
-        }
+        },
+        "views": 333072
       },
       {
         "name": "Cape Cobras",
@@ -1645,7 +1741,8 @@
           "wiki": "Cape Cobras",
           "date": "2026-11-24",
           "key": "oqdv30"
-        }
+        },
+        "views": 8293
       },
       {
         "name": "Titans",
@@ -1653,12 +1750,13 @@
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Titans cricket team",
           "date": "2026-11-24",
           "key": "rn3aga"
-        }
+        },
+        "views": 13959
       },
       {
         "name": "Warriors",
@@ -1666,12 +1764,13 @@
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Warriors (cricket team)",
           "date": "2026-11-24",
           "key": "1ncx5wx"
-        }
+        },
+        "views": 14114
       },
       {
         "name": "Dolphins",
@@ -1679,7 +1778,7 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
@@ -1688,7 +1787,8 @@
         "aliases": [
           "KwaZulu-Natal",
           "KZN"
-        ]
+        ],
+        "views": 333072
       },
       {
         "name": "Diamond Eagles",
@@ -1698,12 +1798,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
           "key": "xtogod"
-        }
+        },
+        "views": 333072
       },
       {
         "name": "Somerset",
@@ -1711,7 +1812,7 @@
         "values": [
           2
         ],
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Somerset County Cricket Club",
           "date": "2026-11-24",
@@ -1719,7 +1820,8 @@
         },
         "aliases": [
           "Somerset Sabres"
-        ]
+        ],
+        "views": 59895
       },
       {
         "name": "Sussex Sharks",
@@ -1735,7 +1837,8 @@
           "wiki": "Sussex County Cricket Club",
           "date": "2026-11-24",
           "key": "1py866y"
-        }
+        },
+        "views": 45870
       },
       {
         "name": "Yorkshire Carnegie",
@@ -1752,7 +1855,8 @@
           "wiki": "Yorkshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1d98abo"
-        }
+        },
+        "views": 70783
       },
       {
         "name": "Hampshire",
@@ -1769,7 +1873,8 @@
           "wiki": "Hampshire County Cricket Club",
           "date": "2026-11-24",
           "key": "16cpozn"
-        }
+        },
+        "views": 60084
       },
       {
         "name": "Leicestershire Foxes",
@@ -1779,12 +1884,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
           "key": "1c3ewr4"
-        }
+        },
+        "views": 333072
       },
       {
         "name": "Auckland Aces",
@@ -1800,7 +1906,8 @@
           "wiki": "Auckland cricket team",
           "date": "2026-11-24",
           "key": "106ew6r"
-        }
+        },
+        "views": 17333
       },
       {
         "name": "Otago Volts",
@@ -1811,12 +1918,13 @@
         "values": [
           2
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Otago cricket team",
           "date": "2026-11-24",
           "key": "8t8w4g"
-        }
+        },
+        "views": 19291
       },
       {
         "name": "Central Stags",
@@ -1827,12 +1935,13 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Central Districts cricket team",
           "date": "2026-11-24",
           "key": "1885mmn"
-        }
+        },
+        "views": 18087
       },
       {
         "name": "Northern Knights",
@@ -1848,7 +1957,8 @@
           "wiki": "Northern Districts men's cricket team",
           "date": "2026-11-24",
           "key": "c9zhw8"
-        }
+        },
+        "views": 21355
       },
       {
         "name": "Wayamba",
@@ -1859,12 +1969,13 @@
         "values": [
           2
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Wayamba cricket team",
           "date": "2026-11-24",
           "key": "4mh97q"
-        }
+        },
+        "views": 1879
       },
       {
         "name": "Kandurata Maroons",
@@ -1874,12 +1985,13 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Kandurata Maroons",
           "date": "2026-11-24",
           "key": "1j5dv1y"
-        }
+        },
+        "views": 1528
       },
       {
         "name": "Ruhuna Royals",
@@ -1894,7 +2006,8 @@
           "wiki": "Ruhuna Royals",
           "date": "2026-11-24",
           "key": "9blz03"
-        }
+        },
+        "views": 2164
       },
       {
         "name": "Uva Next",
@@ -1909,7 +2022,8 @@
           "wiki": "Uva Next",
           "date": "2026-11-24",
           "key": "1vobeoc"
-        }
+        },
+        "views": 2201
       },
       {
         "name": "Southern Express",
@@ -1917,7 +2031,7 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Champions League Twenty20",
           "date": "2026-11-24",
@@ -1925,7 +2039,8 @@
         },
         "aliases": [
           "Express"
-        ]
+        ],
+        "views": 333072
       },
       {
         "name": "Lahore Lions",
@@ -1940,7 +2055,8 @@
         },
         "aliases": [
           "Lahore"
-        ]
+        ],
+        "views": 5826
       },
       {
         "name": "Sialkot Stallions",
@@ -1955,7 +2071,8 @@
           "wiki": "Sialkot Stallions",
           "date": "2026-11-24",
           "key": "1gx5o0u"
-        }
+        },
+        "views": 18154
       },
       {
         "name": "Faisalabad Wolves",
@@ -1965,12 +2082,13 @@
         "values": [
           1
         ],
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Faisalabad Wolves",
           "date": "2026-11-24",
           "key": "1349s9x"
-        }
+        },
+        "views": 3107
       }
     ]
   },
@@ -2005,7 +2123,8 @@
           "wiki": "New South Wales cricket team",
           "date": "2026-11-24",
           "key": "5s22x8"
-        }
+        },
+        "views": 40574
       },
       {
         "name": "Victoria",
@@ -2019,7 +2138,8 @@
           "wiki": "Victoria cricket team",
           "date": "2026-11-24",
           "key": "r66zmu"
-        }
+        },
+        "views": 27385
       },
       {
         "name": "Queensland",
@@ -2033,7 +2153,8 @@
           "wiki": "Queensland cricket team",
           "date": "2026-11-24",
           "key": "12glomf"
-        }
+        },
+        "views": 22326
       },
       {
         "name": "Western Australia",
@@ -2048,7 +2169,8 @@
           "wiki": "Western Australia cricket team",
           "date": "2026-11-24",
           "key": "xosbl"
-        }
+        },
+        "views": 20471
       },
       {
         "name": "South Australia",
@@ -2063,7 +2185,8 @@
           "wiki": "South Australia cricket team",
           "date": "2026-11-24",
           "key": "1qk0580"
-        }
+        },
+        "views": 28340
       },
       {
         "name": "Tasmania",
@@ -2072,12 +2195,13 @@
           "Tigers"
         ],
         "wiki": "Tasmania cricket team",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Tasmania cricket team",
           "date": "2026-11-24",
           "key": "13xho33"
-        }
+        },
+        "views": 19927
       },
       {
         "name": "Auckland",
@@ -2086,12 +2210,13 @@
           "Aces"
         ],
         "wiki": "Auckland cricket team",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Auckland cricket team",
           "date": "2026-11-24",
           "key": "1hp3qu6"
-        }
+        },
+        "views": 17333
       },
       {
         "name": "Canterbury",
@@ -2100,12 +2225,13 @@
           "Canterbury Wizards"
         ],
         "wiki": "Canterbury cricket team",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Canterbury cricket team",
           "date": "2026-11-24",
           "key": "57tt8f"
-        }
+        },
+        "views": 20270
       },
       {
         "name": "Wellington",
@@ -2119,7 +2245,8 @@
           "wiki": "Wellington cricket team",
           "date": "2026-11-24",
           "key": "1g0vrwe"
-        }
+        },
+        "views": 13473
       },
       {
         "name": "Otago",
@@ -2133,7 +2260,8 @@
           "wiki": "Otago cricket team",
           "date": "2026-11-24",
           "key": "yj77lj"
-        }
+        },
+        "views": 19291
       },
       {
         "name": "Central Districts",
@@ -2147,7 +2275,8 @@
           "wiki": "Central Districts cricket team",
           "date": "2026-11-24",
           "key": "u700a2"
-        }
+        },
+        "views": 18087
       },
       {
         "name": "Northern Districts",
@@ -2156,22 +2285,24 @@
           "Northern Knights"
         ],
         "wiki": "Northern Districts men's cricket team",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Northern Districts men's cricket team",
           "date": "2026-11-24",
           "key": "158gu9z"
-        }
+        },
+        "views": 21355
       },
       {
         "name": "Western Province",
         "wiki": "Western Province cricket team",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Western Province cricket team",
           "date": "2026-11-24",
           "key": "1czlvsl"
-        }
+        },
+        "views": 7455
       },
       {
         "name": "Titans",
@@ -2184,7 +2315,8 @@
           "wiki": "Titans cricket team",
           "date": "2026-11-24",
           "key": "1o5j6rf"
-        }
+        },
+        "views": 13959
       },
       {
         "name": "Lions",
@@ -2200,7 +2332,8 @@
           "wiki": "Lions cricket team (South Africa)",
           "date": "2026-11-24",
           "key": "1toe0d6"
-        }
+        },
+        "views": 4265
       },
       {
         "name": "Dolphins",
@@ -2215,7 +2348,8 @@
           "wiki": "Dolphins (South African cricket team)",
           "date": "2026-11-24",
           "key": "3beet3"
-        }
+        },
+        "views": 8573
       },
       {
         "name": "Warriors",
@@ -2223,12 +2357,13 @@
           "Eastern Province"
         ],
         "wiki": "Warriors (cricket team)",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Warriors (cricket team)",
           "date": "2026-11-24",
           "key": "1h0980i"
-        }
+        },
+        "views": 14114
       },
       {
         "name": "Knights",
@@ -2241,7 +2376,8 @@
           "wiki": "Knights cricket team",
           "date": "2026-11-24",
           "key": "7wciql"
-        }
+        },
+        "views": 2273
       },
       {
         "name": "Boland",
@@ -2251,7 +2387,8 @@
           "wiki": "Boland cricket team",
           "date": "2026-11-24",
           "key": "1dga2du"
-        }
+        },
+        "views": 8036
       },
       {
         "name": "North West",
@@ -2260,12 +2397,13 @@
           "Dragons"
         ],
         "wiki": "North West (cricket team)",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "North West cricket team",
           "date": "2026-11-24",
           "key": "1c4ahgc"
-        }
+        },
+        "views": 2203
       },
       {
         "name": "Border",
@@ -2275,7 +2413,8 @@
           "wiki": "Border cricket team",
           "date": "2026-11-24",
           "key": "19bzkxa"
-        }
+        },
+        "views": 3557
       },
       {
         "name": "Easterns",
@@ -2285,7 +2424,8 @@
           "wiki": "Easterns cricket team",
           "date": "2026-11-24",
           "key": "1u1devi"
-        }
+        },
+        "views": 2130
       },
       {
         "name": "KwaZulu-Natal Inland",
@@ -2294,12 +2434,13 @@
           "Inland"
         ],
         "wiki": "KwaZulu-Natal Inland (cricket team)",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "KwaZulu-Natal Inland cricket team",
           "date": "2026-11-24",
           "key": "1d0u3f3"
-        }
+        },
+        "views": 2990
       },
       {
         "name": "South Western Districts",
@@ -2312,7 +2453,8 @@
           "wiki": "South Western Districts cricket team",
           "date": "2026-11-24",
           "key": "qczlta"
-        }
+        },
+        "views": 1524
       },
       {
         "name": "Northern Cape",
@@ -2326,7 +2468,8 @@
           "wiki": "Northern Cape cricket team",
           "date": "2026-11-24",
           "key": "y3emhy"
-        }
+        },
+        "views": 1506
       },
       {
         "name": "Limpopo",
@@ -2339,7 +2482,8 @@
           "wiki": "Limpopo cricket team",
           "date": "2026-11-24",
           "key": "1kwomtu"
-        }
+        },
+        "views": 1445
       },
       {
         "name": "Mpumalanga",
@@ -2352,7 +2496,8 @@
           "wiki": "Mpumalanga cricket team",
           "date": "2026-11-24",
           "key": "17umooa"
-        }
+        },
+        "views": 1237
       }
     ]
   },
@@ -2390,7 +2535,8 @@
           "wiki": "Comilla Victorians",
           "date": "2026-11-24",
           "key": "mrqlvz"
-        }
+        },
+        "views": 18770
       },
       {
         "name": "Rangpur Riders",
@@ -2405,7 +2551,8 @@
           "wiki": "Rangpur Riders",
           "date": "2026-11-24",
           "key": "15841mi"
-        }
+        },
+        "views": 47467
       },
       {
         "name": "Fortune Barishal",
@@ -2416,12 +2563,13 @@
         "values": [
           4
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Fortune Barishal",
           "date": "2026-11-24",
           "key": "xny36e"
-        }
+        },
+        "views": 14539
       },
       {
         "name": "Dhaka Dynamites",
@@ -2436,19 +2584,21 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "1s79l8u"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Khulna Tigers",
         "values": [
           5
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Khulna Tigers",
           "date": "2026-11-24",
           "key": "15wuos8"
-        }
+        },
+        "views": 9165
       },
       {
         "name": "Sylhet Strikers",
@@ -2460,7 +2610,8 @@
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "s8j493"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Chittagong Vikings",
@@ -2470,12 +2621,13 @@
         "values": [
           4
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Chattogram Royals",
           "date": "2026-11-24",
           "key": "v74fy1"
-        }
+        },
+        "views": 23432
       },
       {
         "name": "Dhaka Gladiators",
@@ -2490,7 +2642,8 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "1snx4w4"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Rajshahi Kings",
@@ -2502,19 +2655,21 @@
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
           "key": "141pky3"
-        }
+        },
+        "views": 35737
       },
       {
         "name": "Khulna Titans",
         "values": [
           3
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Khulna Tigers",
           "date": "2026-11-24",
           "key": "kby3v7"
-        }
+        },
+        "views": 9165
       },
       {
         "name": "Chattogram Challengers",
@@ -2529,7 +2684,8 @@
           "wiki": "Chattogram Royals",
           "date": "2026-11-24",
           "key": "k690th"
-        }
+        },
+        "views": 23432
       },
       {
         "name": "Barisal Burners",
@@ -2539,12 +2695,13 @@
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Fortune Barishal",
           "date": "2026-11-24",
           "key": "sadvet"
-        }
+        },
+        "views": 14539
       },
       {
         "name": "Chittagong Kings",
@@ -2559,7 +2716,8 @@
           "wiki": "Chattogram Royals",
           "date": "2026-11-24",
           "key": "1glcoyh"
-        }
+        },
+        "views": 23432
       },
       {
         "name": "Sylhet Sixers",
@@ -2571,31 +2729,34 @@
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "4659le"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Dhaka Capitals",
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "m2jy95"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Duronto Rajshahi",
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
           "key": "od9ot6"
-        }
+        },
+        "views": 35737
       },
       {
         "name": "Khulna Royal Bengals",
@@ -2605,12 +2766,13 @@
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Khulna Tigers",
           "date": "2026-11-24",
           "key": "18p0o0"
-        }
+        },
+        "views": 9165
       },
       {
         "name": "Sylhet Royals",
@@ -2622,7 +2784,8 @@
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "nv7mk2"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Barisal Bulls",
@@ -2632,12 +2795,13 @@
         "values": [
           2
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Fortune Barishal",
           "date": "2026-11-24",
           "key": "1abiymf"
-        }
+        },
+        "views": 14539
       },
       {
         "name": "Dhaka Platoon",
@@ -2652,7 +2816,8 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "1rwhg84"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Minister Dhaka",
@@ -2667,7 +2832,8 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "1btdf96"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Dhaka Dominators",
@@ -2682,7 +2848,8 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "bcbb2s"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Durdanto Dhaka",
@@ -2694,19 +2861,21 @@
           "wiki": "Dhaka Capitals",
           "date": "2026-11-24",
           "key": "1pfxgb9"
-        }
+        },
+        "views": 33247
       },
       {
         "name": "Rajshahi Royals",
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
           "key": "1uaz1ef"
-        }
+        },
+        "views": 35737
       },
       {
         "name": "Rangpur Rangers",
@@ -2716,36 +2885,39 @@
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Rangpur Riders",
           "date": "2026-11-24",
           "key": "10uhfk8"
-        }
+        },
+        "views": 47467
       },
       {
         "name": "Sylhet Thunder",
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "122th8q"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Sylhet Sunrisers",
         "values": [
           1
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "1gk2tuw"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Sylhet Super Stars",
@@ -2757,7 +2929,8 @@
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "1sl780q"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Comilla Warriors",
@@ -2768,36 +2941,39 @@
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Comilla Victorians",
           "date": "2026-11-24",
           "key": "4l4tws"
-        }
+        },
+        "views": 18770
       },
       {
         "name": "Durbar Rajshahi",
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
           "key": "h8jblf"
-        }
+        },
+        "views": 35737
       },
       {
         "name": "Rajshahi Warriors",
         "values": [
           1
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Rajshahi Warriors",
           "date": "2026-11-24",
           "key": "1pk9iow"
-        }
+        },
+        "views": 35737
       },
       {
         "name": "Chattogram Royals",
@@ -2812,7 +2988,8 @@
           "wiki": "Chattogram Royals",
           "date": "2026-11-24",
           "key": "yo0t2f"
-        }
+        },
+        "views": 23432
       },
       {
         "name": "Sylhet Titans",
@@ -2824,7 +3001,8 @@
           "wiki": "Sylhet Titans",
           "date": "2026-11-24",
           "key": "1av6bg9"
-        }
+        },
+        "views": 27633
       },
       {
         "name": "Noakhali Express",
@@ -2834,12 +3012,13 @@
         "values": [
           1
         ],
-        "tier": "ootg",
+        "tier": "two",
         "verified": {
           "wiki": "Noakhali Express",
           "date": "2026-11-24",
           "key": "15slxn9"
-        }
+        },
+        "views": 38966
       }
     ]
   },
@@ -2877,7 +3056,8 @@
           "wiki": "England cricket team",
           "date": "2026-11-24",
           "key": "1icvxki"
-        }
+        },
+        "views": 393417
       },
       {
         "name": "Ireland",
@@ -2888,12 +3068,13 @@
         "values": [
           2017
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Ireland cricket team",
           "date": "2026-11-24",
           "key": "1yh96yl"
-        }
+        },
+        "views": 96730
       },
       {
         "name": "Scotland",
@@ -2906,7 +3087,8 @@
           "wiki": "Scotland national cricket team",
           "date": "2026-11-24",
           "key": "nq1x36"
-        }
+        },
+        "views": 57727
       },
       {
         "name": "Netherlands",
@@ -2922,7 +3104,8 @@
           "wiki": "Netherlands national cricket team",
           "date": "2026-11-24",
           "key": "g05enu"
-        }
+        },
+        "views": 71942
       },
       {
         "name": "Italy",
@@ -2935,7 +3118,8 @@
           "wiki": "Italy national cricket team",
           "date": "2026-11-24",
           "key": "bg6gvs"
-        }
+        },
+        "views": 175847
       },
       {
         "name": "Germany",
@@ -2948,7 +3132,8 @@
           "wiki": "Germany national cricket team",
           "date": "2026-11-24",
           "key": "4j9pjc"
-        }
+        },
+        "views": 23231
       },
       {
         "name": "Denmark",
@@ -2961,7 +3146,8 @@
           "wiki": "Denmark national cricket team",
           "date": "2026-11-24",
           "key": "ji5wyi"
-        }
+        },
+        "views": 11493
       },
       {
         "name": "France",
@@ -2974,7 +3160,8 @@
           "wiki": "France national cricket team",
           "date": "2026-11-24",
           "key": "l8rtzy"
-        }
+        },
+        "views": 16132
       },
       {
         "name": "Jersey",
@@ -2987,7 +3174,8 @@
           "wiki": "Jersey cricket team",
           "date": "2026-11-24",
           "key": "1tv5khc"
-        }
+        },
+        "views": 32881
       },
       {
         "name": "Guernsey",
@@ -2995,12 +3183,13 @@
         "values": [
           2008
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Guernsey cricket team",
           "date": "2026-11-24",
           "key": "135pvqg"
-        }
+        },
+        "views": 8399
       },
       {
         "name": "Spain",
@@ -3013,7 +3202,8 @@
           "wiki": "Spain national cricket team",
           "date": "2026-11-24",
           "key": "1kocf34"
-        }
+        },
+        "views": 16400
       },
       {
         "name": "Austria",
@@ -3026,7 +3216,8 @@
           "wiki": "Austria national cricket team",
           "date": "2026-11-24",
           "key": "zyta9k"
-        }
+        },
+        "views": 7432
       },
       {
         "name": "Belgium",
@@ -3039,7 +3230,8 @@
           "wiki": "Belgium national cricket team",
           "date": "2026-11-24",
           "key": "3oy44k"
-        }
+        },
+        "views": 7573
       },
       {
         "name": "Switzerland",
@@ -3052,7 +3244,8 @@
           "wiki": "Switzerland national cricket team",
           "date": "2026-11-24",
           "key": "1gfjyp0"
-        }
+        },
+        "views": 4929
       },
       {
         "name": "Sweden",
@@ -3065,7 +3258,8 @@
           "wiki": "Sweden national cricket team",
           "date": "2026-11-24",
           "key": "qheyoy"
-        }
+        },
+        "views": 7504
       },
       {
         "name": "Norway",
@@ -3073,12 +3267,13 @@
         "values": [
           2017
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Norway national cricket team",
           "date": "2026-11-24",
           "key": "1jpjszm"
-        }
+        },
+        "views": 6978
       },
       {
         "name": "Gibraltar",
@@ -3091,7 +3286,8 @@
           "wiki": "Gibraltar national cricket team",
           "date": "2026-11-24",
           "key": "v14dvm"
-        }
+        },
+        "views": 4860
       },
       {
         "name": "Israel",
@@ -3099,12 +3295,13 @@
         "values": [
           1974
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Israel national cricket team",
           "date": "2026-11-24",
           "key": "1grq4nm"
-        }
+        },
+        "views": 14901
       },
       {
         "name": "Portugal",
@@ -3117,7 +3314,8 @@
           "wiki": "Portugal national cricket team",
           "date": "2026-11-24",
           "key": "cjo3gm"
-        }
+        },
+        "views": 26039
       },
       {
         "name": "Isle of Man",
@@ -3130,7 +3328,8 @@
           "wiki": "Isle of Man cricket team",
           "date": "2026-11-24",
           "key": "tos1q0"
-        }
+        },
+        "views": 6108
       },
       {
         "name": "Finland",
@@ -3143,7 +3342,8 @@
           "wiki": "Finland national cricket team",
           "date": "2026-11-24",
           "key": "1ubj6si"
-        }
+        },
+        "views": 5015
       },
       {
         "name": "Greece",
@@ -3156,7 +3356,8 @@
           "wiki": "Greece national cricket team",
           "date": "2026-11-24",
           "key": "1vppjga"
-        }
+        },
+        "views": 6487
       },
       {
         "name": "Cyprus",
@@ -3164,12 +3365,13 @@
         "values": [
           2017
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Cyprus national cricket team",
           "date": "2026-11-24",
           "key": "1msyp2m"
-        }
+        },
+        "views": 4452
       },
       {
         "name": "Czech Republic",
@@ -3185,7 +3387,8 @@
           "wiki": "Czech Republic national cricket team",
           "date": "2026-11-24",
           "key": "wjrn71"
-        }
+        },
+        "views": 4683
       },
       {
         "name": "Romania",
@@ -3198,7 +3401,8 @@
           "wiki": "Romania national cricket team",
           "date": "2026-11-24",
           "key": "1upgyis"
-        }
+        },
+        "views": 5879
       },
       {
         "name": "Luxembourg",
@@ -3206,12 +3410,13 @@
         "values": [
           2017
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Luxembourg national cricket team",
           "date": "2026-11-24",
           "key": "7rrovm"
-        }
+        },
+        "views": 3953
       },
       {
         "name": "Malta",
@@ -3219,12 +3424,13 @@
         "values": [
           2017
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Malta national cricket team",
           "date": "2026-11-24",
           "key": "7ygglk"
-        }
+        },
+        "views": 4641
       },
       {
         "name": "Hungary",
@@ -3237,7 +3443,8 @@
           "wiki": "Hungary national cricket team",
           "date": "2026-11-24",
           "key": "7nsi2q"
-        }
+        },
+        "views": 4070
       },
       {
         "name": "Bulgaria",
@@ -3250,7 +3457,8 @@
           "wiki": "Bulgaria national cricket team",
           "date": "2026-11-24",
           "key": "1igl8xq"
-        }
+        },
+        "views": 3906
       },
       {
         "name": "Croatia",
@@ -3258,12 +3466,13 @@
         "values": [
           2017
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Croatia national cricket team",
           "date": "2026-11-24",
           "key": "1xkzs6g"
-        }
+        },
+        "views": 5760
       },
       {
         "name": "Estonia",
@@ -3271,12 +3480,13 @@
         "values": [
           2017
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Estonia national cricket team",
           "date": "2026-11-24",
           "key": "1txp69k"
-        }
+        },
+        "views": 5895
       },
       {
         "name": "Serbia",
@@ -3289,7 +3499,8 @@
           "wiki": "Serbia national cricket team",
           "date": "2026-11-24",
           "key": "fxvfvq"
-        }
+        },
+        "views": 4268
       },
       {
         "name": "Turkey",
@@ -3300,12 +3511,13 @@
         "values": [
           2017
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Turkey national cricket team",
           "date": "2026-11-24",
           "key": "lf2m1s"
-        }
+        },
+        "views": 6794
       },
       {
         "name": "Slovenia",
@@ -3318,7 +3530,8 @@
           "wiki": "Slovenia national cricket team",
           "date": "2026-11-24",
           "key": "r7koti"
-        }
+        },
+        "views": 2537
       }
     ]
   },
@@ -3353,7 +3566,8 @@
           "wiki": "India national under-19 cricket team",
           "date": "2026-11-24",
           "key": "zvupxc"
-        }
+        },
+        "views": 267868
       },
       {
         "name": "Australia",
@@ -3366,7 +3580,8 @@
           "wiki": "Australia national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1cwb64y"
-        }
+        },
+        "views": 21926
       },
       {
         "name": "England",
@@ -3379,7 +3594,8 @@
           "wiki": "England under-19 cricket team",
           "date": "2026-11-24",
           "key": "s6e1jy"
-        }
+        },
+        "views": 17970
       },
       {
         "name": "Pakistan",
@@ -3392,7 +3608,8 @@
           "wiki": "Pakistan national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1m5b22e"
-        }
+        },
+        "views": 40712
       },
       {
         "name": "South Africa",
@@ -3400,7 +3617,7 @@
         "values": [
           1998
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "South Africa national under-19 cricket team",
           "date": "2026-11-24",
@@ -3408,7 +3625,8 @@
         },
         "aliases": [
           "Proteas"
-        ]
+        ],
+        "views": 8810
       },
       {
         "name": "New Zealand",
@@ -3424,7 +3642,8 @@
         },
         "aliases": [
           "Black Caps"
-        ]
+        ],
+        "views": 4468
       },
       {
         "name": "Sri Lanka",
@@ -3437,7 +3656,8 @@
           "wiki": "Sri Lanka national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1y582t8"
-        }
+        },
+        "views": 6369
       },
       {
         "name": "West Indies",
@@ -3453,7 +3673,8 @@
           "wiki": "West Indies under-19 cricket team",
           "date": "2026-11-24",
           "key": "w33b6f"
-        }
+        },
+        "views": 4489
       },
       {
         "name": "Bangladesh",
@@ -3461,7 +3682,7 @@
         "values": [
           1998
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Bangladesh national under-19 cricket team",
           "date": "2026-11-24",
@@ -3469,7 +3690,8 @@
         },
         "aliases": [
           "Tigers"
-        ]
+        ],
+        "views": 14649
       },
       {
         "name": "Zimbabwe",
@@ -3485,7 +3707,8 @@
         },
         "aliases": [
           "Chevrons"
-        ]
+        ],
+        "views": 3174
       },
       {
         "name": "Afghanistan",
@@ -3498,7 +3721,8 @@
           "wiki": "Afghanistan national under-19 cricket team",
           "date": "2026-11-24",
           "key": "y9rfra"
-        }
+        },
+        "views": 10740
       },
       {
         "name": "Ireland",
@@ -3511,7 +3735,8 @@
           "wiki": "Ireland under-19 cricket team",
           "date": "2026-11-24",
           "key": "989yka"
-        }
+        },
+        "views": 1999
       },
       {
         "name": "Scotland",
@@ -3524,7 +3749,8 @@
           "wiki": "Scotland national under-19 cricket team",
           "date": "2026-11-24",
           "key": "8tosda"
-        }
+        },
+        "views": 2244
       },
       {
         "name": "Netherlands",
@@ -3535,12 +3761,13 @@
         "values": [
           2000
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Netherlands national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1nba2qe"
-        }
+        },
+        "views": 993
       },
       {
         "name": "Nepal",
@@ -3553,7 +3780,8 @@
           "wiki": "Nepal national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1o6bub2"
-        }
+        },
+        "views": 4811
       },
       {
         "name": "United Arab Emirates",
@@ -3564,12 +3792,13 @@
         "values": [
           2014
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "United Arab Emirates national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1rw1kq7"
-        }
+        },
+        "views": 2590
       },
       {
         "name": "United States",
@@ -3587,7 +3816,8 @@
           "wiki": "United States national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1y59gj"
-        }
+        },
+        "views": 3596
       },
       {
         "name": "Canada",
@@ -3600,7 +3830,8 @@
           "wiki": "Canada national under-19 cricket team",
           "date": "2026-11-24",
           "key": "8ogn1a"
-        }
+        },
+        "views": 1247
       },
       {
         "name": "Kenya",
@@ -3613,7 +3844,8 @@
           "wiki": "Kenya national under-19 cricket team",
           "date": "2026-11-24",
           "key": "vm7dry"
-        }
+        },
+        "views": 754
       },
       {
         "name": "Namibia",
@@ -3626,7 +3858,8 @@
           "wiki": "Namibia national under-19 cricket team",
           "date": "2026-11-24",
           "key": "xtkxos"
-        }
+        },
+        "views": 970
       },
       {
         "name": "Papua New Guinea",
@@ -3637,12 +3870,13 @@
         "values": [
           1998
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Papua New Guinea national under-19 cricket team",
           "date": "2026-11-24",
           "key": "h1xn0j"
-        }
+        },
+        "views": 1005
       },
       {
         "name": "Hong Kong",
@@ -3650,12 +3884,13 @@
         "values": [
           2010
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Hong Kong national under-19 cricket team",
           "date": "2026-11-24",
           "key": "xd6z04"
-        }
+        },
+        "views": 610
       },
       {
         "name": "Uganda",
@@ -3663,12 +3898,13 @@
         "values": [
           2004
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Uganda national under-19 cricket team",
           "date": "2026-11-24",
           "key": "14k8tim"
-        }
+        },
+        "views": 567
       },
       {
         "name": "Japan",
@@ -3681,7 +3917,8 @@
           "wiki": "Japan national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1011ehq"
-        }
+        },
+        "views": 7967
       },
       {
         "name": "Nigeria",
@@ -3689,12 +3926,13 @@
         "values": [
           2020
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Nigeria national under-19 cricket team",
           "date": "2026-11-24",
           "key": "92qg18"
-        }
+        },
+        "views": 674
       },
       {
         "name": "Denmark",
@@ -3702,12 +3940,13 @@
         "values": [
           1998
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Denmark national under-19 cricket team",
           "date": "2026-11-24",
           "key": "147ex9y"
-        }
+        },
+        "views": 655
       },
       {
         "name": "Bermuda",
@@ -3720,7 +3959,8 @@
           "wiki": "Bermuda national under-19 cricket team",
           "date": "2026-11-24",
           "key": "jufxpq"
-        }
+        },
+        "views": 474
       },
       {
         "name": "Malaysia",
@@ -3728,12 +3968,13 @@
         "values": [
           2008
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Under-19 Men's Cricket World Cup",
           "date": "2026-11-24",
           "key": "yqfjdi"
-        }
+        },
+        "views": 1203166
       },
       {
         "name": "Fiji",
@@ -3746,7 +3987,8 @@
           "wiki": "Fiji national under-19 cricket team",
           "date": "2026-11-24",
           "key": "1gmx4wm"
-        }
+        },
+        "views": 855
       },
       {
         "name": "Tanzania",
@@ -3754,12 +3996,13 @@
         "values": [
           2026
         ],
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Tanzania national under-19 cricket team",
           "date": "2026-11-24",
           "key": "11izkjm"
-        }
+        },
+        "views": 3362
       }
     ]
   },
@@ -3802,7 +4045,8 @@
           "wiki": "Big Bash League",
           "date": "2026-11-24",
           "key": "1j0v9d2"
-        }
+        },
+        "views": 638502
       },
       {
         "name": "T20 Blast",
@@ -3822,7 +4066,8 @@
           "wiki": "T20 Blast",
           "date": "2026-11-24",
           "key": "1fm0cn0"
-        }
+        },
+        "views": 102742
       },
       {
         "name": "Caribbean Premier League",
@@ -3838,7 +4083,8 @@
           "wiki": "Caribbean Premier League",
           "date": "2026-11-24",
           "key": "1sgfk8k"
-        }
+        },
+        "views": 170829
       },
       {
         "name": "SA20",
@@ -3853,7 +4099,8 @@
         },
         "aliases": [
           "Betway SA20"
-        ]
+        ],
+        "views": 278486
       },
       {
         "name": "Women's Big Bash League",
@@ -3869,7 +4116,8 @@
           "wiki": "Women's Big Bash League",
           "date": "2026-11-24",
           "key": "qqkl9a"
-        }
+        },
+        "views": 102299
       },
       {
         "name": "Super Smash",
@@ -3889,7 +4137,8 @@
           "wiki": "Super Smash (men's cricket)",
           "date": "2026-11-24",
           "key": "r4jvrd"
-        }
+        },
+        "views": 45909
       },
       {
         "name": "Women's Caribbean Premier League",
@@ -3900,12 +4149,13 @@
         "values": [
           2022
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Women's Caribbean Premier League",
           "date": "2026-11-24",
           "key": "rgd35p"
-        }
+        },
+        "views": 13571
       },
       {
         "name": "Women's Cricket Super League",
@@ -3922,19 +4172,21 @@
           "wiki": "List of Twenty20 cricket competitions",
           "date": "2026-11-24",
           "key": "1drif9j"
-        }
+        },
+        "views": 67611
       },
       {
         "name": "Charlotte Edwards Cup",
         "values": [
           2021
         ],
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Charlotte Edwards Cup",
           "date": "2026-11-24",
           "key": "13od716"
-        }
+        },
+        "views": 2298
       },
       {
         "name": "CSA T20 Challenge",
@@ -3953,7 +4205,8 @@
           "wiki": "CSA T20 Challenge",
           "date": "2026-11-24",
           "key": "wd30vf"
-        }
+        },
+        "views": 16546
       },
       {
         "name": "Stanford 20/20",
@@ -3969,7 +4222,8 @@
           "wiki": "Stanford 20/20",
           "date": "2026-11-24",
           "key": "9p1bhd"
-        }
+        },
+        "views": 6012
       },
       {
         "name": "Mzansi Super League",
@@ -3984,7 +4238,8 @@
           "wiki": "Mzansi Super League",
           "date": "2026-11-24",
           "key": "1ttyhqk"
-        }
+        },
+        "views": 14299
       },
       {
         "name": "Women's T20 Blast",
@@ -3999,7 +4254,8 @@
           "wiki": "Women's T20 Blast",
           "date": "2026-11-24",
           "key": "vgwgru"
-        }
+        },
+        "views": 8617
       },
       {
         "name": "Twenty20 Big Bash",
@@ -4015,7 +4271,8 @@
           "wiki": "Twenty20 Big Bash",
           "date": "2026-11-24",
           "key": "11r0b18"
-        }
+        },
+        "views": 4177
       },
       {
         "name": "Caribbean Twenty20",
@@ -4030,7 +4287,8 @@
           "wiki": "Caribbean Twenty20",
           "date": "2026-11-24",
           "key": "16qqy4s"
-        }
+        },
+        "views": 3456
       },
       {
         "name": "Women's Twenty20 Cup",
@@ -4040,12 +4298,13 @@
         "values": [
           2009
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Women's Twenty20 Cup",
           "date": "2026-11-24",
           "key": "avdw57"
-        }
+        },
+        "views": 1799
       },
       {
         "name": "T20 Spring Challenge",
@@ -4060,19 +4319,21 @@
           "wiki": "T20 Spring Challenge",
           "date": "2026-11-24",
           "key": "46b4t0"
-        }
+        },
+        "views": 4240
       },
       {
         "name": "Women's T20 County Cup",
         "values": [
           2025
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Women's T20 County Cup",
           "date": "2026-11-24",
           "key": "t9susm"
-        }
+        },
+        "views": 3355
       },
       {
         "name": "Women's Twenty20 Blaze",
@@ -4088,7 +4349,8 @@
           "wiki": "Women's Twenty20 Blaze",
           "date": "2026-11-24",
           "key": "1jouylk"
-        }
+        },
+        "views": 641
       },
       {
         "name": "CSA Provincial T20 Cup",
@@ -4100,12 +4362,13 @@
         "values": [
           2019
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "List of Twenty20 cricket competitions",
           "date": "2026-11-24",
           "key": "zinlip"
-        }
+        },
+        "views": 67611
       },
       {
         "name": "Top End T20 Series",
@@ -4115,12 +4378,13 @@
         "values": [
           2022
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Top End T20 Series",
           "date": "2026-11-24",
           "key": "tct567"
-        }
+        },
+        "views": 25660
       },
       {
         "name": "Australian Women's Twenty20 Cup",
@@ -4130,12 +4394,13 @@
         "values": [
           2009
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Australian Women's Twenty20 Cup",
           "date": "2026-11-24",
           "key": "214kbn"
-        }
+        },
+        "views": 2783
       },
       {
         "name": "West Indies Breakout League",
@@ -4150,7 +4415,8 @@
           "wiki": "West Indies Breakout League",
           "date": "2026-11-24",
           "key": "1fbovtr"
-        }
+        },
+        "views": 1304
       }
     ]
   },
@@ -4191,7 +4457,8 @@
           "wiki": "Indian Premier League",
           "date": "2026-11-24",
           "key": "sdzh60"
-        }
+        },
+        "views": 1884988
       },
       {
         "name": "Pakistan Super League",
@@ -4207,7 +4474,8 @@
           "wiki": "Pakistan Super League",
           "date": "2026-11-24",
           "key": "1y6faox"
-        }
+        },
+        "views": 520700
       },
       {
         "name": "Bangladesh Premier League",
@@ -4222,7 +4490,8 @@
           "wiki": "Bangladesh Premier League",
           "date": "2026-11-24",
           "key": "wpgez4"
-        }
+        },
+        "views": 225287
       },
       {
         "name": "Lanka Premier League",
@@ -4232,12 +4501,13 @@
         "values": [
           2020
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Lanka Premier League",
           "date": "2026-11-24",
           "key": "ojazc4"
-        }
+        },
+        "views": 78854
       },
       {
         "name": "International League T20",
@@ -4248,12 +4518,13 @@
         "values": [
           2023
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "International League T20",
           "date": "2026-11-24",
           "key": "zjgvlf"
-        }
+        },
+        "views": 292681
       },
       {
         "name": "Women's Premier League",
@@ -4265,12 +4536,13 @@
         "values": [
           2023
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Women's Premier League (cricket)",
           "date": "2026-11-24",
           "key": "1l4eajl"
-        }
+        },
+        "views": 943622
       },
       {
         "name": "Syed Mushtaq Ali Trophy",
@@ -4287,7 +4559,8 @@
           "wiki": "Syed Mushtaq Ali Trophy",
           "date": "2026-11-24",
           "key": "kpqv6x"
-        }
+        },
+        "views": 185298
       },
       {
         "name": "Indian Cricket League",
@@ -4297,12 +4570,13 @@
         "values": [
           2007
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Indian Cricket League",
           "date": "2026-11-24",
           "key": "tfuz17"
-        }
+        },
+        "views": 114614
       },
       {
         "name": "National T20 Cup",
@@ -4315,12 +4589,13 @@
         "values": [
           2005
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "National T20 Cup",
           "date": "2026-11-24",
           "key": "yoh92v"
-        }
+        },
+        "views": 47361
       },
       {
         "name": "Afghanistan Premier League",
@@ -4335,7 +4610,8 @@
           "wiki": "Afghanistan Premier League",
           "date": "2026-11-24",
           "key": "1iol7ni"
-        }
+        },
+        "views": 43610
       },
       {
         "name": "Nepal Premier League",
@@ -4350,7 +4626,8 @@
           "wiki": "Nepal Premier League",
           "date": "2026-11-24",
           "key": "140cjwv"
-        }
+        },
+        "views": 226077
       },
       {
         "name": "Sri Lanka Premier League",
@@ -4360,12 +4637,13 @@
         "values": [
           2011
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Sri Lanka Premier League",
           "date": "2026-11-24",
           "key": "1jr2pzl"
-        }
+        },
+        "views": 6704
       },
       {
         "name": "Shpageeza Cricket League",
@@ -4380,7 +4658,8 @@
           "wiki": "Shpageeza Cricket League",
           "date": "2026-11-24",
           "key": "1g9ee8g"
-        }
+        },
+        "views": 18270
       },
       {
         "name": "Senior Women's T20 Trophy",
@@ -4390,12 +4669,13 @@
         "values": [
           2008
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Senior Women's T20 Trophy",
           "date": "2026-11-24",
           "key": "1pgi05s"
-        }
+        },
+        "views": 3640
       },
       {
         "name": "Super 8 Twenty20 Cup",
@@ -4406,12 +4686,13 @@
         "values": [
           2011
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Super 8 Twenty20 Cup",
           "date": "2026-11-24",
           "key": "1alc2qx"
-        }
+        },
+        "views": 9183
       },
       {
         "name": "SLC Twenty20 Tournament",
@@ -4427,7 +4708,8 @@
           "wiki": "SLC Twenty20 Tournament",
           "date": "2026-11-24",
           "key": "4454h6"
-        }
+        },
+        "views": 908
       },
       {
         "name": "Hong Kong T20 Blitz",
@@ -4442,7 +4724,8 @@
           "wiki": "Hong Kong T20 Blitz",
           "date": "2026-11-24",
           "key": "1jaxp77"
-        }
+        },
+        "views": 1989
       },
       {
         "name": "SLC Super Provincial Twenty20",
@@ -4457,7 +4740,8 @@
           "wiki": "SLC Super Provincial Twenty20",
           "date": "2026-11-24",
           "key": "1ou0pk7"
-        }
+        },
+        "views": 1038
       },
       {
         "name": "Senior Women's T20 Challenger Trophy",
@@ -4467,12 +4751,13 @@
         "values": [
           2010
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Senior Women's T20 Challenger Trophy",
           "date": "2026-11-24",
           "key": "2gl496"
-        }
+        },
+        "views": 575
       },
       {
         "name": "PCB Women's Twenty20 Tournament",
@@ -4482,12 +4767,13 @@
         "values": [
           2020
         ],
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "PCB Women's Twenty20 Tournament",
           "date": "2026-11-24",
           "key": "ec9sqv"
-        }
+        },
+        "views": 1179
       },
       {
         "name": "Nepal T20 League",
@@ -4497,12 +4783,13 @@
         "values": [
           2022
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Nepal T20 League",
           "date": "2026-11-24",
           "key": "7tqiij"
-        }
+        },
+        "views": 8977
       },
       {
         "name": "Prime Minister Cup",
@@ -4514,12 +4801,13 @@
         "values": [
           2017
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Prime Minister Cup Men's National Cricket Tournament",
           "date": "2026-11-24",
           "key": "zca3k2"
-        }
+        },
+        "views": 8150
       },
       {
         "name": "Women's Prime Minister Cup",
@@ -4535,7 +4823,8 @@
           "wiki": "Prime Minister Cup Women's National Cricket Tournament",
           "date": "2026-11-24",
           "key": "1gkpld6"
-        }
+        },
+        "views": 1089
       },
       {
         "name": "National T20 Championship",
@@ -4550,7 +4839,8 @@
           "wiki": "National T20 Championship",
           "date": "2026-11-24",
           "key": "j5273k"
-        }
+        },
+        "views": 1272
       },
       {
         "name": "Lalitpur Mayor Women's Cup",
@@ -4560,12 +4850,13 @@
         "values": [
           2021
         ],
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Lalitpur Mayor Women's Cup",
           "date": "2026-11-24",
           "key": "1c432ia"
-        }
+        },
+        "views": 358
       },
       {
         "name": "Afghanistan National T20 Cup",
@@ -4576,12 +4867,13 @@
         "values": [
           2024
         ],
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "National T20 Cup (Afghanistan)",
           "date": "2026-11-24",
           "key": "10l1n7n"
-        }
+        },
+        "views": 2039
       }
     ]
   },
@@ -4620,7 +4912,8 @@
           "wiki": "Yorkshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1w7mmkh"
-        }
+        },
+        "views": 70783
       },
       {
         "name": "Lancashire",
@@ -4637,7 +4930,8 @@
           "wiki": "Lancashire County Cricket Club",
           "date": "2026-11-24",
           "key": "1cgvqcz"
-        }
+        },
+        "views": 60548
       },
       {
         "name": "Surrey",
@@ -4654,7 +4948,8 @@
           "wiki": "Surrey County Cricket Club",
           "date": "2026-11-24",
           "key": "1hzflkf"
-        }
+        },
+        "views": 68641
       },
       {
         "name": "Kent",
@@ -4666,12 +4961,13 @@
         "values": [
           2
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Kent County Cricket Club",
           "date": "2026-11-24",
           "key": "ffhsoj"
-        }
+        },
+        "views": 43478
       },
       {
         "name": "Durham",
@@ -4684,7 +4980,8 @@
           "wiki": "Durham County Cricket Club",
           "date": "2026-11-24",
           "key": "o7hupk"
-        }
+        },
+        "views": 51874
       },
       {
         "name": "Middlesex",
@@ -4696,12 +4993,13 @@
         "values": [
           1
         ],
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Middlesex County Cricket Club",
           "date": "2026-11-24",
           "key": "1xkfbmd"
-        }
+        },
+        "views": 49472
       },
       {
         "name": "Warwickshire",
@@ -4713,12 +5011,13 @@
         "values": [
           2
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Warwickshire County Cricket Club",
           "date": "2026-11-24",
           "key": "115ih9v"
-        }
+        },
+        "views": 54674
       },
       {
         "name": "Somerset",
@@ -4730,12 +5029,13 @@
         "values": [
           2
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Somerset County Cricket Club",
           "date": "2026-11-24",
           "key": "wbx9rn"
-        }
+        },
+        "views": 59895
       },
       {
         "name": "Glamorgan",
@@ -4743,7 +5043,7 @@
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Glamorgan County Cricket Club",
           "date": "2026-11-24",
@@ -4751,7 +5051,8 @@
         },
         "aliases": [
           "Glam"
-        ]
+        ],
+        "views": 57579
       },
       {
         "name": "Worcestershire",
@@ -4767,7 +5068,8 @@
         },
         "aliases": [
           "Worcs"
-        ]
+        ],
+        "views": 33581
       },
       {
         "name": "Northamptonshire",
@@ -4783,7 +5085,8 @@
           "wiki": "Northamptonshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1easygv"
-        }
+        },
+        "views": 44595
       },
       {
         "name": "Leicestershire",
@@ -4796,12 +5099,13 @@
         "values": [
           1
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Leicestershire County Cricket Club",
           "date": "2026-11-24",
           "key": "g4slg7"
-        }
+        },
+        "views": 33687
       },
       {
         "name": "Staffordshire",
@@ -4812,12 +5116,13 @@
         "values": [
           14
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Staffordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "uxwmzr"
-        }
+        },
+        "views": 3904
       },
       {
         "name": "Buckinghamshire",
@@ -4828,12 +5133,13 @@
         "values": [
           12
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Buckinghamshire County Cricket Club",
           "date": "2026-11-24",
           "key": "10bgnzu"
-        }
+        },
+        "views": 4104
       },
       {
         "name": "Berkshire",
@@ -4844,12 +5150,13 @@
         "values": [
           10
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Berkshire County Cricket Club",
           "date": "2026-11-24",
           "key": "y74rl5"
-        }
+        },
+        "views": 3732
       },
       {
         "name": "Devon",
@@ -4857,12 +5164,13 @@
         "values": [
           9
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Devon County Cricket Club",
           "date": "2026-11-24",
           "key": "gobzkc"
-        }
+        },
+        "views": 4209
       },
       {
         "name": "Cheshire",
@@ -4870,12 +5178,13 @@
         "values": [
           7
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Cheshire County Cricket Club",
           "date": "2026-11-24",
           "key": "te5cmk"
-        }
+        },
+        "views": 3043
       },
       {
         "name": "Norfolk",
@@ -4883,12 +5192,13 @@
         "values": [
           6
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Norfolk County Cricket Club",
           "date": "2026-11-24",
           "key": "d675vi"
-        }
+        },
+        "views": 3857
       },
       {
         "name": "Oxfordshire",
@@ -4904,7 +5214,8 @@
           "wiki": "Oxfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "kcjnbo"
-        }
+        },
+        "views": 2924
       },
       {
         "name": "Hertfordshire",
@@ -4915,12 +5226,13 @@
         "values": [
           4
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Hertfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1xo8evo"
-        }
+        },
+        "views": 3067
       },
       {
         "name": "Suffolk",
@@ -4933,7 +5245,8 @@
           "wiki": "Suffolk County Cricket Club",
           "date": "2026-11-24",
           "key": "1t1550c"
-        }
+        },
+        "views": 2955
       },
       {
         "name": "Cumberland",
@@ -4949,7 +5262,8 @@
         },
         "aliases": [
           "Cumbria"
-        ]
+        ],
+        "views": 2753
       },
       {
         "name": "Bedfordshire",
@@ -4965,7 +5279,8 @@
           "wiki": "Bedfordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1c53tuw"
-        }
+        },
+        "views": 3052
       },
       {
         "name": "Lincolnshire",
@@ -4981,7 +5296,8 @@
           "wiki": "Lincolnshire County Cricket Club",
           "date": "2026-11-24",
           "key": "71zjl5"
-        }
+        },
+        "views": 2703
       },
       {
         "name": "Dorset",
@@ -4994,7 +5310,8 @@
           "wiki": "Dorset County Cricket Club",
           "date": "2026-11-24",
           "key": "132lla8"
-        }
+        },
+        "views": 2438
       },
       {
         "name": "Wiltshire",
@@ -5010,7 +5327,8 @@
           "wiki": "Wiltshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1j31vk3"
-        }
+        },
+        "views": 2870
       },
       {
         "name": "Cornwall",
@@ -5023,7 +5341,8 @@
           "wiki": "Cornwall County Cricket Club",
           "date": "2026-11-24",
           "key": "1buv6go"
-        }
+        },
+        "views": 3008
       },
       {
         "name": "Cambridgeshire",
@@ -5039,7 +5358,8 @@
           "wiki": "Cambridgeshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1h3uhkw"
-        }
+        },
+        "views": 2989
       },
       {
         "name": "Shropshire",
@@ -5055,7 +5375,8 @@
         },
         "aliases": [
           "Salop"
-        ]
+        ],
+        "views": 2595
       },
       {
         "name": "Herefordshire",
@@ -5068,7 +5389,8 @@
           "wiki": "Herefordshire County Cricket Club",
           "date": "2026-11-24",
           "key": "1cb1q2o"
-        }
+        },
+        "views": 1738
       }
     ]
   },
@@ -5097,7 +5419,8 @@
           "wiki": "Test cricket",
           "date": "2026-11-24",
           "key": "1bppppj"
-        }
+        },
+        "mentions": 25
       },
       {
         "name": "Twenty20",
@@ -5111,7 +5434,8 @@
           "wiki": "Twenty20",
           "date": "2026-11-24",
           "key": "1c2qbay"
-        }
+        },
+        "mentions": 31
       },
       {
         "name": "Limited overs cricket",
@@ -5127,7 +5451,8 @@
           "wiki": "Limited overs cricket",
           "date": "2026-11-24",
           "key": "hhqjgf"
-        }
+        },
+        "mentions": 17
       },
       {
         "name": "First-class cricket",
@@ -5141,7 +5466,8 @@
           "wiki": "First-class cricket",
           "date": "2026-11-24",
           "key": "4kcupa"
-        }
+        },
+        "mentions": 48
       },
       {
         "name": "List A cricket",
@@ -5153,19 +5479,21 @@
           "wiki": "List A cricket",
           "date": "2026-11-24",
           "key": "9z28mb"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "100-ball cricket",
         "aliases": [
           "The Hundred"
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "100-ball cricket",
           "date": "2026-11-24",
           "key": "njxui5"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "T10 cricket",
@@ -5178,7 +5506,8 @@
           "wiki": "T10 cricket",
           "date": "2026-11-24",
           "key": "7iasof"
-        }
+        },
+        "mentions": 18
       },
       {
         "name": "Backyard cricket",
@@ -5188,12 +5517,13 @@
           "Garden cricket",
           "Gully cricket"
         ],
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Backyard cricket",
           "date": "2026-11-24",
           "key": "aif6ya"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "Indoor cricket",
@@ -5202,28 +5532,31 @@
           "wiki": "Indoor cricket",
           "date": "2026-11-24",
           "key": "rmmefi"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "French cricket",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "French cricket",
           "date": "2026-11-24",
           "key": "v21ycj"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Tape ball cricket",
         "aliases": [
           "Tape ball"
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "12twpn5"
-        }
+        },
+        "mentions": 15
       },
       {
         "name": "Tennis ball cricket",
@@ -5232,19 +5565,21 @@
           "wiki": "Tennis ball cricket",
           "date": "2026-11-24",
           "key": "1va8gq7"
-        }
+        },
+        "mentions": 6
       },
       {
         "name": "Kwik cricket",
         "aliases": [
           "Quick cricket"
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Kwik cricket",
           "date": "2026-11-24",
           "key": "1mdx67x"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Club cricket",
@@ -5252,12 +5587,13 @@
           "Village cricket",
           "League cricket"
         ],
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Club cricket",
           "date": "2026-11-24",
           "key": "1jj1enu"
-        }
+        },
+        "mentions": 13
       },
       {
         "name": "Single wicket cricket",
@@ -5269,19 +5605,21 @@
           "wiki": "Single wicket cricket",
           "date": "2026-11-24",
           "key": "17p2iet"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Double wicket",
         "aliases": [
           "Pairs cricket"
         ],
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "1ji880a"
-        }
+        },
+        "mentions": 6
       },
       {
         "name": "Blind cricket",
@@ -5293,7 +5631,8 @@
           "wiki": "Blind cricket",
           "date": "2026-11-24",
           "key": "1g64r8b"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Hand cricket",
@@ -5305,25 +5644,28 @@
         },
         "aliases": [
           "Odd or even"
-        ]
+        ],
+        "mentions": 6
       },
       {
         "name": "Book cricket",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "1r5swio"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Pub cricket",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "j9bdn2"
-        }
+        },
+        "mentions": 3
       },
       {
         "name": "Kilikiti",
@@ -5331,12 +5673,13 @@
           "Kirikiti",
           "Samoan cricket"
         ],
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Kilikiti",
           "date": "2026-11-24",
           "key": "1w8xgrm"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Trobriand cricket",
@@ -5345,7 +5688,8 @@
           "wiki": "Trobriand cricket",
           "date": "2026-11-24",
           "key": "l0nfnu"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Vigoro",
@@ -5354,16 +5698,18 @@
           "wiki": "Vigoro",
           "date": "2026-11-24",
           "key": "1npfixa"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Table cricket",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Table Cricket",
           "date": "2026-11-24",
           "key": "okbdm7"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Walking cricket",
@@ -5372,7 +5718,8 @@
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "1118jhi"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Leg cricket",
@@ -5381,7 +5728,8 @@
           "wiki": "Leg cricket",
           "date": "2026-11-24",
           "key": "16cuakn"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Short form cricket",
@@ -5389,12 +5737,13 @@
           "Last Man Stands",
           "Short format cricket"
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Short form cricket",
           "date": "2026-11-24",
           "key": "1w9e91s"
-        }
+        },
+        "mentions": 7
       },
       {
         "name": "Three team cricket",
@@ -5402,24 +5751,26 @@
           "3TC",
           "3TeamCricket"
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "1gyah19"
-        }
+        },
+        "mentions": 8
       },
       {
         "name": "Declaration cricket",
         "aliases": [
           "Timed cricket"
         ],
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "173szkj"
-        }
+        },
+        "mentions": 5
       },
       {
         "name": "Non-stop cricket",
@@ -5431,30 +5782,34 @@
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "12dkm01"
-        }
+        },
+        "mentions": 4
       },
       {
         "name": "Calculator cricket",
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "fk154r"
-        }
+        },
+        "mentions": 2
       },
       {
         "name": "Pencil cricket",
         "aliases": [
           "Owzthat"
         ],
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Forms of cricket",
           "date": "2026-11-24",
           "key": "1eyymz5"
-        }
+        },
+        "mentions": 4
       }
-    ]
+    ],
+    "popularity": "mentions"
   },
   {
     "id": "dismissals-extras-umpire-signals",
@@ -5479,17 +5834,18 @@
           "Caught and bowled"
         ],
         "wiki": "Caught",
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Caught",
           "date": "2026-11-24",
           "key": "sdkbq1"
-        }
+        },
+        "views": 10165
       },
       {
         "name": "Bowled",
         "wiki": "Bowled",
-        "tier": "single",
+        "tier": "six",
         "verified": {
           "wiki": "Bowled",
           "date": "2026-11-24",
@@ -5497,7 +5853,8 @@
         },
         "aliases": [
           "Clean bowled"
-        ]
+        ],
+        "views": 8172
       },
       {
         "name": "Leg before wicket",
@@ -5511,17 +5868,19 @@
           "wiki": "Leg before wicket",
           "date": "2026-11-24",
           "key": "1fuuu5y"
-        }
+        },
+        "views": 28111
       },
       {
         "name": "Run out",
         "wiki": "Run out",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Run out",
           "date": "2026-11-24",
           "key": "96c4fm"
-        }
+        },
+        "views": 22102
       },
       {
         "name": "Stumped",
@@ -5534,7 +5893,8 @@
           "wiki": "Stumped",
           "date": "2026-11-24",
           "key": "f7l009"
-        }
+        },
+        "views": 27856
       },
       {
         "name": "Wide",
@@ -5542,12 +5902,13 @@
           "Wide ball"
         ],
         "wiki": "Wide (cricket)",
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Wide (cricket)",
           "date": "2026-11-24",
           "key": "1eauwlu"
-        }
+        },
+        "views": 10701
       },
       {
         "name": "No-ball",
@@ -5557,7 +5918,8 @@
           "wiki": "No-ball",
           "date": "2026-11-24",
           "key": "fc4vn2"
-        }
+        },
+        "views": 29671
       },
       {
         "name": "Bye",
@@ -5565,12 +5927,13 @@
           "Byes"
         ],
         "wiki": "Bye (cricket)",
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Bye (cricket)",
           "date": "2026-11-24",
           "key": "1knduyn"
-        }
+        },
+        "views": 6424
       },
       {
         "name": "Leg bye",
@@ -5578,22 +5941,24 @@
           "Leg byes"
         ],
         "wiki": "Leg bye",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Leg bye",
           "date": "2026-11-24",
           "key": "dw6g31"
-        }
+        },
+        "views": 8854
       },
       {
         "name": "Hit wicket",
         "wiki": "Hit wicket",
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Hit wicket",
           "date": "2026-11-24",
           "key": "52melc"
-        }
+        },
+        "views": 8125
       },
       {
         "name": "Four",
@@ -5606,7 +5971,8 @@
           "wiki": "Boundary (cricket)",
           "date": "2026-11-24",
           "key": "ebual2"
-        }
+        },
+        "views": 16667
       },
       {
         "name": "Six",
@@ -5619,17 +5985,19 @@
           "wiki": "Boundary (cricket)",
           "date": "2026-11-24",
           "key": "yadqkk"
-        }
+        },
+        "views": 16667
       },
       {
         "name": "Free hit",
         "wiki": "Free hit",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Free hit",
           "date": "2026-11-24",
           "key": "b11bxs"
-        }
+        },
+        "views": 97040
       },
       {
         "name": "Penalty runs",
@@ -5638,12 +6006,13 @@
           "Five penalty runs"
         ],
         "wiki": "Penalty run",
-        "tier": "two",
+        "tier": "ootg",
         "verified": {
           "wiki": "Penalty run",
           "date": "2026-11-24",
           "key": "6arrkg"
-        }
+        },
+        "views": 5364
       },
       {
         "name": "Dead ball",
@@ -5653,7 +6022,8 @@
           "wiki": "Dead ball",
           "date": "2026-11-24",
           "key": "mv8fk2"
-        }
+        },
+        "views": 16557
       },
       {
         "name": "Handled the ball",
@@ -5661,12 +6031,13 @@
           "Handling the ball"
         ],
         "wiki": "Handled the ball",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Handled the ball",
           "date": "2026-11-24",
           "key": "11k39cb"
-        }
+        },
+        "views": 8731
       },
       {
         "name": "Obstructing the field",
@@ -5679,17 +6050,19 @@
           "wiki": "Obstructing the field",
           "date": "2026-11-24",
           "key": "snb0xc"
-        }
+        },
+        "views": 12412
       },
       {
         "name": "Timed out",
         "wiki": "Timed out",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Timed out",
           "date": "2026-11-24",
           "key": "82btk6"
-        }
+        },
+        "views": 7107
       },
       {
         "name": "Hit the ball twice",
@@ -5702,7 +6075,8 @@
           "wiki": "Hit the ball twice",
           "date": "2026-11-24",
           "key": "155lpll"
-        }
+        },
+        "views": 9069
       },
       {
         "name": "Retired out",
@@ -5715,19 +6089,21 @@
           "wiki": "Retired (cricket)",
           "date": "2026-11-24",
           "key": "1wo28o5"
-        }
+        },
+        "views": 9991
       },
       {
         "name": "Short run",
         "aliases": [
           "One short"
         ],
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Umpire (cricket)",
           "date": "2026-11-24",
           "key": "4derj6"
-        }
+        },
+        "views": 17831
       },
       {
         "name": "Decision review",
@@ -5738,26 +6114,28 @@
           "Referral"
         ],
         "wiki": "Umpire Decision Review System",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Decision Review System",
           "date": "2026-11-24",
           "key": "1ruer06"
-        }
+        },
+        "views": 27784
       },
       {
         "name": "Powerplay",
         "wiki": "Powerplay (cricket)",
-        "tier": "six",
+        "tier": "single",
         "verified": {
           "wiki": "Powerplay (cricket)",
           "date": "2026-11-24",
           "key": "s81mps"
-        }
+        },
+        "views": 39146
       },
       {
         "name": "New ball",
-        "tier": "six",
+        "tier": "single",
         "verified": {
           "wiki": "Cricket ball",
           "date": "2026-11-24",
@@ -5765,11 +6143,12 @@
         },
         "aliases": [
           "Second new ball"
-        ]
+        ],
+        "views": 65487
       },
       {
         "name": "Last hour",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Umpire (cricket)",
           "date": "2026-11-24",
@@ -5777,19 +6156,21 @@
         },
         "aliases": [
           "Final hour"
-        ]
+        ],
+        "views": 17831
       },
       {
         "name": "Revoke last signal",
         "aliases": [
           "Revoke"
         ],
-        "tier": "ootg",
+        "tier": "two",
         "verified": {
           "wiki": "Umpire (cricket)",
           "date": "2026-11-24",
           "key": "1cyte1l"
-        }
+        },
+        "views": 17831
       }
     ]
   }

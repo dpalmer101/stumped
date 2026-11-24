@@ -146,7 +146,7 @@ test("holding the innings total reveals a hidden reset for today's over", async 
     if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
   await expect(page.locator("#total")).toHaveText("6/0");
-  const reset = page.getByRole("button", { name: "Reset today's over" });
+  const reset = page.getByRole("button", { name: "Reset today" });
   await expect(reset).toHaveCount(0);
 
   // A short press does nothing.

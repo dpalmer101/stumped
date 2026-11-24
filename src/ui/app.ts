@@ -717,7 +717,7 @@ export class App {
       inner.querySelector(".back")?.remove();
       inner.insertAdjacentHTML(
         "beforeend",
-        `<div class="face back"><button class="btn" data-act="reset-day">Reset today's over</button><button class="btn ghost" data-act="unflip">Cancel</button></div>`,
+        `<div class="face back"><button class="btn" data-act="reset-day">Reset today</button><button class="btn ghost" data-act="unflip">Cancel</button></div>`,
       );
       inner.querySelector<HTMLButtonElement>(".back button")?.focus({ preventScroll: true });
       // Next frame, so the newly added back face turns over rather than appearing already flipped.

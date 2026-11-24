@@ -528,12 +528,15 @@ button {
 .flip .back {
   transform: rotateY(180deg);
   display: flex;
-  align-items: stretch;
-  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 20px;
 }
 .back .btn {
-  flex: 1;
+  flex: 0 1 130px;
   margin: 0;
+  padding: 14px 8px;
 }
 @media (prefers-reduced-motion: reduce) {
   .flip-inner {

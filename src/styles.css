@@ -504,6 +504,40 @@ button {
     monospace;
   letter-spacing: -0.04em;
 }
+.flip {
+  perspective: 700px;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.flip-inner {
+  display: grid;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.flip.flipped .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip .face {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip .back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.back .btn {
+  flex: 1;
+  margin: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .flip-inner {
+    transition: none;
+  }
+}
 .total .lbl {
   color: var(--muted);
   font: 700 11px var(--font-ui);

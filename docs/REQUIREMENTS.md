@@ -178,3 +178,4 @@ the anonymous counts in §1.
 - 2026-11-24: A synthesised crowd reacts to each ball: claps for a single or two, a cheer that grows with a four, six or out of the ground, and a groan for a wicket. Mute silences sounds already playing.
 - 2026-11-24: Questions lean towards UK fans of county and international cricket since the mid-1990s: nearly every question has a few answers they'd know, or answers guessable from geography. Teams named after a place accept the place name (on the best-known team where several share it).
 - 2026-11-24: Typo tolerance can't swap a short word: "silly mid-on" no longer counts as "silly mid-off".
+- 2026-11-24: The owner can replay today's over: holding the innings total for 3 s flips it to reveal a reset. Unadvertised; not offered for an earlier day.

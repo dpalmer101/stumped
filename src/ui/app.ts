@@ -180,6 +180,8 @@ interface InstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
 }
 
+const SECRET_HOLD_MS = 3000;
+
 export class App {
   private readonly store = browserStore();
   private saved: Saved;
@@ -212,6 +214,8 @@ export class App {
   private loadedPuzzle = 0;
   /** A new one each page load, not each redraw. */
   private readonly quote = pickQuote();
+  /** Pending long press on the innings total. */
+  private holdTimer = 0;
 
   constructor(private readonly root: HTMLElement) {
     this.saved = load(this.store);
@@ -302,6 +306,10 @@ export class App {
       this.innings = loadToday(fresh.innings, puzzle, questionIdsFor(puzzle, schedule), Date.now());
       this.showing = null;
       if (this.view === "play" && isComplete(this.innings)) this.view = "scorecard";
+      // Another tab reset today's over (see resetToday).
+      if ((this.view === "scorecard" || this.view === "answers") && !isComplete(this.innings)) {
+        this.view = "home";
+      }
     }
     return changed;
   }
@@ -438,6 +446,7 @@ export class App {
   }
 
   private render() {
+    window.clearTimeout(this.holdTimer);
     this.stopLoop();
     window.clearInterval(this.countdown);
     document.body.className = `theme-${this.saved.theme}`;
@@ -640,8 +649,10 @@ export class App {
       .join("");
     const stats = computeStats(this.saved.history, this.innings.puzzle);
     this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}
-      <div class="total"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>
+      <div class="total flip" id="flip"><div class="flip-inner">
+        <div class="face"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>
         <div class="lbl">1 over · ${plural(boundaries, "boundary", "boundaries")}</div></div>
+      </div></div>
       ${this.pips(-1)}<table aria-label="Scorecard">${rows}</table>
       <div class="share" id="shareText">${esc(this.shareText())}</div>
       <div class="two"><button class="btn" data-act="share">Share</button><button class="btn ghost" data-act="answers">See all answers</button></div>
@@ -649,12 +660,91 @@ export class App {
       <div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>
       ${statsHtml(stats)}
       </main>`;
+    this.armSecretReset();
     this.countdown = window.setInterval(() => {
       const ms = msUntilNextPuzzle(new Date());
       const el = this.root.querySelector("#countdown");
       if (el) el.textContent = formatCountdown(ms);
       if (this.todayPuzzle() !== this.innings.puzzle && !this.newDayReady) this.checkDay();
     }, 1000);
+  }
+
+  /**
+   * Owner's back door: holding the innings total for 3 s flips it to reveal a reset button.
+   * Deliberately unadvertised; anyone reading the source can find it, which is fine for a casual game.
+   */
+  private armSecretReset() {
+    const flip = this.root.querySelector<HTMLElement>("#flip");
+    // Only for today's over: after midnight the open scorecard is yesterday's, whose record stays.
+    if (!flip || this.innings.puzzle !== this.todayPuzzle()) return;
+    let start: { x: number; y: number } | null = null;
+    const cancel = () => {
+      window.clearTimeout(this.holdTimer);
+      start = null;
+    };
+    flip.addEventListener("pointerdown", (e) => {
+      cancel();
+      // One finger or the main mouse button; a pinch's second finger would leave a timer behind.
+      // A back face still turning away doesn't count as open.
+      if (!e.isPrimary || e.button !== 0 || flip.querySelector(".back:not(.closing)")) return;
+      start = { x: e.clientX, y: e.clientY };
+      this.holdTimer = window.setTimeout(() => this.flipTotal(true), SECRET_HOLD_MS);
+    });
+    flip.addEventListener("pointermove", (e) => {
+      // A scroll or drag isn't a hold.
+      if (start && Math.hypot(e.clientX - start.x, e.clientY - start.y) > 10) cancel();
+    });
+    for (const type of ["pointerup", "pointerleave", "pointercancel"]) {
+      flip.addEventListener(type, cancel);
+    }
+    flip.addEventListener("contextmenu", (e) => {
+      if (start) e.preventDefault();
+    });
+  }
+
+  /** The back is only added when flipped, so it's invisible to screen readers and tests until then. */
+  private flipTotal(open: boolean) {
+    const flip = this.root.querySelector<HTMLElement>("#flip");
+    const inner = flip?.querySelector<HTMLElement>(".flip-inner");
+    const front = inner?.querySelector<HTMLElement>(".face");
+    if (!flip || !inner || !front) return;
+    front.inert = open;
+    if (open) {
+      inner.querySelector(".back")?.remove();
+      inner.insertAdjacentHTML(
+        "beforeend",
+        `<div class="face back"><button class="btn" data-act="reset-day">Reset today's over</button><button class="btn ghost" data-act="unflip">Cancel</button></div>`,
+      );
+      inner.querySelector<HTMLButtonElement>(".back button")?.focus({ preventScroll: true });
+      // Next frame, so the newly added back face turns over rather than appearing already flipped.
+      requestAnimationFrame(() => flip.classList.add("flipped"));
+      return;
+    }
+    flip.classList.remove("flipped");
+    const back = inner.querySelector<HTMLElement>(".back");
+    if (back) {
+      back.inert = true;
+      back.classList.add("closing");
+      // Leave the back in place until it has turned away.
+      window.setTimeout(() => back.remove(), 500);
+    }
+    // Without preventScroll, focusing Share jumps the page down on a phone.
+    this.root
+      .querySelector<HTMLButtonElement>('[data-act="share"]')
+      ?.focus({ preventScroll: true });
+  }
+
+  /** Clears today's over and its stats entry, so it can be played again. */
+  private resetToday() {
+    const puzzle = this.innings.puzzle;
+    if (puzzle !== this.todayPuzzle()) return;
+    const stored = load(this.store);
+    const { [puzzle]: _, ...history } = { ...stored.history, ...this.saved.history };
+    this.saved = { ...this.saved, history, innings: null };
+    save(this.store, this.saved);
+    this.lastRaw = readRaw(this.store);
+    this.startDay();
+    this.render();
   }
 
   /** Android/Chrome gets the real install prompt; iPhone gets instructions, as Safari has no prompt. */
@@ -916,6 +1006,10 @@ export class App {
       }
       case "share":
         return void this.share();
+      case "reset-day":
+        return this.resetToday();
+      case "unflip":
+        return this.flipTotal(false);
       case "answers":
         this.answersIndex = 0;
         this.view = "answers";

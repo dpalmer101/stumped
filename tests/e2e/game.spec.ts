@@ -136,3 +136,47 @@ test("fits a 360px phone without sideways scrolling", async ({ context }) => {
     expect(overflow).toBeLessThanOrEqual(0);
   }
 });
+
+test("holding the innings total reveals a hidden reset for today's over", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  for (const [i, q] of dayOne.entries()) {
+    await faceBall(page);
+    await answer(page, single(q));
+    if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
+  }
+  await expect(page.locator("#total")).toHaveText("6/0");
+  const reset = page.getByRole("button", { name: "Reset today's over" });
+  await expect(reset).toHaveCount(0);
+
+  // A short press does nothing.
+  const box = await page.locator("#flip").boundingBox();
+  if (!box) throw new Error("no innings total");
+  await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  await page.mouse.down();
+  await page.clock.runFor(1000);
+  await page.mouse.up();
+  await page.clock.runFor(3000);
+  await expect(reset).toHaveCount(0);
+
+  // Cancel flips it back.
+  await page.mouse.down();
+  await page.clock.runFor(3100);
+  await page.mouse.up();
+  await page.getByRole("button", { name: "Cancel" }).click();
+  await expect(reset).toHaveCount(0);
+  await expect(page.locator("#total")).toHaveText("6/0");
+
+  await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  await page.mouse.down();
+  await page.clock.runFor(3100);
+  await page.mouse.up();
+  await reset.click();
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeEnabled();
+  // Today's over is gone from the stats too, and stays gone after a reload.
+  await expect(page.getByText(/Played 1/)).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeEnabled();
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await expect(page.getByRole("button", { name: "Face ball" })).toBeVisible();
+});

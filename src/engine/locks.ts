@@ -1,11 +1,13 @@
 import { hash } from "./hash";
 import { dayIndex } from "./puzzle";
-import type { PlayableQuestion, Question, Schedule } from "./types";
+import type { PlayableQuestion, Question, Schedule, Segment } from "./types";
 
 /** What players get for each day, by scheduled day; see docs/CONTENT.md, Locked days. */
 export interface DayLocks {
   launchDate: string;
   days: string[];
+  /** The schedule's segments when locked, so the live check knows which day each over played. */
+  segments?: Segment[];
 }
 
 /**
@@ -70,9 +72,14 @@ export function fingerprint(day: PlayableQuestion[]): string {
   return hash(JSON.stringify(content)).toString(16).padStart(8, "0");
 }
 
-export const lockDays = (launchDate: string, days: PlayableQuestion[][]): DayLocks => ({
+export const lockDays = (
+  launchDate: string,
+  days: PlayableQuestion[][],
+  segments?: Segment[],
+): DayLocks => ({
   launchDate,
   days: days.map(fingerprint),
+  ...(segments?.length ? { segments } : {}),
 });
 
 /**
@@ -84,6 +91,7 @@ export function lockProblems(
   launchDate: string,
   days: PlayableQuestion[][],
   now: Date,
+  segments?: Segment[],
 ): string[] {
   const problems: string[] = [];
   const latest = latestStartedPuzzle(now, locked.launchDate);
@@ -92,13 +100,31 @@ export function lockProblems(
     return problems;
   }
   const current = days.map(fingerprint);
-  const started = Math.min(latest, locked.days.length);
-  for (let i = 0; i < started; i++) {
+  const pinned = locked.segments ?? [];
+  if (
+    latest >= 1 &&
+    JSON.stringify((segments ?? []).slice(0, pinned.length)) !== JSON.stringify(pinned)
+  ) {
+    problems.push("segments that past overs depend on were changed or removed");
+  }
+  const last = segments?.at(-1);
+  if (last && last.size !== days.length) {
+    problems.push("days were added without content:schedule, so they would never play");
+  }
+  if (!locked.days.length) return problems;
+  const before: Schedule = {
+    launchDate,
+    days: locked.days.map(() => []),
+    segments: locked.segments,
+  };
+  // A day has started if any started over played it; after a loop, days added later haven't.
+  const started = new Set<number>();
+  for (let p = 1; p <= latest; p++) started.add(dayIndex(p, before));
+  for (const i of [...started].sort((a, b) => a - b)) {
     if (current[i] !== locked.days[i]) problems.push(`day ${i + 1} has started and can't change`);
   }
-  if (locked.days.length && current.length) {
-    const before: Schedule = { launchDate, days: locked.days.map(() => []) };
-    const after: Schedule = { launchDate, days: current.map(() => []) };
+  if (current.length) {
+    const after: Schedule = { launchDate, days: current.map(() => []), segments };
     for (let p = Math.max(1, oldestLivePuzzle(now, launchDate)); p <= latest; p++) {
       if (current[dayIndex(p, after)] !== locked.days[dayIndex(p, before)]) {
         problems.push(`over #${p} is live and would get different questions`);
@@ -106,4 +132,30 @@ export function lockProblems(
     }
   }
   return [...new Set(problems)];
+}
+
+/**
+ * Adds days to a schedule without changing any over that has started. If the schedule has
+ * already looped back, a segment makes the next over play the first new day; overs before it keep
+ * the days they played.
+ */
+export function appendDays(schedule: Schedule, newDays: string[][], now: Date): Schedule {
+  // A segment with nothing new in it would skip ahead to day 1.
+  if (newDays.length === 0) return schedule;
+  const next: Schedule = { ...schedule, days: [...schedule.days, ...newDays] };
+  const latest = latestStartedPuzzle(now, schedule.launchDate);
+  if (latest < 1 || schedule.days.length === 0) return next;
+  const nextDay = dayIndex(latest + 1, schedule);
+  let played = false;
+  for (let p = 1; p <= latest && !played; p++) played = dayIndex(p, schedule) === nextDay;
+  // Not looped yet and no segments: plain numbering already carries on into the new days.
+  if (!played && !schedule.segments?.length) return next;
+  const segment: Segment = {
+    from: latest + 1,
+    start: played ? schedule.days.length : nextDay,
+    size: next.days.length,
+  };
+  // The first segment also pins the original numbering, which looped over the old day count.
+  const earlier = schedule.segments ?? [{ from: 1, start: 0, size: schedule.days.length }];
+  return { ...next, segments: [...earlier, segment] };
 }

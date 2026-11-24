@@ -19,13 +19,20 @@ export function puzzleNumber(now: Date, launchDate: string): number {
 export function dayIndex(puzzle: number, schedule: Schedule): number {
   const count = schedule.days.length;
   if (count === 0) throw new Error("Schedule is empty");
-  return (((puzzle - 1) % count) + count) % count;
+  const segment = schedule.segments?.filter((s) => s.from <= puzzle).at(-1);
+  if (!segment) return (((puzzle - 1) % count) + count) % count;
+  const size = Math.min(segment.size, count);
+  return (segment.start + (puzzle - segment.from)) % size;
 }
 
 export function questionIdsFor(puzzle: number, schedule: Schedule): string[] {
   return schedule.days[dayIndex(puzzle, schedule)] ?? [];
 }
 
+/** Whether this puzzle repeats a day an earlier puzzle played. */
 export function scheduleHasWrapped(puzzle: number, schedule: Schedule): boolean {
-  return puzzle > schedule.days.length || puzzle < 1;
+  if (puzzle < 1) return true;
+  const day = dayIndex(puzzle, schedule);
+  for (let p = 1; p < puzzle; p++) if (dayIndex(p, schedule) === day) return true;
+  return false;
 }

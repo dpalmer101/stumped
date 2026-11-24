@@ -4,6 +4,7 @@
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
+import { appendDays } from "../src/engine/locks";
 import { answerKeys, generatedForms, normalise, words } from "../src/engine/match";
 import { computeTiers, rarityScores } from "../src/engine/rarity";
 import { allocate } from "../src/engine/schedule";
@@ -416,9 +417,13 @@ function schedule() {
       Math.floor(unused.length / BALLS_PER_INNINGS),
   );
   const days = allocate(eligible, count, history);
-  current.days.push(...days.map((d) => d.map((q) => q.id)));
+  const extended = appendDays(
+    current,
+    days.map((d) => d.map((q) => q.id)),
+    new Date(),
+  );
   const before = readFileSync(SCHEDULE, "utf8");
-  writeJson(SCHEDULE, current);
+  writeJson(SCHEDULE, extended);
   try {
     lock();
   } catch (e) {
@@ -426,7 +431,7 @@ function schedule() {
     throw e;
   }
   days.forEach((d, i) => {
-    console.log(`Day ${current.days.length - days.length + i + 1}:`);
+    console.log(`Day ${current.days.length + i + 1}:`);
     for (const q of d)
       console.log(`  ${q.answerType.padEnd(10)} [${q.tags.join(", ")}] ${q.prompt}`);
   });

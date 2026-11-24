@@ -105,6 +105,18 @@ export interface Schedule {
   launchDate: string;
   /** Each entry is one day's question ids (one over), in ball order. */
   days: string[][];
+  /**
+   * How overs map to days once days have been added after the schedule looped back. Without
+   * segments, over #N plays day N, looping back to day 1 when the days run out.
+   */
+  segments?: Segment[];
+}
+
+/** From over `from`, play day index `start`, then the next days in order, looping over the first `size`. */
+export interface Segment {
+  from: number;
+  start: number;
+  size: number;
 }
 
 /** One over. */

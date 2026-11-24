@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  appendDays,
   buildDays,
   latestStartedPuzzle,
   lockDays,
@@ -91,6 +92,77 @@ describe("locked days", () => {
   });
 });
 
+describe("adding days", () => {
+  const ids = (n: number) => [`q${n}`];
+  const three = { launchDate: LAUNCH, days: [ids(1), ids(2), ids(3)] };
+
+  it("just appends before the schedule has looped", () => {
+    const now = new Date("2026-11-24T12:00:00Z"); // overs 1-2 started
+    expect(appendDays(three, [ids(4)], now)).toEqual({ ...three, days: [...three.days, ids(4)] });
+  });
+
+  it("after a loop, plays the new days next and leaves started overs alone", () => {
+    // 28 Nov 12:00 UTC: overs up to #6 have started (#4-#6 repeat days 1-3).
+    const now = new Date("2026-11-28T12:00:00Z");
+    const extended = appendDays(three, [ids(4), ids(5)], now);
+    expect(extended.segments).toEqual([
+      { from: 1, start: 0, size: 3 },
+      { from: 7, start: 3, size: 5 },
+    ]);
+    const locked = lockDays(LAUNCH, asDays(three));
+    expect(lockProblems(locked, LAUNCH, asDays(extended), now, extended.segments)).toEqual([]);
+    // Without the segment the same append would change a live over.
+    const naive = { ...three, days: [...three.days, ids(4), ids(5)] };
+    expect(lockProblems(locked, LAUNCH, asDays(naive), now).join()).toMatch(/is live/);
+  });
+
+  const asDays = (s: { days: string[][] }) =>
+    s.days.map((d) => d.map((id) => ({ ...g, prompt: id })));
+
+  it("keeps earlier segments when adding again later, and the locks hold", () => {
+    const first = appendDays(three, [ids(4)], new Date("2026-11-28T12:00:00Z"));
+    // 10 Dec 12:00 UTC: overs up to #18 have started; #18 is a repeat (day 2), so #19 plays day 5.
+    const now = new Date("2026-12-10T12:00:00Z");
+    const later = appendDays(first, [ids(5)], now);
+    expect(later.segments).toEqual([...(first.segments ?? []), { from: 19, start: 4, size: 5 }]);
+    const locked = lockDays(LAUNCH, asDays(first), first.segments);
+    expect(lockProblems(locked, LAUNCH, asDays(later), now, later.segments)).toEqual([]);
+  });
+
+  it("keeps going in order when segments exist but haven't looped", () => {
+    // Day 4 added on 28 Nov plays at #7; on 29 Nov (#7 started) add day 5: #8 plays it.
+    const first = appendDays(three, [ids(4)], new Date("2026-11-28T12:00:00Z"));
+    const later = appendDays(first, [ids(5)], new Date("2026-11-29T12:00:00Z"));
+    expect(later.segments?.at(-1)).toEqual({ from: 8, start: 4, size: 5 });
+  });
+
+  it("adding no days changes nothing", () => {
+    const first = appendDays(three, [ids(4)], new Date("2026-11-28T12:00:00Z"));
+    expect(appendDays(first, [], new Date("2026-11-28T12:00:00Z"))).toBe(first);
+  });
+
+  it("days added after a loop can still be edited until they start", () => {
+    const now = new Date("2026-11-28T12:00:00Z");
+    const extended = appendDays(three, [ids(4), ids(5)], now);
+    const locked = lockDays(LAUNCH, asDays(extended), extended.segments);
+    const edited = { ...extended, days: [...extended.days.slice(0, 4), ["changed"]] };
+    expect(lockProblems(locked, LAUNCH, asDays(edited), now, extended.segments)).toEqual([]);
+  });
+
+  it("refuses removed segments and days added by hand", () => {
+    const now = new Date("2026-12-10T12:00:00Z");
+    const extended = appendDays(three, [ids(4)], new Date("2026-11-28T12:00:00Z"));
+    const locked = lockDays(LAUNCH, asDays(extended), extended.segments);
+    expect(
+      lockProblems(locked, LAUNCH, asDays(extended), now, extended.segments?.slice(1)).join(),
+    ).toMatch(/segments/);
+    const byHand = { ...extended, days: [...extended.days, ids(5)] };
+    expect(lockProblems(locked, LAUNCH, asDays(byHand), now, byHand.segments).join()).toMatch(
+      /without content:schedule/,
+    );
+  });
+});
+
 describe("the real schedule", () => {
   it("builds every day from the pool", async () => {
     const { readDays } = await import("../../tools/days");
@@ -103,7 +175,7 @@ describe("the real schedule", () => {
     const { readDays, readLocks } = await import("../../tools/days");
     const { pool, schedule } = readDays();
     expect(readLocks(schedule.launchDate)).toEqual(
-      lockDays(schedule.launchDate, buildDays(pool, schedule)),
+      lockDays(schedule.launchDate, buildDays(pool, schedule), schedule.segments),
     );
   });
 });

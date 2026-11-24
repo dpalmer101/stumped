@@ -20,7 +20,13 @@ export const readLocks = (launchDate: string): DayLocks =>
 /** Problems with the current days against a set of locks. */
 export function checkAgainst(locked: DayLocks, now = new Date()): string[] {
   const { pool, schedule } = readDays();
-  return lockProblems(locked, schedule.launchDate, buildDays(pool, schedule), now);
+  return lockProblems(
+    locked,
+    schedule.launchDate,
+    buildDays(pool, schedule),
+    now,
+    schedule.segments,
+  );
 }
 
 /** Re-locks every scheduled day, refusing if that would change a day players have had. */
@@ -34,7 +40,7 @@ export function lock(now = new Date()) {
   }
   writeFileSync(
     LOCKS,
-    `${JSON.stringify(lockDays(schedule.launchDate, buildDays(pool, schedule)), null, 2)}\n`,
+    `${JSON.stringify(lockDays(schedule.launchDate, buildDays(pool, schedule), schedule.segments), null, 2)}\n`,
   );
   console.log(`Locked ${schedule.days.length} day(s)`);
 }

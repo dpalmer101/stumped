@@ -180,3 +180,4 @@ the anonymous counts in §1.
 - 2026-11-24: Typo tolerance can't swap a short word: "silly mid-on" no longer counts as "silly mid-off".
 - 2026-11-24: The owner can replay today's over: holding the innings total for 3 s flips it to reveal a reset. Unadvertised; not offered for an earlier day.
 - 2026-11-24: Three easter eggs, none affecting the score: a duck paces back and forth under a total of nought; five quick taps on the far stumps knock the bails off (any time except while a result plays out) ("Howzat!"); typing "Howzat" during a ball is an appeal (shows "Howzat!"), not a guess, though the clock keeps running; tapping the home logo bowls a ball into it and the letters fly off like bails.
+- 2026-11-24: New days can be added after the schedule has looped back: the next over plays the first new day, and overs already started keep theirs (schedule segments).

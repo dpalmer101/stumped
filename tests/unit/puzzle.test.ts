@@ -31,6 +31,31 @@ describe("questionIdsFor", () => {
     expect(scheduleHasWrapped(3, schedule)).toBe(false);
   });
 
+  it("follows segments added after the schedule looped back", () => {
+    // Overs 1-3 played days 1-3, overs 4-5 repeated days 1-2, then days 4-5 were added.
+    const extended: Schedule = {
+      ...schedule,
+      days: [day(1), day(2), day(3), day(4), day(5)],
+      segments: [
+        { from: 1, start: 0, size: 3 },
+        { from: 6, start: 3, size: 5 },
+      ],
+    };
+    expect([1, 2, 3, 4, 5, 6, 7, 8, 9].map((p) => questionIdsFor(p, extended)[0])).toEqual([
+      "d1q0",
+      "d2q0",
+      "d3q0",
+      "d1q0",
+      "d2q0",
+      "d4q0",
+      "d5q0",
+      "d1q0",
+      "d2q0",
+    ]);
+    expect(scheduleHasWrapped(6, extended)).toBe(false);
+    expect(scheduleHasWrapped(8, extended)).toBe(true);
+  });
+
   it("fails loudly on an empty schedule", () => {
     expect(() => questionIdsFor(1, { launchDate: "2026-12-01", days: [] })).toThrow();
   });

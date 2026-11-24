@@ -62,6 +62,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Nearly every question has a few answers a UK fan of county and international cricket since the mid-1990s would know, or answers guessable from geography; teams named after a place accept the place name.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
 - [ ] Every scheduled day has 6 distinct, existing question ids.
+- [ ] Days can be added after the schedule has looped back without changing any started over; the next over plays the first new day. 🤖
 - [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)
 - [ ] Schedule covers at least the next 7 days from launch.
 

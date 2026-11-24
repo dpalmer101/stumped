@@ -197,8 +197,10 @@ it, and finished days are someone's scorecard.
   new days automatically; after editing a future day, run `npm run content:lock`, which refuses
   if a started day would change. Never edit the lock file by hand.
 - Days only get appended. Removing, reordering or moving the launch date fails too.
-- **Schedule new days before the last one plays.** Once the schedule has looped back to day 1,
-  adding days would change which day the live over plays, so it's refused.
+- **Days can be added at any time, even after the schedule has looped back to day 1.**
+  `content:schedule` adds them with `appendDays`: if the loop has started, it records a segment
+  in `schedule.json` so the next over plays the first new day, and every over that has started
+  keeps the day it played. Don't edit `segments` by hand.
 - A day counts as started an hour before UTC+14 reaches it, to cover the time a deploy takes.
 - The build publishes the locks with the site, and CI checks every push and pull request
   against the live site's locks (`npm run content:check-pushed`). So a failed push, a

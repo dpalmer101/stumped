@@ -1,6 +1,5 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { puzzleNumber } from "../../src/engine/puzzle";
 import type { Question, Schedule } from "../../src/engine/types";
 import { validateBank, validateContent } from "../../src/engine/validate";
 
@@ -20,9 +19,9 @@ describe("question bank", () => {
     expect(questions.filter((q) => scheduled.has(q.id)).flatMap(validateContent)).toEqual([]);
   });
 
-  it("covers today's puzzle", () => {
-    expect(schedule.days.length).toBeGreaterThanOrEqual(
-      puzzleNumber(new Date(), schedule.launchDate),
-    );
+  it("has at least a week scheduled", () => {
+    // Running out never stops the game (it loops back to day 1), so this isn't tied to today's
+    // date: a schedule that runs out shouldn't block unrelated deploys.
+    expect(schedule.days.length).toBeGreaterThanOrEqual(7);
   });
 });

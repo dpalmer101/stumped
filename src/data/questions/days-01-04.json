@@ -4475,7 +4475,7 @@
     "answers": [
       {
         "name": "Muttiah Muralitharan",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "murali",
           "muralidaran"
@@ -4484,7 +4484,8 @@
           "wiki": "Muttiah Muralitharan",
           "date": "2026-11-24",
           "key": "y4mwxy"
-        }
+        },
+        "views": 241573
       },
       {
         "name": "Shane Warne",
@@ -4496,11 +4497,12 @@
         },
         "aliases": [
           "Warney"
-        ]
+        ],
+        "views": 715790
       },
       {
         "name": "James Anderson",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "jimmy anderson",
           "Jimmy"
@@ -4510,11 +4512,12 @@
           "wiki": "James Anderson (cricketer)",
           "date": "2026-11-24",
           "key": "cszvl0"
-        }
+        },
+        "views": 249104
       },
       {
         "name": "Anil Kumble",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Anil Kumble",
           "date": "2026-11-24",
@@ -4522,7 +4525,8 @@
         },
         "aliases": [
           "Jumbo"
-        ]
+        ],
+        "views": 220942
       },
       {
         "name": "Stuart Broad",
@@ -4534,11 +4538,12 @@
         },
         "aliases": [
           "Broady"
-        ]
+        ],
+        "views": 283903
       },
       {
         "name": "Glenn McGrath",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Glenn McGrath",
           "date": "2026-11-24",
@@ -4546,20 +4551,22 @@
         },
         "aliases": [
           "Pigeon"
-        ]
+        ],
+        "views": 246237
       },
       {
         "name": "Nathan Lyon",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Nathan Lyon",
           "date": "2026-11-24",
           "key": "zdnbem"
-        }
+        },
+        "views": 218028
       },
       {
         "name": "Ravichandran Ashwin",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "r ashwin"
         ],
@@ -4568,16 +4575,18 @@
           "wiki": "Ravichandran Ashwin",
           "date": "2026-11-24",
           "key": "1t9wykp"
-        }
+        },
+        "views": 228075
       },
       {
         "name": "Courtney Walsh",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Courtney Walsh",
           "date": "2026-11-24",
           "key": "2l3wdo"
-        }
+        },
+        "views": 97702
       },
       {
         "name": "Dale Steyn",
@@ -4589,11 +4598,12 @@
         },
         "aliases": [
           "Steyn Gun"
-        ]
+        ],
+        "views": 156800
       },
       {
         "name": "Kapil Dev",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Kapil Dev",
           "date": "2026-11-24",
@@ -4602,11 +4612,12 @@
         "aliases": [
           "Kapil",
           "Haryana Hurricane"
-        ]
+        ],
+        "views": 358828
       },
       {
         "name": "Richard Hadlee",
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Richard Hadlee",
           "date": "2026-11-24",
@@ -4614,11 +4625,12 @@
         },
         "aliases": [
           "Paddles"
-        ]
+        ],
+        "views": 79806
       },
       {
         "name": "Wasim Akram",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Wasim Akram",
           "date": "2026-11-24",
@@ -4626,20 +4638,22 @@
         },
         "aliases": [
           "Wasim"
-        ]
+        ],
+        "views": 353947
       },
       {
         "name": "Curtly Ambrose",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Curtly Ambrose",
           "date": "2026-11-24",
           "key": "1hw5i1s"
-        }
+        },
+        "views": 119396
       },
       {
         "name": "Mitchell Starc",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Mitchell Starc",
           "date": "2026-11-24",
@@ -4647,11 +4661,12 @@
         },
         "aliases": [
           "Mitch Starc"
-        ]
+        ],
+        "views": 645734
       },
       {
         "name": "Harbhajan Singh",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "harbhajan",
           "bhajji"
@@ -4660,11 +4675,12 @@
           "wiki": "Harbhajan Singh",
           "date": "2026-11-24",
           "key": "15el4s7"
-        }
+        },
+        "views": 292516
       },
       {
         "name": "Ian Botham",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Ian Botham",
           "date": "2026-11-24",
@@ -4672,20 +4688,22 @@
         },
         "aliases": [
           "Beefy"
-        ]
+        ],
+        "views": 291664
       },
       {
         "name": "Pat Cummins",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Pat Cummins",
           "date": "2026-11-24",
           "key": "1r7578j"
-        }
+        },
+        "views": 354518
       },
       {
         "name": "Ravindra Jadeja",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Ravindra Jadeja",
           "date": "2026-11-24",
@@ -4693,7 +4711,8 @@
         },
         "aliases": [
           "Jaddu"
-        ]
+        ],
+        "views": 552124
       },
       {
         "name": "Waqar Younis",
@@ -4702,11 +4721,12 @@
           "wiki": "Waqar Younis",
           "date": "2026-11-24",
           "key": "ip915j"
-        }
+        },
+        "views": 171955
       },
       {
         "name": "Malcolm Marshall",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Malcolm Marshall",
           "date": "2026-11-24",
@@ -4714,16 +4734,18 @@
         },
         "aliases": [
           "Macko"
-        ]
+        ],
+        "views": 119684
       },
       {
         "name": "Rangana Herath",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Rangana Herath",
           "date": "2026-11-24",
           "key": "wcqsm0"
-        }
+        },
+        "views": 33688
       },
       {
         "name": "Shaun Pollock",
@@ -4732,29 +4754,32 @@
           "wiki": "Shaun Pollock",
           "date": "2026-11-24",
           "key": "12k9chl"
-        }
+        },
+        "views": 86633
       },
       {
         "name": "Tim Southee",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Tim Southee",
           "date": "2026-11-24",
           "key": "1876peh"
-        }
+        },
+        "views": 74727
       },
       {
         "name": "Makhaya Ntini",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Makhaya Ntini",
           "date": "2026-11-24",
           "key": "1hk180w"
-        }
+        },
+        "views": 46043
       },
       {
         "name": "Imran Khan",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Imran Khan",
           "date": "2026-11-24",
@@ -4762,7 +4787,8 @@
         },
         "aliases": [
           "Imran"
-        ]
+        ],
+        "views": 2214837
       },
       {
         "name": "Daniel Vettori",
@@ -4774,7 +4800,8 @@
         },
         "aliases": [
           "Dan Vettori"
-        ]
+        ],
+        "views": 102290
       },
       {
         "name": "Dennis Lillee",
@@ -4783,29 +4810,32 @@
           "wiki": "Dennis Lillee",
           "date": "2026-11-24",
           "key": "12loif2"
-        }
+        },
+        "views": 101434
       },
       {
         "name": "Chaminda Vaas",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Chaminda Vaas",
           "date": "2026-11-24",
           "key": "1nidzlw"
-        }
+        },
+        "views": 78478
       },
       {
         "name": "Kagiso Rabada",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Kagiso Rabada",
           "date": "2026-11-24",
           "key": "tcd7np"
-        }
+        },
+        "views": 157710
       },
       {
         "name": "Allan Donald",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Allan Donald",
           "date": "2026-11-24",
@@ -4813,7 +4843,8 @@
         },
         "aliases": [
           "White Lightning"
-        ]
+        ],
+        "views": 71666
       },
       {
         "name": "Trent Boult",
@@ -4825,11 +4856,12 @@
         },
         "misspellings": [
           "Bolt"
-        ]
+        ],
+        "views": 101635
       },
       {
         "name": "Brett Lee",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Brett Lee",
           "date": "2026-11-24",
@@ -4837,11 +4869,12 @@
         },
         "aliases": [
           "Bing"
-        ]
+        ],
+        "views": 197296
       },
       {
         "name": "Zaheer Khan",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Zaheer Khan",
           "date": "2026-11-24",
@@ -4850,7 +4883,8 @@
         "aliases": [
           "Zaheer",
           "Zak"
-        ]
+        ],
+        "views": 250095
       },
       {
         "name": "Mitchell Johnson",
@@ -4863,16 +4897,18 @@
         },
         "aliases": [
           "Mitch Johnson"
-        ]
+        ],
+        "views": 114545
       },
       {
         "name": "Josh Hazlewood",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Josh Hazlewood",
           "date": "2026-11-24",
           "key": "1be9tr1"
-        }
+        },
+        "views": 204229
       },
       {
         "name": "Bob Willis",
@@ -4881,11 +4917,12 @@
           "wiki": "Bob Willis",
           "date": "2026-11-24",
           "key": "mt1qe9"
-        }
+        },
+        "views": 55217
       },
       {
         "name": "Ishant Sharma",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Ishant Sharma",
           "date": "2026-11-24",
@@ -4893,17 +4930,19 @@
         },
         "aliases": [
           "Lambu"
-        ]
+        ],
+        "views": 121099
       },
       {
         "name": "Morne Morkel",
-        "tier": "six",
+        "tier": "four",
         "wiki": "Morné Morkel",
         "verified": {
           "wiki": "Morné Morkel",
           "date": "2026-11-24",
           "key": "11m9gar"
-        }
+        },
+        "views": 104922
       },
       {
         "name": "Fred Trueman",
@@ -4916,16 +4955,18 @@
           "wiki": "Fred Trueman",
           "date": "2026-11-24",
           "key": "1lotj02"
-        }
+        },
+        "views": 56313
       },
       {
         "name": "Kemar Roach",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Kemar Roach",
           "date": "2026-11-24",
           "key": "3ff4pt"
-        }
+        },
+        "views": 90456
       },
       {
         "name": "Lance Gibbs",
@@ -4934,7 +4975,8 @@
           "wiki": "Lance Gibbs",
           "date": "2026-11-24",
           "key": "11e1p5s"
-        }
+        },
+        "views": 27419
       }
     ],
     "tags": [
@@ -4964,7 +5006,8 @@
           "wiki": "Lord's",
           "date": "2026-11-24",
           "key": "7kpv7d"
-        }
+        },
+        "views": 149180
       },
       {
         "name": "The Oval",
@@ -4979,7 +5022,8 @@
           "wiki": "The Oval",
           "date": "2026-11-24",
           "key": "1i0tnbw"
-        }
+        },
+        "views": 117145
       },
       {
         "name": "Old Trafford",
@@ -4993,11 +5037,12 @@
           "wiki": "Old Trafford Cricket Ground",
           "date": "2026-11-24",
           "key": "x80gtv"
-        }
+        },
+        "views": 64941
       },
       {
         "name": "Edgbaston",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "birmingham"
         ],
@@ -5006,11 +5051,12 @@
           "wiki": "Edgbaston Cricket Ground",
           "date": "2026-11-24",
           "key": "x96ze4"
-        }
+        },
+        "views": 42934
       },
       {
         "name": "Headingley",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "leeds"
         ],
@@ -5019,7 +5065,8 @@
           "wiki": "Headingley Cricket Ground",
           "date": "2026-11-24",
           "key": "114m4hz"
-        }
+        },
+        "views": 34129
       },
       {
         "name": "Trent Bridge",
@@ -5031,11 +5078,12 @@
           "wiki": "Trent Bridge",
           "date": "2026-11-24",
           "key": "1mosqvc"
-        }
+        },
+        "views": 44633
       },
       {
         "name": "Rose Bowl",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "ageas bowl",
           "utilita bowl",
@@ -5047,7 +5095,8 @@
           "wiki": "Rose Bowl (cricket ground)",
           "date": "2026-11-24",
           "key": "1djn8id"
-        }
+        },
+        "views": 49760
       },
       {
         "name": "Sophia Gardens",
@@ -5062,7 +5111,8 @@
           "wiki": "Sophia Gardens (cricket ground)",
           "date": "2026-11-24",
           "key": "tux9i5"
-        }
+        },
+        "views": 30221
       },
       {
         "name": "Riverside Ground",
@@ -5078,7 +5128,8 @@
           "wiki": "Riverside Ground",
           "date": "2026-11-24",
           "key": "9ntyo9"
-        }
+        },
+        "views": 33673
       },
       {
         "name": "Bristol",
@@ -5093,11 +5144,12 @@
           "wiki": "Bristol County Ground",
           "date": "2026-11-24",
           "key": "3smg8c"
-        }
+        },
+        "views": 22391
       },
       {
         "name": "Taunton",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "cooper associates county ground"
         ],
@@ -5106,11 +5158,12 @@
           "wiki": "County Ground, Taunton",
           "date": "2026-11-24",
           "key": "ofhngl"
-        }
+        },
+        "views": 14861
       },
       {
         "name": "Chelmsford",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "cloudfm county ground"
         ],
@@ -5119,11 +5172,12 @@
           "wiki": "List of One Day International cricket grounds",
           "date": "2026-11-24",
           "key": "633ura"
-        }
+        },
+        "views": 4935
       },
       {
         "name": "Canterbury",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "st lawrence ground",
           "spitfire ground"
@@ -5133,7 +5187,8 @@
           "wiki": "St Lawrence Ground",
           "date": "2026-11-24",
           "key": "7xvdqq"
-        }
+        },
+        "views": 14888
       },
       {
         "name": "Hove",
@@ -5146,7 +5201,8 @@
           "wiki": "County Cricket Ground, Hove",
           "date": "2026-11-24",
           "key": "165u4dw"
-        }
+        },
+        "views": 11561
       },
       {
         "name": "Northampton",
@@ -5159,7 +5215,8 @@
           "wiki": "County Cricket Ground, Northampton",
           "date": "2026-11-24",
           "key": "6tyd44"
-        }
+        },
+        "views": 11314
       },
       {
         "name": "Leicester",
@@ -5172,11 +5229,12 @@
           "wiki": "Grace Road",
           "date": "2026-11-24",
           "key": "14u817w"
-        }
+        },
+        "views": 10562
       },
       {
         "name": "Worcester",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "new road"
         ],
@@ -5185,7 +5243,8 @@
           "wiki": "List of One Day International cricket grounds",
           "date": "2026-11-24",
           "key": "nvrg5m"
-        }
+        },
+        "views": 4935
       },
       {
         "name": "Derby",
@@ -5199,7 +5258,8 @@
           "wiki": "County Cricket Ground, Derby",
           "date": "2026-11-24",
           "key": "v18pnq"
-        }
+        },
+        "views": 11540
       },
       {
         "name": "Scarborough",
@@ -5212,11 +5272,12 @@
           "wiki": "List of One Day International cricket grounds",
           "date": "2026-11-24",
           "key": "ejlszg"
-        }
+        },
+        "views": 4935
       },
       {
         "name": "Tunbridge Wells",
-        "tier": "six",
+        "tier": "ootg",
         "aliases": [
           "nevill ground",
           "royal tunbridge wells"
@@ -5226,7 +5287,8 @@
           "wiki": "Nevill Ground",
           "date": "2026-11-24",
           "key": "kglao1"
-        }
+        },
+        "views": 4402
       },
       {
         "name": "Northlands Road",
@@ -5239,11 +5301,12 @@
           "wiki": "County Ground, Southampton",
           "date": "2026-11-24",
           "key": "1lzzx5n"
-        }
+        },
+        "views": 5961
       },
       {
         "name": "St Helen's",
-        "tier": "ootg",
+        "tier": "four",
         "aliases": [
           "swansea",
           "st helens swansea"
@@ -5253,7 +5316,8 @@
           "wiki": "St Helen's Rugby and Cricket Ground",
           "date": "2026-11-24",
           "key": "17moow4"
-        }
+        },
+        "views": 10656
       }
     ],
     "tags": [
@@ -5280,11 +5344,12 @@
           "wiki": "Ireland cricket team",
           "date": "2026-11-24",
           "key": "1t8a6jo"
-        }
+        },
+        "views": 96730
       },
       {
         "name": "Netherlands",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "holland"
         ],
@@ -5293,11 +5358,12 @@
           "wiki": "Netherlands national cricket team",
           "date": "2026-11-24",
           "key": "iev0wa"
-        }
+        },
+        "views": 71942
       },
       {
         "name": "Scotland",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Scotland national cricket team",
         "verified": {
           "wiki": "Scotland national cricket team",
@@ -5306,7 +5372,8 @@
         },
         "aliases": [
           "Saltires"
-        ]
+        ],
+        "views": 57727
       },
       {
         "name": "Zimbabwe",
@@ -5319,27 +5386,30 @@
         },
         "aliases": [
           "Chevrons"
-        ]
+        ],
+        "views": 192592
       },
       {
         "name": "Kenya",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Kenya national cricket team",
         "verified": {
           "wiki": "Kenya national cricket team",
           "date": "2026-11-24",
           "key": "6fqpoy"
-        }
+        },
+        "views": 46608
       },
       {
         "name": "Afghanistan",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Afghanistan national cricket team",
         "verified": {
           "wiki": "Afghanistan national cricket team",
           "date": "2026-11-24",
           "key": "791p2y"
-        }
+        },
+        "views": 169500
       },
       {
         "name": "United Arab Emirates",
@@ -5352,11 +5422,12 @@
           "wiki": "United Arab Emirates national cricket team",
           "date": "2026-11-24",
           "key": "1m3cf07"
-        }
+        },
+        "views": 50809
       },
       {
         "name": "West Indies",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "windies",
           "WI"
@@ -5366,11 +5437,12 @@
           "wiki": "West Indies cricket team",
           "date": "2026-11-24",
           "key": "23xjpx"
-        }
+        },
+        "views": 433303
       },
       {
         "name": "Sri Lanka",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Sri Lanka national cricket team",
         "verified": {
           "wiki": "Sri Lanka national cricket team",
@@ -5380,11 +5452,12 @@
         "aliases": [
           "Lions",
           "SL"
-        ]
+        ],
+        "views": 358735
       },
       {
         "name": "Bangladesh",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Bangladesh national cricket team",
         "verified": {
           "wiki": "Bangladesh national cricket team",
@@ -5394,7 +5467,8 @@
         "aliases": [
           "Tigers",
           "Bangla Tigers"
-        ]
+        ],
+        "views": 187675
       },
       {
         "name": "Canada",
@@ -5404,7 +5478,8 @@
           "wiki": "Canada national cricket team",
           "date": "2026-11-24",
           "key": "1kxpuwi"
-        }
+        },
+        "views": 54093
       },
       {
         "name": "Namibia",
@@ -5417,11 +5492,12 @@
         },
         "aliases": [
           "Eagles"
-        ]
+        ],
+        "views": 82011
       },
       {
         "name": "United States",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "usa",
           "united states of america",
@@ -5432,27 +5508,30 @@
           "wiki": "United States national cricket team",
           "date": "2026-11-24",
           "key": "2y3t0z"
-        }
+        },
+        "views": 186106
       },
       {
         "name": "Nepal",
-        "tier": "four",
+        "tier": "single",
         "wiki": "Nepal national cricket team",
         "verified": {
           "wiki": "Nepal national cricket team",
           "date": "2026-11-24",
           "key": "10ts1ya"
-        }
+        },
+        "views": 102790
       },
       {
         "name": "Oman",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Oman national cricket team",
         "verified": {
           "wiki": "Oman national cricket team",
           "date": "2026-11-24",
           "key": "162tjb6"
-        }
+        },
+        "views": 32494
       },
       {
         "name": "Hong Kong",
@@ -5462,7 +5541,8 @@
           "wiki": "Hong Kong national cricket team",
           "date": "2026-11-24",
           "key": "yrx2v8"
-        }
+        },
+        "views": 21135
       },
       {
         "name": "Papua New Guinea",
@@ -5476,7 +5556,8 @@
           "wiki": "Papua New Guinea national cricket team",
           "date": "2026-11-24",
           "key": "124ow27"
-        }
+        },
+        "views": 17699
       },
       {
         "name": "Bermuda",
@@ -5486,17 +5567,19 @@
           "wiki": "Bermuda national cricket team",
           "date": "2026-11-24",
           "key": "1dwuh42"
-        }
+        },
+        "views": 18850
       },
       {
         "name": "Denmark",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Denmark national cricket team",
         "verified": {
           "wiki": "Denmark national cricket team",
           "date": "2026-11-24",
           "key": "10mzy8a"
-        }
+        },
+        "views": 11493
       },
       {
         "name": "Uganda",
@@ -5506,7 +5589,8 @@
           "wiki": "Uganda national cricket team",
           "date": "2026-11-24",
           "key": "bwgp42"
-        }
+        },
+        "views": 17648
       },
       {
         "name": "Malaysia",
@@ -5516,7 +5600,8 @@
           "wiki": "Malaysia national cricket team",
           "date": "2026-11-24",
           "key": "1gk1yi2"
-        }
+        },
+        "views": 15870
       },
       {
         "name": "Singapore",
@@ -5526,7 +5611,8 @@
           "wiki": "Singapore national cricket team",
           "date": "2026-11-24",
           "key": "1h6f1u2"
-        }
+        },
+        "views": 14296
       },
       {
         "name": "Fiji",
@@ -5536,17 +5622,19 @@
           "wiki": "Fiji national cricket team",
           "date": "2026-11-24",
           "key": "1remskq"
-        }
+        },
+        "views": 5481
       },
       {
         "name": "Argentina",
-        "tier": "six",
+        "tier": "two",
         "wiki": "Argentina national cricket team",
         "verified": {
           "wiki": "Argentina national cricket team",
           "date": "2026-11-24",
           "key": "1r00zuc"
-        }
+        },
+        "views": 27488
       },
       {
         "name": "Israel",
@@ -5556,27 +5644,30 @@
           "wiki": "Israel national cricket team",
           "date": "2026-11-24",
           "key": "18rso2"
-        }
+        },
+        "views": 14901
       },
       {
         "name": "Italy",
-        "tier": "six",
+        "tier": "single",
         "wiki": "Italy national cricket team",
         "verified": {
           "wiki": "Italy national cricket team",
           "date": "2026-11-24",
           "key": "1thlw6c"
-        }
+        },
+        "views": 175847
       },
       {
         "name": "Germany",
-        "tier": "six",
+        "tier": "two",
         "wiki": "Germany national cricket team",
         "verified": {
           "wiki": "Germany national cricket team",
           "date": "2026-11-24",
           "key": "hlgvkk"
-        }
+        },
+        "views": 23231
       },
       {
         "name": "Gibraltar",
@@ -5586,57 +5677,63 @@
           "wiki": "Gibraltar national cricket team",
           "date": "2026-11-24",
           "key": "1ya7p6a"
-        }
+        },
+        "views": 4860
       },
       {
         "name": "France",
-        "tier": "six",
+        "tier": "four",
         "wiki": "France national cricket team",
         "verified": {
           "wiki": "France national cricket team",
           "date": "2026-11-24",
           "key": "1l8m4lq"
-        }
+        },
+        "views": 16132
       },
       {
         "name": "East Africa",
-        "tier": "six",
+        "tier": "four",
         "wiki": "East Africa cricket team",
         "verified": {
           "wiki": "East Africa cricket team",
           "date": "2026-11-24",
           "key": "n0vqee"
-        }
+        },
+        "views": 15922
       },
       {
         "name": "West Africa",
-        "tier": "six",
+        "tier": "ootg",
         "wiki": "West Africa cricket team",
         "verified": {
           "wiki": "West Africa cricket team",
           "date": "2026-11-24",
           "key": "10ag5ye"
-        }
+        },
+        "views": 1708
       },
       {
         "name": "Wales",
-        "tier": "six",
+        "tier": "four",
         "wiki": "Wales national cricket team",
         "verified": {
           "wiki": "Wales national cricket team",
           "date": "2026-11-24",
           "key": "1tfdwgi"
-        }
+        },
+        "views": 15420
       },
       {
         "name": "East and Central Africa",
-        "tier": "ootg",
+        "tier": "six",
         "wiki": "East and Central Africa cricket team",
         "verified": {
           "wiki": "East and Central Africa cricket team",
           "date": "2026-11-24",
           "key": "ydxkh6"
-        }
+        },
+        "views": 3195
       }
     ],
     "tags": [
@@ -5666,7 +5763,8 @@
           "Sachin",
           "Little Master",
           "Master Blaster"
-        ]
+        ],
+        "views": 1597040
       },
       {
         "name": "Virat Kohli",
@@ -5678,11 +5776,12 @@
         },
         "aliases": [
           "King Kohli"
-        ]
+        ],
+        "views": 3396194
       },
       {
         "name": "Ricky Ponting",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Ricky Ponting",
           "date": "2026-11-24",
@@ -5690,11 +5789,12 @@
         },
         "aliases": [
           "Punter"
-        ]
+        ],
+        "views": 307290
       },
       {
         "name": "Brian Lara",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Brian Lara",
           "date": "2026-11-24",
@@ -5702,11 +5802,12 @@
         },
         "misspellings": [
           "Bryan Lara"
-        ]
+        ],
+        "views": 287587
       },
       {
         "name": "Jacques Kallis",
-        "tier": "single",
+        "tier": "four",
         "verified": {
           "wiki": "Jacques Kallis",
           "date": "2026-11-24",
@@ -5714,7 +5815,8 @@
         },
         "aliases": [
           "Jakes"
-        ]
+        ],
+        "views": 251973
       },
       {
         "name": "Rahul Dravid",
@@ -5726,11 +5828,12 @@
         },
         "aliases": [
           "The Wall"
-        ]
+        ],
+        "views": 357352
       },
       {
         "name": "Kumar Sangakkara",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Kumar Sangakkara",
           "date": "2026-11-24",
@@ -5738,11 +5841,12 @@
         },
         "aliases": [
           "Sanga"
-        ]
+        ],
+        "views": 238897
       },
       {
         "name": "Alastair Cook",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Alastair Cook",
           "date": "2026-11-24",
@@ -5750,20 +5854,22 @@
         },
         "aliases": [
           "Chef"
-        ]
+        ],
+        "views": 228267
       },
       {
         "name": "Joe Root",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Joe Root",
           "date": "2026-11-24",
           "key": "s2j2k2"
-        }
+        },
+        "views": 1183603
       },
       {
         "name": "MS Dhoni",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "mahendra singh dhoni",
           "Mahi",
@@ -5774,11 +5880,12 @@
           "wiki": "MS Dhoni",
           "date": "2026-11-24",
           "key": "6w4f2"
-        }
+        },
+        "views": 1256871
       },
       {
         "name": "Rohit Sharma",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Rohit Sharma",
           "date": "2026-11-24",
@@ -5786,7 +5893,8 @@
         },
         "aliases": [
           "Hitman"
-        ]
+        ],
+        "views": 1247259
       },
       {
         "name": "Chris Gayle",
@@ -5798,11 +5906,12 @@
         },
         "aliases": [
           "Universe Boss"
-        ]
+        ],
+        "views": 289548
       },
       {
         "name": "Mahela Jayawardene",
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Mahela Jayawardene",
           "date": "2026-11-24",
@@ -5810,7 +5919,8 @@
         },
         "aliases": [
           "Mahela"
-        ]
+        ],
+        "views": 110336
       },
       {
         "name": "Sanath Jayasuriya",
@@ -5819,11 +5929,12 @@
           "wiki": "Sanath Jayasuriya",
           "date": "2026-11-24",
           "key": "1xn7qv7"
-        }
+        },
+        "views": 170095
       },
       {
         "name": "Sourav Ganguly",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Sourav Ganguly",
           "date": "2026-11-24",
@@ -5831,11 +5942,12 @@
         },
         "aliases": [
           "Dada"
-        ]
+        ],
+        "views": 360343
       },
       {
         "name": "Inzamam-ul-Haq",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "inzamam",
           "inzi"
@@ -5844,20 +5956,22 @@
           "wiki": "Inzamam-ul-Haq",
           "date": "2026-11-24",
           "key": "ppu4or"
-        }
+        },
+        "views": 139576
       },
       {
         "name": "Sunil Gavaskar",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Sunil Gavaskar",
           "date": "2026-11-24",
           "key": "ly4dwh"
-        }
+        },
+        "views": 313549
       },
       {
         "name": "Steve Smith",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "steven smith",
           "Smudge"
@@ -5867,7 +5981,8 @@
           "wiki": "Steve Smith (cricketer)",
           "date": "2026-11-24",
           "key": "j3jgmh"
-        }
+        },
+        "views": 619131
       },
       {
         "name": "Steve Waugh",
@@ -5880,11 +5995,12 @@
           "wiki": "Steve Waugh",
           "date": "2026-11-24",
           "key": "avgz2m"
-        }
+        },
+        "views": 170441
       },
       {
         "name": "Allan Border",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Allan Border",
           "date": "2026-11-24",
@@ -5892,16 +6008,18 @@
         },
         "aliases": [
           "AB"
-        ]
+        ],
+        "views": 92271
       },
       {
         "name": "Shivnarine Chanderpaul",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Shivnarine Chanderpaul",
           "date": "2026-11-24",
           "key": "zlkgbs"
-        }
+        },
+        "views": 203630
       },
       {
         "name": "Younis Khan",
@@ -5913,7 +6031,8 @@
           "wiki": "Younis Khan",
           "date": "2026-11-24",
           "key": "6573g0"
-        }
+        },
+        "views": 92185
       },
       {
         "name": "Tillakaratne Dilshan",
@@ -5925,7 +6044,8 @@
           "wiki": "Tillakaratne Dilshan",
           "date": "2026-11-24",
           "key": "6kndav"
-        }
+        },
+        "views": 87103
       }
     ],
     "tags": [
@@ -5959,7 +6079,8 @@
           "wiki": "Mumbai cricket team",
           "date": "2026-11-24",
           "key": "1m57l5b"
-        }
+        },
+        "views": 71091
       },
       {
         "name": "Karnataka",
@@ -5972,17 +6093,19 @@
           "wiki": "Karnataka cricket team",
           "date": "2026-11-24",
           "key": "1801bm2"
-        }
+        },
+        "views": 44770
       },
       {
         "name": "Delhi",
-        "tier": "single",
+        "tier": "two",
         "wiki": "Delhi cricket team",
         "verified": {
           "wiki": "Delhi cricket team",
           "date": "2026-11-24",
           "key": "urc8ql"
-        }
+        },
+        "views": 43256
       },
       {
         "name": "Tamil Nadu",
@@ -5995,7 +6118,8 @@
           "wiki": "Tamil Nadu cricket team",
           "date": "2026-11-24",
           "key": "bbz9zl"
-        }
+        },
+        "views": 41321
       },
       {
         "name": "Baroda",
@@ -6005,7 +6129,8 @@
           "wiki": "Baroda cricket team",
           "date": "2026-11-24",
           "key": "e0gc9d"
-        }
+        },
+        "views": 34749
       },
       {
         "name": "Bengal",
@@ -6015,17 +6140,19 @@
           "wiki": "Bengal cricket team",
           "date": "2026-11-24",
           "key": "oju361"
-        }
+        },
+        "views": 31780
       },
       {
         "name": "Hyderabad",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Hyderabad cricket team",
         "verified": {
           "wiki": "Hyderabad cricket team",
           "date": "2026-11-24",
           "key": "bkz1dl"
-        }
+        },
+        "views": 29085
       },
       {
         "name": "Madhya Pradesh",
@@ -6038,47 +6165,52 @@
           "wiki": "Madhya Pradesh cricket team",
           "date": "2026-11-24",
           "key": "1q0fkrk"
-        }
+        },
+        "views": 29830
       },
       {
         "name": "Vidarbha",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Vidarbha cricket team",
         "verified": {
           "wiki": "Vidarbha cricket team",
           "date": "2026-11-24",
           "key": "lqpnux"
-        }
+        },
+        "views": 50690
       },
       {
         "name": "Saurashtra",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Saurashtra cricket team",
         "verified": {
           "wiki": "Saurashtra cricket team",
           "date": "2026-11-24",
           "key": "yflhpl"
-        }
+        },
+        "views": 29319
       },
       {
         "name": "Rajasthan",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Rajasthan cricket team",
         "verified": {
           "wiki": "Rajasthan cricket team",
           "date": "2026-11-24",
           "key": "xyq61h"
-        }
+        },
+        "views": 23210
       },
       {
         "name": "Railways",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Railways cricket team",
         "verified": {
           "wiki": "Railways cricket team",
           "date": "2026-11-24",
           "key": "1vfrk1l"
-        }
+        },
+        "views": 25488
       },
       {
         "name": "Maharashtra",
@@ -6088,31 +6220,34 @@
           "wiki": "Maharashtra cricket team",
           "date": "2026-11-24",
           "key": "xfmfw1"
-        }
+        },
+        "views": 25516
       },
       {
         "name": "Haryana",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Haryana cricket team",
         "verified": {
           "wiki": "Haryana cricket team",
           "date": "2026-11-24",
           "key": "5wlnqx"
-        }
+        },
+        "views": 17274
       },
       {
         "name": "Punjab",
-        "tier": "four",
+        "tier": "single",
         "wiki": "Punjab cricket team",
         "verified": {
           "wiki": "Ranji Trophy",
           "date": "2026-11-24",
           "key": "1rrn8qh"
-        }
+        },
+        "views": 371665
       },
       {
         "name": "Uttar Pradesh",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "up"
         ],
@@ -6121,7 +6256,8 @@
           "wiki": "Uttar Pradesh cricket team",
           "date": "2026-11-24",
           "key": "11qag9c"
-        }
+        },
+        "views": 30712
       },
       {
         "name": "Gujarat",
@@ -6131,11 +6267,12 @@
           "wiki": "Gujarat cricket team",
           "date": "2026-11-24",
           "key": "itrtk9"
-        }
+        },
+        "views": 25987
       },
       {
         "name": "Jammu and Kashmir",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "j&k",
           "kashmir"
@@ -6145,17 +6282,19 @@
           "wiki": "Jammu and Kashmir cricket team",
           "date": "2026-11-24",
           "key": "1f7g3bf"
-        }
+        },
+        "views": 48925
       },
       {
         "name": "Holkar",
-        "tier": "six",
+        "tier": "four",
         "wiki": "Holkar cricket team",
         "verified": {
           "wiki": "Madhya Pradesh cricket team",
           "date": "2026-11-24",
           "key": "5z14mh"
-        }
+        },
+        "views": 29830
       },
       {
         "name": "Nawanagar",
@@ -6165,7 +6304,8 @@
           "wiki": "Nawanagar cricket team",
           "date": "2026-11-24",
           "key": "1kqxkwp"
-        }
+        },
+        "views": 4656
       },
       {
         "name": "Western India",
@@ -6175,7 +6315,8 @@
           "wiki": "Western India cricket team",
           "date": "2026-11-24",
           "key": "1tyznmn"
-        }
+        },
+        "views": 2165
       }
     ],
     "tags": [
@@ -6201,7 +6342,8 @@
           "wiki": "Lasith Malinga",
           "date": "2026-11-24",
           "key": "6kljrt"
-        }
+        },
+        "views": 159720
       },
       {
         "name": "Wasim Akram",
@@ -6213,7 +6355,8 @@
         },
         "aliases": [
           "Wasim"
-        ]
+        ],
+        "views": 353947
       },
       {
         "name": "Kuldeep Yadav",
@@ -6222,7 +6365,8 @@
           "wiki": "Kuldeep Yadav",
           "date": "2026-11-24",
           "key": "fviuy2"
-        }
+        },
+        "views": 254071
       },
       {
         "name": "Mohammed Shami",
@@ -6234,7 +6378,8 @@
           "wiki": "Mohammed Shami",
           "date": "2026-11-24",
           "key": "5pip8n"
-        }
+        },
+        "views": 288476
       },
       {
         "name": "Brett Lee",
@@ -6246,7 +6391,8 @@
         },
         "aliases": [
           "Bing"
-        ]
+        ],
+        "views": 197296
       },
       {
         "name": "Trent Boult",
@@ -6258,20 +6404,22 @@
         },
         "misspellings": [
           "Bolt"
-        ]
+        ],
+        "views": 101635
       },
       {
         "name": "Waqar Younis",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Waqar Younis",
           "date": "2026-11-24",
           "key": "k0unky"
-        }
+        },
+        "views": 171955
       },
       {
         "name": "Saqlain Mushtaq",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Saqlain Mushtaq",
           "date": "2026-11-24",
@@ -6282,7 +6430,8 @@
         ],
         "misspellings": [
           "Saklain Mustak"
-        ]
+        ],
+        "views": 103588
       },
       {
         "name": "Chaminda Vaas",
@@ -6291,11 +6440,12 @@
           "wiki": "Chaminda Vaas",
           "date": "2026-11-24",
           "key": "xxxp7h"
-        }
+        },
+        "views": 78478
       },
       {
         "name": "Andrew Flintoff",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "freddie flintoff",
           "Freddie"
@@ -6304,7 +6454,8 @@
           "wiki": "Andrew Flintoff",
           "date": "2026-11-24",
           "key": "1q6bfdk"
-        }
+        },
+        "views": 400734
       },
       {
         "name": "Steven Finn",
@@ -6316,16 +6467,18 @@
           "wiki": "Steven Finn",
           "date": "2026-11-24",
           "key": "imrsev"
-        }
+        },
+        "views": 64075
       },
       {
         "name": "Kagiso Rabada",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Kagiso Rabada",
           "date": "2026-11-24",
           "key": "1ru89f4"
-        }
+        },
+        "views": 157710
       },
       {
         "name": "Shane Bond",
@@ -6334,7 +6487,8 @@
           "wiki": "Shane Bond",
           "date": "2026-11-24",
           "key": "mwe6c7"
-        }
+        },
+        "views": 63114
       },
       {
         "name": "Steve Harmison",
@@ -6346,7 +6500,8 @@
           "wiki": "Steve Harmison",
           "date": "2026-11-24",
           "key": "17qnfv9"
-        }
+        },
+        "views": 42048
       },
       {
         "name": "Imran Tahir",
@@ -6355,7 +6510,8 @@
           "wiki": "Imran Tahir",
           "date": "2026-11-24",
           "key": "1fm59dw"
-        }
+        },
+        "views": 73176
       },
       {
         "name": "Chetan Sharma",
@@ -6364,11 +6520,12 @@
           "wiki": "Chetan Sharma",
           "date": "2026-11-24",
           "key": "t172q8"
-        }
+        },
+        "views": 39373
       },
       {
         "name": "Kapil Dev",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Kapil Dev",
           "date": "2026-11-24",
@@ -6376,11 +6533,12 @@
         },
         "aliases": [
           "Kapil"
-        ]
+        ],
+        "views": 358828
       },
       {
         "name": "JP Duminy",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "jean-paul duminy"
         ],
@@ -6388,25 +6546,28 @@
           "wiki": "JP Duminy",
           "date": "2026-11-24",
           "key": "1y6wa3q"
-        }
+        },
+        "views": 38438
       },
       {
         "name": "Kemar Roach",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Kemar Roach",
           "date": "2026-11-24",
           "key": "zex6us"
-        }
+        },
+        "views": 90456
       },
       {
         "name": "Wanindu Hasaranga",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Wanindu Hasaranga",
           "date": "2026-11-24",
           "key": "914wgp"
-        }
+        },
+        "views": 42478
       },
       {
         "name": "Maheesh Theekshana",
@@ -6415,34 +6576,38 @@
           "wiki": "Maheesh Theekshana",
           "date": "2026-11-24",
           "key": "1yhbfia"
-        }
+        },
+        "views": 26840
       },
       {
         "name": "Taskin Ahmed",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Taskin Ahmed",
           "date": "2026-11-24",
           "key": "fbh6r6"
-        }
+        },
+        "views": 29684
       },
       {
         "name": "James Faulkner",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "James Faulkner (cricketer)",
           "date": "2026-11-24",
           "key": "5yfg55"
-        }
+        },
+        "views": 49141
       },
       {
         "name": "Mohammad Sami",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Mohammad Sami",
           "date": "2026-11-24",
           "key": "cu6qqx"
-        }
+        },
+        "views": 31828
       },
       {
         "name": "Jerome Taylor",
@@ -6451,7 +6616,8 @@
           "wiki": "Jerome Taylor",
           "date": "2026-11-24",
           "key": "1k0jbsm"
-        }
+        },
+        "views": 10369
       },
       {
         "name": "Thisara Perera",
@@ -6460,7 +6626,8 @@
           "wiki": "Thisara Perera",
           "date": "2026-11-24",
           "key": "1hdmbug"
-        }
+        },
+        "views": 21662
       },
       {
         "name": "Dan Christian",
@@ -6472,11 +6639,12 @@
           "wiki": "Dan Christian",
           "date": "2026-11-24",
           "key": "780zyf"
-        }
+        },
+        "views": 11489
       },
       {
         "name": "Aaqib Javed",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "aqib javed"
         ],
@@ -6484,7 +6652,8 @@
           "wiki": "Aaqib Javed",
           "date": "2026-11-24",
           "key": "hhvwiu"
-        }
+        },
+        "views": 63017
       },
       {
         "name": "Bruce Reid",
@@ -6493,7 +6662,8 @@
           "wiki": "Bruce Reid",
           "date": "2026-11-24",
           "key": "6c0i8w"
-        }
+        },
+        "views": 15843
       },
       {
         "name": "Danny Morrison",
@@ -6503,16 +6673,18 @@
           "wiki": "Danny Morrison (cricketer)",
           "date": "2026-11-24",
           "key": "1jhr70f"
-        }
+        },
+        "views": 24103
       },
       {
         "name": "Clint McKay",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Clint McKay",
           "date": "2026-11-24",
           "key": "oawkke"
-        }
+        },
+        "views": 7305
       },
       {
         "name": "Eddo Brandes",
@@ -6521,7 +6693,8 @@
           "wiki": "Eddo Brandes",
           "date": "2026-11-24",
           "key": "1urqack"
-        }
+        },
+        "views": 9189
       },
       {
         "name": "Anthony Stuart",
@@ -6531,7 +6704,8 @@
           "wiki": "Anthony Stuart (cricketer)",
           "date": "2026-11-24",
           "key": "c5doxj"
-        }
+        },
+        "views": 3133
       },
       {
         "name": "Charl Langeveldt",
@@ -6540,11 +6714,12 @@
           "wiki": "Charl Langeveldt",
           "date": "2026-11-24",
           "key": "1r6fegt"
-        }
+        },
+        "views": 8904
       },
       {
         "name": "Shahadat Hossain",
-        "tier": "six",
+        "tier": "four",
         "wiki": "Shahadat Hossain (cricketer)",
         "verified": {
           "wiki": "List of One Day International cricket hat-tricks",
@@ -6553,16 +6728,18 @@
         },
         "aliases": [
           "Shahadat"
-        ]
+        ],
+        "views": 19786
       },
       {
         "name": "Farveez Maharoof",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Farveez Maharoof",
           "date": "2026-11-24",
           "key": "1ipik2l"
-        }
+        },
+        "views": 14077
       },
       {
         "name": "Abdur Razzak",
@@ -6572,11 +6749,12 @@
           "wiki": "Abdur Razzak (cricketer)",
           "date": "2026-11-24",
           "key": "1k3u1uv"
-        }
+        },
+        "views": 8430
       },
       {
         "name": "Rubel Hossain",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Rubel Hossain",
           "date": "2026-11-24",
@@ -6584,7 +6762,8 @@
         },
         "aliases": [
           "Rubel"
-        ]
+        ],
+        "views": 10429
       },
       {
         "name": "Prosper Utseya",
@@ -6593,25 +6772,28 @@
           "wiki": "Prosper Utseya",
           "date": "2026-11-24",
           "key": "1we11rx"
-        }
+        },
+        "views": 4686
       },
       {
         "name": "Taijul Islam",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Taijul Islam",
           "date": "2026-11-24",
           "key": "yfkhlq"
-        }
+        },
+        "views": 21962
       },
       {
         "name": "Shehan Madushanka",
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Shehan Madushanka",
           "date": "2026-11-24",
           "key": "2gt74h"
-        }
+        },
+        "views": 1131
       },
       {
         "name": "Wessly Madhevere",
@@ -6620,26 +6802,29 @@
           "wiki": "Wessly Madhevere",
           "date": "2026-11-24",
           "key": "195ia5j"
-        }
+        },
+        "views": 9014
       },
       {
         "name": "Dilshan Madushanka",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Dilshan Madushanka",
           "date": "2026-11-24",
           "key": "5r2k8l"
-        }
+        },
+        "views": 27297
       },
       {
         "name": "Jalal-ud-Din",
-        "tier": "ootg",
+        "tier": "six",
         "wiki": "Jalal-ud-Din (cricketer)",
         "verified": {
           "wiki": "Jalal-ud-Din (cricketer)",
           "date": "2026-11-24",
           "key": "hw5qrz"
-        }
+        },
+        "views": 2483
       }
     ],
     "tags": [
@@ -6668,7 +6853,8 @@
         "aliases": [
           "Lord's Cricket Ground",
           "Home of Cricket"
-        ]
+        ],
+        "views": 149180
       },
       {
         "name": "Melbourne Cricket Ground",
@@ -6682,11 +6868,12 @@
           "wiki": "Melbourne Cricket Ground",
           "date": "2026-11-24",
           "key": "ogh9kq"
-        }
+        },
+        "views": 310311
       },
       {
         "name": "Kensington Oval",
-        "tier": "single",
+        "tier": "four",
         "aliases": [
           "bridgetown",
           "barbados"
@@ -6695,7 +6882,8 @@
           "wiki": "Kensington Oval",
           "date": "2026-11-24",
           "key": "4ycv0s"
-        }
+        },
+        "views": 29813
       },
       {
         "name": "Eden Gardens",
@@ -6708,7 +6896,8 @@
           "wiki": "Eden Gardens",
           "date": "2026-11-24",
           "key": "14rkuhz"
-        }
+        },
+        "views": 154038
       },
       {
         "name": "Wankhede Stadium",
@@ -6721,11 +6910,12 @@
           "wiki": "Wankhede Stadium",
           "date": "2026-11-24",
           "key": "5k5man"
-        }
+        },
+        "views": 150283
       },
       {
         "name": "The Oval",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "kennington oval",
           "kia oval",
@@ -6736,11 +6926,12 @@
           "wiki": "The Oval",
           "date": "2026-11-24",
           "key": "hw6pd0"
-        }
+        },
+        "views": 117145
       },
       {
         "name": "Wanderers",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "wanderers stadium",
           "johannesburg",
@@ -6751,11 +6942,12 @@
           "wiki": "Wanderers Stadium",
           "date": "2026-11-24",
           "key": "1anxm80"
-        }
+        },
+        "views": 43896
       },
       {
         "name": "Dubai International Cricket Stadium",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "dubai",
           "dubai international stadium"
@@ -6764,7 +6956,8 @@
           "wiki": "Dubai International Cricket Stadium",
           "date": "2026-11-24",
           "key": "11thopl"
-        }
+        },
+        "views": 20522
       },
       {
         "name": "Adelaide Oval",
@@ -6776,7 +6969,8 @@
           "wiki": "Adelaide Oval",
           "date": "2026-11-24",
           "key": "q296jx"
-        }
+        },
+        "views": 83171
       },
       {
         "name": "Sydney Cricket Ground",
@@ -6789,11 +6983,12 @@
           "wiki": "Sydney Cricket Ground",
           "date": "2026-11-24",
           "key": "1ar1nza"
-        }
+        },
+        "views": 83269
       },
       {
         "name": "R Premadasa Stadium",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "premadasa",
           "khettarama",
@@ -6804,7 +6999,8 @@
           "wiki": "R. Premadasa Stadium",
           "date": "2026-11-24",
           "key": "1bit4it"
-        }
+        },
+        "views": 81929
       },
       {
         "name": "Sher-e-Bangla National Stadium",
@@ -6819,11 +7015,12 @@
           "wiki": "Sher-e-Bangla National Cricket Stadium",
           "date": "2026-11-24",
           "key": "12t9kfb"
-        }
+        },
+        "views": 27323
       },
       {
         "name": "Arun Jaitley Stadium",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "feroz shah kotla",
           "kotla",
@@ -6833,7 +7030,8 @@
           "wiki": "Arun Jaitley Cricket Stadium",
           "date": "2026-11-24",
           "key": "113osrg"
-        }
+        },
+        "views": 72890
       },
       {
         "name": "Newlands",
@@ -6846,11 +7044,12 @@
           "wiki": "Newlands Cricket Ground",
           "date": "2026-11-24",
           "key": "1sldf4r"
-        }
+        },
+        "views": 31985
       },
       {
         "name": "Kingsmead",
-        "tier": "four",
+        "tier": "six",
         "aliases": [
           "durban"
         ],
@@ -6859,11 +7058,12 @@
           "wiki": "Kingsmead Cricket Ground",
           "date": "2026-11-24",
           "key": "3f15vy"
-        }
+        },
+        "views": 17194
       },
       {
         "name": "Trent Bridge",
-        "tier": "four",
+        "tier": "two",
         "aliases": [
           "nottingham"
         ],
@@ -6871,7 +7071,8 @@
           "wiki": "Trent Bridge",
           "date": "2026-11-24",
           "key": "i1d2g0"
-        }
+        },
+        "views": 44633
       },
       {
         "name": "Sheikh Zayed Stadium",
@@ -6886,11 +7087,12 @@
           "wiki": "Sheikh Zayed Cricket Stadium",
           "date": "2026-11-24",
           "key": "ayvvst"
-        }
+        },
+        "views": 10445
       },
       {
         "name": "Beausejour Stadium",
-        "tier": "six",
+        "tier": "ootg",
         "aliases": [
           "beausejour",
           "daren sammy cricket ground",
@@ -6903,7 +7105,8 @@
           "wiki": "Daren Sammy Cricket Ground",
           "date": "2026-11-24",
           "key": "1pp3siw"
-        }
+        },
+        "views": 9583
       },
       {
         "name": "Providence Stadium",
@@ -6917,11 +7120,12 @@
           "wiki": "Providence Stadium",
           "date": "2026-11-24",
           "key": "1jzthgj"
-        }
+        },
+        "views": 17300
       },
       {
         "name": "Brian Lara Stadium",
-        "tier": "ootg",
+        "tier": "six",
         "aliases": [
           "brian lara cricket academy",
           "tarouba",
@@ -6932,7 +7136,8 @@
           "wiki": "Brian Lara Cricket Academy",
           "date": "2026-11-24",
           "key": "vobima"
-        }
+        },
+        "views": 11747
       }
     ],
     "tags": [
@@ -6970,7 +7175,8 @@
         "aliases": [
           "Sachin",
           "Little Master"
-        ]
+        ],
+        "views": 1597040
       },
       {
         "name": "Virat Kohli",
@@ -6982,7 +7188,8 @@
         },
         "aliases": [
           "King Kohli"
-        ]
+        ],
+        "views": 3396194
       },
       {
         "name": "Rahul Dravid",
@@ -6994,7 +7201,8 @@
         },
         "aliases": [
           "The Wall"
-        ]
+        ],
+        "views": 357352
       },
       {
         "name": "Brian Lara",
@@ -7006,20 +7214,22 @@
         },
         "misspellings": [
           "Bryan Lara"
-        ]
+        ],
+        "views": 287587
       },
       {
         "name": "Jacques Kallis",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Jacques Kallis",
           "date": "2026-11-24",
           "key": "1e2hfyn"
-        }
+        },
+        "views": 251973
       },
       {
         "name": "Kumar Sangakkara",
-        "tier": "single",
+        "tier": "two",
         "verified": {
           "wiki": "Kumar Sangakkara",
           "date": "2026-11-24",
@@ -7027,11 +7237,12 @@
         },
         "aliases": [
           "Sanga"
-        ]
+        ],
+        "views": 238897
       },
       {
         "name": "Muttiah Muralitharan",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "murali",
           "muralidaran"
@@ -7040,20 +7251,22 @@
           "wiki": "Muttiah Muralitharan",
           "date": "2026-11-24",
           "key": "ku1orv"
-        }
+        },
+        "views": 241573
       },
       {
         "name": "Sunil Gavaskar",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Sunil Gavaskar",
           "date": "2026-11-24",
           "key": "wfvxxw"
-        }
+        },
+        "views": 313549
       },
       {
         "name": "Kapil Dev",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Kapil Dev",
           "date": "2026-11-24",
@@ -7061,7 +7274,8 @@
         },
         "aliases": [
           "Kapil"
-        ]
+        ],
+        "views": 358828
       },
       {
         "name": "Anil Kumble",
@@ -7073,7 +7287,8 @@
         },
         "aliases": [
           "Jumbo"
-        ]
+        ],
+        "views": 220942
       },
       {
         "name": "VVS Laxman",
@@ -7089,11 +7304,12 @@
         "misspellings": [
           "Lakshman",
           "VVS Lakshman"
-        ]
+        ],
+        "views": 175808
       },
       {
         "name": "Sourav Ganguly",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Sourav Ganguly",
           "date": "2026-11-24",
@@ -7101,11 +7317,12 @@
         },
         "aliases": [
           "Dada"
-        ]
+        ],
+        "views": 360343
       },
       {
         "name": "Virender Sehwag",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Virender Sehwag",
           "date": "2026-11-24",
@@ -7113,7 +7330,8 @@
         },
         "aliases": [
           "Viru"
-        ]
+        ],
+        "views": 343710
       },
       {
         "name": "Ravichandran Ashwin",
@@ -7126,11 +7344,12 @@
           "wiki": "Ravichandran Ashwin",
           "date": "2026-11-24",
           "key": "i68mas"
-        }
+        },
+        "views": 228075
       },
       {
         "name": "Mahela Jayawardene",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Mahela Jayawardene",
           "date": "2026-11-24",
@@ -7138,11 +7357,12 @@
         },
         "aliases": [
           "Mahela"
-        ]
+        ],
+        "views": 110336
       },
       {
         "name": "Viv Richards",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "vivian richards",
           "King Viv"
@@ -7151,7 +7371,8 @@
           "wiki": "Viv Richards",
           "date": "2026-11-24",
           "key": "1hrz4gp"
-        }
+        },
+        "views": 446490
       },
       {
         "name": "Shivnarine Chanderpaul",
@@ -7160,25 +7381,28 @@
           "wiki": "Shivnarine Chanderpaul",
           "date": "2026-11-24",
           "key": "6gt227"
-        }
+        },
+        "views": 203630
       },
       {
         "name": "Courtney Walsh",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Courtney Walsh",
           "date": "2026-11-24",
           "key": "9t6d65"
-        }
+        },
+        "views": 97702
       },
       {
         "name": "Kane Williamson",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Kane Williamson",
           "date": "2026-11-24",
           "key": "gfedwr"
-        }
+        },
+        "views": 344027
       },
       {
         "name": "AB de Villiers",
@@ -7192,20 +7416,22 @@
           "AB",
           "ABD",
           "Mr 360"
-        ]
+        ],
+        "views": 253377
       },
       {
         "name": "Hashim Amla",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Hashim Amla",
           "date": "2026-11-24",
           "key": "gsbnua"
-        }
+        },
+        "views": 121184
       },
       {
         "name": "Graeme Smith",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Graeme Smith",
           "date": "2026-11-24",
@@ -7213,7 +7439,8 @@
         },
         "misspellings": [
           "Graham Smith"
-        ]
+        ],
+        "views": 98915
       },
       {
         "name": "Inzamam-ul-Haq",
@@ -7226,11 +7453,12 @@
           "wiki": "Inzamam-ul-Haq",
           "date": "2026-11-24",
           "key": "17z946u"
-        }
+        },
+        "views": 139576
       },
       {
         "name": "Wasim Akram",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Wasim Akram",
           "date": "2026-11-24",
@@ -7238,11 +7466,12 @@
         },
         "aliases": [
           "Wasim"
-        ]
+        ],
+        "views": 353947
       },
       {
         "name": "Harbhajan Singh",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "harbhajan",
           "bhajji"
@@ -7251,16 +7480,18 @@
           "wiki": "Harbhajan Singh",
           "date": "2026-11-24",
           "key": "10wueue"
-        }
+        },
+        "views": 292516
       },
       {
         "name": "Cheteshwar Pujara",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Cheteshwar Pujara",
           "date": "2026-11-24",
           "key": "1iowynu"
-        }
+        },
+        "views": 126035
       },
       {
         "name": "Ishant Sharma",
@@ -7269,16 +7500,18 @@
           "wiki": "Ishant Sharma",
           "date": "2026-11-24",
           "key": "1kf91mk"
-        }
+        },
+        "views": 121099
       },
       {
         "name": "Chris Gayle",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Chris Gayle",
           "date": "2026-11-24",
           "key": "1lqu6he"
-        }
+        },
+        "views": 289548
       },
       {
         "name": "Clive Lloyd",
@@ -7287,34 +7520,38 @@
           "wiki": "Clive Lloyd",
           "date": "2026-11-24",
           "key": "1ywxe2a"
-        }
+        },
+        "views": 93922
       },
       {
         "name": "Gordon Greenidge",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Gordon Greenidge",
           "date": "2026-11-24",
           "key": "vdziyy"
-        }
+        },
+        "views": 61623
       },
       {
         "name": "Desmond Haynes",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Desmond Haynes",
           "date": "2026-11-24",
           "key": "134btft"
-        }
+        },
+        "views": 37524
       },
       {
         "name": "Mark Boucher",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Mark Boucher",
           "date": "2026-11-24",
           "key": "1dyugx6"
-        }
+        },
+        "views": 54218
       },
       {
         "name": "Shaun Pollock",
@@ -7323,7 +7560,8 @@
           "wiki": "Shaun Pollock",
           "date": "2026-11-24",
           "key": "16a0hkk"
-        }
+        },
+        "views": 86633
       },
       {
         "name": "Younis Khan",
@@ -7335,25 +7573,28 @@
           "wiki": "Younis Khan",
           "date": "2026-11-24",
           "key": "1xjnanr"
-        }
+        },
+        "views": 92185
       },
       {
         "name": "Javed Miandad",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Javed Miandad",
           "date": "2026-11-24",
           "key": "qq9hzh"
-        }
+        },
+        "views": 201418
       },
       {
         "name": "Sanath Jayasuriya",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Sanath Jayasuriya",
           "date": "2026-11-24",
           "key": "17kib9a"
-        }
+        },
+        "views": 170095
       },
       {
         "name": "Chaminda Vaas",
@@ -7362,30 +7603,33 @@
           "wiki": "Chaminda Vaas",
           "date": "2026-11-24",
           "key": "99i85"
-        }
+        },
+        "views": 78478
       },
       {
         "name": "Angelo Mathews",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Angelo Mathews",
           "date": "2026-11-24",
           "key": "twwku0"
-        }
+        },
+        "views": 47939
       },
       {
         "name": "Ross Taylor",
-        "tier": "four",
+        "tier": "six",
         "wiki": "Ross Taylor (cricketer)",
         "verified": {
           "wiki": "List of cricketers who have played 100 Tests",
           "date": "2026-11-24",
           "key": "br4dsj"
-        }
+        },
+        "views": 25728
       },
       {
         "name": "Brendon McCullum",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Brendon McCullum",
           "date": "2026-11-24",
@@ -7393,7 +7637,8 @@
         },
         "aliases": [
           "Baz"
-        ]
+        ],
+        "views": 260986
       },
       {
         "name": "Daniel Vettori",
@@ -7402,7 +7647,8 @@
           "wiki": "Daniel Vettori",
           "date": "2026-11-24",
           "key": "7m47l3"
-        }
+        },
+        "views": 102290
       },
       {
         "name": "Tim Southee",
@@ -7411,16 +7657,18 @@
           "wiki": "Tim Southee",
           "date": "2026-11-24",
           "key": "16pksic"
-        }
+        },
+        "views": 74727
       },
       {
         "name": "Stephen Fleming",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Stephen Fleming",
           "date": "2026-11-24",
           "key": "1s7mlx0"
-        }
+        },
+        "views": 178312
       },
       {
         "name": "Dilip Vengsarkar",
@@ -7429,7 +7677,8 @@
           "wiki": "Dilip Vengsarkar",
           "date": "2026-11-24",
           "key": "itqvbt"
-        }
+        },
+        "views": 106885
       },
       {
         "name": "Carl Hooper",
@@ -7438,7 +7687,8 @@
           "wiki": "Carl Hooper",
           "date": "2026-11-24",
           "key": "1purztq"
-        }
+        },
+        "views": 38513
       },
       {
         "name": "Kraigg Brathwaite",
@@ -7447,16 +7697,18 @@
           "wiki": "Kraigg Brathwaite",
           "date": "2026-11-24",
           "key": "rqocxh"
-        }
+        },
+        "views": 20294
       },
       {
         "name": "Gary Kirsten",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Gary Kirsten",
           "date": "2026-11-24",
           "key": "1i9a3ua"
-        }
+        },
+        "views": 108176
       },
       {
         "name": "Makhaya Ntini",
@@ -7465,7 +7717,8 @@
           "wiki": "Makhaya Ntini",
           "date": "2026-11-24",
           "key": "vtyn29"
-        }
+        },
+        "views": 46043
       },
       {
         "name": "Saleem Malik",
@@ -7477,16 +7730,18 @@
           "wiki": "Saleem Malik",
           "date": "2026-11-24",
           "key": "1b4owq6"
-        }
+        },
+        "views": 38909
       },
       {
         "name": "Mushfiqur Rahim",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Mushfiqur Rahim",
           "date": "2026-11-24",
           "key": "cem76w"
-        }
+        },
+        "views": 122933
       },
       {
         "name": "Dimuth Karunaratne",
@@ -7495,7 +7750,8 @@
           "wiki": "Dimuth Karunaratne",
           "date": "2026-11-24",
           "key": "72hf7e"
-        }
+        },
+        "views": 17798
       }
     ],
     "tags": [
@@ -7524,7 +7780,8 @@
         },
         "aliases": [
           "Beefy"
-        ]
+        ],
+        "views": 291664
       },
       {
         "name": "James Anderson",
@@ -7537,7 +7794,8 @@
           "wiki": "James Anderson (cricketer)",
           "date": "2026-11-24",
           "key": "jndnui"
-        }
+        },
+        "views": 249104
       },
       {
         "name": "Jim Laker",
@@ -7546,7 +7804,8 @@
           "wiki": "Jim Laker",
           "date": "2026-11-24",
           "key": "kwxlrt"
-        }
+        },
+        "views": 32573
       },
       {
         "name": "Dominic Cork",
@@ -7555,7 +7814,8 @@
           "wiki": "Dominic Cork",
           "date": "2026-11-24",
           "key": "dtyii"
-        }
+        },
+        "views": 21914
       },
       {
         "name": "Gus Atkinson",
@@ -7564,7 +7824,8 @@
           "wiki": "Gus Atkinson",
           "date": "2026-11-24",
           "key": "g9njna"
-        }
+        },
+        "views": 142438
       },
       {
         "name": "Adil Rashid",
@@ -7573,7 +7834,8 @@
           "wiki": "Adil Rashid",
           "date": "2026-11-24",
           "key": "3l4obl"
-        }
+        },
+        "views": 186865
       },
       {
         "name": "Alec Bedser",
@@ -7582,11 +7844,12 @@
           "wiki": "Alec Bedser",
           "date": "2026-11-24",
           "key": "kx6up2"
-        }
+        },
+        "views": 8957
       },
       {
         "name": "Wally Hammond",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "walter hammond"
         ],
@@ -7594,7 +7857,8 @@
           "wiki": "Wally Hammond",
           "date": "2026-11-24",
           "key": "17tpwd2"
-        }
+        },
+        "views": 31164
       },
       {
         "name": "Graham Onions",
@@ -7603,30 +7867,33 @@
           "wiki": "Graham Onions",
           "date": "2026-11-24",
           "key": "1t5tp2i"
-        }
+        },
+        "views": 9350
       },
       {
         "name": "Tom Hartley",
-        "tier": "two",
+        "tier": "single",
         "wiki": "Tom Hartley (cricketer)",
         "verified": {
           "wiki": "Tom Hartley (cricketer)",
           "date": "2026-11-24",
           "key": "bekjf0"
-        }
+        },
+        "views": 14800
       },
       {
         "name": "Rehan Ahmed",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Rehan Ahmed",
           "date": "2026-11-24",
           "key": "kjwgiz"
-        }
+        },
+        "views": 213675
       },
       {
         "name": "Sydney Barnes",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "syd barnes",
           "sf barnes"
@@ -7635,7 +7902,8 @@
           "wiki": "Sydney Barnes",
           "date": "2026-11-24",
           "key": "1tkc130"
-        }
+        },
+        "views": 22736
       },
       {
         "name": "Trevor Bailey",
@@ -7644,29 +7912,32 @@
           "wiki": "Trevor Bailey",
           "date": "2026-11-24",
           "key": "109lr9k"
-        }
+        },
+        "views": 11315
       },
       {
         "name": "Will Jacks",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Will Jacks",
           "date": "2026-11-24",
           "key": "1hagkwq"
-        }
+        },
+        "views": 190941
       },
       {
         "name": "Josh Tongue",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Josh Tongue",
           "date": "2026-11-24",
           "key": "1ki031m"
-        }
+        },
+        "views": 150910
       },
       {
         "name": "Phil Edmonds",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "philippe edmonds"
         ],
@@ -7674,11 +7945,12 @@
           "wiki": "Phil Edmonds",
           "date": "2026-11-24",
           "key": "61ipbw"
-        }
+        },
+        "views": 15382
       },
       {
         "name": "Toby Roland-Jones",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "roland-jones"
         ],
@@ -7686,54 +7958,60 @@
           "wiki": "Toby Roland-Jones",
           "date": "2026-11-24",
           "key": "lvwvdi"
-        }
+        },
+        "views": 12232
       },
       {
         "name": "Richard Johnson",
-        "tier": "two",
+        "tier": "four",
         "wiki": "Richard Johnson (cricketer)",
         "verified": {
           "wiki": "List of England cricketers who have taken five-wicket hauls on Test debut",
           "date": "2026-11-24",
           "key": "x0q8uy"
-        }
+        },
+        "views": 1691
       },
       {
         "name": "James Kirtley",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "James Kirtley",
           "date": "2026-11-24",
           "key": "1aazb1m"
-        }
+        },
+        "views": 4857
       },
       {
         "name": "Peter Such",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Peter Such",
           "date": "2026-11-24",
           "key": "ol6afn"
-        }
+        },
+        "views": 5763
       },
       {
         "name": "Neil Mallender",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Neil Mallender",
           "date": "2026-11-24",
           "key": "1d9e8iq"
-        }
+        },
+        "views": 4551
       },
       {
         "name": "Nick Cook",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Nick Cook (cricketer)",
         "verified": {
           "wiki": "Nick Cook (cricketer)",
           "date": "2026-11-24",
           "key": "1wn3owo"
-        }
+        },
+        "views": 2547
       },
       {
         "name": "John Lever",
@@ -7743,35 +8021,39 @@
           "wiki": "List of England cricketers who have taken five-wicket hauls on Test debut",
           "date": "2026-11-24",
           "key": "1lk4l6i"
-        }
+        },
+        "views": 1691
       },
       {
         "name": "Ken Shuttleworth",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Ken Shuttleworth (cricketer)",
           "date": "2026-11-24",
           "key": "1nhzzgf"
-        }
+        },
+        "views": 2700
       },
       {
         "name": "Bobby Peel",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Bobby Peel",
           "date": "2026-11-24",
           "key": "cg0c0e"
-        }
+        },
+        "views": 3562
       },
       {
         "name": "Tom Richardson",
-        "tier": "four",
+        "tier": "two",
         "wiki": "Tom Richardson (cricketer)",
         "verified": {
           "wiki": "Tom Richardson (cricketer)",
           "date": "2026-11-24",
           "key": "1w39gou"
-        }
+        },
+        "views": 4013
       },
       {
         "name": "Ken Farnes",
@@ -7780,7 +8062,8 @@
           "wiki": "Ken Farnes",
           "date": "2026-11-24",
           "key": "1bfpoa1"
-        }
+        },
+        "views": 2028
       },
       {
         "name": "Len Braund",
@@ -7789,11 +8072,12 @@
           "wiki": "Len Braund",
           "date": "2026-11-24",
           "key": "1guy247"
-        }
+        },
+        "views": 1444
       },
       {
         "name": "C Aubrey Smith",
-        "tier": "four",
+        "tier": "single",
         "aliases": [
           "aubrey smith",
           "charles aubrey smith"
@@ -7803,7 +8087,8 @@
           "wiki": "C. Aubrey Smith",
           "date": "2026-11-24",
           "key": "1ml2q5l"
-        }
+        },
+        "views": 57949
       },
       {
         "name": "Bill Lockwood",
@@ -7812,7 +8097,8 @@
           "wiki": "Bill Lockwood (cricketer)",
           "date": "2026-11-24",
           "key": "k4c0kz"
-        }
+        },
+        "views": 1006
       },
       {
         "name": "Frank Foster",
@@ -7822,7 +8108,8 @@
           "wiki": "Frank Foster (cricketer)",
           "date": "2026-11-24",
           "key": "109j44m"
-        }
+        },
+        "views": 1873
       },
       {
         "name": "Maurice Allom",
@@ -7831,16 +8118,18 @@
           "wiki": "Maurice Allom",
           "date": "2026-11-24",
           "key": "1jl5d8x"
-        }
+        },
+        "views": 1084
       },
       {
         "name": "Alfred Shaw",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Alfred Shaw",
           "date": "2026-11-24",
           "key": "1rvjmex"
-        }
+        },
+        "views": 3311
       },
       {
         "name": "Fred Morley",
@@ -7849,11 +8138,12 @@
           "wiki": "Fred Morley",
           "date": "2026-11-24",
           "key": "pb3pl9"
-        }
+        },
+        "views": 805
       },
       {
         "name": "Frederick Martin",
-        "tier": "six",
+        "tier": "four",
         "aliases": [
           "nutty martin"
         ],
@@ -7862,7 +8152,8 @@
           "wiki": "Frederick Martin (cricketer)",
           "date": "2026-11-24",
           "key": "mzefpd"
-        }
+        },
+        "views": 1671
       },
       {
         "name": "Bill Bradley",
@@ -7872,16 +8163,18 @@
           "wiki": "Bill Bradley (cricketer)",
           "date": "2026-11-24",
           "key": "139ssbe"
-        }
+        },
+        "views": 488
       },
       {
         "name": "Arnold Warren",
-        "tier": "six",
+        "tier": "ootg",
         "verified": {
           "wiki": "Arnold Warren",
           "date": "2026-11-24",
           "key": "1nx3xzt"
-        }
+        },
+        "views": 473
       },
       {
         "name": "Walter Lees",
@@ -7890,7 +8183,8 @@
           "wiki": "Walter Lees (cricketer)",
           "date": "2026-11-24",
           "key": "ypraos"
-        }
+        },
+        "views": 526
       },
       {
         "name": "Douglas Carr",
@@ -7899,7 +8193,8 @@
           "wiki": "Douglas Carr",
           "date": "2026-11-24",
           "key": "7jw3ab"
-        }
+        },
+        "views": 884
       },
       {
         "name": "George Simpson-Hayward",
@@ -7911,29 +8206,32 @@
           "wiki": "George Simpson-Hayward",
           "date": "2026-11-24",
           "key": "153xw6r"
-        }
+        },
+        "views": 582
       },
       {
         "name": "George Macaulay",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "George Macaulay",
           "date": "2026-11-24",
           "key": "2egsko"
-        }
+        },
+        "views": 2147
       },
       {
         "name": "James Langridge",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "James Langridge",
           "date": "2026-11-24",
           "key": "1ijqunt"
-        }
+        },
+        "views": 1739
       },
       {
         "name": "Charles Marriott",
-        "tier": "six",
+        "tier": "two",
         "aliases": [
           "father marriott"
         ],
@@ -7942,7 +8240,8 @@
           "wiki": "Charles Marriott",
           "date": "2026-11-24",
           "key": "99s6s9"
-        }
+        },
+        "views": 3968
       },
       {
         "name": "Jim Smith",
@@ -7952,16 +8251,18 @@
           "wiki": "Jim Smith (cricketer, born 1906)",
           "date": "2026-11-24",
           "key": "1ce8t63"
-        }
+        },
+        "views": 683
       },
       {
         "name": "Reg Perks",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Reg Perks",
           "date": "2026-11-24",
           "key": "16i5lm1"
-        }
+        },
+        "views": 977
       },
       {
         "name": "Bill Copson",
@@ -7970,16 +8271,18 @@
           "wiki": "Bill Copson",
           "date": "2026-11-24",
           "key": "2vnq07"
-        }
+        },
+        "views": 646
       },
       {
         "name": "Dick Pollard",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Dick Pollard",
           "date": "2026-11-24",
           "key": "nojgb5"
-        }
+        },
+        "views": 902
       },
       {
         "name": "Bob Berry",
@@ -7989,43 +8292,48 @@
           "wiki": "Bob Berry (cricketer)",
           "date": "2026-11-24",
           "key": "3cqe2w"
-        }
+        },
+        "views": 768
       },
       {
         "name": "Bob Appleyard",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Bob Appleyard",
           "date": "2026-11-24",
           "key": "103yr7l"
-        }
+        },
+        "views": 2833
       },
       {
         "name": "Len Coldwell",
-        "tier": "six",
+        "tier": "four",
         "verified": {
           "wiki": "Len Coldwell",
           "date": "2026-11-24",
           "key": "u3z4xh"
-        }
+        },
+        "views": 1430
       },
       {
         "name": "David Larter",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "David Larter",
           "date": "2026-11-24",
           "key": "jeza8y"
-        }
+        },
+        "views": 6960
       },
       {
         "name": "Christopher Heseltine",
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Christopher Heseltine",
           "date": "2026-11-24",
           "key": "1ezpy4o"
-        }
+        },
+        "views": 831
       }
     ],
     "tags": [
@@ -8046,7 +8354,7 @@
     "answers": [
       {
         "name": "MS Dhoni",
-        "tier": "single",
+        "tier": "ootg",
         "aliases": [
           "mahendra singh dhoni",
           "Mahi",
@@ -8057,7 +8365,8 @@
           "wiki": "2011 Cricket World Cup squads",
           "date": "2026-11-24",
           "key": "1l5kvkz"
-        }
+        },
+        "views": 48030
       },
       {
         "name": "Sachin Tendulkar",
@@ -8070,7 +8379,8 @@
         "aliases": [
           "Sachin",
           "Little Master"
-        ]
+        ],
+        "views": 1597040
       },
       {
         "name": "Virat Kohli",
@@ -8082,7 +8392,8 @@
         },
         "aliases": [
           "King Kohli"
-        ]
+        ],
+        "views": 3396194
       },
       {
         "name": "Rohit Sharma",
@@ -8094,11 +8405,12 @@
         },
         "aliases": [
           "Hitman"
-        ]
+        ],
+        "views": 1247259
       },
       {
         "name": "Yuvraj Singh",
-        "tier": "single",
+        "tier": "two",
         "aliases": [
           "yuvraj"
         ],
@@ -8106,7 +8418,8 @@
           "wiki": "Yuvraj Singh",
           "date": "2026-11-24",
           "key": "am2qp4"
-        }
+        },
+        "views": 481124
       },
       {
         "name": "Jasprit Bumrah",
@@ -8115,7 +8428,8 @@
           "wiki": "Jasprit Bumrah",
           "date": "2026-11-24",
           "key": "1oa2cvl"
-        }
+        },
+        "views": 1017575
       },
       {
         "name": "Virender Sehwag",
@@ -8127,7 +8441,8 @@
         },
         "aliases": [
           "Viru"
-        ]
+        ],
+        "views": 343710
       },
       {
         "name": "Gautam Gambhir",
@@ -8139,11 +8454,12 @@
         },
         "aliases": [
           "Gauti"
-        ]
+        ],
+        "views": 420153
       },
       {
         "name": "Zaheer Khan",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Zaheer Khan",
           "date": "2026-11-24",
@@ -8152,11 +8468,12 @@
         "aliases": [
           "Zaheer",
           "Zak"
-        ]
+        ],
+        "views": 250095
       },
       {
         "name": "Harbhajan Singh",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "harbhajan",
           "bhajji"
@@ -8165,20 +8482,22 @@
           "wiki": "Harbhajan Singh",
           "date": "2026-11-24",
           "key": "7v8iiy"
-        }
+        },
+        "views": 292516
       },
       {
         "name": "Suresh Raina",
-        "tier": "two",
+        "tier": "six",
         "verified": {
           "wiki": "Suresh Raina",
           "date": "2026-11-24",
           "key": "1qnohgy"
-        }
+        },
+        "views": 202746
       },
       {
         "name": "Hardik Pandya",
-        "tier": "two",
+        "tier": "single",
         "verified": {
           "wiki": "Hardik Pandya",
           "date": "2026-11-24",
@@ -8186,7 +8505,8 @@
         },
         "aliases": [
           "Hardik"
-        ]
+        ],
+        "views": 901042
       },
       {
         "name": "Rishabh Pant",
@@ -8195,11 +8515,12 @@
           "wiki": "Rishabh Pant",
           "date": "2026-11-24",
           "key": "txan8t"
-        }
+        },
+        "views": 320113
       },
       {
         "name": "Suryakumar Yadav",
-        "tier": "two",
+        "tier": "single",
         "aliases": [
           "surya",
           "sky"
@@ -8208,7 +8529,8 @@
           "wiki": "Suryakumar Yadav",
           "date": "2026-11-24",
           "key": "k6fz0x"
-        }
+        },
+        "views": 842150
       },
       {
         "name": "Ravindra Jadeja",
@@ -8220,11 +8542,12 @@
         },
         "aliases": [
           "Jaddu"
-        ]
+        ],
+        "views": 552124
       },
       {
         "name": "Kuldeep Yadav",
-        "tier": "two",
+        "tier": "four",
         "verified": {
           "wiki": "Kuldeep Yadav",
           "date": "2026-11-24",
@@ -8232,11 +8555,12 @@
         },
         "aliases": [
           "Kuldeep"
-        ]
+        ],
+        "views": 254071
       },
       {
         "name": "Arshdeep Singh",
-        "tier": "two",
+        "tier": "four",
         "aliases": [
           "arshdeep"
         ],
@@ -8244,7 +8568,8 @@
           "wiki": "Arshdeep Singh",
           "date": "2026-11-24",
           "key": "voyh8"
-        }
+        },
+        "views": 292686
       },
       {
         "name": "Axar Patel",
@@ -8256,25 +8581,28 @@
           "wiki": "Axar Patel",
           "date": "2026-11-24",
           "key": "3xdwm3"
-        }
+        },
+        "views": 294562
       },
       {
         "name": "Yusuf Pathan",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Yusuf Pathan",
           "date": "2026-11-24",
           "key": "1phuavp"
-        }
+        },
+        "views": 221418
       },
       {
         "name": "Ashish Nehra",
-        "tier": "four",
+        "tier": "six",
         "verified": {
           "wiki": "Ashish Nehra",
           "date": "2026-11-24",
           "key": "19ijo2f"
-        }
+        },
+        "views": 123454
       },
       {
         "name": "S Sreesanth",
@@ -8288,7 +8616,8 @@
           "wiki": "S. Sreesanth",
           "date": "2026-11-24",
           "key": "6a5z5n"
-        }
+        },
+        "views": 224276
       },
       {
         "name": "Ravichandran Ashwin",
@@ -8301,34 +8630,38 @@
           "wiki": "Ravichandran Ashwin",
           "date": "2026-11-24",
           "key": "1hworjc"
-        }
+        },
+        "views": 228075
       },
       {
         "name": "Yashasvi Jaiswal",
-        "tier": "four",
+        "tier": "two",
         "verified": {
           "wiki": "Yashasvi Jaiswal",
           "date": "2026-11-24",
           "key": "kjoamy"
-        }
+        },
+        "views": 534868
       },
       {
         "name": "Sanju Samson",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Sanju Samson",
           "date": "2026-11-24",
           "key": "1jumdvx"
-        }
+        },
+        "views": 1592628
       },
       {
         "name": "Shivam Dube",
-        "tier": "four",
+        "tier": "single",
         "verified": {
           "wiki": "Shivam Dube",
           "date": "2026-11-24",
           "key": "1pn6ttt"
-        }
+        },
+        "views": 673472
       },
       {
         "name": "Yuzvendra Chahal",
@@ -8341,7 +8674,8 @@
         "aliases": [
           "Yuzi Chahal",
           "Yuzi"
-        ]
+        ],
+        "views": 276197
       },
       {
         "name": "Munaf Patel",
@@ -8353,25 +8687,28 @@
         },
         "aliases": [
           "Munaf"
-        ]
+        ],
+        "views": 90621
       },
       {
         "name": "Mohammed Siraj",
-        "tier": "six",
+        "tier": "two",
         "verified": {
           "wiki": "Mohammed Siraj",
           "date": "2026-11-24",
           "key": "1utsqg"
-        }
+        },
+        "views": 336053
       },
       {
         "name": "Piyush Chawla",
-        "tier": "ootg",
+        "tier": "six",
         "verified": {
           "wiki": "Piyush Chawla",
           "date": "2026-11-24",
           "key": "udh7pb"
-        }
+        },
+        "views": 48106
       }
     ],
     "tags": [

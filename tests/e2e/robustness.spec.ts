@@ -310,3 +310,17 @@ test("local copies and tests never send play counts", async ({ context }) => {
   await page.clock.runFor(21_000);
   expect(sent).toEqual([]);
 });
+
+test("after the last scheduled day, the questions loop back to day 1", async ({ context }) => {
+  const days = schedule.days.length;
+  const page = await open(context, new Date(LAUNCH.getTime() + days * 86_400_000));
+  await expect(page.getByText(`#${days + 1} ·`)).toBeVisible();
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await page.getByRole("button", { name: "Face ball" }).click();
+  // Same first question as day 1, under the new puzzle number.
+  const first = await page.locator("#prompt").textContent();
+  const dayOne = await open(context, LAUNCH);
+  await dayOne.getByRole("button", { name: "Walk out to bat" }).click();
+  await dayOne.getByRole("button", { name: "Face ball" }).click();
+  await expect(dayOne.locator("#prompt")).toHaveText(first ?? "");
+});

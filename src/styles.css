@@ -933,7 +933,8 @@ td .tt {
 .icon::before {
   content: "";
   position: absolute;
-  inset: -11px -8px;
+  /* Generous enough to stay over 44px with smaller font metrics (e.g. Linux, Android). */
+  inset: -13px -9px;
 }
 
 .btn.help-link {

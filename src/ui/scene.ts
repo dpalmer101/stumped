@@ -1,4 +1,4 @@
-import type { Tier } from "../engine/types";
+import { BALL_MS, type Tier } from "../engine/types";
 import type { ThemeKey } from "../storage";
 import { type ScenePalette, THEMES } from "./themes";
 
@@ -154,10 +154,11 @@ export function sceneSvg(theme: ThemeKey): string {
   // Far stumps peek out beside the batter.
   s += px(47, 16, 1, 12, WOOD) + px(49, 16, 1, 12, WOOD) + px(51, 16, 1, 12, WOOD);
   s += px(47, 15, 2, 1, WOOD, 'data-part="bail1"') + px(50, 15, 2, 1, WOOD, 'data-part="bail2"');
+  s += '<g data-part="batter">';
   s += px(40, 18, 2, 10, "#fff") + px(43, 18, 2, 10, "#fff");
   s += px(39, 9, 7, 9, c.kit) + px(38, 10, 1, 5, c.kit) + px(46, 10, 1, 4, c.kit);
   s += px(40, 4, 5, 5, c.helmet) + px(40, 7, 5, 1, "#222") + px(41, 8, 3, 1, c.skin);
-  s += `<g data-part="bat" style="transform-origin:${46 * P}px ${14 * P}px">${px(46, 13, 1, 2, "#333")}${px(45, 15, 2, 10, "#d9b779")}</g>`;
+  s += `<g data-part="bat" style="transform-origin:${46 * P}px ${14 * P}px">${px(46, 13, 1, 2, "#333")}${px(45, 15, 2, 10, "#d9b779")}</g></g>`;
   s += px(41, 44, 2, 11, WOOD) + px(44, 44, 2, 11, WOOD) + px(47, 44, 2, 11, WOOD);
   s += `<g data-part="bowler">${px(30, 48, 2, 7, c.kit2)}${px(33, 48, 2, 7, c.kit2)}${px(29, 39, 7, 10, c.kit2)}${px(35, 31, 2, 9, c.kit2)}${px(30, 34, 5, 5, "#5a3b26")}</g>`;
   s += `<rect data-part="ball" x="-2" y="-2" width="4" height="4" fill="${c.ball}" transform="translate(144 122) scale(2)"/>`;
@@ -169,8 +170,8 @@ const at = (x: number, y: number, s = 1): Frame => ({
   transform: `translate(${x}px, ${y}px) scale(${s})`,
 });
 const START = at(144, 122, 2);
-const HOLD = at(178, 108, 1.6);
 const AT_BAT = at(186, 84, 1.25);
+const RUN_UP_MS = 600;
 // Stepped easing gives the choppy, frame-by-frame 8-bit feel.
 const steps = (n: number) => `steps(${n}, end)`;
 
@@ -182,20 +183,38 @@ export const SHOTS: Record<Tier, { path: Frame[]; dur: number; swing: number }> 
   ootg: { path: [AT_BAT, at(190, 40, 3), at(195, -80, 8)], dur: 1100, swing: 140 },
 };
 
-export type DismissalStyle = "bails" | "pad" | "behind" | "deep" | "bowler" | "none";
+export type DismissalStyle =
+  | "bowled"
+  | "lbw"
+  | "behind"
+  | "slip"
+  | "deep"
+  | "bowler"
+  | "stumped"
+  | "runout"
+  | "hitwicket"
+  | "none";
 
-export function dismissalStyle(dismissal: string): DismissalStyle {
-  if (/^(Bowled|Hit wicket|Stumped|Run out)$/.test(dismissal)) return "bails";
-  if (dismissal === "LBW") return "pad";
-  if (/Caught (behind|at slip)/.test(dismissal)) return "behind";
-  if (dismissal === "Caught in the deep") return "deep";
-  if (dismissal === "Caught & bowled") return "bowler";
-  return "none";
-}
+const STYLES: Record<string, DismissalStyle> = {
+  Bowled: "bowled",
+  LBW: "lbw",
+  "Caught behind": "behind",
+  "Caught at slip": "slip",
+  "Caught in the deep": "deep",
+  "Caught & bowled": "bowler",
+  Stumped: "stumped",
+  "Run out": "runout",
+  "Hit wicket": "hitwicket",
+};
 
-export const OUT_PATHS: Record<Exclude<DismissalStyle, "bails" | "none">, Frame[]> = {
-  pad: [AT_BAT, at(172, 100, 1.3), at(170, 108, 1.2)],
-  behind: [AT_BAT, at(214, 70, 1), at(236, 64, 0.8)],
+/** Each dismissal has its own animation, so what's shown matches what's called. */
+export const dismissalStyle = (dismissal: string): DismissalStyle => STYLES[dismissal] ?? "none";
+
+/** Where the ball goes for the dismissals that are just a ball path. */
+export const OUT_PATHS: Record<"lbw" | "behind" | "slip" | "deep" | "bowler", Frame[]> = {
+  lbw: [AT_BAT, at(172, 100, 1.3), at(170, 108, 1.2)],
+  behind: [AT_BAT, at(200, 74, 1), at(206, 66, 0.8)],
+  slip: [AT_BAT, at(222, 74, 1), at(252, 70, 0.85)],
   deep: [AT_BAT, at(120, 20, 2.2), at(30, 60, 2.6)],
   bowler: [AT_BAT, at(160, 104, 1.6), at(146, 118, 2)],
 };
@@ -232,38 +251,41 @@ export class Pitch {
     return this.gen;
   }
 
-  /** Bowler runs in and the ball hangs in flight while the player thinks. */
-  async deliver(): Promise<void> {
-    const g = this.clear();
-    if (this.reduce) return this.hold();
-    this.run(
-      this.part("bowler"),
-      [
-        { transform: "none" },
-        { transform: "translate(8px,-12px)" },
-        { transform: "translate(-4px,4px)" },
-      ],
-      {
-        duration: 500,
-        easing: steps(2),
-      },
-    );
-    await this.run(this.part("ball"), [START, HOLD], {
-      duration: 450,
-      delay: 350,
-      easing: steps(5),
-    });
-    if (g === this.gen) this.hover();
-  }
-
-  /** Puts the ball straight into its waiting position, e.g. after a reload mid-ball. */
-  hold(): void {
+  /**
+   * The ball travels down the pitch for the whole ball, reaching the batter as time runs out.
+   * `elapsed` resumes it part-way (after a reload, or coming back from home); the bowler only runs in
+   * at the start.
+   */
+  bowl(elapsed: number): void {
     this.clear();
     if (this.reduce) {
       this.part("ball").setAttribute("transform", "translate(178 108) scale(1.6)");
       return;
     }
-    this.hover();
+    if (elapsed < RUN_UP_MS) {
+      this.run(
+        this.part("bowler"),
+        [
+          { transform: "none" },
+          { transform: "translate(8px,-12px)" },
+          { transform: "translate(-4px,4px)" },
+        ],
+        { duration: RUN_UP_MS, delay: -elapsed, easing: steps(2) },
+      );
+    }
+    // Held in the hand for the run-up, then down the pitch, pitching near the end.
+    const runUp = RUN_UP_MS / BALL_MS;
+    this.run(
+      this.part("ball"),
+      [
+        { ...START, offset: 0 },
+        { ...START, offset: runUp },
+        { ...at(180, 116, 0.95), offset: 0.85 },
+        { ...AT_BAT, offset: 1 },
+      ],
+      // 3 frames a second keeps the 8-bit feel without looking frozen.
+      { duration: BALL_MS, delay: -elapsed, easing: steps(Math.round(BALL_MS / 333)) },
+    );
   }
 
   private swing(deg: number, duration: number, frames: number) {
@@ -274,41 +296,29 @@ export class Pitch {
     });
   }
 
+  /** Stop the ball where it is and bring it on to the bat quickly. */
   private toBat() {
-    return this.run(this.part("ball"), [HOLD, AT_BAT], { duration: 150, easing: steps(2) });
+    const ball = this.part("ball");
+    const here = getComputedStyle(ball).transform;
+    this.clear();
+    ball.style.transform = here;
+    const done = this.run(ball, [{ transform: here }, AT_BAT], { duration: 180, easing: steps(3) });
+    ball.style.transform = "";
+    return done;
   }
 
-  private hover() {
-    this.run(this.part("ball"), [HOLD, { transform: "translate(178px, 106px) scale(1.6)" }], {
-      duration: 600,
-      iterations: Number.POSITIVE_INFINITY,
-      direction: "alternate",
-      easing: steps(1),
-    });
-  }
-
-  async miss(): Promise<void> {
+  /** An air shot: the batter swings and misses, and the ball keeps coming. */
+  miss(): void {
     if (this.reduce) return;
-    const g = this.clear();
     this.swing(25, 300, 2);
-    await this.run(this.part("ball"), [HOLD, AT_BAT, at(194, 82, 1), at(198, 76, 0.6)], {
-      duration: 380,
-      easing: steps(4),
-    });
-    if (g !== this.gen) return;
-    await this.run(this.part("ball"), [START, HOLD], {
-      duration: 300,
-      delay: 150,
-      easing: steps(4),
-    });
-    if (g === this.gen) this.hover();
   }
 
   async hit(tier: Tier): Promise<void> {
     if (this.reduce) return;
-    const g = this.clear();
     const shot = SHOTS[tier];
-    await this.toBat();
+    const arrive = this.toBat();
+    const g = this.gen;
+    await arrive;
     if (g !== this.gen) return;
     this.swing(shot.swing, 420, 3);
     if (tier === "ootg") {
@@ -331,31 +341,82 @@ export class Pitch {
 
   async out(dismissal: string): Promise<void> {
     if (this.reduce) return;
-    const g = this.clear();
     const style = dismissalStyle(dismissal);
-    if (style === "none") {
-      this.part("ball").setAttribute("transform", "translate(-20 -20)");
-      return;
+    const arrive = this.toBat();
+    const g = this.gen;
+    await arrive;
+    if (g !== this.gen || style === "none") return;
+    const ball = this.part("ball");
+    const batter = this.part("batter");
+    switch (style) {
+      case "bowled":
+        this.run(ball, [AT_BAT, at(196, 92, 1.25)], { duration: 160, easing: steps(2) });
+        return this.flyBails(120);
+      case "stumped":
+        // Down the track, beaten, and the keeper whips the bails off.
+        this.swing(30, 300, 2);
+        this.run(
+          batter,
+          [{ transform: "none" }, { transform: "translate(-4px, 22px) scale(1.12)" }],
+          {
+            duration: 400,
+            easing: steps(3),
+          },
+        );
+        await this.run(ball, [AT_BAT, at(194, 82, 1), at(198, 80, 0.8)], {
+          duration: 450,
+          easing: steps(4),
+        });
+        return this.flyBails(0);
+      case "runout": {
+        // Pushed into the off side, sets off for a run, and the throw beats them back.
+        this.swing(25, 300, 2);
+        this.run(
+          batter,
+          [{ transform: "none" }, { transform: "translate(-6px, 40px) scale(1.25)" }],
+          {
+            duration: 700,
+            easing: steps(5),
+          },
+        );
+        await this.run(ball, [AT_BAT, at(130, 106, 1.3)], { duration: 450, easing: steps(4) });
+        if (g !== this.gen) return;
+        await this.run(ball, [at(130, 106, 1.3), at(196, 92, 1.2)], {
+          duration: 350,
+          easing: steps(4),
+        });
+        return this.flyBails(0);
+      }
+      case "hitwicket":
+        // A big swing, and the batter treads back on to the stumps.
+        this.swing(-120, 450, 3);
+        this.run(ball, [AT_BAT, at(250, 50, 1.4), at(300, 70, 1.4)], {
+          duration: 700,
+          easing: steps(6),
+        });
+        this.run(batter, [{ transform: "none" }, { transform: "translate(10px, -4px)" }], {
+          duration: 300,
+          easing: steps(2),
+        });
+        return this.flyBails(250);
+      default:
+        await this.run(ball, OUT_PATHS[style], { duration: 800, easing: steps(8) });
     }
-    await this.toBat();
-    if (g !== this.gen) return;
-    if (style === "bails") {
-      this.run(this.part("ball"), [AT_BAT, at(196, 92, 1.25)], { duration: 160, easing: steps(2) });
-      await Promise.all(
-        [1, 2].map((i) =>
-          this.run(
-            this.part(`bail${i}`),
-            [
-              { transform: "none" },
-              { transform: `translate(${i === 2 ? 8 : -8}px,-12px)` },
-              { transform: `translate(${i === 2 ? 12 : -12}px,4px)` },
-            ],
-            { duration: 700, delay: 120, easing: steps(6) },
-          ),
+  }
+
+  private async flyBails(delay: number): Promise<void> {
+    await Promise.all(
+      [1, 2].map((i) =>
+        this.run(
+          this.part(`bail${i}`),
+          [
+            { transform: "none" },
+            { transform: `translate(${i === 2 ? 8 : -8}px,-12px)` },
+            { transform: `translate(${i === 2 ? 12 : -12}px,4px)` },
+          ],
+          { duration: 700, delay, easing: steps(6) },
         ),
-      );
-      return;
-    }
-    await this.run(this.part("ball"), OUT_PATHS[style], { duration: 800, easing: steps(8) });
+      ),
+    );
   }
 }

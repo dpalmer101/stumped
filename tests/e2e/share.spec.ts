@@ -10,7 +10,7 @@ async function finishInnings(context: BrowserContext): Promise<Page> {
   for (let i = 0; i < 6; i++) {
     await page.getByRole("button", { name: "Face ball" }).click();
     await page.clock.runFor(21_000);
-    await page.getByRole("button", { name: i === 5 ? "See scorecard" : "Next batter in" }).click();
+    if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
   return page;
 }
@@ -29,7 +29,7 @@ test("Share opens the device's share sheet with the result", async ({ context })
   const page = await finishInnings(context);
   await page.getByRole("button", { name: "Share" }).click();
   const shared = await page.evaluate(() => (window as unknown as { shared?: ShareData }).shared);
-  expect(shared?.text).toContain("Stumped #1 — 0/6");
+  expect(shared?.text).toContain("Stumped #1 🏏 0/6");
   expect(shared?.text).toContain("/stumped/");
 });
 
@@ -66,6 +66,6 @@ test("without a share sheet (e.g. plain http), Share copies the result instead",
   await page.getByRole("button", { name: "Share" }).click();
   await expect(page.locator("#toast")).toHaveText("Copied: paste it anywhere to share");
   expect(await page.evaluate(() => (window as unknown as { copied?: string }).copied)).toContain(
-    "Stumped #1 — 0/6",
+    "Stumped #1 🏏 0/6",
   );
 });

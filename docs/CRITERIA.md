@@ -52,13 +52,14 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 
 - [ ] Every answer is verified against English Wikipedia by `content:verify` (stored `verified`), never by hand.
 - [ ] Every tier comes from `content:rank` (page views plus question-specific metrics); manual overrides need a written reason.
-- [ ] Every day passes the variety rules: unique categories, ≤ 2 of one answer type, ≤ 3 of one format, at least one question beyond men's international cricket.
+- [ ] Every day passes the variety rules: unique categories, one question per answer type (players up to two), ≤ 2 general-knowledge, ≤ 3 of one format, at least one question beyond men's international cricket.
+- [ ] In any 7 days in a row a category appears on at most 2 days; a question is re-used only after 30 days. 🤖
 
 - [ ] Every question: ≥ 20 answers, exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.
 - [ ] Every answer list is **complete**: any correct answer a player could give is accepted (otherwise a right answer counts as a miss). Prefer closed sets of 20–60 answers; bound time-sensitive sets by date.
 - [ ] No duplicate answers or aliases within a question after normalisation.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
-- [ ] Every scheduled day has 6 distinct, existing question ids; no id reused across days.
+- [ ] Every scheduled day has 6 distinct, existing question ids.
 - [ ] Schedule covers at least the next 7 days from launch.
 
 ## Timer, sound, animation
@@ -77,7 +78,8 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] No real competition, team or brand names, logos or colour schemes in themes or UI copy.
 
 - [ ] Fully playable by keyboard; focus returns to the answer box after each miss.
-- [ ] Colour is never the only signal for a tier; contrast meets WCAG AA.
+- [ ] Colour is never the only signal for a tier or for time running out (the timer bar thickens and stripes in its last 5 s); contrast meets WCAG AA. 🤖
+- [ ] Touch targets are at least 44×44 px. 🤖
 - [ ] Usable at 360 px wide without horizontal scroll.
 - [ ] Lighthouse accessibility ≥ 90, performance ≥ 90 (mobile).
 

@@ -183,10 +183,11 @@ button {
 }
 .track {
   position: absolute;
+  /* Full width, running behind rounded scene corners; thick enough that its ends still show. */
   left: 0;
   right: 0;
   top: 0;
-  height: 4px;
+  height: 6px;
   background: rgba(0, 0, 0, 0.25);
   z-index: 2;
 }
@@ -336,6 +337,8 @@ button {
   min-height: 22px;
 }
 .misses span {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-size: 12px;
   padding: 3px 9px;
   border-radius: 999px;
@@ -744,7 +747,6 @@ td .tt {
 }
 .theme-test .track {
   background: rgba(19, 40, 79, 0.12);
-  height: 3px;
 }
 /* ---------- One Day: coloured clothing ---------- */
 .theme-oneday {
@@ -908,4 +910,76 @@ td .tt {
     800 14px ui-monospace,
     Menlo,
     monospace;
+}
+
+/* Last 5 seconds of the timer: thicker and striped, readable without colour or sound. */
+.track.final {
+  height: 10px;
+}
+.track.final .bar {
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--t-out) 0 6px,
+    color-mix(in srgb, var(--t-out) 65%, black) 6px 12px
+  );
+}
+
+/* Touch targets of at least 44px without making the controls look bigger. */
+.chip,
+.icon {
+  position: relative;
+}
+.chip::before,
+.icon::before {
+  content: "";
+  position: absolute;
+  inset: -11px -8px;
+}
+
+.btn.help-link {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 13px;
+}
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-items: end center;
+  background: rgba(0, 0, 0, 0.55);
+}
+.sheet {
+  width: 100%;
+  max-width: 480px;
+  max-height: 90dvh;
+  overflow: auto;
+  padding: 20px 18px 6px;
+  border-radius: 20px 20px 0 0;
+  background: var(--bg);
+  color: var(--text);
+}
+.sheet h2 {
+  margin: 0 0 8px;
+  font: var(--q-font);
+}
+.sheet p {
+  margin: 8px 0;
+}
+.ladder {
+  list-style: none;
+  margin: 8px 0 12px;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.ladder li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sheet .btn.wide {
+  width: 100%;
+  margin: 12px 0 14px;
 }

@@ -17,6 +17,7 @@ const muted = {
             version: 1,
             theme: "hundred",
             muted: true,
+            seenHelp: true,
             innings: null,
             history: {},
           }),

@@ -4,6 +4,8 @@ import { LAUNCH, open, schedule } from "./helpers";
 const { launchDate } = schedule;
 const DAY = 86_400_000;
 
+const NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
+
 test.use({ reducedMotion: "reduce" });
 
 test("facing a ball saves at once, so a reload straight after keeps the clock running", async ({
@@ -87,7 +89,7 @@ test("every format renders every screen", async ({ context }) => {
   for (let i = 0; i < 6; i++) {
     await page.getByRole("button", { name: "Face ball" }).click();
     await page.clock.runFor(21_000);
-    await page.getByRole("button", { name: i === 5 ? "See scorecard" : "Next batter in" }).click();
+    if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
   for (const theme of ["village", "test", "oneday", "hundred"]) {
     await page.getByRole("button", { name: /Change format/ }).click();
@@ -128,9 +130,9 @@ test("the logo goes home from any screen, and play resumes where it left off", a
   await expect(page.locator("#prompt")).toHaveText(prompt ?? "");
 
   for (let i = 0; i < 6; i++) {
-    if (i > 0) await page.getByRole("button", { name: "Face ball" }).click();
+    if (i > 0) await page.getByRole("button", { name: `Face ball ${NAMES[i]}` }).click();
     await page.clock.runFor(21_000);
-    await page.getByRole("button", { name: i === 5 ? "See scorecard" : "Next batter in" }).click();
+    if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
   await page.getByRole("button", { name: "Stumped: home" }).click();
   await expect(page.getByRole("button", { name: "View scorecard" })).toBeVisible();
@@ -183,6 +185,7 @@ test("with storage blocked (some private modes), the game still plays normally",
     });
   });
   const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Got it" }).click();
   await page.getByRole("button", { name: "Walk out to bat" }).click();
   // Storage can't hold the muted setting here, so mute by hand before any sound.
   await page.getByRole("button", { name: "Mute", exact: true }).click();
@@ -203,5 +206,94 @@ test("an over started before midnight stays playable from the home screen", asyn
   await page.clock.runFor(60_000);
   await expect(page.getByText("#1 ·")).toBeVisible();
   await page.getByRole("button", { name: "Resume innings" }).click();
-  await expect(page.getByRole("button", { name: /Next batter in/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Face ball Two" })).toBeVisible();
+});
+
+test("first visit shows How to play once; it can be reopened from home", async ({ context }) => {
+  await context.addInitScript(() => {
+    if (sessionStorage.getItem("fresh")) return;
+    sessionStorage.setItem("fresh", "1");
+    localStorage.setItem(
+      "stumped",
+      JSON.stringify({ version: 1, muted: true, innings: null, history: {} }),
+    );
+  });
+  const page = await open(context, LAUNCH);
+  const sheet = page.getByRole("dialog", { name: "How to play" });
+  await expect(sheet).toBeVisible();
+  await expect(sheet).toContainText("first right answer ends the ball");
+  await expect(sheet.locator(".tier")).toHaveText([
+    "Single",
+    "Two",
+    "Four",
+    "Six",
+    "Out of the ground",
+  ]);
+  await page.getByRole("button", { name: "Got it" }).click();
+  await expect(sheet).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByRole("dialog")).toHaveCount(0);
+  await page.getByRole("button", { name: "How to play" }).click();
+  await expect(sheet).toBeVisible();
+});
+
+test("the format chip is hidden while a ball is live, and the clock's last 5 seconds stand out", async ({
+  context,
+}) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await expect(page.getByRole("button", { name: /Change format/ })).toBeVisible();
+  await page.getByRole("button", { name: "Face ball" }).click();
+  await expect(page.getByRole("button", { name: /Change format/ })).toHaveCount(0);
+  await page.clock.runFor(16_000);
+  await expect(page.locator("#track")).toHaveClass(/final/);
+  await page.clock.runFor(5_000);
+  await expect(page.getByRole("button", { name: /Change format/ })).toBeVisible();
+});
+
+test("the format chip and mute button have 44px touch targets", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  for (const name of [/Change format/, /^(Mute|Unmute)$/]) {
+    const size = await page.getByRole("button", { name }).evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      const before = getComputedStyle(el, "::before");
+      return {
+        w: r.width - Number.parseFloat(before.left) - Number.parseFloat(before.right),
+        h: r.height - Number.parseFloat(before.top) - Number.parseFloat(before.bottom),
+      };
+    });
+    expect(size.w).toBeGreaterThanOrEqual(44);
+    expect(size.h).toBeGreaterThanOrEqual(44);
+  }
+});
+
+test("?reset clears saved progress on a local copy", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await page.getByRole("button", { name: "Face ball" }).click();
+  await page.goto("./?reset");
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeVisible();
+  expect(page.url()).not.toContain("reset");
+});
+
+test("How to play is a proper modal for keyboard users", async ({ context }) => {
+  await context.addInitScript(() => {
+    if (sessionStorage.getItem("fresh")) return;
+    sessionStorage.setItem("fresh", "1");
+    localStorage.setItem(
+      "stumped",
+      JSON.stringify({ version: 1, muted: true, innings: null, history: {} }),
+    );
+  });
+  const page = await open(context, LAUNCH);
+  await expect(page.getByRole("button", { name: "Got it" })).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).not.toBeFocused();
+  await page.keyboard.press("Escape");
+  await expect(page.getByRole("dialog")).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeFocused();
+  await page.getByRole("button", { name: "How to play" }).click();
+  await page.keyboard.press("Escape");
+  await expect(page.getByRole("button", { name: "How to play" })).toBeFocused();
 });

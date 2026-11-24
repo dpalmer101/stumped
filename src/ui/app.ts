@@ -1,5 +1,5 @@
 import { loadDay, schedule } from "../data";
-import { type Ball, guess, startBall, tick, timeLeft } from "../engine/ball";
+import { type Ball, guess, MAX_GUESS, startBall, tick, timeLeft } from "../engine/ball";
 import { TIMED_OUT } from "../engine/dismissal";
 import {
   canRevealAnswers,
@@ -112,6 +112,26 @@ function fragment(html: string): Node {
   return t.content.firstChild ?? document.createTextNode("");
 }
 
+const HOW_TO_PLAY = `<div class="sheet-backdrop">
+  <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="htp-title">
+    <h2 id="htp-title">How to play</h2>
+    <p>Each ball is a cricket question with lots of right answers. You have <b>20 seconds</b>.</p>
+    <p><b>Your first right answer ends the ball, so think rare:</b></p>
+    <ul class="ladder">${(["single", "two", "four", "six", "ootg"] as const)
+      .map(
+        (t) => `<li><span class="tier" data-t="${t}">${TIER_LABEL[t]}</span><b>${RUNS[t]}</b></li>`,
+      )
+      .join("")}</ul>
+    <p>Wrong guesses are misses: they cost time, not runs. Run out of time and you're <b>out</b>.</p>
+    <p>One over a day, the same for everyone.</p>
+    <button class="btn wide" data-act="help-close">Got it</button>
+  </section>
+</div>`;
+
+const BALL_NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
+/** Balls are named, not numbered ("Ball Three"), like a commentator would. */
+const ballName = (index: number) => BALL_NAMES[index] ?? String(index + 1);
+
 /** Clipboard API where allowed (secure pages), else the older copy command, which also works on http. */
 async function copyText(text: string): Promise<boolean> {
   try {
@@ -166,7 +186,6 @@ export class App {
   private showing: number | null = null;
   private answersIndex = 0;
   private busy = false;
-  private justFaced = false;
   private pitch: Pitch | null = null;
   private raf = 0;
   private lastBeat = 0;
@@ -178,6 +197,7 @@ export class App {
   /** Chrome/Android's install prompt, held until the player taps "Add to home screen". */
   private installPrompt: InstallPromptEvent | null = null;
   private showInstallHelp = false;
+  private helpOpen = false;
   /** Whether the home screen was last drawn in its "before launch" state. */
   private launchShown = false;
   /** Storage as last read or written by this tab. */
@@ -194,6 +214,9 @@ export class App {
     this.sound = new Sound(this.saved.muted);
     root.addEventListener("click", (e) => this.onClick(e));
     root.addEventListener("submit", (e) => this.onSubmit(e));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && this.root.querySelector(".sheet")) this.closeHelp();
+    });
     // Another tab saved: adopt its state so two tabs can't restart or replay a ball.
     window.addEventListener("storage", (e) => {
       if (e.key === STORAGE_KEY && this.loadedPuzzle && !this.busy && this.sync()) this.render();
@@ -277,6 +300,33 @@ export class App {
       this.render();
     }
     // Mid-innings players finish yesterday's over; the check runs again afterwards.
+  }
+
+  private closeHelp() {
+    const reopened = this.helpOpen;
+    this.helpOpen = false;
+    if (!this.saved.seenHelp) {
+      this.saved.seenHelp = true;
+      this.persist();
+    }
+    this.render();
+    // Back to where the player was: the button that opened it, or the main call to action.
+    this.root
+      .querySelector<HTMLButtonElement>(`[data-act="${reopened ? "help" : "walk"}"]`)
+      ?.focus();
+  }
+
+  private faceNext() {
+    const ball = this.innings.balls[currentBallIndex(this.innings)];
+    if (!ball) {
+      this.view = "scorecard";
+      return this.render();
+    }
+    if (ball.startedAt === undefined) {
+      this.setBall(startBall(ball, Date.now()));
+    }
+    this.view = "play";
+    return this.render();
   }
 
   /** A started, unfinished over stays playable after midnight, even from the home screen. */
@@ -372,8 +422,15 @@ export class App {
     // A new screen starts at the top; re-rendering the same screen keeps the player's place.
     if (this.view !== this.renderedView) window.scrollTo(0, 0);
     this.renderedView = this.view;
-    if (this.view === "home") this.root.innerHTML = this.homeHtml();
-    else if (this.view === "play") this.renderPlay();
+    if (this.view === "home") {
+      this.root.innerHTML = this.homeHtml();
+      // The sheet is modal: keep keyboard focus inside it and the page behind out of reach.
+      const sheet = this.root.querySelector(".sheet");
+      if (sheet) {
+        this.root.querySelector("main")?.setAttribute("inert", "");
+        sheet.querySelector<HTMLButtonElement>('[data-act="help-close"]')?.focus();
+      }
+    } else if (this.view === "play") this.renderPlay();
     else if (this.view === "scorecard") this.renderScorecard();
     else this.root.innerHTML = this.answersHtml();
   }
@@ -383,17 +440,23 @@ export class App {
     return `<div class="score" role="img" aria-label="Score ${runs} for ${wickets}">${runs}<span>/${wickets}</span></div>`;
   }
 
-  private topBar(withScore: boolean) {
+  private topBar(withScore: boolean, withChip = true) {
     const label = THEMES[this.saved.theme].label;
+    // No format switching mid-ball: it would spend the player's clock.
+    const chip = withChip
+      ? `<button class="chip" data-act="cycle" aria-label="Format: ${label}. Change format">${label}</button>`
+      : `<span class="grow"></span>`;
     return `<header class="top"><button class="logo" data-act="home" aria-label="Stumped: home">Stumped</button>
-      <button class="chip" data-act="cycle" aria-label="Format: ${label}. Change format">${label}</button>
+      ${chip}
       ${withScore ? this.scoreHtml() : ""}<button class="icon" data-act="mute" aria-pressed="${this.saved.muted}" aria-label="${this.saved.muted ? "Unmute" : "Mute"}">${this.saved.muted ? "🔇" : "🔊"}</button></header>`;
   }
 
   private pips(now: number) {
     const items = this.innings.balls.map((b, i) => {
       const m = mark(b);
-      const label = m ? `Ball ${i + 1}: ${m === "out" ? "out" : TIER_LABEL[m]}` : `Ball ${i + 1}`;
+      const label = m
+        ? `Ball ${ballName(i)}: ${m === "out" ? "out" : TIER_LABEL[m]}`
+        : `Ball ${ballName(i)}`;
       if (m) {
         return `<i role="img" data-t="${m}" aria-label="${label}">${m === "out" ? "W" : RUNS[m]}</i>`;
       }
@@ -427,7 +490,9 @@ export class App {
       <ul><li>1 over, 6 questions</li><li>Right answers get you runs</li><li>The rarer the answers, the bigger the shot</li></ul>
       <div class="cat" id="formats-label">Choose your format</div>
       <div class="formats" role="group" aria-labelledby="formats-label">${formats}</div>
-      <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>${stat}${this.installHtml()}</main>`;
+      <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>
+      <button class="btn ghost help-link" data-act="help">How to play</button>${stat}${this.installHtml()}</main>
+      ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;
   }
 
   private renderPlay() {
@@ -437,7 +502,8 @@ export class App {
       this.view = "scorecard";
       return this.render();
     }
-    this.root.innerHTML = `${this.topBar(true)}${this.pips(this.showing === null ? idx : -1)}
+    const live = this.showing === null && ball.startedAt !== undefined && !ball.result;
+    this.root.innerHTML = `${this.topBar(true, !live)}${this.pips(this.showing === null ? idx : -1)}
       <div class="scene">${sceneSvg(this.saved.theme)}
         <div class="track" id="track" aria-hidden="true"><div class="bar" id="bar"></div></div>
         <div class="callout" id="callout" aria-hidden="true"></div></div>
@@ -468,30 +534,27 @@ export class App {
         panel.innerHTML = `<div class="res"><div class="call" style="color:${colour("out")}">Out!</div>
           <p class="what"><b>${esc(r.dismissal)}</b>: ${esc(FLAVOUR[r.dismissal] ?? "")}</p><p class="meta">${misses}</p></div>`;
       }
-      const label = last ? "See scorecard" : r.kind === "out" ? "Next batter in" : "Next ball";
-      return this.wideButton(panel, "next", label);
+      // Straight into the next ball: one tap, and its question still only appears once faced.
+      return last
+        ? this.wideButton(panel, "next", "See scorecard")
+        : this.wideButton(panel, "face-next", `Face ball ${ballName(idx + 1)}`);
     }
 
     if (ball.startedAt === undefined) {
       // The question isn't put on the page until the ball is faced and its timer is running.
       this.setBar(BALL_MS);
-      panel.innerHTML = `<div class="ready"><div class="cat">Ball ${idx + 1} of ${BALLS_PER_INNINGS}</div>
+      panel.innerHTML = `<div class="ready"><div class="cat">Ball ${ballName(idx)} of ${ballName(BALLS_PER_INNINGS - 1)}</div>
         <p>You'll have 20 seconds once the ball is bowled.</p></div>`;
       return this.wideButton(panel, "face", "Face ball");
     }
 
     const q = this.question(ball);
-    panel.innerHTML = `<div class="q"><div class="cat">Ball ${idx + 1} · ${esc(q.category)}</div><h2 id="prompt">${esc(q.prompt)}</h2></div>
+    panel.innerHTML = `<div class="q"><div class="cat">Ball ${ballName(idx)} · ${esc(q.category)}</div><h2 id="prompt">${esc(q.prompt)}</h2></div>
       <form class="ans" id="ansForm" autocomplete="off"><input id="guess" name="guess" aria-labelledby="prompt" placeholder="Type an answer…"
-        autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go"><button class="btn" type="submit">Play</button></form>
+        autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" maxlength="${MAX_GUESS}"><button class="btn" type="submit">Play</button></form>
       <div class="misses" id="misses" aria-label="Misses">${ball.misses.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
       <div class="hint" id="hint"></div>`;
-    if (this.justFaced) {
-      this.justFaced = false;
-      void this.pitch?.deliver();
-    } else {
-      this.pitch?.hold();
-    }
+    this.pitch?.bowl(Date.now() - (ball.startedAt ?? Date.now()));
     this.root.querySelector<HTMLInputElement>("#guess")?.focus();
     this.startLoop(ball);
   }
@@ -527,7 +590,10 @@ export class App {
     const bar = this.root.querySelector<HTMLElement>("#bar");
     // Quantised to 40 steps to match the 8-bit look.
     if (bar) bar.style.width = `${(Math.ceil((msLeft / BALL_MS) * 40) / 40) * 100}%`;
-    this.root.querySelector("#track")?.classList.toggle("low", msLeft > 0 && msLeft <= 10_000);
+    const track = this.root.querySelector("#track");
+    track?.classList.toggle("low", msLeft > 0 && msLeft <= 10_000);
+    // Last 5 seconds: thicker and striped, so it reads without colour or sound.
+    track?.classList.toggle("final", msLeft > 0 && msLeft <= 5000);
   }
 
   private renderScorecard() {
@@ -609,7 +675,12 @@ export class App {
   }
 
   private shareText() {
-    return shareText(this.innings, new URL(import.meta.env.BASE_URL, window.location.origin).href);
+    const { currentStreak } = computeStats(this.saved.history, this.innings.puzzle);
+    return shareText(
+      this.innings,
+      new URL(import.meta.env.BASE_URL, window.location.origin).href,
+      currentStreak,
+    );
   }
 
   private answersHtml() {
@@ -630,7 +701,7 @@ export class App {
     }).join("");
     return `${this.topBar(true)}<main class="card">${this.newDayBanner()}
       <div class="pager"><button class="btn ghost" data-act="prev" aria-label="Previous ball" ${this.answersIndex === 0 ? "disabled" : ""}>‹</button>
-        <span>Ball ${this.answersIndex + 1} of ${BALLS_PER_INNINGS}</span>
+        <span>Ball ${ballName(this.answersIndex)} of ${ballName(BALLS_PER_INNINGS - 1)}</span>
         <button class="btn ghost" data-act="nextq" aria-label="Next ball" ${this.answersIndex === BALLS_PER_INNINGS - 1 ? "disabled" : ""}>›</button></div>
       <div class="cat">${esc(q.category)}</div><h2 class="aq">${esc(q.prompt)}</h2>${groups}
       <button class="btn wide answers-back" data-act="back">Back to scorecard</button></main>`;
@@ -702,7 +773,7 @@ export class App {
     if (this.view !== "play") return;
     this.showing = ball.index;
     // Score and pips are swapped in place so the pitch animation isn't reset.
-    this.root.querySelector(".score")?.replaceWith(fragment(this.scoreHtml()));
+    this.root.querySelector(".top")?.replaceWith(fragment(this.topBar(true)));
     this.root.querySelector(".pips")?.replaceWith(fragment(this.pips(-1)));
     const shown = this.innings.balls[ball.index];
     if (shown) this.renderPanel(ball.index, shown);
@@ -738,11 +809,11 @@ export class App {
       if (hint) hint.textContent = "";
       this.root
         .querySelector("#misses")
-        ?.insertAdjacentHTML("beforeend", `<span>${esc(text.trim())}</span>`);
+        ?.insertAdjacentHTML("beforeend", `<span>${esc(next.misses.at(-1) ?? "")}</span>`);
       this.sound.miss();
       this.callout("Miss", "miss");
       this.announce(`Miss: ${text.trim()}`);
-      void this.pitch?.miss();
+      this.pitch?.miss();
       input.focus();
       return;
     }
@@ -754,7 +825,12 @@ export class App {
     if (!target) return;
     // Re-read storage first. Ball actions on stale state stop and redraw; navigation carries on.
     const act = target.dataset.act ?? "";
-    if (!this.busy && act !== "mute" && this.sync() && ["face", "next"].includes(act)) {
+    if (
+      !this.busy &&
+      act !== "mute" &&
+      this.sync() &&
+      ["face", "face-next", "next"].includes(act)
+    ) {
       return this.render();
     }
     const theme = target.dataset.theme;
@@ -778,15 +854,18 @@ export class App {
         this.sound.unlock();
         this.view = isComplete(this.innings) ? "scorecard" : "play";
         return this.render();
-      case "face": {
+      case "face":
         this.sound.unlock();
-        const idx = currentBallIndex(this.innings);
-        const ball = this.innings.balls[idx];
-        if (!ball || ball.startedAt !== undefined) return;
-        this.setBall(startBall(ball, Date.now()));
-        this.justFaced = true;
+        return this.faceNext();
+      case "face-next":
+        this.showing = null;
+        this.sound.unlock();
+        return this.faceNext();
+      case "help":
+        this.helpOpen = true;
         return this.render();
-      }
+      case "help-close":
+        return this.closeHelp();
       case "next":
         this.showing = null;
         this.view = isComplete(this.innings) ? "scorecard" : "play";

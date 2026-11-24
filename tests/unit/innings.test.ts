@@ -11,7 +11,7 @@ import {
   total,
 } from "../../src/engine/innings";
 import { createMatcher } from "../../src/engine/match";
-import { shareText } from "../../src/engine/share";
+import { shareText, verdict } from "../../src/engine/share";
 import { BALL_MS } from "../../src/engine/types";
 import { groundsQuestion } from "./fixtures";
 
@@ -65,7 +65,9 @@ describe("innings", () => {
   it("builds spoiler-free share text", () => {
     const inn = play(newInnings(12, ids), ["Bourda", "Galle", null, "Newlands", "Edgbaston", null]);
     const text = shareText(inn, "https://example.github.io/stumped/");
-    expect(text).toBe("Stumped #12 — 24/2\n🏟️ 6️⃣ ☝️ 4️⃣ 2️⃣ ☝️\nhttps://example.github.io/stumped/");
+    expect(text).toBe(
+      "Stumped #12 🏏 24/2\n🏟️ 6️⃣ ☝️ 4️⃣ 2️⃣ ☝️\nOut of the ground!\nhttps://example.github.io/stumped/",
+    );
     for (const answer of groundsQuestion.answers) expect(text).not.toContain(answer.name);
   });
 });
@@ -88,5 +90,25 @@ describe("dismissal", () => {
 
   it("is Timed out when there were no guesses", () => {
     expect(pickDismissal(1, 0, 0)).toBe(TIMED_OUT);
+  });
+});
+
+describe("share verdict", () => {
+  const verdictFor = (answers: (string | null)[]) => verdict(play(newInnings(1, ids), answers));
+  it.each([
+    [[null, null, null, null, null, null], "Duck 🦆"],
+    [["Bourda", "Bourda", null, null, null, null], "2× out of the ground!"],
+    [["Lord's", "Lord's", "Lord's", "Lord's", "Lord's", "Lord's"], "Not out!"],
+    [["Galle", "Sabina Park", null, "Lord's", "Lord's", "Lord's"], "2 sixes"],
+    [["Newlands", null, "Lord's", "Lord's", "Lord's", "Lord's"], "Found the boundary"],
+    [["Edgbaston", null, "Lord's", "Lord's", "Lord's", "Lord's"], "6 off the over"],
+  ])("%j → %s", (answers, expected) => {
+    expect(verdictFor(answers)).toBe(expected);
+  });
+
+  it("adds a streak from two days on", () => {
+    const inn = play(newInnings(3, ids), Array(6).fill("Lord's"));
+    expect(shareText(inn, "u", 1)).not.toContain("streak");
+    expect(shareText(inn, "u", 4)).toContain("Not out! · 🔥 4-day streak");
   });
 });

@@ -13,6 +13,8 @@ const pool = new Map(
 );
 const first = pool.get(schedule.days[0]?.[0] ?? "") as Question;
 
+const NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
+
 test.use({ reducedMotion: "reduce" });
 
 /** WCAG 2.1 AA, including colour contrast. */
@@ -35,7 +37,14 @@ for (const theme of THEMES) {
       sessionStorage.setItem("themed", "1");
       localStorage.setItem(
         "stumped",
-        JSON.stringify({ version: 1, theme: t, muted: true, innings: null, history: {} }),
+        JSON.stringify({
+          version: 1,
+          theme: t,
+          muted: true,
+          seenHelp: true,
+          innings: null,
+          history: {},
+        }),
       );
     }, theme);
     const themed = (page: Page) => expect(page.locator("body")).toHaveClass(`theme-${theme}`);
@@ -56,11 +65,7 @@ for (const theme of THEMES) {
     await audit(page, "result");
 
     for (let i = 1; i < 6; i++) {
-      await page
-        .getByRole("button", { name: "Next ball" })
-        .or(page.getByRole("button", { name: "Next batter in" }))
-        .click();
-      await page.getByRole("button", { name: "Face ball" }).click();
+      await page.getByRole("button", { name: `Face ball ${NAMES[i]}` }).click();
       await page.clock.runFor(21_000);
       if (i === 1) await audit(page, "out");
     }

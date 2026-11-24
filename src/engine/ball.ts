@@ -17,6 +17,9 @@ export interface Ball {
 
 export type GuessOutcome = "hit" | "miss" | "repeat" | "empty" | "out" | "closed";
 
+/** Longest guess kept; the longest accepted answer is well under this. */
+export const MAX_GUESS = 60;
+
 export function newBall(puzzle: number, index: number, questionId: string): Ball {
   return { puzzle, index, questionId, misses: [] };
 }
@@ -73,5 +76,6 @@ export function guess(
   }
 
   if (ball.misses.some((m) => normalise(m) === key)) return { ball, outcome: "repeat" };
-  return { ball: { ...ball, misses: [...ball.misses, text.trim()] }, outcome: "miss" };
+  const shown = text.trim().replace(/\s+/g, " ").slice(0, MAX_GUESS);
+  return { ball: { ...ball, misses: [...ball.misses, shown] }, outcome: "miss" };
 }

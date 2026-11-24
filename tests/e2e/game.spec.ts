@@ -17,6 +17,8 @@ const WRONG = "Definitely not an answer";
 const single = (q: Question) => q.answers.find((a) => a.tier === "single")?.name ?? "";
 const ootg = (q: Question) => q.answers.find((a) => a.tier === "ootg")?.name ?? "";
 
+const NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
+
 test.use({ reducedMotion: "reduce" });
 
 async function faceBall(page: Page) {
@@ -37,7 +39,8 @@ test("plays a full innings, then shows only the scorecard until tomorrow", async
 
   for (const [i, q] of dayOne.entries()) {
     // The question must not be on the page until the ball is faced.
-    await expect(page.getByText(`Ball ${i + 1} of 6`)).toBeVisible();
+    if (i === 0) await expect(page.getByText("Ball One of Six")).toBeVisible();
+    else await expect(page.getByRole("button", { name: `Face ball ${NAMES[i]}` })).toBeVisible();
     await expect(page.getByText(q.prompt)).toHaveCount(0);
     await faceBall(page);
     await expect(page.getByRole("heading", { name: q.prompt })).toBeVisible();
@@ -53,11 +56,11 @@ test("plays a full innings, then shows only the scorecard until tomorrow", async
     await expect(page.locator(".res")).toContainText("1 miss");
     // Other answers stay hidden until the innings is over.
     await expect(page.getByText(ootg(q), { exact: true })).toHaveCount(0);
-    await page.getByRole("button", { name: i === 5 ? "See scorecard" : "Next ball" }).click();
+    if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
 
   await expect(page.locator("#total")).toHaveText("6/0");
-  await expect(page.locator("#shareText")).toContainText("Stumped #1 — 6/0");
+  await expect(page.locator("#shareText")).toContainText("Stumped #1 🏏 6/0");
   for (const q of dayOne) await expect(page.locator("#shareText")).not.toContainText(single(q));
 
   await page.reload();
@@ -79,8 +82,9 @@ test("timer running out is OUT; no guesses is Timed out", async ({ context }) =>
   await expect(page.locator(".res .call")).toHaveText("Out!");
   await expect(page.locator(".res")).toContainText("Timed out");
   await expect(page.locator(".score")).toContainText("0/1");
-  await page.getByRole("button", { name: "Next batter in" }).click();
-  await expect(page.getByText("Ball 2 of 6")).toBeVisible();
+  // One tap from the result straight into the next ball.
+  await page.getByRole("button", { name: "Face ball Two" }).click();
+  await expect(page.locator("#prompt")).toBeVisible();
 });
 
 test("the timer keeps running while the player is away", async ({ context }) => {

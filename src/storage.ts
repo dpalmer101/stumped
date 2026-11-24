@@ -13,12 +13,21 @@ export interface Saved {
   version: typeof VERSION;
   theme: ThemeKey;
   muted: boolean;
+  /** The one-time how-to-play sheet has been dismissed. */
+  seenHelp: boolean;
   innings: Innings | null;
   history: History;
 }
 
 export function defaults(): Saved {
-  return { version: VERSION, theme: "hundred", muted: false, innings: null, history: {} };
+  return {
+    version: VERSION,
+    theme: "hundred",
+    muted: false,
+    seenHelp: false,
+    innings: null,
+    history: {},
+  };
 }
 
 type KeyValueStore = Pick<Storage, "getItem" | "setItem">;
@@ -93,6 +102,7 @@ export function load(store: KeyValueStore | undefined): Saved {
       version: VERSION,
       theme: THEME_KEYS.includes(data.theme as ThemeKey) ? (data.theme as ThemeKey) : base.theme,
       muted: data.muted === true,
+      seenHelp: data.seenHelp === true,
       innings: isInnings(data.innings) ? data.innings : null,
       history: cleanHistory(data.history),
     };

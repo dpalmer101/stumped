@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { guess, newBall, startBall, tick, timeLeft } from "../../src/engine/ball";
+import { guess, MAX_GUESS, newBall, startBall, tick, timeLeft } from "../../src/engine/ball";
 import { TIMED_OUT } from "../../src/engine/dismissal";
 import { createMatcher } from "../../src/engine/match";
 import { BALL_MS } from "../../src/engine/types";
@@ -99,5 +99,21 @@ describe("clock changes", () => {
   it("tolerates a few seconds of clock drift between tabs", () => {
     const ball = startBall(newBall(1, 0, "x"), 1_000_000);
     expect(timeLeft(ball, 1_000_000 - 2_000)).toBe(BALL_MS);
+  });
+});
+
+describe("guess input hygiene", () => {
+  it("stores misses trimmed, with spaces collapsed and length capped", () => {
+    const long = `  Not   a ${"very ".repeat(30)} real ground  `;
+    const r = guess(live(), long, match, T0 + 1000);
+    expect(r.outcome).toBe("miss");
+    const miss = r.ball.misses[0] ?? "";
+    expect(miss.startsWith("Not a very")).toBe(true);
+    expect(miss).not.toMatch(/\s{2}|^\s|\s$/);
+    expect(miss.length).toBeLessThanOrEqual(MAX_GUESS);
+  });
+
+  it("the longest accepted answer fits within the cap", () => {
+    expect("Northern Tasmania Cricket Association Ground".length).toBeLessThan(MAX_GUESS);
   });
 });

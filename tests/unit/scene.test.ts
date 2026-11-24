@@ -20,11 +20,11 @@ describe("pitch animations", () => {
     expect(distance("six")).toBeGreaterThan(distance("single"));
   });
 
-  it("every dismissal has an animation, and the caught ones differ", () => {
-    for (const d of DISMISSALS) expect(dismissalStyle(d)).not.toBe("none");
+  it("every dismissal has its own animation", () => {
+    const styles = DISMISSALS.map(dismissalStyle);
+    expect(styles).not.toContain("none");
+    expect(new Set(styles).size).toBe(DISMISSALS.length);
     expect(dismissalStyle(TIMED_OUT)).toBe("none");
-    const caught = ["Caught behind", "Caught in the deep", "Caught & bowled"].map(dismissalStyle);
-    expect(new Set(caught).size).toBe(3);
     const paths = Object.values(OUT_PATHS).map((p) => JSON.stringify(p.at(-1)));
     expect(new Set(paths).size).toBe(paths.length);
   });

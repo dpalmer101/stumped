@@ -31,7 +31,8 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 5. **Repeat guess** (same normalised text as an earlier miss) → gently flagged, not counted again.
 6. **Timer reaches 0** without a correct answer → **OUT**. The ball scores 0 and adds a wicket.
 7. After the ball: a result panel shows the shot, runs, the answer given and its tier (or the
-   dismissal). No other answers are revealed until the innings is over. **Next ball** continues.
+   dismissal). No other answers are revealed until the innings is over. One tap on **Face ball Two** (etc.)
+   bowls the next ball (its question appears only then); after ball 6 it's **See scorecard**.
 
 ## 4. Answer tiers and runs
 
@@ -120,12 +121,14 @@ Run out, Hit wicket.
   on https pages), and otherwise copies the spoiler-free summary to the clipboard:
 
   ```
-  Stumped #12 — 27/2
-  🏟️ 4️⃣ ☝️ 1️⃣ 6️⃣ ☝️ 2️⃣
+  Stumped #12 🏏 27/2
+  🏟️ 4️⃣ ☝️ 1️⃣ 6️⃣ ☝️
+  Out of the ground! · 🔥 3-day streak
   https://<user>.github.io/stumped
   ```
 
-  Emoji per ball: 🏟️ out of the ground, 6️⃣ 4️⃣ 2️⃣ 1️⃣ runs, ☝️ out.
+  Emoji per ball: 🏟️ out of the ground, 6️⃣ 4️⃣ 2️⃣ 1️⃣ runs, ☝️ out. The third line is a one-line
+  verdict (e.g. "Duck 🦆", "2× out of the ground!", "Not out!") plus the streak from two days on.
 
 ## 12. Content (question bank)
 
@@ -153,7 +156,7 @@ Accounts, leaderboards, archive/practice mode, multiple languages, analytics, ad
 - 2026-11-24: Timer is a thin draining bar along the top, with no seconds shown.
 - 2026-11-24: Each ball lasts 20 seconds (was 30).
 - 2026-11-24: Player-facing copy never states how many answers a question has.
-- 2026-11-24: Home screen description is exactly: "7 balls, 7 questions" / "Right answers get you runs" / "The rarer the answers, the bigger the shot".
+- 2026-11-24: Home screen description is exactly: "1 over, 6 questions" (originally "7 balls, 7 questions") / "Right answers get you runs" / "The rarer the answers, the bigger the shot".
 - 2026-11-24: Everyone gets the same questions, in the same order, on the same date, so scores can be compared. The puzzle number in the share text says which day a score is from.
 - 2026-11-24: Pitch scene and its animations are 8-bit pixel art: chunky pixels, flat colours, square ball, stepped (frame-by-frame) motion.
 - 2026-11-24: Four player-selectable **format themes**, one shared layout: 100 (neon, night), Village (warm, rounded), Test (whites, classic serif), One Day (coloured clothing, blue/yellow). Chosen on the home screen or by tapping the format chip during play; remembered on the device. Each theme has its own venue backdrop, kit colours, ball (red for Test/Village, white for white-ball formats) and sightscreen. Theme never changes questions or scoring.
@@ -163,3 +166,6 @@ Accounts, leaderboards, archive/practice mode, multiple languages, analytics, ad
 - 2026-11-24: Nicknames (players, teams, grounds) count as correct stand-ins for the full name, via aliases, when they identify one answer in the question.
 - 2026-11-24: A day is **one over: 6 balls, 6 questions** (was 7). Home screen first line reads "1 over, 6 questions".
 - 2026-11-24: Each day's questions are a separate file fetched by the page, keeping the app small as the schedule grows. Not meant to hide future questions (casual game).
+- 2026-11-24: From the UX review: a one-time "How to play" sheet (reopenable from home) explains that the first right answer ends the ball and shows the 1/2/4/6/12 ladder; the timer bar thickens and stripes in its last 5 s; the format chip is hidden while a ball is live; one tap goes from a result to the next ball; share text adds a verdict and streak.
+- 2026-11-24: Balls are named, not numbered, in the game ("Ball Three of Six", "Face ball Four").
+- 2026-11-24: Content variety: strongest within a day, then within a week; similar questions are fine after a week, and questions can be re-used after 30 days (see CONTENT.md).

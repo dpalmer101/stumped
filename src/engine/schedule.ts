@@ -97,27 +97,26 @@ export function scheduleProblems(days: Question[][]): string[] {
   return problems;
 }
 
-/**
- * Deal questions into `count` new days after `history`: broader-cricket questions first so every
- * day gets one, then hardest first onto the day with the least difficulty so far, keeping every
- * variety rule. Each day is then ordered easiest to hardest.
- */
-export function allocate(
-  pool: Question[],
-  count: number,
-  history: Question[][] = [],
-): Question[][] {
+/** Small seeded shuffle, so the same pool always gives the same schedule. */
+function shuffled<T>(items: T[], seed: number): T[] {
+  const out = [...items];
+  let x = seed || 1;
+  for (let i = out.length - 1; i > 0; i--) {
+    x = (Math.imul(x, 1664525) + 1013904223) >>> 0;
+    const j = x % (i + 1);
+    [out[i], out[j]] = [out[j] as T, out[i] as T];
+  }
+  return out;
+}
+
+/** One greedy pass over the pool in the given order; null if any day can't be filled. */
+function deal(order: Question[], count: number, history: Question[][]): Question[][] | null {
   const fresh: Question[][] = Array.from({ length: count }, () => []);
   const all = [...history, ...fresh];
   const last = lastUses(history);
   const load = (day: Question[]) => day.reduce((sum, q) => sum + difficulty(q), 0);
-  const byHardest = [...pool].sort(
-    (a, b) => difficulty(b) - difficulty(a) || a.id.localeCompare(b.id),
-  );
-  const ordered = [...byHardest.filter(isBroader).slice(0, count), ...byHardest];
   const placed = new Set<string>();
-
-  for (const q of ordered) {
+  for (const q of order) {
     if (placed.has(q.id)) continue;
     const target = fresh
       .map((day, j) => ({ day, index: history.length + j }))
@@ -132,16 +131,36 @@ export function allocate(
       placed.add(q.id);
     }
   }
-  fresh.forEach((day, j) => {
-    const n = history.length + j + 1;
-    if (day.length !== BALLS_PER_INNINGS) {
-      throw new Error(
-        `Day ${n} only got ${day.length} questions; add more varied questions to the pool`,
-      );
+  return fresh.every((d) => d.length === BALLS_PER_INNINGS && !dayProblems(d).length)
+    ? fresh
+    : null;
+}
+
+/**
+ * Deal questions into `count` new days after `history`, keeping every variety rule. The first
+ * pass goes hardest-first with broader-cricket questions spread one per day, which balances
+ * difficulty; if that dead-ends, seeded reshuffles are tried so the result is still repeatable.
+ * Each day is then ordered easiest to hardest.
+ */
+export function allocate(
+  pool: Question[],
+  count: number,
+  history: Question[][] = [],
+): Question[][] {
+  const byHardest = [...pool].sort(
+    (a, b) => difficulty(b) - difficulty(a) || a.id.localeCompare(b.id),
+  );
+  const broaderFirst = (order: Question[]) => [
+    ...order.filter(isBroader).slice(0, count),
+    ...order,
+  ];
+  for (let attempt = 0; attempt < 2000; attempt++) {
+    const order = attempt === 0 ? byHardest : shuffled(byHardest, attempt);
+    const days = deal(broaderFirst(order), count, history);
+    if (days) {
+      for (const day of days) day.sort((a, b) => difficulty(a) - difficulty(b));
+      return days;
     }
-    const problems = dayProblems(day);
-    if (problems.length) throw new Error(`Day ${n}: ${problems.join(", ")}`);
-    day.sort((a, b) => difficulty(a) - difficulty(b));
-  });
-  return fresh;
+  }
+  throw new Error(`Couldn't fill ${count} varied day(s); add more varied questions to the pool`);
 }

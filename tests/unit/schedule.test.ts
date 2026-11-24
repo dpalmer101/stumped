@@ -80,7 +80,7 @@ describe("allocate", () => {
       ...q(`s${i}`, 0, ["men"]),
       category: "same",
     }));
-    expect(() => allocate(samey, 1)).toThrow(/only got 1 questions/);
+    expect(() => allocate(samey, 1)).toThrow(/Couldn.t fill 1 varied day/);
   });
 });
 

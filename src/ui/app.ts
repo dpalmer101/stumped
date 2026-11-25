@@ -903,7 +903,8 @@ export class App {
       : "";
     const next = this.archive
       ? `<button class="btn wide" data-act="to-archive">Back to the archive</button>`
-      : `<div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>`;
+      : `<div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>
+        <button class="btn ghost wide scorecard-archive" data-act="to-archive">Play the archive</button>`;
     this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}${archiveHead}
       <div class="total flip" id="flip"><div class="flip-inner">
         <div class="face"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>

@@ -264,6 +264,9 @@ test.describe("archive", () => {
     await playOver(page, single);
     await expect(page.getByText("Archive ·")).toHaveCount(0);
     await expect(page.getByText("Next innings in")).toBeVisible();
+    // Straight on to the archive from today's scorecard.
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await expect(page.locator(".days li").first()).toContainText("#1");
   });
 });
 

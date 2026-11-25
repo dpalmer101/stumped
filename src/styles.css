@@ -1184,3 +1184,7 @@ td .tt {
   flex: none;
   padding: 8px 14px;
 }
+.btn.wide.scorecard-archive {
+  width: 100%;
+  margin: 12px 0 0;
+}

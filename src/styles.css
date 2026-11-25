@@ -1033,11 +1033,17 @@ td .tt {
   place-items: end center;
   background: rgba(0, 0, 0, 0.55);
 }
+/* Dragging on the open sheet mustn't scroll the page behind it. */
+html:has(.sheet-backdrop),
+html:has(.sheet-backdrop) body {
+  overflow: hidden;
+}
 .sheet {
   width: 100%;
   max-width: 480px;
   max-height: 90dvh;
   overflow: auto;
+  overscroll-behavior: contain;
   padding: 20px 18px 6px;
   border-radius: 20px 20px 0 0;
   background: var(--bg);

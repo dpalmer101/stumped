@@ -235,6 +235,12 @@ test("first visit shows How to play once; it can be reopened from home", async (
   await expect(page.getByRole("dialog")).toHaveCount(0);
   await page.getByRole("button", { name: "How to play" }).click();
   await expect(sheet).toBeVisible();
+  // Dragging on the sheet mustn't scroll the page behind it, and the page scrolls again after.
+  const pageOverflow = () =>
+    page.evaluate(() => getComputedStyle(document.documentElement).overflow);
+  expect(await pageOverflow()).toBe("hidden");
+  await page.getByRole("button", { name: "Got it" }).click();
+  expect(await pageOverflow()).not.toBe("hidden");
 });
 
 test("the format chip is hidden while a ball is live, and the clock's last 5 seconds stand out", async ({

@@ -835,8 +835,10 @@ export class App {
     }
 
     const q = this.question(ball);
+    // iOS ignores autocomplete="off" and reads a prompt starting "Name a…" as a name field, offering
+    // the player's contact card. Safari leaves fields with "search" in their name alone.
     panel.innerHTML = `<div class="q"><div class="cat">Ball ${ballName(idx)} · ${esc(q.category)}</div><h2 id="prompt">${esc(q.prompt)}</h2></div>
-      <form class="ans" id="ansForm" autocomplete="off"><input id="guess" name="guess" aria-labelledby="prompt" placeholder="Type an answer…"
+      <form class="ans" id="ansForm" autocomplete="off"><input id="guess" name="search-answer" aria-labelledby="prompt" placeholder="Type an answer…"
         autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" maxlength="${MAX_GUESS}"><button class="btn" type="submit">Play</button></form>
       <div class="misses" id="misses" aria-label="Misses">${ball.misses.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
       <div class="hint" id="hint"></div>`;

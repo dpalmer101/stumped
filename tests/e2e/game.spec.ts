@@ -155,6 +155,15 @@ test("with the keyboard up, the timer, question and answer box stay on screen", 
   }
 });
 
+test("the answer box isn't offered the player's contact details", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await faceBall(page);
+  // Test browsers don't AutoFill; Safari skips fields named like a search, which is what we rely on.
+  await expect(page.locator("#guess")).toHaveAttribute("name", /search/);
+  await expect(page.locator("#guess")).toHaveAttribute("autocomplete", "off");
+});
+
 test("a live ball can't be dragged around under the keyboard, but other screens scroll", async ({
   context,
 }) => {

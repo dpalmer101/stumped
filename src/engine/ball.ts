@@ -43,10 +43,16 @@ function dismiss(ball: Ball): Ball {
   return { ...ball, result: { kind: "out", dismissal, runs: 0 } };
 }
 
-/** Resolve the ball as out if its time has run out. Safe to call every frame. */
-export function tick(ball: Ball, now: number): Ball {
-  if (ball.result || ball.startedAt === undefined) return ball;
-  return timeLeft(ball, now) === 0 ? dismiss(ball) : ball;
+/**
+ * Resolve the ball as out if its time has run out. Safe to call every frame. `typed` is what's
+ * still in the answer box: it's played as a last guess, as the clock hit zero, so the player
+ * needn't race to press the button. A right answer scores; anything else is a miss, then out.
+ */
+export function tick(ball: Ball, now: number, typed?: { text: string; match: Matcher }): Ball {
+  if (ball.result || ball.startedAt === undefined || timeLeft(ball, now) > 0) return ball;
+  if (!typed) return dismiss(ball);
+  const last = guess(ball, typed.text, typed.match, ball.startedAt + BALL_MS - 1).ball;
+  return last.result ? last : dismiss(last);
 }
 
 export function guess(
@@ -57,8 +63,10 @@ export function guess(
 ): { ball: Ball; outcome: GuessOutcome } {
   if (ball.result || ball.startedAt === undefined) return { ball, outcome: "closed" };
 
-  const expired = tick(ball, now);
-  if (expired.result) return { ball: expired, outcome: "out" };
+  // Pressed just as time ran out: played as if typed when the clock hit zero, as tick would have.
+  const expired = tick(ball, now, { text, match });
+  if (expired.result)
+    return { ball: expired, outcome: expired.result.kind === "hit" ? "hit" : "out" };
 
   const key = normalise(text);
   if (!key) return { ball, outcome: "empty" };

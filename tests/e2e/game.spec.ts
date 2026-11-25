@@ -90,6 +90,24 @@ test("timer running out is OUT; no guesses is Timed out", async ({ context }) =>
   await expect(page.locator("#prompt")).toBeVisible();
 });
 
+test("an answer still in the box when time runs out is played", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await faceBall(page);
+  await expect(page.getByRole("button", { name: "Swing" })).toBeVisible();
+  await page.getByRole("textbox").fill(ootg(dayOne[0] as Question));
+  await page.clock.runFor(21_000);
+  await expect(page.locator(".res .call")).toHaveText("Out of the ground!");
+
+  await page.getByRole("button", { name: "Face ball Two" }).click();
+  await page.getByRole("textbox").fill(WRONG);
+  await page.clock.runFor(21_000);
+  await expect(page.locator(".res .call")).toHaveText("Out!");
+  // It was a guess, so not "Timed out".
+  await expect(page.locator(".res")).toContainText("1 miss");
+  await expect(page.locator(".res")).not.toContainText("Timed out");
+});
+
 test("the timer keeps running while the player is away", async ({ context }) => {
   const first = dayOne[0] as Question;
   const page = await open(context, LAUNCH);

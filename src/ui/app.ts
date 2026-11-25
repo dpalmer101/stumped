@@ -839,7 +839,7 @@ export class App {
     // the player's contact card. Safari leaves fields with "search" in their name alone.
     panel.innerHTML = `<div class="q"><div class="cat">Ball ${ballName(idx)} · ${esc(q.category)}</div><h2 id="prompt">${esc(q.prompt)}</h2></div>
       <form class="ans" id="ansForm" autocomplete="off"><input id="guess" name="search-answer" aria-labelledby="prompt" placeholder="Type an answer…"
-        autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" maxlength="${MAX_GUESS}"><button class="btn" type="submit">Play</button></form>
+        autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" maxlength="${MAX_GUESS}"><button class="btn" type="submit">Swing</button></form>
       <div class="misses" id="misses" aria-label="Misses">${ball.misses.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
       <div class="hint" id="hint"></div>`;
     this.root.classList.add("live");
@@ -1234,7 +1234,15 @@ export class App {
         this.sound.pulse(left);
         replay(this.root.querySelector("#track"), "pulse");
       }
-      const ticked = tick(current, now);
+      const typed = this.root.querySelector<HTMLInputElement>("#guess")?.value ?? "";
+      const ticked = tick(
+        current,
+        now,
+        // An appeal is never a guess (see onSubmit), even with the clock run down.
+        APPEALS.has(normalise(typed))
+          ? undefined
+          : { text: typed, match: this.matcher(this.question(current)) },
+      );
       if (ticked.result) {
         this.setBall(ticked);
         void this.resolve(ticked);

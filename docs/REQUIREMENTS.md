@@ -36,6 +36,9 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
    the timer keeps running, the player tries again. Unlimited guesses.
 5. **Repeat guess** (same normalised text as an earlier miss) → gently flagged, not counted again.
 6. **Timer reaches 0** without a correct answer → **OUT**. The ball scores 0 and adds a wicket.
+   Whatever is still typed in the answer box when it hits 0 is played as a last guess first, so
+   the player needn't race to press **Swing** (the answer button): right, it scores; wrong, it
+   counts as a miss and the ball is out.
 7. After the ball: a result panel shows the shot, runs, the answer given and its tier (or the
    dismissal). No other answers are revealed until the innings is over. One tap on **Face ball Two** (etc.)
    bowls the next ball (its question appears only then); after ball 6 it's **See scorecard**.
@@ -92,7 +95,9 @@ Run out, Hit wicket.
 - The timer is driven by stored timestamps, not by the page running. It **keeps ticking if the player
   leaves**: switching tabs or apps, locking the phone, reloading or closing the page. On return the
   remaining time is whatever is left; if it ran out while they were away, that ball is out (with
-  "Timed out" if they had made no guesses). This stops players pausing to look answers up.
+  "Timed out" if they had made no guesses). If the page stayed open, an answer left typed in the box
+  is played first (see §3 step 6); after a reload it's gone. Nothing typed while away counts, so
+  this stops players pausing to look answers up.
 - A pulse sound (Web Audio, generated, no audio files) ticks once per second, faster
   every 0.5s in the last 10s and every 0.25s in the last 5s, with rising pitch.
 - Mute toggle, remembered between visits. The bar's visual pulse continues when muted.
@@ -203,3 +208,4 @@ the anonymous counts in §1.
 - 2026-11-25: An open page (home-screen app or browser tab) checks for a newer deploy when it comes back to the foreground and every 10 minutes, and reloads into it on the home screen, today's scorecard or the archive list: never during a ball, its result or an archive over.
 - 2026-11-25: Fours, sixes and out of the ground cut to a themed **landing scene** showing where the ball lands (crowd, rope, outside the ground). It plays on behind the result, so input is never held up for more than about 1.2 s.
 - 2026-11-25: A live ball's screen can't be dragged or scrolled (it already fits what's visible), so it no longer jitters under the iOS keyboard.
+- 2026-11-25: When the timer runs out, an answer still in the box is played as a last guess. The answer button is labelled "Swing" (was "Play").

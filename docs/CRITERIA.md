@@ -27,6 +27,7 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] First correct answer ends the ball; wrong answers are misses and the ball continues. 🤖
 - [ ] Repeat wrong guesses are not counted twice. 🤖
 - [ ] Timeout = OUT, 0 runs, +1 wicket; zero guesses = "Timed out". 🤖
+- [ ] An answer still typed when time runs out is played as a last guess (scores if right, a miss if wrong). 🤖
 - [ ] Runs per tier: OOTG 12, Six 6, Four 4, Two 2, Single 1, Out 0. 🤖
 - [ ] Innings total shown as runs/wickets after ball 6. 🤖
 - [ ] All 6 balls are always played; an out never ends the innings. 🤖

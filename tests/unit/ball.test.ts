@@ -82,10 +82,41 @@ describe("ball", () => {
     expect(out.result).toEqual({ kind: "out", dismissal: TIMED_OUT, runs: 0 });
   });
 
-  it("rejects a correct answer that arrives after time is up", () => {
-    const r = guess(live(), "Lord's", match, T0 + BALL_MS + 1);
-    expect(r.outcome).toBe("out");
-    expect(r.ball.result?.kind).toBe("out");
+  it("plays what's still typed when time runs out, as the clock hit zero", () => {
+    const typed = (text: string) => ({ text, match });
+    expect(tick(live(), T0 + BALL_MS - 1, typed("Bourda")).result).toBeUndefined();
+    const hit = tick(live(), T0 + BALL_MS + 5000, typed("Bourda"));
+    expect(hit.result).toEqual({
+      kind: "hit",
+      answer: "Bourda",
+      tier: "ootg",
+      runs: 12,
+      ms: BALL_MS - 1,
+    });
+
+    const missed = tick(live(), T0 + BALL_MS, typed("Wembley"));
+    expect(missed.misses).toEqual(["Wembley"]);
+    expect(missed.result?.kind).toBe("out");
+    expect(missed.result?.kind === "out" && missed.result.dismissal).not.toBe(TIMED_OUT);
+
+    // Nothing typed, or only a guess already tried, is plain timing out.
+    expect(tick(live(), T0 + BALL_MS, typed("  ")).result).toEqual(
+      tick(live(), T0 + BALL_MS).result,
+    );
+    const tried = guess(live(), "Wembley", match, T0 + 1000).ball;
+    const again = tick(tried, T0 + BALL_MS, typed("wembley"));
+    expect(again.misses).toEqual(["Wembley"]);
+    expect(again.result?.kind).toBe("out");
+  });
+
+  it("plays an answer pressed just after time is up as if typed when the clock hit zero", () => {
+    const hit = guess(live(), "Bourda", match, T0 + BALL_MS + 1);
+    expect(hit.outcome).toBe("hit");
+    expect(hit.ball.result?.kind === "hit" && hit.ball.result.ms).toBe(BALL_MS - 1);
+    const wrong = guess(live(), "Wembley", match, T0 + BALL_MS + 1);
+    expect(wrong.outcome).toBe("out");
+    expect(wrong.ball.result?.kind).toBe("out");
+    expect(wrong.ball.misses).toEqual(["Wembley"]);
   });
 });
 

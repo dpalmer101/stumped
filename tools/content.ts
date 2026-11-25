@@ -1,27 +1,23 @@
 /**
- * Content pipeline: import → verify → rank → schedule. See docs/CONTENT.md.
- * Usage: npm run content:<import|spellings|verify|rank|report|schedule> -- [ids or file names]
+ * Content pipeline: draft → verify → rank → schedule. See docs/CONTENT.md.
+ * Usage: npm run content:<draft|gaps|import|spellings|verify|rank|report|schedule> -- [ids or file names]
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
 import { appendDays } from "../src/engine/locks";
 import { answerKeys, generatedForms, normalise, words } from "../src/engine/match";
 import { computeTiers, rarityScores } from "../src/engine/rarity";
-import { allocate } from "../src/engine/schedule";
+import { allocate, isBroader } from "../src/engine/schedule";
 import { type Answer, BALLS_PER_INNINGS, type Question, type Schedule } from "../src/engine/types";
 import { validateContent, validateQuestion, verificationKey } from "../src/engine/validate";
 import { checkPushed, lock } from "./days";
+import { draft } from "./draft";
+import { API, getJson, parsePage, titleFromUrl } from "./wiki";
 
 const DATA = "src/data";
 const POOL = join(DATA, "questions");
 const SCHEDULE = join(DATA, "schedule.json");
 const REPORTS = "content-reports";
-// Wikimedia asks automated clients to identify themselves; keep it generic.
-const HEADERS = {
-  "User-Agent": "StumpedContentTool/0.1 (cricket quiz content checks)",
-  "Api-User-Agent": "StumpedContentTool/0.1",
-};
-const API = "https://en.wikipedia.org/w/api.php";
 const today = new Date().toISOString().slice(0, 10);
 
 type PoolFile = { file: string; questions: Question[] };
@@ -52,29 +48,6 @@ function* selected(): Generator<{ pf: PoolFile; q: Question }> {
   }
 }
 
-let lastRequest = 0;
-
-/** One request at a time, spaced out, honouring Retry-After: Wikimedia rate-limits bursts. */
-async function getJson<T>(url: string, attempt = 0): Promise<T> {
-  const wait = lastRequest + 600 - Date.now();
-  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-  lastRequest = Date.now();
-  const res = await fetch(url, { headers: HEADERS });
-  if (res.status === 429 || res.status >= 500) {
-    if (attempt > 6) throw new Error(`${res.status} for ${url}`);
-    const retryAfter = Number(res.headers.get("retry-after")) || 2 ** attempt;
-    await new Promise((r) => setTimeout(r, retryAfter * 1000));
-    return getJson(url, attempt + 1);
-  }
-  if (!res.ok) throw new Error(`${res.status} for ${url}`);
-  return (await res.json()) as T;
-}
-
-const titleFromUrl = (url: string) =>
-  decodeURIComponent(
-    url.replace(/^https:\/\/en\.wikipedia\.org\/wiki\//, "").split("#")[0] ?? "",
-  ).replace(/_/g, " ");
-
 interface SourcePage {
   title: string;
   /** Normalised titles of the articles the page links to. */
@@ -91,21 +64,9 @@ const sourceCache = new Map<string, SourcePage>();
 async function sourcePage(url: string): Promise<SourcePage> {
   const cached = sourceCache.get(url);
   if (cached) return cached;
-  const params = new URLSearchParams({
-    action: "parse",
-    page: titleFromUrl(url),
-    prop: "text|links",
-    format: "json",
-    formatversion: "2",
-    redirects: "1",
-  });
-  const data = await getJson<{
-    parse?: { text: string; links: { title: string }[] };
-    error?: { info: string };
-  }>(`${API}?${params}`);
-  if (!data.parse) throw new Error(`Source ${url}: ${data.error?.info ?? "not found"}`);
-  const plain = data.parse.text.replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " ");
-  const articleLinks = data.parse.links.map((l) => l.title).filter((t) => !t.includes(":"));
+  const { html, links } = await parsePage(url);
+  const plain = html.replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " ");
+  const articleLinks = links.filter((t) => !t.includes(":"));
   const page: SourcePage = {
     title: titleFromUrl(url),
     links: new Set(articleLinks.map(normalise)),
@@ -437,6 +398,47 @@ function schedule() {
   });
 }
 
+/** What the unused pool can still fill, and which answer types to write next. */
+function gaps() {
+  const current = JSON.parse(readFileSync(SCHEDULE, "utf8")) as Schedule;
+  const pool = readPool().flatMap((pf) => pf.questions);
+  const byId = new Map(pool.map((q) => [q.id, q]));
+  const history = current.days.map((d) => d.map((id) => byId.get(id) as Question));
+  const scheduled = new Set(current.days.flat());
+  // Only questions content:schedule would accept, and no re-use: this counts new material.
+  const unused = pool.filter((q) => !scheduled.has(q.id) && !validateQuestion(q).length);
+  let fits = 0;
+  for (let n = 1; n <= Math.floor(unused.length / BALLS_PER_INNINGS); n++) {
+    try {
+      allocate(unused, n, history);
+      fits = n;
+    } catch {
+      break;
+    }
+  }
+  const types: Question["answerType"][] = [
+    "player",
+    "country",
+    "county",
+    "team",
+    "tournament",
+    "position",
+    "ground",
+    "other",
+  ];
+  console.log(`Unused questions: ${unused.length}. New days they can fill: ${fits}.\n`);
+  console.log("Unused by answer type (a day takes at most 2 players and 1 of each other type):");
+  for (const t of types) {
+    const n = unused.filter((q) => q.answerType === t).length;
+    console.log(`  ${t.padEnd(10)} ${String(n).padStart(3)}${n === 0 ? "  <- none waiting" : ""}`);
+  }
+  const general = unused.filter((q) => q.tags.includes("general")).length;
+  const broader = unused.filter(isBroader).length;
+  console.log(`\n  general knowledge ${general} (max 2 a day)`);
+  console.log(`  beyond men's internationals ${broader} (at least 1 a day)`);
+  console.log("\nPick the next themes from docs/THEMES.md for the types that are short.");
+}
+
 const command = process.argv[2];
 const run: Record<string, () => unknown> = {
   import: () => importDays(process.argv[3] ?? ""),
@@ -445,13 +447,15 @@ const run: Record<string, () => unknown> = {
   report,
   spellings,
   schedule,
+  draft,
+  gaps,
   lock: () => lock(),
   "check-pushed": () => checkPushed(process.argv[3] || undefined),
 };
 const fn = command ? run[command] : undefined;
 if (!fn) {
   console.log(
-    "Usage: tsx tools/content.ts <import FILE|verify [ids]|rank [ids]|report [ids]|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
+    "Usage: tsx tools/content.ts <draft ID URL…|gaps|import FILE|verify [ids]|rank [ids]|report [ids]|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
   );
   process.exitCode = 1;
 } else {

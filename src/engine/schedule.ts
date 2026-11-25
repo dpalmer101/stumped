@@ -14,7 +14,7 @@ const WEEK = 7;
 const MAX_CATEGORY_PER_WEEK = 2;
 export const REUSE_AFTER_DAYS = 30;
 
-const isBroader = (q: Question) => q.tags.some((t) => BROADER.includes(t));
+export const isBroader = (q: Question) => q.tags.some((t) => BROADER.includes(t));
 const isGeneral = (q: Question) => q.tags.includes("general");
 
 function fitsDay(day: Question[], q: Question): boolean {

@@ -5,6 +5,8 @@ steps 2–4 live in `tools/content.ts`. The unit tests refuse to pass if a quest
 so nothing unverified or unranked can ship.
 
 ```bash
+npm run content:gaps       # before writing: which answer types the pool is short of
+npm run content:draft      # step 1a: pull candidate answers from Wikipedia list pages
 npm run content:spellings  # step 1b: review every form each answer accepts
 npm run content:verify     # step 2: check every answer against Wikipedia
 npm run content:rank       # step 3: work out rarity and set tiers
@@ -39,6 +41,24 @@ converted with `npm run content:import -- <file>`. A question:
   ]
 }
 ```
+
+### Drafting from list pages
+
+Pick a theme first. `npm run content:gaps` shows how many days the unused questions can fill and
+which answer types are short, and [THEMES.md](THEMES.md) holds ideas with their source pages.
+
+Then let the tool type the answers:
+
+```bash
+npm run content:draft -- <id> <wikipedia url…> [--type=ground] [--tables=1,3] [--column=Venue] [--value=Tests] [--lists]
+```
+
+It takes one answer per row from each "wikitable" on the pages (the name-like column, or the one
+`--column` matches), or the first link of each list item with `--lists`. Every answer comes with
+`wiki` set to the article the page links to, so it verifies first time. `--value` fills `values`
+from a numeric column, for a metric. The table headers are printed so you can narrow it with
+`--tables`. The draft goes to `content-drafts/<id>.json` (not committed): trim it, write the
+prompt, category and tags, add aliases, then move it into a batch file.
 
 Rules for the question:
 
@@ -104,6 +124,11 @@ tests check this.
 2. **The answer appears in a source page.** The answer's article must be linked from one of the
    question's `sources`, or its name or an alias must appear in the source text.
 3. **The result is stored** on the answer as `"verified": { "wiki": "<article>", "date": "YYYY-MM-DD" }`.
+
+Wikipedia responses are cached in `.cache/wikipedia` for a week, so a re-run after fixing one
+answer only fetches what changed; pass `--fresh` to ignore the cache, and use it on the last verify run of a batch so
+the stored results reflect Wikipedia today. Both Wikipedia services
+allow only small bursts, so requests go one at a time, 0.6 s apart.
 
 The tool prints every failure. Fix the data, which usually means the wrong article, a missing
 alias, or an answer that isn't really correct, then run it again. **Never** mark an answer

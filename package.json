@@ -13,6 +13,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "content:draft": "tsx tools/content.ts draft",
+    "content:gaps": "tsx tools/content.ts gaps",
     "content:import": "tsx tools/content.ts import",
     "content:verify": "tsx tools/content.ts verify",
     "content:rank": "tsx tools/content.ts rank",

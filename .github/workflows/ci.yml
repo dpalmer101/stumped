@@ -21,17 +21,16 @@ jobs:
         run: npm run content:check-pushed
       - run: npm run build
 
-  # One job per browser, in parallel: each installs only its own browser.
+  # One job per browser, in parallel.
   e2e:
     runs-on: ubuntu-latest
+    # Browsers and their system libraries come preinstalled, rather than installed on every run.
+    # The tag must match @playwright/test (checked by tests/unit/ci.test.ts).
+    container: mcr.microsoft.com/playwright:v1.65.1-noble
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - project: chromium
-            browser: chromium
-          - project: mobile-webkit
-            browser: webkit
+        project: [chromium, mobile-webkit]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -39,14 +38,4 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      # Browsers are cached per Playwright version; their system libraries still need installing.
-      - id: browsers
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ matrix.browser }}-${{ hashFiles('package-lock.json') }}
-      - if: steps.browsers.outputs.cache-hit != 'true'
-        run: npx playwright install --with-deps ${{ matrix.browser }}
-      - if: steps.browsers.outputs.cache-hit == 'true'
-        run: npx playwright install-deps ${{ matrix.browser }}
       - run: npx playwright test --project=${{ matrix.project }}

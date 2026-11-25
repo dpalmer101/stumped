@@ -12,7 +12,7 @@ import {
   total,
 } from "../engine/innings";
 import { createMatcher, type Matcher, normalise } from "../engine/match";
-import { isNight } from "../engine/night";
+import { greeting, isNight } from "../engine/night";
 import { puzzleDate, puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
 import {
@@ -62,7 +62,7 @@ const FLAVOUR: Record<string, string> = {
   [TIMED_OUT]: "Never made it to the crease: no guesses in time.",
 };
 
-const LIGHTS_ON_MS = 2000;
+const LIGHTS_ON_MS = 1000;
 
 const esc = (s: string) =>
   s.replace(
@@ -844,8 +844,9 @@ export class App {
     if (ball.startedAt === undefined) {
       // The question isn't put on the page until the ball is faced and its timer is running.
       this.setBar(BALL_MS);
+      const hello = idx === 0 ? greeting(new Date()) : undefined;
       panel.innerHTML = `<div class="ready"><div class="cat">Ball ${ballName(idx)} of ${ballName(BALLS_PER_INNINGS - 1)}</div>
-        <p>You'll have 20 seconds once the ball is bowled.</p></div>`;
+        <p>${hello ? `${hello}, you'll` : "You'll"} have 20 seconds once the ball is bowled.</p></div>`;
       return this.wideButton(panel, "face", "Face ball");
     }
 

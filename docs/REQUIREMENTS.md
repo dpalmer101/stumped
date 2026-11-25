@@ -27,7 +27,9 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 
 ## 3. A ball
 
-1. The ball waits in a "Ready" state with the **question hidden**. When the player taps **Face ball**
+1. The ball waits in a "Ready" state with the **question hidden**. Ball one greets the player by
+   their local time ("Good morning, you'll have 20 seconds…": morning 5am–noon, afternoon
+   noon–6pm, evening 6pm–midnight, no greeting midnight–5am). When the player taps **Face ball**
    the question appears, the bowler runs in and the timer starts at the same moment (the tap also
    lets the browser play sound). The question is never shown before its timer is running.
 2. A 20-second timer starts. The player types answers into a single text box and presses Enter.
@@ -123,9 +125,9 @@ Run out, Hit wicket.
   ground: it lands outside the ground. Each has a light, comic payoff in the theme's world. The
   result panel shows as soon as the landing does, about 1.2 s after the answer, and the landing plays
   on behind it; it never holds up the next ball.
-- **Floodlights at night:** from 8pm to 5am (player's local time) the sky is dark and floodlights
+- **Floodlights at night:** from 9pm to 5am (player's local time) the sky is dark and floodlights
   shine over the ground in every theme. The first ball's scene opens almost black, and the
-  floodlights flicker on 2 seconds later, before the ball is faced; every ball after starts lit.
+  floodlights flicker on 1 second later, before the ball is faced; every ball after starts lit.
   Landing scenes match: their skies and clouds are darkened the same way.
 - `prefers-reduced-motion`: replace motion with a short fade + text result. Landing scenes show
   their last frame with no wipe; at night the floodlights are simply on.
@@ -213,4 +215,5 @@ the anonymous counts in §1.
 - 2026-11-25: Fours, sixes and out of the ground cut to a themed **landing scene** showing where the ball lands (crowd, rope, outside the ground). It plays on behind the result, so input is never held up for more than about 1.2 s.
 - 2026-11-25: A live ball's screen can't be dragged or scrolled (it already fits what's visible), so it no longer jitters under the iOS keyboard.
 - 2026-11-25: When the timer runs out, an answer still in the box is played as a last guess. The answer button is labelled "Swing" (was "Play").
-- 2026-11-25: From 8pm to 5am the scene is floodlit; the first ball's scene starts dark and the lights come on after 2 s.
+- 2026-11-25: From 9pm to 5am the scene is floodlit; the first ball's scene starts dark and the lights come on after 1 s.
+- 2026-11-25: Ball one greets the player by local time: "Good morning" 5am–noon, "Good afternoon" noon–6pm, "Good evening" 6pm–midnight, none midnight–5am.

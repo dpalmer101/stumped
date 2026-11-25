@@ -37,6 +37,7 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] The archive lists every day so far with the player's score; a day's first finished play counts in stats but not streaks, and replays never change it. 🤖
 - [ ] The timer keeps running while the page is hidden or closed; on return the ball resumes with the time left, or is OUT if it ran out. 🤖
 - [ ] A ball's question is not in the page until that ball is faced and its timer has started. 🤖
+- [ ] Ball one greets the player by local time: Good morning (5am–noon), afternoon (noon–6pm), evening (6pm–midnight), none midnight–5am. 🤖
 - [ ] Progress is saved when a ball is faced and after every guess. 🤖
 
 ## Answer matching
@@ -77,7 +78,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Mute toggle works and persists. 🤖
 - [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)
 - [ ] Four, Six and OOTG cut to a landing scene for each theme (where the ball lands), each with its own art. 🤖
-- [ ] From 8pm to 5am local time the scene is floodlit; ball one's scene starts dark and the floodlights come on after 2 s, never during a timed ball; landing scenes get the same night sky. 🤖
+- [ ] From 9pm to 5am local time the scene is floodlit; ball one's scene starts dark and the floodlights come on after 1 s, never during a timed ball; landing scenes get the same night sky. 🤖
 - [ ] `prefers-reduced-motion` disables motion-heavy animation; landing scenes show their last frame; floodlights are on with no switch-on. 🤖
 - [ ] Animations never block input for longer than 2 s.
 

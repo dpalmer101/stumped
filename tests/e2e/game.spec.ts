@@ -552,7 +552,7 @@ test.describe("floodlights", () => {
   test.describe("in motion", () => {
     test.use({ reducedMotion: "no-preference" });
 
-    test("at night the first ball starts dark and the lights come on after 2s", async ({
+    test("at night the first ball starts dark and the lights come on after 1s", async ({
       context,
     }) => {
       const page = await open(context, NIGHT);
@@ -562,13 +562,17 @@ test.describe("floodlights", () => {
       await expect(part(page, "dark")).toHaveCount(1);
       expect(await opacity(page, "dark")).toBeGreaterThan(0.5);
       expect(await opacity(page, "floodlights")).toBe(0);
+      const delay = await part(page, "floodlights").evaluate(
+        (el) => el.getAnimations()[0]?.effect?.getTiming().delay,
+      );
+      expect(delay).toBe(1000);
       await expect
         .poll(async () => [await opacity(page, "dark"), await opacity(page, "floodlights")], {
           timeout: 5000,
           intervals: [100],
         })
         .toEqual([0, 1]);
-      expect(Date.now() - start).toBeGreaterThanOrEqual(2000);
+      expect(Date.now() - start).toBeGreaterThanOrEqual(1000);
 
       // Changing format redraws the scene with the lights already on.
       await toVillage(page);
@@ -582,3 +586,18 @@ test.describe("floodlights", () => {
     });
   });
 });
+
+for (const [time, text] of [
+  ["10:00", "Good morning, you'll"],
+  ["14:00", "Good afternoon, you'll"],
+  ["19:00", "Good evening, you'll"],
+  ["02:00", "You'll"],
+] as const) {
+  test(`ball one at ${time} reads "${text} have 20 seconds…"`, async ({ context }) => {
+    const page = await open(context, new Date(`${schedule.launchDate}T${time}:00`));
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await expect(page.locator(".ready p")).toHaveText(
+      `${text} have 20 seconds once the ball is bowled.`,
+    );
+  });
+}

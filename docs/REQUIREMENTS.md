@@ -109,10 +109,17 @@ Run out, Hit wicket.
   - **Two** – clip off the pads into the gap, batters run two.
   - **Four** – drive along the ground to the rope.
   - **Six** – lofted shot, lands over the rope in the crowd.
-  - **Out of the ground** – huge hit, ball leaves the stadium, crowd flash/fireworks.
+  - **Out of the ground** – huge hit, ball leaves the stadium, crowd flash.
   - **Miss** – ball beats the bat and carries on past the stumps; play continues.
   - **Out** – dismissal-specific animation.
-- `prefers-reduced-motion`: replace motion with a short fade + text result.
+- **Landing scenes** for Four, Six and Out of the ground: as the ball leaves the pitch, a pixel wipe in
+  the theme's colours cuts to where it lands, a scene of its own for each theme (12 in all, see
+  `src/ui/landing.ts`). Four: the ball reaches the rope. Six: it lands in the crowd. Out of the
+  ground: it lands outside the ground. Each has a light, comic payoff in the theme's world. The
+  result panel shows as soon as the landing does, about 1.2 s after the answer, and the landing plays
+  on behind it; it never holds up the next ball.
+- `prefers-reduced-motion`: replace motion with a short fade + text result. Landing scenes show
+  their last frame with no wipe.
 
 ## 10. Persistence and stats (localStorage)
 
@@ -193,3 +200,4 @@ the anonymous counts in §1.
 - 2026-11-25: The timer bar moves to the bottom of the pitch scene, and a live ball's screen fits above the on-screen keyboard.
 - 2026-11-25: The far stumps stand in the middle of the wicket, with the batter to their left.
 - 2026-11-25: An open page (home-screen app or browser tab) checks for a newer deploy when it comes back to the foreground and every 10 minutes, and reloads into it on the home screen, today's scorecard or the archive list: never during a ball, its result or an archive over.
+- 2026-11-25: Fours, sixes and out of the ground cut to a themed **landing scene** showing where the ball lands (crowd, rope, outside the ground). It plays on behind the result, so input is never held up for more than about 1.2 s.

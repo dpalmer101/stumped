@@ -387,3 +387,49 @@ test.describe("logo", () => {
     await expect(logo).toBeVisible();
   });
 });
+
+test.describe("landing scenes", () => {
+  const landing = (page: Page) => page.locator('.scene [data-part="landing"]');
+
+  test("with reduced motion a big hit shows where it landed, with no wipe", async ({ context }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await faceBall(page);
+    await answer(page, ootg(dayOne[0] as Question));
+    await expect(page.locator(".res .call")).toHaveText("Out of the ground!");
+    await expect(landing(page)).toBeVisible();
+    await expect(page.locator('.scene [data-part="wipe"]')).toHaveCount(0);
+    await expect(page.locator(".scene svg")).toHaveAttribute("aria-label", "Where the ball landed");
+    // The last frame, not the first: every part has reached its final key.
+    const states = await landing(page).evaluate((el) =>
+      [...el.querySelectorAll("*")].flatMap((part) => part.getAnimations().map((a) => a.playState)),
+    );
+    expect(states.length).toBeGreaterThan(0);
+    expect(new Set(states)).toEqual(new Set(["finished"]));
+    await page.getByRole("button", { name: "Face ball two", exact: true }).click();
+    await expect(landing(page)).toHaveCount(0);
+  });
+
+  test.describe("in motion", () => {
+    test.use({ reducedMotion: "no-preference" });
+
+    test("the result shows within 2s while the landing plays on behind it", async ({ context }) => {
+      const page = await open(context, LAUNCH);
+      await page.getByRole("button", { name: "Walk out to bat" }).click();
+      await faceBall(page);
+      const started = Date.now();
+      await answer(page, ootg(dayOne[0] as Question));
+      await expect(page.locator(".res .call")).toHaveText("Out of the ground!", { timeout: 2000 });
+      expect(Date.now() - started).toBeLessThan(2000);
+      await expect(landing(page)).toHaveCount(1);
+      const playing = await landing(page).evaluate((el) =>
+        [...el.querySelectorAll("*")].some((part) =>
+          part.getAnimations().some((a) => a.playState === "running"),
+        ),
+      );
+      expect(playing).toBe(true);
+      await page.getByRole("button", { name: "Face ball two", exact: true }).click();
+      await expect(landing(page)).toHaveCount(0);
+    });
+  });
+});

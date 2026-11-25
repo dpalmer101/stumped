@@ -1,41 +1,20 @@
 import { BALL_MS, type Tier } from "../engine/types";
 import type { ThemeKey } from "../storage";
+import {
+  CUT,
+  isLanding,
+  type Key,
+  LANDINGS,
+  type LandingTier,
+  landingFrames,
+  wipeKeys,
+  wipeSvg,
+} from "./landing";
+import { crowd, P, px } from "./pixels";
 import { type ScenePalette, THEMES } from "./themes";
 
-// 8-bit scene: a 90×55 grid of 4px "pixels" in a 360×220 viewBox.
-const P = 4;
 const WOOD = "#f1e6c8";
-
-const px = (x: number, y: number, w: number, h: number, fill: string, extra = "") =>
-  `<rect x="${x * P}" y="${y * P}" width="${w * P}" height="${h * P}" fill="${fill}" ${extra}/>`;
-
-// Seeded so the crowd looks the same on every visit.
-function rng(seed: number) {
-  let s = seed >>> 0;
-  return () => {
-    s = (Math.imul(s, 1664525) + 1013904223) >>> 0;
-    return s / 4294967296;
-  };
-}
-
-function crowd(
-  x0: number,
-  y0: number,
-  w: number,
-  h: number,
-  colours: string[],
-  density: number,
-  seed: number,
-) {
-  const r = rng(seed);
-  let s = "";
-  for (let y = y0; y < y0 + h; y++) {
-    for (let x = x0; x < x0 + w; x++) {
-      if (r() < density) s += px(x, y, 1, 1, colours[Math.floor(r() * colours.length)] ?? "#fff");
-    }
-  }
-  return s;
-}
+const PITCH_LABEL = "Looking down the pitch at the batter";
 
 function boards(y: number, a: string, b: string, seg: number) {
   let s = "";
@@ -165,7 +144,7 @@ export function sceneSvg(theme: ThemeKey): string {
   // Invisible, generous tap target over the far stumps (an easter egg; see App.tapStumps).
   s += px(39, 12, 11, 18, "transparent", 'data-part="stumps-hit"');
   s += `<rect data-part="ball" x="-2" y="-2" width="4" height="4" fill="${c.ball}" transform="translate(144 122) scale(2)"/>`;
-  return `<svg viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" role="img" aria-label="Looking down the pitch at the batter">${s}</svg>`;
+  return `<svg data-theme="${theme}" viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" role="img" aria-label="${PITCH_LABEL}">${s}</svg>`;
 }
 
 type Frame = { transform: string };
@@ -251,6 +230,9 @@ export class Pitch {
     for (const a of this.anims) a.cancel();
     this.anims = [];
     this.part("ball").removeAttribute("transform");
+    for (const el of this.svg.querySelectorAll('[data-part="landing"], [data-part="wipe"]'))
+      el.remove();
+    this.svg.setAttribute("aria-label", PITCH_LABEL);
     return this.gen;
   }
 
@@ -317,7 +299,13 @@ export class Pitch {
   }
 
   async hit(tier: Tier): Promise<void> {
-    if (this.reduce) return;
+    if (this.reduce) {
+      if (isLanding(tier)) {
+        this.clear();
+        await this.land(tier, true);
+      }
+      return;
+    }
     const shot = SHOTS[tier];
     const arrive = this.toBat();
     const g = this.gen;
@@ -336,10 +324,59 @@ export class Pitch {
         },
       );
     }
-    await this.run(this.part("ball"), shot.path, {
+    const flight = this.run(this.part("ball"), shot.path, {
       duration: shot.dur,
       easing: steps(Math.round(shot.dur / 90)),
     });
+    // The landing plays on after this resolves, so it never holds up the next ball.
+    await (isLanding(tier) ? this.land(tier, false) : flight);
+  }
+
+  /**
+   * Wipes from the pitch to where the ball lands, timed from the swing, and resolves once it shows.
+   * `still` shows its last frame straight away, for reduced motion.
+   */
+  private land(tier: LandingTier, still: boolean): Promise<void> {
+    const theme = this.svg.dataset.theme;
+    if (!theme || !(theme in LANDINGS)) return Promise.resolve();
+    const landing = LANDINGS[theme as keyof typeof LANDINGS][tier];
+    const wipe = still ? "" : `<g data-part="wipe">${wipeSvg(theme as keyof typeof LANDINGS)}</g>`;
+    this.svg.insertAdjacentHTML(
+      "beforeend",
+      `<g data-part="landing"${still ? "" : ' opacity="0"'}>${landing.svg()}</g>${wipe}`,
+    );
+    const scene = this.part("landing");
+    this.svg.setAttribute("aria-label", "Where the ball landed");
+    const from = this.anims.length;
+    const track = (el: Element | null, keys: Key[], base: number) => {
+      if (!el) return Promise.resolve();
+      const { frames, delay, duration } = landingFrames(keys);
+      return this.run(el, frames, {
+        delay: base + delay,
+        duration,
+        easing: "linear",
+        fill: "both",
+      });
+    };
+    landing.play((name, keys) => {
+      void track(scene.querySelector(`[data-p="${name}"]`), keys, still ? 0 : CUT);
+    });
+    if (still) {
+      for (const a of this.anims.slice(from)) a.finish();
+      return Promise.resolve();
+    }
+    for (const block of this.part("wipe").querySelectorAll<SVGElement>("[data-w]")) {
+      void track(block, wipeKeys(Number(block.dataset.w)), 0);
+    }
+    return track(
+      scene,
+      [
+        [0, { opacity: 0 }],
+        [CUT, { opacity: 0 }],
+        [CUT, { opacity: 1 }],
+      ],
+      0,
+    );
   }
 
   async out(dismissal: string): Promise<void> {

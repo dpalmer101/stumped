@@ -74,7 +74,8 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Pulse sound speeds up at 10 s and 5 s; no sound before the first user gesture.
 - [ ] Mute toggle works and persists. 🤖
 - [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)
-- [ ] `prefers-reduced-motion` disables motion-heavy animation.
+- [ ] Four, Six and OOTG cut to a landing scene for each theme (where the ball lands), each with its own art. 🤖
+- [ ] `prefers-reduced-motion` disables motion-heavy animation; landing scenes show their last frame. 🤖
 - [ ] Animations never block input for longer than 2 s.
 
 ## Accessibility and UX

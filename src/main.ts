@@ -20,5 +20,13 @@ if (url.searchParams.has("reset") && !window.location.hostname.endsWith("github.
   window.history.replaceState(null, "", url);
 }
 
+// Left by the update reload (App.reloadIfSafe) to dodge caches; it means nothing to a visitor,
+// and the reload isn't a new visit.
+const updated = url.searchParams.has("v");
+if (updated) {
+  url.searchParams.delete("v");
+  window.history.replaceState(null, "", url);
+}
+
 const root = document.querySelector<HTMLElement>("#app");
-if (root) new App(root);
+if (root) new App(root, { countVisit: !updated });

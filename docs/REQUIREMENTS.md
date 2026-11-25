@@ -192,3 +192,4 @@ the anonymous counts in §1.
 - 2026-11-25: Archive mode: play any day so far; the first finished play of a day counts in stats but not streaks, and replays never replace it.
 - 2026-11-25: The timer bar moves to the bottom of the pitch scene, and a live ball's screen fits above the on-screen keyboard.
 - 2026-11-25: The far stumps stand in the middle of the wicket, with the batter to their left.
+- 2026-11-25: An open page (home-screen app or browser tab) checks for a newer deploy when it comes back to the foreground and every 10 minutes, and reloads into it on the home screen, today's scorecard or the archive list: never during a ball, its result or an archive over.

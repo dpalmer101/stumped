@@ -41,8 +41,13 @@ function context(): CountContext {
 function send(path: string, title: string, event: boolean) {
   if (!countingEnabled(context())) return;
   try {
-    // An image request: fire-and-forget, nothing read back, never blocks the game.
-    new Image().src = countUrl(GOATCOUNTER_SITE, path, title, event);
+    // Fire-and-forget, nothing read back, never blocks the game. keepalive lets it finish even
+    // if the page reloads straight after (the update reload, App.reloadIfSafe).
+    void fetch(countUrl(GOATCOUNTER_SITE, path, title, event), {
+      mode: "no-cors",
+      keepalive: true,
+      credentials: "omit",
+    }).catch(() => undefined);
   } catch {
     // Counting is never allowed to break play.
   }

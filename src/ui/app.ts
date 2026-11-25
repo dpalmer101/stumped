@@ -182,6 +182,17 @@ interface InstallPromptEvent extends Event {
 }
 
 const SECRET_HOLD_MS = 3000;
+const UPDATE_CHECK_MS = 10 * 60_000;
+const RELOADED_KEY = "stumped-reloaded-for";
+/** The build last reloaded for, if within the last check interval (see reloadIfSafe). */
+const recentlyReloadedFor = (): string | null => {
+  try {
+    const [build, at] = (sessionStorage.getItem(RELOADED_KEY) ?? "").split("|");
+    return build && Date.now() - Number(at) < UPDATE_CHECK_MS ? build : null;
+  } catch {
+    return null;
+  }
+};
 const APPEALS = new Set(["howzat", "howsthat", "hows that"].map(normalise));
 /** Taps on the far stumps, within this long of each other, that knock the bails off. */
 const STUMP_TAPS = 5;
@@ -227,8 +238,13 @@ export class App {
    */
   private archive = false;
   private archiveCounts = false;
+  /** The newer deploy that's live, to reload into when it won't interrupt play. */
+  private updateReady: string | null = null;
 
-  constructor(private readonly root: HTMLElement) {
+  constructor(
+    private readonly root: HTMLElement,
+    options = { countVisit: true },
+  ) {
     this.saved = load(this.store);
     this.lastRaw = readRaw(this.store);
     this.sound = new Sound(this.saved.muted);
@@ -242,8 +258,11 @@ export class App {
       if (e.key === STORAGE_KEY && this.loadedPuzzle && !this.busy && this.sync()) this.render();
     });
     document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "visible") this.checkDay();
+      if (document.visibilityState !== "visible") return;
+      this.checkDay();
+      void this.checkForUpdate();
     });
+    window.setInterval(() => void this.checkForUpdate(), UPDATE_CHECK_MS);
     window.setInterval(() => this.checkDay(), 30_000);
     const onViewport = () => this.fitViewport();
     window.visualViewport?.addEventListener("resize", onViewport);
@@ -259,7 +278,7 @@ export class App {
       this.installPrompt = null;
       if (this.loadedPuzzle && this.view === "home") this.render();
     });
-    countVisit();
+    if (options.countVisit) countVisit();
     void this.boot();
   }
 
@@ -495,7 +514,48 @@ export class App {
     this.persist();
   }
 
+  /**
+   * A page left open (a home-screen app, a browser tab) keeps running the code it loaded. Ask the
+   * site which build is live; if it's newer, reload at the next screen that isn't part of a ball.
+   */
+  private async checkForUpdate() {
+    if (import.meta.env.DEV || this.updateReady) return;
+    try {
+      const res = await fetch(`${import.meta.env.BASE_URL}version.json?t=${Date.now()}`, {
+        cache: "no-store",
+      });
+      const { build } = (await res.json()) as { build?: unknown };
+      if (typeof build !== "string" || build === __BUILD_ID__ || recentlyReloadedFor() === build)
+        return;
+      this.updateReady = build;
+    } catch {
+      // Offline or mid-deploy: try again next time.
+      return;
+    }
+    this.reloadIfSafe();
+  }
+
+  /** Never during a ball, its result or an archive over: only home, today's scorecard or the archive list. */
+  private reloadIfSafe(): boolean {
+    const safe =
+      this.view === "archive" ||
+      (!this.archive && (this.view === "home" || this.view === "scorecard"));
+    if (!this.updateReady || this.busy || !safe) return false;
+    // The build in the URL stops the browser or GitHub's CDN serving a cached copy. If the old
+    // page comes back anyway, wait a check interval before trying again rather than looping.
+    try {
+      sessionStorage.setItem(RELOADED_KEY, `${this.updateReady}|${Date.now()}`);
+    } catch {
+      // Storage blocked: the URL still busts the cache.
+    }
+    const url = new URL(window.location.href);
+    url.searchParams.set("v", this.updateReady);
+    window.location.replace(url);
+    return true;
+  }
+
   private render() {
+    if (this.reloadIfSafe()) return;
     window.clearTimeout(this.holdTimer);
     this.stopLoop();
     window.clearInterval(this.countdown);

@@ -92,6 +92,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 ## Persistence and sharing
 
 - [ ] Progress, stats, streak and mute stored in localStorage under one versioned key. 🤖
+- [ ] A page left open picks up a new deploy by itself, reloading only on a screen outside a ball, and at most once per deploy. 🤖
 - [ ] Corrupt or old-version storage is discarded safely, not crashing the app. 🤖
 - [ ] Share text contains no answers. 🤖
 

@@ -96,7 +96,7 @@ test("every format renders every screen", async ({ context }) => {
     await expect(page.locator("body")).toHaveClass(`theme-${theme}`);
     await expect(page.locator("#total")).toHaveText("0/6");
     await page.evaluate(() => window.scrollTo(0, 800));
-    await page.getByRole("button", { name: "See all answers" }).click();
+    await page.getByRole("button", { name: "Answers", exact: true }).click();
     await expect(page.locator(".group").first()).toBeVisible();
     expect(await page.evaluate(() => window.scrollY)).toBe(0);
     await page.getByRole("button", { name: "Back to scorecard" }).click();
@@ -135,7 +135,7 @@ test("the logo goes home from any screen, and play resumes where it left off", a
     if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
   }
   await page.getByRole("button", { name: "Stumped: home" }).click();
-  await expect(page.getByRole("button", { name: "View scorecard" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Scorecard", exact: true })).toBeVisible();
 });
 
 test("a tab still on yesterday's over can't wipe today's innings in another tab", async ({

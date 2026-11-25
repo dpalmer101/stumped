@@ -72,7 +72,7 @@ for (const theme of THEMES) {
     await page.getByRole("button", { name: "See scorecard" }).click();
     await audit(page, "scorecard");
 
-    await page.getByRole("button", { name: "See all answers" }).click();
+    await page.getByRole("button", { name: "Answers", exact: true }).click();
     await audit(page, "answers");
   });
 }

@@ -70,7 +70,7 @@ test("plays a full innings, then shows only the scorecard until tomorrow", async
   await expect(page.locator("#total")).toHaveText("6/0");
   await expect(page.getByRole("button", { name: "Face ball" })).toHaveCount(0);
 
-  await page.getByRole("button", { name: "See all answers" }).click();
+  await page.getByRole("button", { name: "Answers", exact: true }).click();
   const first = dayOne[0] as Question;
   await expect(page.getByRole("heading", { name: first.prompt })).toBeVisible();
   await expect(page.getByText(ootg(first), { exact: true })).toBeVisible();
@@ -172,7 +172,7 @@ test.describe("archive", () => {
     context,
   }) => {
     const page = await open(context, dayTwo);
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await expect(page.locator(".days li").first()).toContainText("#2");
     await expect(page.locator(".days li").first()).toContainText("Today");
     const dayOneRow = page.locator(".days li").nth(1);
@@ -206,7 +206,7 @@ test.describe("archive", () => {
     await answer(page, single(pool.get(schedule.days[1]?.[0] ?? "") as Question));
     await expect(page.locator(".res")).toBeVisible();
     await page.getByRole("button", { name: "Stumped: home" }).click();
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Play: #1" }).click();
     await playOver(page, single);
     await page.getByRole("button", { name: "Stumped: home" }).click();
@@ -227,7 +227,7 @@ test.describe("archive", () => {
     await expect(page.locator(".res")).toBeVisible();
     await page.getByRole("button", { name: "Stumped: home" }).click();
     await page.clock.setSystemTime(new Date(dayTwo.getTime()));
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Resume: #1" }).click();
     await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
     await expect(page.getByText("Ball Two of Six")).toBeVisible();
@@ -236,13 +236,13 @@ test.describe("archive", () => {
 
   test("an unfinished first go resumes after a reload and still counts", async ({ context }) => {
     const page = await open(context, dayTwo);
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Play: #1" }).click();
     await faceBall(page);
     await answer(page, ootg(dayOne[0] as Question));
     await expect(page.locator(".res")).toBeVisible();
     await page.reload();
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Resume: #1" }).click();
     await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
     for (const [i, q] of dayOne.slice(1).entries()) {
@@ -259,13 +259,13 @@ test.describe("archive", () => {
 
   test("today's unplayed over from the archive is the real thing", async ({ context }) => {
     const page = await open(context, LAUNCH);
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Play: #1" }).click();
     await playOver(page, single);
     await expect(page.getByText("Archive ·")).toHaveCount(0);
     await expect(page.getByText("Next innings in")).toBeVisible();
     // Straight on to the archive from today's scorecard.
-    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
     await expect(page.locator(".days li").first()).toContainText("#1");
   });
 });

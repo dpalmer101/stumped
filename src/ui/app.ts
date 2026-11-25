@@ -620,7 +620,7 @@ export class App {
     const cta = this.beforeLaunch()
       ? `First over on ${new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long" }).format(new Date(`${schedule.launchDate}T00:00:00`))}`
       : isComplete(this.innings)
-        ? "View scorecard"
+        ? "Scorecard"
         : started
           ? "Resume innings"
           : "Walk out to bat";
@@ -637,9 +637,7 @@ export class App {
       <figure class="quote"><blockquote>“${this.quote[0]}”</blockquote><figcaption>${this.quote[1]}</figcaption></figure>
       <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>
       <div class="home-links"><button class="btn ghost" data-act="help">How to play</button>${
-        this.beforeLaunch()
-          ? ""
-          : `<button class="btn ghost" data-act="archive">Play the archive</button>`
+        this.beforeLaunch() ? "" : `<button class="btn ghost" data-act="archive">Archive</button>`
       }</div>${stat}${this.installHtml()}</main>
       ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;
   }
@@ -904,7 +902,7 @@ export class App {
     const next = this.archive
       ? `<button class="btn wide" data-act="to-archive">Back to the archive</button>`
       : `<div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>
-        <button class="btn ghost wide scorecard-archive" data-act="to-archive">Play the archive</button>`;
+        <button class="btn ghost wide scorecard-archive" data-act="to-archive">Archive</button>`;
     this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}${archiveHead}
       <div class="total flip" id="flip"><div class="flip-inner">
         <div class="face"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>
@@ -912,7 +910,7 @@ export class App {
       </div>${runs === 0 ? `<div class="duck" aria-hidden="true">${duckSvg()}</div>` : ""}</div>
       ${this.pips(-1)}<table aria-label="Scorecard">${rows}</table>
       <div class="share" id="shareText">${esc(this.shareText())}</div>
-      <div class="two"><button class="btn" data-act="share">Share</button><button class="btn ghost" data-act="answers">See all answers</button></div>
+      <div class="two"><button class="btn" data-act="share">Share</button><button class="btn ghost" data-act="answers">Answers</button></div>
       <div class="toast" id="toast" role="status"></div>
       ${next}
       ${statsHtml(stats)}

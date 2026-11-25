@@ -8,6 +8,8 @@ const px = (x, y, w, h, fill) =>
   `<rect x="${x * P}" y="${y * P}" width="${w * P}" height="${h * P}" fill="${fill}"/>`;
 const wood = "#f1e6c8";
 const ball = "#d8262f";
+// Darker than the ball and across it: a pale seam over a stump read as the stump showing through.
+const seam = "#8f141b";
 
 // Content sits inside the central 80% so it survives "maskable" cropping on Android.
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" shape-rendering="crispEdges">
@@ -16,7 +18,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" shape
   ${px(3, 4, 2, 9, wood)}${px(7, 4, 2, 9, wood)}${px(11, 4, 2, 9, wood)}
   ${px(3, 3, 4, 1, wood)}${px(9, 3, 4, 1, wood)}
   ${px(10, 6, 3, 3, ball)}${px(9, 7, 5, 1, ball)}${px(11, 5, 1, 5, ball)}
-  ${px(11, 6, 1, 3, "#f4efe1")}
+  ${px(10, 7, 3, 1, seam)}
 </svg>`;
 
 mkdirSync("public/icons", { recursive: true });

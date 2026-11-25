@@ -152,20 +152,20 @@ export function sceneSvg(theme: ThemeKey): string {
     s += px(45 - half, r, half * 2, 1, c.pitch);
   }
   s += px(35, 27, 20, 1, "#fff") + px(25, 49, 40, 1, "#fff");
-  // Far stumps peek out beside the batter.
-  s += px(47, 16, 1, 12, WOOD) + px(49, 16, 1, 12, WOOD) + px(51, 16, 1, 12, WOOD);
-  s += px(47, 15, 2, 1, WOOD, 'data-part="bail1"') + px(50, 15, 2, 1, WOOD, 'data-part="bail2"');
+  // Far stumps in the middle of the wicket, the batter standing off to the left of them.
+  s += px(42, 16, 1, 12, WOOD) + px(44, 16, 1, 12, WOOD) + px(46, 16, 1, 12, WOOD);
+  s += px(42, 15, 2, 1, WOOD, 'data-part="bail1"') + px(45, 15, 2, 1, WOOD, 'data-part="bail2"');
   s += '<g data-part="batter">';
-  s += px(40, 18, 2, 10, "#fff") + px(43, 18, 2, 10, "#fff");
-  s += px(39, 9, 7, 9, c.kit) + px(38, 10, 1, 5, c.kit) + px(46, 10, 1, 4, c.kit);
-  s += px(40, 4, 5, 5, c.helmet) + px(40, 7, 5, 1, "#222") + px(41, 8, 3, 1, c.skin);
-  s += `<g data-part="bat" style="transform-origin:${46 * P}px ${14 * P}px">${px(46, 13, 1, 2, "#333")}${px(45, 15, 2, 10, "#d9b779")}</g></g>`;
+  s += px(34, 18, 2, 10, "#fff") + px(37, 18, 2, 10, "#fff");
+  s += px(33, 9, 7, 9, c.kit) + px(32, 10, 1, 5, c.kit) + px(40, 10, 1, 4, c.kit);
+  s += px(34, 4, 5, 5, c.helmet) + px(34, 7, 5, 1, "#222") + px(35, 8, 3, 1, c.skin);
+  s += `<g data-part="bat" style="transform-origin:${40 * P}px ${14 * P}px">${px(40, 13, 1, 2, "#333")}${px(39, 15, 2, 10, "#d9b779")}</g></g>`;
   s += px(41, 44, 2, 11, WOOD) + px(44, 44, 2, 11, WOOD) + px(47, 44, 2, 11, WOOD);
   s += `<g data-part="bowler">${px(30, 48, 2, 7, c.kit2)}${px(33, 48, 2, 7, c.kit2)}${px(29, 39, 7, 10, c.kit2)}${px(35, 31, 2, 9, c.kit2)}${px(30, 34, 5, 5, "#5a3b26")}</g>`;
   // Invisible, generous tap target over the far stumps (an easter egg; see App.tapStumps).
-  s += px(44, 12, 11, 18, "transparent", 'data-part="stumps-hit"');
+  s += px(39, 12, 11, 18, "transparent", 'data-part="stumps-hit"');
   s += `<rect data-part="ball" x="-2" y="-2" width="4" height="4" fill="${c.ball}" transform="translate(144 122) scale(2)"/>`;
-  return `<svg viewBox="0 0 360 220" shape-rendering="crispEdges" role="img" aria-label="Looking down the pitch at the batter">${s}</svg>`;
+  return `<svg viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" role="img" aria-label="Looking down the pitch at the batter">${s}</svg>`;
 }
 
 type Frame = { transform: string };
@@ -173,7 +173,7 @@ const at = (x: number, y: number, s = 1): Frame => ({
   transform: `translate(${x}px, ${y}px) scale(${s})`,
 });
 const START = at(144, 122, 2);
-const AT_BAT = at(186, 84, 1.25);
+const AT_BAT = at(162, 84, 1.25);
 const RUN_UP_MS = 600;
 // Stepped easing gives the choppy, frame-by-frame 8-bit feel.
 const steps = (n: number) => `steps(${n}, end)`;
@@ -215,9 +215,9 @@ export const dismissalStyle = (dismissal: string): DismissalStyle => STYLES[dism
 
 /** Where the ball goes for the dismissals that are just a ball path. */
 export const OUT_PATHS: Record<"lbw" | "behind" | "slip" | "deep" | "bowler", Frame[]> = {
-  lbw: [AT_BAT, at(172, 100, 1.3), at(170, 108, 1.2)],
-  behind: [AT_BAT, at(200, 74, 1), at(206, 66, 0.8)],
-  slip: [AT_BAT, at(222, 74, 1), at(252, 70, 0.85)],
+  lbw: [AT_BAT, at(148, 100, 1.3), at(146, 108, 1.2)],
+  behind: [AT_BAT, at(180, 74, 1), at(186, 66, 0.8)],
+  slip: [AT_BAT, at(202, 74, 1), at(232, 70, 0.85)],
   deep: [AT_BAT, at(120, 20, 2.2), at(30, 60, 2.6)],
   bowler: [AT_BAT, at(160, 104, 1.6), at(146, 118, 2)],
 };
@@ -262,7 +262,7 @@ export class Pitch {
   bowl(elapsed: number): void {
     this.clear();
     if (this.reduce) {
-      this.part("ball").setAttribute("transform", "translate(178 108) scale(1.6)");
+      this.part("ball").setAttribute("transform", "translate(154 108) scale(1.6)");
       return;
     }
     if (elapsed < RUN_UP_MS) {
@@ -283,7 +283,7 @@ export class Pitch {
       [
         { ...START, offset: 0 },
         { ...START, offset: runUp },
-        { ...at(180, 116, 0.95), offset: 0.85 },
+        { ...at(156, 116, 0.95), offset: 0.85 },
         { ...AT_BAT, offset: 1 },
       ],
       // 3 frames a second keeps the 8-bit feel without looking frozen.
@@ -353,7 +353,7 @@ export class Pitch {
     const batter = this.part("batter");
     switch (style) {
       case "bowled":
-        this.run(ball, [AT_BAT, at(196, 92, 1.25)], { duration: 160, easing: steps(2) });
+        this.run(ball, [AT_BAT, at(176, 92, 1.25)], { duration: 160, easing: steps(2) });
         return this.flyBails(120);
       case "stumped":
         // Down the track, beaten, and the keeper whips the bails off.
@@ -366,7 +366,7 @@ export class Pitch {
             easing: steps(3),
           },
         );
-        await this.run(ball, [AT_BAT, at(194, 82, 1), at(198, 80, 0.8)], {
+        await this.run(ball, [AT_BAT, at(174, 82, 1), at(178, 80, 0.8)], {
           duration: 450,
           easing: steps(4),
         });
@@ -384,7 +384,7 @@ export class Pitch {
         );
         await this.run(ball, [AT_BAT, at(130, 106, 1.3)], { duration: 450, easing: steps(4) });
         if (g !== this.gen) return;
-        await this.run(ball, [at(130, 106, 1.3), at(196, 92, 1.2)], {
+        await this.run(ball, [at(130, 106, 1.3), at(176, 92, 1.2)], {
           duration: 350,
           easing: steps(4),
         });

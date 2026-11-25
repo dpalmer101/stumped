@@ -15,6 +15,12 @@ export function puzzleNumber(now: Date, launchDate: string): number {
   return Math.floor((today - parseIsoDate(launchDate)) / DAY_MS) + 1;
 }
 
+/** The local calendar day a puzzle belongs to (inverse of puzzleNumber). */
+export function puzzleDate(puzzle: number, launchDate: string): Date {
+  const day = new Date(parseIsoDate(launchDate) + (puzzle - 1) * DAY_MS);
+  return new Date(day.getUTCFullYear(), day.getUTCMonth(), day.getUTCDate());
+}
+
 /** Which scheduled day (0-based) a puzzle plays. Wraps round when the schedule runs out. */
 export function dayIndex(puzzle: number, schedule: Schedule): number {
   const count = schedule.days.length;

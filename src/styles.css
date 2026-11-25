@@ -183,10 +183,11 @@ button {
 }
 .track {
   position: absolute;
-  /* Full width, running behind rounded scene corners; thick enough that its ends still show. */
+  /* Full width, running behind rounded scene corners; thick enough that its ends still show.
+     At the bottom, right above the question, so it stays in view when the keyboard is up. */
   left: 0;
   right: 0;
-  top: 0;
+  bottom: 0;
   height: 6px;
   background: rgba(0, 0, 0, 0.25);
   z-index: 2;
@@ -487,10 +488,6 @@ button {
   font-weight: 500;
   opacity: 0.8;
   font-size: 11px;
-}
-.formats button[aria-pressed="true"] {
-  outline: 2px solid var(--text);
-  outline-offset: 2px;
 }
 .formats button[aria-pressed="true"]::after {
   content: "✓";
@@ -1019,11 +1016,14 @@ td .tt {
   inset: -13px -9px;
 }
 
-.btn.help-link {
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-  font-size: 13px;
+/* Side by side, as tall as "Walk out to bat" above them. */
+.home-links {
+  display: flex;
+  gap: 8px;
+}
+.home-links .btn {
+  flex: 1;
+  padding: 14px;
 }
 .sheet-backdrop {
   position: fixed;
@@ -1130,4 +1130,57 @@ td .tt {
     left: auto;
     right: 8px;
   }
+}
+
+/* A live ball fits the visible area, so an on-screen keyboard squeezes the pitch rather than
+   pushing the timer and question off the top. --vv-* track the visual viewport (App.fitViewport). */
+#app.live {
+  height: var(--vv-height, 100dvh);
+  min-height: 0;
+  overflow: hidden;
+  translate: 0 var(--vv-top, 0px);
+}
+#app.live .scene {
+  flex: 0 1 auto;
+  min-height: 48px;
+}
+#app.live .scene svg {
+  height: 100%;
+}
+
+/* ---------- Archive ---------- */
+.archive-note,
+.practice {
+  margin: 6px 0 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.archive-head {
+  margin-bottom: 8px;
+}
+.days {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.days li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+.days .day {
+  display: grid;
+  gap: 2px;
+  font-size: 14px;
+}
+.days .day span {
+  font-size: 12px;
+  color: var(--muted);
+}
+.days .btn {
+  flex: none;
+  padding: 8px 14px;
 }

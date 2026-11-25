@@ -12,13 +12,14 @@ import {
   total,
 } from "../engine/innings";
 import { createMatcher, type Matcher, normalise } from "../engine/match";
-import { puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
+import { puzzleDate, puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
 import {
   type BallMark,
   computeStats,
   formatCountdown,
   msUntilNextPuzzle,
+  recordArchiveInnings,
   recordInnings,
   type Stats,
 } from "../engine/stats";
@@ -37,7 +38,7 @@ import { pickQuote } from "./quotes";
 import { duckSvg, Pitch, sceneSvg } from "./scene";
 import { THEMES } from "./themes";
 
-type View = "home" | "play" | "scorecard" | "answers";
+type View = "home" | "play" | "scorecard" | "answers" | "archive";
 
 const CALL: Record<Tier, string> = {
   ootg: "Out of the ground!",
@@ -220,6 +221,12 @@ export class App {
   private readonly quote = pickQuote();
   /** Pending long press on the innings total. */
   private holdTimer = 0;
+  /**
+   * Playing a day from the archive: `innings` is that day's, and today's stays in storage.
+   * `archiveCounts`: this is the day's first play, so its score is recorded.
+   */
+  private archive = false;
+  private archiveCounts = false;
 
   constructor(private readonly root: HTMLElement) {
     this.saved = load(this.store);
@@ -238,6 +245,11 @@ export class App {
       if (document.visibilityState === "visible") this.checkDay();
     });
     window.setInterval(() => this.checkDay(), 30_000);
+    const onViewport = () => this.fitViewport();
+    window.visualViewport?.addEventListener("resize", onViewport);
+    window.visualViewport?.addEventListener("scroll", onViewport);
+    window.addEventListener("resize", onViewport);
+    onViewport();
     window.addEventListener("beforeinstallprompt", (e) => {
       e.preventDefault();
       this.installPrompt = e as InstallPromptEvent;
@@ -253,6 +265,8 @@ export class App {
 
   /** Send an anonymous play count once per puzzle, remembering it in the save. */
   private countOnce(name: PlayEvent) {
+    // Play counts are for the day's over, on its day.
+    if (this.archive) return;
     const claim = claimEvent(
       eventKey(name, this.innings.puzzle),
       this.saved.counted,
@@ -264,7 +278,19 @@ export class App {
     countEvent(name, this.innings.puzzle);
   }
 
+  /**
+   * iOS doesn't shrink the page for the keyboard; it shrinks the visual viewport and pans it.
+   * Exposing both lets a live ball's layout (#app.live) fit exactly what's visible.
+   */
+  private fitViewport() {
+    const vv = window.visualViewport;
+    const style = document.documentElement.style;
+    style.setProperty("--vv-height", `${vv?.height ?? window.innerHeight}px`);
+    style.setProperty("--vv-top", `${vv?.offsetTop ?? 0}px`);
+  }
+
   private async boot() {
+    this.archive = false;
     this.root.innerHTML = `<main class="home"><p class="loading" role="status">Loading today's over…</p></main>`;
     try {
       await this.ensureDay(this.todayPuzzle());
@@ -305,7 +331,7 @@ export class App {
     this.saved = fresh;
     this.sound.muted = fresh.muted;
     // Only adopt saves for the day whose questions are loaded; a new day goes through checkDay().
-    if (changed && fresh.innings?.puzzle === this.loadedPuzzle) {
+    if (changed && !this.archive && fresh.innings?.puzzle === this.loadedPuzzle) {
       const puzzle = this.loadedPuzzle;
       this.innings = loadToday(fresh.innings, puzzle, questionIdsFor(puzzle, schedule), Date.now());
       this.showing = null;
@@ -320,6 +346,8 @@ export class App {
 
   /** Midnight passed with the page open: move on, but never pull a finished scorecard away. */
   private async checkDay() {
+    // The archive has no "today" to move on to; leaving it goes back to today's over.
+    if (this.archive) return;
     if (this.view === "home" && this.loadedPuzzle && this.launchShown !== this.beforeLaunch()) {
       this.render();
     }
@@ -377,9 +405,13 @@ export class App {
     }
   }
 
-  private showLoadError() {
-    this.root.innerHTML = `<main class="home"><p class="loading" role="alert">Couldn't load today's over. Check your connection.</p>
-      <button class="btn wide" data-act="retry">Try again</button></main>`;
+  /** With `puzzle`, Try again retries that day (from the archive); otherwise it starts over. */
+  private showLoadError(puzzle?: number) {
+    const what = puzzle === undefined ? "today's over" : `over #${puzzle}`;
+    const retry =
+      puzzle === undefined ? 'data-act="retry"' : `data-act="play-day" data-day="${puzzle}"`;
+    this.root.innerHTML = `<main class="home"><p class="loading" role="alert">Couldn't load ${what}. Check your connection.</p>
+      <button class="btn wide" ${retry}>Try again</button></main>`;
   }
 
   /** Needs the day's questions loaded (ensureDay) first. */
@@ -414,8 +446,22 @@ export class App {
   }
 
   private persist() {
-    // A tab still finishing yesterday's over must not overwrite today's innings from another tab.
     const stored = load(this.store);
+    if (this.archive) {
+      const history = { ...stored.history, ...this.saved.history };
+      this.saved.history = this.archiveCounts
+        ? recordArchiveInnings(history, this.innings)
+        : history;
+      this.saved.counted = [...new Set([...stored.counted, ...this.saved.counted])].slice(-60);
+      // Today's innings belongs to today's play, maybe in another tab: leave it as stored.
+      this.saved.innings = stored.innings ?? this.saved.innings;
+      this.saved.archive = { innings: this.innings, counts: this.archiveCounts };
+      save(this.store, this.saved);
+      this.lastRaw = readRaw(this.store);
+      return;
+    }
+    this.saved.archive = stored.archive;
+    // A tab still finishing yesterday's over must not overwrite today's innings from another tab.
     const newer = !!stored.innings && stored.innings.puzzle > this.innings.puzzle;
     this.saved.history = { ...stored.history, ...recordInnings(this.saved.history, this.innings) };
     this.saved.counted = [...new Set([...stored.counted, ...this.saved.counted])].slice(-60);
@@ -453,6 +499,7 @@ export class App {
     window.clearTimeout(this.holdTimer);
     this.stopLoop();
     window.clearInterval(this.countdown);
+    this.root.classList.remove("live");
     document.body.className = `theme-${this.saved.theme}`;
     if (this.view === "answers" && !canRevealAnswers(this.innings)) this.view = "scorecard";
     // A new screen starts at the top; re-rendering the same screen keeps the player's place.
@@ -468,6 +515,7 @@ export class App {
       }
     } else if (this.view === "play") this.renderPlay();
     else if (this.view === "scorecard") this.renderScorecard();
+    else if (this.view === "archive") this.root.innerHTML = this.archiveHtml();
     else this.root.innerHTML = this.answersHtml();
   }
 
@@ -528,8 +576,136 @@ export class App {
       <div class="formats" role="group" aria-labelledby="formats-label">${formats}</div>
       <figure class="quote"><blockquote>“${this.quote[0]}”</blockquote><figcaption>${this.quote[1]}</figcaption></figure>
       <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>
-      <button class="btn ghost help-link" data-act="help">How to play</button>${stat}${this.installHtml()}</main>
+      <div class="home-links"><button class="btn ghost" data-act="help">How to play</button>${
+        this.beforeLaunch()
+          ? ""
+          : `<button class="btn ghost" data-act="archive">Play the archive</button>`
+      }</div>${stat}${this.installHtml()}</main>
       ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;
+  }
+
+  private dayLabel(puzzle: number): string {
+    return new Intl.DateTimeFormat("en-GB", {
+      weekday: "short",
+      day: "numeric",
+      month: "short",
+    }).format(puzzleDate(puzzle, schedule.launchDate));
+  }
+
+  /** Every day so far, newest first, with the player's first score on each. */
+  private archiveHtml() {
+    const today = this.todayPuzzle();
+    const todayStarted =
+      this.saved.innings?.puzzle === today &&
+      this.saved.innings.balls.some((b) => b.startedAt !== undefined);
+    const rows = Array.from({ length: Math.max(0, today) }, (_, i) => today - i).map((p) => {
+      const rec = this.saved.history[p];
+      const resumable = !!this.archivePlay(p) || (p !== today && p === this.ownOverPuzzle());
+      const label =
+        p === today && !rec
+          ? todayStarted
+            ? "Resume"
+            : "Play"
+          : resumable
+            ? "Resume"
+            : rec
+              ? "Play again"
+              : "Play";
+      const score = rec
+        ? `${rec.runs}/${rec.wickets}${rec.archive ? " · from the archive" : ""}`
+        : "Not played";
+      return `<li><div class="day"><b>#${p} · ${this.dayLabel(p)}${p === today ? " · Today" : ""}</b><span>${score}</span></div>
+        <button class="btn${rec ? " ghost" : ""}" data-act="play-day" data-day="${p}" aria-label="${label}: #${p}">${label}</button></li>`;
+    });
+    return `${this.topBar(false)}<main class="card archive"><h2 class="cat">The archive</h2>
+      <p class="archive-note">Play any day so far. Your first go on a day counts in your stats (not your streak); replays don't change it.</p>
+      <ul class="days">${rows.join("")}</ul></main>`;
+  }
+
+  /**
+   * The over normal play goes back to: today's, or one started before midnight and not finished,
+   * which stays playable on its own terms (see unfinishedOver).
+   */
+  private ownOverPuzzle(): number {
+    const today = this.todayPuzzle();
+    const stored = this.saved.innings;
+    const unfinished =
+      !!stored &&
+      stored.puzzle < today &&
+      !isComplete(stored) &&
+      stored.balls.some((b) => b.startedAt !== undefined);
+    return unfinished && stored ? stored.puzzle : today;
+  }
+
+  private archivePlay(puzzle: number) {
+    const a = this.saved.archive;
+    return a?.innings.puzzle === puzzle &&
+      !isComplete(a.innings) &&
+      a.innings.balls.some((b) => b.startedAt !== undefined)
+      ? a
+      : null;
+  }
+
+  /** Bumped by each archive navigation, so a slow day load can't take over after the player moved on. */
+  private navigation = 0;
+
+  private async loadDayFor(puzzle: number): Promise<boolean> {
+    const nav = ++this.navigation;
+    if (this.loadedPuzzle !== puzzle) {
+      this.root.innerHTML = `<main class="home"><p class="loading" role="status">Loading #${puzzle}…</p></main>`;
+    }
+    try {
+      await this.ensureDay(puzzle);
+    } catch {
+      if (nav === this.navigation) this.showLoadError(puzzle);
+      return false;
+    }
+    return nav === this.navigation;
+  }
+
+  private async playDay(puzzle: number) {
+    const today = this.todayPuzzle();
+    if (puzzle < 1 || puzzle > today) return;
+    // Today's first play, or an over begun on its own day, is the real thing, streak and all.
+    const live =
+      (puzzle === today && !this.saved.history[today]) || puzzle === this.ownOverPuzzle();
+    if (!(await this.loadDayFor(puzzle))) return;
+    this.sound.unlock();
+    if (live) {
+      this.archive = false;
+      this.startDay();
+      if (this.view === "home") this.view = "play";
+      return this.render();
+    }
+    const resume = this.archivePlay(puzzle);
+    this.archive = true;
+    this.archiveCounts = resume ? resume.counts : !this.saved.history[puzzle];
+    this.innings = loadToday(
+      resume?.innings ?? null,
+      puzzle,
+      questionIdsFor(puzzle, schedule),
+      Date.now(),
+    );
+    // A ball that ran out of time while the player was away: show them what happened.
+    const timedOut = resume
+      ? this.innings.balls.findIndex((b, i) => b.result && !resume.innings.balls[i]?.result)
+      : -1;
+    this.showing = timedOut >= 0 ? timedOut : null;
+    this.view = "play";
+    this.persist();
+    this.render();
+  }
+
+  /** Back to the player's own over, on the home screen or the archive list. */
+  private async leaveArchive(view: "home" | "archive") {
+    // Stay in archive mode until today's questions are in: a failed load must not leave the
+    // archive day running as if it were today's over.
+    if (!(await this.loadDayFor(this.ownOverPuzzle()))) return;
+    this.archive = false;
+    this.startDay();
+    // startDay may want to show a ball that timed out while the player was in the archive.
+    if (this.showing === null) this.view = view;
+    this.render();
   }
 
   private renderPlay() {
@@ -554,6 +730,7 @@ export class App {
   private renderPanel(idx: number, ball: Ball) {
     const panel = this.root.querySelector<HTMLElement>("#panel");
     if (!panel) return;
+    this.root.classList.remove("live");
     const last = idx === BALLS_PER_INNINGS - 1;
 
     if (this.showing !== null && ball.result) {
@@ -574,7 +751,7 @@ export class App {
       // Straight into the next ball: one tap, and its question still only appears once faced.
       return last
         ? this.wideButton(panel, "next", "See scorecard")
-        : this.wideButton(panel, "face-next", `Face ball ${ballName(idx + 1)}`);
+        : this.wideButton(panel, "face-next", `Face ball ${ballName(idx + 1).toLowerCase()}`);
     }
 
     if (ball.startedAt === undefined) {
@@ -591,6 +768,7 @@ export class App {
         autocomplete="off" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="go" maxlength="${MAX_GUESS}"><button class="btn" type="submit">Play</button></form>
       <div class="misses" id="misses" aria-label="Misses">${ball.misses.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
       <div class="hint" id="hint"></div>`;
+    this.root.classList.add("live");
     this.pitch?.bowl(Date.now() - (ball.startedAt ?? Date.now()));
     this.root.querySelector<HTMLInputElement>("#guess")?.focus();
     this.startLoop(ball);
@@ -651,8 +829,22 @@ export class App {
           <td class="r">${b.result?.runs ?? 0}</td></tr>`;
       })
       .join("");
-    const stats = computeStats(this.saved.history, this.innings.puzzle);
-    this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}
+    const stats = computeStats(
+      this.saved.history,
+      this.archive ? this.todayPuzzle() : this.innings.puzzle,
+    );
+    const first = this.saved.history[this.innings.puzzle];
+    const archiveHead = this.archive
+      ? `<div class="archive-head"><div class="cat">Archive · #${this.innings.puzzle} · ${this.dayLabel(this.innings.puzzle)}</div>${
+          this.archiveCounts
+            ? ""
+            : `<p class="practice">Replay: your first score${first ? ` of ${first.runs}/${first.wickets}` : ""} stands.</p>`
+        }</div>`
+      : "";
+    const next = this.archive
+      ? `<button class="btn wide" data-act="to-archive">Back to the archive</button>`
+      : `<div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>`;
+    this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}${archiveHead}
       <div class="total flip" id="flip"><div class="flip-inner">
         <div class="face"><div class="lbl">Innings total</div><div class="big" id="total">${runs}/${wickets}</div>
         <div class="lbl">1 over · ${plural(boundaries, "boundary", "boundaries")}</div></div>
@@ -661,10 +853,11 @@ export class App {
       <div class="share" id="shareText">${esc(this.shareText())}</div>
       <div class="two"><button class="btn" data-act="share">Share</button><button class="btn ghost" data-act="answers">See all answers</button></div>
       <div class="toast" id="toast" role="status"></div>
-      <div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>
+      ${next}
       ${statsHtml(stats)}
       </main>`;
     this.armSecretReset();
+    if (this.archive) return;
     this.countdown = window.setInterval(() => {
       const ms = msUntilNextPuzzle(new Date());
       const el = this.root.querySelector("#countdown");
@@ -680,7 +873,7 @@ export class App {
   private armSecretReset() {
     const flip = this.root.querySelector<HTMLElement>("#flip");
     // Only for today's over: after midnight the open scorecard is yesterday's, whose record stays.
-    if (!flip || this.innings.puzzle !== this.todayPuzzle()) return;
+    if (!flip || this.archive || this.innings.puzzle !== this.todayPuzzle()) return;
     let start: { x: number; y: number } | null = null;
     const cancel = () => {
       window.clearTimeout(this.holdTimer);
@@ -907,11 +1100,14 @@ export class App {
   }
 
   private shareText() {
-    const { currentStreak } = computeStats(this.saved.history, this.innings.puzzle);
+    // A replayed day says nothing about the player's streak.
+    const streak = this.archive
+      ? 0
+      : computeStats(this.saved.history, this.innings.puzzle).currentStreak;
     return shareText(
       this.innings,
       new URL(import.meta.env.BASE_URL, window.location.origin).href,
-      currentStreak,
+      streak,
     );
   }
 
@@ -1150,8 +1346,19 @@ export class App {
           Math.max(0, this.answersIndex + (act === "prev" ? -1 : 1)),
         );
         return this.render();
+      case "archive":
+        this.view = "archive";
+        return this.render();
+      case "play-day":
+        return void this.playDay(Number(target.dataset.day));
+      case "to-archive":
+        if (this.archive) return void this.leaveArchive("archive");
+        this.view = "archive";
+        return this.render();
       case "home":
         if (this.busy) return;
+        if (this.archive) return void this.leaveArchive("home");
+        this.navigation += 1;
         this.showing = null;
         this.view = "home";
         return this.render();

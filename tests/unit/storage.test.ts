@@ -122,6 +122,32 @@ describe("tampered or corrupt saves", () => {
     });
     expect(load(memoryStore(raw)).history).toEqual({ 1: { runs: 4, wickets: 0, balls: ["four"] } });
   });
+
+  it("keeps the archive flag only when it is exactly true", () => {
+    const raw = JSON.stringify({
+      version: 1,
+      history: {
+        1: { runs: 4, wickets: 0, balls: [], archive: true },
+        2: { runs: 4, wickets: 0, balls: [], archive: "yes" },
+      },
+    });
+    expect(load(memoryStore(raw)).history).toEqual({
+      1: { runs: 4, wickets: 0, balls: [], archive: true },
+      2: { runs: 4, wickets: 0, balls: [] },
+    });
+  });
+
+  it("keeps a valid archive play and drops a broken one", () => {
+    const balls = Array.from({ length: 6 }, (_, i) => ball(i));
+    const inn = JSON.parse(innings(balls)).innings;
+    const withArchive = (archive: unknown) => memoryStore(JSON.stringify({ version: 1, archive }));
+    expect(load(withArchive({ innings: inn, counts: true })).archive).toEqual({
+      innings: inn,
+      counts: true,
+    });
+    expect(load(withArchive({ innings: inn })).archive).toBeNull();
+    expect(load(withArchive({ innings: { puzzle: 1 }, counts: false })).archive).toBeNull();
+  });
 });
 
 describe("counted events in the save", () => {

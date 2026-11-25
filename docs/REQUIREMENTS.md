@@ -16,8 +16,12 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 - One puzzle per day, the same for everyone. The day rolls over at the player's **local midnight**.
 - Puzzle number = days since launch date + 1 (shown as "Stumped #12").
 - A puzzle is **one over: 6 balls**, played in order. Each ball is one question.
-- A player can play each puzzle **once**. After ball 6, reopening or reloading the page shows that
-  day's scorecard until the next puzzle unlocks at local midnight; there is no "play again".
+- A player can play each puzzle **once** on its day. After ball 6, reopening or reloading the page
+  shows that day's scorecard until the next puzzle unlocks at local midnight.
+- **Archive:** from the home screen, the player can play any day so far, today included, and see
+  their score for each. The first finished play of a day counts in their stats but never in a
+  streak. Playing again is allowed but doesn't replace that score. Today's over, if not yet played,
+  is played as normal (streak and all).
 - Limitation: with no backend, clearing site data or using another browser/device allows a replay.
   We accept this; there are no leaderboards to protect.
 
@@ -83,7 +87,7 @@ Run out, Hit wicket.
 
 ## 8. Timer and sound
 
-- Timer: a subtle thin bar across the top of the pitch scene that drains during the ball and
+- Timer: a subtle thin bar across the bottom of the pitch scene, right above the question, that drains during the ball and
   turns red in the last 10s. No seconds are shown; screen readers get announcements at 10s and 5s.
 - The timer is driven by stored timestamps, not by the page running. It **keeps ticking if the player
   leaves**: switching tabs or apps, locking the phone, reloading or closing the page. On return the
@@ -97,7 +101,8 @@ Run out, Hit wicket.
 
 ## 9. Animation
 
-- Head-on pitch scene (looking down the wicket at the batter, who faces the screen; no keeper): bowler runs in and delivers as the timer starts; ball is held "in flight"
+- Head-on pitch scene (looking down the wicket at the batter, who faces the screen and stands to
+  the left of the far stumps, which sit in the middle of the wicket; no keeper): bowler runs in and delivers as the timer starts; ball is held "in flight"
   while the player thinks; then resolves on answer.
 - Per outcome:
   - **Single** – defensive push into the off side, batters run one.
@@ -114,8 +119,11 @@ Run out, Hit wicket.
 - Today's progress (including a ball in progress and its start time) is saved the moment the ball is
   faced, and after every guess, so it survives a reload or closed tab. See §8 for what happens to
   the timer while away.
-- Stats: innings played, average, highest score, current and best streak (days played in a row),
-  count of each tier hit, ducks (0 runs total).
+- Stats: innings played, average, highest score, current and best streak (days played in a row,
+  on the day), count of each tier hit, ducks (0 runs total). Archive plays count in all but the
+  streaks.
+- While a ball is live, the play screen fits the visible area, so an on-screen keyboard shrinks the
+  pitch instead of pushing the timer and question off screen.
 
 ## 11. Sharing
 
@@ -145,7 +153,7 @@ Run out, Hit wicket.
 
 ## 13. Out of scope for v1
 
-Accounts, leaderboards, archive/practice mode, multiple languages, adverts, and any analytics beyond
+Accounts, leaderboards, multiple languages, adverts, and any analytics beyond
 the anonymous counts in §1.
 
 ## 14. Decisions log
@@ -181,3 +189,6 @@ the anonymous counts in §1.
 - 2026-11-24: The owner can replay today's over: holding the innings total for 3 s flips it to reveal a reset. Unadvertised; not offered for an earlier day.
 - 2026-11-24: Three easter eggs, none affecting the score: a duck paces back and forth under a total of nought; five quick taps on the far stumps knock the bails off (any time except while a result plays out) ("Howzat!"); typing "Howzat" during a ball is an appeal (shows "Howzat!"), not a guess, though the clock keeps running; tapping the home logo bowls a ball into it and the letters fly off like bails.
 - 2026-11-24: New days can be added after the schedule has looped back: the next over plays the first new day, and overs already started keep theirs (schedule segments).
+- 2026-11-25: Archive mode: play any day so far; the first finished play of a day counts in stats but not streaks, and replays never replace it.
+- 2026-11-25: The timer bar moves to the bottom of the pitch scene, and a live ball's screen fits above the on-screen keyboard.
+- 2026-11-25: The far stumps stand in the middle of the wicket, with the batter to their left.

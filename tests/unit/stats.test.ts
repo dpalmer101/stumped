@@ -7,6 +7,7 @@ import {
   formatCountdown,
   type History,
   msUntilNextPuzzle,
+  recordArchiveInnings,
   recordInnings,
 } from "../../src/engine/stats";
 import { BALL_MS } from "../../src/engine/types";
@@ -83,5 +84,36 @@ describe("tier counts", () => {
       single: 2,
       out: 1,
     });
+  });
+});
+
+describe("archive plays", () => {
+  const finished = (puzzle: number) => {
+    let inn = newInnings(puzzle, ["a", "b", "c", "d", "e", "f"]);
+    inn.balls.forEach((b) => {
+      inn = replaceBall(inn, guess(startBall(b, 0), "Bourda", match, 1).ball);
+    });
+    return inn;
+  };
+
+  it("records the first finished play of a day, marked as from the archive", () => {
+    expect(recordArchiveInnings({}, newInnings(3, ["a", "b", "c", "d", "e", "f"]))).toEqual({});
+    expect(recordArchiveInnings({}, finished(3))[3]).toMatchObject({ runs: 72, archive: true });
+  });
+
+  it("never replaces an existing score", () => {
+    const history: History = { 3: rec(4) };
+    expect(recordArchiveInnings(history, finished(3))).toBe(history);
+  });
+
+  it("counts in stats but not in streaks", () => {
+    const history: History = { 1: rec(5), 2: { ...rec(10), archive: true }, 3: rec(7) };
+    const s = computeStats(history, 3);
+    expect(s.played).toBe(3);
+    expect(s.best).toBe(10);
+    expect(s.currentStreak).toBe(1);
+    expect(s.bestStreak).toBe(1);
+    // Today played from the archive (a replay day) doesn't start a streak either.
+    expect(computeStats({ 4: { ...rec(1), archive: true } }, 4).currentStreak).toBe(0);
   });
 });

@@ -40,7 +40,10 @@ test("plays a full innings, then shows only the scorecard until tomorrow", async
   for (const [i, q] of dayOne.entries()) {
     // The question must not be on the page until the ball is faced.
     if (i === 0) await expect(page.getByText("Ball One of Six")).toBeVisible();
-    else await expect(page.getByRole("button", { name: `Face ball ${NAMES[i]}` })).toBeVisible();
+    else
+      await expect(
+        page.getByRole("button", { name: `Face ball ${NAMES[i]?.toLowerCase()}`, exact: true }),
+      ).toBeVisible();
     await expect(page.getByText(q.prompt)).toHaveCount(0);
     await faceBall(page);
     await expect(page.getByRole("heading", { name: q.prompt })).toBeVisible();
@@ -135,6 +138,133 @@ test("fits a 360px phone without sideways scrolling", async ({ context }) => {
     );
     expect(overflow).toBeLessThanOrEqual(0);
   }
+});
+
+test("with the keyboard up, the timer, question and answer box stay on screen", async ({
+  context,
+}) => {
+  const page = await open(context, LAUNCH);
+  // About what's left of a small phone with the keyboard showing.
+  await page.setViewportSize({ width: 375, height: 400 });
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await faceBall(page);
+  for (const selector of ["#track", "#prompt", "#guess"]) {
+    const box = await page.locator(selector).boundingBox();
+    expect(box?.y ?? -1, selector).toBeGreaterThanOrEqual(0);
+    expect((box?.y ?? 0) + (box?.height ?? 0), selector).toBeLessThanOrEqual(400);
+  }
+});
+
+test.describe("archive", () => {
+  const dayTwo = new Date(LAUNCH.getTime() + 86_400_000);
+
+  async function playOver(page: Page, pick: (q: Question) => string) {
+    for (const [i, q] of dayOne.entries()) {
+      await faceBall(page);
+      await expect(page.getByRole("heading", { name: q.prompt })).toBeVisible();
+      await answer(page, pick(q));
+      await expect(page.locator(".res")).toBeVisible();
+      if (i === 5) await page.getByRole("button", { name: "See scorecard" }).click();
+    }
+  }
+
+  test("plays a past day; the first go counts, replays don't, and streaks ignore it", async ({
+    context,
+  }) => {
+    const page = await open(context, dayTwo);
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await expect(page.locator(".days li").first()).toContainText("#2");
+    await expect(page.locator(".days li").first()).toContainText("Today");
+    const dayOneRow = page.locator(".days li").nth(1);
+    await expect(dayOneRow).toContainText("Not played");
+
+    await dayOneRow.getByRole("button", { name: "Play: #1" }).click();
+    await playOver(page, single);
+    await expect(page.getByText("Archive · #1")).toBeVisible();
+    await expect(page.locator("#total")).toHaveText("6/0");
+    await expect(page.locator(".tile").filter({ hasText: "Played" })).toContainText("1");
+    await expect(page.locator(".tile").filter({ hasText: /^\d+Streak$/ })).toContainText("0");
+
+    await page.getByRole("button", { name: "Back to the archive" }).click();
+    await expect(dayOneRow).toContainText("6/0 · from the archive");
+    await dayOneRow.getByRole("button", { name: "Play again: #1" }).click();
+    await playOver(page, ootg);
+    await expect(page.locator("#total")).toHaveText("72/0");
+    await expect(page.getByText("Replay: your first score of 6/0 stands.")).toBeVisible();
+    await expect(page.locator(".tile").filter({ hasText: "Best" }).first()).toContainText("6");
+
+    // Today's over is untouched.
+    await page.getByRole("button", { name: "Stumped: home" }).click();
+    await expect(page.getByText("#2 ·")).toBeVisible();
+    await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeVisible();
+  });
+
+  test("today's over in progress is still there after an archive play", async ({ context }) => {
+    const page = await open(context, dayTwo);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await faceBall(page);
+    await answer(page, single(pool.get(schedule.days[1]?.[0] ?? "") as Question));
+    await expect(page.locator(".res")).toBeVisible();
+    await page.getByRole("button", { name: "Stumped: home" }).click();
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Play: #1" }).click();
+    await playOver(page, single);
+    await page.getByRole("button", { name: "Stumped: home" }).click();
+    await expect(page.getByRole("button", { name: "Resume innings" })).toBeVisible();
+    await page.getByRole("button", { name: "Resume innings" }).click();
+    await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
+  });
+
+  test("an over started before midnight resumes from the archive as the real thing", async ({
+    context,
+  }) => {
+    const lateNight = new Date(LAUNCH);
+    lateNight.setHours(23, 59, 0, 0);
+    const page = await open(context, lateNight);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await faceBall(page);
+    await answer(page, single(dayOne[0] as Question));
+    await expect(page.locator(".res")).toBeVisible();
+    await page.getByRole("button", { name: "Stumped: home" }).click();
+    await page.clock.setSystemTime(new Date(dayTwo.getTime()));
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Resume: #1" }).click();
+    await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
+    await expect(page.getByText("Ball Two of Six")).toBeVisible();
+    await expect(page.getByText("Archive ·")).toHaveCount(0);
+  });
+
+  test("an unfinished first go resumes after a reload and still counts", async ({ context }) => {
+    const page = await open(context, dayTwo);
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Play: #1" }).click();
+    await faceBall(page);
+    await answer(page, ootg(dayOne[0] as Question));
+    await expect(page.locator(".res")).toBeVisible();
+    await page.reload();
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Resume: #1" }).click();
+    await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
+    for (const [i, q] of dayOne.slice(1).entries()) {
+      await faceBall(page);
+      await answer(page, single(q));
+      await expect(page.locator(".res")).toBeVisible();
+      if (i === 4) await page.getByRole("button", { name: "See scorecard" }).click();
+    }
+    await expect(page.locator("#total")).toHaveText("17/0");
+    await expect(page.getByText("Replay:")).toHaveCount(0);
+    await page.getByRole("button", { name: "Back to the archive" }).click();
+    await expect(page.locator(".days li").nth(1)).toContainText("17/0 · from the archive");
+  });
+
+  test("today's unplayed over from the archive is the real thing", async ({ context }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Play the archive" }).click();
+    await page.getByRole("button", { name: "Play: #1" }).click();
+    await playOver(page, single);
+    await expect(page.getByText("Archive ·")).toHaveCount(0);
+    await expect(page.getByText("Next innings in")).toBeVisible();
+  });
 });
 
 test("holding the innings total reveals a hidden reset for today's over", async ({ context }) => {

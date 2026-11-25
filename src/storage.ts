@@ -19,6 +19,13 @@ export interface Saved {
   counted: string[];
   innings: Innings | null;
   history: History;
+  /** The latest archive innings, so one can be resumed. `counts`: it's that day's first play. */
+  archive: ArchivePlay | null;
+}
+
+export interface ArchivePlay {
+  innings: Innings;
+  counts: boolean;
 }
 
 export function defaults(): Saved {
@@ -30,6 +37,7 @@ export function defaults(): Saved {
     counted: [],
     innings: null,
     history: {},
+    archive: null,
   };
 }
 
@@ -88,7 +96,9 @@ function cleanHistory(value: unknown): History {
       isNum(r.wickets) &&
       Array.isArray(r.balls) &&
       r.balls.every((b) => b === "out" || isTier(b));
-    if (ok) out[k] = r;
+    if (!ok) continue;
+    const { archive, ...record } = r;
+    out[k] = archive === true ? { ...record, archive } : record;
   }
   return out;
 }
@@ -112,6 +122,10 @@ export function load(store: KeyValueStore | undefined): Saved {
         : [],
       innings: isInnings(data.innings) ? data.innings : null,
       history: cleanHistory(data.history),
+      archive:
+        data.archive && isInnings(data.archive.innings) && typeof data.archive.counts === "boolean"
+          ? { innings: data.archive.innings, counts: data.archive.counts }
+          : null,
     };
   } catch {
     return base;

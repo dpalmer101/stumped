@@ -32,7 +32,8 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] All 6 balls are always played; an out never ends the innings. 🤖
 - [ ] No answer other than the player's own is shown until all 6 balls are done. 🤖
 - [ ] Dismissal is deterministic for (puzzle, ball). 🤖
-- [ ] A finished puzzle can't be replayed; reopening or reloading shows the scorecard until the next day. 🤖
+- [ ] A finished puzzle can't be replayed on its day except from the archive; reopening or reloading shows the scorecard until the next day. 🤖
+- [ ] The archive lists every day so far with the player's score; a day's first finished play counts in stats but not streaks, and replays never change it. 🤖
 - [ ] The timer keeps running while the page is hidden or closed; on return the ball resumes with the time left, or is OUT if it ran out. 🤖
 - [ ] A ball's question is not in the page until that ball is faced and its timer has started. 🤖
 - [ ] Progress is saved when a ball is faced and after every guess. 🤖
@@ -69,6 +70,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 ## Timer, sound, animation
 
 - [ ] Timer bar visible throughout a ball, no seconds shown; time left announced to screen readers at 10/5 s.
+- [ ] With the on-screen keyboard up, the timer, question and answer box stay on screen. 🤖
 - [ ] Pulse sound speeds up at 10 s and 5 s; no sound before the first user gesture.
 - [ ] Mute toggle works and persists. 🤖
 - [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)

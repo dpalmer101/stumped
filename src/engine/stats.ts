@@ -7,6 +7,8 @@ export interface InningsRecord {
   runs: number;
   wickets: number;
   balls: BallMark[];
+  /** Played from the archive, after its day: counts in stats, but not towards streaks. */
+  archive?: true;
 }
 
 /** Finished innings keyed by puzzle number. */
@@ -32,7 +34,17 @@ export function recordInnings(history: History, innings: Innings): History {
   return { ...history, [innings.puzzle]: { runs, wickets, balls } };
 }
 
-/** Streaks count consecutive puzzles played; today's unplayed puzzle doesn't break the current one. */
+/** The first completed play of a past day, from the archive. Replays never replace a score. */
+export function recordArchiveInnings(history: History, innings: Innings): History {
+  if (history[innings.puzzle] || !isComplete(innings)) return history;
+  const recorded = recordInnings(history, innings)[innings.puzzle] as InningsRecord;
+  return { ...history, [innings.puzzle]: { ...recorded, archive: true } };
+}
+
+/**
+ * Streaks count consecutive puzzles played on their own day; today's unplayed puzzle doesn't
+ * break the current one. Archive plays count everywhere else.
+ */
 export function computeStats(history: History, today: number): Stats {
   const puzzles = Object.keys(history)
     .map(Number)
@@ -41,17 +53,19 @@ export function computeStats(history: History, today: number): Stats {
   const records = puzzles.map((p) => history[p] as InningsRecord);
   const played = records.length;
   const runs = records.reduce((sum, r) => sum + r.runs, 0);
+  const onTheDay = (p: number) => !!history[p] && !history[p]?.archive;
 
   let bestStreak = 0;
   let run = 0;
-  puzzles.forEach((p, i) => {
-    run = i > 0 && puzzles[i - 1] === p - 1 ? run + 1 : 1;
+  const live = puzzles.filter(onTheDay);
+  live.forEach((p, i) => {
+    run = i > 0 && live[i - 1] === p - 1 ? run + 1 : 1;
     bestStreak = Math.max(bestStreak, run);
   });
 
   let currentStreak = 0;
-  let day = history[today] ? today : today - 1;
-  while (history[day]) {
+  let day = onTheDay(today) ? today : today - 1;
+  while (onTheDay(day)) {
     currentStreak++;
     day--;
   }

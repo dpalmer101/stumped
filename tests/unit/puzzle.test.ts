@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../../src/engine/puzzle";
+import {
+  puzzleDate,
+  puzzleNumber,
+  questionIdsFor,
+  scheduleHasWrapped,
+} from "../../src/engine/puzzle";
 import type { Schedule } from "../../src/engine/types";
 
 describe("puzzleNumber", () => {
@@ -14,6 +19,14 @@ describe("puzzleNumber", () => {
 
   it("counts calendar days across a daylight-saving change", () => {
     expect(puzzleNumber(new Date(2027, 3, 1, 12), "2027-03-01")).toBe(32);
+  });
+});
+
+describe("puzzleDate", () => {
+  it("is the local day puzzleNumber maps to", () => {
+    expect(puzzleDate(1, "2026-12-01")).toEqual(new Date(2026, 11, 1));
+    expect(puzzleDate(32, "2026-12-01")).toEqual(new Date(2027, 0, 1));
+    expect(puzzleNumber(puzzleDate(150, "2027-03-01"), "2027-03-01")).toBe(150);
   });
 });
 

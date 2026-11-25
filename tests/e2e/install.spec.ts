@@ -22,6 +22,10 @@ test("on an iPhone, the home screen offers Add to home screen with instructions"
   const page = await open(context, LAUNCH);
   const button = page.getByRole("button", { name: "Add to home screen" });
   await expect(button).toBeVisible();
+  // As tall as the other buttons on the home screen.
+  const height = async (name: string) =>
+    (await page.getByRole("button", { name, exact: true }).boundingBox())?.height;
+  expect(await height("Add to home screen")).toBe(await height("Archive"));
   await button.click();
   await expect(page.locator(".install-help")).toContainText("Add to Home Screen");
 

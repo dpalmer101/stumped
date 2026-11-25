@@ -269,15 +269,14 @@ export class App {
     window.visualViewport?.addEventListener("scroll", onViewport);
     window.addEventListener("resize", onViewport);
     onViewport();
-    // With the keyboard up, iOS lets a drag pan the page, and the live layout follows the pan a
-    // frame late, so it jitters. A live ball already fits what's visible: there's nothing to scroll.
-    // Pinch zoom and drags in the answer box (moving the caret) are left alone.
+    // With the keyboard up, iOS pans the page on any drag it isn't told to cancel (from the answer
+    // box too), and the live layout follows the pan a frame late, so it jitters. A live ball already
+    // fits what's visible, so one-finger drags are cancelled; pinch zoom is left alone.
     document.addEventListener(
       "touchmove",
       (e) => {
-        if (!this.root.classList.contains("live")) return;
-        if ((e.touches?.length ?? 1) > 1 || e.target instanceof HTMLInputElement) return;
-        e.preventDefault();
+        if (this.root.classList.contains("live") && (e.touches?.length ?? 1) < 2)
+          e.preventDefault();
       },
       { passive: false },
     );

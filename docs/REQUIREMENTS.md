@@ -131,7 +131,7 @@ Run out, Hit wicket.
   streaks.
 - While a ball is live, the play screen fits the visible area, so an on-screen keyboard shrinks the
   pitch instead of pushing the timer and question off screen. It doesn't scroll, so dragging it
-  with the keyboard up does nothing rather than jittering (pinch zoom and the answer box still work).
+  with the keyboard up does nothing rather than jittering (from the answer box too; pinch zoom still works).
 
 ## 11. Sharing
 

@@ -171,8 +171,8 @@ test("a live ball can't be dragged around under the keyboard, but other screens 
   await faceBall(page);
   await expect(page.locator("#prompt")).toBeVisible();
   expect(await drag()).toBe(false);
-  // Moving the caret in the answer box still works.
-  expect(await drag("#guess")).toBe(true);
+  // Nor from the answer box, which iOS pans the page from too.
+  expect(await drag("#guess")).toBe(false);
 });
 
 test.describe("archive", () => {

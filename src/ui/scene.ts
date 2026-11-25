@@ -1,12 +1,15 @@
 import { BALL_MS, type Tier } from "../engine/types";
 import type { ThemeKey } from "../storage";
 import {
+  atNight,
   CUT,
   isLanding,
   type Key,
   LANDINGS,
   type LandingTier,
   landingFrames,
+  NIGHT_ALPHA,
+  NIGHT_TINT,
   wipeKeys,
   wipeSvg,
 } from "./landing";
@@ -113,9 +116,58 @@ const BACKDROPS: Record<ThemeKey, (c: ScenePalette) => string> = {
   },
 };
 
-export function sceneSvg(theme: ThemeKey): string {
+/** Lamp heads per theme, as [x, y, w, h]: on the 100 and One Day's own towers, new ones elsewhere. */
+const LAMPS: Record<ThemeKey, [number, number, number, number][]> = {
+  hundred: [
+    [3, 0, 5, 2],
+    [82, 0, 5, 2],
+  ],
+  oneday: [
+    [68, 0, 5, 1],
+    [84, 0, 5, 1],
+  ],
+  village: [
+    [12, 0, 5, 2],
+    [73, 0, 5, 2],
+  ],
+  test: [
+    [0, 0, 5, 2],
+    [85, 0, 5, 2],
+  ],
+};
+const NEEDS_TOWERS: readonly ThemeKey[] = ["village", "test"];
+
+/** At night the sky darkens and floodlights shine; "dark" starts them off, for Pitch.lightsOn. */
+export type Night = "dark" | "lit";
+
+function nightSky(theme: ThemeKey): string {
+  let s = theme === "hundred" ? "" : px(0, 0, 90, 20, NIGHT_TINT, `opacity="${NIGHT_ALPHA}"`);
+  for (const [x, , w] of LAMPS[theme]) {
+    if (NEEDS_TOWERS.includes(theme)) s += px(x + Math.floor(w / 2), 2, 1, 17, "#2a3040");
+    s += px(x, 0, w, 2, "#4a4f5c");
+  }
+  return s;
+}
+
+function floodlights(theme: ThemeKey, dark: boolean): string {
+  let s = "";
+  for (const [x, y, w, h] of LAMPS[theme]) {
+    s += px(x - 1, y, w + 2, h + 1, "#ffe680", 'opacity=".35"') + px(x, y, w, h, "#fffbe0");
+    // A beam that widens in steps, like the 8-bit sprites.
+    for (const [spread, top, rows, alpha] of [
+      [1, 1, 2, ".28"],
+      [3, 3, 3, ".16"],
+      [6, 6, 5, ".08"],
+    ] as const)
+      s += px(x - spread, y + h + top - 1, w + spread * 2, rows, "#ffe680", `opacity="${alpha}"`);
+  }
+  return `<g data-part="floodlights" pointer-events="none"${dark ? ' opacity="0"' : ""}>${s}</g>`;
+}
+
+export function sceneSvg(theme: ThemeKey, night?: Night): string {
   const c = THEMES[theme].scene;
   let s = BACKDROPS[theme](c);
+  if (night) s += nightSky(theme);
   s += px(0, 20, 90, 35, c.grass);
   for (const [r, h] of [
     [21, 1],
@@ -144,7 +196,10 @@ export function sceneSvg(theme: ThemeKey): string {
   // Invisible, generous tap target over the far stumps (an easter egg; see App.tapStumps).
   s += px(39, 12, 11, 18, "transparent", 'data-part="stumps-hit"');
   s += `<rect data-part="ball" x="-2" y="-2" width="4" height="4" fill="${c.ball}" transform="translate(144 122) scale(2)"/>`;
-  return `<svg data-theme="${theme}" viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" role="img" aria-label="${PITCH_LABEL}">${s}</svg>`;
+  if (night === "dark")
+    s += px(0, 0, 90, 55, "#02030a", 'data-part="dark" opacity=".9" pointer-events="none"');
+  if (night) s += floodlights(theme, night === "dark");
+  return `<svg data-theme="${theme}"${night ? " data-night" : ""} viewBox="0 0 360 220" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" role="img" aria-label="${PITCH_LABEL}">${s}</svg>`;
 }
 
 type Frame = { transform: string };
@@ -292,6 +347,33 @@ export class Pitch {
     return done;
   }
 
+  lightsOn(delay: number): void {
+    const dark = this.svg.querySelector<SVGElement>('[data-part="dark"]');
+    const lights = this.svg.querySelector<SVGElement>('[data-part="floodlights"]');
+    if (!dark || !lights) return;
+    if (this.reduce) {
+      dark.remove();
+      lights.removeAttribute("opacity");
+      return;
+    }
+    const opts = { delay, duration: 600, fill: "forwards", easing: "linear" } as const;
+    lights.animate(
+      [
+        { opacity: 0 },
+        { opacity: 1, offset: 0.1 },
+        { opacity: 0, offset: 0.25 },
+        { opacity: 1, offset: 0.4 },
+        { opacity: 0.3, offset: 0.5 },
+        { opacity: 1 },
+      ],
+      { ...opts, easing: steps(6) },
+    );
+    dark.animate([{ opacity: 0.9 }, { opacity: 0.9, offset: 0.4 }, { opacity: 0 }], {
+      ...opts,
+      easing: steps(4),
+    });
+  }
+
   /** An air shot: the batter swings and misses, and the ball keeps coming. */
   miss(): void {
     if (this.reduce) return;
@@ -340,10 +422,11 @@ export class Pitch {
     const theme = this.svg.dataset.theme;
     if (!theme || !(theme in LANDINGS)) return Promise.resolve();
     const landing = LANDINGS[theme as keyof typeof LANDINGS][tier];
+    const night = this.svg.hasAttribute("data-night");
     const wipe = still ? "" : `<g data-part="wipe">${wipeSvg(theme as keyof typeof LANDINGS)}</g>`;
     this.svg.insertAdjacentHTML(
       "beforeend",
-      `<g data-part="landing"${still ? "" : ' opacity="0"'}>${landing.svg()}</g>${wipe}`,
+      `<g data-part="landing"${still ? "" : ' opacity="0"'}>${night ? atNight(landing.svg()) : landing.svg()}</g>${wipe}`,
     );
     const scene = this.part("landing");
     this.svg.setAttribute("aria-label", "Where the ball landed");

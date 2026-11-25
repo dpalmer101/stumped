@@ -12,6 +12,7 @@ import {
   total,
 } from "../engine/innings";
 import { createMatcher, type Matcher, normalise } from "../engine/match";
+import { isNight } from "../engine/night";
 import { puzzleDate, puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
 import {
@@ -60,6 +61,8 @@ const FLAVOUR: Record<string, string> = {
   "Hit wicket": "Trod on your own stumps.",
   [TIMED_OUT]: "Never made it to the crease: no guesses in time.",
 };
+
+const LIGHTS_ON_MS = 2000;
 
 const esc = (s: string) =>
   s.replace(
@@ -215,6 +218,8 @@ export class App {
   private newDayReady = false;
   private calloutTimer = 0;
   private renderedView: View | null = null;
+  /** This render redraws the screen already showing (a format change, another tab's save). */
+  private redraw = false;
   /** Chrome/Android's install prompt, held until the player taps "Add to home screen". */
   private installPrompt: InstallPromptEvent | null = null;
   private showInstallHelp = false;
@@ -575,7 +580,8 @@ export class App {
     document.body.className = `theme-${this.saved.theme}`;
     if (this.view === "answers" && !canRevealAnswers(this.innings)) this.view = "scorecard";
     // A new screen starts at the top; re-rendering the same screen keeps the player's place.
-    if (this.view !== this.renderedView) window.scrollTo(0, 0);
+    this.redraw = this.view === this.renderedView;
+    if (!this.redraw) window.scrollTo(0, 0);
     this.renderedView = this.view;
     if (this.view === "home") {
       this.root.innerHTML = this.homeHtml();
@@ -788,14 +794,23 @@ export class App {
       return this.render();
     }
     const live = this.showing === null && ball.startedAt !== undefined && !ball.result;
+    // Dev server only: ?night forces the night scene for trying it out by day.
+    const night =
+      isNight(new Date()) ||
+      (import.meta.env.DEV && new URLSearchParams(location.search).has("night"));
+    // The lights come on as the player walks out to the first ball, never during a timed one, and
+    // only once: redrawing that screen keeps them on.
+    const dark =
+      night && !this.redraw && idx === 0 && this.showing === null && ball.startedAt === undefined;
     this.root.innerHTML = `${this.topBar(true, !live)}${this.pips(this.showing === null ? idx : -1)}
-      <div class="scene">${sceneSvg(this.saved.theme)}
+      <div class="scene">${sceneSvg(this.saved.theme, dark ? "dark" : night ? "lit" : undefined)}
         <div class="track" id="track" aria-hidden="true"><div class="bar" id="bar"></div></div>
         <div class="callout" id="callout" aria-hidden="true"></div></div>
       <section class="panel" id="panel" aria-live="polite"></section>
       <div class="sr-only" id="announce" aria-live="assertive"></div>`;
     const svg = this.root.querySelector<SVGSVGElement>(".scene svg");
     this.pitch = svg ? new Pitch(svg) : null;
+    if (dark) this.pitch?.lightsOn(LIGHTS_ON_MS);
     this.renderPanel(idx, ball);
   }
 

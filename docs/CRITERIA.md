@@ -77,7 +77,8 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Mute toggle works and persists. 🤖
 - [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)
 - [ ] Four, Six and OOTG cut to a landing scene for each theme (where the ball lands), each with its own art. 🤖
-- [ ] `prefers-reduced-motion` disables motion-heavy animation; landing scenes show their last frame. 🤖
+- [ ] From 8pm to 5am local time the scene is floodlit; ball one's scene starts dark and the floodlights come on after 2 s, never during a timed ball; landing scenes get the same night sky. 🤖
+- [ ] `prefers-reduced-motion` disables motion-heavy animation; landing scenes show their last frame; floodlights are on with no switch-on. 🤖
 - [ ] Animations never block input for longer than 2 s.
 
 ## Accessibility and UX

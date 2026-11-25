@@ -504,3 +504,81 @@ test.describe("landing scenes", () => {
     });
   });
 });
+
+test.describe("floodlights", () => {
+  const NIGHT = new Date(`${schedule.launchDate}T21:00:00`);
+  const part = (page: Page, name: string) => page.locator(`.scene [data-part="${name}"]`);
+  const opacity = (page: Page, name: string) =>
+    part(page, name).evaluate((el) => Number(getComputedStyle(el).opacity));
+  async function toVillage(page: Page) {
+    const chip = page.locator('[data-act="cycle"]');
+    for (let i = 0; i < 4 && (await chip.textContent()) !== "Village"; i++) await chip.click();
+    await expect(chip).toHaveText("Village");
+  }
+
+  test("none by day", async ({ context }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await expect(page.getByText("Ball One of Six")).toBeVisible();
+    await expect(part(page, "floodlights")).toHaveCount(0);
+    await expect(part(page, "dark")).toHaveCount(0);
+  });
+
+  test("with reduced motion they're simply on", async ({ context }) => {
+    const page = await open(context, NIGHT);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await expect(part(page, "floodlights")).toHaveCount(1);
+    await expect(part(page, "dark")).toHaveCount(0);
+    expect(await opacity(page, "floodlights")).toBe(1);
+  });
+
+  for (const [when, at, daySky] of [
+    ["by day", LAUNCH, 1],
+    ["at night", NIGHT, 0],
+  ] as const) {
+    test(`a landing scene ${when} has the matching sky`, async ({ context }) => {
+      const page = await open(context, at);
+      await page.getByRole("button", { name: "Walk out to bat" }).click();
+      await toVillage(page);
+      await faceBall(page);
+      await answer(page, ootg(dayOne[0] as Question));
+      await expect(part(page, "landing")).toBeVisible();
+      await expect(page.locator('.scene [data-part="landing"] rect[fill="#a9d8f2"]')).toHaveCount(
+        daySky,
+      );
+    });
+  }
+
+  test.describe("in motion", () => {
+    test.use({ reducedMotion: "no-preference" });
+
+    test("at night the first ball starts dark and the lights come on after 2s", async ({
+      context,
+    }) => {
+      const page = await open(context, NIGHT);
+      await page.getByRole("button", { name: "Walk out to bat" }).click();
+      // Web animations run on real time, not the page's fake clock.
+      const start = Date.now();
+      await expect(part(page, "dark")).toHaveCount(1);
+      expect(await opacity(page, "dark")).toBeGreaterThan(0.5);
+      expect(await opacity(page, "floodlights")).toBe(0);
+      await expect
+        .poll(async () => [await opacity(page, "dark"), await opacity(page, "floodlights")], {
+          timeout: 5000,
+          intervals: [100],
+        })
+        .toEqual([0, 1]);
+      expect(Date.now() - start).toBeGreaterThanOrEqual(2000);
+
+      // Changing format redraws the scene with the lights already on.
+      await toVillage(page);
+      await expect(part(page, "dark")).toHaveCount(0);
+      expect(await opacity(page, "floodlights")).toBe(1);
+
+      // Lit from the start for the ball itself and every one after.
+      await faceBall(page);
+      await expect(part(page, "dark")).toHaveCount(0);
+      expect(await opacity(page, "floodlights")).toBe(1);
+    });
+  });
+});

@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { TIERS } from "../../src/engine/types";
 import type { ThemeKey } from "../../src/storage";
 import {
+  atNight,
   CUT,
   isLanding,
   type Key,
@@ -52,6 +53,33 @@ describe("landing scenes", () => {
       }
     }
   });
+
+  it.each(all.filter(({ theme }) => theme !== "hundred"))(
+    "$theme $tier has a night sky at night",
+    ({ theme, tier }) => {
+      const day = LANDINGS[theme][tier].svg();
+      const sky = (svg: string) =>
+        [...svg.matchAll(/fill="#([0-9a-f]{6})"/g)]
+          .map(([, hex]) => hex)
+          .filter((hex) =>
+            [
+              "a9d8f2",
+              "e6f4fb",
+              "8cc8ec",
+              "b9dcf2",
+              "3b5ba8",
+              "7d6fb8",
+              "e9876a",
+              "f6c88e",
+              "fffffe",
+            ].includes(hex ?? ""),
+          );
+      // The Test six lands on the pavilion balcony, with no sky in view.
+      if (theme === "test" && tier === "six") return expect(sky(day)).toEqual([]);
+      expect(sky(day).length).toBeGreaterThan(0);
+      expect(sky(atNight(day))).toEqual([]);
+    },
+  );
 
   it.each(all)("$theme $tier keys run forwards in time", ({ theme, tier }) => {
     for (const { part, keys } of tracks(theme, tier)) {

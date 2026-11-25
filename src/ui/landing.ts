@@ -80,6 +80,43 @@ export function wipeKeys(step: number): Key[] {
 }
 
 /* ---------- Drawing ---------- */
+/** Clouds get their own white so the night sky can dim them (see atNight). */
+const CLOUD = "#fffffe";
+/** Daytime and dusk sky colours, used only for sky. */
+const SKY = [
+  "#a9d8f2",
+  "#e6f4fb",
+  "#8cc8ec",
+  "#b9dcf2",
+  "#3b5ba8",
+  "#7d6fb8",
+  "#e9876a",
+  "#f6c88e",
+];
+/** The pitch scene's night sky is this over the day sky; landings blend to match. */
+export const NIGHT_TINT = "#060a22";
+export const NIGHT_ALPHA = 0.7;
+
+const blend = (hex: string, over: string, alpha: number) =>
+  `#${[1, 3, 5]
+    .map((i) =>
+      Math.round(
+        Number.parseInt(hex.slice(i, i + 2), 16) * (1 - alpha) +
+          Number.parseInt(over.slice(i, i + 2), 16) * alpha,
+      )
+        .toString(16)
+        .padStart(2, "0"),
+    )
+    .join("")}`;
+
+/** A landing scene as seen at night: its sky and clouds darkened to match the floodlit pitch. */
+export function atNight(svg: string): string {
+  let s = svg;
+  for (const c of [...SKY, CLOUD])
+    s = s.replaceAll(`fill="${c}"`, `fill="${blend(c, NIGHT_TINT, NIGHT_ALPHA)}"`);
+  return s;
+}
+
 const G = (name: string, inner: string, extra = "") => `<g data-p="${name}" ${extra}>${inner}</g>`;
 const CENTRE = 'style="transform-box:fill-box;transform-origin:center"';
 const BASE = 'style="transform-box:fill-box;transform-origin:50% 100%"';
@@ -153,7 +190,7 @@ const village: Record<LandingTier, Landing> = {
   four: {
     svg() {
       let s = px(0, 0, 90, 12, "#a9d8f2") + px(0, 12, 90, 6, "#e6f4fb");
-      s += px(12, 3, 10, 2, "#fff") + px(14, 2, 5, 1, "#fff") + px(60, 5, 8, 1, "#fff");
+      s += px(12, 3, 10, 2, CLOUD) + px(14, 2, 5, 1, CLOUD) + px(60, 5, 8, 1, CLOUD);
       for (let x = 0; x < 90; x += 7)
         s += px(x + 1, 12, 5, 2, "#3f7d45") + px(x + 2, 11, 3, 1, "#346b3a");
       s += px(0, 14, 90, 6, "#3f7d45") + px(0, 20, 90, 35, "#6fb35e");
@@ -248,7 +285,7 @@ const village: Record<LandingTier, Landing> = {
   six: {
     svg() {
       let s = px(0, 0, 90, 14, "#a9d8f2") + px(0, 14, 90, 12, "#e6f4fb");
-      s += px(4, 3, 9, 2, "#fff") + px(6, 2, 4, 1, "#fff");
+      s += px(4, 3, 9, 2, CLOUD) + px(6, 2, 4, 1, CLOUD);
       s += px(0, 10, 10, 16, "#3f7d45") + px(1, 8, 7, 2, "#3f7d45");
       s += px(80, 9, 10, 17, "#3f7d45") + px(81, 7, 8, 2, "#346b3a");
       s += px(14, 12, 62, 14, "#fbf7ec") + px(38, 15, 14, 11, "#e9dfc6");
@@ -357,8 +394,8 @@ const village: Record<LandingTier, Landing> = {
   // Over the hedge into the village pond; two ducks take off and the third comes up wearing the ball.
   ootg: {
     svg() {
-      let s = px(0, 0, 90, 16, "#a9d8f2") + px(14, 4, 10, 2, "#fff") + px(16, 3, 5, 1, "#fff");
-      s += px(48, 6, 8, 1, "#fff") + px(70, 6, 8, 12, "#b8b2a3");
+      let s = px(0, 0, 90, 16, "#a9d8f2") + px(14, 4, 10, 2, CLOUD) + px(16, 3, 5, 1, CLOUD);
+      s += px(48, 6, 8, 1, CLOUD) + px(70, 6, 8, 12, "#b8b2a3");
       s += px(73, 0, 2, 2, "#8d877a") + px(72, 2, 4, 2, "#8d877a") + px(71, 4, 6, 2, "#8d877a");
       s += px(73, 9, 2, 3, "#3a3a34") + px(73, 13, 2, 2, "#fff") + px(0, 16, 90, 3, "#9fcf8a");
       for (let x = 0; x < 90; x += 5) s += px(x, 17, 4, 1, "#2f6b3a");
@@ -645,7 +682,7 @@ const test: Record<LandingTier, Landing> = {
   ootg: {
     svg() {
       let s = px(0, 0, 90, 14, "#8cc8ec") + px(0, 14, 90, 6, "#b9dcf2");
-      s += px(52, 4, 10, 2, "#fff") + px(54, 3, 5, 1, "#fff") + px(0, 18, 90, 6, "#7d8894");
+      s += px(52, 4, 10, 2, CLOUD) + px(54, 3, 5, 1, CLOUD) + px(0, 18, 90, 6, "#7d8894");
       for (let x = 0; x < 90; x += 10) s += px(x + 2, 16, 6, 2, "#7d8894");
       for (let r = 0; r < 16; r++) s += px(0, 24 + r, 90, 1, r % 3 === 0 ? "#4b5360" : "#5b6573");
       s += px(0, 24, 90, 1, "#3f4652");

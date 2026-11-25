@@ -155,6 +155,26 @@ test("with the keyboard up, the timer, question and answer box stay on screen", 
   }
 });
 
+test("a live ball can't be dragged around under the keyboard, but other screens scroll", async ({
+  context,
+}) => {
+  const page = await open(context, LAUNCH);
+  // dispatchEvent is false when a listener cancelled the drag.
+  const drag = (selector = "#prompt, h1") =>
+    page.evaluate((sel) => {
+      const target = document.querySelector(sel) ?? document.body;
+      // WebKit can't build a Touch in a page; the handler only needs the event and its target.
+      return target.dispatchEvent(new Event("touchmove", { bubbles: true, cancelable: true }));
+    }, selector);
+  expect(await drag()).toBe(true);
+  await page.getByRole("button", { name: "Walk out to bat" }).click();
+  await faceBall(page);
+  await expect(page.locator("#prompt")).toBeVisible();
+  expect(await drag()).toBe(false);
+  // Moving the caret in the answer box still works.
+  expect(await drag("#guess")).toBe(true);
+});
+
 test.describe("archive", () => {
   const dayTwo = new Date(LAUNCH.getTime() + 86_400_000);
 

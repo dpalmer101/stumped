@@ -269,6 +269,18 @@ export class App {
     window.visualViewport?.addEventListener("scroll", onViewport);
     window.addEventListener("resize", onViewport);
     onViewport();
+    // With the keyboard up, iOS lets a drag pan the page, and the live layout follows the pan a
+    // frame late, so it jitters. A live ball already fits what's visible: there's nothing to scroll.
+    // Pinch zoom and drags in the answer box (moving the caret) are left alone.
+    document.addEventListener(
+      "touchmove",
+      (e) => {
+        if (!this.root.classList.contains("live")) return;
+        if ((e.touches?.length ?? 1) > 1 || e.target instanceof HTMLInputElement) return;
+        e.preventDefault();
+      },
+      { passive: false },
+    );
     window.addEventListener("beforeinstallprompt", (e) => {
       e.preventDefault();
       this.installPrompt = e as InstallPromptEvent;
@@ -429,6 +441,7 @@ export class App {
     const what = puzzle === undefined ? "today's over" : `over #${puzzle}`;
     const retry =
       puzzle === undefined ? 'data-act="retry"' : `data-act="play-day" data-day="${puzzle}"`;
+    this.root.classList.remove("live");
     this.root.innerHTML = `<main class="home"><p class="loading" role="alert">Couldn't load ${what}. Check your connection.</p>
       <button class="btn wide" ${retry}>Try again</button></main>`;
   }
@@ -710,6 +723,7 @@ export class App {
   private async loadDayFor(puzzle: number): Promise<boolean> {
     const nav = ++this.navigation;
     if (this.loadedPuzzle !== puzzle) {
+      this.root.classList.remove("live");
       this.root.innerHTML = `<main class="home"><p class="loading" role="status">Loading #${puzzle}…</p></main>`;
     }
     try {

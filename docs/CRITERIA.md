@@ -71,6 +71,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 
 - [ ] Timer bar visible throughout a ball, no seconds shown; time left announced to screen readers at 10/5 s.
 - [ ] With the on-screen keyboard up, the timer, question and answer box stay on screen. 🤖
+- [ ] A live ball's screen doesn't scroll or jitter when dragged with the keyboard up. 🤖
 - [ ] Pulse sound speeds up at 10 s and 5 s; no sound before the first user gesture.
 - [ ] Mute toggle works and persists. 🤖
 - [ ] Each outcome (Single, Two, Four, Six, OOTG, Miss, Out) has a distinct animation. 🤖 (outcome → animation mapping)

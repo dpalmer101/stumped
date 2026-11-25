@@ -130,7 +130,8 @@ Run out, Hit wicket.
   on the day), count of each tier hit, ducks (0 runs total). Archive plays count in all but the
   streaks.
 - While a ball is live, the play screen fits the visible area, so an on-screen keyboard shrinks the
-  pitch instead of pushing the timer and question off screen.
+  pitch instead of pushing the timer and question off screen. It doesn't scroll, so dragging it
+  with the keyboard up does nothing rather than jittering (pinch zoom and the answer box still work).
 
 ## 11. Sharing
 
@@ -201,3 +202,4 @@ the anonymous counts in §1.
 - 2026-11-25: The far stumps stand in the middle of the wicket, with the batter to their left.
 - 2026-11-25: An open page (home-screen app or browser tab) checks for a newer deploy when it comes back to the foreground and every 10 minutes, and reloads into it on the home screen, today's scorecard or the archive list: never during a ball, its result or an archive over.
 - 2026-11-25: Fours, sixes and out of the ground cut to a themed **landing scene** showing where the ball lands (crowd, rope, outside the ground). It plays on behind the result, so input is never held up for more than about 1.2 s.
+- 2026-11-25: A live ball's screen can't be dragged or scrolled (it already fits what's visible), so it no longer jitters under the iOS keyboard.

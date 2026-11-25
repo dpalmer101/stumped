@@ -738,9 +738,10 @@ export class App {
   private async playDay(puzzle: number) {
     const today = this.todayPuzzle();
     if (puzzle < 1 || puzzle > today) return;
-    // Today's first play, or an over begun on its own day, is the real thing, streak and all.
+    // Today's first play, or an over begun on its own day, is the real thing, streak and all. Once
+    // finished it's a replay like any other day's, or "Play again" would just reopen the scorecard.
     const live =
-      (puzzle === today && !this.saved.history[today]) || puzzle === this.ownOverPuzzle();
+      !this.saved.history[puzzle] && (puzzle === today || puzzle === this.ownOverPuzzle());
     if (!(await this.loadDayFor(puzzle))) return;
     this.sound.unlock();
     if (live) {
@@ -1124,7 +1125,9 @@ export class App {
     if (puzzle !== this.todayPuzzle()) return;
     const stored = load(this.store);
     const { [puzzle]: _, ...history } = { ...stored.history, ...this.saved.history };
-    this.saved = { ...this.saved, history, innings: null };
+    // A replay of today begun before the reset would otherwise come back as "Resume".
+    const archive = this.saved.archive?.innings.puzzle === puzzle ? null : this.saved.archive;
+    this.saved = { ...this.saved, history, innings: null, archive };
     save(this.store, this.saved);
     this.lastRaw = readRaw(this.store);
     this.startDay();

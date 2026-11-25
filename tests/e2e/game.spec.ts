@@ -219,6 +219,30 @@ test.describe("archive", () => {
     await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeVisible();
   });
 
+  test("Play again on today's finished over replays it; the first score stands", async ({
+    context,
+  }) => {
+    const page = await open(context, LAUNCH);
+    await page.getByRole("button", { name: "Walk out to bat" }).click();
+    await playOver(page, single);
+    await expect(page.locator("#total")).toHaveText("6/0");
+    await page.getByRole("button", { name: "Archive", exact: true }).click();
+    await page.getByRole("button", { name: "Play again: #1" }).click();
+    await playOver(page, ootg);
+    await expect(page.locator("#total")).toHaveText("72/0");
+    await expect(page.getByText("Replay: your first score of 6/0 stands.")).toBeVisible();
+
+    await page.getByRole("button", { name: "Back to the archive" }).click();
+    const todayRow = page.locator(".days li").first();
+    await expect(todayRow).toContainText("6/0");
+    await expect(todayRow).not.toContainText("from the archive");
+
+    // Today's own over and streak are untouched.
+    await page.reload();
+    await expect(page.locator("#total")).toHaveText("6/0");
+    await expect(page.locator(".tile").filter({ hasText: /^\d+Streak$/ })).toContainText("1");
+  });
+
   test("today's over in progress is still there after an archive play", async ({ context }) => {
     const page = await open(context, dayTwo);
     await page.getByRole("button", { name: "Walk out to bat" }).click();

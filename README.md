@@ -11,6 +11,8 @@ A daily cricket knowledge game. One over: six balls, twenty seconds each — the
 
 ![Stumped in its four formats: the home screen, a ball in play, an out-of-the-ground hit and the scorecard](docs/screenshots/overview.png)
 
+Every screen and animation, in every format: [docs/GALLERY.md](docs/GALLERY.md).
+
 Pick a format, face each ball, and name a right answer before the 20-second timer runs out. Rare
 answers go for six or out of the ground; run out of time and you're out.
 

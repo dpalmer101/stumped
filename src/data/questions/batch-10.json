@@ -1,0 +1,942 @@
+[
+  {
+    "id": "pak-uae-mens-odi-grounds-before-2026",
+    "prompt": "Name a ground in Pakistan or the United Arab Emirates that hosted a men's ODI before 2026",
+    "category": "Pakistan and UAE ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "odi",
+      "international",
+      "pakistan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_cricket_grounds_in_Pakistan",
+      "https://en.wikipedia.org/wiki/List_of_cricket_grounds_in_the_United_Arab_Emirates"
+    ],
+    "metrics": [
+      {
+        "label": "Men's ODIs hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Yorker",
+    "answers": [
+      {
+        "name": "Jinnah Stadium, Sialkot",
+        "aliases": [
+          "Sialkot"
+        ],
+        "wiki": "Jinnah Stadium, Sialkot",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Jinnah Stadium, Sialkot",
+          "date": "2026-11-26",
+          "key": "1yocij1"
+        },
+        "views": 6212,
+        "tier": "four"
+      },
+      {
+        "name": "Zafar Ali Stadium",
+        "aliases": [
+          "Sahiwal",
+          "Zafar Ali"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Zafar Ali Stadium",
+          "date": "2026-11-26",
+          "key": "flikid"
+        },
+        "views": 1439,
+        "tier": "six"
+      },
+      {
+        "name": "Gaddafi Stadium",
+        "aliases": [
+          "Gaddafi",
+          "Lahore",
+          "Lahore Stadium"
+        ],
+        "values": [
+          73
+        ],
+        "verified": {
+          "wiki": "Gaddafi Stadium",
+          "date": "2026-11-26",
+          "key": "161dp49"
+        },
+        "views": 65298,
+        "tier": "single"
+      },
+      {
+        "name": "Ayub National Stadium",
+        "aliases": [
+          "Ayub Stadium",
+          "Ayub",
+          "Ayub National"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Ayub National Stadium",
+          "date": "2026-11-26",
+          "key": "1faclrl"
+        },
+        "views": 2415,
+        "tier": "six"
+      },
+      {
+        "name": "National Stadium, Karachi",
+        "aliases": [
+          "National Stadium",
+          "Karachi",
+          "National Bank Stadium",
+          "National Bank Cricket Arena"
+        ],
+        "wiki": "National Stadium, Karachi",
+        "values": [
+          59
+        ],
+        "verified": {
+          "wiki": "National Stadium, Karachi",
+          "date": "2026-11-26",
+          "key": "1997ku9"
+        },
+        "views": 18434,
+        "tier": "single"
+      },
+      {
+        "name": "Niaz Stadium",
+        "aliases": [
+          "Hyderabad"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Niaz Stadium",
+          "date": "2026-11-26",
+          "key": "8mrtee"
+        },
+        "views": 15520,
+        "tier": "four"
+      },
+      {
+        "name": "Jinnah Stadium, Gujranwala",
+        "aliases": [
+          "Gujranwala"
+        ],
+        "wiki": "Jinnah Stadium, Gujranwala",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Jinnah Stadium, Gujranwala",
+          "date": "2026-11-26",
+          "key": "1eg73x4"
+        },
+        "views": 4153,
+        "tier": "four"
+      },
+      {
+        "name": "Ibn-e-Qasim Bagh Stadium",
+        "aliases": [
+          "Ibn-e-Qasim Bagh",
+          "Qasim Bagh",
+          "Ibn e Qasim"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Ibn-e-Qasim Bagh Stadium",
+          "date": "2026-11-26",
+          "key": "gxs284"
+        },
+        "views": 2308,
+        "tier": "four"
+      },
+      {
+        "name": "Sharjah Cricket Stadium",
+        "aliases": [
+          "Sharjah",
+          "Sharjah Cricket Association Stadium"
+        ],
+        "values": [
+          255
+        ],
+        "verified": {
+          "wiki": "Sharjah Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "c824df"
+        },
+        "views": 21929,
+        "tier": "single"
+      },
+      {
+        "name": "Arbab Niaz Stadium",
+        "aliases": [
+          "Arbab Niaz",
+          "Peshawar",
+          "Imran Khan Cricket Stadium",
+          "Imran Khan Stadium",
+          "Imran Khan"
+        ],
+        "wiki": "Imran Khan Cricket Stadium",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Imran Khan Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "gfu29"
+        },
+        "views": 25974,
+        "tier": "two"
+      },
+      {
+        "name": "Iqbal Stadium",
+        "aliases": [
+          "Faisalabad",
+          "Iqbal"
+        ],
+        "values": [
+          19
+        ],
+        "verified": {
+          "wiki": "Iqbal Stadium",
+          "date": "2026-11-26",
+          "key": "1vmt1vy"
+        },
+        "views": 23159,
+        "tier": "two"
+      },
+      {
+        "name": "Pindi Club Ground",
+        "aliases": [
+          "Pindi Club"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Pindi Club Ground",
+          "date": "2026-11-26",
+          "key": "7sdl4o"
+        },
+        "views": 1757,
+        "tier": "six"
+      },
+      {
+        "name": "Sargodha Cricket Stadium",
+        "aliases": [
+          "Sargodha"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sargodha Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "calvs3"
+        },
+        "views": 2240,
+        "tier": "ootg"
+      },
+      {
+        "name": "Rawalpindi Cricket Stadium",
+        "aliases": [
+          "Rawalpindi",
+          "Pindi",
+          "Pindi Stadium",
+          "Pindi Cricket Stadium",
+          "Rawalpindi Stadium"
+        ],
+        "values": [
+          28
+        ],
+        "verified": {
+          "wiki": "Rawalpindi Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "1qb5rf6"
+        },
+        "views": 25347,
+        "tier": "single"
+      },
+      {
+        "name": "Bugti Stadium",
+        "aliases": [
+          "Quetta",
+          "Bugti",
+          "Nawab Akbar Bugti Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bugti Stadium",
+          "date": "2026-11-26",
+          "key": "1bn6vti"
+        },
+        "views": 7870,
+        "tier": "four"
+      },
+      {
+        "name": "Sheikhupura Stadium",
+        "aliases": [
+          "Sheikhupura"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Sheikhupura Stadium",
+          "date": "2026-11-26",
+          "key": "1g2kipi"
+        },
+        "views": 2015,
+        "tier": "six"
+      },
+      {
+        "name": "Multan Cricket Stadium",
+        "aliases": [
+          "Multan"
+        ],
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Multan Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "1qlxz4r"
+        },
+        "views": 11625,
+        "tier": "two"
+      },
+      {
+        "name": "Sheikh Zayed Cricket Stadium",
+        "aliases": [
+          "Sheikh Zayed Stadium",
+          "Zayed Cricket Stadium",
+          "Zayed Stadium",
+          "Sheikh Zayed",
+          "Zayed",
+          "Abu Dhabi"
+        ],
+        "values": [
+          56
+        ],
+        "verified": {
+          "wiki": "Sheikh Zayed Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "13wljbj"
+        },
+        "views": 10445,
+        "tier": "two"
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "aliases": [
+          "Dubai International Stadium",
+          "Dubai",
+          "Dubai Sports City",
+          "Dubai International",
+          "Dubai Stadium"
+        ],
+        "values": [
+          66
+        ],
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "nmigdl"
+        },
+        "views": 20522,
+        "tier": "single"
+      },
+      {
+        "name": "ICC Academy Ground",
+        "aliases": [
+          "ICC Academy",
+          "ICC Global Cricket Academy",
+          "ICC Global Academy"
+        ],
+        "wiki": "ICC Academy Ground",
+        "values": [
+          33
+        ],
+        "verified": {
+          "wiki": "ICC Academy Ground",
+          "date": "2026-11-26",
+          "key": "17qhqx0"
+        },
+        "views": 7052,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "nz-mens-womens-odi-grounds-before-2026",
+    "prompt": "Name a ground in New Zealand that hosted a men's or women's ODI before 2026",
+    "category": "New Zealand ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "women",
+      "odi",
+      "international",
+      "new-zealand"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_women%27s_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_cricket_grounds_in_New_Zealand"
+    ],
+    "metrics": [
+      {
+        "label": "ODIs hosted (men's and women's)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Reverse swing",
+    "answers": [
+      {
+        "name": "Lancaster Park",
+        "aliases": [
+          "Lancaster",
+          "Jade Stadium",
+          "AMI Stadium"
+        ],
+        "values": [
+          55
+        ],
+        "verified": {
+          "wiki": "Lancaster Park",
+          "date": "2026-11-26",
+          "key": "18eqsew"
+        },
+        "views": 34101,
+        "tier": "single"
+      },
+      {
+        "name": "Carisbrook",
+        "aliases": [
+          "House of Pain"
+        ],
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Carisbrook",
+          "date": "2026-11-26",
+          "key": "711qjv"
+        },
+        "views": 10890,
+        "tier": "two"
+      },
+      {
+        "name": "Basin Reserve",
+        "aliases": [
+          "Basin",
+          "Wellington"
+        ],
+        "values": [
+          59
+        ],
+        "verified": {
+          "wiki": "Basin Reserve",
+          "date": "2026-11-26",
+          "key": "mk6el8"
+        },
+        "views": 18558,
+        "tier": "single"
+      },
+      {
+        "name": "Eden Park",
+        "aliases": [
+          "Auckland",
+          "Eden Park Outer Oval",
+          "Eden Park & Outer Oval",
+          "Outer Oval"
+        ],
+        "values": [
+          95
+        ],
+        "verified": {
+          "wiki": "Eden Park",
+          "date": "2026-11-26",
+          "key": "klsoc7"
+        },
+        "views": 108504,
+        "tier": "single"
+      },
+      {
+        "name": "Seddon Park",
+        "aliases": [
+          "Hamilton",
+          "Seddon",
+          "Westpac Park",
+          "WestpacTrust Park",
+          "Trust Bank Park"
+        ],
+        "values": [
+          63
+        ],
+        "verified": {
+          "wiki": "Seddon Park",
+          "date": "2026-11-26",
+          "key": "4kwey5"
+        },
+        "views": 11830,
+        "tier": "single"
+      },
+      {
+        "name": "McLean Park",
+        "aliases": [
+          "Napier",
+          "McLean"
+        ],
+        "values": [
+          53
+        ],
+        "verified": {
+          "wiki": "McLean Park",
+          "date": "2026-11-26",
+          "key": "1yv34za"
+        },
+        "views": 13363,
+        "tier": "single"
+      },
+      {
+        "name": "Pukekura Park",
+        "aliases": [
+          "New Plymouth",
+          "Pukekura"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Pukekura Park",
+          "date": "2026-11-26",
+          "key": "1arza9r"
+        },
+        "views": 5509,
+        "tier": "two"
+      },
+      {
+        "name": "Owen Delany Park",
+        "aliases": [
+          "Taupo",
+          "Owen Delany"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Owen Delany Park",
+          "date": "2026-11-26",
+          "key": "cp12u2"
+        },
+        "views": 2570,
+        "tier": "two"
+      },
+      {
+        "name": "Wellington Regional Stadium",
+        "aliases": [
+          "Westpac Stadium",
+          "Sky Stadium",
+          "Cake Tin",
+          "WestpacTrust Stadium"
+        ],
+        "wiki": "Wellington Regional Stadium",
+        "values": [
+          33
+        ],
+        "verified": {
+          "wiki": "Wellington Regional Stadium",
+          "date": "2026-11-26",
+          "key": "gzu2b1"
+        },
+        "views": 71930,
+        "tier": "single"
+      },
+      {
+        "name": "John Davies Oval",
+        "aliases": [
+          "Queenstown",
+          "John Davies",
+          "Queenstown Events Centre"
+        ],
+        "wiki": "Queenstown Events Centre",
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Queenstown Events Centre",
+          "date": "2026-11-26",
+          "key": "f785vf"
+        },
+        "views": 5001,
+        "tier": "two"
+      },
+      {
+        "name": "University Oval",
+        "aliases": [
+          "Dunedin",
+          "University of Otago Oval",
+          "Logan Park",
+          "University Oval & Logan Park"
+        ],
+        "wiki": "University of Otago Oval",
+        "values": [
+          19
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "qrjxwt"
+        },
+        "views": 4935,
+        "tier": "two"
+      },
+      {
+        "name": "Cobham Oval",
+        "aliases": [
+          "Whangarei",
+          "Cobham"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Cobham Oval",
+          "date": "2026-11-26",
+          "key": "za20hx"
+        },
+        "views": 1767,
+        "tier": "four"
+      },
+      {
+        "name": "Saxton Oval",
+        "aliases": [
+          "Nelson",
+          "Saxton",
+          "Saxton Field"
+        ],
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Saxton Oval",
+          "date": "2026-11-26",
+          "key": "ojy80d"
+        },
+        "views": 6170,
+        "tier": "two"
+      },
+      {
+        "name": "Hagley Oval",
+        "aliases": [
+          "Hagley",
+          "Christchurch",
+          "Hagley Park"
+        ],
+        "values": [
+          40
+        ],
+        "verified": {
+          "wiki": "Hagley Oval",
+          "date": "2026-11-26",
+          "key": "1a4utyn"
+        },
+        "views": 21018,
+        "tier": "single"
+      },
+      {
+        "name": "Bert Sutcliffe Oval",
+        "aliases": [
+          "Lincoln",
+          "Bert Sutcliffe",
+          "Lincoln Green",
+          "Bert Sutcliffe Oval & Lincoln Green"
+        ],
+        "values": [
+          73
+        ],
+        "verified": {
+          "wiki": "Bert Sutcliffe Oval",
+          "date": "2026-11-26",
+          "key": "1ntqe9y"
+        },
+        "views": 3317,
+        "tier": "two"
+      },
+      {
+        "name": "Bay Oval",
+        "aliases": [
+          "Mount Maunganui",
+          "Tauranga"
+        ],
+        "values": [
+          32
+        ],
+        "verified": {
+          "wiki": "Bay Oval",
+          "date": "2026-11-26",
+          "key": "7bhw2u"
+        },
+        "views": 11902,
+        "tier": "single"
+      },
+      {
+        "name": "Cornwall Park",
+        "wiki": "Cornwall Park, Auckland",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "7ye2ed"
+        },
+        "views": 2285,
+        "tier": "four",
+        "aliases": [
+          "Cornwall"
+        ]
+      },
+      {
+        "name": "Fitzherbert Park",
+        "aliases": [
+          "Palmerston North",
+          "Fitzherbert"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Fitzherbert Park",
+          "date": "2026-11-26",
+          "key": "ydmgbd"
+        },
+        "views": 1776,
+        "tier": "two"
+      },
+      {
+        "name": "Cooks Gardens",
+        "aliases": [
+          "Wanganui",
+          "Whanganui"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Cooks Gardens",
+          "date": "2026-11-26",
+          "key": "txjcdq"
+        },
+        "views": 1810,
+        "tier": "four"
+      },
+      {
+        "name": "Hutt Recreation Ground",
+        "aliases": [
+          "Lower Hutt",
+          "Hutt Rec",
+          "Hutt"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Hutt Recreation Ground",
+          "date": "2026-11-26",
+          "key": "bwxw65"
+        },
+        "views": 818,
+        "tier": "four"
+      },
+      {
+        "name": "Trafalgar Park",
+        "aliases": [
+          "Trafalgar"
+        ],
+        "wiki": "Trafalgar Park, Nelson",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Trafalgar Park, Nelson",
+          "date": "2026-11-26",
+          "key": "1990ycv"
+        },
+        "views": 3617,
+        "tier": "four"
+      },
+      {
+        "name": "Christ's College",
+        "wiki": "Christ's College, Christchurch",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Christ's College, Christchurch",
+          "date": "2026-11-26",
+          "key": "185873m"
+        },
+        "views": 12175,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "No ground article; views are the school's article. A school ground that hosted two women's ODIs in 1982."
+        }
+      },
+      {
+        "name": "Ilam University",
+        "aliases": [
+          "Ilam",
+          "University of Canterbury"
+        ],
+        "wiki": "University of Canterbury",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "University of Canterbury",
+          "date": "2026-11-26",
+          "key": "1vyfcr0"
+        },
+        "views": 56577,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "No ground article; views are the whole University of Canterbury article. A university field that hosted three women's ODIs in 1982."
+        }
+      },
+      {
+        "name": "Dudley Park",
+        "aliases": [
+          "Rangiora"
+        ],
+        "wiki": "Dudley Park, Rangiora",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Dudley Park, Rangiora",
+          "date": "2026-11-26",
+          "key": "lpnnpg"
+        },
+        "views": 330,
+        "tier": "six"
+      },
+      {
+        "name": "Levin Domain",
+        "aliases": [
+          "Levin"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Levin Domain",
+          "date": "2026-11-26",
+          "key": "118yr5f"
+        },
+        "views": 407,
+        "tier": "four"
+      },
+      {
+        "name": "Victoria Park, Wanganui",
+        "aliases": [
+          "Victoria Park"
+        ],
+        "wiki": "Victoria Park, Whanganui",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Victoria Park, Whanganui",
+          "date": "2026-11-26",
+          "key": "26g8lt"
+        },
+        "views": 371,
+        "tier": "ootg"
+      },
+      {
+        "name": "Centennial Park, Oamaru",
+        "aliases": [
+          "Oamaru",
+          "Centennial Park"
+        ],
+        "wiki": "Centennial Park, Oamaru",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Centennial Park, Oamaru",
+          "date": "2026-11-26",
+          "key": "1dw2x94"
+        },
+        "views": 499,
+        "tier": "six"
+      },
+      {
+        "name": "Aorangi Oval",
+        "aliases": [
+          "Timaru",
+          "Aorangi",
+          "Aorangi Park"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Aorangi Oval",
+          "date": "2026-11-26",
+          "key": "wncrjc"
+        },
+        "views": 289,
+        "tier": "six"
+      },
+      {
+        "name": "Queen's Park, Invercargill",
+        "aliases": [
+          "Invercargill",
+          "Queen's Park"
+        ],
+        "wiki": "Queens Park, Invercargill",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Queens Park, Invercargill",
+          "date": "2026-11-26",
+          "key": "12tq8pb"
+        },
+        "views": 3018,
+        "tier": "four"
+      }
+    ]
+  }
+]

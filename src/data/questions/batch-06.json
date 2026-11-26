@@ -1,0 +1,2258 @@
+[
+  {
+    "id": "women-intl-hat-tricks-full-members-before-2026",
+    "prompt": "Name a woman who took a hat-trick in a women's Test, ODI or T20I for one of the 12 full ICC members, before 2026",
+    "category": "Women's hat-tricks",
+    "answerType": "player",
+    "tags": [
+      "women",
+      "test",
+      "odi",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_women%27s_international_cricket_hat-tricks",
+      "https://en.wikipedia.org/wiki/List_of_Women%27s_Twenty20_International_cricket_hat-tricks"
+    ],
+    "metrics": [
+      {
+        "label": "Year of first international hat-trick",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
+    "delivery": "Slower ball",
+    "answers": [
+      {
+        "name": "Betty Wilson",
+        "values": [
+          1958
+        ],
+        "verified": {
+          "wiki": "Betty Wilson",
+          "date": "2026-11-26",
+          "key": "1r11ipc"
+        },
+        "views": 5323,
+        "tier": "six"
+      },
+      {
+        "name": "Shaiza Khan",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "Shaiza Khan",
+          "date": "2026-11-26",
+          "key": "n1tzy8"
+        },
+        "views": 2706,
+        "tier": "four"
+      },
+      {
+        "name": "Rene Farrell",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "Rene Farrell",
+          "date": "2026-11-26",
+          "key": "5k8tfk"
+        },
+        "views": 1096,
+        "tier": "six"
+      },
+      {
+        "name": "Carole Hodges",
+        "values": [
+          1993
+        ],
+        "verified": {
+          "wiki": "Carole Hodges",
+          "date": "2026-11-26",
+          "key": "1nlflw"
+        },
+        "views": 1495,
+        "tier": "six"
+      },
+      {
+        "name": "Julie Harris",
+        "wiki": "Julie Harris (cricketer)",
+        "values": [
+          1993
+        ],
+        "verified": {
+          "wiki": "Julie Harris (cricketer)",
+          "date": "2026-11-26",
+          "key": "1rhyws8"
+        },
+        "views": 390,
+        "tier": "ootg"
+      },
+      {
+        "name": "Emily Drumm",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Emily Drumm",
+          "date": "2026-11-26",
+          "key": "1gwyorj"
+        },
+        "views": 2789,
+        "tier": "six"
+      },
+      {
+        "name": "Clare Connor",
+        "values": [
+          1999
+        ],
+        "verified": {
+          "wiki": "Clare Connor",
+          "date": "2026-11-26",
+          "key": "y1rm7i"
+        },
+        "views": 6219,
+        "tier": "four"
+      },
+      {
+        "name": "Saibh Young",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Saibh Young",
+          "date": "2026-11-26",
+          "key": "1b3c6zz"
+        },
+        "views": 374,
+        "tier": "six"
+      },
+      {
+        "name": "Dane van Niekerk",
+        "values": [
+          2013
+        ],
+        "verified": {
+          "wiki": "Dane van Niekerk",
+          "date": "2026-11-26",
+          "key": "1miv5sk"
+        },
+        "views": 96742,
+        "tier": "two"
+      },
+      {
+        "name": "Inoka Ranaweera",
+        "values": [
+          2015
+        ],
+        "verified": {
+          "wiki": "Inoka Ranaweera",
+          "date": "2026-11-26",
+          "key": "nc2d7e"
+        },
+        "views": 2282,
+        "tier": "four"
+      },
+      {
+        "name": "Rumana Ahmed",
+        "values": [
+          2016
+        ],
+        "verified": {
+          "wiki": "Rumana Ahmed",
+          "date": "2026-11-26",
+          "key": "19d7f9x"
+        },
+        "views": 2177,
+        "tier": "four"
+      },
+      {
+        "name": "Masabata Klaas",
+        "aliases": [
+          "Mosie Klaas"
+        ],
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "Masabata Klaas",
+          "date": "2026-11-26",
+          "key": "1ervwv"
+        },
+        "views": 2180,
+        "tier": "two"
+      },
+      {
+        "name": "Megan Schutt",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Megan Schutt",
+          "date": "2026-11-26",
+          "key": "1s0bjmr"
+        },
+        "views": 18465,
+        "tier": "single"
+      },
+      {
+        "name": "Charlie Dean",
+        "aliases": [
+          "Charlotte Dean"
+        ],
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Charlie Dean",
+          "date": "2026-11-26",
+          "key": "19p7dfy"
+        },
+        "views": 51708,
+        "tier": "single"
+      },
+      {
+        "name": "Chloe Tryon",
+        "values": [
+          2025
+        ],
+        "verified": {
+          "wiki": "Chloe Tryon",
+          "date": "2026-11-26",
+          "key": "19qa0ff"
+        },
+        "views": 44167,
+        "tier": "single"
+      },
+      {
+        "name": "Asmavia Iqbal",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "Asmavia Iqbal",
+          "date": "2026-11-26",
+          "key": "1dq6k95"
+        },
+        "views": 1042,
+        "tier": "six"
+      },
+      {
+        "name": "Ekta Bisht",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "Ekta Bisht",
+          "date": "2026-11-26",
+          "key": "5kocaj"
+        },
+        "views": 11043,
+        "tier": "four"
+      },
+      {
+        "name": "Marizanne Kapp",
+        "values": [
+          2013
+        ],
+        "verified": {
+          "wiki": "Marizanne Kapp",
+          "date": "2026-11-26",
+          "key": "1dfzgld"
+        },
+        "views": 141582,
+        "tier": "two"
+      },
+      {
+        "name": "Nat Sciver-Brunt",
+        "aliases": [
+          "Natalie Sciver",
+          "Nat Sciver",
+          "Natalie Sciver-Brunt",
+          "Sciver"
+        ],
+        "values": [
+          2013
+        ],
+        "tier": "single",
+        "wiki": "Nat Sciver-Brunt",
+        "verified": {
+          "wiki": "List of Women's Twenty20 International cricket hat-tricks",
+          "date": "2026-11-26",
+          "key": "jz7hka"
+        },
+        "views": 340,
+        "override": {
+          "tier": "single",
+          "reason": "The source links her old name, so verify stamped the list page and its views stand in for hers; she is one of England's best-known players"
+        }
+      },
+      {
+        "name": "Sana Mir",
+        "values": [
+          2015
+        ],
+        "verified": {
+          "wiki": "Sana Mir",
+          "date": "2026-11-26",
+          "key": "14k5y5b"
+        },
+        "views": 41868,
+        "tier": "two"
+      },
+      {
+        "name": "Anna Peterson",
+        "wiki": "Anna Peterson (cricketer)",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Anna Peterson (cricketer)",
+          "date": "2026-11-26",
+          "key": "14quk8g"
+        },
+        "views": 654,
+        "tier": "four"
+      },
+      {
+        "name": "Fahima Khatun",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Fahima Khatun",
+          "date": "2026-11-26",
+          "key": "1nnn8i3"
+        },
+        "views": 3495,
+        "tier": "two"
+      },
+      {
+        "name": "Anisa Mohammed",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Anisa Mohammed",
+          "date": "2026-11-26",
+          "key": "1anguxm"
+        },
+        "views": 4343,
+        "tier": "two"
+      },
+      {
+        "name": "Anya Shrubsole",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Anya Shrubsole",
+          "date": "2026-11-26",
+          "key": "h728p8"
+        },
+        "views": 17087,
+        "tier": "single"
+      },
+      {
+        "name": "Stafanie Taylor",
+        "misspellings": [
+          "Stephanie Taylor"
+        ],
+        "values": [
+          2021
+        ],
+        "verified": {
+          "wiki": "Stafanie Taylor",
+          "date": "2026-11-26",
+          "key": "10jdgx8"
+        },
+        "views": 14634,
+        "tier": "single"
+      },
+      {
+        "name": "Nomvelo Sibanda",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Nomvelo Sibanda",
+          "date": "2026-11-26",
+          "key": "1k9smmk"
+        },
+        "views": 1428,
+        "tier": "two"
+      },
+      {
+        "name": "Fariha Trisna",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Fariha Trisna",
+          "date": "2026-11-26",
+          "key": "pnbhve"
+        },
+        "views": 1393,
+        "tier": "four"
+      },
+      {
+        "name": "Heather Graham",
+        "wiki": "Heather Graham (cricketer)",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Heather Graham (cricketer)",
+          "date": "2026-11-26",
+          "key": "vwalm8"
+        },
+        "views": 14931,
+        "tier": "single"
+      },
+      {
+        "name": "Audrey Mazvishaya",
+        "values": [
+          2023
+        ],
+        "verified": {
+          "wiki": "Audrey Mazvishaya",
+          "date": "2026-11-26",
+          "key": "wmvxnf"
+        },
+        "views": 353,
+        "tier": "four"
+      },
+      {
+        "name": "Hayley Matthews",
+        "values": [
+          2023
+        ],
+        "verified": {
+          "wiki": "Hayley Matthews",
+          "date": "2026-11-26",
+          "key": "11edb25"
+        },
+        "views": 38387,
+        "tier": "single"
+      },
+      {
+        "name": "Precious Marange",
+        "values": [
+          2023
+        ],
+        "verified": {
+          "wiki": "Precious Marange",
+          "date": "2026-11-26",
+          "key": "fhican"
+        },
+        "views": 719,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "australia-women-captains-before-2026",
+    "prompt": "Name a woman who captained Australia in a women's Test, ODI or T20I before 2026",
+    "category": "Australia women captains",
+    "answerType": "player",
+    "tags": [
+      "women",
+      "test",
+      "odi",
+      "t20",
+      "international",
+      "australia"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Australia_national_cricket_captains"
+    ],
+    "metrics": [
+      {
+        "label": "Matches as captain (all formats)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Slower ball",
+    "answers": [
+      {
+        "name": "Margaret Peden",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Margaret Peden",
+          "date": "2026-11-26",
+          "key": "mihbfi"
+        },
+        "views": 1001,
+        "tier": "four"
+      },
+      {
+        "name": "Mollie Dive",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Mollie Dive",
+          "date": "2026-11-26",
+          "key": "f2cq8r"
+        },
+        "views": 811,
+        "tier": "four"
+      },
+      {
+        "name": "Una Paisley",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Una Paisley",
+          "date": "2026-11-26",
+          "key": "c4xtly"
+        },
+        "views": 352,
+        "tier": "six"
+      },
+      {
+        "name": "Muriel Picton",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Muriel Picton",
+          "date": "2026-11-26",
+          "key": "1i44rs8"
+        },
+        "views": 1705,
+        "tier": "four"
+      },
+      {
+        "name": "Mary Allitt",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Mary Allitt",
+          "date": "2026-11-26",
+          "key": "1k2mnzc"
+        },
+        "views": 467,
+        "tier": "six"
+      },
+      {
+        "name": "Miriam Knee",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Miriam Knee",
+          "date": "2026-11-26",
+          "key": "zl0hj3"
+        },
+        "views": 467,
+        "tier": "six"
+      },
+      {
+        "name": "Wendy Blunsden",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Wendy Blunsden",
+          "date": "2026-11-26",
+          "key": "18sxdd5"
+        },
+        "views": 291,
+        "tier": "ootg"
+      },
+      {
+        "name": "Anne Gordon",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Anne Gordon",
+          "date": "2026-11-26",
+          "key": "ggok88"
+        },
+        "views": 673,
+        "tier": "two"
+      },
+      {
+        "name": "Margaret Jennings",
+        "wiki": "Margaret Jennings (cricketer)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Margaret Jennings (cricketer)",
+          "date": "2026-11-26",
+          "key": "74m7ex"
+        },
+        "views": 3190,
+        "tier": "two"
+      },
+      {
+        "name": "Sharon Tredrea",
+        "values": [
+          19
+        ],
+        "verified": {
+          "wiki": "Sharon Tredrea",
+          "date": "2026-11-26",
+          "key": "u3cjgn"
+        },
+        "views": 4055,
+        "tier": "two"
+      },
+      {
+        "name": "Jill Kennare",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Jill Kennare",
+          "date": "2026-11-26",
+          "key": "tbopi8"
+        },
+        "views": 595,
+        "tier": "four"
+      },
+      {
+        "name": "Raelee Thompson",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Raelee Thompson",
+          "date": "2026-11-26",
+          "key": "e9nt9p"
+        },
+        "views": 654,
+        "tier": "four"
+      },
+      {
+        "name": "Lyn Larsen",
+        "values": [
+          50
+        ],
+        "verified": {
+          "wiki": "Lyn Larsen",
+          "date": "2026-11-26",
+          "key": "15mewhp"
+        },
+        "views": 752,
+        "tier": "two"
+      },
+      {
+        "name": "Belinda Clark",
+        "values": [
+          112
+        ],
+        "verified": {
+          "wiki": "Belinda Clark",
+          "date": "2026-11-26",
+          "key": "1razry9"
+        },
+        "views": 27565,
+        "tier": "single"
+      },
+      {
+        "name": "Karen Rolton",
+        "values": [
+          58
+        ],
+        "verified": {
+          "wiki": "Karen Rolton",
+          "date": "2026-11-26",
+          "key": "15g2dku"
+        },
+        "views": 10403,
+        "tier": "single"
+      },
+      {
+        "name": "Jodie Fields",
+        "values": [
+          58
+        ],
+        "verified": {
+          "wiki": "Jodie Fields",
+          "date": "2026-11-26",
+          "key": "1jslpin"
+        },
+        "views": 4092,
+        "tier": "two"
+      },
+      {
+        "name": "Alex Blackwell",
+        "aliases": [
+          "Alexandra Blackwell"
+        ],
+        "values": [
+          34
+        ],
+        "verified": {
+          "wiki": "Alex Blackwell",
+          "date": "2026-11-26",
+          "key": "6q39xn"
+        },
+        "views": 14382,
+        "tier": "single"
+      },
+      {
+        "name": "Meg Lanning",
+        "values": [
+          182
+        ],
+        "verified": {
+          "wiki": "Meg Lanning",
+          "date": "2026-11-26",
+          "key": "12hpwdd"
+        },
+        "views": 131672,
+        "tier": "single"
+      },
+      {
+        "name": "Rachael Haynes",
+        "misspellings": [
+          "Rachel Haynes"
+        ],
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Rachael Haynes",
+          "date": "2026-11-26",
+          "key": "1k0yj3z"
+        },
+        "views": 12528,
+        "tier": "two"
+      },
+      {
+        "name": "Alyssa Healy",
+        "values": [
+          59
+        ],
+        "verified": {
+          "wiki": "Alyssa Healy",
+          "date": "2026-11-26",
+          "key": "1dipucn"
+        },
+        "views": 403570,
+        "tier": "single"
+      },
+      {
+        "name": "Denise Emerson",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Denise Emerson",
+          "date": "2026-11-26",
+          "key": "dndei6"
+        },
+        "views": 1728,
+        "tier": "four"
+      },
+      {
+        "name": "Karen Brown",
+        "wiki": "Karen Brown (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Karen Brown (cricketer)",
+          "date": "2026-11-26",
+          "key": "1v37h7d"
+        },
+        "views": 342,
+        "tier": "six"
+      },
+      {
+        "name": "Christina Matthews",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Christina Matthews",
+          "date": "2026-11-26",
+          "key": "a99zg3"
+        },
+        "views": 2524,
+        "tier": "six"
+      },
+      {
+        "name": "Lisa Sthalekar",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Lisa Sthalekar",
+          "date": "2026-11-26",
+          "key": "1209vyj"
+        },
+        "views": 64612,
+        "tier": "two"
+      },
+      {
+        "name": "Tahlia McGrath",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Tahlia McGrath",
+          "date": "2026-11-26",
+          "key": "1tjex4u"
+        },
+        "views": 32613,
+        "tier": "single"
+      }
+    ]
+  },
+  {
+    "id": "india-south-africa-2025-womens-world-cup-squads",
+    "prompt": "Name a player named in India's or South Africa's squad for the 2025 Women's Cricket World Cup (injury replacements count, reserves don't)",
+    "category": "2025 World Cup squads",
+    "answerType": "player",
+    "tags": [
+      "women",
+      "odi",
+      "international",
+      "india",
+      "south-africa"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2025_Women%27s_Cricket_World_Cup_squads"
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Bouncer",
+    "answers": [
+      {
+        "name": "Smriti Mandhana",
+        "aliases": [
+          "Smriti"
+        ],
+        "verified": {
+          "wiki": "Smriti Mandhana",
+          "date": "2026-11-26",
+          "key": "12por4w"
+        },
+        "views": 1687347,
+        "tier": "single"
+      },
+      {
+        "name": "Harleen Deol",
+        "aliases": [
+          "Harleen"
+        ],
+        "verified": {
+          "wiki": "Harleen Deol",
+          "date": "2026-11-26",
+          "key": "1abe4cw"
+        },
+        "views": 217832,
+        "tier": "two"
+      },
+      {
+        "name": "Pratika Rawal",
+        "verified": {
+          "wiki": "Pratika Rawal",
+          "date": "2026-11-26",
+          "key": "r2vd0z"
+        },
+        "views": 320880,
+        "tier": "single"
+      },
+      {
+        "name": "Jemimah Rodrigues",
+        "aliases": [
+          "Jemi Rodrigues",
+          "Jemimah"
+        ],
+        "verified": {
+          "wiki": "Jemimah Rodrigues",
+          "date": "2026-11-26",
+          "key": "1xsxst9"
+        },
+        "views": 707561,
+        "tier": "single"
+      },
+      {
+        "name": "Shafali Verma",
+        "verified": {
+          "wiki": "Shafali Verma",
+          "date": "2026-11-26",
+          "key": "122r8jl"
+        },
+        "views": 355649,
+        "tier": "single"
+      },
+      {
+        "name": "Yastika Bhatia",
+        "verified": {
+          "wiki": "Yastika Bhatia",
+          "date": "2026-11-26",
+          "key": "1c6jjwn"
+        },
+        "views": 88933,
+        "tier": "two"
+      },
+      {
+        "name": "Uma Chetry",
+        "aliases": [
+          "Uma Chettry"
+        ],
+        "verified": {
+          "wiki": "Uma Chetry",
+          "date": "2026-11-26",
+          "key": "13g6txu"
+        },
+        "views": 46153,
+        "tier": "four"
+      },
+      {
+        "name": "Richa Ghosh",
+        "verified": {
+          "wiki": "Richa Ghosh",
+          "date": "2026-11-26",
+          "key": "zp3j5w"
+        },
+        "views": 244581,
+        "tier": "single"
+      },
+      {
+        "name": "Harmanpreet Kaur",
+        "aliases": [
+          "Harmanpreet"
+        ],
+        "verified": {
+          "wiki": "Harmanpreet Kaur",
+          "date": "2026-11-26",
+          "key": "rjoj0l"
+        },
+        "views": 947100,
+        "tier": "single"
+      },
+      {
+        "name": "Amanjot Kaur",
+        "aliases": [
+          "Amanjot"
+        ],
+        "verified": {
+          "wiki": "Amanjot Kaur",
+          "date": "2026-11-26",
+          "key": "sseoc1"
+        },
+        "views": 93545,
+        "tier": "two"
+      },
+      {
+        "name": "Deepti Sharma",
+        "verified": {
+          "wiki": "Deepti Sharma",
+          "date": "2026-11-26",
+          "key": "h9xk8r"
+        },
+        "views": 381907,
+        "tier": "single"
+      },
+      {
+        "name": "Shree Charani",
+        "aliases": [
+          "N Shree Charani",
+          "Sree Charani"
+        ],
+        "verified": {
+          "wiki": "Shree Charani",
+          "date": "2026-11-26",
+          "key": "1hc4qi7"
+        },
+        "views": 171429,
+        "tier": "two"
+      },
+      {
+        "name": "Sneh Rana",
+        "wiki": "Sneh Rana (cricketer)",
+        "verified": {
+          "wiki": "Sneh Rana (cricketer)",
+          "date": "2026-11-26",
+          "key": "fvvt4u"
+        },
+        "views": 77773,
+        "tier": "two"
+      },
+      {
+        "name": "Radha Yadav",
+        "verified": {
+          "wiki": "Radha Yadav",
+          "date": "2026-11-26",
+          "key": "zoewf"
+        },
+        "views": 130929,
+        "tier": "two"
+      },
+      {
+        "name": "Kranti Gaud",
+        "verified": {
+          "wiki": "Kranti Gaud",
+          "date": "2026-11-26",
+          "key": "1dxs0c4"
+        },
+        "views": 72943,
+        "tier": "two"
+      },
+      {
+        "name": "Arundhati Reddy",
+        "verified": {
+          "wiki": "Arundhati Reddy",
+          "date": "2026-11-26",
+          "key": "2uvphy"
+        },
+        "views": 86872,
+        "tier": "two"
+      },
+      {
+        "name": "Renuka Singh Thakur",
+        "aliases": [
+          "Renuka Singh",
+          "Renuka Thakur"
+        ],
+        "verified": {
+          "wiki": "2025 Women's Cricket World Cup squads",
+          "date": "2026-11-26",
+          "key": "6wlk1w"
+        },
+        "views": 63225,
+        "tier": "four"
+      },
+      {
+        "name": "Laura Wolvaardt",
+        "verified": {
+          "wiki": "Laura Wolvaardt",
+          "date": "2026-11-26",
+          "key": "17hdwp1"
+        },
+        "views": 274712,
+        "tier": "single"
+      },
+      {
+        "name": "Tazmin Brits",
+        "verified": {
+          "wiki": "Tazmin Brits",
+          "date": "2026-11-26",
+          "key": "ovmtbd"
+        },
+        "views": 31317,
+        "tier": "four"
+      },
+      {
+        "name": "Sinalo Jafta",
+        "verified": {
+          "wiki": "Sinalo Jafta",
+          "date": "2026-11-26",
+          "key": "1yg17i8"
+        },
+        "views": 9735,
+        "tier": "six"
+      },
+      {
+        "name": "Karabo Meso",
+        "verified": {
+          "wiki": "Karabo Meso",
+          "date": "2026-11-26",
+          "key": "1hbncsg"
+        },
+        "views": 2403,
+        "tier": "six"
+      },
+      {
+        "name": "Anneke Bosch",
+        "verified": {
+          "wiki": "Anneke Bosch",
+          "date": "2026-11-26",
+          "key": "17n0mob"
+        },
+        "views": 18604,
+        "tier": "four"
+      },
+      {
+        "name": "Nadine de Klerk",
+        "verified": {
+          "wiki": "Nadine de Klerk",
+          "date": "2026-11-26",
+          "key": "cf3sll"
+        },
+        "views": 66931,
+        "tier": "four"
+      },
+      {
+        "name": "Annerie Dercksen",
+        "verified": {
+          "wiki": "Annerie Dercksen",
+          "date": "2026-11-26",
+          "key": "11na1a9"
+        },
+        "views": 32890,
+        "tier": "four"
+      },
+      {
+        "name": "Marizanne Kapp",
+        "verified": {
+          "wiki": "Marizanne Kapp",
+          "date": "2026-11-26",
+          "key": "kdep75"
+        },
+        "views": 141582,
+        "tier": "two"
+      },
+      {
+        "name": "Suné Luus",
+        "verified": {
+          "wiki": "Suné Luus",
+          "date": "2026-11-26",
+          "key": "eo1z9e"
+        },
+        "views": 30495,
+        "tier": "four"
+      },
+      {
+        "name": "Chloe Tryon",
+        "verified": {
+          "wiki": "Chloe Tryon",
+          "date": "2026-11-26",
+          "key": "1shrhv7"
+        },
+        "views": 44167,
+        "tier": "four"
+      },
+      {
+        "name": "Nonkululeko Mlaba",
+        "verified": {
+          "wiki": "Nonkululeko Mlaba",
+          "date": "2026-11-26",
+          "key": "p30hm2"
+        },
+        "views": 14300,
+        "tier": "six"
+      },
+      {
+        "name": "Nondumiso Shangase",
+        "verified": {
+          "wiki": "Nondumiso Shangase",
+          "date": "2026-11-26",
+          "key": "1uz4s4u"
+        },
+        "views": 1561,
+        "tier": "ootg"
+      },
+      {
+        "name": "Ayabonga Khaka",
+        "verified": {
+          "wiki": "Ayabonga Khaka",
+          "date": "2026-11-26",
+          "key": "1iz4z0"
+        },
+        "views": 15956,
+        "tier": "six"
+      },
+      {
+        "name": "Masabata Klaas",
+        "aliases": [
+          "Mosie Klaas"
+        ],
+        "verified": {
+          "wiki": "Masabata Klaas",
+          "date": "2026-11-26",
+          "key": "kcncp3"
+        },
+        "views": 2180,
+        "tier": "six"
+      },
+      {
+        "name": "Tumi Sekhukhune",
+        "aliases": [
+          "Tumelo Sekhukhune"
+        ],
+        "verified": {
+          "wiki": "Tumi Sekhukhune",
+          "date": "2026-11-26",
+          "key": "da3w3n"
+        },
+        "views": 3489,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "ipl-bbl-hat-tricks-before-2026",
+    "prompt": "Name a bowler who took a hat-trick in the IPL or the Big Bash League before 2026",
+    "category": "IPL and Big Bash hat-tricks",
+    "answerType": "player",
+    "tags": [
+      "men",
+      "t20",
+      "franchise",
+      "india",
+      "australia"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Indian_Premier_League_records_and_statistics",
+      "https://en.wikipedia.org/wiki/List_of_Big_Bash_League_records_and_statistics"
+    ],
+    "metrics": [
+      {
+        "label": "Hat-tricks in the two leagues",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
+    "delivery": "Good length",
+    "answers": [
+      {
+        "name": "Lakshmipathy Balaji",
+        "aliases": [
+          "L Balaji"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Lakshmipathy Balaji",
+          "date": "2026-11-26",
+          "key": "1ihr8zu"
+        },
+        "views": 71293,
+        "tier": "four"
+      },
+      {
+        "name": "Amit Mishra",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Amit Mishra",
+          "date": "2026-11-26",
+          "key": "1qtwlas"
+        },
+        "views": 47553,
+        "tier": "single"
+      },
+      {
+        "name": "Makhaya Ntini",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Makhaya Ntini",
+          "date": "2026-11-26",
+          "key": "1fkvunf"
+        },
+        "views": 46043,
+        "tier": "four"
+      },
+      {
+        "name": "Yuvraj Singh",
+        "aliases": [
+          "Yuvi"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Yuvraj Singh",
+          "date": "2026-11-26",
+          "key": "1niexg6"
+        },
+        "views": 481124,
+        "tier": "single"
+      },
+      {
+        "name": "Rohit Sharma",
+        "aliases": [
+          "Hitman"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Rohit Sharma",
+          "date": "2026-11-26",
+          "key": "2xqqyo"
+        },
+        "views": 1247259,
+        "tier": "single"
+      },
+      {
+        "name": "Praveen Kumar",
+        "wiki": "Praveen Kumar (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Praveen Kumar (cricketer)",
+          "date": "2026-11-26",
+          "key": "55l0rv"
+        },
+        "views": 57506,
+        "tier": "four"
+      },
+      {
+        "name": "Ajit Chandila",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Ajit Chandila",
+          "date": "2026-11-26",
+          "key": "1y9lkz"
+        },
+        "views": 17943,
+        "tier": "six"
+      },
+      {
+        "name": "Sunil Narine",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sunil Narine",
+          "date": "2026-11-26",
+          "key": "caky9l"
+        },
+        "views": 210299,
+        "tier": "two"
+      },
+      {
+        "name": "Pravin Tambe",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Pravin Tambe",
+          "date": "2026-11-26",
+          "key": "asbz6o"
+        },
+        "views": 93691,
+        "tier": "two"
+      },
+      {
+        "name": "Shane Watson",
+        "aliases": [
+          "Watto"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Shane Watson",
+          "date": "2026-11-26",
+          "key": "nfj6q1"
+        },
+        "views": 133007,
+        "tier": "two"
+      },
+      {
+        "name": "Axar Patel",
+        "aliases": [
+          "Akshar Patel"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Axar Patel",
+          "date": "2026-11-26",
+          "key": "riellj"
+        },
+        "views": 294562,
+        "tier": "single"
+      },
+      {
+        "name": "Samuel Badree",
+        "aliases": [
+          "Sam Badree"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Samuel Badree",
+          "date": "2026-11-26",
+          "key": "1p2zeal"
+        },
+        "views": 15333,
+        "tier": "six"
+      },
+      {
+        "name": "Andrew Tye",
+        "aliases": [
+          "AJ Tye"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Andrew Tye",
+          "date": "2026-11-26",
+          "key": "1to315f"
+        },
+        "views": 31881,
+        "tier": "two"
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Jaydev Unadkat",
+          "date": "2026-11-26",
+          "key": "1w0k4s"
+        },
+        "views": 48689,
+        "tier": "four"
+      },
+      {
+        "name": "Sam Curran",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sam Curran",
+          "date": "2026-11-26",
+          "key": "xtj9iv"
+        },
+        "views": 241150,
+        "tier": "two"
+      },
+      {
+        "name": "Shreyas Gopal",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Shreyas Gopal",
+          "date": "2026-11-26",
+          "key": "3x2ahz"
+        },
+        "views": 22355,
+        "tier": "six"
+      },
+      {
+        "name": "Harshal Patel",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Harshal Patel",
+          "date": "2026-11-26",
+          "key": "16i3mdk"
+        },
+        "views": 42133,
+        "tier": "four"
+      },
+      {
+        "name": "Yuzvendra Chahal",
+        "aliases": [
+          "Yuzi Chahal",
+          "Yuzi"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Yuzvendra Chahal",
+          "date": "2026-11-26",
+          "key": "bp779x"
+        },
+        "views": 276197,
+        "tier": "single"
+      },
+      {
+        "name": "Rashid Khan",
+        "wiki": "Rashid Khan (cricketer)",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Rashid Khan",
+          "date": "2026-11-26",
+          "key": "199ji0v"
+        },
+        "views": 329160,
+        "tier": "single"
+      },
+      {
+        "name": "Xavier Doherty",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Xavier Doherty",
+          "date": "2026-11-26",
+          "key": "lj1zcz"
+        },
+        "views": 12576,
+        "tier": "six"
+      },
+      {
+        "name": "Josh Lalor",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Josh Lalor",
+          "date": "2026-11-26",
+          "key": "1g7wqhl"
+        },
+        "views": 1803,
+        "tier": "ootg"
+      },
+      {
+        "name": "Haris Rauf",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Haris Rauf",
+          "date": "2026-11-26",
+          "key": "1ylpaxa"
+        },
+        "views": 76498,
+        "tier": "two"
+      },
+      {
+        "name": "Gurinder Sandhu",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Gurinder Sandhu",
+          "date": "2026-11-26",
+          "key": "1cjepvo"
+        },
+        "views": 25518,
+        "tier": "four"
+      },
+      {
+        "name": "Cameron Boyce",
+        "wiki": "Cameron Boyce (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Cameron Boyce (cricketer)",
+          "date": "2026-11-26",
+          "key": "p1vd6v"
+        },
+        "views": 8838,
+        "tier": "six"
+      },
+      {
+        "name": "Michael Neser",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Michael Neser",
+          "date": "2026-11-26",
+          "key": "14f2zcl"
+        },
+        "views": 219100,
+        "tier": "two"
+      },
+      {
+        "name": "Nathan Ellis",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Nathan Ellis",
+          "date": "2026-11-26",
+          "key": "1kh5le4"
+        },
+        "views": 69360,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "laws-of-cricket-2017-code",
+    "prompt": "Name one of the 42 Laws of Cricket by its title (2017 code)",
+    "category": "The Laws",
+    "answerType": "other",
+    "tags": [
+      "general"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Laws_of_Cricket"
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "The players",
+        "aliases": [
+          "Number of players"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1stbjtb"
+        },
+        "mentions": 14,
+        "tier": "two"
+      },
+      {
+        "name": "The umpires",
+        "aliases": [
+          "Umpire"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "lq5s1q"
+        },
+        "mentions": 41,
+        "tier": "two"
+      },
+      {
+        "name": "The scorers",
+        "aliases": [
+          "Scorer"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "14tus7i"
+        },
+        "mentions": 10,
+        "tier": "four"
+      },
+      {
+        "name": "The ball",
+        "aliases": [
+          "Cricket ball"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1gm6u10"
+        },
+        "mentions": 98,
+        "tier": "single"
+      },
+      {
+        "name": "The bat",
+        "aliases": [
+          "Cricket bat"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "qv4n0u"
+        },
+        "mentions": 113,
+        "tier": "single"
+      },
+      {
+        "name": "The pitch",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "mckpg3"
+        },
+        "mentions": 50,
+        "tier": "single"
+      },
+      {
+        "name": "The creases",
+        "aliases": [
+          "Crease",
+          "Popping crease"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "adgcy0"
+        },
+        "mentions": 65,
+        "tier": "single"
+      },
+      {
+        "name": "The wickets",
+        "aliases": [
+          "Stumps",
+          "Bails",
+          "Stumps and bails"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "7x9xtg"
+        },
+        "mentions": 38,
+        "tier": "two"
+      },
+      {
+        "name": "Preparation and maintenance of the playing area",
+        "aliases": [
+          "Playing area",
+          "Preparation of the playing area",
+          "Maintenance of the playing area",
+          "Pitch preparation",
+          "Preparation of the pitch",
+          "Mowing",
+          "Rolling"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "oxfp19"
+        },
+        "mentions": 7,
+        "tier": "six"
+      },
+      {
+        "name": "Covering the pitch",
+        "aliases": [
+          "Covering",
+          "Covers"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1fi2mwr"
+        },
+        "mentions": 10,
+        "tier": "four"
+      },
+      {
+        "name": "Intervals",
+        "aliases": [
+          "Interval",
+          "Lunch",
+          "Tea",
+          "Drinks",
+          "Lunch and tea"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1y7rkzr"
+        },
+        "mentions": 46,
+        "tier": "single"
+      },
+      {
+        "name": "Start of play; cessation of play",
+        "aliases": [
+          "Start of play",
+          "Cessation of play",
+          "Close of play"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1wkmld0"
+        },
+        "mentions": 6,
+        "tier": "six"
+      },
+      {
+        "name": "Innings",
+        "aliases": [
+          "The toss"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1cevnw"
+        },
+        "mentions": 26,
+        "tier": "two"
+      },
+      {
+        "name": "The follow-on",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1h5jleu"
+        },
+        "mentions": 7,
+        "tier": "four"
+      },
+      {
+        "name": "Declaration and forfeiture",
+        "aliases": [
+          "Declaration",
+          "Declarations",
+          "Forfeiture",
+          "Forfeit"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "i32wv3"
+        },
+        "mentions": 13,
+        "tier": "two"
+      },
+      {
+        "name": "The result",
+        "aliases": [
+          "Results"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1wqb04w"
+        },
+        "mentions": 6,
+        "tier": "six"
+      },
+      {
+        "name": "The over",
+        "aliases": [
+          "Overs"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1p3o8dg"
+        },
+        "mentions": 63,
+        "tier": "single"
+      },
+      {
+        "name": "Scoring runs",
+        "aliases": [
+          "Scoring",
+          "Runs",
+          "Short runs"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1jh87sm"
+        },
+        "mentions": 35,
+        "tier": "two"
+      },
+      {
+        "name": "Boundaries",
+        "aliases": [
+          "Boundary",
+          "Fours and sixes"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1bss1v8"
+        },
+        "mentions": 8,
+        "tier": "four"
+      },
+      {
+        "name": "Dead ball",
+        "aliases": [
+          "Dead"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "pfsljz"
+        },
+        "mentions": 13,
+        "tier": "four"
+      },
+      {
+        "name": "No ball",
+        "aliases": [
+          "No balls"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "r6jz57"
+        },
+        "mentions": 12,
+        "tier": "four"
+      },
+      {
+        "name": "Wide ball",
+        "aliases": [
+          "Wide",
+          "Wides"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1hldbdd"
+        },
+        "mentions": 19,
+        "tier": "two"
+      },
+      {
+        "name": "Bye and leg bye",
+        "aliases": [
+          "Bye",
+          "Byes",
+          "Leg bye",
+          "Leg byes",
+          "Byes and leg byes"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "hk5152"
+        },
+        "mentions": 27,
+        "tier": "two"
+      },
+      {
+        "name": "Fielders' absence; substitutes",
+        "aliases": [
+          "Substitutes",
+          "Substitute",
+          "Subs",
+          "Fielders' absence"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1yqv5f0"
+        },
+        "mentions": 26,
+        "tier": "two"
+      },
+      {
+        "name": "Batter's innings; runners",
+        "aliases": [
+          "Runners",
+          "Runner",
+          "Batter's innings",
+          "Batsman's innings",
+          "Retiring",
+          "Retired hurt"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1k6ocih"
+        },
+        "mentions": 11,
+        "tier": "four"
+      },
+      {
+        "name": "Practice on the field",
+        "aliases": [
+          "Practice"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1vq3qmc"
+        },
+        "mentions": 12,
+        "tier": "four"
+      },
+      {
+        "name": "The wicket-keeper",
+        "aliases": [
+          "Keeper"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "qlvujn"
+        },
+        "mentions": 13,
+        "tier": "two"
+      },
+      {
+        "name": "The fielder",
+        "aliases": [
+          "Fielding"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "94c9w8"
+        },
+        "mentions": 14,
+        "tier": "two"
+      },
+      {
+        "name": "The wicket is down",
+        "aliases": [
+          "Wicket down",
+          "Putting down the wicket"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "5z88h2"
+        },
+        "mentions": 4,
+        "tier": "six"
+      },
+      {
+        "name": "Batter out of his/her ground",
+        "aliases": [
+          "Out of ground",
+          "Out of his ground",
+          "Batter out of his ground",
+          "Batter out of her ground",
+          "Batsman out of his ground",
+          "Out of their ground"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1tvtcl3"
+        },
+        "mentions": 3,
+        "tier": "six"
+      },
+      {
+        "name": "Appeals",
+        "aliases": [
+          "Appeal",
+          "How's that",
+          "Howzat"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1yerrnr"
+        },
+        "mentions": 12,
+        "tier": "four"
+      },
+      {
+        "name": "Bowled",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1k7i6vb"
+        },
+        "mentions": 9,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "One of the five everyday ways of getting out; the Laws article describes it briefly so mentions undercount how well known it is"
+        }
+      },
+      {
+        "name": "Caught",
+        "aliases": [
+          "Catch",
+          "Caught out"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "gsfgyj"
+        },
+        "mentions": 10,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "One of the five everyday ways of getting out; the Laws article describes it briefly so mentions undercount how well known it is"
+        }
+      },
+      {
+        "name": "Hit the ball twice",
+        "aliases": [
+          "Hitting the ball twice"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1tpdgdo"
+        },
+        "mentions": 4,
+        "tier": "six"
+      },
+      {
+        "name": "Hit wicket",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1unqego"
+        },
+        "mentions": 3,
+        "tier": "six"
+      },
+      {
+        "name": "Leg before wicket",
+        "aliases": [
+          "LBW",
+          "Leg before"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "1ymials"
+        },
+        "mentions": 13,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "One of the five everyday ways of getting out; the Laws article describes it briefly so mentions undercount how well known it is"
+        }
+      },
+      {
+        "name": "Obstructing the field",
+        "aliases": [
+          "Obstruction",
+          "Obstructing"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "y9cgt3"
+        },
+        "mentions": 10,
+        "tier": "four"
+      },
+      {
+        "name": "Run out",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "7s7kkv"
+        },
+        "mentions": 8,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "One of the five everyday ways of getting out; the Laws article describes it briefly so mentions undercount how well known it is"
+        }
+      },
+      {
+        "name": "Stumped",
+        "aliases": [
+          "Stumping"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "cvaysd"
+        },
+        "mentions": 5,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "One of the five everyday ways of getting out; the Laws article describes it briefly so mentions undercount how well known it is"
+        }
+      },
+      {
+        "name": "Timed out",
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "15mitsd"
+        },
+        "mentions": 2,
+        "tier": "ootg"
+      },
+      {
+        "name": "Unfair play",
+        "aliases": [
+          "Fair and unfair play",
+          "Ball tampering"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "117ws1z"
+        },
+        "mentions": 4,
+        "tier": "six"
+      },
+      {
+        "name": "Players' conduct",
+        "aliases": [
+          "Conduct",
+          "Player conduct",
+          "Misconduct"
+        ],
+        "wiki": "Laws of Cricket",
+        "verified": {
+          "wiki": "Laws of Cricket",
+          "date": "2026-11-26",
+          "key": "57me5n"
+        },
+        "mentions": 8,
+        "tier": "four"
+      }
+    ],
+    "popularity": "mentions"
+  }
+]

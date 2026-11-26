@@ -1,0 +1,479 @@
+[
+  {
+    "id": "county-headquarters-ground-ends-2026",
+    "prompt": "Name a bowling end, as named in 2026, at the main home ground of one of the 18 first-class counties",
+    "category": "Ground ends",
+    "answerType": "other",
+    "tags": [
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lord's",
+      "https://en.wikipedia.org/wiki/The_Oval",
+      "https://en.wikipedia.org/wiki/Old_Trafford_Cricket_Ground",
+      "https://en.wikipedia.org/wiki/Headingley_Cricket_Ground",
+      "https://en.wikipedia.org/wiki/Trent_Bridge",
+      "https://en.wikipedia.org/wiki/Edgbaston_Cricket_Ground",
+      "https://en.wikipedia.org/wiki/Rose_Bowl_(cricket_ground)",
+      "https://en.wikipedia.org/wiki/Sophia_Gardens_(cricket_ground)",
+      "https://en.wikipedia.org/wiki/Riverside_Ground",
+      "https://en.wikipedia.org/wiki/County_Ground,_Bristol",
+      "https://en.wikipedia.org/wiki/County_Ground,_Taunton",
+      "https://en.wikipedia.org/wiki/County_Ground,_Hove",
+      "https://en.wikipedia.org/wiki/St_Lawrence_Ground",
+      "https://en.wikipedia.org/wiki/County_Ground,_Chelmsford",
+      "https://en.wikipedia.org/wiki/Grace_Road",
+      "https://en.wikipedia.org/wiki/County_Ground,_Northampton",
+      "https://en.wikipedia.org/wiki/County_Ground,_Derby",
+      "https://en.wikipedia.org/wiki/New_Road,_Worcester"
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Off-break",
+    "answers": [
+      {
+        "name": "Pavilion End",
+        "aliases": [
+          "Bristol Pavilion End",
+          "Pavilion",
+          "Bristol Pavilion"
+        ],
+        "wiki": "Lord's",
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-26",
+          "key": "1d4arzw"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "Nursery End",
+        "wiki": "Lord's",
+        "aliases": [
+          "Nursery"
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-26",
+          "key": "12xzg3l"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "Vauxhall End",
+        "wiki": "The Oval",
+        "aliases": [
+          "Vauxhall"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-26",
+          "key": "qd9085"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "James Anderson End",
+        "aliases": [
+          "Anderson End",
+          "Jimmy Anderson End",
+          "James Anderson",
+          "Anderson",
+          "Jimmy Anderson"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-26",
+          "key": "1saf72j"
+        },
+        "views": 64941,
+        "tier": "single"
+      },
+      {
+        "name": "Brian Statham End",
+        "aliases": [
+          "Statham End",
+          "Warwick Road End",
+          "Brian Statham",
+          "Statham",
+          "Warwick Road"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-26",
+          "key": "p5c8if"
+        },
+        "views": 64941,
+        "tier": "single"
+      },
+      {
+        "name": "Kirkstall Lane End",
+        "aliases": [
+          "Kirkstall Lane"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-26",
+          "key": "881aao"
+        },
+        "views": 34129,
+        "tier": "two"
+      },
+      {
+        "name": "Football Stand End",
+        "wiki": "Headingley Cricket Ground",
+        "aliases": [
+          "Football Stand"
+        ],
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-26",
+          "key": "cr2qf4"
+        },
+        "views": 34129,
+        "tier": "two"
+      },
+      {
+        "name": "Radcliffe Road End",
+        "aliases": [
+          "Radcliffe Road"
+        ],
+        "wiki": "Trent Bridge",
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-26",
+          "key": "1c36vh0"
+        },
+        "views": 44633,
+        "tier": "single"
+      },
+      {
+        "name": "Stuart Broad End",
+        "aliases": [
+          "Broad End",
+          "Stuart Broad",
+          "Broad"
+        ],
+        "wiki": "Trent Bridge",
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-26",
+          "key": "7nwt9b"
+        },
+        "views": 44633,
+        "tier": "single"
+      },
+      {
+        "name": "Birmingham End",
+        "aliases": [
+          "City End",
+          "Birmingham",
+          "City"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-26",
+          "key": "jw9t7k"
+        },
+        "views": 42934,
+        "tier": "two"
+      },
+      {
+        "name": "Northern End",
+        "wiki": "Rose Bowl (cricket ground)",
+        "aliases": [
+          "Northern"
+        ],
+        "verified": {
+          "wiki": "Rose Bowl (cricket ground)",
+          "date": "2026-11-26",
+          "key": "1ac5pvu"
+        },
+        "views": 49760,
+        "tier": "single"
+      },
+      {
+        "name": "Lumley End",
+        "wiki": "Riverside Ground",
+        "aliases": [
+          "Lumley"
+        ],
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-26",
+          "key": "11oyk28"
+        },
+        "views": 33673,
+        "tier": "two"
+      },
+      {
+        "name": "Finchale End",
+        "wiki": "Riverside Ground",
+        "aliases": [
+          "Finchale"
+        ],
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-26",
+          "key": "71mok4"
+        },
+        "views": 33673,
+        "tier": "two"
+      },
+      {
+        "name": "Ashley Down Road End",
+        "aliases": [
+          "Ashley Down End",
+          "Ashley Down Road",
+          "Ashley Down"
+        ],
+        "wiki": "County Ground, Bristol",
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-26",
+          "key": "npvvh3"
+        },
+        "views": 22391,
+        "tier": "two"
+      },
+      {
+        "name": "River End",
+        "wiki": "County Ground, Taunton",
+        "aliases": [
+          "River"
+        ],
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-26",
+          "key": "1ictbp6"
+        },
+        "views": 14861,
+        "tier": "four"
+      },
+      {
+        "name": "Marcus Trescothick Pavilion End",
+        "aliases": [
+          "Trescothick End",
+          "Marcus Trescothick End",
+          "Trescothick Pavilion End",
+          "Marcus Trescothick Pavilion",
+          "Trescothick",
+          "Marcus Trescothick",
+          "Trescothick Pavilion"
+        ],
+        "wiki": "County Ground, Taunton",
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-26",
+          "key": "1h9idtt"
+        },
+        "views": 14861,
+        "tier": "four"
+      },
+      {
+        "name": "Cromwell Road End",
+        "wiki": "County Ground, Hove",
+        "aliases": [
+          "Cromwell Road"
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-26",
+          "key": "1i29vpx"
+        },
+        "views": 11561,
+        "tier": "four"
+      },
+      {
+        "name": "Sea End",
+        "wiki": "County Ground, Hove",
+        "aliases": [
+          "Sea"
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-26",
+          "key": "14o80pp"
+        },
+        "views": 11561,
+        "tier": "four"
+      },
+      {
+        "name": "Nackington Road End",
+        "wiki": "St Lawrence Ground",
+        "aliases": [
+          "Nackington Road"
+        ],
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-26",
+          "key": "nzx0lf"
+        },
+        "views": 14888,
+        "tier": "four"
+      },
+      {
+        "name": "Sir Alastair Cook End",
+        "aliases": [
+          "Alastair Cook End",
+          "Cook End",
+          "Alastair Cook",
+          "Cook"
+        ],
+        "wiki": "County Ground, Chelmsford",
+        "verified": {
+          "wiki": "County Cricket Ground, Chelmsford",
+          "date": "2026-11-26",
+          "key": "nmi8qx"
+        },
+        "views": 10577,
+        "tier": "six"
+      },
+      {
+        "name": "Graham Gooch End",
+        "aliases": [
+          "Gooch End",
+          "Hayes Close End",
+          "Graham Gooch",
+          "Gooch",
+          "Hayes Close"
+        ],
+        "wiki": "County Ground, Chelmsford",
+        "verified": {
+          "wiki": "County Cricket Ground, Chelmsford",
+          "date": "2026-11-26",
+          "key": "17yaws8"
+        },
+        "views": 10577,
+        "tier": "six"
+      },
+      {
+        "name": "Bennett End",
+        "wiki": "Grace Road",
+        "aliases": [
+          "Bennett"
+        ],
+        "verified": {
+          "wiki": "Grace Road",
+          "date": "2026-11-26",
+          "key": "1ytvkae"
+        },
+        "views": 10562,
+        "tier": "six"
+      },
+      {
+        "name": "Lynn Wilson End",
+        "wiki": "County Ground, Northampton",
+        "aliases": [
+          "Lynn Wilson"
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-26",
+          "key": "1imogl1"
+        },
+        "views": 11314,
+        "tier": "four"
+      },
+      {
+        "name": "David Capel End",
+        "aliases": [
+          "Capel End",
+          "David Capel",
+          "Capel"
+        ],
+        "wiki": "County Ground, Northampton",
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-26",
+          "key": "1yp1a2c"
+        },
+        "views": 11314,
+        "tier": "six"
+      },
+      {
+        "name": "Racecourse End",
+        "wiki": "County Ground, Derby",
+        "aliases": [
+          "Racecourse"
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Derby",
+          "date": "2026-11-26",
+          "key": "1dpszlh"
+        },
+        "views": 11540,
+        "tier": "four"
+      },
+      {
+        "name": "New Road End",
+        "wiki": "New Road, Worcester",
+        "aliases": [
+          "New Road"
+        ],
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-26",
+          "key": "11bbn5y"
+        },
+        "views": 9319,
+        "tier": "six"
+      },
+      {
+        "name": "Diglis End",
+        "wiki": "New Road, Worcester",
+        "aliases": [
+          "Diglis"
+        ],
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-26",
+          "key": "gble12"
+        },
+        "views": 9319,
+        "tier": "ootg"
+      },
+      {
+        "name": "River Taff End",
+        "aliases": [
+          "Taff End",
+          "River Taff",
+          "Taff"
+        ],
+        "wiki": "Sophia Gardens (cricket ground)",
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-26",
+          "key": "1lhsofs"
+        },
+        "views": 30221,
+        "tier": "two"
+      },
+      {
+        "name": "Cathedral Road End",
+        "wiki": "Sophia Gardens (cricket ground)",
+        "aliases": [
+          "Cathedral Road"
+        ],
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-26",
+          "key": "136en21"
+        },
+        "views": 30221,
+        "tier": "two"
+      }
+    ]
+  }
+]

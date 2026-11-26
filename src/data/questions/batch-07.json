@@ -1,0 +1,3373 @@
+[
+  {
+    "id": "africa-cricket-association-members-2026",
+    "prompt": "Name a member of the Africa Cricket Association in 2026",
+    "category": "African cricket nations",
+    "answerType": "country",
+    "tags": [
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Africa_Cricket_Association"
+    ],
+    "metrics": [
+      {
+        "label": "Year joined the ACA",
+        "rarerWhen": "higher"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Inswinger",
+    "answers": [
+      {
+        "name": "South Africa",
+        "aliases": [
+          "Proteas",
+          "SA"
+        ],
+        "wiki": "South Africa national cricket team",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "South Africa national cricket team",
+          "date": "2026-11-26",
+          "key": "1i881es"
+        },
+        "views": 323686,
+        "tier": "single"
+      },
+      {
+        "name": "Zimbabwe",
+        "aliases": [
+          "Chevrons"
+        ],
+        "wiki": "Zimbabwe national cricket team",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Zimbabwe national cricket team",
+          "date": "2026-11-26",
+          "key": "1qby8pw"
+        },
+        "views": 192592,
+        "tier": "single"
+      },
+      {
+        "name": "Namibia",
+        "aliases": [
+          "Eagles"
+        ],
+        "wiki": "Namibia national cricket team",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Namibia national cricket team",
+          "date": "2026-11-26",
+          "key": "54tysv"
+        },
+        "views": 82011,
+        "tier": "single"
+      },
+      {
+        "name": "Botswana",
+        "wiki": "Botswana national cricket team",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Botswana national cricket team",
+          "date": "2026-11-26",
+          "key": "18blwms"
+        },
+        "views": 5592,
+        "tier": "single"
+      },
+      {
+        "name": "Cameroon",
+        "wiki": "Cameroon national cricket team",
+        "values": [
+          2007
+        ],
+        "verified": {
+          "wiki": "Cameroon national cricket team",
+          "date": "2026-11-26",
+          "key": "7sbdbc"
+        },
+        "views": 2919,
+        "tier": "six"
+      },
+      {
+        "name": "Gambia",
+        "wiki": "Gambia national cricket team",
+        "values": [
+          2002
+        ],
+        "verified": {
+          "wiki": "Gambia national cricket team",
+          "date": "2026-11-26",
+          "key": "6mb7f8"
+        },
+        "views": 5202,
+        "tier": "two"
+      },
+      {
+        "name": "Ghana",
+        "wiki": "Ghana national cricket team",
+        "values": [
+          2002
+        ],
+        "verified": {
+          "wiki": "Ghana national cricket team",
+          "date": "2026-11-26",
+          "key": "3yknay"
+        },
+        "views": 5844,
+        "tier": "two"
+      },
+      {
+        "name": "Ivory Coast",
+        "aliases": [
+          "Côte d'Ivoire"
+        ],
+        "wiki": "Ivory Coast national cricket team",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Ivory Coast national cricket team",
+          "date": "2026-11-26",
+          "key": "fqof8p"
+        },
+        "views": 4956,
+        "tier": "four"
+      },
+      {
+        "name": "Eswatini",
+        "aliases": [
+          "Swaziland"
+        ],
+        "wiki": "Eswatini national cricket team",
+        "values": [
+          2007
+        ],
+        "verified": {
+          "wiki": "Eswatini national cricket team",
+          "date": "2026-11-26",
+          "key": "1iov529"
+        },
+        "views": 3377,
+        "tier": "six"
+      },
+      {
+        "name": "Kenya",
+        "wiki": "Kenya national cricket team",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Kenya national cricket team",
+          "date": "2026-11-26",
+          "key": "1pxg7qw"
+        },
+        "views": 46608,
+        "tier": "single"
+      },
+      {
+        "name": "Lesotho",
+        "wiki": "Lesotho national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Lesotho national cricket team",
+          "date": "2026-11-26",
+          "key": "agot9c"
+        },
+        "views": 4799,
+        "tier": "two"
+      },
+      {
+        "name": "Malawi",
+        "wiki": "Malawi national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Malawi national cricket team",
+          "date": "2026-11-26",
+          "key": "1g1krx8"
+        },
+        "views": 3727,
+        "tier": "four"
+      },
+      {
+        "name": "Mali",
+        "wiki": "Mali national cricket team",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "Mali national cricket team",
+          "date": "2026-11-26",
+          "key": "u1w7u0"
+        },
+        "views": 3327,
+        "tier": "six"
+      },
+      {
+        "name": "Mauritius",
+        "wiki": "Mauritius national cricket team",
+        "values": [
+          2007
+        ],
+        "verified": {
+          "wiki": "Africa Cricket Association",
+          "date": "2026-11-26",
+          "key": "tdkihe"
+        },
+        "views": 17631,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Shares the ACA article for views, which overstates how well known its cricket team is"
+        }
+      },
+      {
+        "name": "Mozambique",
+        "wiki": "Mozambique national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Mozambique national cricket team",
+          "date": "2026-11-26",
+          "key": "u6os58"
+        },
+        "views": 3756,
+        "tier": "four"
+      },
+      {
+        "name": "Nigeria",
+        "wiki": "Nigeria national cricket team",
+        "values": [
+          2002
+        ],
+        "verified": {
+          "wiki": "Nigeria national cricket team",
+          "date": "2026-11-26",
+          "key": "144saby"
+        },
+        "views": 11452,
+        "tier": "two"
+      },
+      {
+        "name": "Rwanda",
+        "wiki": "Rwanda national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Rwanda national cricket team",
+          "date": "2026-11-26",
+          "key": "1fvioqk"
+        },
+        "views": 6222,
+        "tier": "two"
+      },
+      {
+        "name": "Saint Helena",
+        "aliases": [
+          "St Helena"
+        ],
+        "wiki": "Saint Helena cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Africa Cricket Association",
+          "date": "2026-11-26",
+          "key": "1iirkb0"
+        },
+        "views": 17631,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "No article of its own: it shares the ACA page views, so its views overstate how well known it is"
+        }
+      },
+      {
+        "name": "Seychelles",
+        "wiki": "Seychelles national cricket team",
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "Seychelles national cricket team",
+          "date": "2026-11-26",
+          "key": "17wxpok"
+        },
+        "views": 2733,
+        "tier": "ootg"
+      },
+      {
+        "name": "Sierra Leone",
+        "wiki": "Sierra Leone national cricket team",
+        "values": [
+          2002
+        ],
+        "verified": {
+          "wiki": "Sierra Leone national cricket team",
+          "date": "2026-11-26",
+          "key": "1564ai4"
+        },
+        "views": 4852,
+        "tier": "four"
+      },
+      {
+        "name": "Tanzania",
+        "wiki": "Tanzania national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Tanzania national cricket team",
+          "date": "2026-11-26",
+          "key": "16ohv1o"
+        },
+        "views": 8978,
+        "tier": "single"
+      },
+      {
+        "name": "Uganda",
+        "wiki": "Uganda national cricket team",
+        "values": [
+          1998
+        ],
+        "verified": {
+          "wiki": "Uganda national cricket team",
+          "date": "2026-11-26",
+          "key": "1me1wo"
+        },
+        "views": 17648,
+        "tier": "single"
+      },
+      {
+        "name": "Zambia",
+        "wiki": "Zambia national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Zambia national cricket team",
+          "date": "2026-11-26",
+          "key": "1yfiyig"
+        },
+        "views": 6007,
+        "tier": "two"
+      },
+      {
+        "name": "Morocco",
+        "wiki": "Morocco national cricket team",
+        "values": [
+          1999
+        ],
+        "verified": {
+          "wiki": "Morocco national cricket team",
+          "date": "2026-11-26",
+          "key": "1aq1uec"
+        },
+        "views": 3062,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "asian-cricket-council-members-2026",
+    "prompt": "Name a member of the Asian Cricket Council in 2026",
+    "category": "Asian cricket nations",
+    "answerType": "country",
+    "tags": [
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Asian_Cricket_Council"
+    ],
+    "metrics": [
+      {
+        "label": "Year joined the ACC",
+        "rarerWhen": "higher"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "Afghanistan",
+        "wiki": "Afghanistan national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Afghanistan national cricket team",
+          "date": "2026-11-26",
+          "key": "1bl7gyy"
+        },
+        "views": 169500,
+        "tier": "two"
+      },
+      {
+        "name": "Bangladesh",
+        "aliases": [
+          "Tigers"
+        ],
+        "wiki": "Bangladesh national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Bangladesh national cricket team",
+          "date": "2026-11-26",
+          "key": "5vdod6"
+        },
+        "views": 187675,
+        "tier": "single"
+      },
+      {
+        "name": "India",
+        "aliases": [
+          "Men in Blue"
+        ],
+        "wiki": "India national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "India national cricket team",
+          "date": "2026-11-26",
+          "key": "fjv1lb"
+        },
+        "views": 1226611,
+        "tier": "single"
+      },
+      {
+        "name": "Pakistan",
+        "aliases": [
+          "Shaheens"
+        ],
+        "wiki": "Pakistan national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Pakistan national cricket team",
+          "date": "2026-11-26",
+          "key": "jkbai9"
+        },
+        "views": 387393,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "aliases": [
+          "SL"
+        ],
+        "wiki": "Sri Lanka national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Sri Lanka national cricket team",
+          "date": "2026-11-26",
+          "key": "blju7p"
+        },
+        "views": 358735,
+        "tier": "single"
+      },
+      {
+        "name": "Nepal",
+        "wiki": "Nepal national cricket team",
+        "values": [
+          1990
+        ],
+        "verified": {
+          "wiki": "Nepal national cricket team",
+          "date": "2026-11-26",
+          "key": "5gv902"
+        },
+        "views": 102790,
+        "tier": "single"
+      },
+      {
+        "name": "Oman",
+        "wiki": "Oman national cricket team",
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Oman national cricket team",
+          "date": "2026-11-26",
+          "key": "1hljmr6"
+        },
+        "views": 32494,
+        "tier": "two"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "wiki": "United Arab Emirates national cricket team",
+        "values": [
+          1984
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates national cricket team",
+          "date": "2026-11-26",
+          "key": "1bsq6z"
+        },
+        "views": 50809,
+        "tier": "single"
+      },
+      {
+        "name": "Bahrain",
+        "wiki": "Bahrain national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Bahrain national cricket team",
+          "date": "2026-11-26",
+          "key": "ni5dbc"
+        },
+        "views": 7851,
+        "tier": "four"
+      },
+      {
+        "name": "Bhutan",
+        "wiki": "Bhutan national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Bhutan national cricket team",
+          "date": "2026-11-26",
+          "key": "bf3unu"
+        },
+        "views": 9755,
+        "tier": "two"
+      },
+      {
+        "name": "Cambodia",
+        "wiki": "Cambodia national cricket team",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "Cambodia national cricket team",
+          "date": "2026-11-26",
+          "key": "eazbcu"
+        },
+        "views": 4052,
+        "tier": "six"
+      },
+      {
+        "name": "China",
+        "wiki": "China national cricket team",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "China national cricket team",
+          "date": "2026-11-26",
+          "key": "pfv5j8"
+        },
+        "views": 32091,
+        "tier": "two"
+      },
+      {
+        "name": "Hong Kong",
+        "wiki": "Hong Kong national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Hong Kong national cricket team",
+          "date": "2026-11-26",
+          "key": "qq1ozk"
+        },
+        "views": 21135,
+        "tier": "single"
+      },
+      {
+        "name": "Indonesia",
+        "wiki": "Indonesia national cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Indonesia national cricket team",
+          "date": "2026-11-26",
+          "key": "1icq8sm"
+        },
+        "views": 10766,
+        "tier": "four"
+      },
+      {
+        "name": "Iran",
+        "wiki": "Iran national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Iran national cricket team",
+          "date": "2026-11-26",
+          "key": "1llrdje"
+        },
+        "views": 9651,
+        "tier": "four"
+      },
+      {
+        "name": "Japan",
+        "wiki": "Japan national cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Japan national cricket team",
+          "date": "2026-11-26",
+          "key": "1410fz6"
+        },
+        "views": 51871,
+        "tier": "four"
+      },
+      {
+        "name": "Kuwait",
+        "wiki": "Kuwait national cricket team",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "Kuwait national cricket team",
+          "date": "2026-11-26",
+          "key": "4iuvyy"
+        },
+        "views": 9014,
+        "tier": "four"
+      },
+      {
+        "name": "Malaysia",
+        "wiki": "Malaysia national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Malaysia national cricket team",
+          "date": "2026-11-26",
+          "key": "215xju"
+        },
+        "views": 15870,
+        "tier": "single"
+      },
+      {
+        "name": "Maldives",
+        "wiki": "Maldives national cricket team",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Maldives national cricket team",
+          "date": "2026-11-26",
+          "key": "2nnd76"
+        },
+        "views": 4529,
+        "tier": "four"
+      },
+      {
+        "name": "Mongolia",
+        "wiki": "Mongolia national cricket team",
+        "values": [
+          2025
+        ],
+        "verified": {
+          "wiki": "Mongolia national cricket team",
+          "date": "2026-11-26",
+          "key": "1xa0buy"
+        },
+        "views": 5982,
+        "tier": "six"
+      },
+      {
+        "name": "Myanmar",
+        "aliases": [
+          "Burma"
+        ],
+        "wiki": "Myanmar national cricket team",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "Myanmar national cricket team",
+          "date": "2026-11-26",
+          "key": "1lg9vzx"
+        },
+        "views": 5377,
+        "tier": "six"
+      },
+      {
+        "name": "Philippines",
+        "wiki": "Philippines national cricket team",
+        "values": [
+          2025
+        ],
+        "verified": {
+          "wiki": "Philippines national cricket team",
+          "date": "2026-11-26",
+          "key": "nibft4"
+        },
+        "views": 7199,
+        "tier": "six"
+      },
+      {
+        "name": "Qatar",
+        "wiki": "Qatar national cricket team",
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Qatar national cricket team",
+          "date": "2026-11-26",
+          "key": "1t0t8no"
+        },
+        "views": 8996,
+        "tier": "two"
+      },
+      {
+        "name": "Saudi Arabia",
+        "wiki": "Saudi Arabia national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Saudi Arabia national cricket team",
+          "date": "2026-11-26",
+          "key": "hyqcfq"
+        },
+        "views": 14610,
+        "tier": "two"
+      },
+      {
+        "name": "Singapore",
+        "wiki": "Singapore national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Singapore national cricket team",
+          "date": "2026-11-26",
+          "key": "db96"
+        },
+        "views": 14296,
+        "tier": "two"
+      },
+      {
+        "name": "Tajikistan",
+        "wiki": "Tajikistan national cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Tajikistan national cricket team",
+          "date": "2026-11-26",
+          "key": "1382iai"
+        },
+        "views": 1907,
+        "tier": "ootg"
+      },
+      {
+        "name": "Thailand",
+        "wiki": "Thailand national cricket team",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Thailand national cricket team",
+          "date": "2026-11-26",
+          "key": "mjbj3y"
+        },
+        "views": 7187,
+        "tier": "four"
+      },
+      {
+        "name": "Uzbekistan",
+        "wiki": "Uzbekistan national cricket team",
+        "values": [
+          2025
+        ],
+        "verified": {
+          "wiki": "Uzbekistan national cricket team",
+          "date": "2026-11-26",
+          "key": "opplfa"
+        },
+        "views": 6811,
+        "tier": "six"
+      },
+      {
+        "name": "Brunei",
+        "wiki": "Brunei national cricket team",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Brunei national cricket team",
+          "date": "2026-11-26",
+          "key": "160oczq"
+        },
+        "views": 2195,
+        "tier": "four"
+      },
+      {
+        "name": "Chinese Taipei",
+        "aliases": [
+          "Taiwan"
+        ],
+        "wiki": "Chinese Taipei national cricket team",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "Asian Cricket Council",
+          "date": "2026-11-26",
+          "key": "1hwy7z2"
+        },
+        "views": 99976,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "icc-americas-east-asia-pacific-members-2026",
+    "prompt": "Name a member of the ICC's Americas or East Asia-Pacific region in 2026",
+    "category": "Americas and Pacific",
+    "answerType": "country",
+    "tags": [
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ICC_Americas",
+      "https://en.wikipedia.org/wiki/ICC_East_Asia-Pacific"
+    ],
+    "metrics": [
+      {
+        "label": "Year joined the ICC",
+        "rarerWhen": "higher"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Leg cutter",
+    "answers": [
+      {
+        "name": "West Indies",
+        "aliases": [
+          "Windies",
+          "WI"
+        ],
+        "wiki": "West Indies cricket team",
+        "values": [
+          1926
+        ],
+        "verified": {
+          "wiki": "West Indies cricket team",
+          "date": "2026-11-26",
+          "key": "1xxq2sp"
+        },
+        "views": 433303,
+        "tier": "single"
+      },
+      {
+        "name": "Canada",
+        "wiki": "Canada national cricket team",
+        "values": [
+          1968
+        ],
+        "verified": {
+          "wiki": "Canada national cricket team",
+          "date": "2026-11-26",
+          "key": "1yx9yqc"
+        },
+        "views": 54093,
+        "tier": "single"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "United States of America",
+          "America"
+        ],
+        "wiki": "United States national cricket team",
+        "values": [
+          1965
+        ],
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-26",
+          "key": "1aj4jjf"
+        },
+        "views": 186106,
+        "tier": "single"
+      },
+      {
+        "name": "Argentina",
+        "wiki": "Argentina national cricket team",
+        "values": [
+          1974
+        ],
+        "verified": {
+          "wiki": "Argentina national cricket team",
+          "date": "2026-11-26",
+          "key": "14m0jlu"
+        },
+        "views": 27488,
+        "tier": "single"
+      },
+      {
+        "name": "Bahamas",
+        "wiki": "Bahamas national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Bahamas national cricket team",
+          "date": "2026-11-26",
+          "key": "2uzaw2"
+        },
+        "views": 5549,
+        "tier": "four"
+      },
+      {
+        "name": "Belize",
+        "wiki": "Belize national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Belize national cricket team",
+          "date": "2026-11-26",
+          "key": "z032oo"
+        },
+        "views": 3280,
+        "tier": "six"
+      },
+      {
+        "name": "Bermuda",
+        "wiki": "Bermuda national cricket team",
+        "values": [
+          1966
+        ],
+        "verified": {
+          "wiki": "Bermuda national cricket team",
+          "date": "2026-11-26",
+          "key": "18li8bo"
+        },
+        "views": 18850,
+        "tier": "single"
+      },
+      {
+        "name": "Brazil",
+        "wiki": "Brazil national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Brazil national cricket team",
+          "date": "2026-11-26",
+          "key": "ofnsjk"
+        },
+        "views": 15702,
+        "tier": "two"
+      },
+      {
+        "name": "Cayman Islands",
+        "aliases": [
+          "Caymans"
+        ],
+        "wiki": "Cayman Islands national cricket team",
+        "values": [
+          2002
+        ],
+        "verified": {
+          "wiki": "Cayman Islands national cricket team",
+          "date": "2026-11-26",
+          "key": "1262a02"
+        },
+        "views": 7836,
+        "tier": "two"
+      },
+      {
+        "name": "Chile",
+        "wiki": "Chile national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Chile national cricket team",
+          "date": "2026-11-26",
+          "key": "mhjtoe"
+        },
+        "views": 2443,
+        "tier": "ootg"
+      },
+      {
+        "name": "Costa Rica",
+        "wiki": "Costa Rica national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Costa Rica national cricket team",
+          "date": "2026-11-26",
+          "key": "1m6pdak"
+        },
+        "views": 3311,
+        "tier": "six"
+      },
+      {
+        "name": "Falkland Islands",
+        "aliases": [
+          "Falklands"
+        ],
+        "wiki": "Falkland Islands cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Falkland Islands national cricket team",
+          "date": "2026-11-26",
+          "key": "1h6eajc"
+        },
+        "views": 8775,
+        "tier": "four"
+      },
+      {
+        "name": "Mexico",
+        "wiki": "Mexico national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Mexico national cricket team",
+          "date": "2026-11-26",
+          "key": "10mpaas"
+        },
+        "views": 7854,
+        "tier": "four"
+      },
+      {
+        "name": "Panama",
+        "wiki": "Panama national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Panama national cricket team",
+          "date": "2026-11-26",
+          "key": "17ug7zo"
+        },
+        "views": 4048,
+        "tier": "four"
+      },
+      {
+        "name": "Peru",
+        "wiki": "Peru national cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Peru national cricket team",
+          "date": "2026-11-26",
+          "key": "nomck8"
+        },
+        "views": 2676,
+        "tier": "six"
+      },
+      {
+        "name": "Suriname",
+        "wiki": "Suriname national cricket team",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "Suriname national cricket team",
+          "date": "2026-11-26",
+          "key": "1lb1i2g"
+        },
+        "views": 4361,
+        "tier": "four"
+      },
+      {
+        "name": "Turks and Caicos Islands",
+        "aliases": [
+          "Turks and Caicos"
+        ],
+        "wiki": "Turks and Caicos Islands cricket team",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Turks and Caicos Islands national cricket team",
+          "date": "2026-11-26",
+          "key": "1g15fjw"
+        },
+        "views": 2782,
+        "tier": "six"
+      },
+      {
+        "name": "Australia",
+        "aliases": [
+          "Aussies"
+        ],
+        "wiki": "Australia men's national cricket team",
+        "values": [
+          1909
+        ],
+        "verified": {
+          "wiki": "Australia national cricket team",
+          "date": "2026-11-26",
+          "key": "no9fl7"
+        },
+        "views": 406426,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand",
+        "aliases": [
+          "Black Caps",
+          "Kiwis",
+          "NZ"
+        ],
+        "wiki": "New Zealand national cricket team",
+        "values": [
+          1926
+        ],
+        "verified": {
+          "wiki": "New Zealand national cricket team",
+          "date": "2026-11-26",
+          "key": "wm5w5t"
+        },
+        "views": 323278,
+        "tier": "single"
+      },
+      {
+        "name": "Cook Islands",
+        "wiki": "Cook Islands national cricket team",
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Cook Islands national cricket team",
+          "date": "2026-11-26",
+          "key": "58aq2w"
+        },
+        "views": 4351,
+        "tier": "four"
+      },
+      {
+        "name": "Fiji",
+        "wiki": "Fiji national cricket team",
+        "values": [
+          1966
+        ],
+        "verified": {
+          "wiki": "Fiji national cricket team",
+          "date": "2026-11-26",
+          "key": "6awa30"
+        },
+        "views": 5481,
+        "tier": "two"
+      },
+      {
+        "name": "Indonesia",
+        "wiki": "Indonesia national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Indonesia national cricket team",
+          "date": "2026-11-26",
+          "key": "uhbhnc"
+        },
+        "views": 10766,
+        "tier": "two"
+      },
+      {
+        "name": "Japan",
+        "wiki": "Japan national cricket team",
+        "values": [
+          1989
+        ],
+        "verified": {
+          "wiki": "Japan national cricket team",
+          "date": "2026-11-26",
+          "key": "1khuwic"
+        },
+        "views": 51871,
+        "tier": "single"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "wiki": "Papua New Guinea national cricket team",
+        "values": [
+          1973
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea national cricket team",
+          "date": "2026-11-26",
+          "key": "pmcx9f"
+        },
+        "views": 17699,
+        "tier": "two"
+      },
+      {
+        "name": "Philippines",
+        "wiki": "Philippines national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Philippines national cricket team",
+          "date": "2026-11-26",
+          "key": "khv98a"
+        },
+        "views": 7199,
+        "tier": "four"
+      },
+      {
+        "name": "Samoa",
+        "wiki": "Samoa national cricket team",
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Samoa national cricket team",
+          "date": "2026-11-26",
+          "key": "xg5xku"
+        },
+        "views": 12644,
+        "tier": "two"
+      },
+      {
+        "name": "South Korea",
+        "aliases": [
+          "Korea"
+        ],
+        "wiki": "South Korea national cricket team",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "South Korea national cricket team",
+          "date": "2026-11-26",
+          "key": "3uen7g"
+        },
+        "views": 10519,
+        "tier": "two"
+      },
+      {
+        "name": "Timor-Leste",
+        "aliases": [
+          "East Timor"
+        ],
+        "wiki": "Timor-Leste national cricket team",
+        "values": [
+          2025
+        ],
+        "verified": {
+          "wiki": "Timor-Leste national cricket team",
+          "date": "2026-11-26",
+          "key": "q1ic8s"
+        },
+        "views": 4848,
+        "tier": "six"
+      },
+      {
+        "name": "Vanuatu",
+        "wiki": "Vanuatu national cricket team",
+        "values": [
+          1995
+        ],
+        "verified": {
+          "wiki": "Vanuatu national cricket team",
+          "date": "2026-11-26",
+          "key": "tcihqs"
+        },
+        "views": 4976,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "mens-odi-teams-before-2026",
+    "prompt": "Name a team that played a men's One Day International before 2026",
+    "category": "ODI teams",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/One_Day_International"
+    ],
+    "metrics": [
+      {
+        "label": "Year of first ODI",
+        "rarerWhen": "higher"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "Australia",
+        "aliases": [
+          "Aussies"
+        ],
+        "wiki": "Australia men's national cricket team",
+        "values": [
+          1971
+        ],
+        "verified": {
+          "wiki": "Australia national cricket team",
+          "date": "2026-11-26",
+          "key": "ujamw1"
+        },
+        "views": 406426,
+        "tier": "single"
+      },
+      {
+        "name": "England",
+        "wiki": "England cricket team",
+        "values": [
+          1971
+        ],
+        "verified": {
+          "wiki": "England cricket team",
+          "date": "2026-11-26",
+          "key": "r5cs2g"
+        },
+        "views": 393417,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand",
+        "aliases": [
+          "Black Caps",
+          "Kiwis",
+          "NZ"
+        ],
+        "wiki": "New Zealand national cricket team",
+        "values": [
+          1973
+        ],
+        "verified": {
+          "wiki": "New Zealand national cricket team",
+          "date": "2026-11-26",
+          "key": "flrbob"
+        },
+        "views": 323278,
+        "tier": "single"
+      },
+      {
+        "name": "Pakistan",
+        "wiki": "Pakistan national cricket team",
+        "values": [
+          1973
+        ],
+        "verified": {
+          "wiki": "Pakistan national cricket team",
+          "date": "2026-11-26",
+          "key": "d5r9rk"
+        },
+        "views": 387393,
+        "tier": "single"
+      },
+      {
+        "name": "West Indies",
+        "aliases": [
+          "Windies",
+          "WI"
+        ],
+        "wiki": "West Indies cricket team",
+        "values": [
+          1973
+        ],
+        "verified": {
+          "wiki": "West Indies cricket team",
+          "date": "2026-11-26",
+          "key": "1fkjbkj"
+        },
+        "views": 433303,
+        "tier": "single"
+      },
+      {
+        "name": "India",
+        "aliases": [
+          "Men in Blue"
+        ],
+        "wiki": "India national cricket team",
+        "values": [
+          1974
+        ],
+        "verified": {
+          "wiki": "India national cricket team",
+          "date": "2026-11-26",
+          "key": "1u6rd0x"
+        },
+        "views": 1226611,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "aliases": [
+          "SL"
+        ],
+        "wiki": "Sri Lanka national cricket team",
+        "values": [
+          1975
+        ],
+        "verified": {
+          "wiki": "Sri Lanka national cricket team",
+          "date": "2026-11-26",
+          "key": "1uxcx57"
+        },
+        "views": 358735,
+        "tier": "single"
+      },
+      {
+        "name": "East Africa",
+        "wiki": "East Africa cricket team",
+        "values": [
+          1975
+        ],
+        "verified": {
+          "wiki": "East Africa cricket team",
+          "date": "2026-11-26",
+          "key": "q45pn0"
+        },
+        "views": 15922,
+        "tier": "four"
+      },
+      {
+        "name": "Canada",
+        "wiki": "Canada national cricket team",
+        "values": [
+          1979
+        ],
+        "verified": {
+          "wiki": "Canada national cricket team",
+          "date": "2026-11-26",
+          "key": "1dc31aw"
+        },
+        "views": 54093,
+        "tier": "two"
+      },
+      {
+        "name": "Zimbabwe",
+        "aliases": [
+          "Chevrons"
+        ],
+        "wiki": "Zimbabwe national cricket team",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Zimbabwe national cricket team",
+          "date": "2026-11-26",
+          "key": "7k676c"
+        },
+        "views": 192592,
+        "tier": "two"
+      },
+      {
+        "name": "Bangladesh",
+        "aliases": [
+          "Tigers"
+        ],
+        "wiki": "Bangladesh national cricket team",
+        "values": [
+          1986
+        ],
+        "verified": {
+          "wiki": "Bangladesh national cricket team",
+          "date": "2026-11-26",
+          "key": "qosrww"
+        },
+        "views": 187675,
+        "tier": "two"
+      },
+      {
+        "name": "South Africa",
+        "aliases": [
+          "Proteas",
+          "SA"
+        ],
+        "wiki": "South Africa national cricket team",
+        "values": [
+          1991
+        ],
+        "verified": {
+          "wiki": "South Africa national cricket team",
+          "date": "2026-11-26",
+          "key": "db3tck"
+        },
+        "views": 323686,
+        "tier": "single"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "wiki": "United Arab Emirates national cricket team",
+        "values": [
+          1994
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates national cricket team",
+          "date": "2026-11-26",
+          "key": "1pkua7p"
+        },
+        "views": 50809,
+        "tier": "four"
+      },
+      {
+        "name": "Kenya",
+        "wiki": "Kenya national cricket team",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Kenya national cricket team",
+          "date": "2026-11-26",
+          "key": "mnhwzc"
+        },
+        "views": 46608,
+        "tier": "four"
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "wiki": "Netherlands national cricket team",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "Netherlands national cricket team",
+          "date": "2026-11-26",
+          "key": "xsd8i8"
+        },
+        "views": 71942,
+        "tier": "two"
+      },
+      {
+        "name": "Scotland",
+        "wiki": "Scotland national cricket team",
+        "values": [
+          1999
+        ],
+        "verified": {
+          "wiki": "Scotland national cricket team",
+          "date": "2026-11-26",
+          "key": "g58q54"
+        },
+        "views": 57727,
+        "tier": "four"
+      },
+      {
+        "name": "Namibia",
+        "wiki": "Namibia national cricket team",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Namibia national cricket team",
+          "date": "2026-11-26",
+          "key": "178jasi"
+        },
+        "views": 82011,
+        "tier": "four"
+      },
+      {
+        "name": "Hong Kong",
+        "wiki": "Hong Kong national cricket team",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "Hong Kong national cricket team",
+          "date": "2026-11-26",
+          "key": "15wkydm"
+        },
+        "views": 21135,
+        "tier": "six"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "United States of America",
+          "America"
+        ],
+        "wiki": "United States national cricket team",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-26",
+          "key": "e7ctd"
+        },
+        "views": 186106,
+        "tier": "two"
+      },
+      {
+        "name": "Asian Cricket Council XI",
+        "aliases": [
+          "Asia XI",
+          "Asia Eleven"
+        ],
+        "wiki": "Asia XI cricket team",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "One Day International",
+          "date": "2026-11-26",
+          "key": "1ktn7po"
+        },
+        "views": 236027,
+        "tier": "two"
+      },
+      {
+        "name": "ICC World XI",
+        "aliases": [
+          "World XI",
+          "World Eleven",
+          "Rest of the World"
+        ],
+        "wiki": "World XI (cricket)",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "One Day International",
+          "date": "2026-11-26",
+          "key": "1oiiiyl"
+        },
+        "views": 236027,
+        "tier": "two"
+      },
+      {
+        "name": "Africa XI",
+        "aliases": [
+          "African XI",
+          "Africa Eleven"
+        ],
+        "wiki": "Africa XI cricket team",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "One Day International",
+          "date": "2026-11-26",
+          "key": "1icqlp0"
+        },
+        "views": 236027,
+        "tier": "two"
+      },
+      {
+        "name": "Bermuda",
+        "wiki": "Bermuda national cricket team",
+        "values": [
+          2006
+        ],
+        "verified": {
+          "wiki": "Bermuda national cricket team",
+          "date": "2026-11-26",
+          "key": "16iocjs"
+        },
+        "views": 18850,
+        "tier": "six"
+      },
+      {
+        "name": "Ireland",
+        "wiki": "Ireland cricket team",
+        "values": [
+          2006
+        ],
+        "verified": {
+          "wiki": "Ireland cricket team",
+          "date": "2026-11-26",
+          "key": "1kwzikk"
+        },
+        "views": 96730,
+        "tier": "four"
+      },
+      {
+        "name": "Afghanistan",
+        "wiki": "Afghanistan national cricket team",
+        "values": [
+          2009
+        ],
+        "verified": {
+          "wiki": "Afghanistan national cricket team",
+          "date": "2026-11-26",
+          "key": "17z4868"
+        },
+        "views": 169500,
+        "tier": "four"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "wiki": "Papua New Guinea national cricket team",
+        "values": [
+          2014
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea national cricket team",
+          "date": "2026-11-26",
+          "key": "w4rmd5"
+        },
+        "views": 17699,
+        "tier": "ootg"
+      },
+      {
+        "name": "Nepal",
+        "wiki": "Nepal national cricket team",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Nepal national cricket team",
+          "date": "2026-11-26",
+          "key": "awrxhk"
+        },
+        "views": 102790,
+        "tier": "six"
+      },
+      {
+        "name": "Oman",
+        "wiki": "Oman national cricket team",
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "Oman national cricket team",
+          "date": "2026-11-26",
+          "key": "16q32zs"
+        },
+        "views": 32494,
+        "tier": "six"
+      },
+      {
+        "name": "Jersey",
+        "wiki": "Jersey cricket team",
+        "values": [
+          2023
+        ],
+        "verified": {
+          "wiki": "Jersey cricket team",
+          "date": "2026-11-26",
+          "key": "1swf4iq"
+        },
+        "views": 32881,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "mens-test-host-countries-before-2026",
+    "prompt": "Name a country where a men's Test match was played before 2026 (each West Indian nation, Wales and Northern Ireland count separately)",
+    "category": "Test-hosting nations",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Tests hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "England",
+        "values": [
+          569
+        ],
+        "verified": {
+          "wiki": "England",
+          "date": "2026-11-26",
+          "key": "1iqq8f8"
+        },
+        "views": 2879656,
+        "tier": "single"
+      },
+      {
+        "name": "Australia",
+        "values": [
+          456
+        ],
+        "verified": {
+          "wiki": "Australia",
+          "date": "2026-11-26",
+          "key": "ybtiah"
+        },
+        "views": 4547836,
+        "tier": "single"
+      },
+      {
+        "name": "India",
+        "values": [
+          301
+        ],
+        "verified": {
+          "wiki": "India",
+          "date": "2026-11-26",
+          "key": "4n4f46"
+        },
+        "views": 6377009,
+        "tier": "single"
+      },
+      {
+        "name": "South Africa",
+        "values": [
+          259
+        ],
+        "verified": {
+          "wiki": "South Africa",
+          "date": "2026-11-26",
+          "key": "1s7vmi4"
+        },
+        "views": 2917628,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand",
+        "values": [
+          239
+        ],
+        "verified": {
+          "wiki": "New Zealand",
+          "date": "2026-11-26",
+          "key": "ku68ym"
+        },
+        "views": 2919640,
+        "tier": "single"
+      },
+      {
+        "name": "Pakistan",
+        "values": [
+          168
+        ],
+        "verified": {
+          "wiki": "Pakistan",
+          "date": "2026-11-26",
+          "key": "15558pi"
+        },
+        "views": 3343492,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "values": [
+          165
+        ],
+        "verified": {
+          "wiki": "Sri Lanka",
+          "date": "2026-11-26",
+          "key": "rxzgzi"
+        },
+        "views": 2405699,
+        "tier": "two"
+      },
+      {
+        "name": "Bangladesh",
+        "values": [
+          95
+        ],
+        "verified": {
+          "wiki": "Bangladesh",
+          "date": "2026-11-26",
+          "key": "6igl74"
+        },
+        "views": 2744511,
+        "tier": "two"
+      },
+      {
+        "name": "Zimbabwe",
+        "values": [
+          74
+        ],
+        "verified": {
+          "wiki": "Zimbabwe",
+          "date": "2026-11-26",
+          "key": "166gbnw"
+        },
+        "views": 1529567,
+        "tier": "two"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "aliases": [
+          "Trinidad"
+        ],
+        "values": [
+          65
+        ],
+        "verified": {
+          "wiki": "Trinidad and Tobago",
+          "date": "2026-11-26",
+          "key": "v17cpa"
+        },
+        "views": 1268861,
+        "tier": "two"
+      },
+      {
+        "name": "Barbados",
+        "values": [
+          56
+        ],
+        "verified": {
+          "wiki": "Barbados",
+          "date": "2026-11-26",
+          "key": "1et6zbp"
+        },
+        "views": 1165443,
+        "tier": "four"
+      },
+      {
+        "name": "Jamaica",
+        "values": [
+          56
+        ],
+        "verified": {
+          "wiki": "Jamaica",
+          "date": "2026-11-26",
+          "key": "aqoexx"
+        },
+        "views": 1344611,
+        "tier": "four"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "values": [
+          41
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates",
+          "date": "2026-11-26",
+          "key": "85292h"
+        },
+        "views": 3824424,
+        "tier": "two"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "aliases": [
+          "Antigua"
+        ],
+        "values": [
+          37
+        ],
+        "verified": {
+          "wiki": "Antigua and Barbuda",
+          "date": "2026-11-26",
+          "key": "zjcn0l"
+        },
+        "views": 573659,
+        "tier": "six"
+      },
+      {
+        "name": "Guyana",
+        "aliases": [
+          "British Guiana"
+        ],
+        "values": [
+          33
+        ],
+        "verified": {
+          "wiki": "Guyana",
+          "date": "2026-11-26",
+          "key": "1pghkp8"
+        },
+        "views": 1929068,
+        "tier": "two"
+      },
+      {
+        "name": "Saint Lucia",
+        "aliases": [
+          "St Lucia"
+        ],
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Saint Lucia",
+          "date": "2026-11-26",
+          "key": "1o1rnn1"
+        },
+        "views": 845895,
+        "tier": "four"
+      },
+      {
+        "name": "Dominica",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Dominica",
+          "date": "2026-11-26",
+          "key": "yumd91"
+        },
+        "views": 757462,
+        "tier": "six"
+      },
+      {
+        "name": "Grenada",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Grenada",
+          "date": "2026-11-26",
+          "key": "dyugil"
+        },
+        "views": 880888,
+        "tier": "six"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "St Vincent",
+          "Saint Vincent",
+          "St Vincent and the Grenadines"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Saint Vincent and the Grenadines",
+          "date": "2026-11-26",
+          "key": "1sug3uf"
+        },
+        "views": 573896,
+        "tier": "ootg"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "aliases": [
+          "St Kitts",
+          "Saint Kitts",
+          "St Kitts and Nevis"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Saint Kitts and Nevis",
+          "date": "2026-11-26",
+          "key": "bh5k65"
+        },
+        "views": 725862,
+        "tier": "six"
+      },
+      {
+        "name": "Wales",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Wales",
+          "date": "2026-11-26",
+          "key": "x9biu7"
+        },
+        "views": 1492323,
+        "tier": "four"
+      },
+      {
+        "name": "Northern Ireland",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Northern Ireland",
+          "date": "2026-11-26",
+          "key": "ql6l2g"
+        },
+        "views": 1593982,
+        "tier": "four"
+      },
+      {
+        "name": "Ireland",
+        "aliases": [
+          "Republic of Ireland"
+        ],
+        "wiki": "Republic of Ireland",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Republic of Ireland",
+          "date": "2026-11-26",
+          "key": "cpogzt"
+        },
+        "views": 1748542,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "english-county-limited-overs-names-1963-2026",
+    "prompt": "Name a title one of the national English men's county limited-overs competitions went by between 1963 and 2026 (sponsor names count)",
+    "category": "County one-day titles",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "domestic",
+      "england",
+      "odi",
+      "t20"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Friends_Provident_Trophy",
+      "https://en.wikipedia.org/wiki/Pro40",
+      "https://en.wikipedia.org/wiki/Benson_&_Hedges_Cup",
+      "https://en.wikipedia.org/wiki/T20_Blast",
+      "https://en.wikipedia.org/wiki/ECB40",
+      "https://en.wikipedia.org/wiki/One-Day_Cup_(England)"
+    ],
+    "metrics": [
+      {
+        "label": "First season under this name",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Doosra",
+    "answers": [
+      {
+        "name": "Gillette Cup",
+        "values": [
+          1963
+        ],
+        "verified": {
+          "wiki": "Friends Provident Trophy",
+          "date": "2026-11-26",
+          "key": "1b3na6n"
+        },
+        "aliases": [
+          "Gillette"
+        ],
+        "mentions": 33,
+        "tier": "four"
+      },
+      {
+        "name": "NatWest Trophy",
+        "aliases": [
+          "NatWest"
+        ],
+        "values": [
+          1981
+        ],
+        "verified": {
+          "wiki": "Friends Provident Trophy",
+          "date": "2026-11-26",
+          "key": "1la7dsz"
+        },
+        "mentions": 31,
+        "tier": "four"
+      },
+      {
+        "name": "C&G Trophy",
+        "aliases": [
+          "Cheltenham & Gloucester Trophy",
+          "C&G",
+          "Cheltenham and Gloucester"
+        ],
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Friends Provident Trophy",
+          "date": "2026-11-26",
+          "key": "1wv6png"
+        },
+        "mentions": 1,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "The 2000s name of the main knockout cup, familiar to the audience; mentions miss the C&G abbreviation"
+        }
+      },
+      {
+        "name": "ECB One-Day Trophy",
+        "values": [
+          2006
+        ],
+        "verified": {
+          "wiki": "Friends Provident Trophy",
+          "date": "2026-11-26",
+          "key": "wjkxls"
+        },
+        "mentions": 1,
+        "tier": "four"
+      },
+      {
+        "name": "Friends Provident Trophy",
+        "values": [
+          2007
+        ],
+        "verified": {
+          "wiki": "Friends Provident Trophy",
+          "date": "2026-11-26",
+          "key": "n5mmvv"
+        },
+        "mentions": 22,
+        "tier": "single"
+      },
+      {
+        "name": "John Player League",
+        "aliases": [
+          "John Player's County League",
+          "John Player"
+        ],
+        "values": [
+          1969
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1o8po8t"
+        },
+        "mentions": 15,
+        "tier": "four"
+      },
+      {
+        "name": "John Player Special League",
+        "aliases": [
+          "JPS League"
+        ],
+        "values": [
+          1984
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1lvyq21"
+        },
+        "mentions": 2,
+        "tier": "ootg"
+      },
+      {
+        "name": "Refuge Assurance League",
+        "values": [
+          1987
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "14myw95"
+        },
+        "mentions": 2,
+        "tier": "six"
+      },
+      {
+        "name": "Refuge Assurance Cup",
+        "values": [
+          1988
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1im358c"
+        },
+        "mentions": 3,
+        "tier": "six"
+      },
+      {
+        "name": "Sunday League",
+        "values": [
+          1992
+        ],
+        "wiki": "Pro40",
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1ifn0ra"
+        },
+        "mentions": 16,
+        "tier": "four"
+      },
+      {
+        "name": "AXA Equity & Law League",
+        "aliases": [
+          "AXA Equity and Law"
+        ],
+        "values": [
+          1993
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "6hdtp3"
+        },
+        "mentions": 2,
+        "tier": "six"
+      },
+      {
+        "name": "AXA Life League",
+        "aliases": [
+          "AXA League"
+        ],
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1ht5c6h"
+        },
+        "mentions": 2,
+        "tier": "six"
+      },
+      {
+        "name": "CGU National League",
+        "values": [
+          1999
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "1tgxlq1"
+        },
+        "mentions": 1,
+        "tier": "six"
+      },
+      {
+        "name": "Norwich Union League",
+        "aliases": [
+          "Norwich Union National League",
+          "Norwich Union"
+        ],
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "z6lyn0"
+        },
+        "mentions": 6,
+        "tier": "four"
+      },
+      {
+        "name": "National League",
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "l2ouiq"
+        },
+        "mentions": 19,
+        "tier": "two"
+      },
+      {
+        "name": "totesport League",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "i13ldt"
+        },
+        "aliases": [
+          "Tote League",
+          "totesport"
+        ],
+        "mentions": 2,
+        "tier": "four"
+      },
+      {
+        "name": "NatWest Pro40",
+        "aliases": [
+          "Pro40"
+        ],
+        "values": [
+          2006
+        ],
+        "wiki": "Pro40",
+        "verified": {
+          "wiki": "Pro40",
+          "date": "2026-11-26",
+          "key": "lwko67"
+        },
+        "mentions": 32,
+        "tier": "single"
+      },
+      {
+        "name": "Benson & Hedges Cup",
+        "aliases": [
+          "B&H Cup",
+          "Benson and Hedges",
+          "B&H"
+        ],
+        "values": [
+          1972
+        ],
+        "verified": {
+          "wiki": "Benson & Hedges Cup",
+          "date": "2026-11-26",
+          "key": "1d2ute4"
+        },
+        "mentions": 4,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "One of the two big one-day cup finals for 30 years; its own article gets few mentions on the other sources"
+        }
+      },
+      {
+        "name": "Twenty20 Cup",
+        "aliases": [
+          "T20 Cup"
+        ],
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "w22fu8"
+        },
+        "mentions": 31,
+        "tier": "two"
+      },
+      {
+        "name": "Friends Provident t20",
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "1xmq22v"
+        },
+        "mentions": 4,
+        "tier": "four",
+        "aliases": [
+          "FP t20"
+        ]
+      },
+      {
+        "name": "Friends Life t20",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "1m8y3ti"
+        },
+        "mentions": 6,
+        "tier": "two"
+      },
+      {
+        "name": "NatWest T20 Blast",
+        "values": [
+          2014
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "15g8msv"
+        },
+        "mentions": 4,
+        "tier": "two"
+      },
+      {
+        "name": "Vitality Blast",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "1q0r9m5"
+        },
+        "aliases": [
+          "Vitality",
+          "Vitality T20 Blast"
+        ],
+        "mentions": 22,
+        "tier": "single"
+      },
+      {
+        "name": "T20 Blast",
+        "aliases": [
+          "Blast"
+        ],
+        "values": [
+          2003
+        ],
+        "verified": {
+          "wiki": "T20 Blast",
+          "date": "2026-11-26",
+          "key": "stfh8v"
+        },
+        "mentions": 50,
+        "tier": "single"
+      },
+      {
+        "name": "Clydesdale Bank 40",
+        "aliases": [
+          "CB40"
+        ],
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "ECB40",
+          "date": "2026-11-26",
+          "key": "cx0078"
+        },
+        "mentions": 23,
+        "tier": "single"
+      },
+      {
+        "name": "Yorkshire Bank 40",
+        "aliases": [
+          "YB40"
+        ],
+        "values": [
+          2013
+        ],
+        "verified": {
+          "wiki": "ECB40",
+          "date": "2026-11-26",
+          "key": "150c5se"
+        },
+        "mentions": 6,
+        "tier": "two"
+      },
+      {
+        "name": "ECB40",
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "ECB40",
+          "date": "2026-11-26",
+          "key": "1sdzkld"
+        },
+        "mentions": 14,
+        "tier": "two"
+      },
+      {
+        "name": "Royal London One-Day Cup",
+        "aliases": [
+          "Royal London Cup",
+          "Royal London"
+        ],
+        "values": [
+          2014
+        ],
+        "verified": {
+          "wiki": "One-Day Cup (England)",
+          "date": "2026-11-26",
+          "key": "171r19r"
+        },
+        "mentions": 8,
+        "tier": "single"
+      },
+      {
+        "name": "Metro Bank One Day Cup",
+        "values": [
+          2023
+        ],
+        "verified": {
+          "wiki": "One-Day Cup (England)",
+          "date": "2026-11-26",
+          "key": "1bpfhzo"
+        },
+        "aliases": [
+          "Metro Bank Cup",
+          "Metro Bank"
+        ],
+        "mentions": 6,
+        "tier": "single"
+      },
+      {
+        "name": "One-Day Cup",
+        "values": [
+          2014
+        ],
+        "wiki": "One-Day Cup (England)",
+        "verified": {
+          "wiki": "One-Day Cup (England)",
+          "date": "2026-11-26",
+          "key": "11ud9bw"
+        },
+        "mentions": 25,
+        "tier": "single"
+      }
+    ],
+    "popularity": "mentions"
+  },
+  {
+    "id": "bcci-senior-domestic-competitions-before-2026",
+    "prompt": "Name a senior domestic competition run by the BCCI, men's or women's, current or defunct, before 2026",
+    "category": "BCCI competitions",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "women",
+      "domestic",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_BCCI_domestic_tournaments_and_teams",
+      "https://en.wikipedia.org/wiki/Board_of_Control_for_Cricket_in_India"
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Doosra",
+    "answers": [
+      {
+        "name": "Ranji Trophy",
+        "aliases": [
+          "Ranji"
+        ],
+        "verified": {
+          "wiki": "Ranji Trophy",
+          "date": "2026-11-26",
+          "key": "1192gvd"
+        },
+        "views": 371665,
+        "tier": "single"
+      },
+      {
+        "name": "Duleep Trophy",
+        "aliases": [
+          "Duleep"
+        ],
+        "verified": {
+          "wiki": "Duleep Trophy",
+          "date": "2026-11-26",
+          "key": "1quoik1"
+        },
+        "views": 103685,
+        "tier": "two"
+      },
+      {
+        "name": "Irani Cup",
+        "aliases": [
+          "Irani Trophy",
+          "Irani"
+        ],
+        "verified": {
+          "wiki": "Irani Trophy",
+          "date": "2026-11-26",
+          "key": "1cpt4a"
+        },
+        "views": 29785,
+        "tier": "two"
+      },
+      {
+        "name": "Vijay Hazare Trophy",
+        "aliases": [
+          "Vijay Hazare",
+          "Ranji One Day Trophy"
+        ],
+        "verified": {
+          "wiki": "Vijay Hazare Trophy",
+          "date": "2026-11-26",
+          "key": "wi98al"
+        },
+        "views": 266482,
+        "tier": "single"
+      },
+      {
+        "name": "Deodhar Trophy",
+        "aliases": [
+          "Deodhar"
+        ],
+        "verified": {
+          "wiki": "Deodhar Trophy",
+          "date": "2026-11-26",
+          "key": "dw0stx"
+        },
+        "views": 23724,
+        "tier": "two"
+      },
+      {
+        "name": "Syed Mushtaq Ali Trophy",
+        "aliases": [
+          "Mushtaq Ali",
+          "SMAT",
+          "Inter State T20 Championship"
+        ],
+        "verified": {
+          "wiki": "Syed Mushtaq Ali Trophy",
+          "date": "2026-11-26",
+          "key": "d3hcyx"
+        },
+        "views": 185298,
+        "tier": "single"
+      },
+      {
+        "name": "Indian Premier League",
+        "aliases": [
+          "IPL"
+        ],
+        "verified": {
+          "wiki": "Indian Premier League",
+          "date": "2026-11-26",
+          "key": "19chayk"
+        },
+        "views": 1884988,
+        "tier": "single"
+      },
+      {
+        "name": "Women's Premier League",
+        "aliases": [
+          "WPL"
+        ],
+        "wiki": "Women's Premier League (cricket)",
+        "verified": {
+          "wiki": "Women's Premier League (cricket)",
+          "date": "2026-11-26",
+          "key": "1fytanl"
+        },
+        "views": 943622,
+        "tier": "single"
+      },
+      {
+        "name": "Women's T20 Challenge",
+        "verified": {
+          "wiki": "Women's T20 Challenge",
+          "date": "2026-11-26",
+          "key": "1vdfi8t"
+        },
+        "views": 13847,
+        "tier": "two",
+        "aliases": [
+          "T20 Challenge"
+        ]
+      },
+      {
+        "name": "NKP Salve Challenger Trophy",
+        "aliases": [
+          "Challenger Trophy",
+          "Challenger Series"
+        ],
+        "verified": {
+          "wiki": "NKP Salve Challenger Trophy",
+          "date": "2026-11-26",
+          "key": "1jlyxer"
+        },
+        "views": 4303,
+        "tier": "four"
+      },
+      {
+        "name": "Wills Trophy",
+        "verified": {
+          "wiki": "Wills Trophy",
+          "date": "2026-11-26",
+          "key": "1mmx6uk"
+        },
+        "views": 3379,
+        "tier": "four"
+      },
+      {
+        "name": "BCCI Corporate Trophy",
+        "aliases": [
+          "Corporate Trophy"
+        ],
+        "verified": {
+          "wiki": "BCCI Corporate Trophy",
+          "date": "2026-11-26",
+          "key": "1511nfk"
+        },
+        "views": 2177,
+        "tier": "four"
+      },
+      {
+        "name": "Senior Women's One Day Trophy",
+        "aliases": [
+          "Women's Senior One Day Trophy",
+          "Women's One Day Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's One-Day Trophy",
+          "date": "2026-11-26",
+          "key": "j6cuzh"
+        },
+        "views": 4875,
+        "tier": "two"
+      },
+      {
+        "name": "Senior Women's T20 Trophy",
+        "aliases": [
+          "Women's Senior T20 Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's T20 Trophy",
+          "date": "2026-11-26",
+          "key": "7yco5z"
+        },
+        "views": 3640,
+        "tier": "four"
+      },
+      {
+        "name": "Senior Women's Challenger Trophy",
+        "aliases": [
+          "Women's Challenger Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's Challenger Trophy",
+          "date": "2026-11-26",
+          "key": "1wnxjsp"
+        },
+        "views": 969,
+        "tier": "six"
+      },
+      {
+        "name": "Senior Women's T20 Challenger Trophy",
+        "aliases": [
+          "Women's Senior T20 Challenger Trophy",
+          "Women's T20 Challenger Trophy"
+        ],
+        "verified": {
+          "wiki": "List of BCCI domestic tournaments and teams",
+          "date": "2026-11-26",
+          "key": "1hyicei"
+        },
+        "views": 21250,
+        "tier": "two"
+      },
+      {
+        "name": "Senior Women's Inter Zonal Multi-Day Trophy",
+        "aliases": [
+          "Senior Women's Cricket Inter Zonal Three Day Game",
+          "Women's Inter Zonal Multi-Day Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's Inter Zonal Multi-Day Trophy",
+          "date": "2026-11-26",
+          "key": "1dg4r26"
+        },
+        "views": 1997,
+        "tier": "four"
+      },
+      {
+        "name": "Senior Women's Inter Zonal One-Day Trophy",
+        "aliases": [
+          "Women's Inter Zonal One-Day Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's Inter Zonal One-Day Trophy",
+          "date": "2026-11-26",
+          "key": "6dbzvl"
+        },
+        "views": 840,
+        "tier": "six"
+      },
+      {
+        "name": "Senior Women's Inter Zonal T20 Trophy",
+        "aliases": [
+          "Women's Inter Zonal T20 Trophy"
+        ],
+        "verified": {
+          "wiki": "Senior Women's Inter Zonal T20 Trophy",
+          "date": "2026-11-26",
+          "key": "kgmsbp"
+        },
+        "views": 1050,
+        "tier": "six"
+      },
+      {
+        "name": "Inter State Women's Competition",
+        "verified": {
+          "wiki": "Inter-State Women's Competition",
+          "date": "2026-11-26",
+          "key": "4o8tgp"
+        },
+        "views": 434,
+        "tier": "six"
+      },
+      {
+        "name": "Inter-Zone Women's One Day Competition",
+        "verified": {
+          "wiki": "Inter-Zone Women's One Day Competition",
+          "date": "2026-11-26",
+          "key": "1yc57kn"
+        },
+        "views": 393,
+        "tier": "ootg"
+      }
+    ]
+  },
+  {
+    "id": "first-class-championship-names-aus-nz-sa-sl-wi-to-2025-26",
+    "prompt": "Name a title the national first-class championship of Australia, New Zealand, South Africa, Sri Lanka or the West Indies has gone by as a first-class competition, up to 2025–26 (sponsor names count)",
+    "category": "First-class championship names",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "domestic"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sheffield_Shield",
+      "https://en.wikipedia.org/wiki/Plunket_Shield",
+      "https://en.wikipedia.org/wiki/CSA_4-Day_Domestic_Series",
+      "https://en.wikipedia.org/wiki/Major_League_Tournament_(Sri_Lanka)",
+      "https://en.wikipedia.org/wiki/West_Indies_Championship"
+    ],
+    "metrics": [
+      {
+        "label": "First season under this name",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
+    "delivery": "Flipper",
+    "answers": [
+      {
+        "name": "Sheffield Shield",
+        "aliases": [
+          "Marsh Sheffield Shield",
+          "Shield"
+        ],
+        "values": [
+          1892
+        ],
+        "verified": {
+          "wiki": "Sheffield Shield",
+          "date": "2026-11-26",
+          "key": "hbevb5"
+        },
+        "mentions": 165,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "The best-known first-class competition outside England; shares its article with its sponsor names"
+        }
+      },
+      {
+        "name": "Pura Milk Cup",
+        "values": [
+          1999
+        ],
+        "verified": {
+          "wiki": "Sheffield Shield",
+          "date": "2026-11-26",
+          "key": "1flqh0i"
+        },
+        "mentions": 1,
+        "tier": "four"
+      },
+      {
+        "name": "Pura Cup",
+        "values": [
+          2000
+        ],
+        "verified": {
+          "wiki": "Sheffield Shield",
+          "date": "2026-11-26",
+          "key": "1aoe0qz"
+        },
+        "mentions": 2,
+        "tier": "four"
+      },
+      {
+        "name": "Plunket Shield",
+        "values": [
+          1906
+        ],
+        "verified": {
+          "wiki": "Plunket Shield",
+          "date": "2026-11-26",
+          "key": "40tnse"
+        },
+        "mentions": 54,
+        "tier": "two",
+        "aliases": [
+          "Plunket"
+        ]
+      },
+      {
+        "name": "Shell Trophy",
+        "values": [
+          1974
+        ],
+        "verified": {
+          "wiki": "Plunket Shield",
+          "date": "2026-11-26",
+          "key": "1ahy6jx"
+        },
+        "mentions": 2,
+        "tier": "six"
+      },
+      {
+        "name": "State Championship",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Plunket Shield",
+          "date": "2026-11-26",
+          "key": "1xku4dr"
+        },
+        "mentions": 5,
+        "tier": "two"
+      },
+      {
+        "name": "Currie Cup",
+        "values": [
+          1889
+        ],
+        "verified": {
+          "wiki": "CSA 4-Day Domestic Series",
+          "date": "2026-11-26",
+          "key": "1c9cuab"
+        },
+        "mentions": 21,
+        "tier": "four"
+      },
+      {
+        "name": "Castle Cup",
+        "values": [
+          1990
+        ],
+        "verified": {
+          "wiki": "CSA 4-Day Domestic Series",
+          "date": "2026-11-26",
+          "key": "v12tv9"
+        },
+        "mentions": 2,
+        "tier": "six"
+      },
+      {
+        "name": "SuperSport Series",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "CSA 4-Day Domestic Series",
+          "date": "2026-11-26",
+          "key": "8x3cbd"
+        },
+        "mentions": 5,
+        "tier": "four"
+      },
+      {
+        "name": "Sunfoil Series",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "CSA 4-Day Domestic Series",
+          "date": "2026-11-26",
+          "key": "9zvbfq"
+        },
+        "mentions": 10,
+        "tier": "single"
+      },
+      {
+        "name": "CSA 4-Day Domestic Series",
+        "aliases": [
+          "CSA 4-Day Series",
+          "4-Day Domestic Series",
+          "4-Day Franchise Series"
+        ],
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "CSA 4-Day Domestic Series",
+          "date": "2026-11-26",
+          "key": "zyjjvq"
+        },
+        "mentions": 26,
+        "tier": "single"
+      },
+      {
+        "name": "Lakspray Trophy",
+        "values": [
+          1988
+        ],
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "1klz4hi"
+        },
+        "mentions": 3,
+        "tier": "six"
+      },
+      {
+        "name": "P. Saravanamuttu Trophy",
+        "aliases": [
+          "P Sara Trophy",
+          "Saravanamuttu Trophy",
+          "P Sara"
+        ],
+        "values": [
+          1990
+        ],
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "307z3t"
+        },
+        "mentions": 15,
+        "tier": "two"
+      },
+      {
+        "name": "Premier Championship",
+        "aliases": [
+          "Premier Trophy"
+        ],
+        "values": [
+          1998
+        ],
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "1x7j7j0"
+        },
+        "mentions": 4,
+        "tier": "two"
+      },
+      {
+        "name": "Premier League Tournament",
+        "values": [
+          2015
+        ],
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "1ea6u39"
+        },
+        "mentions": 3,
+        "tier": "two"
+      },
+      {
+        "name": "Major League Tournament",
+        "values": [
+          2022
+        ],
+        "wiki": "Major League Tournament (Sri Lanka)",
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "bz2bmc"
+        },
+        "mentions": 14,
+        "tier": "single"
+      },
+      {
+        "name": "Shell Shield",
+        "values": [
+          1965
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "jxsxmw"
+        },
+        "mentions": 3,
+        "tier": "six"
+      },
+      {
+        "name": "Red Stripe Cup",
+        "values": [
+          1987
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "16rkiwp"
+        },
+        "aliases": [
+          "Red Stripe"
+        ],
+        "mentions": 5,
+        "tier": "four"
+      },
+      {
+        "name": "President's Cup",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "rziud7"
+        },
+        "mentions": 1,
+        "tier": "six"
+      },
+      {
+        "name": "Busta Cup",
+        "values": [
+          1998
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "1bybcr5"
+        },
+        "aliases": [
+          "Busta"
+        ],
+        "mentions": 10,
+        "tier": "two"
+      },
+      {
+        "name": "Carib Beer Cup",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "reb6c9"
+        },
+        "aliases": [
+          "Carib Beer"
+        ],
+        "mentions": 8,
+        "tier": "two"
+      },
+      {
+        "name": "Regional Four Day Competition",
+        "aliases": [
+          "Headley-Weekes Trophy",
+          "Regional Four Day",
+          "Regional 4 Day",
+          "Professional Cricket League"
+        ],
+        "values": [
+          2008
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "s7o7r3"
+        },
+        "mentions": 31,
+        "tier": "single"
+      },
+      {
+        "name": "Digicel Four Day Championship",
+        "values": [
+          2016
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "t7cthf"
+        },
+        "aliases": [
+          "Digicel 4 Day Championship"
+        ],
+        "mentions": 1,
+        "tier": "four"
+      },
+      {
+        "name": "West Indies Championship",
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "1fo8njv"
+        },
+        "mentions": 15,
+        "tier": "single"
+      },
+      {
+        "name": "Inter-Colonial Tournament",
+        "wiki": "West Indies Championship",
+        "values": [
+          1891
+        ],
+        "verified": {
+          "wiki": "West Indies Championship",
+          "date": "2026-11-26",
+          "key": "k4ppxx"
+        },
+        "mentions": 3,
+        "tier": "ootg"
+      }
+    ],
+    "popularity": "mentions"
+  }
+]

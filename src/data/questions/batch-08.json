@@ -1,0 +1,3417 @@
+[
+  {
+    "id": "lancashire-league-and-clcl-clubs-to-2026",
+    "prompt": "Name a club that has been a member of the Lancashire League or the Central Lancashire League (up to 2026)",
+    "category": "Lancashire leagues",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lancashire_League_(cricket)",
+      "https://en.wikipedia.org/wiki/Central_Lancashire_Cricket_League"
+    ],
+    "metrics": [
+      {
+        "label": "Last season in either league",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Off cutter",
+    "answers": [
+      {
+        "name": "Accrington",
+        "wiki": "Accrington Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Accrington Cricket Club",
+          "date": "2026-11-26",
+          "key": "sm4x3r"
+        },
+        "views": 1160
+      },
+      {
+        "name": "Bacup",
+        "wiki": "Bacup Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Bacup Cricket Club",
+          "date": "2026-11-26",
+          "key": "sowr5p"
+        },
+        "views": 409
+      },
+      {
+        "name": "Burnley",
+        "wiki": "Burnley Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Burnley Cricket Club",
+          "date": "2026-11-26",
+          "key": "i3jn3x"
+        },
+        "views": 2024
+      },
+      {
+        "name": "Church",
+        "aliases": [
+          "Church and Oswaldtwistle",
+          "Oswaldtwistle"
+        ],
+        "wiki": "Church and Oswaldtwistle Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Church and Oswaldtwistle Cricket Club",
+          "date": "2026-11-26",
+          "key": "135jd8g"
+        },
+        "views": 411
+      },
+      {
+        "name": "Colne",
+        "wiki": "Colne Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Colne Cricket Club",
+          "date": "2026-11-26",
+          "key": "1p1i1kd"
+        },
+        "views": 688
+      },
+      {
+        "name": "East Lancashire",
+        "aliases": [
+          "Blackburn",
+          "East Lancs"
+        ],
+        "wiki": "East Lancashire Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "East Lancashire Cricket Club",
+          "date": "2026-11-26",
+          "key": "14rn5i3"
+        },
+        "views": 971
+      },
+      {
+        "name": "Enfield",
+        "aliases": [
+          "Clayton-le-Moors"
+        ],
+        "wiki": "Enfield Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Enfield Cricket Club",
+          "date": "2026-11-26",
+          "key": "1c3b3s4"
+        },
+        "views": 659
+      },
+      {
+        "name": "Haslingden",
+        "wiki": "Haslingden Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Haslingden Cricket Club",
+          "date": "2026-11-26",
+          "key": "o45u4z"
+        },
+        "views": 590
+      },
+      {
+        "name": "Lowerhouse",
+        "wiki": "Lowerhouse Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Lowerhouse Cricket Club",
+          "date": "2026-11-26",
+          "key": "2vxl0f"
+        },
+        "views": 970
+      },
+      {
+        "name": "Nelson",
+        "wiki": "Nelson Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Nelson Cricket Club",
+          "date": "2026-11-26",
+          "key": "7zxdjb"
+        },
+        "views": 1164
+      },
+      {
+        "name": "Ramsbottom",
+        "wiki": "Ramsbottom Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Ramsbottom Cricket Club",
+          "date": "2026-11-26",
+          "key": "f224i3"
+        },
+        "views": 571
+      },
+      {
+        "name": "Rawtenstall",
+        "wiki": "Rawtenstall Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rawtenstall Cricket Club",
+          "date": "2026-11-26",
+          "key": "17ypeqp"
+        },
+        "views": 593
+      },
+      {
+        "name": "Rishton",
+        "wiki": "Rishton Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rishton Cricket Club",
+          "date": "2026-11-26",
+          "key": "1dr3nqh"
+        },
+        "views": 1009
+      },
+      {
+        "name": "Todmorden",
+        "wiki": "Todmorden Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Todmorden Cricket Club",
+          "date": "2026-11-26",
+          "key": "u7bw8r"
+        },
+        "views": 807
+      },
+      {
+        "name": "Bury",
+        "wiki": "Bury Cricket Club",
+        "values": [
+          1894
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Bury Cricket Club",
+          "date": "2026-11-26",
+          "key": "ulukin"
+        },
+        "views": 580
+      },
+      {
+        "name": "Clitheroe",
+        "wiki": "Clitheroe Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Clitheroe Cricket Club",
+          "date": "2026-11-26",
+          "key": "u463kl"
+        },
+        "views": 496
+      },
+      {
+        "name": "Darwen",
+        "wiki": "Darwen Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Darwen Cricket Club",
+          "date": "2026-11-26",
+          "key": "n66gbn"
+        },
+        "views": 557
+      },
+      {
+        "name": "Great Harwood",
+        "wiki": "Great Harwood",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Lancashire League (cricket)",
+          "date": "2026-11-26",
+          "key": "11qa0sk"
+        },
+        "views": 6844,
+        "override": {
+          "tier": "two",
+          "reason": "No article of its own, so views are the Lancashire League page's; a small club that only joined in the 2017–2020 expansion"
+        }
+      },
+      {
+        "name": "Crompton",
+        "wiki": "Crompton Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Crompton Cricket Club",
+          "date": "2026-11-26",
+          "key": "8frv07"
+        },
+        "views": 333
+      },
+      {
+        "name": "Norden",
+        "wiki": "Norden Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Norden Cricket Club",
+          "date": "2026-11-26",
+          "key": "19k4cnb"
+        },
+        "views": 350
+      },
+      {
+        "name": "Littleborough",
+        "wiki": "Littleborough Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Littleborough Cricket Club",
+          "date": "2026-11-26",
+          "key": "1g0gq93"
+        },
+        "views": 551
+      },
+      {
+        "name": "Middleton",
+        "wiki": "Middleton Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Middleton Cricket Club",
+          "date": "2026-11-26",
+          "key": "16z6k03"
+        },
+        "views": 654
+      },
+      {
+        "name": "Milnrow",
+        "wiki": "Milnrow Cricket Club",
+        "values": [
+          2019
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Milnrow Cricket Club",
+          "date": "2026-11-26",
+          "key": "1do6e3b"
+        },
+        "views": 432
+      },
+      {
+        "name": "Rochdale",
+        "wiki": "Rochdale Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Rochdale Cricket Club",
+          "date": "2026-11-26",
+          "key": "19wor2f"
+        },
+        "views": 504
+      },
+      {
+        "name": "Walsden",
+        "wiki": "Walsden Cricket Club",
+        "values": [
+          2026
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Walsden Cricket Club",
+          "date": "2026-11-26",
+          "key": "1bsrisn"
+        },
+        "views": 485
+      },
+      {
+        "name": "Greenmount",
+        "wiki": "Greenmount, Greater Manchester",
+        "values": [
+          2026
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Lancashire League (cricket)",
+          "date": "2026-11-26",
+          "key": "1jwjnba"
+        },
+        "views": 6844,
+        "override": {
+          "tier": "four",
+          "reason": "No article of its own, so views are the Lancashire League page's; a small club that only joined in the 2017–2020 expansion"
+        }
+      },
+      {
+        "name": "Ashton",
+        "aliases": [
+          "Ashton-under-Lyne"
+        ],
+        "wiki": "Ashton-under-Lyne",
+        "values": [
+          2015
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "ofs4db"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Castleton Moor",
+        "wiki": "Castleton, Greater Manchester",
+        "values": [
+          1987
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "bqk55x"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Clifton",
+        "wiki": "Clifton Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Clifton Cricket Club",
+          "date": "2026-11-26",
+          "key": "19fpvi5"
+        },
+        "views": 447
+      },
+      {
+        "name": "Dukinfield",
+        "wiki": "Dukinfield",
+        "values": [
+          1916
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "17wmzvq"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Glossop",
+        "wiki": "Glossop",
+        "values": [
+          1916
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "10qp4zo"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Heywood",
+        "wiki": "Heywood Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Heywood Cricket Club",
+          "date": "2026-11-26",
+          "key": "16fgy65"
+        },
+        "views": 478
+      },
+      {
+        "name": "Hyde",
+        "wiki": "Hyde, Greater Manchester",
+        "values": [
+          1992
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "g9zi52"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Longsight",
+        "wiki": "Longsight",
+        "values": [
+          1908
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "1e9008w"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Monton & Weaste",
+        "aliases": [
+          "Monton"
+        ],
+        "wiki": "Monton & Weaste Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Monton & Weaste Cricket Club",
+          "date": "2026-11-26",
+          "key": "1oivkpo"
+        },
+        "views": 279
+      },
+      {
+        "name": "Moorside",
+        "wiki": "Moorside, Greater Manchester",
+        "values": [
+          1928
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "deolsu"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Oldham",
+        "wiki": "Oldham Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Oldham Cricket Club",
+          "date": "2026-11-26",
+          "key": "2aoeur"
+        },
+        "views": 590
+      },
+      {
+        "name": "Radcliffe",
+        "wiki": "Radcliffe Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Radcliffe Cricket Club",
+          "date": "2026-11-26",
+          "key": "16ygkrn"
+        },
+        "views": 818
+      },
+      {
+        "name": "Royton",
+        "wiki": "Royton Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Royton Cricket Club",
+          "date": "2026-11-26",
+          "key": "g56sbv"
+        },
+        "views": 539
+      },
+      {
+        "name": "Stalybridge",
+        "wiki": "Stalybridge",
+        "values": [
+          1916
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "qbfsdq"
+        },
+        "views": 1481
+      },
+      {
+        "name": "Stand",
+        "aliases": [
+          "Whitefield"
+        ],
+        "wiki": "Stand Cricket Club",
+        "values": [
+          2004
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Stand Cricket Club",
+          "date": "2026-11-26",
+          "key": "c4mv5c"
+        },
+        "views": 358
+      },
+      {
+        "name": "Stockport",
+        "wiki": "Stockport Cricket Club",
+        "values": [
+          1998
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Stockport Cricket Club",
+          "date": "2026-11-26",
+          "key": "ycappx"
+        },
+        "views": 450
+      },
+      {
+        "name": "Unsworth",
+        "wiki": "Unsworth Cricket Club",
+        "values": [
+          2015
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Unsworth Cricket Club",
+          "date": "2026-11-26",
+          "key": "1is6c5b"
+        },
+        "views": 237
+      },
+      {
+        "name": "Werneth",
+        "wiki": "Werneth, Greater Manchester",
+        "values": [
+          2015
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Central Lancashire Cricket League",
+          "date": "2026-11-26",
+          "key": "15xn04g"
+        },
+        "views": 1481
+      }
+    ]
+  },
+  {
+    "id": "south-africa-first-class-competition-teams-1889-2026",
+    "prompt": "Name a team that played in South Africa's first-class provincial competition (the Currie Cup and its successors, either division) from 1889–90 to 2025–26",
+    "category": "Currie Cup sides",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "domestic",
+      "south-africa"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Currie_Cup_(cricket)"
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Googly",
+    "answers": [
+      {
+        "name": "Western Province",
+        "wiki": "Western Province cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Western Province cricket team",
+          "date": "2026-11-26",
+          "key": "1u92aiw"
+        },
+        "views": 7455
+      },
+      {
+        "name": "Eastern Province",
+        "wiki": "Eastern Province cricket team",
+        "tier": "four",
+        "verified": {
+          "wiki": "Eastern Province cricket team",
+          "date": "2026-11-26",
+          "key": "10xsh50"
+        },
+        "views": 4114
+      },
+      {
+        "name": "Gauteng",
+        "aliases": [
+          "Transvaal"
+        ],
+        "wiki": "Gauteng cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Gauteng cricket team",
+          "date": "2026-11-26",
+          "key": "5hz14w"
+        },
+        "views": 4462
+      },
+      {
+        "name": "KwaZulu-Natal",
+        "aliases": [
+          "Natal",
+          "KZN"
+        ],
+        "wiki": "KwaZulu-Natal cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "KwaZulu-Natal cricket team",
+          "date": "2026-11-26",
+          "key": "11wug2f"
+        },
+        "views": 4503
+      },
+      {
+        "name": "Northern Cape",
+        "aliases": [
+          "Griqualand West",
+          "Kimberley"
+        ],
+        "wiki": "Northern Cape cricket team",
+        "tier": "six",
+        "verified": {
+          "wiki": "Northern Cape cricket team",
+          "date": "2026-11-26",
+          "key": "14yycu1"
+        },
+        "views": 1506
+      },
+      {
+        "name": "Border",
+        "wiki": "Border cricket team",
+        "tier": "four",
+        "verified": {
+          "wiki": "Border cricket team",
+          "date": "2026-11-26",
+          "key": "menkx0"
+        },
+        "views": 3557
+      },
+      {
+        "name": "Free State",
+        "aliases": [
+          "Orange Free State"
+        ],
+        "wiki": "Free State cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Free State cricket team",
+          "date": "2026-11-26",
+          "key": "q6iq2x"
+        },
+        "views": 4338
+      },
+      {
+        "name": "Northerns",
+        "aliases": [
+          "Northern Transvaal",
+          "North Eastern Transvaal"
+        ],
+        "wiki": "Northerns cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Northerns cricket team",
+          "date": "2026-11-26",
+          "key": "xtvub9"
+        },
+        "views": 5960
+      },
+      {
+        "name": "Rhodesia",
+        "wiki": "Rhodesia cricket team",
+        "tier": "two",
+        "verified": {
+          "wiki": "Rhodesia cricket team",
+          "date": "2026-11-26",
+          "key": "f1svgc"
+        },
+        "views": 6909
+      },
+      {
+        "name": "South Western Districts",
+        "aliases": [
+          "SWD"
+        ],
+        "wiki": "South Western Districts cricket team",
+        "tier": "six",
+        "verified": {
+          "wiki": "South Western Districts cricket team",
+          "date": "2026-11-26",
+          "key": "1i0n8ro"
+        },
+        "views": 1524
+      },
+      {
+        "name": "Boland",
+        "wiki": "Boland cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Boland cricket team",
+          "date": "2026-11-26",
+          "key": "17qumm0"
+        },
+        "views": 8036
+      },
+      {
+        "name": "Easterns",
+        "aliases": [
+          "Eastern Transvaal"
+        ],
+        "wiki": "Easterns cricket team",
+        "tier": "six",
+        "verified": {
+          "wiki": "Easterns cricket team",
+          "date": "2026-11-26",
+          "key": "76g342"
+        },
+        "views": 2130
+      },
+      {
+        "name": "North West",
+        "aliases": [
+          "Western Transvaal",
+          "North West Dragons"
+        ],
+        "wiki": "North West cricket team",
+        "tier": "four",
+        "verified": {
+          "wiki": "North West cricket team",
+          "date": "2026-11-26",
+          "key": "oeat0m"
+        },
+        "views": 2203
+      },
+      {
+        "name": "Cape Cobras",
+        "aliases": [
+          "Cobras"
+        ],
+        "wiki": "Cape Cobras",
+        "tier": "single",
+        "verified": {
+          "wiki": "Cape Cobras",
+          "date": "2026-11-26",
+          "key": "1xotz98"
+        },
+        "views": 8293
+      },
+      {
+        "name": "Dolphins",
+        "wiki": "Dolphins (South African cricket team)",
+        "tier": "single",
+        "verified": {
+          "wiki": "Dolphins (South African cricket team)",
+          "date": "2026-11-26",
+          "key": "ccub5i"
+        },
+        "views": 8573
+      },
+      {
+        "name": "Knights",
+        "aliases": [
+          "Eagles"
+        ],
+        "wiki": "Knights cricket team",
+        "tier": "four",
+        "verified": {
+          "wiki": "Knights cricket team",
+          "date": "2026-11-26",
+          "key": "17ppakr"
+        },
+        "views": 2273
+      },
+      {
+        "name": "Lions",
+        "aliases": [
+          "Highveld Lions"
+        ],
+        "wiki": "Lions cricket team (South Africa)",
+        "tier": "four",
+        "verified": {
+          "wiki": "Lions cricket team (South Africa)",
+          "date": "2026-11-26",
+          "key": "n2njxc"
+        },
+        "views": 4265
+      },
+      {
+        "name": "Titans",
+        "wiki": "Titans cricket team",
+        "tier": "single",
+        "verified": {
+          "wiki": "Titans cricket team",
+          "date": "2026-11-26",
+          "key": "15qhj44"
+        },
+        "views": 13959
+      },
+      {
+        "name": "Warriors",
+        "wiki": "Warriors (cricket team)",
+        "tier": "single",
+        "verified": {
+          "wiki": "Warriors (cricket team)",
+          "date": "2026-11-26",
+          "key": "4rcqm9"
+        },
+        "views": 14114
+      },
+      {
+        "name": "KwaZulu-Natal Inland",
+        "aliases": [
+          "KZN Inland"
+        ],
+        "wiki": "KwaZulu-Natal Inland cricket team",
+        "tier": "four",
+        "verified": {
+          "wiki": "KwaZulu-Natal Inland cricket team",
+          "date": "2026-11-26",
+          "key": "1plcqd9"
+        },
+        "views": 2990
+      },
+      {
+        "name": "Limpopo",
+        "wiki": "Limpopo cricket team",
+        "tier": "six",
+        "verified": {
+          "wiki": "Limpopo cricket team",
+          "date": "2026-11-26",
+          "key": "y6yrvk"
+        },
+        "views": 1445
+      },
+      {
+        "name": "Mpumalanga",
+        "wiki": "Mpumalanga cricket team",
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Mpumalanga cricket team",
+          "date": "2026-11-26",
+          "key": "54vars"
+        },
+        "views": 1237
+      }
+    ]
+  },
+  {
+    "id": "sri-lanka-major-league-clubs-2022-2026",
+    "prompt": "Name a club that played in Sri Lanka's first-class Major League Tournament between 2022–23 and 2025–26",
+    "category": "Sri Lankan clubs",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "domestic",
+      "sri-lanka"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Major_League_Tournament_(Sri_Lanka)",
+      "https://en.wikipedia.org/wiki/List_of_Sri_Lankan_cricket_teams"
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Outswinger",
+    "answers": [
+      {
+        "name": "Ace Capital Cricket Club",
+        "aliases": [
+          "Sri Lanka Ports Authority",
+          "Ports Authority",
+          "Seeduwa Raddoluwa"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Ace Capital Cricket Club",
+          "date": "2026-11-26",
+          "key": "1620b3t"
+        },
+        "views": 1178
+      },
+      {
+        "name": "Badureliya Sports Club",
+        "aliases": [
+          "Badureliya"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Badureliya Sports Club",
+          "date": "2026-11-26",
+          "key": "1nctq7i"
+        },
+        "views": 2468
+      },
+      {
+        "name": "Bloomfield Cricket and Athletic Club",
+        "aliases": [
+          "Bloomfield"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Bloomfield Cricket and Athletic Club",
+          "date": "2026-11-26",
+          "key": "1xmx8yb"
+        },
+        "views": 3644
+      },
+      {
+        "name": "Burgher Recreation Club",
+        "aliases": [
+          "Burgher",
+          "BRC"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Burgher Recreation Club",
+          "date": "2026-11-26",
+          "key": "ryxfgy"
+        },
+        "views": 1960
+      },
+      {
+        "name": "Chilaw Marians Cricket Club",
+        "aliases": [
+          "Chilaw Marians",
+          "Chilaw"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Chilaw Marians Cricket Club",
+          "date": "2026-11-26",
+          "key": "yv9n7i"
+        },
+        "views": 1933
+      },
+      {
+        "name": "Colombo Cricket Club",
+        "aliases": [
+          "Colombo"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Colombo Cricket Club",
+          "date": "2026-11-26",
+          "key": "rs0scy"
+        },
+        "views": 4907
+      },
+      {
+        "name": "Colts Cricket Club",
+        "aliases": [
+          "Colts"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Colts Cricket Club",
+          "date": "2026-11-26",
+          "key": "1kw8bsq"
+        },
+        "views": 4351
+      },
+      {
+        "name": "Galle Cricket Club",
+        "aliases": [
+          "Galle"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Galle Cricket Club",
+          "date": "2026-11-26",
+          "key": "k9obx2"
+        },
+        "views": 2673
+      },
+      {
+        "name": "Kalutara Town Club",
+        "aliases": [
+          "Kalutara"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Kalutara Town Club",
+          "date": "2026-11-26",
+          "key": "s9br85"
+        },
+        "views": 698
+      },
+      {
+        "name": "Kandy Customs Cricket Club",
+        "aliases": [
+          "Kandy Customs",
+          "Kandy"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Major League Tournament (Sri Lanka)",
+          "date": "2026-11-26",
+          "key": "1aj96e1"
+        },
+        "views": 4574,
+        "override": {
+          "tier": "four",
+          "reason": "Views are the Major League Tournament page's (the source links a redirect); a little-known club"
+        }
+      },
+      {
+        "name": "Kurunegala Youth Cricket Club",
+        "aliases": [
+          "Kurunegala Youth",
+          "Kurunegala"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Kurunegala Youth Cricket Club",
+          "date": "2026-11-26",
+          "key": "3swehz"
+        },
+        "views": 656
+      },
+      {
+        "name": "Lankan Cricket Club",
+        "aliases": [
+          "Lankan"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Lankan Cricket Club",
+          "date": "2026-11-26",
+          "key": "1t70eg"
+        },
+        "views": 685
+      },
+      {
+        "name": "Moors Sports Club",
+        "aliases": [
+          "Moors"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Moors Sports Club",
+          "date": "2026-11-26",
+          "key": "fvd0zi"
+        },
+        "views": 2095
+      },
+      {
+        "name": "Negombo Cricket Club",
+        "aliases": [
+          "Negombo"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Negombo Cricket Club",
+          "date": "2026-11-26",
+          "key": "18auojy"
+        },
+        "views": 629
+      },
+      {
+        "name": "Nondescripts Cricket Club",
+        "aliases": [
+          "Nondescripts",
+          "NCC"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Nondescripts Cricket Club",
+          "date": "2026-11-26",
+          "key": "logyg6"
+        },
+        "views": 10126
+      },
+      {
+        "name": "Nugegoda Sports and Welfare Club",
+        "aliases": [
+          "Nugegoda"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Nugegoda Sports and Welfare Club",
+          "date": "2026-11-26",
+          "key": "1vprb1n"
+        },
+        "views": 780
+      },
+      {
+        "name": "Panadura Sports Club",
+        "aliases": [
+          "Panadura"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Panadura Sports Club",
+          "date": "2026-11-26",
+          "key": "1d9rjba"
+        },
+        "views": 1510
+      },
+      {
+        "name": "Police Sports Club",
+        "aliases": [
+          "Police",
+          "Sri Lanka Police"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sri Lanka Police Sports Club (cricket)",
+          "date": "2026-11-26",
+          "key": "1iom2vb"
+        },
+        "views": 1476
+      },
+      {
+        "name": "Ragama Cricket Club",
+        "aliases": [
+          "Ragama"
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Ragama Cricket Club",
+          "date": "2026-11-26",
+          "key": "152sh60"
+        },
+        "views": 1539
+      },
+      {
+        "name": "Saracens Sports Club",
+        "aliases": [
+          "Saracens"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Saracens Sports Club",
+          "date": "2026-11-26",
+          "key": "1n0qf5a"
+        },
+        "views": 895
+      },
+      {
+        "name": "Sebastianites Cricket and Athletic Club",
+        "aliases": [
+          "Sebastianites"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sebastianites Cricket and Athletic Club",
+          "date": "2026-11-26",
+          "key": "vwn1j7"
+        },
+        "views": 904
+      },
+      {
+        "name": "Sinhalese Sports Club",
+        "aliases": [
+          "Sinhalese",
+          "SSC"
+        ],
+        "misspellings": [
+          "Singhalese Sports Club"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Singhalese Sports Club",
+          "date": "2026-11-26",
+          "key": "87ea2v"
+        },
+        "views": 4856
+      },
+      {
+        "name": "Sri Lanka Air Force Sports Club",
+        "aliases": [
+          "Air Force",
+          "Sri Lanka Air Force"
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Sri Lanka Air Force Sports Club (cricket)",
+          "date": "2026-11-26",
+          "key": "ezh2yz"
+        },
+        "wiki": "Sri Lanka Air Force Sports Club (cricket)",
+        "views": 716
+      },
+      {
+        "name": "Sri Lanka Army Sports Club",
+        "aliases": [
+          "Army",
+          "Sri Lanka Army"
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sri Lanka Army Sports Club (cricket)",
+          "date": "2026-11-26",
+          "key": "1vuepqr"
+        },
+        "wiki": "Sri Lanka Army Sports Club (cricket)",
+        "views": 1184
+      },
+      {
+        "name": "Sri Lanka Navy Sports Club",
+        "aliases": [
+          "Navy",
+          "Sri Lanka Navy"
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Sri Lanka Navy Sports Club (cricket)",
+          "date": "2026-11-26",
+          "key": "2dm14j"
+        },
+        "wiki": "Sri Lanka Navy Sports Club (cricket)",
+        "views": 484
+      },
+      {
+        "name": "Tamil Union Cricket and Athletic Club",
+        "aliases": [
+          "Tamil Union"
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Tamil Union Cricket and Athletic Club",
+          "date": "2026-11-26",
+          "key": "1f59ajp"
+        },
+        "views": 7505
+      }
+    ]
+  },
+  {
+    "id": "caribbean-mens-womens-odi-grounds-before-2026",
+    "prompt": "Name a ground in the Caribbean that hosted a men's or women's ODI before 2026",
+    "category": "Caribbean ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "women",
+      "odi",
+      "international",
+      "west-indies"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_women%27s_One_Day_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "ODIs hosted (men's and women's)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Googly",
+    "answers": [
+      {
+        "name": "Albion Sports Complex",
+        "aliases": [
+          "Albion",
+          "Berbice"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Albion Sports Complex",
+          "date": "2026-11-26",
+          "key": "1orv6jd"
+        },
+        "views": 1009
+      },
+      {
+        "name": "Antigua Recreation Ground",
+        "values": [
+          11
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Antigua Recreation Ground",
+          "date": "2026-11-26",
+          "key": "1eglg6a"
+        },
+        "views": 8729,
+        "aliases": [
+          "Antigua Rec",
+          "St John's",
+          "Antigua"
+        ]
+      },
+      {
+        "name": "Mindoo Phillip Park",
+        "aliases": [
+          "Castries",
+          "Mindoo Phillip"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Mindoo Phillip Park",
+          "date": "2026-11-26",
+          "key": "nhr680"
+        },
+        "views": 912
+      },
+      {
+        "name": "Arnos Vale Stadium",
+        "aliases": [
+          "St Vincent",
+          "Kingstown",
+          "Arnos Vale"
+        ],
+        "values": [
+          31
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Arnos Vale Stadium",
+          "date": "2026-11-26",
+          "key": "owes95"
+        },
+        "views": 9800
+      },
+      {
+        "name": "Queen's Park Oval",
+        "aliases": [
+          "Port of Spain",
+          "Trinidad",
+          "Queen's Park"
+        ],
+        "values": [
+          76
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Queen's Park Oval",
+          "date": "2026-11-26",
+          "key": "1k1l91k"
+        },
+        "views": 16429
+      },
+      {
+        "name": "Queen's Park (Old), Grenada",
+        "wiki": "Queen's Park (1887)",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "aliases": [
+          "Queen's Park (Old)"
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "4b1aa6"
+        },
+        "views": 4935
+      },
+      {
+        "name": "Sabina Park",
+        "aliases": [
+          "Kingston",
+          "Jamaica",
+          "Sabina"
+        ],
+        "values": [
+          49
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sabina Park",
+          "date": "2026-11-26",
+          "key": "1wvzjw3"
+        },
+        "views": 18227
+      },
+      {
+        "name": "Kensington Oval",
+        "aliases": [
+          "Bridgetown",
+          "Barbados",
+          "Kensington"
+        ],
+        "values": [
+          55
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-26",
+          "key": "ulxvn"
+        },
+        "views": 29813
+      },
+      {
+        "name": "Bourda",
+        "aliases": [
+          "Georgetown"
+        ],
+        "values": [
+          11
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Bourda",
+          "date": "2026-11-26",
+          "key": "10sr17u"
+        },
+        "views": 5883
+      },
+      {
+        "name": "National Cricket Stadium, Grenada",
+        "aliases": [
+          "Grenada",
+          "St George's"
+        ],
+        "wiki": "National Cricket Stadium (Grenada)",
+        "values": [
+          27
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "National Cricket Stadium (Grenada)",
+          "date": "2026-11-26",
+          "key": "rrzm36"
+        },
+        "views": 5257
+      },
+      {
+        "name": "Daren Sammy Cricket Ground",
+        "aliases": [
+          "Darren Sammy",
+          "Beausejour",
+          "Beausejour Stadium",
+          "Gros Islet",
+          "St Lucia",
+          "Darren Sammy Stadium",
+          "Darren Sammy National Cricket Stadium",
+          "Daren Sammy National Cricket Stadium"
+        ],
+        "values": [
+          37
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Daren Sammy Cricket Ground",
+          "date": "2026-11-26",
+          "key": "lsyiie"
+        },
+        "views": 9583
+      },
+      {
+        "name": "Warner Park",
+        "aliases": [
+          "Basseterre",
+          "St Kitts"
+        ],
+        "wiki": "Warner Park Sporting Complex",
+        "values": [
+          39
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Warner Park Sporting Complex",
+          "date": "2026-11-26",
+          "key": "f9km51"
+        },
+        "views": 10452
+      },
+      {
+        "name": "Sir Vivian Richards Stadium",
+        "aliases": [
+          "Viv Richards Stadium",
+          "North Sound",
+          "Viv Richards"
+        ],
+        "values": [
+          39
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sir Vivian Richards Stadium",
+          "date": "2026-11-26",
+          "key": "o06wvx"
+        },
+        "views": 21461
+      },
+      {
+        "name": "Providence Stadium",
+        "aliases": [
+          "Providence",
+          "Guyana National Stadium",
+          "Guyana"
+        ],
+        "values": [
+          28
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-26",
+          "key": "mrex0k"
+        },
+        "views": 17300
+      },
+      {
+        "name": "Windsor Park",
+        "aliases": [
+          "Roseau",
+          "Dominica"
+        ],
+        "wiki": "Windsor Park (Dominica)",
+        "values": [
+          7
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Windsor Park (Dominica)",
+          "date": "2026-11-26",
+          "key": "qvhmmv"
+        },
+        "views": 6082
+      },
+      {
+        "name": "Brian Lara Stadium",
+        "aliases": [
+          "Brian Lara Cricket Academy",
+          "Tarouba",
+          "San Fernando"
+        ],
+        "wiki": "Brian Lara Cricket Academy",
+        "values": [
+          7
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Brian Lara Cricket Academy",
+          "date": "2026-11-26",
+          "key": "fadbwn"
+        },
+        "views": 11747
+      },
+      {
+        "name": "National Cricket Centre, Couva",
+        "aliases": [
+          "Couva"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "National Cricket Centre, Couva",
+          "date": "2026-11-26",
+          "key": "1c8lh5m"
+        },
+        "views": 484
+      },
+      {
+        "name": "St Paul's Sporting Complex",
+        "aliases": [
+          "St Paul's"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "gxdhss"
+        },
+        "views": 2285
+      },
+      {
+        "name": "Windward Park",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Windward Park",
+          "date": "2026-11-26",
+          "key": "9w3jb0"
+        },
+        "views": 242
+      },
+      {
+        "name": "Trelawny Stadium",
+        "aliases": [
+          "Trelawny",
+          "Greenfield Stadium"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Trelawny Stadium",
+          "date": "2026-11-26",
+          "key": "1o3miox"
+        },
+        "views": 1580
+      },
+      {
+        "name": "Coolidge Cricket Ground",
+        "aliases": [
+          "Coolidge"
+        ],
+        "values": [
+          7
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Coolidge Cricket Ground",
+          "date": "2026-11-26",
+          "key": "k2vqcy"
+        },
+        "views": 2059
+      },
+      {
+        "name": "Three Ws Oval",
+        "aliases": [
+          "3Ws Oval",
+          "Three Ws",
+          "3Ws"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Three Ws Oval",
+          "date": "2026-11-26",
+          "key": "odg4o6"
+        },
+        "views": 1494
+      }
+    ]
+  },
+  {
+    "id": "england-womens-test-grounds-to-2026",
+    "prompt": "Name a ground in England that has hosted a women's Test (up to 2026)",
+    "category": "English women's Test grounds",
+    "answerType": "ground",
+    "tags": [
+      "women",
+      "test",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_women%27s_Test_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Women's Tests hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Flipper",
+    "answers": [
+      {
+        "name": "County Ground, Northampton",
+        "aliases": [
+          "Northampton",
+          "Wantage Road"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-26",
+          "key": "coymwh"
+        },
+        "views": 11314
+      },
+      {
+        "name": "Stanley Park, Blackpool",
+        "aliases": [
+          "Stanley Park",
+          "Blackpool"
+        ],
+        "wiki": "Blackpool Cricket Club",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Blackpool Cricket Club",
+          "date": "2026-11-26",
+          "key": "vmtv0"
+        },
+        "views": 1640
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kennington",
+          "Kia Oval"
+        ],
+        "values": [
+          6
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-26",
+          "key": "kiq8lb"
+        },
+        "views": 117145
+      },
+      {
+        "name": "North Marine Road",
+        "aliases": [
+          "Scarborough"
+        ],
+        "wiki": "North Marine Road Ground, Scarborough",
+        "values": [
+          5
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "North Marine Road Ground, Scarborough",
+          "date": "2026-11-26",
+          "key": "2c9y6l"
+        },
+        "views": 4733
+      },
+      {
+        "name": "New Road",
+        "aliases": [
+          "Worcester"
+        ],
+        "wiki": "New Road, Worcester",
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-26",
+          "key": "8q96d8"
+        },
+        "views": 9319
+      },
+      {
+        "name": "Headingley",
+        "aliases": [
+          "Leeds",
+          "Emerald Headingley"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "values": [
+          3
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-26",
+          "key": "1hjymvl"
+        },
+        "views": 34129
+      },
+      {
+        "name": "Edgbaston",
+        "aliases": [
+          "Birmingham"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "values": [
+          4
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-26",
+          "key": "1oo77k"
+        },
+        "views": 42934
+      },
+      {
+        "name": "Old Trafford",
+        "aliases": [
+          "Manchester",
+          "Emirates Old Trafford"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-26",
+          "key": "5ynmuh"
+        },
+        "views": 64941
+      },
+      {
+        "name": "St Lawrence Ground",
+        "aliases": [
+          "Canterbury",
+          "Spitfire Ground"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-26",
+          "key": "1ywpf0i"
+        },
+        "views": 14888
+      },
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-26",
+          "key": "144uszw"
+        },
+        "views": 44633
+      },
+      {
+        "name": "Harewood Road, Collingham",
+        "aliases": [
+          "Harewood Road",
+          "Collingham"
+        ],
+        "wiki": "Collingham and Linton Cricket Club Ground",
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Collingham and Linton Cricket Club Ground",
+          "date": "2026-11-26",
+          "key": "1bmop39"
+        },
+        "views": 295
+      },
+      {
+        "name": "County Ground, Hove",
+        "aliases": [
+          "Hove",
+          "1st Central County Ground"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of women's Test cricket grounds",
+          "date": "2026-11-26",
+          "key": "1by4etc"
+        },
+        "views": 1973
+      },
+      {
+        "name": "Woodbridge Road",
+        "aliases": [
+          "Guildford"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of women's Test cricket grounds",
+          "date": "2026-11-26",
+          "key": "1rxi1e1"
+        },
+        "views": 1973
+      },
+      {
+        "name": "St George's Road, Harrogate",
+        "aliases": [
+          "St George's Road",
+          "Harrogate"
+        ],
+        "wiki": "St George's Road Cricket Ground, Harrogate",
+        "values": [
+          1
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "St George's Road Cricket Ground, Harrogate",
+          "date": "2026-11-26",
+          "key": "1j77pp1"
+        },
+        "views": 747
+      },
+      {
+        "name": "Denis Compton Oval",
+        "aliases": [
+          "Shenley"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Denis Compton Oval",
+          "date": "2026-11-26",
+          "key": "11p86t6"
+        },
+        "views": 1182
+      },
+      {
+        "name": "County Ground, Taunton",
+        "aliases": [
+          "Taunton",
+          "Cooper Associates County Ground"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-26",
+          "key": "169r7vc"
+        },
+        "views": 14861
+      },
+      {
+        "name": "Grace Road",
+        "aliases": [
+          "Leicester",
+          "Uptonsteel County Ground"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Grace Road",
+          "date": "2026-11-26",
+          "key": "1jx2jqv"
+        },
+        "views": 10562
+      },
+      {
+        "name": "Wormsley",
+        "aliases": [
+          "Wormsley Park",
+          "Sir Paul Getty's Ground"
+        ],
+        "wiki": "Wormsley Park",
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Wormsley Park",
+          "date": "2026-11-26",
+          "key": "7yj2tm"
+        },
+        "views": 30801
+      },
+      {
+        "name": "County Ground, Bristol",
+        "aliases": [
+          "Bristol",
+          "Nevil Road",
+          "Seat Unique Stadium"
+        ],
+        "wiki": "Bristol County Ground",
+        "values": [
+          1
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-26",
+          "key": "567w6c"
+        },
+        "views": 22391
+      },
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Home of Cricket"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-26",
+          "key": "q6cidx"
+        },
+        "views": 149180,
+        "override": {
+          "tier": "single",
+          "reason": "Only one women's Test, but it's the most famous ground in England and an obvious first guess"
+        }
+      }
+    ]
+  },
+  {
+    "id": "india-mens-odi-grounds-before-2026",
+    "prompt": "Name a ground in India that hosted a men's ODI before 2026",
+    "category": "Indian ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "odi",
+      "international",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_cricket_grounds_in_India"
+    ],
+    "metrics": [
+      {
+        "label": "Men's ODIs hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Outswinger",
+    "answers": [
+      {
+        "name": "Sardar Vallabhbhai Patel Stadium",
+        "aliases": [
+          "Navrangpura",
+          "SVP Stadium"
+        ],
+        "wiki": "Sardar Vallabhbhai Patel Stadium, Navrangpura",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "views": 4935,
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "16ejhyq"
+        }
+      },
+      {
+        "name": "Gandhi Stadium, Jalandhar",
+        "aliases": [
+          "Jalandhar",
+          "Gandhi Stadium"
+        ],
+        "wiki": "Gandhi Stadium",
+        "values": [
+          3
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Gandhi Stadium",
+          "date": "2026-11-26",
+          "key": "1xjmdya"
+        },
+        "views": 4107
+      },
+      {
+        "name": "Barabati Stadium",
+        "aliases": [
+          "Cuttack"
+        ],
+        "values": [
+          20
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Barabati Stadium",
+          "date": "2026-11-26",
+          "key": "18gpwnj"
+        },
+        "views": 38632
+      },
+      {
+        "name": "Gandhi Sports Complex Ground",
+        "aliases": [
+          "Amritsar"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Gandhi Sports Complex Ground",
+          "date": "2026-11-26",
+          "key": "1cxaezx"
+        },
+        "views": 2809
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "aliases": [
+          "Feroz Shah Kotla",
+          "Kotla",
+          "Delhi",
+          "New Delhi"
+        ],
+        "values": [
+          31
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "1tp4wkn"
+        },
+        "wiki": "Arun Jaitley Cricket Stadium",
+        "views": 72890
+      },
+      {
+        "name": "M. Chinnaswamy Stadium",
+        "aliases": [
+          "Chinnaswamy",
+          "Bangalore",
+          "Bengaluru"
+        ],
+        "values": [
+          31
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "M. Chinnaswamy Stadium",
+          "date": "2026-11-26",
+          "key": "1rh8n8z"
+        },
+        "views": 95811
+      },
+      {
+        "name": "Lal Bahadur Shastri Stadium",
+        "aliases": [
+          "Fateh Maidan"
+        ],
+        "wiki": "Lal Bahadur Shastri Stadium, Hyderabad",
+        "values": [
+          14
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Lal Bahadur Shastri Stadium, Hyderabad",
+          "date": "2026-11-26",
+          "key": "1v72f26"
+        },
+        "views": 16121
+      },
+      {
+        "name": "Sawai Mansingh Stadium",
+        "aliases": [
+          "Jaipur"
+        ],
+        "values": [
+          19
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Sawai Mansingh Stadium",
+          "date": "2026-11-26",
+          "key": "eiaso7"
+        },
+        "views": 35883
+      },
+      {
+        "name": "Sher-i-Kashmir Stadium",
+        "aliases": [
+          "Srinagar"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "69mi73"
+        },
+        "views": 4935
+      },
+      {
+        "name": "Moti Bagh Stadium",
+        "aliases": [
+          "Moti Bagh"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Moti Bagh Stadium",
+          "date": "2026-11-26",
+          "key": "1pfsvho"
+        },
+        "views": 5998
+      },
+      {
+        "name": "Nehru Stadium, Indore",
+        "values": [
+          9
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Nehru Stadium, Indore",
+          "date": "2026-11-26",
+          "key": "7gqw8h"
+        },
+        "views": 5534
+      },
+      {
+        "name": "Keenan Stadium",
+        "aliases": [
+          "Jamshedpur"
+        ],
+        "values": [
+          10
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Keenan Stadium",
+          "date": "2026-11-26",
+          "key": "nczy91"
+        },
+        "views": 9933
+      },
+      {
+        "name": "Nehru Stadium, Guwahati",
+        "values": [
+          14
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Nehru Stadium, Guwahati",
+          "date": "2026-11-26",
+          "key": "sdi4g"
+        },
+        "views": 8051
+      },
+      {
+        "name": "Jawaharlal Nehru Stadium, Delhi",
+        "values": [
+          2
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Jawaharlal Nehru Stadium, Delhi",
+          "date": "2026-11-26",
+          "key": "m3k4c1"
+        },
+        "views": 51721
+      },
+      {
+        "name": "University Stadium, Thiruvananthapuram",
+        "wiki": "University Stadium (Thiruvananthapuram)",
+        "values": [
+          2
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "University Stadium (Thiruvananthapuram)",
+          "date": "2026-11-26",
+          "key": "zenw9o"
+        },
+        "views": 1944,
+        "aliases": [
+          "University Stadium"
+        ]
+      },
+      {
+        "name": "Narendra Modi Stadium",
+        "aliases": [
+          "Motera",
+          "Ahmedabad",
+          "Sardar Patel Stadium",
+          "Sardar Patel Gujarat Stadium",
+          "Motera Stadium"
+        ],
+        "values": [
+          32
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Narendra Modi Stadium",
+          "date": "2026-11-26",
+          "key": "1qbfatm"
+        },
+        "views": 620850
+      },
+      {
+        "name": "Nehru Stadium, Pune",
+        "values": [
+          11
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Nehru Stadium, Pune",
+          "date": "2026-11-26",
+          "key": "spbxq"
+        },
+        "views": 6153
+      },
+      {
+        "name": "Vidarbha Cricket Association Ground",
+        "aliases": [
+          "VCA Ground",
+          "Civil Lines"
+        ],
+        "values": [
+          14
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Ground",
+          "date": "2026-11-26",
+          "key": "1qwvdg8"
+        },
+        "views": 7465
+      },
+      {
+        "name": "Sector 16 Stadium",
+        "aliases": [
+          "Chandigarh"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Sector 16 Stadium",
+          "date": "2026-11-26",
+          "key": "1ultvda"
+        },
+        "views": 6375
+      },
+      {
+        "name": "Madhavrao Scindia Cricket Ground",
+        "aliases": [
+          "Racecourse Ground, Rajkot"
+        ],
+        "values": [
+          12
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Madhavrao Scindia Cricket Ground",
+          "date": "2026-11-26",
+          "key": "1izc80l"
+        },
+        "views": 3673
+      },
+      {
+        "name": "Green Park",
+        "aliases": [
+          "Kanpur"
+        ],
+        "wiki": "Green Park Stadium",
+        "values": [
+          15
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Green Park Stadium",
+          "date": "2026-11-26",
+          "key": "1sz0sak"
+        },
+        "views": 21243
+      },
+      {
+        "name": "Wankhede Stadium",
+        "aliases": [
+          "Mumbai",
+          "Bombay"
+        ],
+        "values": [
+          28
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-26",
+          "key": "1y3yv8w"
+        },
+        "views": 150283
+      },
+      {
+        "name": "Eden Gardens",
+        "aliases": [
+          "Kolkata",
+          "Calcutta"
+        ],
+        "values": [
+          36
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-26",
+          "key": "1j2n4dv"
+        },
+        "views": 154038
+      },
+      {
+        "name": "M. A. Chidambaram Stadium",
+        "aliases": [
+          "Chepauk",
+          "Chennai",
+          "Madras"
+        ],
+        "values": [
+          29
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "M. A. Chidambaram Stadium",
+          "date": "2026-11-26",
+          "key": "1xbfjns"
+        },
+        "views": 102895
+      },
+      {
+        "name": "Nahar Singh Stadium",
+        "aliases": [
+          "Faridabad"
+        ],
+        "values": [
+          8
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Nahar Singh Stadium",
+          "date": "2026-11-26",
+          "key": "1bwsx6l"
+        },
+        "views": 11967
+      },
+      {
+        "name": "Captain Roop Singh Stadium",
+        "aliases": [
+          "Roop Singh Stadium",
+          "Gwalior"
+        ],
+        "values": [
+          12
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Captain Roop Singh Stadium",
+          "date": "2026-11-26",
+          "key": "1f6663i"
+        },
+        "views": 7890
+      },
+      {
+        "name": "Indira Priyadarshini Stadium",
+        "values": [
+          5
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Indira Priyadarshini Stadium",
+          "date": "2026-11-26",
+          "key": "5k6xei"
+        },
+        "views": 3932
+      },
+      {
+        "name": "Brabourne Stadium",
+        "aliases": [
+          "Brabourne",
+          "CCI"
+        ],
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Brabourne Stadium",
+          "date": "2026-11-26",
+          "key": "bzksoh"
+        },
+        "views": 39285
+      },
+      {
+        "name": "Nehru Stadium, Margao",
+        "aliases": [
+          "Fatorda",
+          "Margao",
+          "Goa"
+        ],
+        "wiki": "Jawaharlal Nehru Stadium (Margao)",
+        "values": [
+          7
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "fku3hd"
+        },
+        "views": 4935
+      },
+      {
+        "name": "K. D. Singh Babu Stadium",
+        "wiki": "K. D. Singh Babu Stadium, Lucknow",
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "K. D. Singh Babu Stadium, Lucknow",
+          "date": "2026-11-26",
+          "key": "vpsixf"
+        },
+        "views": 10944
+      },
+      {
+        "name": "Moin-ul-Haq Stadium",
+        "aliases": [
+          "Patna"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Moin-ul-Haq Stadium",
+          "date": "2026-11-26",
+          "key": "130vpqq"
+        },
+        "views": 20675
+      },
+      {
+        "name": "Punjab Cricket Association Stadium",
+        "aliases": [
+          "PCA Stadium",
+          "Mohali",
+          "IS Bindra Stadium"
+        ],
+        "values": [
+          26
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "1bmgwk6"
+        },
+        "views": 4935,
+        "override": {
+          "tier": "single",
+          "reason": "Views are the ODI grounds list's (the source links a redirect); Mohali is one of India's best-known grounds"
+        }
+      },
+      {
+        "name": "Reliance Stadium",
+        "aliases": [
+          "IPCL Ground",
+          "Vadodara",
+          "Baroda"
+        ],
+        "values": [
+          10
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Reliance Stadium",
+          "date": "2026-11-26",
+          "key": "zixvq9"
+        },
+        "views": 7688
+      },
+      {
+        "name": "Jawaharlal Nehru Stadium, Kochi",
+        "aliases": [
+          "Kochi",
+          "Cochin"
+        ],
+        "wiki": "Jawaharlal Nehru Stadium (Kochi)",
+        "values": [
+          9
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Jawaharlal Nehru Stadium (Kochi)",
+          "date": "2026-11-26",
+          "key": "108r3ap"
+        },
+        "views": 39802
+      },
+      {
+        "name": "Barkatullah Khan Stadium",
+        "aliases": [
+          "Jodhpur"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Barkatullah Khan Stadium",
+          "date": "2026-11-26",
+          "key": "1w5s9ed"
+        },
+        "views": 6591
+      },
+      {
+        "name": "Indira Gandhi Stadium, Vijayawada",
+        "aliases": [
+          "Vijayawada",
+          "Indira Gandhi Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Indira Gandhi Stadium (Vijayawada)",
+          "date": "2026-11-26",
+          "key": "18tonnb"
+        },
+        "views": 4553
+      },
+      {
+        "name": "ACA–VDCA Cricket Stadium",
+        "aliases": [
+          "ACA-VDCA Stadium",
+          "Visakhapatnam",
+          "Vizag"
+        ],
+        "values": [
+          11
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "ACA–VDCA Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "18bmit1"
+        },
+        "views": 42485
+      },
+      {
+        "name": "Rajiv Gandhi International Cricket Stadium, Hyderabad",
+        "aliases": [
+          "Uppal",
+          "Hyderabad",
+          "Rajiv Gandhi International Cricket Stadium",
+          "Rajiv Gandhi International Stadium",
+          "Rajiv Gandhi Stadium"
+        ],
+        "wiki": "Rajiv Gandhi International Cricket Stadium",
+        "values": [
+          10
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Rajiv Gandhi International Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "ohzjxz"
+        },
+        "views": 63452
+      },
+      {
+        "name": "Holkar Cricket Stadium",
+        "aliases": [
+          "Holkar Stadium",
+          "Indore"
+        ],
+        "values": [
+          8
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Holkar Stadium",
+          "date": "2026-11-26",
+          "key": "12n5qqq"
+        },
+        "wiki": "Holkar Stadium",
+        "views": 37094
+      },
+      {
+        "name": "Vidarbha Cricket Association Stadium",
+        "aliases": [
+          "VCA Stadium",
+          "Jamtha",
+          "Nagpur"
+        ],
+        "values": [
+          10
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Stadium",
+          "date": "2026-11-26",
+          "key": "yzj224"
+        },
+        "views": 28533
+      },
+      {
+        "name": "Saurashtra Cricket Association Stadium",
+        "aliases": [
+          "SCA Stadium",
+          "Khandheri",
+          "Rajkot"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "1w0jrgj"
+        },
+        "views": 4935
+      },
+      {
+        "name": "JSCA International Cricket Stadium",
+        "aliases": [
+          "JSCA Stadium",
+          "Ranchi"
+        ],
+        "values": [
+          7
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "JSCA International Stadium Complex",
+          "date": "2026-11-26",
+          "key": "19slano"
+        },
+        "wiki": "JSCA International Stadium Complex",
+        "views": 46591
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "aliases": [
+          "HPCA Stadium",
+          "Dharamshala",
+          "Dharamsala"
+        ],
+        "values": [
+          10
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Himachal Pradesh Cricket Association Stadium",
+          "date": "2026-11-26",
+          "key": "ktsj"
+        },
+        "views": 65056
+      },
+      {
+        "name": "Maharashtra Cricket Association Stadium",
+        "aliases": [
+          "MCA Stadium",
+          "Gahunje",
+          "Pune"
+        ],
+        "values": [
+          12
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Maharashtra Cricket Association Stadium",
+          "date": "2026-11-26",
+          "key": "e2j9fq"
+        },
+        "views": 26289
+      },
+      {
+        "name": "Greater Noida Sports Complex Ground",
+        "aliases": [
+          "Greater Noida"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Shaheed Vijay Singh Pathik Sports Complex",
+          "date": "2026-11-26",
+          "key": "15jj7cc"
+        },
+        "wiki": "Shaheed Vijay Singh Pathik Sports Complex",
+        "views": 10654
+      },
+      {
+        "name": "Barsapara Cricket Stadium",
+        "aliases": [
+          "Barsapara",
+          "ACA Stadium",
+          "Guwahati"
+        ],
+        "wiki": "Assam Cricket Association Stadium, Guwahati",
+        "values": [
+          3
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-26",
+          "key": "11uz0jk"
+        },
+        "views": 4935
+      },
+      {
+        "name": "Greenfield International Stadium",
+        "aliases": [
+          "Greenfield Stadium",
+          "Thiruvananthapuram",
+          "Trivandrum"
+        ],
+        "values": [
+          3
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Greenfield International Stadium",
+          "date": "2026-11-26",
+          "key": "1duhdy5"
+        },
+        "views": 28864
+      },
+      {
+        "name": "Rajiv Gandhi International Cricket Stadium, Dehradun",
+        "aliases": [
+          "Dehradun"
+        ],
+        "values": [
+          5
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Rajiv Gandhi International Cricket Stadium, Dehradun",
+          "date": "2026-11-26",
+          "key": "rkuigy"
+        },
+        "views": 18486
+      },
+      {
+        "name": "Ekana Cricket Stadium",
+        "aliases": [
+          "Ekana",
+          "Atal Bihari Vajpayee Ekana Cricket Stadium",
+          "Lucknow"
+        ],
+        "values": [
+          10
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Ekana Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "1tuhcgq"
+        },
+        "views": 78892
+      },
+      {
+        "name": "Shaheed Veer Narayan Singh International Cricket Stadium",
+        "aliases": [
+          "Raipur"
+        ],
+        "values": [
+          2
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Shaheed Veer Narayan Singh International Cricket Stadium",
+          "date": "2026-11-26",
+          "key": "3xnw3z"
+        },
+        "views": 85273
+      }
+    ]
+  },
+  {
+    "id": "county-clubs-first-formed-before-1880",
+    "prompt": "Name a county whose county cricket club was first formed before 1880",
+    "category": "Oldest county clubs",
+    "answerType": "county",
+    "tags": [
+      "men",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/County_cricket"
+    ],
+    "metrics": [
+      {
+        "label": "Year the club was first formed",
+        "rarerWhen": "higher"
+      }
+    ],
+    "specificWeight": 0.3,
+    "rating": {
+      "recency": 2,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Knuckle ball",
+    "answers": [
+      {
+        "name": "Norfolk",
+        "wiki": "Norfolk County Cricket Club",
+        "values": [
+          1827
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Norfolk County Cricket Club",
+          "date": "2026-11-26",
+          "key": "1skbuqx"
+        },
+        "views": 3857
+      },
+      {
+        "name": "Huntingdonshire",
+        "aliases": [
+          "Hunts"
+        ],
+        "wiki": "Huntingdonshire County Cricket Club",
+        "values": [
+          1831
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Huntingdonshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "1wkerkb"
+        },
+        "views": 1977
+      },
+      {
+        "name": "Herefordshire",
+        "aliases": [
+          "Hereford"
+        ],
+        "wiki": "Herefordshire County Cricket Club",
+        "values": [
+          1836
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Herefordshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "9tb164"
+        },
+        "views": 1738
+      },
+      {
+        "name": "Sussex",
+        "wiki": "Sussex County Cricket Club",
+        "values": [
+          1839
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Sussex County Cricket Club",
+          "date": "2026-11-26",
+          "key": "1g8qdx3"
+        },
+        "views": 45870
+      },
+      {
+        "name": "Nottinghamshire",
+        "aliases": [
+          "Notts"
+        ],
+        "wiki": "Nottinghamshire County Cricket Club",
+        "values": [
+          1841
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Nottinghamshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "yy34mp"
+        },
+        "views": 51547
+      },
+      {
+        "name": "Kent",
+        "wiki": "Kent County Cricket Club",
+        "values": [
+          1842
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-26",
+          "key": "1tidy67"
+        },
+        "views": 43478
+      },
+      {
+        "name": "Cambridgeshire",
+        "aliases": [
+          "Cambs"
+        ],
+        "wiki": "Cambridgeshire County Cricket Club",
+        "values": [
+          1844
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Cambridgeshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "g8qez7"
+        },
+        "views": 2989
+      },
+      {
+        "name": "Surrey",
+        "wiki": "Surrey County Cricket Club",
+        "values": [
+          1845
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Surrey County Cricket Club",
+          "date": "2026-11-26",
+          "key": "tcahd7"
+        },
+        "views": 68641
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hants"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "values": [
+          1863
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "nogp3z"
+        },
+        "views": 60084
+      },
+      {
+        "name": "Yorkshire",
+        "aliases": [
+          "Yorks"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "values": [
+          1863
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "jca92p"
+        },
+        "views": 70783
+      },
+      {
+        "name": "Lancashire",
+        "aliases": [
+          "Lancs"
+        ],
+        "wiki": "Lancashire County Cricket Club",
+        "values": [
+          1864
+        ],
+        "tier": "single",
+        "verified": {
+          "wiki": "Lancashire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "6dl42y"
+        },
+        "views": 60548
+      },
+      {
+        "name": "Middlesex",
+        "aliases": [
+          "Middx"
+        ],
+        "wiki": "Middlesex County Cricket Club",
+        "values": [
+          1864
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Middlesex County Cricket Club",
+          "date": "2026-11-26",
+          "key": "12nqnib"
+        },
+        "views": 49472
+      },
+      {
+        "name": "Worcestershire",
+        "aliases": [
+          "Worcs"
+        ],
+        "wiki": "Worcestershire County Cricket Club",
+        "values": [
+          1865
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Worcestershire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "alxevl"
+        },
+        "views": 33581
+      },
+      {
+        "name": "Devon",
+        "wiki": "Devon County Cricket Club",
+        "values": [
+          1867
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Devon County Cricket Club",
+          "date": "2026-11-26",
+          "key": "1vx5k5z"
+        },
+        "views": 4209
+      },
+      {
+        "name": "Derbyshire",
+        "aliases": [
+          "Derbys"
+        ],
+        "wiki": "Derbyshire County Cricket Club",
+        "values": [
+          1870
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Derbyshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "zyg48y"
+        },
+        "views": 32212
+      },
+      {
+        "name": "Gloucestershire",
+        "aliases": [
+          "Gloucs",
+          "Glos"
+        ],
+        "wiki": "Gloucestershire County Cricket Club",
+        "values": [
+          1871
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Gloucestershire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "181jjh7"
+        },
+        "views": 38762
+      },
+      {
+        "name": "Staffordshire",
+        "aliases": [
+          "Staffs"
+        ],
+        "wiki": "Staffordshire County Cricket Club",
+        "values": [
+          1871
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Staffordshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "vmrhiw"
+        },
+        "views": 3904
+      },
+      {
+        "name": "Somerset",
+        "wiki": "Somerset County Cricket Club",
+        "values": [
+          1875
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-26",
+          "key": "5shnbj"
+        },
+        "views": 59895
+      },
+      {
+        "name": "Essex",
+        "wiki": "Essex County Cricket Club",
+        "values": [
+          1876
+        ],
+        "tier": "four",
+        "verified": {
+          "wiki": "Essex County Cricket Club",
+          "date": "2026-11-26",
+          "key": "7dde27"
+        },
+        "views": 40010
+      },
+      {
+        "name": "Hertfordshire",
+        "aliases": [
+          "Herts"
+        ],
+        "wiki": "Hertfordshire County Cricket Club",
+        "values": [
+          1876
+        ],
+        "tier": "ootg",
+        "verified": {
+          "wiki": "Hertfordshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "by2snz"
+        },
+        "views": 3067
+      },
+      {
+        "name": "Northamptonshire",
+        "aliases": [
+          "Northants"
+        ],
+        "wiki": "Northamptonshire County Cricket Club",
+        "values": [
+          1878
+        ],
+        "tier": "two",
+        "verified": {
+          "wiki": "Northamptonshire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "vjbxhs"
+        },
+        "views": 44595
+      },
+      {
+        "name": "Leicestershire",
+        "aliases": [
+          "Leics"
+        ],
+        "wiki": "Leicestershire County Cricket Club",
+        "values": [
+          1879
+        ],
+        "tier": "six",
+        "verified": {
+          "wiki": "Leicestershire County Cricket Club",
+          "date": "2026-11-26",
+          "key": "e657hf"
+        },
+        "views": 33687
+      }
+    ]
+  }
+]

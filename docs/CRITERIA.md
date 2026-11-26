@@ -108,6 +108,8 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] A page left open picks up a new deploy by itself, reloading only on a screen outside a ball, and at most once per deploy. 🤖
 - [ ] Corrupt or old-version storage is discarded safely, not crashing the app. 🤖
 - [ ] Share text contains no answers. 🤖
+- [ ] What's new shows each item once per browser, newest first and at most 5; a new player sees How to play and never What's new. 🤖
+- [ ] Only gameplay changes and easily missed features get a What's new item (REQUIREMENTS §10a); visual changes and new questions don't.
 
 ## Engineering
 

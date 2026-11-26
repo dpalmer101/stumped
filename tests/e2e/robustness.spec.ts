@@ -209,7 +209,9 @@ test("an over started before midnight stays playable from the home screen", asyn
   await expect(page.getByRole("button", { name: "Face ball Two" })).toBeVisible();
 });
 
-test("first visit shows How to play once; it can be reopened from home", async ({ context }) => {
+test("first visit shows How to play once, never What's new; it can be reopened from home", async ({
+  context,
+}) => {
   await context.addInitScript(() => {
     if (sessionStorage.getItem("fresh")) return;
     sessionStorage.setItem("fresh", "1");
@@ -281,6 +283,46 @@ test("?reset clears saved progress on a local copy", async ({ context }) => {
   await page.goto("./?reset");
   await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeVisible();
   expect(page.url()).not.toContain("reset");
+});
+
+test("a returning player sees What's new once", async ({ context }) => {
+  await context.addInitScript(() => {
+    if (sessionStorage.getItem("fresh")) return;
+    sessionStorage.setItem("fresh", "1");
+    // Saved before What's new existed: help seen, no seenNews.
+    localStorage.setItem(
+      "stumped",
+      JSON.stringify({ version: 1, muted: true, seenHelp: true, innings: null, history: {} }),
+    );
+  });
+  const page = await open(context, LAUNCH);
+  const sheet = page.getByRole("dialog", { name: "What's new" });
+  await expect(sheet).toBeVisible();
+  await expect(sheet).toContainText("fast ball");
+  await expect(page.getByRole("button", { name: "Got it" })).toBeFocused();
+  // The page behind can't be scrolled while the sheet is up, and can again after.
+  const overflow = () =>
+    page.evaluate(() => ({
+      html: getComputedStyle(document.documentElement).overflow,
+      body: getComputedStyle(document.body).overflow,
+    }));
+  expect(await overflow()).toEqual({ html: "hidden", body: "hidden" });
+  // Tall enough to scroll if the lock failed. Mobile WebKit has no mouse wheel.
+  await page.evaluate(() => {
+    document.documentElement.style.height = "300vh";
+  });
+  if (!test.info().project.name.includes("mobile")) {
+    await page.mouse.move(200, 100);
+    await page.mouse.wheel(0, 800);
+    await page.waitForTimeout(100);
+    expect(await page.evaluate(() => window.scrollY)).toBe(0);
+  }
+  await page.keyboard.press("Escape");
+  await expect(sheet).toHaveCount(0);
+  expect((await overflow()).html).not.toBe("hidden");
+  await expect(page.getByRole("button", { name: "Walk out to bat" })).toBeFocused();
+  await page.reload();
+  await expect(page.getByRole("dialog")).toHaveCount(0);
 });
 
 test("How to play is a proper modal for keyboard users", async ({ context }) => {

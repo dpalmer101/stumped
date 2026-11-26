@@ -50,6 +50,15 @@ describe("storage", () => {
     expect(loaded.history[1]?.runs).toBe(5);
   });
 
+  it("keeps the seen news ids, and treats an older save as having seen none", () => {
+    const raw = (extra: object) => JSON.stringify({ version: 1, seenHelp: true, ...extra });
+    expect(load(memoryStore(raw({ seenNews: ["deliveries", 3] }))).seenNews).toEqual([
+      "deliveries",
+    ]);
+    expect(load(memoryStore(raw({}))).seenNews).toEqual([]);
+    expect(load(memoryStore(raw({ seenNews: "deliveries" }))).seenNews).toEqual([]);
+  });
+
   it("survives a store that throws", () => {
     const broken = {
       getItem: () => {

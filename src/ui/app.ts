@@ -13,6 +13,7 @@ import {
   total,
 } from "../engine/innings";
 import { createMatcher, type Matcher, normalise } from "../engine/match";
+import { type NewsItem, newsIds, unseenNews } from "../engine/news";
 import { isNight } from "../engine/night";
 import { puzzleDate, puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
@@ -36,6 +37,7 @@ import {
 } from "../engine/types";
 import { browserStore, load, readRaw, type Saved, STORAGE_KEY, save, THEME_KEYS } from "../storage";
 import { Sound } from "./audio";
+import { bowledBall } from "./pixels";
 import { pickQuote } from "./quotes";
 import { duckSvg, Pitch, sceneSvg } from "./scene";
 import { THEMES } from "./themes";
@@ -137,6 +139,17 @@ const HOW_TO_PLAY = `<div class="sheet-backdrop">
     <button class="btn wide" data-act="help-close">Got it</button>
   </section>
 </div>`;
+
+function whatsNew(items: NewsItem[]) {
+  const list = items.map((n) => `<li><h3>${n.title}</h3><p>${n.body}</p></li>`).join("");
+  return `<div class="sheet-backdrop">
+  <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="news-title">
+    <div class="news-head">${bowledBall("var(--muted)")}<h2 id="news-title">What's new</h2></div>
+    <ul class="news">${list}</ul>
+    <button class="btn wide" data-act="news-close">Got it</button>
+  </section>
+</div>`;
+}
 
 const BALL_NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
 /** Balls are named, not numbered ("Ball Three"), like a commentator would. */
@@ -262,7 +275,9 @@ export class App {
     root.addEventListener("click", (e) => this.onClick(e));
     root.addEventListener("submit", (e) => this.onSubmit(e));
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && this.root.querySelector(".sheet")) this.closeHelp();
+      if (e.key !== "Escape") return;
+      if (this.root.querySelector('[data-act="news-close"]')) this.closeNews();
+      else if (this.root.querySelector(".sheet")) this.closeHelp();
     });
     // Another tab saved: adopt its state so two tabs can't restart or replay a ball.
     window.addEventListener("storage", (e) => {
@@ -407,6 +422,8 @@ export class App {
     this.helpOpen = false;
     if (!this.saved.seenHelp) {
       this.saved.seenHelp = true;
+      // A new player has just learnt the game as it is now: nothing in What's new is news to them.
+      this.saved.seenNews = newsIds();
       this.persist();
     }
     this.render();
@@ -414,6 +431,14 @@ export class App {
     this.root
       .querySelector<HTMLButtonElement>(`[data-act="${reopened ? "help" : "walk"}"]`)
       ?.focus();
+  }
+
+  /** Marks every item seen, older ones past the cap too, so none turns up later. */
+  private closeNews() {
+    this.saved.seenNews = [...new Set([...this.saved.seenNews, ...newsIds()])];
+    this.persist();
+    this.render();
+    this.root.querySelector<HTMLButtonElement>('[data-act="walk"]')?.focus();
   }
 
   private faceNext() {
@@ -495,6 +520,7 @@ export class App {
         ? recordArchiveInnings(history, this.innings)
         : history;
       this.saved.counted = [...new Set([...stored.counted, ...this.saved.counted])].slice(-60);
+      this.saved.seenNews = [...new Set([...stored.seenNews, ...this.saved.seenNews])];
       // Today's innings belongs to today's play, maybe in another tab: leave it as stored.
       this.saved.innings = stored.innings ?? this.saved.innings;
       this.saved.archive = { innings: this.innings, counts: this.archiveCounts };
@@ -507,6 +533,7 @@ export class App {
     const newer = !!stored.innings && stored.innings.puzzle > this.innings.puzzle;
     this.saved.history = { ...stored.history, ...recordInnings(this.saved.history, this.innings) };
     this.saved.counted = [...new Set([...stored.counted, ...this.saved.counted])].slice(-60);
+    this.saved.seenNews = [...new Set([...stored.seenNews, ...this.saved.seenNews])];
     this.saved.innings = newer ? stored.innings : this.innings;
     save(this.store, this.saved);
     this.lastRaw = readRaw(this.store);
@@ -607,7 +634,7 @@ export class App {
       const sheet = this.root.querySelector(".sheet");
       if (sheet) {
         this.root.querySelector("main")?.setAttribute("inert", "");
-        sheet.querySelector<HTMLButtonElement>('[data-act="help-close"]')?.focus();
+        sheet.querySelector<HTMLButtonElement>(".btn.wide")?.focus();
       }
     } else if (this.view === "play") this.renderPlay();
     else if (this.view === "scorecard") this.renderScorecard();
@@ -675,7 +702,14 @@ export class App {
       <div class="home-links"><button class="btn ghost" data-act="help">How to play</button>${
         this.beforeLaunch() ? "" : `<button class="btn ghost" data-act="archive">Archive</button>`
       }</div>${stat}${this.installHtml()}<footer class="copyright">${COPYRIGHT}</footer></main>
-      ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;
+      ${this.sheetHtml()}`;
+  }
+
+  /** How to play comes first: a new player never gets What's new. */
+  private sheetHtml() {
+    if (this.helpOpen || !this.saved.seenHelp) return HOW_TO_PLAY;
+    const news = unseenNews(this.saved.seenNews);
+    return news.length ? whatsNew(news) : "";
   }
 
   private dayLabel(puzzle: number): string {
@@ -1434,6 +1468,8 @@ export class App {
         return this.render();
       case "help-close":
         return this.closeHelp();
+      case "news-close":
+        return this.closeNews();
       case "next":
         this.showing = null;
         this.view = isComplete(this.innings) ? "scorecard" : "play";

@@ -164,6 +164,23 @@ Run out, Hit wicket.
   pitch instead of pushing the timer and question off screen. It doesn't scroll, so dragging it
   with the keyboard up does nothing rather than jittering (from the answer box too; pinch zoom still works).
 
+## 10a. What's new
+
+- A returning player who opens the home screen with news they haven't seen gets a **What's new**
+  sheet listing it, newest first, at most the latest 5. "Got it" (or Escape) marks every item seen,
+  including any past the 5, so each item is shown at most once per browser.
+- A new player gets How to play instead and never sees What's new: closing How to play for the
+  first time marks every current item seen.
+- Items live in `src/engine/news.ts`; each has an id that is stored once seen, so ids never change.
+- **What to announce:** only changes that meaningfully change how the game is played, or a
+  feature a player could miss in normal play but would benefit from (a new archive, say). Don't
+  announce visual changes, new questions, new kinds of question, fixes or tweaks to wording. Keep
+  it rare: a sheet every week trains players to dismiss it unread.
+- **How to write one:** really short: a title of a word or two and at most three short sentences.
+  Playful and creative, in the game's cricket voice (a pun or a wink is welcome), but the player
+  must still come away knowing exactly what changed. For example: "Every ball now has a delivery.
+  A fast ball gives you 15 seconds, a slower ball 25. Anything else? Same 20 seconds."
+
 ## 11. Sharing
 
 - **Share** opens the device's share sheet wherever the browser offers one (phones and most desktops,
@@ -245,3 +262,4 @@ the anonymous counts in §1.
 - 2026-11-26: Women's-only questions score 1 harder than the men's equivalent, and women's player questions 2 harder (knowing the men's game helps with teams and grounds, not players).
 - 2026-11-26: At most one women's cricket question a day (from day 5; day 4 had started). Questions open to men's and women's answers don't count. Days 6 and 7, and 14 and 15, swapped a question each to fit.
 - 2026-11-26: At the owner's request, day 4 changed a few hours after it started at UTC+14, so the one-women's-question rule now applies from day 4: two of its three women's questions swapped with men's questions from days 8 and 10. Changes like this to a started day are recorded in `src/data/relocked-days.json`, which the lock and CI checks accept.
+- 2026-11-26: A one-time What's new sheet tells returning players about changes to how the game is played (§10a), up to the latest 5; new players skip it. First item: deliveries.

@@ -16,6 +16,8 @@ export interface Saved {
   muted: boolean;
   /** The one-time how-to-play sheet has been dismissed. */
   seenHelp: boolean;
+  /** Ids of the What's new items already shown (engine/news.ts). */
+  seenNews: string[];
   /** Anonymous play events already sent (e.g. "finished-3"), so none is counted twice. */
   counted: string[];
   innings: Innings | null;
@@ -35,6 +37,7 @@ export function defaults(): Saved {
     theme: "hundred",
     muted: false,
     seenHelp: false,
+    seenNews: [],
     counted: [],
     innings: null,
     history: {},
@@ -121,6 +124,9 @@ export function load(store: KeyValueStore | undefined): Saved {
       theme: THEME_KEYS.includes(data.theme as ThemeKey) ? (data.theme as ThemeKey) : base.theme,
       muted: data.muted === true,
       seenHelp: data.seenHelp === true,
+      seenNews: Array.isArray(data.seenNews)
+        ? data.seenNews.filter((c): c is string => typeof c === "string").slice(-100)
+        : [],
       // Only recent ones matter; cap the list so it can't grow without limit.
       counted: Array.isArray(data.counted)
         ? data.counted.filter((c): c is string => typeof c === "string").slice(-60)

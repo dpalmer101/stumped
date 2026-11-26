@@ -50,6 +50,38 @@ export function scatter(
   return s;
 }
 
+/** A 12×12 pixel cricket ball on its way down, speed lines trailing in `trail`. */
+export function bowledBall(trail: string) {
+  let s = "";
+  for (const [x, y, w] of [
+    [0, 3, 4],
+    [1, 6, 5],
+    [0, 9, 4],
+  ] as const) {
+    s += px(x, y, w, 1, trail);
+  }
+  const left = 7;
+  for (let y = 0; y < 12; y++) {
+    for (let x = 0; x < 12; x++) {
+      if ((x - 5.5) ** 2 + (y - 5.5) ** 2 > 36) continue;
+      // The seam runs corner to corner, stitched on both sides.
+      const d = x + y;
+      const fill =
+        d === 11
+          ? "#f3e6cf"
+          : (d === 10 || d === 12) && y % 2 === 0
+            ? "#e0c9a6"
+            : (y === 3 && (x === 3 || x === 4)) || (x === 3 && y === 4)
+              ? "#e45a5f"
+              : d > 15
+                ? "#8a121a"
+                : "#c21f29";
+      s += px(left + x, y, 1, 1, fill);
+    }
+  }
+  return `<svg class="pixel-ball" viewBox="0 0 ${19 * P} ${12 * P}" shape-rendering="crispEdges" aria-hidden="true">${s}</svg>`;
+}
+
 const GLYPHS: Record<string, string[]> = {
   D: ["110", "101", "101", "101", "110"],
   E: ["111", "100", "110", "100", "111"],

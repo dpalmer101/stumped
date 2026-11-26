@@ -35,6 +35,7 @@ const GIF_H = 238;
 const SCREENS = [
   ["home", "Home"],
   ["help", "How to play"],
+  ["news", "What's new"],
   ["ready", "Ball one, ready"],
   ["question", "Ball in play"],
   ["hit", "After a hit"],
@@ -126,6 +127,14 @@ async function screens(browser: Browser, theme: ThemeKey) {
   await page.getByRole("button", { name: "How to play" }).click();
   await page.locator("#htp-title").waitFor();
   await still(page, theme, "help");
+  await page.getByRole("button", { name: "Got it" }).click();
+  await page.evaluate(() => {
+    const saved = JSON.parse(localStorage.getItem("stumped") ?? "{}");
+    localStorage.setItem("stumped", JSON.stringify({ ...saved, seenNews: [] }));
+  });
+  await page.reload();
+  await page.locator("#news-title").waitFor();
+  await still(page, theme, "news");
   await page.getByRole("button", { name: "Got it" }).click();
 
   await page.getByRole("button", { name: "Walk out to bat" }).click();

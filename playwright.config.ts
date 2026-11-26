@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { NEWS } from "./src/engine/news";
 
 // Not 4173: that is where a stable preview for phones usually runs, and reusing it would test a stale build.
 const PORT = 4300;
@@ -18,6 +19,7 @@ const muted = {
             theme: "hundred",
             muted: true,
             seenHelp: true,
+            seenNews: NEWS.map((n) => n.id),
             innings: null,
             history: {},
           }),

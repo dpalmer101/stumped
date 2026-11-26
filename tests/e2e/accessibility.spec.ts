@@ -50,6 +50,10 @@ for (const theme of THEMES) {
     const themed = (page: Page) => expect(page.locator("body")).toHaveClass(`theme-${theme}`);
     const page = await open(context, LAUNCH);
     await themed(page);
+    // No seenNews, so What's new opens first.
+    await expect(page.getByRole("dialog", { name: "What's new" })).toBeVisible();
+    await audit(page, "what's new");
+    await page.getByRole("button", { name: "Got it" }).click();
     await audit(page, "home");
 
     await page.getByRole("button", { name: "Walk out to bat" }).click();

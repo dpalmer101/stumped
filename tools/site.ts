@@ -4,6 +4,7 @@ import { join } from "node:path";
 import type { Browser, Page } from "@playwright/test";
 import { preview } from "vite";
 import { LIVE_HOST } from "../src/analytics";
+import { newsIds } from "../src/engine/news";
 import type { Question, Tier } from "../src/engine/types";
 import type { ThemeKey } from "../src/storage";
 
@@ -81,6 +82,7 @@ export async function open(
                 theme,
                 muted: true,
                 seenHelp: true,
+                seenNews: newsIds(),
                 innings: null,
                 history,
               }),

@@ -9,7 +9,7 @@ import { appendDays, startedQuestionIds } from "../src/engine/locks";
 import { answerKeys, generatedForms, normalise, words } from "../src/engine/match";
 import { computeTiers, rarityScores } from "../src/engine/rarity";
 import { type Rated, rate } from "../src/engine/rating";
-import { allocate, isBroader } from "../src/engine/schedule";
+import { allocate, isBroader, REUSE_AFTER_DAYS } from "../src/engine/schedule";
 import { type Answer, BALLS_PER_INNINGS, type Question, type Schedule } from "../src/engine/types";
 import { validateContent, validateQuestion, verificationKey } from "../src/engine/validate";
 import { checkPushed, lock } from "./days";
@@ -383,14 +383,21 @@ function schedule() {
   if (broken.length) throw new Error(`Fix these first:\n${broken.join("\n")}`);
   // --ranked-only: schedule from questions that have finished verify and rank, while the rest run.
   const rankedOnly = process.argv.includes("--ranked-only");
-  // The allocator handles re-use (only after 30 days), so offer it the whole eligible pool.
   const eligible = pool.filter((q) => !rankedOnly || validateContent(q).length === 0);
   const unused = eligible.filter((q) => !current.days.flat().includes(q.id));
   const count = Number(
     process.argv.find((a) => a.startsWith("--days="))?.split("=")[1] ??
       Math.floor(unused.length / BALLS_PER_INNINGS),
   );
-  const days = allocate(eligible, count, history);
+  // Offer only questions that could go on one of the new days: the allocator spreads the first
+  // broader questions it's given one per day, and a question it can't re-use yet wastes that slot.
+  const lastDay = new Map(current.days.flatMap((d, i) => d.map((id) => [id, i] as const)));
+  const lastNewDay = current.days.length + count - 1;
+  const usable = eligible.filter((q) => {
+    const prev = lastDay.get(q.id);
+    return prev === undefined || lastNewDay - prev >= REUSE_AFTER_DAYS;
+  });
+  const days = allocate(usable, count, history);
   const extended = appendDays(
     current,
     days.map((d) => d.map((q) => q.id)),

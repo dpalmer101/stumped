@@ -11,7 +11,8 @@ npm run content:spellings  # step 1b: review every form each answer accepts
 npm run content:verify     # step 2: check every answer against Wikipedia
 npm run content:rank       # step 3: work out rarity and set tiers
 npm run content:schedule   # step 4: allocate questions to days for variety
-npm run content:report     # show each question's ranking, to review tiers
+npm run content:report     # show each question's ranking and difficulty, to review tiers
+npm run content:difficulty # every question's 1–10 difficulty, easiest first
 npm test                   # the bank rules, run offline from the stored results
 ```
 
@@ -35,12 +36,45 @@ converted with `npm run content:import -- <file>`. A question:
   "tags": ["men", "test", "england"], // see Variety below
   "sources": ["https://en.wikipedia.org/wiki/List_of_England_cricket_captains"],
   "metrics": [{ "label": "Tests as captain", "rarerWhen": "lower" }],
+  "rating": { "recency": 1, "breadth": 2, "conditions": 0 }, // see Difficulty rating below
   "answers": [
     { "name": "Michael Vaughan", "aliases": ["Mike Vaughan"], "values": [51] },
     { "name": "Mark Butcher", "wiki": "Mark Butcher", "values": [1] }
   ]
 }
 ```
+
+### Difficulty rating
+
+Every question gets a difficulty from 1 (easy) to 10 (hard), for the content reports only: players
+never see it, and the scheduler still balances days on fame (see Schedule). Seven factors each
+score 0 (easier) to 2 (harder), and their total maps onto 1–10.
+
+The writer judges three, in `rating`:
+
+| Factor       | 0                                                                     | 1                                 | 2                  |
+| ------------ | --------------------------------------------------------------------- | --------------------------------- | ------------------ |
+| `recency`    | answers mostly from the last 10 years, or timeless (shots, positions) | a mix, or a long span             | mostly before 2000 |
+| `breadth`    | many countries, competitions or kinds of thing to pick from           | a few                             | one narrow pool    |
+| `conditions` | one simple condition                                                  | two (e.g. a country and a format) | three or more      |
+
+Count each thing an answer must be, such as a country, a format, an achievement or "won the
+final"; a date bound doesn't count. "An England man who scored a century on Test debut" has three.
+
+The tools measure the other four:
+
+- `answers`: 33 or more right answers is 0, 21–32 is 1, 20 is 2 (more to find is easier).
+- `fame`: how little-known the best-known answers are, in thirds of the bank, comparing only
+  questions measured the same way (page views or mentions).
+- `guessable`: grounds, countries, counties, and teams that aren't franchises (national and
+  domestic sides are named after places) are 0, as places can be guessed; players are 2 and the
+  rest 1.
+- `niche`: 1 for women's-only questions (`women` without `men`) and 1 for `domestic`, which fewer
+  people follow.
+
+`npm run content:difficulty` lists every question's score and factors, easiest first, with the
+average for each scheduled day. `content:report` shows it per question and `content:gaps` shows
+how many easy (1–3), medium (4–7) and hard (8–10) questions there are.
 
 ### Drafting from list pages
 
@@ -58,7 +92,7 @@ It takes one answer per row from each "wikitable" on the pages (the name-like co
 `wiki` set to the article the page links to, so it verifies first time. `--value` fills `values`
 from a numeric column, for a metric. The table headers are printed so you can narrow it with
 `--tables`. The draft goes to `content-drafts/<id>.json` (not committed): trim it, write the
-prompt, category and tags, add aliases, then move it into a batch file.
+prompt, category, tags and difficulty `rating`, add aliases, then move it into a batch file.
 
 Rules for the question:
 

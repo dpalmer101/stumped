@@ -219,3 +219,4 @@ the anonymous counts in §1.
 - 2026-11-25: Ball one greets the player by local time: "Good morning" 5am–noon, "Good afternoon" noon–6pm, "Good evening" 6pm–midnight, none midnight–5am.
 - 2026-11-26: All rights reserved, with no licence: the home screen footer and the README read "© 2026 Daniel Palmer. All rights reserved."
 - 2026-11-26: No two questions on a day are about the same country (from day 5; days 1–4 had already been played). Days 5–10 were re-dealt to fit.
+- 2026-11-26: Every question is rated for difficulty from 1 (easy) to 10 (hard), from recency, breadth, conditions (judged by the writer) and answer count, fame, guessability and niche (measured). Content reports only: not shown to players or used by the scheduler.

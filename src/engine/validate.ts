@@ -35,6 +35,9 @@ export function validateQuestion(q: Question): string[] {
     at("specificWeight must be between 0 and 1");
   }
   if (q.asOf !== undefined && !ISO_DATE.test(q.asOf)) at(`asOf must be YYYY-MM-DD`);
+  for (const factor of ["recency", "breadth", "conditions"] as const) {
+    if (![0, 1, 2].includes(q.rating?.[factor] as number)) at(`rating.${factor} must be 0, 1 or 2`);
+  }
   if (q.answers.length < MIN_ANSWERS) at(`has ${q.answers.length} answers, needs ${MIN_ANSWERS}`);
 
   for (const tier of TIERS) {

@@ -50,6 +50,18 @@ describe("validateQuestion", () => {
     );
   });
 
+  it("needs the writer's difficulty rating, each factor 0 to 2", () => {
+    expect(validateQuestion({ ...groundsQuestion, rating: undefined })).toEqual([
+      "test-grounds: rating.recency must be 0, 1 or 2",
+      "test-grounds: rating.breadth must be 0, 1 or 2",
+      "test-grounds: rating.conditions must be 0, 1 or 2",
+    ]);
+    const rating = { recency: 3, breadth: 0, conditions: 0 } as never;
+    expect(validateQuestion({ ...groundsQuestion, rating })).toEqual([
+      "test-grounds: rating.recency must be 0, 1 or 2",
+    ]);
+  });
+
   it("needs a value per metric and a reason for overrides", () => {
     const answers = groundsQuestion.answers.map((a, i) =>
       i === 0 ? { ...a, override: { tier: "six" as const, reason: " " } } : { ...a, values: [i] },

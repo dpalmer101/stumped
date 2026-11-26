@@ -67,6 +67,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] No duplicate answers or aliases within a question after normalisation.
 - [ ] Nearly every question has a few answers a UK fan of county and international cricket since the mid-1990s would know, or answers guessable from geography; teams named after a place accept the place name.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
+- [ ] Every question has the writer's difficulty `rating` (recency, breadth and conditions, each 0–2), so the content tools can score it 1–10. 🤖
 - [ ] Every scheduled day has 6 distinct, existing question ids.
 - [ ] Days can be added after the schedule has looped back without changing any started over; the next over plays the first new day. 🤖
 - [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)

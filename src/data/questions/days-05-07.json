@@ -4,6 +4,11 @@
     "prompt": "Name a man who captained England in a men's Test between 1970 and 2024",
     "category": "Captains",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Michael Vaughan",
@@ -367,6 +372,11 @@
     "prompt": "Name a nation that played at a men's T20 World Cup between 2007 and 2024",
     "category": "World Cups",
     "answerType": "country",
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "India",
@@ -680,6 +690,11 @@
     "prompt": "Name an Indian city that hosted a men's Test match before 2025",
     "category": "Grounds",
     "answerType": "ground",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Mumbai",
@@ -948,6 +963,11 @@
     "prompt": "Name a team that played in the men's Big Bash League, Pakistan Super League or Caribbean Premier League before 2025",
     "category": "T20 leagues",
     "answerType": "team",
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Sydney Sixers",
@@ -1289,6 +1309,11 @@
     "prompt": "Name a trophy contested in bilateral international series between Test nations (men's or women's, current or former)",
     "category": "Trophies",
     "answerType": "tournament",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "The Ashes",
@@ -1580,6 +1605,11 @@
     "prompt": "Name a Wisden Cricketer of the Year from the 2019 to 2025 editions",
     "category": "Awards",
     "answerType": "player",
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Virat Kohli",
@@ -1990,6 +2020,11 @@
     "prompt": "Name a player in England's XI for a Women's ODI World Cup final they won (1993, 2009 or 2017)",
     "category": "Women's cricket",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 2
+    },
     "answers": [
       {
         "name": "Charlotte Edwards",
@@ -2344,6 +2379,11 @@
     "prompt": "Name a man who captained India in a men's Test before 2025",
     "category": "Captains",
     "answerType": "player",
+    "rating": {
+      "recency": 2,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Sourav Ganguly",
@@ -2807,6 +2847,11 @@
     "prompt": "Name a team that played at a men's ODI World Cup between 1975 and 2023",
     "category": "World Cups",
     "answerType": "country",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Australia",
@@ -3071,6 +3116,11 @@
     "prompt": "Name an Australian ground that hosted a men's Test or ODI before 2025",
     "category": "Grounds",
     "answerType": "ground",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Melbourne Cricket Ground",
@@ -3369,6 +3419,11 @@
     "prompt": "Name a team that played in the Women's Big Bash League, the women's Hundred or the Women's Premier League before 2025",
     "category": "Women's leagues",
     "answerType": "team",
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Sydney Sixers",
@@ -3682,6 +3737,11 @@
     "prompt": "Name an England or Australia man who had played 100 or more Tests by the end of 2025",
     "category": "Milestones",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "James Anderson",
@@ -4103,6 +4163,11 @@
     "prompt": "Name a player who won the IPL Orange Cap or Purple Cap between 2008 and 2025",
     "category": "IPL",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Virat Kohli",
@@ -4452,6 +4517,11 @@
     "prompt": "Name an England man who played in a World Cup final England won (2010 T20, 2019 ODI or 2022 T20)",
     "category": "England",
     "answerType": "player",
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 2
+    },
     "answers": [
       {
         "name": "Ben Stokes",
@@ -4791,6 +4861,11 @@
     "prompt": "Name a man who captained his side in the final of a men's ICC title it won (ODI World Cup, T20 World Cup, Champions Trophy/KnockOut or WTC) before 2025",
     "category": "Captains",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 2
+    },
     "answers": [
       {
         "name": "MS Dhoni",
@@ -5111,6 +5186,11 @@
     "prompt": "Name a team that played a women's ODI before 2025",
     "category": "Women's cricket",
     "answerType": "team",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "England",
@@ -5377,6 +5457,11 @@
     "prompt": "Name a Player of the Match in a men's ODI or T20 World Cup final, up to 2024",
     "category": "World Cups",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "MS Dhoni",
@@ -5642,6 +5727,11 @@
     "prompt": "Name an England player who played a Test in the 2005 or 2010–11 Ashes",
     "category": "The Ashes",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Andrew Flintoff",
@@ -5927,6 +6017,11 @@
     "prompt": "Name a winner of the ICC's overall Cricketer of the Year award (Sobers Trophy or Rachael Heyhoe Flint Award), 2004–2024",
     "category": "Awards",
     "answerType": "player",
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Virat Kohli",
@@ -6280,6 +6375,11 @@
     "prompt": "Name a ground in New Zealand or South Africa that hosted a men's Test before 2025",
     "category": "Grounds",
     "answerType": "ground",
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "Newlands",
@@ -6565,6 +6665,11 @@
     "prompt": "Name a team that played in the 2024 season of the SA20, ILT20, Major League Cricket or Lanka Premier League",
     "category": "T20 leagues",
     "answerType": "team",
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "MI Cape Town",

@@ -7,6 +7,7 @@ import { basename, join } from "node:path";
 import { appendDays } from "../src/engine/locks";
 import { answerKeys, generatedForms, normalise, words } from "../src/engine/match";
 import { computeTiers, rarityScores } from "../src/engine/rarity";
+import { type Rated, rate } from "../src/engine/rating";
 import { allocate, isBroader } from "../src/engine/schedule";
 import { type Answer, BALLS_PER_INNINGS, type Question, type Schedule } from "../src/engine/types";
 import { validateContent, validateQuestion, verificationKey } from "../src/engine/validate";
@@ -180,7 +181,9 @@ function importDays(file: string) {
     );
   }
   writeJson(out, questions);
-  console.log(`Imported ${questions.length} questions into ${out}. Add tags, then verify.`);
+  console.log(
+    `Imported ${questions.length} questions into ${out}. Add tags and difficulty ratings, then verify.`,
+  );
 }
 
 /** Articles the sources link to that aren't answers: a person skims these for missing answers. */
@@ -330,9 +333,18 @@ async function rank() {
   }
 }
 
+const describeRating = (r: Rated | null) =>
+  r
+    ? `difficulty ${r.score}/10 (${Object.entries(r.factors)
+        .map(([k, v]) => `${k} ${v}`)
+        .join(", ")})`
+    : "difficulty not rated: add rating.recency, rating.breadth and rating.conditions";
+
 function report() {
+  const bank = readPool().flatMap((pf) => pf.questions);
   for (const { q } of selected()) {
     console.log(`\n${q.id}: ${q.prompt}`);
+    console.log(`  ${describeRating(rate(q, bank))}`);
     const rows = rarityScores(q).sort((a, b) => b.score - a.score);
     const byName = new Map(q.answers.map((a) => [a.name, a]));
     for (const r of rows) {
@@ -436,7 +448,47 @@ function gaps() {
   const broader = unused.filter(isBroader).length;
   console.log(`\n  general knowledge ${general} (max 2 a day)`);
   console.log(`  beyond men's internationals ${broader} (at least 1 a day)`);
+  console.log(`\nDifficulty, whole bank:  ${spread(pool, pool)}`);
+  console.log(`Difficulty, unused:      ${spread(unused, pool)}`);
   console.log("\nPick the next themes from docs/THEMES.md for the types that are short.");
+}
+
+/** How many questions are easy (1–3), medium (4–7) and hard (8–10), and how many aren't rated. */
+function spread(qs: Question[], bank: Question[]): string {
+  const scores = qs.map((q) => rate(q, bank)?.score);
+  const count = (lo: number, hi: number) =>
+    scores.filter((s) => s !== undefined && s >= lo && s <= hi).length;
+  const unrated = scores.filter((s) => s === undefined).length;
+  return `easy ${count(1, 3)}, medium ${count(4, 7)}, hard ${count(8, 10)}${unrated ? `, not rated ${unrated}` : ""}`;
+}
+
+/** Every question's 1–10 difficulty, easiest first, with the days it's scheduled on. */
+function difficultyReport() {
+  const current = JSON.parse(readFileSync(SCHEDULE, "utf8")) as Schedule;
+  const bank = readPool().flatMap((pf) => pf.questions);
+  const days = new Map<string, number[]>();
+  current.days.forEach((d, i) => {
+    for (const id of d) days.set(id, [...(days.get(id) ?? []), i + 1]);
+  });
+  const rows = bank
+    .map((q) => ({ q, r: rate(q, bank) }))
+    .sort((a, b) => (a.r?.score ?? 99) - (b.r?.score ?? 99) || a.q.id.localeCompare(b.q.id));
+  for (const { q, r } of rows) {
+    const on = days.get(q.id);
+    console.log(
+      `${String(r?.score ?? "?").padStart(2)}  ${q.id}  ${on ? `day ${on.join(", ")}` : "unused"}\n    ${describeRating(r)}`,
+    );
+  }
+  console.log("\nAverage difficulty per day:");
+  current.days.forEach((d, i) => {
+    const scores = d.map((id) => rate(bank.find((q) => q.id === id) as Question, bank)?.score);
+    const rated = scores.filter((s): s is number => s !== undefined);
+    const avg = rated.length ? (rated.reduce((a, b) => a + b, 0) / rated.length).toFixed(1) : "?";
+    console.log(
+      `  day ${String(i + 1).padStart(2)}  ${avg}  [${scores.map((s) => s ?? "?").join(", ")}]`,
+    );
+  });
+  console.log(`\n${spread(bank, bank)}`);
 }
 
 const command = process.argv[2];
@@ -449,13 +501,14 @@ const run: Record<string, () => unknown> = {
   schedule,
   draft,
   gaps,
+  difficulty: difficultyReport,
   lock: () => lock(),
   "check-pushed": () => checkPushed(process.argv[3] || undefined),
 };
 const fn = command ? run[command] : undefined;
 if (!fn) {
   console.log(
-    "Usage: tsx tools/content.ts <draft ID URL…|gaps|import FILE|verify [ids]|rank [ids]|report [ids]|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
+    "Usage: tsx tools/content.ts <draft ID URL…|gaps|import FILE|verify [ids]|rank [ids]|report [ids]|difficulty|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
   );
   process.exitCode = 1;
 } else {

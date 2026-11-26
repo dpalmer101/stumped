@@ -10,6 +10,7 @@ export const groundsQuestion: Question = {
   answerType: "ground",
   tags: ["men", "test", "international"],
   sources: ["https://en.wikipedia.org/wiki/List_of_Test_cricket_grounds"],
+  rating: { recency: 1, breadth: 0, conditions: 1 },
   answers: [
     a("Bourda", "ootg"),
     a("Galle International Stadium", "six", ["Galle"]),
@@ -41,6 +42,7 @@ export const playersQuestion: Question = {
   answerType: "player",
   tags: ["men", "international"],
   sources: ["https://en.wikipedia.org/wiki/List_of_cricketers"],
+  rating: { recency: 0, breadth: 0, conditions: 0 },
   answers: [
     a("Mark Waugh", "two"),
     a("Steve Waugh", "single"),

@@ -288,6 +288,6 @@ export async function draft() {
     console.log(`\n! ${answers.length} answers: aim for 20–60 (narrow with --tables or --column).`);
   }
   console.log(
-    "\nTrim it, write the prompt, category and tags, add aliases, then move it into a batch file.",
+    "\nTrim it, write the prompt, category, tags and difficulty rating, add aliases, then move it into a batch file.",
   );
 }

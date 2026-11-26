@@ -19,6 +19,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "Leeds",
@@ -517,6 +522,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "Taunton",
@@ -847,6 +857,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "Canterbury",
@@ -1390,6 +1405,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "Sharjah Cricket Stadium",
@@ -2130,6 +2150,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Chennai Super Kings",
@@ -2840,6 +2865,11 @@
       "https://en.wikipedia.org/wiki/2023–24_Women's_National_Cricket_League_season",
       "https://en.wikipedia.org/wiki/2023–24_Hallyburton_Johnstone_Shield"
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Southern Vipers",
@@ -3146,6 +3176,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_current_first-class_cricket_teams"
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Barbados",
@@ -3473,6 +3508,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_current_first-class_cricket_teams"
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Karachi Region Whites",
@@ -3851,6 +3891,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "India",
@@ -4286,6 +4331,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "India",
@@ -4578,6 +4628,11 @@
       "https://en.wikipedia.org/wiki/2007_Cricket_World_Cup",
       "https://en.wikipedia.org/wiki/2024_ICC_Men's_T20_World_Cup"
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "England",
@@ -4884,6 +4939,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_A_cricket"
     ],
+    "rating": {
+      "recency": 0,
+      "breadth": 0,
+      "conditions": 1
+    },
     "answers": [
       {
         "name": "One-Day Cup (England)",
@@ -5256,6 +5316,11 @@
         "rarerWhen": "lower"
       }
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Berkshire",
@@ -5783,6 +5848,11 @@
       "https://en.wikipedia.org/wiki/Benson_&_Hedges_Cup",
       "https://en.wikipedia.org/wiki/T20_Blast"
     ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
     "answers": [
       {
         "name": "Gillette",

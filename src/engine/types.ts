@@ -104,7 +104,21 @@ export interface Question {
   metrics?: Metric[];
   /** Share of the rarity score from metrics (0–1); defaults to 0.5 with metrics, 0 without. */
   specificWeight?: number;
+  /** The writer's judgement of the difficulty factors data can't measure (see docs/CONTENT.md). */
+  rating?: Rating;
   answers: Answer[];
+}
+
+/** 0 makes a question easier, 2 harder. */
+export type Factor = 0 | 1 | 2;
+
+export interface Rating {
+  /** 0: answers mostly from the last 10 years; 1: a mix, or a long span; 2: mostly before 2000. */
+  recency: Factor;
+  /** 0: many countries, competitions or kinds of thing to pick from; 1: a few; 2: one narrow pool. */
+  breadth: Factor;
+  /** 0: one simple condition; 1: two; 2: three or more. */
+  conditions: Factor;
 }
 
 export interface Schedule {

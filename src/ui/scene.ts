@@ -103,16 +103,16 @@ const BACKDROPS: Record<ThemeKey, (c: ScenePalette) => string> = {
       px(0, 5, 90, 5, "#3d4a63") +
       px(0, 10, 90, 1, "#1d2436") +
       px(0, 11, 90, 7, "#3d4a63");
-    s += crowd(0, 5, 90, 5, ["#1e5eff", "#ffcc00", "#ffffff", "#ff7a3d"], 0.45, 21);
-    s += crowd(0, 11, 90, 7, ["#1e5eff", "#ffcc00", "#ffffff", "#ff7a3d", "#7dff9a"], 0.5, 5);
-    s += px(4, 0, 16, 5, "#111") + px(6, 1, 5, 1, "#ffcc00") + px(6, 3, 9, 1, "#ffffff");
+    s += crowd(0, 5, 90, 5, ["#2f5fd0", "#f0b429", "#ffffff", "#e8703a"], 0.45, 21);
+    s += crowd(0, 11, 90, 7, ["#2f5fd0", "#f0b429", "#ffffff", "#e8703a", "#5fcf7e"], 0.5, 5);
+    s += px(4, 0, 16, 5, "#111") + px(6, 1, 5, 1, "#f0b429") + px(6, 3, 9, 1, "#ffffff");
     s +=
       px(70, 0, 1, 4, "#1d2436") +
       px(68, 0, 5, 1, "#fffbe0") +
       px(86, 0, 1, 4, "#1d2436") +
       px(84, 0, 5, 1, "#fffbe0");
     s += px(36, 9, 18, 9, c.screen);
-    return s + boards(18, "#ffcc00", "#1e5eff", 9);
+    return s + boards(18, "#f0b429", "#2f5fd0", 9);
   },
 };
 

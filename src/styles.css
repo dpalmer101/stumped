@@ -829,15 +829,15 @@ td .tt {
 }
 /* ---------- One Day: coloured clothing ---------- */
 .theme-oneday {
-  --tier-ink: #0b1f66;
-  --bg: #0f3fd1;
-  --panel: #1a4fe6;
+  --tier-ink: #0b1a4d;
+  --bg: #1b3a8f;
+  --panel: #24479f;
   --text: #fff;
-  --muted: #e4eaff;
+  --muted: #dfe6fa;
   --line: rgba(255, 255, 255, 0.22);
-  --accent: #ffcc00;
-  --accent-ink: #0b1f66;
-  --accent-text: #ffcc00;
+  --accent: #f0b429;
+  --accent-ink: #0b1a4d;
+  --accent-text: #f0b429;
   --radius: 10px;
   --logo-font: 900 20px system-ui;
   --logo-track: 0.02em;
@@ -849,28 +849,28 @@ td .tt {
   --pip-r: 6px;
   --pip-empty: rgba(255, 255, 255, 0.15);
   --pip-now: rgba(255, 255, 255, 0.4);
-  --pip-num: #0b1f66;
-  --bar: #ffcc00;
+  --pip-num: #0b1a4d;
+  --bar: #f0b429;
   --call-pad: 4px 40px;
   --call-radius: 0;
-  --call-ink: #0b1f66;
+  --call-ink: #0b1a4d;
   --call-rotate: -5deg;
   --input-bg: #fff;
-  --input-ink: #0b1f66;
+  --input-ink: #0b1a4d;
   --input-border: 0;
   --miss-bg: rgba(255, 77, 77, 0.25);
   --miss-ink: #ffe0e0;
-  --t-ootg: #ffcc00;
-  --t-six: #ff9cc5;
-  --t-four: #4ee1ff;
-  --t-two: #7dff9a;
+  --t-ootg: #f0b429;
+  --t-six: #f08fb8;
+  --t-four: #4cc6e6;
+  --t-two: #5fcf7e;
   --t-single: #ffffff;
   --t-out: #ffb0b0;
   --t-miss: #ffe0e0;
 }
 .theme-oneday .logo,
 .theme-oneday .home .big {
-  box-shadow: inset 0 -5px #ffcc00;
+  box-shadow: inset 0 -5px #f0b429;
 }
 .theme-oneday .home .big {
   align-self: center;

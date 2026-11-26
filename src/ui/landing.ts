@@ -1009,7 +1009,7 @@ const hundred: Record<LandingTier, Landing> = {
 };
 
 /* ---------- One Day ---------- */
-const FANS = ["#1e5eff", "#ffcc00", "#ffffff", "#ff7a3d", "#7dff9a"];
+const FANS = ["#2f5fd0", "#f0b429", "#ffffff", "#e8703a", "#5fcf7e"];
 const sunset = (to: number) =>
   px(0, 0, 90, 3, "#3b5ba8") + px(0, 3, 90, 3, "#7d6fb8") + px(0, 6, 90, to - 6, "#e9876a");
 
@@ -1024,17 +1024,17 @@ const oneday: Record<LandingTier, Landing> = {
         px(0, 10, 90, 15, "#3d4a63");
       for (let c = 0; c < 9; c++) s += G(`wave${c}`, crowd(c * 10, 10, 10, 15, FANS, 0.5, 40 + c));
       for (let x = 0; x < 90; x += 9) {
-        s += px(x, 25, 9, 4, (x / 9) % 2 ? "#1e5eff" : "#ffcc00") + px(x, 27, 9, 1, "#ffffff");
+        s += px(x, 25, 9, 4, (x / 9) % 2 ? "#2f5fd0" : "#f0b429") + px(x, 27, 9, 1, "#ffffff");
       }
       s += px(0, 29, 90, 26, "#3a8f4a") + px(0, 31, 90, 2, "#44a056") + px(0, 38, 90, 4, "#44a056");
       s += px(0, 48, 90, 5, "#44a056") + px(0, 34, 90, 1, "#ffffff");
       s += G(
         "kid",
-        px(66, 30, 5, 3, "#1e5eff") +
-          px(66, 33, 5, 1, "#0b2a7a") +
+        px(66, 30, 5, 3, "#2f5fd0") +
+          px(66, 33, 5, 1, "#0d2463") +
           px(67, 27, 3, 3, "#c99a76") +
-          px(66, 26, 5, 1, "#ffcc00") +
-          px(67, 25, 3, 1, "#ffcc00") +
+          px(66, 26, 5, 1, "#f0b429") +
+          px(67, 25, 3, 1, "#f0b429") +
           G("kidDown", px(65, 30, 1, 2, "#c99a76") + px(71, 30, 1, 2, "#c99a76")) +
           G(
             "kidUp",
@@ -1112,8 +1112,8 @@ const oneday: Record<LandingTier, Landing> = {
       s +=
         px(71, 26, 3, 3, "#8a5a3a") +
         px(71, 27, 3, 1, "#222") +
-        px(70, 29, 5, 9, "#1e5eff") +
-        px(72, 31, 1, 1, "#ffcc00");
+        px(70, 29, 5, 9, "#2f5fd0") +
+        px(72, 31, 1, 1, "#f0b429");
       s += G(
         "cape",
         px(69, 29, 1, 10, "#d6303a") +
@@ -1126,11 +1126,11 @@ const oneday: Record<LandingTier, Landing> = {
           n,
           px(x, y, 3, 3, "#ffffff") +
             px(x, y, 1, 3, "#ff3d6a") +
-            px(x + 2, y, 1, 3, "#1e5eff") +
-            px(x + 1, y, 1, 1, "#ffcc00"),
+            px(x + 2, y, 1, 3, "#2f5fd0") +
+            px(x + 1, y, 1, 1, "#f0b429"),
         );
       s += beachBall(12, 14, "beach1") + beachBall(44, 12, "beach2") + beachBall(82, 16, "beach3");
-      s += px(0, 44, 90, 2, "#ffcc00") + px(0, 46, 90, 9, "#3a8f4a") + px(0, 49, 90, 3, "#44a056");
+      s += px(0, 44, 90, 2, "#f0b429") + px(0, 46, 90, 9, "#3a8f4a") + px(0, 49, 90, 3, "#44a056");
       return s + WHITE_BALL;
     },
     play(t) {
@@ -1189,8 +1189,8 @@ const oneday: Record<LandingTier, Landing> = {
             px(x + 13, y + 4, 1, 1, "#ff3d3d"),
         );
       s +=
-        car(6, 31, "#ffcc00", "car1") +
-        car(36, 31, "#1e5eff", "car2") +
+        car(6, 31, "#f0b429", "car1") +
+        car(36, 31, "#2f5fd0", "car2") +
         car(66, 31, "#d6303a", "car3");
       s += G(
         "hazards",
@@ -1204,11 +1204,11 @@ const oneday: Record<LandingTier, Landing> = {
         "gull",
         px(78, 43, 5, 3, "#ffffff") +
           px(82, 41, 2, 2, "#ffffff") +
-          px(84, 42, 1, 1, "#ffcc00") +
+          px(84, 42, 1, 1, "#f0b429") +
           px(83, 41, 1, 1, "#222") +
           px(77, 44, 1, 1, "#9aa3ad") +
-          px(79, 46, 1, 1, "#ffcc00") +
-          px(81, 46, 1, 1, "#ffcc00") +
+          px(79, 46, 1, 1, "#f0b429") +
+          px(81, 46, 1, 1, "#f0b429") +
           G("gullWing", px(79, 43, 3, 1, "#9aa3ad")) +
           G("gullBall", px(84, 43, 2, 2, "#ffffff") + px(84, 44, 2, 1, "#c9c9d0"), HIDDEN),
       );

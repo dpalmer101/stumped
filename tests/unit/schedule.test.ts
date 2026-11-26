@@ -60,6 +60,14 @@ describe("dayProblems", () => {
     // Days played before the rule keep their clashes.
     expect(dayProblems(day, { countryRule: false })).toEqual([]);
   });
+
+  it("allows one women's cricket question, not counting ones open to men's answers too", () => {
+    const tagged = (second: Tag[]) => varied.map((x, i) => (i === 1 ? { ...x, tags: second } : x));
+    expect(dayProblems(tagged(["women", "odi"]))).toEqual(["2 women's cricket questions"]);
+    expect(dayProblems(tagged(["men", "women", "odi"]))).toEqual([]);
+    // Day 4 had started before the rule.
+    expect(dayProblems(tagged(["women", "odi"]), { womenRule: false })).toEqual([]);
+  });
 });
 
 describe("allocate", () => {
@@ -82,6 +90,16 @@ describe("allocate", () => {
     for (const day of allocate(pool, 2)) {
       const d = day.map(difficulty);
       expect(d).toEqual([...d].sort((a, b) => a - b));
+    }
+  });
+
+  it("puts the women's cricket questions on different days", () => {
+    // pool has women's questions at 0 and 6; making 1 women's too leaves one day with two
+    // unless the allocator spreads them.
+    const tagged = pool.map((x, i) => (i === 1 ? { ...x, tags: ["women", "t20"] as Tag[] } : x));
+    const more = [...tagged, q("extra", 1, ["men", "international"], 100)];
+    for (const day of allocate(more, 2)) {
+      expect(day.filter((x) => x.tags.includes("women")).length).toBeLessThanOrEqual(1);
     }
   });
 

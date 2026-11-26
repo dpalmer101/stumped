@@ -4,7 +4,12 @@ import { startedQuestionIds } from "./locks";
 import { answerKeys } from "./match";
 import { computeTiers } from "./rarity";
 import { rate } from "./rating";
-import { COUNTRY_RULE_FROM_DAY, dayProblems, scheduleProblems } from "./schedule";
+import {
+  COUNTRY_RULE_FROM_DAY,
+  dayProblems,
+  scheduleProblems,
+  WOMEN_RULE_FROM_DAY,
+} from "./schedule";
 import {
   type Answer,
   BALLS_PER_INNINGS,
@@ -87,7 +92,8 @@ export function validateBank(
     const label = `day ${i + 1}`;
     const qs = day.map((id) => byId.get(id)).filter((q): q is Question => !!q);
     const countryRule = i + 1 >= COUNTRY_RULE_FROM_DAY;
-    for (const p of dayProblems(qs, { countryRule })) errors.push(`${label}: ${p}`);
+    const womenRule = i + 1 >= WOMEN_RULE_FROM_DAY;
+    for (const p of dayProblems(qs, { countryRule, womenRule })) errors.push(`${label}: ${p}`);
     if (day.length !== BALLS_PER_INNINGS) errors.push(`${label} has ${day.length} questions`);
     if (new Set(day).size !== day.length) errors.push(`${label} repeats a question`);
     for (const id of day) if (!ids.has(id)) errors.push(`${label} uses unknown question ${id}`);

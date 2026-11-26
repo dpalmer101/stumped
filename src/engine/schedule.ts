@@ -15,9 +15,13 @@ const MAX_CATEGORY_PER_WEEK = 2;
 export const REUSE_AFTER_DAYS = 30;
 /** Days 1–4 were played before the one-question-per-country rule, so they keep their clashes. */
 export const COUNTRY_RULE_FROM_DAY = 5;
+/** Day 4 had started before the one-women's-question rule, so it keeps its three. */
+export const WOMEN_RULE_FROM_DAY = 5;
 
 export const isBroader = (q: Question) => q.tags.some((t) => BROADER.includes(t));
 const isGeneral = (q: Question) => q.tags.includes("general");
+/** Women's cricket only; questions open to men's and women's answers don't count. */
+const isWomens = (q: Question) => q.tags.includes("women") && !q.tags.includes("men");
 const countries = (q: Question) => q.tags.filter((t) => COUNTRIES.includes(t));
 const sharesCountry = (a: Question, b: Question) =>
   countries(a).some((c) => countries(b).includes(c));
@@ -29,6 +33,7 @@ function fitsDay(day: Question[], q: Question): boolean {
   if (day.filter((d) => d.answerType === q.answerType).length >= maxOfType(q.answerType))
     return false;
   if (isGeneral(q) && day.filter(isGeneral).length >= MAX_GENERAL) return false;
+  if (isWomens(q) && day.some(isWomens)) return false;
   return FORMATS.every(
     (f) => !q.tags.includes(f) || day.filter((d) => d.tags.includes(f)).length < MAX_SAME_FORMAT,
   );
@@ -55,7 +60,10 @@ function lastUses(days: Question[][]): Map<string, number> {
 }
 
 /** Variety rules for one day. */
-export function dayProblems(day: Question[], { countryRule = true } = {}): string[] {
+export function dayProblems(
+  day: Question[],
+  { countryRule = true, womenRule = true } = {},
+): string[] {
   const problems: string[] = [];
   const categories = new Set(day.map((q) => q.category));
   if (categories.size !== day.length) problems.push("two questions share a category");
@@ -73,6 +81,8 @@ export function dayProblems(day: Question[], { countryRule = true } = {}): strin
     const n = day.filter((q) => q.tags.includes(f)).length;
     if (n > MAX_SAME_FORMAT) problems.push(`${n} ${f} questions`);
   }
+  const womens = day.filter(isWomens).length;
+  if (womenRule && womens > 1) problems.push(`${womens} women's cricket questions`);
   const general = day.filter(isGeneral).length;
   if (general > MAX_GENERAL) problems.push(`${general} general-knowledge questions`);
   if (!day.some(isBroader)) problems.push("only men's international questions");

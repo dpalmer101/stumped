@@ -259,6 +259,9 @@ Variety matters most within a day, then within a week. After a week, similar que
 - **Different countries:** no two questions share a country tag, so a day never has, say, India's
   players and India's teams. A question tagged with several countries rules them all out for that
   day. Days 1–4 were played before this rule and keep their clashes.
+- **One women's cricket question:** at most one question tagged `women` without `men`. Questions
+  open to men's and women's answers don't count. Day 4 had started before this rule and keeps its
+  three.
 - **Different answer types:** at most one question per `answerType`, except players (up to two).
 - **Not too much general knowledge:** at most 2 questions tagged `general` (laws, kit, shots,
   positions).

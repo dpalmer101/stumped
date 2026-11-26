@@ -243,3 +243,4 @@ the anonymous counts in §1.
 - 2026-11-26: Every question has a delivery picked from its difficulty band (§3a). Fast ball (1–3) gives 15 seconds, Slower ball (8–10) 25, every other delivery 20. Named before each ball. Assigned to every question, including days already played.
 - 2026-11-26: Ball one's ready screen matches balls two to six: a result-style card reading "Play!" and a "Face ball one" button with the delivery and its time. The time-of-day greeting is gone.
 - 2026-11-26: Women's-only questions score 1 harder than the men's equivalent, and women's player questions 2 harder (knowing the men's game helps with teams and grounds, not players).
+- 2026-11-26: At most one women's cricket question a day (from day 5; day 4 had started). Questions open to men's and women's answers don't count. Days 6 and 7, and 14 and 15, swapped a question each to fit.

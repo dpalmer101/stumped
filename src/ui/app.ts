@@ -934,7 +934,7 @@ export class App {
         }</div>`
       : "";
     const next = this.archive
-      ? `<button class="btn wide" data-act="to-archive">Back to the archive</button>`
+      ? `<button class="btn wide scorecard-archive" data-act="to-archive">Back to the archive</button>`
       : `<div class="next">Next innings in <span id="countdown">${formatCountdown(msUntilNextPuzzle(new Date()))}</span></div>
         <button class="btn ghost wide scorecard-archive" data-act="to-archive">Archive</button>`;
     this.root.innerHTML = `${this.topBar(false)}<main class="card">${this.newDayBanner()}${archiveHead}

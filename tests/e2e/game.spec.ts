@@ -232,7 +232,12 @@ test.describe("archive", () => {
     await expect(page.locator(".tile").filter({ hasText: "Played" })).toContainText("1");
     await expect(page.locator(".tile").filter({ hasText: /^\d+Streak$/ })).toContainText("0");
 
-    await page.getByRole("button", { name: "Back to the archive" }).click();
+    // As wide as the Share and Answers row above it.
+    const back = page.getByRole("button", { name: "Back to the archive" });
+    expect((await back.boundingBox())?.width).toBe(
+      (await page.locator(".two").boundingBox())?.width,
+    );
+    await back.click();
     await expect(dayOneRow).toContainText("6/0 · from the archive");
     await dayOneRow.getByRole("button", { name: "Play again: #1" }).click();
     await playOver(page, ootg);

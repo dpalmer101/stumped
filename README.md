@@ -1,5 +1,10 @@
 # Stumped 🏏
 
+> [!NOTE]
+> This project is 100% vibe coded: built entirely by prompting an AI coding assistant. It is not
+> intended as a demonstration of quality engineering. The AI agents make a best effort to test it
+> and keep it stable across devices, but a bug-free experience cannot be guaranteed.
+
 A daily cricket knowledge game. One over: six balls, twenty seconds each — the rarer your answer, the bigger the shot.
 
 **Play it: [dpalmer101.github.io/stumped](https://dpalmer101.github.io/stumped/)**

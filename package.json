@@ -26,7 +26,8 @@
     "days": "tsx tools/build-days.ts",
     "predev": "npm run days",
     "prebuild": "npm run days",
-    "preview:https": "vite preview --mode https --port 4443 --strictPort"
+    "preview:https": "vite preview --mode https --port 4443 --strictPort",
+    "screenshots": "tsx tools/screenshots.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

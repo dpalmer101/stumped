@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { expect, type Page, test } from "@playwright/test";
+import { deliveryHint } from "../../src/engine/delivery";
 import type { Question } from "../../src/engine/types";
 import { LAUNCH, open, schedule } from "./helpers";
 
@@ -39,11 +40,10 @@ test("plays a full innings, then shows only the scorecard until tomorrow", async
 
   for (const [i, q] of dayOne.entries()) {
     // The question must not be on the page until the ball is faced.
-    if (i === 0) await expect(page.getByText("Ball One of Six")).toBeVisible();
-    else
-      await expect(
-        page.getByRole("button", { name: `Face ball ${NAMES[i]?.toLowerCase()}`, exact: true }),
-      ).toBeVisible();
+    if (i === 0) await expect(page.locator(".res.ready .call")).toHaveText("Play!");
+    // The button says what's coming: "Face ball two Googly · 20 seconds".
+    const face = `Face ball ${NAMES[i]?.toLowerCase()} ${deliveryHint(q.delivery)}`;
+    await expect(page.getByRole("button", { name: face, exact: true })).toBeVisible();
     await expect(page.getByText(q.prompt)).toHaveCount(0);
     await faceBall(page);
     await expect(page.getByRole("heading", { name: q.prompt })).toBeVisible();
@@ -306,7 +306,7 @@ test.describe("archive", () => {
     await page.getByRole("button", { name: "Archive", exact: true }).click();
     await page.getByRole("button", { name: "Resume: #1" }).click();
     await expect(page.locator(".pips i[data-t]")).toHaveCount(1);
-    await expect(page.getByText("Ball Two of Six")).toBeVisible();
+    await expect(page.getByRole("button", { name: /^Face ball two / })).toBeVisible();
     await expect(page.getByText("Archive ·")).toHaveCount(0);
   });
 
@@ -482,7 +482,7 @@ test.describe("landing scenes", () => {
     );
     expect(states.length).toBeGreaterThan(0);
     expect(new Set(states)).toEqual(new Set(["finished"]));
-    await page.getByRole("button", { name: "Face ball two", exact: true }).click();
+    await page.getByRole("button", { name: /^Face ball two / }).click();
     await expect(landing(page)).toHaveCount(0);
   });
 
@@ -504,7 +504,7 @@ test.describe("landing scenes", () => {
         ),
       );
       expect(playing).toBe(true);
-      await page.getByRole("button", { name: "Face ball two", exact: true }).click();
+      await page.getByRole("button", { name: /^Face ball two / }).click();
       await expect(landing(page)).toHaveCount(0);
     });
   });
@@ -524,7 +524,7 @@ test.describe("floodlights", () => {
   test("none by day", async ({ context }) => {
     const page = await open(context, LAUNCH);
     await page.getByRole("button", { name: "Walk out to bat" }).click();
-    await expect(page.getByText("Ball One of Six")).toBeVisible();
+    await expect(page.getByRole("button", { name: /^Face ball one / })).toBeVisible();
     await expect(part(page, "floodlights")).toHaveCount(0);
     await expect(part(page, "dark")).toHaveCount(0);
   });
@@ -591,21 +591,6 @@ test.describe("floodlights", () => {
     });
   });
 });
-
-for (const [time, text] of [
-  ["10:00", "Good morning, you'll"],
-  ["14:00", "Good afternoon, you'll"],
-  ["19:00", "Good evening, you'll"],
-  ["02:00", "You'll"],
-] as const) {
-  test(`ball one at ${time} reads "${text} have 20 seconds…"`, async ({ context }) => {
-    const page = await open(context, new Date(`${schedule.launchDate}T${time}:00`));
-    await page.getByRole("button", { name: "Walk out to bat" }).click();
-    await expect(page.locator(".ready p")).toHaveText(
-      `${text} have 20 seconds once the ball is bowled.`,
-    );
-  });
-}
 
 test("the home screen carries the copyright notice", async ({ context }) => {
   const page = await open(context, LAUNCH);

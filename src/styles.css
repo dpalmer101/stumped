@@ -266,15 +266,6 @@ button {
   font: var(--q-font);
   letter-spacing: -0.01em;
 }
-.ready {
-  padding: 18px 16px;
-  display: grid;
-  gap: 10px;
-}
-.ready p {
-  margin: 0;
-  color: var(--muted);
-}
 .ans {
   display: flex;
   gap: 8px;
@@ -313,6 +304,13 @@ button {
   background: var(--accent);
   color: var(--accent-ink);
   cursor: pointer;
+}
+.btn .sub {
+  display: block;
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.9;
 }
 .btn:disabled {
   opacity: 0.5;
@@ -359,11 +357,15 @@ button {
   border-radius: var(--radius);
   background: var(--panel);
   border: 1px solid var(--line);
+  text-align: center;
 }
 .res .call {
   font-size: 44px;
   letter-spacing: -0.04em;
   text-shadow: var(--res-glow);
+}
+.res.ready .call {
+  color: var(--accent);
 }
 .res .call.long {
   font-size: 30px;
@@ -377,9 +379,7 @@ button {
   margin-top: 12px;
 }
 .res .meta {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px solid var(--line);
+  margin-top: 6px;
 }
 .res p b {
   color: var(--text);

@@ -1,3 +1,5 @@
+import type { Delivery } from "./delivery";
+
 export const TIERS = ["ootg", "six", "four", "two", "single"] as const;
 export type Tier = (typeof TIERS)[number];
 
@@ -85,7 +87,7 @@ export interface Answer {
 /** What the game needs to play a question; the day files ship only this. */
 export type PlayableQuestion = Pick<
   Question,
-  "id" | "prompt" | "category" | "answerType" | "answers"
+  "id" | "prompt" | "category" | "answerType" | "answers" | "delivery"
 >;
 
 export interface Question {
@@ -106,6 +108,8 @@ export interface Question {
   specificWeight?: number;
   /** The writer's judgement of the difficulty factors data can't measure (see docs/CONTENT.md). */
   rating?: Rating;
+  /** The ball the player faces, from the difficulty band; sets its time (see docs/CONTENT.md). */
+  delivery?: Delivery;
   answers: Answer[];
 }
 
@@ -142,5 +146,6 @@ export interface Segment {
 
 /** One over. */
 export const BALLS_PER_INNINGS = 6;
+/** A ball's time unless its delivery says otherwise (see delivery.ts). */
 export const BALL_MS = 20_000;
 export const MIN_ANSWERS = 20;

@@ -26,6 +26,7 @@
       "breadth": 1,
       "conditions": 1
     },
+    "delivery": "Good length",
     "answers": [
       {
         "name": "Galle International Stadium",
@@ -592,6 +593,7 @@
       "breadth": 1,
       "conditions": 1
     },
+    "delivery": "Good length",
     "answers": [
       {
         "name": "Queen's Park Oval",
@@ -990,6 +992,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Knuckle ball",
     "answers": [
       {
         "name": "Melbourne Cricket Ground",
@@ -1397,6 +1400,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Chennai Super Kings",
@@ -2140,6 +2144,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Full toss",
     "answers": [
       {
         "name": "New South Wales",
@@ -2557,6 +2562,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Off cutter",
     "answers": [
       {
         "name": "Comilla Victorians",
@@ -3097,6 +3103,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "England",
@@ -3616,6 +3623,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Outswinger",
     "answers": [
       {
         "name": "India",
@@ -4095,6 +4103,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Off-break",
     "answers": [
       {
         "name": "Big Bash League",
@@ -4514,6 +4523,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Outswinger",
     "answers": [
       {
         "name": "Indian Premier League",
@@ -4973,6 +4983,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Bouncer",
     "answers": [
       {
         "name": "Yorkshire",
@@ -5487,6 +5498,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Test cricket",
@@ -5911,6 +5923,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Leg-break",
     "answers": [
       {
         "name": "Caught",

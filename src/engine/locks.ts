@@ -37,6 +37,7 @@ export const playable = (q: Question): PlayableQuestion => ({
   prompt: q.prompt,
   category: q.category,
   answerType: q.answerType,
+  ...(q.delivery ? { delivery: q.delivery } : {}),
   answers: q.answers.map(({ name, tier, aliases, misspellings }) => ({
     name,
     tier,
@@ -81,6 +82,17 @@ export const lockDays = (
   days: days.map(fingerprint),
   ...(segments?.length ? { segments } : {}),
 });
+
+/** Questions on any day an over has started on (or is about to). */
+export function startedQuestionIds(schedule: Schedule, now: Date): Set<string> {
+  const ids = new Set<string>();
+  if (!schedule.days.length) return ids;
+  const latest = latestStartedPuzzle(now, schedule.launchDate);
+  for (let p = 1; p <= latest; p++) {
+    for (const id of schedule.days[dayIndex(p, schedule)] ?? []) ids.add(id);
+  }
+  return ids;
+}
 
 /**
  * Changes that would alter a day players have already had: any started day, or which day a

@@ -296,7 +296,7 @@ export class Pitch {
    * `elapsed` resumes it part-way (after a reload, or coming back from home); the bowler only runs in
    * at the start.
    */
-  bowl(elapsed: number): void {
+  bowl(elapsed: number, duration = BALL_MS): void {
     this.clear();
     if (this.reduce) {
       this.part("ball").setAttribute("transform", "translate(154 108) scale(1.6)");
@@ -314,7 +314,7 @@ export class Pitch {
       );
     }
     // Held in the hand for the run-up, then down the pitch, pitching near the end.
-    const runUp = RUN_UP_MS / BALL_MS;
+    const runUp = RUN_UP_MS / duration;
     this.run(
       this.part("ball"),
       [
@@ -324,7 +324,7 @@ export class Pitch {
         { ...AT_BAT, offset: 1 },
       ],
       // 3 frames a second keeps the 8-bit feel without looking frozen.
-      { duration: BALL_MS, delay: -elapsed, easing: steps(Math.round(BALL_MS / 333)) },
+      { duration, delay: -elapsed, easing: steps(Math.round(duration / 333)) },
     );
   }
 

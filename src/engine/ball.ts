@@ -10,6 +10,8 @@ export interface Ball {
   puzzle: number;
   index: number;
   questionId: string;
+  /** How long the ball lasts; absent on balls saved before deliveries, which had BALL_MS. */
+  timeMs?: number;
   startedAt?: number;
   misses: string[];
   result?: BallResult;
@@ -20,9 +22,16 @@ export type GuessOutcome = "hit" | "miss" | "repeat" | "empty" | "out" | "closed
 /** Longest guess kept; the longest accepted answer is well under this. */
 export const MAX_GUESS = 60;
 
-export function newBall(puzzle: number, index: number, questionId: string): Ball {
-  return { puzzle, index, questionId, misses: [] };
+export function newBall(
+  puzzle: number,
+  index: number,
+  questionId: string,
+  timeMs: number = BALL_MS,
+): Ball {
+  return { puzzle, index, questionId, timeMs, misses: [] };
 }
+
+export const ballMs = (ball: Ball): number => ball.timeMs ?? BALL_MS;
 
 export function startBall(ball: Ball, now: number): Ball {
   if (ball.startedAt !== undefined) return ball;
@@ -32,10 +41,11 @@ export function startBall(ball: Ball, now: number): Ball {
 const CLOCK_DRIFT_MS = 5000;
 
 export function timeLeft(ball: Ball, now: number): number {
-  if (ball.startedAt === undefined) return BALL_MS;
+  const total = ballMs(ball);
+  if (ball.startedAt === undefined) return total;
   // A clock set back must not buy extra time; a few seconds of drift between tabs or devices is fine.
   if (now < ball.startedAt - CLOCK_DRIFT_MS) return 0;
-  return Math.min(BALL_MS, Math.max(0, BALL_MS - (now - ball.startedAt)));
+  return Math.min(total, Math.max(0, total - (now - ball.startedAt)));
 }
 
 function dismiss(ball: Ball): Ball {
@@ -51,7 +61,7 @@ function dismiss(ball: Ball): Ball {
 export function tick(ball: Ball, now: number, typed?: { text: string; match: Matcher }): Ball {
   if (ball.result || ball.startedAt === undefined || timeLeft(ball, now) > 0) return ball;
   if (!typed) return dismiss(ball);
-  const last = guess(ball, typed.text, typed.match, ball.startedAt + BALL_MS - 1).ball;
+  const last = guess(ball, typed.text, typed.match, ball.startedAt + ballMs(ball) - 1).ball;
   return last.result ? last : dismiss(last);
 }
 

@@ -4,7 +4,8 @@
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
-import { appendDays } from "../src/engine/locks";
+import { assignDeliveries, bandFor, bandOf } from "../src/engine/delivery";
+import { appendDays, startedQuestionIds } from "../src/engine/locks";
 import { answerKeys, generatedForms, normalise, words } from "../src/engine/match";
 import { computeTiers, rarityScores } from "../src/engine/rarity";
 import { type Rated, rate } from "../src/engine/rating";
@@ -491,6 +492,51 @@ function difficultyReport() {
   console.log(`\n${spread(bank, bank)}`);
 }
 
+/**
+ * Gives every question without a delivery one from its difficulty band, and replaces any that's
+ * drifted out of its band, except on started days (docs/CONTENT.md, Deliveries).
+ */
+function deliveries() {
+  const current = JSON.parse(readFileSync(SCHEDULE, "utf8")) as Schedule;
+  const pool = readPool();
+  const bank = pool.flatMap((pf) => pf.questions);
+  const dayOf = new Map<string, number>();
+  current.days.forEach((d, i) => {
+    for (const id of d) if (!dayOf.has(id)) dayOf.set(id, i);
+  });
+  const unrated = bank.filter((q) => !q.delivery && !q.rating).map((q) => q.id);
+  if (unrated.length) console.log(`Not rated, so skipped: ${unrated.join(", ")}`);
+  // Scheduled days first, in ball order, so a day's balls vary; then the unused questions.
+  const order = [...current.days.flat(), ...bank.map((q) => q.id)];
+  const byId = new Map(bank.map((q) => [q.id, q]));
+  const started = startedQuestionIds(current, new Date());
+  const rows = [...new Set(order)].flatMap((id) => {
+    const q = byId.get(id);
+    const r = q && rate(q, bank);
+    if (!q || !r) return [];
+    const drifted = q.delivery && !started.has(id) && bandOf(q.delivery) !== bandFor(r.score);
+    if (drifted) console.log(`${q.id}: ${q.delivery} no longer fits difficulty ${r.score}`);
+    const delivery = drifted ? undefined : q.delivery;
+    return [{ id, delivery, score: r.score, day: dayOf.get(id) }];
+  });
+  const picked = assignDeliveries(rows);
+  for (const pf of pool) {
+    if (!pf.questions.some((q) => picked.has(q.id))) continue;
+    pf.questions = pf.questions.map((q) => {
+      const delivery = picked.get(q.id);
+      if (!delivery) return q;
+      console.log(`${delivery.padEnd(14)} ${q.id}`);
+      // Straight after rating, as in docs/CONTENT.md, leaving the other fields where they are.
+      const entries = Object.entries(q).filter(([k]) => k !== "delivery");
+      const at = entries.findIndex(([k]) => k === "rating") + 1 || entries.length;
+      entries.splice(at, 0, ["delivery", delivery]);
+      return Object.fromEntries(entries) as Question;
+    });
+    writeJson(pf.file, pf.questions);
+  }
+  console.log(`\nGave ${picked.size} question(s) a delivery.`);
+}
+
 const command = process.argv[2];
 const run: Record<string, () => unknown> = {
   import: () => importDays(process.argv[3] ?? ""),
@@ -502,13 +548,14 @@ const run: Record<string, () => unknown> = {
   draft,
   gaps,
   difficulty: difficultyReport,
+  deliveries,
   lock: () => lock(),
   "check-pushed": () => checkPushed(process.argv[3] || undefined),
 };
 const fn = command ? run[command] : undefined;
 if (!fn) {
   console.log(
-    "Usage: tsx tools/content.ts <draft ID URL…|gaps|import FILE|verify [ids]|rank [ids]|report [ids]|difficulty|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
+    "Usage: tsx tools/content.ts <draft ID URL…|gaps|import FILE|verify [ids]|rank [ids]|report [ids]|difficulty|deliveries|spellings [ids]|schedule [--days=N]|lock|check-pushed [url]>",
   );
   process.exitCode = 1;
 } else {

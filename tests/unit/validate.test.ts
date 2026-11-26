@@ -62,6 +62,15 @@ describe("validateQuestion", () => {
     ]);
   });
 
+  it("needs a known delivery", () => {
+    const { delivery: _, ...none } = groundsQuestion;
+    expect(validateQuestion(none)).toEqual([
+      "test-grounds: needs a delivery from its difficulty band (docs/CONTENT.md)",
+    ]);
+    const bumper = { ...groundsQuestion, delivery: "Bumper" } as unknown as Question;
+    expect(validateQuestion(bumper)).toHaveLength(1);
+  });
+
   it("needs a value per metric and a reason for overrides", () => {
     const answers = groundsQuestion.answers.map((a, i) =>
       i === 0 ? { ...a, override: { tier: "six" as const, reason: " " } } : { ...a, values: [i] },
@@ -83,6 +92,23 @@ describe("validateBank", () => {
     expect(validateBank(bank, { launchDate: "2026-12-01", days: [ids("a"), ids("b")] })).toEqual(
       [],
     );
+  });
+
+  it("checks deliveries against their band, except on days that have started", () => {
+    const off = (id: string): Question => ({ ...withId(id), delivery: "Slower ball" });
+    const skewed = [
+      ...bank.map((q) => (q.id === "a0" || q.id === "b0" ? off(q.id) : q)),
+      off("z0"),
+    ];
+    // Day 1 (a) is under way; day 2 (b) hasn't started, and z0 isn't scheduled.
+    const errors = validateBank(
+      skewed,
+      { launchDate: "2026-12-01", days: [ids("a"), ids("b")] },
+      new Date("2026-12-01T00:00:00Z"),
+    );
+    expect(errors).toHaveLength(2);
+    expect(errors[0]).toMatch(/^b0: difficulty \d+ needs one of .+, not Slower ball$/);
+    expect(errors[1]).toMatch(/^z0: /);
   });
 
   it("flags unknown, repeated and reused questions", () => {

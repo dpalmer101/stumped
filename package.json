@@ -29,7 +29,8 @@
     "preview:https": "vite preview --mode https --port 4443 --strictPort",
     "screenshots": "tsx tools/screenshots.ts",
     "gallery": "tsx tools/gallery.ts",
-    "content:difficulty": "tsx tools/content.ts difficulty"
+    "content:difficulty": "tsx tools/content.ts difficulty",
+    "content:deliveries": "tsx tools/content.ts deliveries"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

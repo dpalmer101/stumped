@@ -1,6 +1,9 @@
+import { bandFor, bandOf, isDelivery } from "./delivery";
 import { hash } from "./hash";
+import { startedQuestionIds } from "./locks";
 import { answerKeys } from "./match";
 import { computeTiers } from "./rarity";
+import { rate } from "./rating";
 import { COUNTRY_RULE_FROM_DAY, dayProblems, scheduleProblems } from "./schedule";
 import {
   type Answer,
@@ -38,6 +41,7 @@ export function validateQuestion(q: Question): string[] {
   for (const factor of ["recency", "breadth", "conditions"] as const) {
     if (![0, 1, 2].includes(q.rating?.[factor] as number)) at(`rating.${factor} must be 0, 1 or 2`);
   }
+  if (!isDelivery(q.delivery)) at("needs a delivery from its difficulty band (docs/CONTENT.md)");
   if (q.answers.length < MIN_ANSWERS) at(`has ${q.answers.length} answers, needs ${MIN_ANSWERS}`);
 
   for (const tier of TIERS) {
@@ -65,7 +69,11 @@ export function validateQuestion(q: Question): string[] {
   return errors;
 }
 
-export function validateBank(questions: Question[], schedule: Schedule): string[] {
+export function validateBank(
+  questions: Question[],
+  schedule: Schedule,
+  now: Date = new Date(),
+): string[] {
   const errors = questions.flatMap(validateQuestion);
   const ids = new Set<string>();
   for (const q of questions) {
@@ -88,6 +96,20 @@ export function validateBank(questions: Question[], schedule: Schedule): string[
     d.map((id) => byId.get(id)).filter((q): q is Question => !!q),
   );
   errors.push(...scheduleProblems(days));
+
+  // Fame is measured against the bank, so a score can drift as questions are added; a question
+  // on a started day keeps the delivery players had (docs/CONTENT.md, Deliveries).
+  const started = startedQuestionIds(schedule, now);
+  for (const q of questions) {
+    const score = rate(q, questions)?.score;
+    if (started.has(q.id) || score === undefined || !isDelivery(q.delivery)) continue;
+    const band = bandFor(score);
+    if (bandOf(q.delivery) !== band) {
+      errors.push(
+        `${q.id}: difficulty ${score} needs one of ${band.deliveries.join(", ")}, not ${q.delivery}`,
+      );
+    }
+  }
   return errors;
 }
 

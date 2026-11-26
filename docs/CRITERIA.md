@@ -25,7 +25,8 @@ Items marked 🤖 must be enforced by an automated test.
 
 - [ ] Exactly 6 balls (one over) per puzzle, in a fixed order. 🤖
 - [ ] Same date → same puzzle for every player; puzzle changes at local midnight. 🤖
-- [ ] Each ball lasts 20 s, measured from a stored start timestamp. 🤖
+- [ ] Each ball lasts its delivery's time (Fast ball 15 s, Slower ball 25 s, any other 20 s), measured from a stored start timestamp. 🤖
+- [ ] Every Face ball button names the coming delivery and its time, never how hard the question is; every on-screen time matches the real one. 🤖
 - [ ] First correct answer ends the ball; wrong answers are misses and the ball continues. 🤖
 - [ ] Repeat wrong guesses are not counted twice. 🤖
 - [ ] Timeout = OUT, 0 runs, +1 wicket; zero guesses = "Timed out". 🤖
@@ -39,7 +40,7 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] The archive lists every day so far with the player's score; a day's first finished play counts in stats but not streaks, and replays never change it. 🤖
 - [ ] The timer keeps running while the page is hidden or closed; on return the ball resumes with the time left, or is OUT if it ran out. 🤖
 - [ ] A ball's question is not in the page until that ball is faced and its timer has started. 🤖
-- [ ] Ball one greets the player by local time: Good morning (5am–noon), afternoon (noon–6pm), evening (6pm–midnight), none midnight–5am. 🤖
+- [ ] A ball waiting to be faced shows a result-style card reading "Play!" and a "Face ball one" (etc.) button. 🤖
 - [ ] Progress is saved when a ball is faced and after every guess. 🤖
 
 ## Answer matching
@@ -68,6 +69,8 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Nearly every question has a few answers a UK fan of county and international cricket since the mid-1990s would know, or answers guessable from geography; teams named after a place accept the place name.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.
 - [ ] Every question has the writer's difficulty `rating` (recency, breadth and conditions, each 0–2), so the content tools can score it 1–10. 🤖
+- [ ] Every question has a `delivery` from its difficulty band (CONTENT.md, Deliveries); each delivery has one name in one band. Questions not on a started day have a delivery from their current band. 🤖
+- [ ] A started day's deliveries don't change (not checked automatically: deliveries aren't in the lock fingerprint).
 - [ ] Every scheduled day has 6 distinct, existing question ids.
 - [ ] Days can be added after the schedule has looped back without changing any started over; the next over plays the first new day. 🤖
 - [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)

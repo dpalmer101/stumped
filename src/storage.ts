@@ -1,4 +1,5 @@
 import type { Ball, BallResult } from "./engine/ball";
+import { BANDS } from "./engine/delivery";
 import type { Innings } from "./engine/innings";
 import type { History, InningsRecord } from "./engine/stats";
 import { BALLS_PER_INNINGS, RUNS, TIERS, type Tier } from "./engine/types";
@@ -43,6 +44,9 @@ export function defaults(): Saved {
 
 type KeyValueStore = Pick<Storage, "getItem" | "setItem">;
 
+// Only the times a delivery can give, so an edited save can't make a ball last for ever.
+const BALL_TIMES = new Set<number>(BANDS.map((b) => b.ms));
+
 const isNum = (v: unknown): v is number => typeof v === "number" && Number.isFinite(v);
 const isTier = (v: unknown): v is Tier => (TIERS as readonly unknown[]).includes(v);
 
@@ -67,6 +71,7 @@ function isBall(b: unknown, i: number): b is Ball {
     v.index === i &&
     isNum(v.puzzle) &&
     typeof v.questionId === "string" &&
+    (v.timeMs === undefined || BALL_TIMES.has(v.timeMs)) &&
     (v.startedAt === undefined || isNum(v.startedAt)) &&
     Array.isArray(v.misses) &&
     v.misses.every((m) => typeof m === "string") &&

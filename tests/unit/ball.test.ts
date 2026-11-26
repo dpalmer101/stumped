@@ -23,6 +23,22 @@ describe("ball", () => {
     expect(timeLeft(live(), T0 + 99_000)).toBe(0);
   });
 
+  it("lasts its delivery's time", () => {
+    expect(timeLeft(newBall(1, 0, "x", 15_000), T0)).toBe(15_000);
+    const fast = startBall(newBall(1, 0, groundsQuestion.id, 15_000), T0);
+    expect(timeLeft(fast, T0 + 12_000)).toBe(3000);
+    expect(tick(fast, T0 + 15_000 - 1).result).toBeUndefined();
+    expect(tick(fast, T0 + 15_000).result?.kind).toBe("out");
+    const slow = startBall(newBall(1, 0, groundsQuestion.id, 25_000), T0);
+    expect(tick(slow, T0 + 24_999).result).toBeUndefined();
+    expect(tick(slow, T0 + 25_000).result?.kind).toBe("out");
+  });
+
+  it("gives a ball saved before deliveries the standard time", () => {
+    const { timeMs: _, ...old } = live();
+    expect(timeLeft(old, T0 + 12_000)).toBe(BALL_MS - 12_000);
+  });
+
   it("scores a correct answer by tier and ends the ball", () => {
     const r = guess(live(), "Bourda", match, T0 + 4000);
     expect(r.outcome).toBe("hit");

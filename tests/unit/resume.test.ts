@@ -83,6 +83,21 @@ describe("loadToday", () => {
     expect(inn.balls[0]?.result?.kind).toBe("out");
   });
 
+  it("gives each ball its delivery's time", () => {
+    const times = [15_000, 20_000, 25_000, 20_000, 20_000, 15_000];
+    expect(loadToday(null, 3, ids, T0, times).balls.map((b) => b.timeMs)).toEqual(times);
+  });
+
+  it("keeps a bowled ball's time but updates balls not yet faced", () => {
+    const saved = faceFirstBall();
+    const old = { ...saved, balls: saved.balls.map(({ timeMs: _, ...b }) => b) };
+    const times = [25_000, 15_000, 25_000, 20_000, 20_000, 15_000];
+    const inn = loadToday(old, 3, ids, T0 + 1000, times);
+    expect(inn.balls[0]?.timeMs).toBeUndefined();
+    expect(timeLeft(inn.balls[0] ?? fail(), T0 + 1000)).toBe(BALL_MS - 1000);
+    expect(inn.balls.slice(1).map((b) => b.timeMs)).toEqual(times.slice(1));
+  });
+
   it("starts fresh if today's questions changed since the save", () => {
     const changed = ["z", "b", "c", "d", "e", "f"];
     const inn = loadToday(finished(3), 3, changed, T0);

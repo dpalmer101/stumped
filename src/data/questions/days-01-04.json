@@ -9,6 +9,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Leg-break",
     "answers": [
       {
         "name": "Slip",
@@ -258,6 +259,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Good length",
     "answers": [
       {
         "name": "Yorkshire",
@@ -788,6 +790,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Full toss",
     "answers": [
       {
         "name": "Brian Lara",
@@ -1161,6 +1164,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Yorker",
@@ -1605,6 +1609,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Leg cutter",
     "answers": [
       {
         "name": "Lord's",
@@ -1935,6 +1940,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Bouncer",
     "answers": [
       {
         "name": "KL Rahul",
@@ -2174,6 +2180,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Cover drive",
@@ -2684,6 +2691,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Full toss",
     "answers": [
       {
         "name": "Mumbai",
@@ -3164,6 +3172,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Off-break",
     "answers": [
       {
         "name": "Shane Warne",
@@ -3712,6 +3721,7 @@
       "breadth": 2,
       "conditions": 2
     },
+    "delivery": "Slower ball",
     "answers": [
       {
         "name": "Alastair Cook",
@@ -3971,6 +3981,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Bat",
@@ -4299,6 +4310,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Inswinger",
     "answers": [
       {
         "name": "Fine leg",
@@ -4537,6 +4549,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Muttiah Muralitharan",
@@ -5064,6 +5077,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Leg-break",
     "answers": [
       {
         "name": "Lord's",
@@ -5410,6 +5424,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Ireland",
@@ -5830,6 +5845,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Full toss",
     "answers": [
       {
         "name": "Sachin Tendulkar",
@@ -6152,6 +6168,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Reverse swing",
     "answers": [
       {
         "name": "Mumbai",
@@ -6424,6 +6441,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Good length",
     "answers": [
       {
         "name": "Lasith Malinga",
@@ -6936,6 +6954,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Leg-break",
     "answers": [
       {
         "name": "Lord's",
@@ -7263,6 +7282,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Off cutter",
     "answers": [
       {
         "name": "Sachin Tendulkar",
@@ -7874,6 +7894,7 @@
       "breadth": 2,
       "conditions": 2
     },
+    "delivery": "Knuckle ball",
     "answers": [
       {
         "name": "Ian Botham",
@@ -8461,6 +8482,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Reverse swing",
     "answers": [
       {
         "name": "MS Dhoni",

@@ -80,6 +80,9 @@ describe("tampered or corrupt saves", () => {
       null,
       { ...ball(3), misses: [1] },
       { ...ball(3), startedAt: "now" },
+      { ...ball(3), timeMs: "long" },
+      { ...ball(3), timeMs: 1e9 },
+      { ...ball(3), timeMs: 0 },
       ball(9),
     ]) {
       const balls = Array.from({ length: 6 }, (_, i) => (i === 3 ? bad : ball(i)));
@@ -108,6 +111,8 @@ describe("tampered or corrupt saves", () => {
       ball(i, i === 0 ? { startedAt: 5, result: ok } : {}),
     );
     expect(load(memoryStore(innings(balls))).innings?.balls[0]?.result).toEqual(ok);
+    const timed = Array.from({ length: 6 }, (_, i) => ball(i, { timeMs: 15_000 }));
+    expect(load(memoryStore(innings(timed))).innings?.balls[0]?.timeMs).toBe(15_000);
   });
 
   it("drops broken history records but keeps good ones", () => {

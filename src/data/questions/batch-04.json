@@ -24,6 +24,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Leg cutter",
     "answers": [
       {
         "name": "Leeds",
@@ -527,6 +528,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Flipper",
     "answers": [
       {
         "name": "Taunton",
@@ -862,6 +864,7 @@
       "breadth": 2,
       "conditions": 1
     },
+    "delivery": "Inswinger",
     "answers": [
       {
         "name": "Canterbury",
@@ -1410,6 +1413,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Off cutter",
     "answers": [
       {
         "name": "Sharjah Cricket Stadium",
@@ -2155,6 +2159,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "Chennai Super Kings",
@@ -2870,6 +2875,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Off-break",
     "answers": [
       {
         "name": "Southern Vipers",
@@ -3181,6 +3187,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Leg-break",
     "answers": [
       {
         "name": "Barbados",
@@ -3513,6 +3520,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Good length",
     "answers": [
       {
         "name": "Karachi Region Whites",
@@ -3896,6 +3904,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "India",
@@ -4336,6 +4345,7 @@
       "breadth": 1,
       "conditions": 0
     },
+    "delivery": "Outswinger",
     "answers": [
       {
         "name": "India",
@@ -4633,6 +4643,7 @@
       "breadth": 0,
       "conditions": 0
     },
+    "delivery": "Fast ball",
     "answers": [
       {
         "name": "England",
@@ -4944,6 +4955,7 @@
       "breadth": 0,
       "conditions": 1
     },
+    "delivery": "Inswinger",
     "answers": [
       {
         "name": "One-Day Cup (England)",
@@ -5321,6 +5333,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Full toss",
     "answers": [
       {
         "name": "Berkshire",
@@ -5853,6 +5866,7 @@
       "breadth": 2,
       "conditions": 0
     },
+    "delivery": "Googly",
     "answers": [
       {
         "name": "Gillette",

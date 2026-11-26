@@ -1,7 +1,7 @@
 # Stumped — product requirements
 
 A free daily cricket knowledge game. One over a day: six balls, one question per ball. Name a correct
-answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out the time and you're out.
+answer before the ball's time runs out (15–25 seconds, by delivery); the rarer the answer, the bigger the shot. Runs out the time and you're out.
 
 ## 1. Audience and platform
 
@@ -27,12 +27,12 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 
 ## 3. A ball
 
-1. The ball waits in a "Ready" state with the **question hidden**. Ball one greets the player by
-   their local time ("Good morning, you'll have 20 seconds…": morning 5am–noon, afternoon
-   noon–6pm, evening 6pm–midnight, no greeting midnight–5am). When the player taps **Face ball**
+1. The ball waits in a "Ready" state with the **question hidden**: a card like the result card
+   with the umpire's call, **Play!**, and a **Face ball one** (etc.) button naming the delivery
+   coming and its time (§3a). When the player taps it
    the question appears, the bowler runs in and the timer starts at the same moment (the tap also
    lets the browser play sound). The question is never shown before its timer is running.
-2. A 20-second timer starts. The player types answers into a single text box and presses Enter.
+2. The ball's timer starts: 15, 20 or 25 seconds, by delivery (§3a). The player types answers into a single text box and presses Enter.
 3. **Correct answer** → the ball ends. The batter plays a shot matching the answer's tier (§4).
 4. **Wrong answer** → a "miss" (play and miss / beaten outside off). The guess is listed as a miss,
    the timer keeps running, the player tries again. Unlimited guesses.
@@ -44,6 +44,26 @@ answer within 20 seconds; the rarer the answer, the bigger the shot. Runs out th
 7. After the ball: a result panel shows the shot, runs, the answer given and its tier (or the
    dismissal). No other answers are revealed until the innings is over. One tap on **Face ball Two** (etc.)
    bowls the next ball (its question appears only then); after ball 6 it's **See scorecard**.
+   Every Face ball button says what's coming on a second line (§3a).
+
+## 3a. Deliveries
+
+Every question has a delivery, chosen from its 1–10 difficulty when the question is written and
+stored with it, so every player faces the same ball. Every Face ball button carries a second
+line with the delivery and its time ("Fast ball · 15 seconds"). Players are never told outright how hard a question
+is: the delivery and its time are the only hints.
+
+| Difficulty | Time | Deliveries                                                                                  |
+| ---------- | ---- | ------------------------------------------------------------------------------------------- |
+| 1–3        | 15 s | Fast ball                                                                                   |
+| 4–5        | 20 s | Good length, Full toss, Outswinger, Inswinger, Off cutter, Leg cutter, Off-break, Leg-break |
+| 6–7        | 20 s | Bouncer, Yorker, Reverse swing, Knuckle ball, Googly, Doosra, Flipper                       |
+| 8–10       | 25 s | Slower ball                                                                                 |
+
+- Only Fast ball and Slower ball change the time, so the name alone tells the player what to
+  expect. The 4–5 and 6–7 deliveries are cosmetic: the 6–7 ones are rarer, trickier balls that
+  signal a harder question.
+- Each delivery has one name, in one band only.
 
 ## 4. Answer tiers and runs
 
@@ -57,7 +77,7 @@ Every question has a curated list of accepted answers, each in exactly one tier.
 | Two               | 2          | Fairly obvious                          | ≥ 2          |
 | Single            | 1          | The obvious answers                     | ≥ 2          |
 | Miss              | 0          | Wrong guess (does not end the ball)     | —            |
-| Out               | 0 + wicket | No correct answer in 20s                | —            |
+| Out               | 0 + wicket | No correct answer in the ball's time    | —            |
 
 - ≥ 20 accepted answers per question in total.
 - Tier is about how few people would think of it, not how good the player was.
@@ -220,3 +240,5 @@ the anonymous counts in §1.
 - 2026-11-26: All rights reserved, with no licence: the home screen footer and the README read "© 2026 Daniel Palmer. All rights reserved."
 - 2026-11-26: No two questions on a day are about the same country (from day 5; days 1–4 had already been played). Days 5–10 were re-dealt to fit.
 - 2026-11-26: Every question is rated for difficulty from 1 (easy) to 10 (hard), from recency, breadth, conditions (judged by the writer) and answer count, fame, guessability and niche (measured). Content reports only: not shown to players or used by the scheduler.
+- 2026-11-26: Every question has a delivery picked from its difficulty band (§3a). Fast ball (1–3) gives 15 seconds, Slower ball (8–10) 25, every other delivery 20. Named before each ball. Assigned to every question, including days already played.
+- 2026-11-26: Ball one's ready screen matches balls two to six: a result-style card reading "Play!" and a "Face ball one" button with the delivery and its time. The time-of-day greeting is gone.

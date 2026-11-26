@@ -6,13 +6,14 @@ export interface Innings {
   balls: Ball[];
 }
 
-export function newInnings(puzzle: number, questionIds: string[]): Innings {
+/** `times` is each ball's length in ms, from its delivery; standard length if left out. */
+export function newInnings(puzzle: number, questionIds: string[], times?: number[]): Innings {
   if (questionIds.length !== BALLS_PER_INNINGS) {
     throw new Error(
       `Puzzle ${puzzle} needs ${BALLS_PER_INNINGS} questions, got ${questionIds.length}`,
     );
   }
-  return { puzzle, balls: questionIds.map((id, i) => newBall(puzzle, i, id)) };
+  return { puzzle, balls: questionIds.map((id, i) => newBall(puzzle, i, id, times?.[i])) };
 }
 
 /** Index of the ball being (or about to be) faced, or -1 once all are done. */
@@ -58,9 +59,17 @@ export function loadToday(
   puzzle: number,
   questionIds: string[],
   now: number,
+  times?: number[],
 ): Innings {
   // A save for a different question list (the schedule was edited) can't be resumed safely.
   const sameQuestions = saved?.balls.every((b, i) => b.questionId === questionIds[i]);
-  if (saved && saved.puzzle === puzzle && sameQuestions) return resume(saved, now);
-  return newInnings(puzzle, questionIds);
+  if (saved && saved.puzzle === puzzle && sameQuestions) {
+    // Balls not yet faced take today's times (a save from before deliveries has none); a ball
+    // already bowled keeps the time it started with.
+    const balls = saved.balls.map((b, i) =>
+      b.startedAt === undefined && times?.[i] !== undefined ? { ...b, timeMs: times[i] } : b,
+    );
+    return resume({ ...saved, balls }, now);
+  }
+  return newInnings(puzzle, questionIds, times);
 }

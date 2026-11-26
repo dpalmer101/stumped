@@ -13,6 +13,7 @@ npm run content:rank       # step 3: work out rarity and set tiers
 npm run content:schedule   # step 4: allocate questions to days for variety
 npm run content:report     # show each question's ranking and difficulty, to review tiers
 npm run content:difficulty # every question's 1–10 difficulty, easiest first
+npm run content:deliveries # give each question without a delivery one from its difficulty band
 npm test                   # the bank rules, run offline from the stored results
 ```
 
@@ -37,6 +38,7 @@ converted with `npm run content:import -- <file>`. A question:
   "sources": ["https://en.wikipedia.org/wiki/List_of_England_cricket_captains"],
   "metrics": [{ "label": "Tests as captain", "rarerWhen": "lower" }],
   "rating": { "recency": 1, "breadth": 2, "conditions": 0 }, // see Difficulty rating below
+  "delivery": "Googly", // see Deliveries below
   "answers": [
     { "name": "Michael Vaughan", "aliases": ["Mike Vaughan"], "values": [51] },
     { "name": "Mark Butcher", "wiki": "Mark Butcher", "values": [1] }
@@ -46,8 +48,9 @@ converted with `npm run content:import -- <file>`. A question:
 
 ### Difficulty rating
 
-Every question gets a difficulty from 1 (easy) to 10 (hard), for the content reports only: players
-never see it, and the scheduler still balances days on fame (see Schedule). Seven factors each
+Every question gets a difficulty from 1 (easy) to 10 (hard). Players never see the number, but it
+picks the question's delivery (see Deliveries), which sets the ball's time. The scheduler still
+balances days on fame (see Schedule). Seven factors each
 score 0 (easier) to 2 (harder), and their total maps onto 1–10.
 
 The writer judges three, in `rating`:
@@ -75,6 +78,32 @@ The tools measure the other four:
 `npm run content:difficulty` lists every question's score and factors, easiest first, with the
 average for each scheduled day. `content:report` shows it per question and `content:gaps` shows
 how many easy (1–3), medium (4–7) and hard (8–10) questions there are.
+
+### Deliveries
+
+Every question has a `delivery`, the ball the player faces, from its difficulty band. It's stored
+on the question, not worked out in the game, so every player gets the same ball even as the bank
+grows.
+
+| Difficulty | Time | Deliveries                                                                                  |
+| ---------- | ---- | ------------------------------------------------------------------------------------------- |
+| 1–3        | 15 s | Fast ball                                                                                   |
+| 4–5        | 20 s | Good length, Full toss, Outswinger, Inswinger, Off cutter, Leg cutter, Off-break, Leg-break |
+| 6–7        | 20 s | Bouncer, Yorker, Reverse swing, Knuckle ball, Googly, Doosra, Flipper                       |
+| 8–10       | 25 s | Slower ball                                                                                 |
+
+- Only Fast ball and Slower ball change the time; the others are cosmetic. The 6–7 deliveries are
+  rarer, trickier balls that signal a harder question.
+- One name per delivery, in one band only. Don't add a second name for a ball already listed
+  (no "Bumper" beside Bouncer, no "Wrong'un" beside Googly), and nothing called "slower" outside
+  8–10.
+- Pick any delivery from the band; `npm run content:deliveries` fills in missing ones, spreading
+  the names out across the bank and avoiding repeats within a scheduled day.
+- The fame factor is measured against the rest of the bank, so a question's score can drift into
+  another band as questions are added. The bank tests check every question that isn't on a
+  started day against its current band; when one fails, `npm run content:deliveries` replaces
+  that delivery with one from the new band. A question on a started day keeps the delivery
+  players had.
 
 ### Drafting from list pages
 
@@ -110,7 +139,7 @@ Rules for the question:
 
 ### Spellings
 
-Players type fast under a 20-second clock, so each answer needs the forms people really type.
+Players type fast under a 15–25 second clock, so each answer needs the forms people really type.
 The matcher handles some of this automatically:
 
 - **Ignored:** case, accents, punctuation, spaces, a leading "the", and "&" vs "and".
@@ -250,8 +279,9 @@ Once a day has been pushed to GitHub and has started anywhere in the world (it s
 so today counts, and so can tomorrow), its questions can't change: someone may already be playing
 it, and finished days are someone's scorecard.
 
-- **Locked:** the questions, their order, the prompts, categories, answer types, answers and
-  tiers.
+- **Locked:** the questions, their order, the prompts, categories, answer types, answers,
+  tiers and deliveries. Deliveries aren't in the lock fingerprint (adding them would have broken
+  the live site's locks), so a changed delivery on a started day isn't caught automatically.
 - **Still allowed:** new aliases and misspellings (more ways to get a right answer), and format
   changes such as file layout or ids. Don't remove an alias or misspelling from a started day:
   that turns a right answer wrong (not checked automatically).

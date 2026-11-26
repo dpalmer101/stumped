@@ -1,6 +1,7 @@
 import { claimEvent, countEvent, countVisit, eventKey, type PlayEvent } from "../analytics";
 import { loadDay, schedule } from "../data";
-import { type Ball, guess, MAX_GUESS, startBall, tick, timeLeft } from "../engine/ball";
+import { type Ball, ballMs, guess, MAX_GUESS, startBall, tick, timeLeft } from "../engine/ball";
+import { deliveryHint, deliveryMs } from "../engine/delivery";
 import { TIMED_OUT } from "../engine/dismissal";
 import {
   canRevealAnswers,
@@ -12,7 +13,7 @@ import {
   total,
 } from "../engine/innings";
 import { createMatcher, type Matcher, normalise } from "../engine/match";
-import { greeting, isNight } from "../engine/night";
+import { isNight } from "../engine/night";
 import { puzzleDate, puzzleNumber, questionIdsFor, scheduleHasWrapped } from "../engine/puzzle";
 import { shareText } from "../engine/share";
 import {
@@ -123,7 +124,7 @@ const COPYRIGHT = "© 2026 Daniel Palmer. All rights reserved.";
 const HOW_TO_PLAY = `<div class="sheet-backdrop">
   <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="htp-title">
     <h2 id="htp-title">How to play</h2>
-    <p>Each ball is a cricket question with lots of right answers. You have <b>20 seconds</b>.</p>
+    <p>Each ball is a cricket question with lots of right answers. You have <b>20 seconds</b>, or 15 for a <b>fast ball</b> and 25 for a <b>slower ball</b>.</p>
     <p><b>Your first right answer ends the ball, so think rare:</b></p>
     <ul class="ladder">${(["single", "two", "four", "six", "ootg"] as const)
       .map(
@@ -140,6 +141,9 @@ const HOW_TO_PLAY = `<div class="sheet-backdrop">
 const BALL_NAMES = ["One", "Two", "Three", "Four", "Five", "Six"];
 /** Balls are named, not numbered ("Ball Three"), like a commentator would. */
 const ballName = (index: number) => BALL_NAMES[index] ?? String(index + 1);
+/** "Ball two of six", in sentence case. */
+const ballOfSix = (index: number) =>
+  `Ball ${ballName(index).toLowerCase()} of ${ballName(BALLS_PER_INNINGS - 1).toLowerCase()}`;
 
 /** Clipboard API where allowed (secure pages), else the older copy command, which also works on http. */
 async function copyText(text: string): Promise<boolean> {
@@ -370,7 +374,7 @@ export class App {
     // Only adopt saves for the day whose questions are loaded; a new day goes through checkDay().
     if (changed && !this.archive && fresh.innings?.puzzle === this.loadedPuzzle) {
       const puzzle = this.loadedPuzzle;
-      this.innings = loadToday(fresh.innings, puzzle, questionIdsFor(puzzle, schedule), Date.now());
+      this.innings = this.loadInnings(fresh.innings, puzzle);
       this.showing = null;
       if (this.view === "play" && isComplete(this.innings)) this.view = "scorecard";
       // Another tab reset today's over (see resetToday).
@@ -462,7 +466,7 @@ export class App {
       );
     }
     const before = this.saved.innings;
-    this.innings = loadToday(before, puzzle, questionIdsFor(puzzle, schedule), Date.now());
+    this.innings = this.loadInnings(before, puzzle);
     this.showing = null;
     this.view = "home";
 
@@ -506,6 +510,18 @@ export class App {
     this.saved.innings = newer ? stored.innings : this.innings;
     save(this.store, this.saved);
     this.lastRaw = readRaw(this.store);
+  }
+
+  /** Needs the puzzle's questions loaded: each ball's time comes from its delivery. */
+  private loadInnings(saved: Innings | null, puzzle: number): Innings {
+    const ids = questionIdsFor(puzzle, schedule);
+    const times = ids.map((id) => deliveryMs(this.questions.get(id)?.delivery));
+    return loadToday(saved, puzzle, ids, Date.now(), times);
+  }
+
+  /** Shown on the Face ball button, so the player knows what's coming before tapping it. */
+  private hint(ball: Ball): string {
+    return deliveryHint(this.questions.get(ball.questionId)?.delivery);
   }
 
   private question(ball: Ball): PlayableQuestion {
@@ -760,12 +776,7 @@ export class App {
     const resume = this.archivePlay(puzzle);
     this.archive = true;
     this.archiveCounts = resume ? resume.counts : !this.saved.history[puzzle];
-    this.innings = loadToday(
-      resume?.innings ?? null,
-      puzzle,
-      questionIdsFor(puzzle, schedule),
-      Date.now(),
-    );
+    this.innings = this.loadInnings(resume?.innings ?? null, puzzle);
     // A ball that ran out of time while the player was away: show them what happened.
     const timedOut = resume
       ? this.innings.balls.findIndex((b, i) => b.result && !resume.innings.balls[i]?.result)
@@ -827,7 +838,10 @@ export class App {
       const misses = ball.misses.length
         ? plural(ball.misses.length, "miss", "misses")
         : "No misses";
-      this.setBar(r.kind === "hit" ? timeLeft(ball, (ball.startedAt ?? 0) + r.ms) : 0);
+      this.setBar(
+        r.kind === "hit" ? timeLeft(ball, (ball.startedAt ?? 0) + r.ms) : 0,
+        ballMs(ball),
+      );
       if (r.kind === "hit") {
         this.callout(CALL[r.tier], r.tier, false);
         panel.innerHTML = `<div class="res"><div class="call${r.tier === "ootg" ? " long" : ""}" style="color:${colour(r.tier)}">${CALL[r.tier]}</div>
@@ -837,19 +851,29 @@ export class App {
         panel.innerHTML = `<div class="res"><div class="call" style="color:${colour("out")}">Out!</div>
           <p class="what"><b>${esc(r.dismissal)}</b>: ${esc(FLAVOUR[r.dismissal] ?? "")}</p><p class="meta">${misses}</p></div>`;
       }
+      const next = this.innings.balls[idx + 1];
       // Straight into the next ball: one tap, and its question still only appears once faced.
-      return last
+      return last || !next
         ? this.wideButton(panel, "next", "See scorecard")
-        : this.wideButton(panel, "face-next", `Face ball ${ballName(idx + 1).toLowerCase()}`);
+        : this.wideButton(
+            panel,
+            "face-next",
+            `Face ball ${ballName(idx + 1).toLowerCase()}`,
+            this.hint(next),
+          );
     }
 
     if (ball.startedAt === undefined) {
       // The question isn't put on the page until the ball is faced and its timer is running.
-      this.setBar(BALL_MS);
-      const hello = idx === 0 ? greeting(new Date()) : undefined;
-      panel.innerHTML = `<div class="ready"><div class="cat">Ball ${ballName(idx)} of ${ballName(BALLS_PER_INNINGS - 1)}</div>
-        <p>${hello ? `${hello}, you'll` : "You'll"} have 20 seconds once the ball is bowled.</p></div>`;
-      return this.wideButton(panel, "face", "Face ball");
+      this.setBar(ballMs(ball), ballMs(ball));
+      // The umpire's call, in the same card as a result, so ball one looks like balls two to six.
+      panel.innerHTML = `<div class="res ready"><div class="call">Play!</div></div>`;
+      return this.wideButton(
+        panel,
+        "face",
+        `Face ball ${ballName(idx).toLowerCase()}`,
+        this.hint(ball),
+      );
     }
 
     const q = this.question(ball);
@@ -861,15 +885,16 @@ export class App {
       <div class="misses" id="misses" aria-label="Misses">${ball.misses.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
       <div class="hint" id="hint"></div>`;
     this.root.classList.add("live");
-    this.pitch?.bowl(Date.now() - (ball.startedAt ?? Date.now()));
+    this.pitch?.bowl(Date.now() - (ball.startedAt ?? Date.now()), ballMs(ball));
     this.root.querySelector<HTMLInputElement>("#guess")?.focus();
     this.startLoop(ball);
   }
 
-  private wideButton(panel: HTMLElement, act: string, label: string) {
+  private wideButton(panel: HTMLElement, act: string, label: string, sub?: string) {
+    const extra = sub ? `<span class="sub">${esc(sub)}</span>` : "";
     panel.insertAdjacentHTML(
       "afterend",
-      `<div class="grow"></div><button class="btn wide" data-act="${act}">${label}</button>`,
+      `<div class="grow"></div><button class="btn wide" data-act="${act}">${label} ${extra}</button>`,
     );
     this.root.querySelector<HTMLButtonElement>(`[data-act="${act}"]`)?.focus();
   }
@@ -893,10 +918,10 @@ export class App {
     if (el) el.textContent = text;
   }
 
-  private setBar(msLeft: number) {
+  private setBar(msLeft: number, total = BALL_MS) {
     const bar = this.root.querySelector<HTMLElement>("#bar");
     // Quantised to 40 steps to match the 8-bit look.
-    if (bar) bar.style.width = `${(Math.ceil((msLeft / BALL_MS) * 40) / 40) * 100}%`;
+    if (bar) bar.style.width = `${(Math.ceil((msLeft / total) * 40) / 40) * 100}%`;
     const track = this.root.querySelector("#track");
     track?.classList.toggle("low", msLeft > 0 && msLeft <= 10_000);
     // Last 5 seconds: thicker and striped, so it reads without colour or sound.
@@ -1224,7 +1249,7 @@ export class App {
     }).join("");
     return `${this.topBar(true)}<main class="card">${this.newDayBanner()}
       <div class="pager"><button class="btn ghost" data-act="prev" aria-label="Previous ball" ${this.answersIndex === 0 ? "disabled" : ""}>‹</button>
-        <span>Ball ${ballName(this.answersIndex)} of ${ballName(BALLS_PER_INNINGS - 1)}</span>
+        <span>${ballOfSix(this.answersIndex)}</span>
         <button class="btn ghost" data-act="nextq" aria-label="Next ball" ${this.answersIndex === BALLS_PER_INNINGS - 1 ? "disabled" : ""}>›</button></div>
       <div class="cat">${esc(q.category)}</div><h2 class="aq">${esc(q.prompt)}</h2>${groups}
       <button class="btn wide answers-back" data-act="back">Back to scorecard</button></main>`;
@@ -1239,7 +1264,7 @@ export class App {
       const current = this.innings.balls[ball.index];
       if (!current || current.result) return;
       const left = timeLeft(current, now);
-      this.setBar(left);
+      this.setBar(left, ballMs(current));
       for (const secs of [10, 5]) {
         if (left <= secs * 1000 && left > 0 && !this.announced.has(secs)) {
           this.announced.add(secs);

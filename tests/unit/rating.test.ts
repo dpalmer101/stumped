@@ -29,10 +29,12 @@ describe("rate", () => {
     expect(rate(famous, bank)).toEqual({
       score: 1,
       factors: { ...easy, answers: 0, fame: 0, guessable: 0, niche: 0 },
+      women: 0,
     });
     expect(rate(obscure, bank)).toEqual({
       score: 10,
-      factors: { ...hard, answers: 2, fame: 2, guessable: 2, niche: 2 },
+      factors: { ...hard, answers: 2, fame: 2, guessable: 2, niche: 1 },
+      women: 2,
     });
   });
 
@@ -55,15 +57,25 @@ describe("rate", () => {
     expect([team(["men", "domestic"]), team(["men", "franchise"])]).toEqual([0, 1]);
   });
 
-  it("counts women's-only and domestic questions as niche, but not men's and women's together", () => {
+  it("counts domestic questions as niche", () => {
     const niche = (tags: Question["tags"]) => rate({ ...famous, tags }, bank)?.factors.niche;
+    expect([niche(["men", "international"]), niche(["men", "domestic"])]).toEqual([0, 1]);
+  });
+
+  it("makes women's-only questions 1 harder than the men's, and player questions 2", () => {
+    const score = (answerType: Question["answerType"], tags: Question["tags"]) =>
+      rate({ ...famous, answerType, tags }, bank)?.score ?? 0;
+    const men = (t: Question["answerType"]) => score(t, ["men", "odi"]);
     expect([
-      niche(["men", "international"]),
-      niche(["women", "odi"]),
-      niche(["men", "women", "odi"]),
-      niche(["men", "domestic"]),
-      niche(["women", "domestic"]),
-    ]).toEqual([0, 1, 0, 1, 2]);
+      score("team", ["women", "odi"]) - men("team"),
+      score("ground", ["women", "odi"]) - men("ground"),
+      score("player", ["women", "odi"]) - men("player"),
+      score("player", ["men", "women", "odi"]) - men("player"),
+    ]).toEqual([1, 1, 2, 0]);
+  });
+
+  it("caps the score at 10", () => {
+    expect(rate({ ...obscure, tags: ["women", "domestic", "odi"] }, bank)?.score).toBe(10);
   });
 
   it("puts questions as famous as each other in the easier third", () => {

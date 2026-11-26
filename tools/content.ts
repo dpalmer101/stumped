@@ -338,7 +338,7 @@ const describeRating = (r: Rated | null) =>
   r
     ? `difficulty ${r.score}/10 (${Object.entries(r.factors)
         .map(([k, v]) => `${k} ${v}`)
-        .join(", ")})`
+        .join(", ")}${r.women ? `, women's +${r.women}` : ""})`
     : "difficulty not rated: add rating.recency, rating.breadth and rating.conditions";
 
 function report() {

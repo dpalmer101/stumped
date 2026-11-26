@@ -72,8 +72,11 @@ The tools measure the other four:
 - `guessable`: grounds, countries, counties, and teams that aren't franchises (national and
   domestic sides are named after places) are 0, as places can be guessed; players are 2 and the
   rest 1.
-- `niche`: 1 for women's-only questions (`women` without `men`) and 1 for `domestic`, which fewer
-  people follow.
+- `niche`: 1 for `domestic`, which fewer people follow.
+
+Women's-only questions (`women` without `men`) then score 1 higher than the men's equivalent, and
+women's player questions 2 higher: women's teams, grounds and countries can partly be guessed from
+the men's game, but the players can't. The score tops out at 10.
 
 `npm run content:difficulty` lists every question's score and factors, easiest first, with the
 average for each scheduled day. `content:report` shows it per question and `content:gaps` shows

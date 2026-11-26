@@ -9,7 +9,7 @@ export interface Factors extends Rating {
   fame: Factor;
   /** Places can be guessed; players have to be known. */
   guessable: Factor;
-  /** Women's and domestic cricket are less widely followed. */
+  /** Domestic cricket is less widely followed. */
   niche: Factor;
 }
 
@@ -17,6 +17,8 @@ export interface Rated {
   /** 1 (easy) to 10 (hard). */
   score: number;
   factors: Factors;
+  /** Added to the score for a women's-only question: 1, or 2 for players. */
+  women: number;
 }
 
 const PLACES = new Set(["ground", "country", "county"]);
@@ -36,9 +38,14 @@ function guessableFactor(q: Question): Factor {
 }
 
 function nicheFactor(q: Question): Factor {
+  return q.tags.includes("domestic") ? 1 : 0;
+}
+
+/** Women's teams, grounds and countries can partly be guessed from the men's game; players can't. */
+function womenStep(q: Question): number {
   // Women's answers alongside men's make a question easier, not harder.
-  const womenOnly = q.tags.includes("women") && !q.tags.includes("men");
-  return (Number(womenOnly) + Number(q.tags.includes("domestic"))) as Factor;
+  if (!q.tags.includes("women") || q.tags.includes("men")) return 0;
+  return q.answerType === "player" ? 2 : 1;
 }
 
 /** Thirds of the bank, comparing only questions whose fame is measured the same way. */
@@ -62,5 +69,7 @@ export function rate(q: Question, bank: Question[]): Rated | null {
     niche: nicheFactor(q),
   };
   const total = Object.values(factors).reduce((sum: number, f) => sum + f, 0);
-  return { score: 1 + Math.round((total * 9) / (FACTORS * 2)), factors };
+  const women = womenStep(q);
+  const score = Math.min(10, 1 + Math.round((total * 9) / (FACTORS * 2)) + women);
+  return { score, factors, women };
 }

@@ -60,3 +60,7 @@ npm run build && npm run preview:https
 
 Open `https://<your-computer-ip>:4443/stumped/` on the phone and accept the certificate warning (it's a
 self-signed certificate for local testing). GitHub Pages is https, so the live site needs nothing extra.
+
+## Copyright
+
+© 2026 Daniel Palmer. All rights reserved.

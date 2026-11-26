@@ -18,6 +18,8 @@ Items marked 🤖 must be enforced by an automated test.
 - [ ] The only exception is question answers, which may name real things as facts (players, grounds including sponsored names, teams, tournaments).
 - [ ] Every dependency (runtime and dev) is open source and free to use with no commercial restrictions. Allowed licences: MIT, ISC, BSD-2-Clause, BSD-3-Clause, 0BSD, Apache-2.0, MPL-2.0, CC0-1.0, Unlicense. Not allowed: GPL/AGPL/LGPL, SSPL, BUSL, Elastic, Commons Clause, CC-BY-NC, unlicensed or proprietary. 🤖
 - [ ] Prefer no runtime dependencies; adding one needs a reason.
+- [ ] All rights are reserved: the repo has no licence, and the README ends with "© 2026 Daniel Palmer. All rights reserved."
+- [ ] The home screen footer reads "© 2026 Daniel Palmer. All rights reserved." 🤖
 
 ## Gameplay
 

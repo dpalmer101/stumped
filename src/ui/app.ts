@@ -118,6 +118,8 @@ function fragment(html: string): Node {
   return t.content.firstChild ?? document.createTextNode("");
 }
 
+const COPYRIGHT = "© 2026 Daniel Palmer. All rights reserved.";
+
 const HOW_TO_PLAY = `<div class="sheet-backdrop">
   <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="htp-title">
     <h2 id="htp-title">How to play</h2>
@@ -656,7 +658,7 @@ export class App {
       <div class="grow"></div><button class="btn wide" data-act="walk"${this.beforeLaunch() ? " disabled" : ""}>${cta}</button>
       <div class="home-links"><button class="btn ghost" data-act="help">How to play</button>${
         this.beforeLaunch() ? "" : `<button class="btn ghost" data-act="archive">Archive</button>`
-      }</div>${stat}${this.installHtml()}</main>
+      }</div>${stat}${this.installHtml()}<footer class="copyright">${COPYRIGHT}</footer></main>
       ${this.helpOpen || !this.saved.seenHelp ? HOW_TO_PLAY : ""}`;
   }
 

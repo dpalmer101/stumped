@@ -601,3 +601,10 @@ for (const [time, text] of [
     );
   });
 }
+
+test("the home screen carries the copyright notice", async ({ context }) => {
+  const page = await open(context, LAUNCH);
+  await expect(page.locator("footer.copyright")).toHaveText(
+    "© 2026 Daniel Palmer. All rights reserved.",
+  );
+});

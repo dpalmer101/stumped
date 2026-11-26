@@ -497,7 +497,8 @@ button {
   font-size: 12px;
   line-height: 1;
 }
-.statline {
+.statline,
+.copyright {
   text-align: center;
   color: var(--muted);
   font-size: 12px;

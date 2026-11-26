@@ -217,3 +217,4 @@ the anonymous counts in §1.
 - 2026-11-25: When the timer runs out, an answer still in the box is played as a last guess. The answer button is labelled "Swing" (was "Play").
 - 2026-11-25: From 9pm to 5am the scene is floodlit; the first ball's scene starts dark and the lights come on after 1 s.
 - 2026-11-25: Ball one greets the player by local time: "Good morning" 5am–noon, "Good afternoon" noon–6pm, "Good evening" 6pm–midnight, none midnight–5am.
+- 2026-11-26: All rights reserved, with no licence: the home screen footer and the README read "© 2026 Daniel Palmer. All rights reserved."

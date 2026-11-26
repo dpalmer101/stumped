@@ -190,6 +190,9 @@ Variety matters most within a day, then within a week. After a week, similar que
 **Within a day** (strongest):
 
 - **Different categories:** no two questions share a `category`.
+- **Different countries:** no two questions share a country tag, so a day never has, say, India's
+  players and India's teams. A question tagged with several countries rules them all out for that
+  day. Days 1–4 were played before this rule and keep their clashes.
 - **Different answer types:** at most one question per `answerType`, except players (up to two).
 - **Not too much general knowledge:** at most 2 questions tagged `general` (laws, kit, shots,
   positions).
@@ -221,7 +224,9 @@ it, and finished days are someone's scorecard.
 - `src/data/locked-days.json` holds a fingerprint of each scheduled day. `content:schedule` locks
   new days automatically; after editing a future day, run `npm run content:lock`, which refuses
   if a started day would change. Never edit the lock file by hand.
-- Days only get appended. Removing, reordering or moving the launch date fails too.
+- Started days can't be removed or reordered, and the launch date can't move. To redo days that
+  haven't started, edit them in place in `schedule.json` and run `npm run content:lock`; don't cut
+  the schedule short and re-run `content:schedule`, which would record permanent `segments`.
 - **Days can be added at any time, even after the schedule has looped back to day 1.**
   `content:schedule` adds them with `appendDays`: if the loop has started, it records a segment
   in `schedule.json` so the next over plays the first new day, and every over that has started
@@ -241,5 +246,8 @@ changes to questions or the schedule reach players on the next build and deploy.
 ## Tags
 
 Use these so the scheduler can mix days: `men`, `women`, `test`, `odi`, `t20`, `franchise`,
-`domestic`, `international`, `general` (laws, equipment, positions, shots), plus one region tag when
-the question is about one country (`england`, `india`, `australia`, …).
+`domestic`, `international`, `general` (laws, equipment, positions, shots), plus a country tag for
+each country the question is about when it's about one to three countries (`england`, `india`,
+`australia`, `bangladesh`, …; the list is `COUNTRY_TAGS` in `src/engine/types.ts`). A question
+spanning four or more countries, such as the winners of eight T20 leagues, isn't about any one of
+them, so it gets no country tags.

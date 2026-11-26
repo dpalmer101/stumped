@@ -59,6 +59,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Every answer is verified against English Wikipedia by `content:verify` (stored `verified`), never by hand.
 - [ ] Every tier comes from `content:rank` (page views plus question-specific metrics); manual overrides need a written reason.
 - [ ] Every day passes the variety rules: unique categories, one question per answer type (players up to two), ≤ 2 general-knowledge, ≤ 3 of one format, at least one question beyond men's international cricket.
+- [ ] From day 5, no two questions on a day share a country tag. 🤖
 - [ ] In any 7 days in a row a category appears on at most 2 days; a question is re-used only after 30 days. 🤖
 
 - [ ] Every question: ≥ 20 answers, exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.

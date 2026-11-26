@@ -1,5 +1,5 @@
 import { difficulty } from "./rarity";
-import { BALLS_PER_INNINGS, type Question, type Tag } from "./types";
+import { BALLS_PER_INNINGS, COUNTRIES, type Question, type Tag } from "./types";
 
 // Variety rules, strongest first (see docs/CONTENT.md): within a day, then within any week. After
 // that similar questions are fine, and a question may come back once 30 days have passed.
@@ -13,13 +13,19 @@ const MAX_GENERAL = 2;
 const WEEK = 7;
 const MAX_CATEGORY_PER_WEEK = 2;
 export const REUSE_AFTER_DAYS = 30;
+/** Days 1–4 were played before the one-question-per-country rule, so they keep their clashes. */
+export const COUNTRY_RULE_FROM_DAY = 5;
 
 export const isBroader = (q: Question) => q.tags.some((t) => BROADER.includes(t));
 const isGeneral = (q: Question) => q.tags.includes("general");
+const countries = (q: Question) => q.tags.filter((t) => COUNTRIES.includes(t));
+const sharesCountry = (a: Question, b: Question) =>
+  countries(a).some((c) => countries(b).includes(c));
 
 function fitsDay(day: Question[], q: Question): boolean {
   if (day.length >= BALLS_PER_INNINGS) return false;
   if (day.some((d) => d.category === q.category)) return false;
+  if (day.some((d) => sharesCountry(d, q))) return false;
   if (day.filter((d) => d.answerType === q.answerType).length >= maxOfType(q.answerType))
     return false;
   if (isGeneral(q) && day.filter(isGeneral).length >= MAX_GENERAL) return false;
@@ -49,10 +55,16 @@ function lastUses(days: Question[][]): Map<string, number> {
 }
 
 /** Variety rules for one day. */
-export function dayProblems(day: Question[]): string[] {
+export function dayProblems(day: Question[], { countryRule = true } = {}): string[] {
   const problems: string[] = [];
   const categories = new Set(day.map((q) => q.category));
   if (categories.size !== day.length) problems.push("two questions share a category");
+  if (countryRule) {
+    for (const c of COUNTRIES) {
+      const n = day.filter((q) => q.tags.includes(c)).length;
+      if (n > 1) problems.push(`${n} questions about ${c}`);
+    }
+  }
   for (const type of new Set(day.map((q) => q.answerType))) {
     const n = day.filter((q) => q.answerType === type).length;
     if (n > maxOfType(type)) problems.push(`${n} questions with ${type} answers`);

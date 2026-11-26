@@ -27,6 +27,19 @@ export type AnswerType =
   | "ground"
   | "other";
 
+/** Country tags: a day has at most one question about each (see docs/CONTENT.md). */
+const COUNTRY_TAGS = [
+  "england",
+  "india",
+  "australia",
+  "new-zealand",
+  "south-africa",
+  "west-indies",
+  "pakistan",
+  "sri-lanka",
+  "bangladesh",
+] as const;
+
 /** Tags the scheduler uses to mix each day (see docs/CONTENT.md). */
 export const TAGS = [
   "men",
@@ -38,16 +51,10 @@ export const TAGS = [
   "domestic",
   "international",
   "general",
-  "england",
-  "india",
-  "australia",
-  "new-zealand",
-  "south-africa",
-  "west-indies",
-  "pakistan",
-  "sri-lanka",
+  ...COUNTRY_TAGS,
 ] as const;
 export type Tag = (typeof TAGS)[number];
+export const COUNTRIES: readonly Tag[] = COUNTRY_TAGS;
 
 export interface Metric {
   label: string;

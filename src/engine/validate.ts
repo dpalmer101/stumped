@@ -1,7 +1,7 @@
 import { hash } from "./hash";
 import { answerKeys } from "./match";
 import { computeTiers } from "./rarity";
-import { dayProblems, scheduleProblems } from "./schedule";
+import { COUNTRY_RULE_FROM_DAY, dayProblems, scheduleProblems } from "./schedule";
 import {
   type Answer,
   BALLS_PER_INNINGS,
@@ -75,7 +75,8 @@ export function validateBank(questions: Question[], schedule: Schedule): string[
   schedule.days.forEach((day, i) => {
     const label = `day ${i + 1}`;
     const qs = day.map((id) => byId.get(id)).filter((q): q is Question => !!q);
-    for (const p of dayProblems(qs)) errors.push(`${label}: ${p}`);
+    const countryRule = i + 1 >= COUNTRY_RULE_FROM_DAY;
+    for (const p of dayProblems(qs, { countryRule })) errors.push(`${label}: ${p}`);
     if (day.length !== BALLS_PER_INNINGS) errors.push(`${label} has ${day.length} questions`);
     if (new Set(day).size !== day.length) errors.push(`${label} repeats a question`);
     for (const id of day) if (!ids.has(id)) errors.push(`${label} uses unknown question ${id}`);

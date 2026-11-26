@@ -50,6 +50,16 @@ describe("dayProblems", () => {
       dayProblems(varied.map((x) => ({ ...x, tags: ["men", "international"] as Tag[] }))),
     ).toContain("only men's international questions");
   });
+
+  it("allows one question per country, counting questions that cover several", () => {
+    const day = varied.map((x, i) => ({
+      ...x,
+      tags: [...x.tags, ...((i === 1 ? ["india"] : i === 2 ? ["india", "pakistan"] : []) as Tag[])],
+    }));
+    expect(dayProblems(day)).toEqual(["2 questions about india"]);
+    // Days played before the rule keep their clashes.
+    expect(dayProblems(day, { countryRule: false })).toEqual([]);
+  });
 });
 
 describe("allocate", () => {
@@ -72,6 +82,13 @@ describe("allocate", () => {
     for (const day of allocate(pool, 2)) {
       const d = day.map(difficulty);
       expect(d).toEqual([...d].sort((a, b) => a - b));
+    }
+  });
+
+  it("keeps questions about the same country on different days", () => {
+    const tagged = pool.map((x, i) => (i < 2 ? { ...x, tags: [...x.tags, "england" as Tag] } : x));
+    for (const day of allocate(tagged, 2)) {
+      expect(day.filter((x) => x.tags.includes("england"))).toHaveLength(1);
     }
   });
 

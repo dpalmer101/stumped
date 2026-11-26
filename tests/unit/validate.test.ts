@@ -83,6 +83,17 @@ describe("validateBank", () => {
     expect(errors).toMatch(/reuses a0 from day 1 \(needs 30 days\)/);
   });
 
+  it("allows one question per country a day from day 5; days 1–4 predate the rule", () => {
+    const prefixes = ["a", "b", "c", "d", "e"];
+    const india = new Set(["a0", "a1", "e0", "e1"]);
+    const tagged = prefixes
+      .flatMap(ids)
+      .map(withId)
+      .map((q) => (india.has(q.id) ? { ...q, tags: [...q.tags, "india" as const] } : q));
+    const errors = validateBank(tagged, { launchDate: "2026-12-01", days: prefixes.map(ids) });
+    expect(errors).toEqual(["day 5: 2 questions about india"]);
+  });
+
   it("flags days without 6 questions and duplicate ids", () => {
     const errors = validateBank([...bank, withId("a0")], {
       launchDate: "2026-12-01",

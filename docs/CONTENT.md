@@ -260,8 +260,7 @@ Variety matters most within a day, then within a week. After a week, similar que
   players and India's teams. A question tagged with several countries rules them all out for that
   day. Days 1–4 were played before this rule and keep their clashes.
 - **One women's cricket question:** at most one question tagged `women` without `men`. Questions
-  open to men's and women's answers don't count. Day 4 had started before this rule and keeps its
-  three.
+  open to men's and women's answers don't count. Days 1–3 were played before this rule.
 - **Different answer types:** at most one question per `answerType`, except players (up to two).
 - **Not too much general knowledge:** at most 2 questions tagged `general` (laws, kit, shots,
   positions).
@@ -294,6 +293,10 @@ it, and finished days are someone's scorecard.
 - `src/data/locked-days.json` holds a fingerprint of each scheduled day. `content:schedule` locks
   new days automatically; after editing a future day, run `npm run content:lock`, which refuses
   if a started day would change. Never edit the lock file by hand.
+- If the owner decides a started day must change anyway, record it in
+  `src/data/relocked-days.json`: the day, its locked fingerprint (`from`), the new one (`to`) and
+  why. The lock and the CI check then accept exactly that change, and nothing else on that day.
+  Day 4 is the only one so far.
 - Started days can't be removed or reordered, and the launch date can't move. To redo days that
   haven't started, edit them in place in `schedule.json` and run `npm run content:lock`; don't cut
   the schedule short and re-run `content:schedule`, which would record permanent `segments`.

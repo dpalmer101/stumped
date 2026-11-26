@@ -65,7 +65,7 @@ describe("dayProblems", () => {
     const tagged = (second: Tag[]) => varied.map((x, i) => (i === 1 ? { ...x, tags: second } : x));
     expect(dayProblems(tagged(["women", "odi"]))).toEqual(["2 women's cricket questions"]);
     expect(dayProblems(tagged(["men", "women", "odi"]))).toEqual([]);
-    // Day 4 had started before the rule.
+    // Days 1–3 were played before the rule.
     expect(dayProblems(tagged(["women", "odi"]), { womenRule: false })).toEqual([]);
   });
 });

@@ -15,8 +15,8 @@ const MAX_CATEGORY_PER_WEEK = 2;
 export const REUSE_AFTER_DAYS = 30;
 /** Days 1–4 were played before the one-question-per-country rule, so they keep their clashes. */
 export const COUNTRY_RULE_FROM_DAY = 5;
-/** Day 4 had started before the one-women's-question rule, so it keeps its three. */
-export const WOMEN_RULE_FROM_DAY = 5;
+/** Days 1–3 were played before the one-women's-question rule. */
+export const WOMEN_RULE_FROM_DAY = 4;
 
 export const isBroader = (q: Question) => q.tags.some((t) => BROADER.includes(t));
 const isGeneral = (q: Question) => q.tags.includes("general");

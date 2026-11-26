@@ -95,6 +95,20 @@ export function startedQuestionIds(schedule: Schedule, now: Date): Set<string> {
 }
 
 /**
+ * A change the owner chose to make to a started day. CI checks pushes against the live site's
+ * locks, so the record has to say exactly which questions were replaced by which.
+ */
+export interface Relock {
+  /** Scheduled day, from 1. */
+  day: number;
+  /** The day's fingerprint before the change, as locked. */
+  from: string;
+  /** Its fingerprint after. */
+  to: string;
+  reason: string;
+}
+
+/**
  * Changes that would alter a day players have already had: any started day, or which day a
  * live puzzle plays (extending a schedule that has wrapped round would do that).
  */
@@ -104,8 +118,11 @@ export function lockProblems(
   days: PlayableQuestion[][],
   now: Date,
   segments?: Segment[],
+  relocks: Relock[] = [],
 ): string[] {
   const problems: string[] = [];
+  const same = (index: number, now: string | undefined, was: string | undefined) =>
+    now === was || relocks.some((r) => r.day === index + 1 && r.from === was && r.to === now);
   const latest = latestStartedPuzzle(now, locked.launchDate);
   if (latest >= 1 && launchDate !== locked.launchDate) {
     problems.push(`launch date changed from ${locked.launchDate} after launch`);
@@ -133,12 +150,15 @@ export function lockProblems(
   const started = new Set<number>();
   for (let p = 1; p <= latest; p++) started.add(dayIndex(p, before));
   for (const i of [...started].sort((a, b) => a - b)) {
-    if (current[i] !== locked.days[i]) problems.push(`day ${i + 1} has started and can't change`);
+    if (!same(i, current[i], locked.days[i])) {
+      problems.push(`day ${i + 1} has started and can't change`);
+    }
   }
   if (current.length) {
     const after: Schedule = { launchDate, days: current.map(() => []), segments };
     for (let p = Math.max(1, oldestLivePuzzle(now, launchDate)); p <= latest; p++) {
-      if (current[dayIndex(p, after)] !== locked.days[dayIndex(p, before)]) {
+      const i = dayIndex(p, after);
+      if (!same(i, current[i], locked.days[dayIndex(p, before)])) {
         problems.push(`over #${p} is live and would get different questions`);
       }
     }

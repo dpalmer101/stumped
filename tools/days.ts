@@ -1,8 +1,13 @@
 import { copyFileSync, existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { buildDays, type DayLocks, lockDays, lockProblems } from "../src/engine/locks";
+import { buildDays, type DayLocks, lockDays, lockProblems, type Relock } from "../src/engine/locks";
 import type { Question, Schedule } from "../src/engine/types";
 
 export const LOCKS = "src/data/locked-days.json";
+/** Deliberate changes to started days (docs/CONTENT.md, Locked days). */
+const RELOCKS = "src/data/relocked-days.json";
+
+const readRelocks = (): Relock[] =>
+  existsSync(RELOCKS) ? (JSON.parse(readFileSync(RELOCKS, "utf8")) as Relock[]) : [];
 
 export function readDays() {
   const pool = readdirSync("src/data/questions")
@@ -26,6 +31,7 @@ export function checkAgainst(locked: DayLocks, now = new Date()): string[] {
     buildDays(pool, schedule),
     now,
     schedule.segments,
+    readRelocks(),
   );
 }
 

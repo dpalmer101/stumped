@@ -48,6 +48,27 @@ describe("locked days", () => {
     expect(lockProblems(locked, LAUNCH, d, now)).toEqual([]);
   });
 
+  it("accepts a recorded change to a started day, and only that change", () => {
+    const changed = days();
+    changed[1] = [g];
+    const to = lockDays(LAUNCH, changed).days[1] ?? "";
+    const relock = { day: 2, from: locked.days[1] ?? "", to, reason: "test" };
+    expect(lockProblems(locked, LAUNCH, changed, now, undefined, [relock])).toEqual([]);
+    const other = days();
+    other[1] = [g, g];
+    expect(lockProblems(locked, LAUNCH, other, now, undefined, [relock]).join()).toMatch(
+      /day 2 has started/,
+    );
+    expect(
+      lockProblems(locked, LAUNCH, changed, now, undefined, [{ ...relock, day: 1 }]).join(),
+    ).toMatch(/day 2 has started/);
+    expect(
+      lockProblems(locked, LAUNCH, changed, now, undefined, [
+        { ...relock, from: "deadbeef" },
+      ]).join(),
+    ).toMatch(/day 2 has started/);
+  });
+
   it("rejects a changed prompt, answer type, answer or tier on a started day", () => {
     for (const change of [
       (q: PlayableQuestion) => ({ ...q, answerType: "other" as const }),

@@ -61,7 +61,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] Every tier comes from `content:rank` (page views plus question-specific metrics); manual overrides need a written reason.
 - [ ] Every day passes the variety rules: unique categories, one question per answer type (players up to two), ≤ 2 general-knowledge, ≤ 3 of one format, at least one question beyond men's international cricket.
 - [ ] From day 5, no two questions on a day share a country tag. 🤖
-- [ ] From day 5, a day has at most one women's cricket question (`women` without `men`). 🤖
+- [ ] From day 4, a day has at most one women's cricket question (`women` without `men`). 🤖
 - [ ] In any 7 days in a row a category appears on at most 2 days; a question is re-used only after 30 days. 🤖
 
 - [ ] Every question: ≥ 20 answers, exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.
@@ -74,7 +74,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] A started day's deliveries don't change (not checked automatically: deliveries aren't in the lock fingerprint).
 - [ ] Every scheduled day has 6 distinct, existing question ids.
 - [ ] Days can be added after the schedule has looped back without changing any started over; the next over plays the first new day. 🤖
-- [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed. 🤖 (lock test, and CI `content:check-pushed` against the live site)
+- [ ] Once pushed, a day that has started anywhere (UTC+14) keeps its questions, prompts, answer types, answers and tiers; only added aliases or misspellings and format changes are allowed, unless the owner records the exact change in `src/data/relocked-days.json`. 🤖 (lock test, and CI `content:check-pushed` against the live site)
 - [ ] Schedule covers at least the next 7 days from launch.
 
 ## Timer, sound, animation

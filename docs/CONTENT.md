@@ -14,6 +14,7 @@ npm run content:schedule   # step 4: allocate questions to days for variety
 npm run content:report     # show each question's ranking and difficulty, to review tiers
 npm run content:difficulty # every question's 1–10 difficulty, easiest first
 npm run content:deliveries # give each question without a delivery one from its difficulty band
+npm run content:dashboard  # export the bank for the dashboard (see Dashboard below)
 npm test                   # the bank rules, run offline from the stored results
 ```
 
@@ -315,6 +316,27 @@ it, and finished days are someone's scorecard.
 
 The build turns each scheduled day into its own file (`days/N.json`) that the page fetches, so
 changes to questions or the schedule reach players on the next build and deploy.
+
+## Dashboard
+
+The [question bank dashboard](https://claude.ai/artifact/YWNssFBbrT6WhhmPkVz4R6) (a private
+claude.ai artifact) shows where the bank stands: each day's difficulty, the spread of difficulty
+and topics, maps of the countries in the questions and answers, and every question's status.
+It reads three files exported from `src/data`, so it only changes when they're re-exported.
+
+**Refresh it in the same session as every change to the question set**: new or edited questions,
+re-ranks, new deliveries or newly scheduled days. Claude does this with its Artifact tools:
+
+1. `npm run content:dashboard` writes `questions.json`, `slots.json` and `countries.json` to
+   `content-reports/dashboard/` (not committed).
+2. Upload each file to the artifact as an asset.
+3. Point the `questions`, `slots` and `countries` datasets at the new uploads (`source.url`) and
+   set `updated.at` to now. Leave the `world` dataset (the map outlines) alone.
+4. Delete the old uploads once no dataset names them.
+
+Answers are placed on the answers map by the answer itself for national sides, otherwise by the
+question's country tag when it has exactly one. A new country answer that the map doesn't colour
+needs its world-atlas name added to `MAP_NAMES` in `tools/dashboard.ts`.
 
 ## Tags
 

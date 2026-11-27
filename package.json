@@ -30,7 +30,8 @@
     "screenshots": "tsx tools/screenshots.ts",
     "gallery": "tsx tools/gallery.ts",
     "content:difficulty": "tsx tools/content.ts difficulty",
-    "content:deliveries": "tsx tools/content.ts deliveries"
+    "content:deliveries": "tsx tools/content.ts deliveries",
+    "content:dashboard": "tsx tools/dashboard.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

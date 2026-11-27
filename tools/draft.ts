@@ -5,7 +5,13 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { normalise } from "../src/engine/match";
-import type { Answer, AnswerType, Question } from "../src/engine/types";
+import {
+  type Answer,
+  type AnswerType,
+  MIN_ANSWERS,
+  MIN_COUNTY_ANSWERS,
+  type Question,
+} from "../src/engine/types";
 import { parsePage } from "./wiki";
 
 export interface Link {
@@ -284,8 +290,11 @@ export async function draft() {
   writeFileSync(file, `${JSON.stringify(question, null, 2)}\n`);
   console.log(`\n${answers.length} candidate answers written to ${file}:`);
   console.log(answers.map((a) => `  ${a.name}${a.wiki ? ` → ${a.wiki}` : ""}`).join("\n"));
-  if (answers.length < 20 || answers.length > 60) {
-    console.log(`\n! ${answers.length} answers: aim for 20–60 (narrow with --tables or --column).`);
+  const min = question.answerType === "county" ? MIN_COUNTY_ANSWERS : MIN_ANSWERS;
+  if (answers.length < min || answers.length > 60) {
+    console.log(
+      `\n! ${answers.length} answers: aim for ${min}–60 (narrow with --tables or --column).`,
+    );
   }
   console.log(
     "\nTrim it, write the prompt, category, tags and difficulty rating, add aliases, then move it into a batch file.",

@@ -149,3 +149,5 @@ export const BALLS_PER_INNINGS = 6;
 /** A ball's time unless its delivery says otherwise (see delivery.ts). */
 export const BALL_MS = 20_000;
 export const MIN_ANSWERS = 20;
+/** England has only 18 first-class counties, so county questions can't always reach 20. */
+export const MIN_COUNTY_ANSWERS = 16;

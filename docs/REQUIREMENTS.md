@@ -79,7 +79,7 @@ Every question has a curated list of accepted answers, each in exactly one tier.
 | Miss              | 0          | Wrong guess (does not end the ball)     | —            |
 | Out               | 0 + wicket | No correct answer in the ball's time    | —            |
 
-- ≥ 20 accepted answers per question in total.
+- ≥ 20 accepted answers per question in total (≥ 16 for county questions: England has only 18 first-class counties).
 - Tier is about how few people would think of it, not how good the player was.
 - The tier is never shown before the player answers.
 
@@ -263,3 +263,4 @@ the anonymous counts in §1.
 - 2026-11-26: At most one women's cricket question a day (from day 5; day 4 had started). Questions open to men's and women's answers don't count. Days 6 and 7, and 14 and 15, swapped a question each to fit.
 - 2026-11-26: At the owner's request, day 4 changed a few hours after it started at UTC+14, so the one-women's-question rule now applies from day 4: two of its three women's questions swapped with men's questions from days 8 and 10. Changes like this to a started day are recorded in `src/data/relocked-days.json`, which the lock and CI checks accept.
 - 2026-11-26: A one-time What's new sheet tells returning players about changes to how the game is played (§10a), up to the latest 5; new players skip it. First item: deliveries.
+- 2026-11-27: County questions need at least 16 answers instead of 20, as England has only 18 first-class counties (e.g. one-day cup winners since 1995).

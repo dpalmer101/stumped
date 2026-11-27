@@ -1,0 +1,2974 @@
+[
+  {
+    "id": "county-one-day-cup-winners-1995-2026",
+    "prompt": "Name a county that won the main English men's county one-day cup (not T20) between 1995 and 2026",
+    "category": "One-day cup winners",
+    "answerType": "county",
+    "tags": [
+      "men",
+      "odi",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Friends_Provident_Trophy",
+      "https://en.wikipedia.org/wiki/ECB40",
+      "https://en.wikipedia.org/wiki/One-Day_Cup_(England)"
+    ],
+    "metrics": [
+      {
+        "label": "Titles 1995–2026",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Bouncer",
+    "answers": [
+      {
+        "name": "Warwickshire",
+        "aliases": [
+          "Warks"
+        ],
+        "wiki": "Warwickshire County Cricket Club",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Warwickshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1p2k3c2"
+        },
+        "views": 54674,
+        "tier": "single"
+      },
+      {
+        "name": "Lancashire",
+        "aliases": [
+          "Lancs"
+        ],
+        "wiki": "Lancashire County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Lancashire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "qo7i2b"
+        },
+        "views": 60548,
+        "tier": "single"
+      },
+      {
+        "name": "Essex",
+        "wiki": "Essex County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Essex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1xzu04u"
+        },
+        "views": 40010,
+        "tier": "four"
+      },
+      {
+        "name": "Gloucestershire",
+        "aliases": [
+          "Glos"
+        ],
+        "wiki": "Gloucestershire County Cricket Club",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Gloucestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1ndaijv"
+        },
+        "views": 38762,
+        "tier": "four"
+      },
+      {
+        "name": "Somerset",
+        "wiki": "Somerset County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1c3gyz2"
+        },
+        "views": 59895,
+        "tier": "single"
+      },
+      {
+        "name": "Yorkshire",
+        "aliases": [
+          "Yorks"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1jxusso"
+        },
+        "views": 70783,
+        "tier": "two"
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hants"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1f5wiv2"
+        },
+        "views": 60084,
+        "tier": "single"
+      },
+      {
+        "name": "Sussex",
+        "wiki": "Sussex County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sussex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "haoxd2"
+        },
+        "views": 45870,
+        "tier": "six"
+      },
+      {
+        "name": "Durham",
+        "wiki": "Durham County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Durham County Cricket Club",
+          "date": "2026-11-27",
+          "key": "v9ofs2"
+        },
+        "views": 51874,
+        "tier": "two"
+      },
+      {
+        "name": "Surrey",
+        "wiki": "Surrey County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Surrey County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1qe4gea"
+        },
+        "views": 68641,
+        "tier": "two"
+      },
+      {
+        "name": "Nottinghamshire",
+        "aliases": [
+          "Notts"
+        ],
+        "wiki": "Nottinghamshire County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Nottinghamshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "vmfxqg"
+        },
+        "views": 51547,
+        "tier": "four"
+      },
+      {
+        "name": "Glamorgan",
+        "wiki": "Glamorgan County Cricket Club",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Glamorgan County Cricket Club",
+          "date": "2026-11-27",
+          "key": "tl06fi"
+        },
+        "views": 57579,
+        "tier": "two"
+      },
+      {
+        "name": "Kent",
+        "wiki": "Kent County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-27",
+          "key": "3i8x3y"
+        },
+        "views": 43478,
+        "tier": "six"
+      },
+      {
+        "name": "Leicestershire",
+        "aliases": [
+          "Leics"
+        ],
+        "wiki": "Leicestershire County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Leicestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "17ofofe"
+        },
+        "views": 33687,
+        "tier": "six"
+      },
+      {
+        "name": "Worcestershire",
+        "aliases": [
+          "Worcs"
+        ],
+        "wiki": "Worcestershire County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Worcestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "192e4fc"
+        },
+        "views": 33581,
+        "tier": "ootg"
+      },
+      {
+        "name": "Middlesex",
+        "wiki": "Middlesex County Cricket Club",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Middlesex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1d173o8"
+        },
+        "views": 49472,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "county-t20-finalists-2003-2026",
+    "prompt": "Name a county that reached the final of the English men's county T20 competition (2003–2026)",
+    "category": "County T20 finalists",
+    "answerType": "county",
+    "tags": [
+      "men",
+      "t20",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/T20_Blast"
+    ],
+    "metrics": [
+      {
+        "label": "Titles",
+        "rarerWhen": "lower"
+      },
+      {
+        "label": "Finals reached",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Yorker",
+    "answers": [
+      {
+        "name": "Surrey",
+        "aliases": [
+          "Surrey Lions"
+        ],
+        "wiki": "Surrey County Cricket Club",
+        "values": [
+          1,
+          4
+        ],
+        "verified": {
+          "wiki": "Surrey County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1gtvd7j"
+        },
+        "views": 68641,
+        "tier": "single"
+      },
+      {
+        "name": "Leicestershire",
+        "aliases": [
+          "Leics",
+          "Leicestershire Foxes",
+          "Foxes"
+        ],
+        "wiki": "Leicestershire County Cricket Club",
+        "values": [
+          3,
+          3
+        ],
+        "verified": {
+          "wiki": "Leicestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "ibyebn"
+        },
+        "views": 33687,
+        "tier": "four"
+      },
+      {
+        "name": "Somerset",
+        "aliases": [
+          "Somerset Sabres",
+          "Sabres"
+        ],
+        "wiki": "Somerset County Cricket Club",
+        "values": [
+          3,
+          8
+        ],
+        "verified": {
+          "wiki": "Somerset County Cricket Club",
+          "date": "2026-11-27",
+          "key": "psgwz4"
+        },
+        "views": 59895,
+        "tier": "single"
+      },
+      {
+        "name": "Kent",
+        "aliases": [
+          "Kent Spitfires",
+          "Spitfires"
+        ],
+        "wiki": "Kent County Cricket Club",
+        "values": [
+          2,
+          3
+        ],
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-27",
+          "key": "zti83c"
+        },
+        "views": 43478,
+        "tier": "four"
+      },
+      {
+        "name": "Middlesex",
+        "aliases": [
+          "Middlesex Crusaders",
+          "Crusaders"
+        ],
+        "wiki": "Middlesex County Cricket Club",
+        "values": [
+          1,
+          1
+        ],
+        "verified": {
+          "wiki": "Middlesex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1v9fj8t"
+        },
+        "views": 49472,
+        "tier": "four"
+      },
+      {
+        "name": "Sussex",
+        "aliases": [
+          "Sussex Sharks",
+          "Sharks"
+        ],
+        "wiki": "Sussex County Cricket Club",
+        "values": [
+          1,
+          2
+        ],
+        "verified": {
+          "wiki": "Sussex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "6fjpyl"
+        },
+        "views": 45870,
+        "tier": "four"
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hants",
+          "Hampshire Hawks",
+          "Hampshire Royals",
+          "Hawks"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "values": [
+          3,
+          5
+        ],
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1o6awgm"
+        },
+        "views": 60084,
+        "tier": "single"
+      },
+      {
+        "name": "Northamptonshire",
+        "aliases": [
+          "Northants",
+          "Northants Steelbacks",
+          "Northamptonshire Steelbacks",
+          "Steelbacks"
+        ],
+        "wiki": "Northamptonshire County Cricket Club",
+        "values": [
+          3,
+          4
+        ],
+        "verified": {
+          "wiki": "Northamptonshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "h2wl7g"
+        },
+        "views": 44595,
+        "tier": "two"
+      },
+      {
+        "name": "Warwickshire",
+        "aliases": [
+          "Warks",
+          "Birmingham Bears",
+          "Warwickshire Bears",
+          "Bears",
+          "Birmingham"
+        ],
+        "wiki": "Warwickshire County Cricket Club",
+        "values": [
+          1,
+          3
+        ],
+        "verified": {
+          "wiki": "Warwickshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "5u03ss"
+        },
+        "views": 54674,
+        "tier": "two"
+      },
+      {
+        "name": "Lancashire",
+        "aliases": [
+          "Lancs",
+          "Lancashire Lightning",
+          "Lightning"
+        ],
+        "wiki": "Lancashire County Cricket Club",
+        "values": [
+          1,
+          4
+        ],
+        "verified": {
+          "wiki": "Lancashire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1xfhdnv"
+        },
+        "views": 60548,
+        "tier": "single"
+      },
+      {
+        "name": "Nottinghamshire",
+        "aliases": [
+          "Notts",
+          "Notts Outlaws",
+          "Nottinghamshire Outlaws",
+          "Outlaws"
+        ],
+        "wiki": "Nottinghamshire County Cricket Club",
+        "values": [
+          2,
+          3
+        ],
+        "verified": {
+          "wiki": "Nottinghamshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "ci1qhj"
+        },
+        "views": 51547,
+        "tier": "two"
+      },
+      {
+        "name": "Worcestershire",
+        "aliases": [
+          "Worcs",
+          "Worcestershire Rapids",
+          "Rapids"
+        ],
+        "wiki": "Worcestershire County Cricket Club",
+        "values": [
+          1,
+          2
+        ],
+        "verified": {
+          "wiki": "Worcestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1h2k385"
+        },
+        "views": 33581,
+        "tier": "ootg"
+      },
+      {
+        "name": "Essex",
+        "aliases": [
+          "Essex Eagles",
+          "Eagles"
+        ],
+        "wiki": "Essex County Cricket Club",
+        "values": [
+          1,
+          2
+        ],
+        "verified": {
+          "wiki": "Essex County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1pmy2x2"
+        },
+        "views": 40010,
+        "tier": "six"
+      },
+      {
+        "name": "Gloucestershire",
+        "aliases": [
+          "Glos",
+          "Gloucestershire Gladiators",
+          "Gladiators"
+        ],
+        "wiki": "Gloucestershire County Cricket Club",
+        "values": [
+          1,
+          2
+        ],
+        "verified": {
+          "wiki": "Gloucestershire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "pohau7"
+        },
+        "views": 38762,
+        "tier": "six"
+      },
+      {
+        "name": "Durham",
+        "aliases": [
+          "Durham Jets",
+          "Durham Dynamos",
+          "Jets"
+        ],
+        "wiki": "Durham County Cricket Club",
+        "values": [
+          0,
+          1
+        ],
+        "verified": {
+          "wiki": "Durham County Cricket Club",
+          "date": "2026-11-27",
+          "key": "10p6mcj"
+        },
+        "views": 51874,
+        "tier": "six"
+      },
+      {
+        "name": "Yorkshire",
+        "aliases": [
+          "Yorks",
+          "Yorkshire Vikings",
+          "Yorkshire Carnegie",
+          "Vikings"
+        ],
+        "wiki": "Yorkshire County Cricket Club",
+        "values": [
+          0,
+          1
+        ],
+        "verified": {
+          "wiki": "Yorkshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "rbxdzm"
+        },
+        "views": 70783,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "womens-county-t20-sides-2009-2024",
+    "prompt": "Name an English county (or combined county) side that played in the women's county T20 competition (2009–2024)",
+    "category": "Women's county T20",
+    "answerType": "county",
+    "tags": [
+      "women",
+      "t20",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Women's_Twenty20_Cup"
+    ],
+    "metrics": [
+      {
+        "label": "Last season in the competition",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Off-break",
+    "answers": [
+      {
+        "name": "Berkshire",
+        "wiki": "Berkshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Berkshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "yxmiob"
+        },
+        "views": 2275,
+        "tier": "single"
+      },
+      {
+        "name": "Buckinghamshire",
+        "aliases": [
+          "Bucks"
+        ],
+        "wiki": "Buckinghamshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Buckinghamshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1y9oiwj"
+        },
+        "views": 814,
+        "tier": "two"
+      },
+      {
+        "name": "Cambridgeshire",
+        "aliases": [
+          "Cambs"
+        ],
+        "wiki": "Cambridgeshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Cambridgeshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "di0a21"
+        },
+        "views": 474,
+        "tier": "four"
+      },
+      {
+        "name": "Cornwall",
+        "wiki": "Cornwall Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Cornwall Women cricket team",
+          "date": "2026-11-27",
+          "key": "l79gu9"
+        },
+        "views": 421,
+        "tier": "six"
+      },
+      {
+        "name": "Cumbria",
+        "wiki": "Cumbria Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Cumbria Women cricket team",
+          "date": "2026-11-27",
+          "key": "1ercefr"
+        },
+        "views": 719,
+        "tier": "four"
+      },
+      {
+        "name": "Derbyshire",
+        "wiki": "Derbyshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Derbyshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1ymfx1p"
+        },
+        "views": 1160,
+        "tier": "two"
+      },
+      {
+        "name": "Devon",
+        "wiki": "Devon Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Devon Women cricket team",
+          "date": "2026-11-27",
+          "key": "16tr9z1"
+        },
+        "views": 673,
+        "tier": "four"
+      },
+      {
+        "name": "Dorset",
+        "wiki": "Dorset Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Dorset Women cricket team",
+          "date": "2026-11-27",
+          "key": "14gw12h"
+        },
+        "views": 433,
+        "tier": "four"
+      },
+      {
+        "name": "Essex",
+        "wiki": "Essex Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Essex Women cricket team",
+          "date": "2026-11-27",
+          "key": "1t9b711"
+        },
+        "views": 2636,
+        "tier": "single"
+      },
+      {
+        "name": "Gloucestershire",
+        "aliases": [
+          "Glos"
+        ],
+        "wiki": "Gloucestershire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Gloucestershire Women cricket team",
+          "date": "2026-11-27",
+          "key": "14ir58a"
+        },
+        "views": 1159,
+        "tier": "two"
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hants"
+        ],
+        "wiki": "Hampshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Hampshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "187uw2t"
+        },
+        "views": 4308,
+        "tier": "single"
+      },
+      {
+        "name": "Hertfordshire",
+        "aliases": [
+          "Herts"
+        ],
+        "wiki": "Hertfordshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Hertfordshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1n4k12d"
+        },
+        "views": 546,
+        "tier": "four"
+      },
+      {
+        "name": "Huntingdonshire",
+        "aliases": [
+          "Hunts"
+        ],
+        "wiki": "Huntingdonshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Huntingdonshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "xkpny9"
+        },
+        "views": 330,
+        "tier": "six"
+      },
+      {
+        "name": "Kent",
+        "wiki": "Kent Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Kent Women cricket team",
+          "date": "2026-11-27",
+          "key": "jp93d1"
+        },
+        "views": 2011,
+        "tier": "two"
+      },
+      {
+        "name": "Lancashire",
+        "aliases": [
+          "Lancs"
+        ],
+        "wiki": "Lancashire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Lancashire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1i437aq"
+        },
+        "views": 3219,
+        "tier": "single"
+      },
+      {
+        "name": "Leicestershire and Rutland",
+        "aliases": [
+          "Leicestershire",
+          "Rutland",
+          "Leics"
+        ],
+        "wiki": "Leicestershire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Leicestershire Women cricket team",
+          "date": "2026-11-27",
+          "key": "tvhgjh"
+        },
+        "views": 1360,
+        "tier": "two"
+      },
+      {
+        "name": "Lincolnshire",
+        "aliases": [
+          "Lincs"
+        ],
+        "wiki": "Lincolnshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Lincolnshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1vbj2qq"
+        },
+        "views": 543,
+        "tier": "four"
+      },
+      {
+        "name": "Middlesex",
+        "wiki": "Middlesex Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Middlesex Women cricket team",
+          "date": "2026-11-27",
+          "key": "1ycg3g7"
+        },
+        "views": 2421,
+        "tier": "single"
+      },
+      {
+        "name": "Norfolk",
+        "wiki": "Norfolk Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Norfolk Women cricket team",
+          "date": "2026-11-27",
+          "key": "63n7xb"
+        },
+        "views": 441,
+        "tier": "four"
+      },
+      {
+        "name": "North East Warriors",
+        "aliases": [
+          "North East",
+          "Warriors"
+        ],
+        "wiki": "North East Warriors",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "North East Warriors",
+          "date": "2026-11-27",
+          "key": "d7kiom"
+        },
+        "views": 456,
+        "tier": "four"
+      },
+      {
+        "name": "Northamptonshire",
+        "aliases": [
+          "Northants"
+        ],
+        "wiki": "Northamptonshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Northamptonshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1r1ghqg"
+        },
+        "views": 1078,
+        "tier": "two"
+      },
+      {
+        "name": "Nottinghamshire",
+        "aliases": [
+          "Notts"
+        ],
+        "wiki": "Nottinghamshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Nottinghamshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "10w8eef"
+        },
+        "views": 1038,
+        "tier": "two"
+      },
+      {
+        "name": "Oxfordshire",
+        "aliases": [
+          "Oxon"
+        ],
+        "wiki": "Oxfordshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Oxfordshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1bc60o5"
+        },
+        "views": 533,
+        "tier": "four"
+      },
+      {
+        "name": "Shropshire",
+        "wiki": "Shropshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Shropshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1af7pp5"
+        },
+        "views": 408,
+        "tier": "six"
+      },
+      {
+        "name": "Somerset",
+        "wiki": "Somerset Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Somerset Women cricket team",
+          "date": "2026-11-27",
+          "key": "1aiawad"
+        },
+        "views": 4040,
+        "tier": "single"
+      },
+      {
+        "name": "Staffordshire",
+        "aliases": [
+          "Staffs"
+        ],
+        "wiki": "Staffordshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Staffordshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1ukpfm8"
+        },
+        "views": 824,
+        "tier": "two"
+      },
+      {
+        "name": "Suffolk",
+        "wiki": "Suffolk Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Suffolk Women cricket team",
+          "date": "2026-11-27",
+          "key": "1s4xvn1"
+        },
+        "views": 425,
+        "tier": "six"
+      },
+      {
+        "name": "Surrey",
+        "wiki": "Surrey Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Surrey Women cricket team",
+          "date": "2026-11-27",
+          "key": "10ruza9"
+        },
+        "views": 5073,
+        "tier": "single"
+      },
+      {
+        "name": "Sussex",
+        "wiki": "Sussex Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Sussex Women cricket team",
+          "date": "2026-11-27",
+          "key": "11fly59"
+        },
+        "views": 2101,
+        "tier": "single"
+      },
+      {
+        "name": "Warwickshire",
+        "aliases": [
+          "Warks"
+        ],
+        "wiki": "Warwickshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Warwickshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "12sw7r5"
+        },
+        "views": 3289,
+        "tier": "single"
+      },
+      {
+        "name": "Wiltshire",
+        "aliases": [
+          "Wilts"
+        ],
+        "wiki": "Wiltshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Wiltshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1845wpw"
+        },
+        "views": 877,
+        "tier": "two"
+      },
+      {
+        "name": "Worcestershire",
+        "aliases": [
+          "Worcs"
+        ],
+        "wiki": "Worcestershire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Worcestershire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1wiw77r"
+        },
+        "views": 1187,
+        "tier": "two"
+      },
+      {
+        "name": "Yorkshire",
+        "aliases": [
+          "Yorks"
+        ],
+        "wiki": "Yorkshire Women cricket team",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Yorkshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1dkgjaf"
+        },
+        "views": 3891,
+        "tier": "single"
+      },
+      {
+        "name": "Bedfordshire",
+        "aliases": [
+          "Beds"
+        ],
+        "wiki": "Bedfordshire Women cricket team",
+        "values": [
+          2014
+        ],
+        "verified": {
+          "wiki": "Bedfordshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1ikft5d"
+        },
+        "views": 255,
+        "tier": "six"
+      },
+      {
+        "name": "Cambridgeshire and Huntingdonshire",
+        "aliases": [
+          "Cambs and Hunts"
+        ],
+        "wiki": "Cambridgeshire and Huntingdonshire Women cricket team",
+        "values": [
+          2013
+        ],
+        "verified": {
+          "wiki": "Cambridgeshire and Huntingdonshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "10wjq56"
+        },
+        "views": 171,
+        "tier": "ootg"
+      },
+      {
+        "name": "Cheshire",
+        "wiki": "Cheshire Women cricket team",
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "Cheshire Women cricket team",
+          "date": "2026-11-27",
+          "key": "1pb7f6l"
+        },
+        "views": 431,
+        "tier": "six"
+      },
+      {
+        "name": "Durham",
+        "wiki": "Durham Women cricket team",
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "Durham Women cricket team",
+          "date": "2026-11-27",
+          "key": "1arb4u9"
+        },
+        "views": 2525,
+        "tier": "four"
+      },
+      {
+        "name": "Northumberland",
+        "wiki": "Northumberland Women cricket team",
+        "values": [
+          2018
+        ],
+        "verified": {
+          "wiki": "Northumberland Women cricket team",
+          "date": "2026-11-27",
+          "key": "1c07yn1"
+        },
+        "views": 304,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "one-day-cup-names-aus-nz-sa-wi-to-2025-26",
+    "prompt": "Name a title a top-level national men's one-day competition of Australia, New Zealand, South Africa or the West Indies has gone by, up to 2025–26 (sponsor names count)",
+    "category": "One-day cup names",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "odi",
+      "domestic"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dean_Jones_Trophy",
+      "https://en.wikipedia.org/wiki/Ford_Trophy",
+      "https://en.wikipedia.org/wiki/CSA_One-Day_Cup",
+      "https://en.wikipedia.org/wiki/Nissan_Shield",
+      "https://en.wikipedia.org/wiki/Super50_Cup"
+    ],
+    "metrics": [
+      {
+        "label": "First season under this name",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
+    "delivery": "Reverse swing",
+    "answers": [
+      {
+        "name": "Vehicle & General Australasian Knock-out Competition",
+        "aliases": [
+          "V&G Knock-out",
+          "Vehicle and General Knock-out",
+          "V&G Cup"
+        ],
+        "wiki": "1969–70 Vehicle & General Australasian knock-out competition",
+        "values": [
+          1969
+        ],
+        "verified": {
+          "wiki": "1969–70 Vehicle & General Australasian knock-out competition",
+          "date": "2026-11-27",
+          "key": "190ssr2"
+        },
+        "views": 619,
+        "tier": "ootg"
+      },
+      {
+        "name": "Coca-Cola Australasian Knock-out Competition",
+        "aliases": [
+          "Coca-Cola Knock-out",
+          "Coca-Cola Cup"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          1971
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "1wiccj0"
+        },
+        "views": 3248,
+        "tier": "six"
+      },
+      {
+        "name": "Gillette Cup",
+        "aliases": [
+          "Gillette"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          1969
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "1ia217f"
+        },
+        "views": 3248,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "Used in Australia, New Zealand, South Africa and the West Indies, and familiar from the English cup"
+        }
+      },
+      {
+        "name": "McDonald's Cup",
+        "aliases": [
+          "McDonald's"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          1979
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "1s1xkmf"
+        },
+        "views": 3248,
+        "tier": "six"
+      },
+      {
+        "name": "FAI Insurance Cup",
+        "aliases": [
+          "FAI Cup",
+          "FAI"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          1988
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "789ylt"
+        },
+        "views": 3248,
+        "tier": "six"
+      },
+      {
+        "name": "Mercantile Mutual Cup",
+        "aliases": [
+          "Mercantile Mutual"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          1992
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "18bomrp"
+        },
+        "views": 3248,
+        "tier": "six"
+      },
+      {
+        "name": "ING Cup",
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "8q1q7"
+        },
+        "views": 3248,
+        "tier": "four"
+      },
+      {
+        "name": "Ford Ranger Cup",
+        "aliases": [
+          "Ford Ranger One Day Cup",
+          "Ford Ranger"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2006
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "1lxav9"
+        },
+        "views": 3248,
+        "tier": "four"
+      },
+      {
+        "name": "Ryobi One-Day Cup",
+        "aliases": [
+          "Ryobi Cup",
+          "Ryobi"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "vg3e3h"
+        },
+        "views": 3248,
+        "tier": "four"
+      },
+      {
+        "name": "Matador BBQs One-Day Cup",
+        "aliases": [
+          "Matador Cup",
+          "Matador BBQs Cup",
+          "Matador"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2014
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "75iht6"
+        },
+        "views": 3248,
+        "tier": "two"
+      },
+      {
+        "name": "JLT One-Day Cup",
+        "aliases": [
+          "JLT Cup",
+          "JLT"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2017
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "5u4mys"
+        },
+        "views": 3248,
+        "tier": "two"
+      },
+      {
+        "name": "Marsh One-Day Cup",
+        "aliases": [
+          "Marsh Cup",
+          "Marsh"
+        ],
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2019
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "wxjmwl"
+        },
+        "views": 3248,
+        "tier": "two"
+      },
+      {
+        "name": "One-Day Cup",
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "i5ohhi"
+        },
+        "views": 3248,
+        "tier": "single"
+      },
+      {
+        "name": "Dean Jones Trophy",
+        "wiki": "Dean Jones Trophy",
+        "values": [
+          2024
+        ],
+        "verified": {
+          "wiki": "Dean Jones Trophy",
+          "date": "2026-11-27",
+          "key": "zmh44u"
+        },
+        "views": 3248,
+        "tier": "two"
+      },
+      {
+        "name": "New Zealand Motor Corporation Knock-Out",
+        "aliases": [
+          "NZMC Knock-Out",
+          "Motor Corporation Knock-Out"
+        ],
+        "wiki": "Ford Trophy",
+        "values": [
+          1971
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "1jbxsxf"
+        },
+        "views": 5574,
+        "tier": "four"
+      },
+      {
+        "name": "National Knock-Out",
+        "wiki": "Ford Trophy",
+        "values": [
+          1979
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "1huajrc"
+        },
+        "views": 5574,
+        "tier": "four"
+      },
+      {
+        "name": "Shell Cup",
+        "wiki": "Ford Trophy",
+        "values": [
+          1980
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "ypodhj"
+        },
+        "views": 5574,
+        "tier": "two"
+      },
+      {
+        "name": "State Shield",
+        "wiki": "Ford Trophy",
+        "values": [
+          2001
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "1n0ixpf"
+        },
+        "views": 5574,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand One-Day Cricket Competition",
+        "aliases": [
+          "NZ One-Day Competition",
+          "New Zealand One-Day Competition"
+        ],
+        "wiki": "Ford Trophy",
+        "values": [
+          2009
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "171tj20"
+        },
+        "views": 5574,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "A stopgap unsponsored name for two seasons; page views are the whole Ford Trophy article"
+        }
+      },
+      {
+        "name": "The Ford Trophy",
+        "wiki": "Ford Trophy",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "Ford Trophy",
+          "date": "2026-11-27",
+          "key": "11alvz"
+        },
+        "views": 5574,
+        "tier": "single"
+      },
+      {
+        "name": "Datsun Shield",
+        "wiki": "Nissan Shield",
+        "values": [
+          1977
+        ],
+        "verified": {
+          "wiki": "Nissan Shield",
+          "date": "2026-11-27",
+          "key": "qk0ea3"
+        },
+        "views": 450,
+        "tier": "six"
+      },
+      {
+        "name": "Nissan Shield",
+        "wiki": "Nissan Shield",
+        "values": [
+          1983
+        ],
+        "verified": {
+          "wiki": "Nissan Shield",
+          "date": "2026-11-27",
+          "key": "bc262y"
+        },
+        "views": 450,
+        "tier": "six"
+      },
+      {
+        "name": "Total Power Series",
+        "wiki": "Nissan Shield",
+        "values": [
+          1992
+        ],
+        "verified": {
+          "wiki": "Nissan Shield",
+          "date": "2026-11-27",
+          "key": "1p1i8ax"
+        },
+        "views": 450,
+        "tier": "six"
+      },
+      {
+        "name": "Benson and Hedges Series",
+        "aliases": [
+          "B&H Series"
+        ],
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          1981
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "ezs7o2"
+        },
+        "views": 8430,
+        "tier": "two"
+      },
+      {
+        "name": "Standard Bank League",
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          1996
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "1vcrd84"
+        },
+        "views": 8430,
+        "tier": "single"
+      },
+      {
+        "name": "Standard Bank Cup",
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          1998
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "938ia1"
+        },
+        "views": 8430,
+        "tier": "single"
+      },
+      {
+        "name": "MTN Domestic Championship",
+        "aliases": [
+          "MTN Championship"
+        ],
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          2008
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "ltzunc"
+        },
+        "views": 8430,
+        "tier": "single"
+      },
+      {
+        "name": "MTN40",
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          2010
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "19pc1ht"
+        },
+        "views": 8430,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "A single 40-over season (2010–11); page views are the whole South African competition article"
+        }
+      },
+      {
+        "name": "Franchise One Day Cup",
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "12rtmc5"
+        },
+        "views": 8430,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "A descriptive name for one season (2011–12) with no sponsor; page views are South Africa's competition article"
+        }
+      },
+      {
+        "name": "Momentum One-Day Cup",
+        "aliases": [
+          "Momentum Cup",
+          "Momentum"
+        ],
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          2012
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "r3lhf9"
+        },
+        "views": 8430,
+        "tier": "single"
+      },
+      {
+        "name": "CSA One-Day Cup",
+        "wiki": "CSA One-Day Cup",
+        "values": [
+          2021
+        ],
+        "verified": {
+          "wiki": "CSA One-Day Cup",
+          "date": "2026-11-27",
+          "key": "12tih5c"
+        },
+        "views": 8430,
+        "tier": "single"
+      },
+      {
+        "name": "Banks Trophy",
+        "wiki": "Super50 Cup",
+        "values": [
+          1972
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "124rw47"
+        },
+        "views": 5426,
+        "tier": "four"
+      },
+      {
+        "name": "Geddes Grant/Harrison Line Trophy",
+        "aliases": [
+          "Harrison Line Trophy",
+          "Geddes Grant Trophy"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          1977
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "1k5p6kv"
+        },
+        "views": 5426,
+        "tier": "four"
+      },
+      {
+        "name": "Geddes Grant Shield",
+        "wiki": "Super50 Cup",
+        "values": [
+          1988
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "xwsgp7"
+        },
+        "views": 5426,
+        "tier": "four"
+      },
+      {
+        "name": "Shell/Sandals Trophy",
+        "aliases": [
+          "Sandals Trophy"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          1994
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "8wt8sn"
+        },
+        "views": 5426,
+        "tier": "four"
+      },
+      {
+        "name": "Red Stripe Bowl",
+        "aliases": [
+          "Red Stripe"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          1997
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "lvaly"
+        },
+        "views": 5426,
+        "tier": "two"
+      },
+      {
+        "name": "Regional One-Day Competition",
+        "aliases": [
+          "Regional One-Day Tournament"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2004
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "y0r7xy"
+        },
+        "views": 5426,
+        "tier": "two"
+      },
+      {
+        "name": "KFC Cup",
+        "aliases": [
+          "KFC"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2005
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "cxmwdg"
+        },
+        "views": 5426,
+        "tier": "two"
+      },
+      {
+        "name": "WICB Cup",
+        "wiki": "Super50 Cup",
+        "values": [
+          2008
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "bnp0xh"
+        },
+        "views": 5426,
+        "tier": "two"
+      },
+      {
+        "name": "WICB President's Cup",
+        "aliases": [
+          "President's Cup"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2009
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "7262yp"
+        },
+        "views": 5426,
+        "tier": "two"
+      },
+      {
+        "name": "Regional Super50",
+        "wiki": "Super50 Cup",
+        "values": [
+          2011
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "1dz14k3"
+        },
+        "views": 5426,
+        "tier": "single"
+      },
+      {
+        "name": "NAGICO Regional Super50",
+        "aliases": [
+          "NAGICO Super50",
+          "NAGICO"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2013
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "shs9he"
+        },
+        "views": 5426,
+        "tier": "single"
+      },
+      {
+        "name": "Super50 Cup",
+        "aliases": [
+          "Super50"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "5pg5r8"
+        },
+        "views": 5426,
+        "tier": "single"
+      },
+      {
+        "name": "CG Insurance Super50 Cup",
+        "aliases": [
+          "CG United Super50 Cup",
+          "CG United Super50",
+          "CG Insurance Super50"
+        ],
+        "wiki": "Super50 Cup",
+        "values": [
+          2022
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "88t8ii"
+        },
+        "views": 5426,
+        "tier": "single"
+      }
+    ]
+  },
+  {
+    "id": "ecb-premier-leagues-2026",
+    "prompt": "Name an ECB Premier League, a top-tier club cricket league in England and Wales, in 2026",
+    "category": "Premier leagues",
+    "answerType": "tournament",
+    "tags": [
+      "men",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ECB_Premier_Leagues"
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Knuckle ball",
+    "answers": [
+      {
+        "name": "Birmingham and District Premier League",
+        "aliases": [
+          "Birmingham League",
+          "Birmingham"
+        ],
+        "verified": {
+          "wiki": "ECB Premier Leagues",
+          "date": "2026-11-27",
+          "key": "q8dmiw"
+        },
+        "views": 22529,
+        "tier": "single"
+      },
+      {
+        "name": "Bradford Premier League",
+        "aliases": [
+          "Bradford League",
+          "Bradford"
+        ],
+        "verified": {
+          "wiki": "Bradford Premier League",
+          "date": "2026-11-27",
+          "key": "1om6leh"
+        },
+        "views": 4546,
+        "tier": "single"
+      },
+      {
+        "name": "Cheshire County Cricket League",
+        "aliases": [
+          "Cheshire League",
+          "Cheshire"
+        ],
+        "verified": {
+          "wiki": "Cheshire County Cricket League",
+          "date": "2026-11-27",
+          "key": "1apu0lj"
+        },
+        "views": 2690,
+        "tier": "two"
+      },
+      {
+        "name": "Cornwall Cricket League",
+        "aliases": [
+          "Cornwall"
+        ],
+        "verified": {
+          "wiki": "Cornwall Cricket League",
+          "date": "2026-11-27",
+          "key": "1ezgxn7"
+        },
+        "views": 1229,
+        "tier": "six"
+      },
+      {
+        "name": "Derbyshire County Cricket League",
+        "aliases": [
+          "Derbyshire League",
+          "Derbyshire"
+        ],
+        "verified": {
+          "wiki": "Derbyshire County Cricket League",
+          "date": "2026-11-27",
+          "key": "au59of"
+        },
+        "views": 2808,
+        "tier": "two"
+      },
+      {
+        "name": "Devon Cricket League",
+        "aliases": [
+          "Devon"
+        ],
+        "verified": {
+          "wiki": "Devon Cricket League",
+          "date": "2026-11-27",
+          "key": "6gr2q5"
+        },
+        "views": 1515,
+        "tier": "six"
+      },
+      {
+        "name": "Dorset Cricket League",
+        "aliases": [
+          "Dorset"
+        ],
+        "verified": {
+          "wiki": "ECB Premier Leagues",
+          "date": "2026-11-27",
+          "key": "1w0qh4p"
+        },
+        "views": 22529,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Its page redirects to ECB Premier Leagues, so it borrows that list page's views; a small county league"
+        }
+      },
+      {
+        "name": "East Anglian Premier Cricket League",
+        "aliases": [
+          "East Anglian Premier League",
+          "East Anglia",
+          "East Anglian"
+        ],
+        "verified": {
+          "wiki": "East Anglian Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "11dehzs"
+        },
+        "views": 3352,
+        "tier": "single"
+      },
+      {
+        "name": "Essex Cricket League",
+        "aliases": [
+          "Essex"
+        ],
+        "verified": {
+          "wiki": "Essex Cricket League",
+          "date": "2026-11-27",
+          "key": "rtaynl"
+        },
+        "views": 1916,
+        "tier": "four"
+      },
+      {
+        "name": "Hertfordshire Cricket League",
+        "aliases": [
+          "Herts League",
+          "Hertfordshire",
+          "Herts"
+        ],
+        "verified": {
+          "wiki": "Hertfordshire Cricket League",
+          "date": "2026-11-27",
+          "key": "5v5aaw"
+        },
+        "views": 1896,
+        "tier": "four"
+      },
+      {
+        "name": "Home Counties Premier Cricket League",
+        "aliases": [
+          "Home Counties Premier League",
+          "Home Counties"
+        ],
+        "verified": {
+          "wiki": "Home Counties Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "1k590px"
+        },
+        "views": 2503,
+        "tier": "two"
+      },
+      {
+        "name": "Huddersfield Cricket League",
+        "aliases": [
+          "Huddersfield League",
+          "Huddersfield"
+        ],
+        "verified": {
+          "wiki": "Huddersfield Cricket League",
+          "date": "2026-11-27",
+          "key": "9ay2ph"
+        },
+        "views": 1938,
+        "tier": "four"
+      },
+      {
+        "name": "Kent Cricket League",
+        "aliases": [
+          "Kent"
+        ],
+        "verified": {
+          "wiki": "Kent Cricket League",
+          "date": "2026-11-27",
+          "key": "15sjod3"
+        },
+        "views": 2809,
+        "tier": "two"
+      },
+      {
+        "name": "Lancashire Cricket League",
+        "aliases": [
+          "Lancashire League",
+          "Lancashire",
+          "Lancs"
+        ],
+        "wiki": "Lancashire League (cricket)",
+        "verified": {
+          "wiki": "Lancashire League (cricket)",
+          "date": "2026-11-27",
+          "key": "163hhex"
+        },
+        "views": 6844,
+        "tier": "single"
+      },
+      {
+        "name": "Leicestershire and Rutland Cricket League",
+        "aliases": [
+          "Leicestershire League",
+          "Leicestershire",
+          "Leics"
+        ],
+        "verified": {
+          "wiki": "Leicestershire and Rutland Cricket League",
+          "date": "2026-11-27",
+          "key": "162a852"
+        },
+        "views": 1237,
+        "tier": "six"
+      },
+      {
+        "name": "Lincolnshire Premier Cricket League",
+        "aliases": [
+          "Lincolnshire Premier League",
+          "Lincolnshire",
+          "Lincs"
+        ],
+        "verified": {
+          "wiki": "Lincolnshire Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "urdqtj"
+        },
+        "views": 36,
+        "tier": "ootg"
+      },
+      {
+        "name": "Liverpool and District Cricket Competition",
+        "aliases": [
+          "Liverpool Competition",
+          "Liverpool and District",
+          "Liverpool"
+        ],
+        "verified": {
+          "wiki": "Liverpool and District Cricket Competition",
+          "date": "2026-11-27",
+          "key": "pajwre"
+        },
+        "views": 2775,
+        "tier": "two"
+      },
+      {
+        "name": "Middlesex County Cricket League",
+        "aliases": [
+          "Middlesex League",
+          "Middlesex"
+        ],
+        "verified": {
+          "wiki": "Middlesex County Cricket League",
+          "date": "2026-11-27",
+          "key": "1h5qc45"
+        },
+        "views": 2221,
+        "tier": "four"
+      },
+      {
+        "name": "North East Premier League",
+        "aliases": [
+          "NEPL",
+          "North East"
+        ],
+        "verified": {
+          "wiki": "North East Premier League",
+          "date": "2026-11-27",
+          "key": "1hn0vlx"
+        },
+        "views": 3273,
+        "tier": "single"
+      },
+      {
+        "name": "North Staffordshire and South Cheshire League",
+        "aliases": [
+          "North Staffs and South Cheshire League",
+          "North Staffordshire",
+          "North Staffs"
+        ],
+        "verified": {
+          "wiki": "North Staffordshire and South Cheshire League",
+          "date": "2026-11-27",
+          "key": "m4f89d"
+        },
+        "views": 1679,
+        "tier": "four"
+      },
+      {
+        "name": "North Wales Cricket League",
+        "aliases": [
+          "North Wales League",
+          "North Wales"
+        ],
+        "verified": {
+          "wiki": "North Wales Cricket League",
+          "date": "2026-11-27",
+          "key": "132t8hp"
+        },
+        "views": 1002,
+        "tier": "six"
+      },
+      {
+        "name": "North Yorkshire and South Durham Cricket League",
+        "aliases": [
+          "NYSD",
+          "North Yorkshire and South Durham"
+        ],
+        "verified": {
+          "wiki": "North Yorkshire and South Durham Cricket League",
+          "date": "2026-11-27",
+          "key": "10bni5f"
+        },
+        "views": 4303,
+        "tier": "single"
+      },
+      {
+        "name": "Northamptonshire Cricket League",
+        "aliases": [
+          "Northants League",
+          "Northamptonshire",
+          "Northants"
+        ],
+        "verified": {
+          "wiki": "Northamptonshire Cricket League",
+          "date": "2026-11-27",
+          "key": "f83j2u"
+        },
+        "views": 1630,
+        "tier": "four"
+      },
+      {
+        "name": "Northern Premier Cricket League",
+        "aliases": [
+          "Northern Premier League",
+          "Northern League"
+        ],
+        "verified": {
+          "wiki": "Northern Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "12af81n"
+        },
+        "views": 2597,
+        "tier": "two"
+      },
+      {
+        "name": "Nottinghamshire Cricket Board Premier League",
+        "aliases": [
+          "Notts Premier League",
+          "Nottinghamshire Premier League",
+          "Nottinghamshire",
+          "Notts"
+        ],
+        "verified": {
+          "wiki": "Nottinghamshire Cricket Board Premier League",
+          "date": "2026-11-27",
+          "key": "x02d4n"
+        },
+        "views": 1490,
+        "tier": "six"
+      },
+      {
+        "name": "South Wales Premier Cricket League",
+        "aliases": [
+          "South Wales Premier League",
+          "South Wales"
+        ],
+        "verified": {
+          "wiki": "South Wales Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "7x8oqz"
+        },
+        "views": 2627,
+        "tier": "two"
+      },
+      {
+        "name": "Southern Premier Cricket League",
+        "aliases": [
+          "Southern Premier League",
+          "Southern League"
+        ],
+        "verified": {
+          "wiki": "Southern Premier Cricket League",
+          "date": "2026-11-27",
+          "key": "1r055mp"
+        },
+        "views": 2401,
+        "tier": "two"
+      },
+      {
+        "name": "Surrey Championship",
+        "aliases": [
+          "Surrey"
+        ],
+        "verified": {
+          "wiki": "Surrey Championship",
+          "date": "2026-11-27",
+          "key": "1d9gx36"
+        },
+        "views": 3518,
+        "tier": "single"
+      },
+      {
+        "name": "Sussex Cricket League",
+        "aliases": [
+          "Sussex League",
+          "Sussex"
+        ],
+        "verified": {
+          "wiki": "Sussex Cricket League",
+          "date": "2026-11-27",
+          "key": "1y0bdod"
+        },
+        "views": 2315,
+        "tier": "four"
+      },
+      {
+        "name": "West of England Premier League",
+        "aliases": [
+          "West of England",
+          "WEPL"
+        ],
+        "verified": {
+          "wiki": "West of England Premier League",
+          "date": "2026-11-27",
+          "key": "1jtqqau"
+        },
+        "views": 5128,
+        "tier": "single"
+      },
+      {
+        "name": "Yorkshire Premier League North",
+        "aliases": [
+          "Yorkshire North"
+        ],
+        "verified": {
+          "wiki": "Yorkshire Premier League North",
+          "date": "2026-11-27",
+          "key": "gi2ezc"
+        },
+        "views": 2591,
+        "tier": "two"
+      },
+      {
+        "name": "Yorkshire Cricket Southern Premier League",
+        "aliases": [
+          "Yorkshire South Premier League",
+          "Yorkshire Southern Premier League",
+          "Yorkshire South"
+        ],
+        "verified": {
+          "wiki": "Yorkshire Cricket Southern Premier League",
+          "date": "2026-11-27",
+          "key": "tbxtdj"
+        },
+        "views": 1505,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "super50-teams-1972-73-to-2025-26",
+    "prompt": "Name a team that played in the West Indies' domestic one-day competition (1972–73 to 2025–26)",
+    "category": "Super50 sides",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "odi",
+      "domestic",
+      "west-indies"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super50_Cup"
+    ],
+    "metrics": [
+      {
+        "label": "Titles",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Leg-break",
+    "answers": [
+      {
+        "name": "Barbados",
+        "aliases": [
+          "Barbados Pride"
+        ],
+        "wiki": "Barbados national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Barbados national cricket team",
+          "date": "2026-11-27",
+          "key": "2zzpl9"
+        },
+        "views": 14478,
+        "tier": "single"
+      },
+      {
+        "name": "Guyana",
+        "aliases": [
+          "Guyana Harpy Eagles",
+          "Harpy Eagles"
+        ],
+        "wiki": "Guyana national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Guyana national cricket team",
+          "date": "2026-11-27",
+          "key": "rvj5vk"
+        },
+        "views": 15715,
+        "tier": "single"
+      },
+      {
+        "name": "Jamaica",
+        "aliases": [
+          "Jamaica Scorpions",
+          "Scorpions"
+        ],
+        "wiki": "Jamaica national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Jamaica national cricket team",
+          "date": "2026-11-27",
+          "key": "1pwsbz9"
+        },
+        "views": 10851,
+        "tier": "single"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "aliases": [
+          "Trinidad and Tobago Red Force",
+          "Red Force",
+          "Trinidad",
+          "T&T"
+        ],
+        "wiki": "Trinidad and Tobago national cricket team",
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Trinidad and Tobago national cricket team",
+          "date": "2026-11-27",
+          "key": "jo2oci"
+        },
+        "views": 18334,
+        "tier": "single"
+      },
+      {
+        "name": "Leeward Islands",
+        "aliases": [
+          "Leeward Islands Hurricanes",
+          "Leewards",
+          "Hurricanes"
+        ],
+        "wiki": "Leeward Islands cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Leeward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "1xdbvd6"
+        },
+        "views": 14503,
+        "tier": "single"
+      },
+      {
+        "name": "Windward Islands",
+        "aliases": [
+          "Windward Islands Volcanoes",
+          "Windwards",
+          "Volcanoes"
+        ],
+        "wiki": "Windward Islands cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Windward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "1i6zih6"
+        },
+        "views": 8990,
+        "tier": "two"
+      },
+      {
+        "name": "Combined Campuses and Colleges",
+        "aliases": [
+          "CCC",
+          "Combined Campuses"
+        ],
+        "wiki": "Combined Campuses and Colleges cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Combined Campuses and Colleges cricket team",
+          "date": "2026-11-27",
+          "key": "1sut8n2"
+        },
+        "views": 5407,
+        "tier": "two"
+      },
+      {
+        "name": "West Indies Academy",
+        "aliases": [
+          "WI Academy"
+        ],
+        "wiki": "West Indies Academy",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "West Indies Academy",
+          "date": "2026-11-27",
+          "key": "ddbqsr"
+        },
+        "views": 2037,
+        "tier": "four"
+      },
+      {
+        "name": "West Indies B",
+        "aliases": [
+          "West Indies Emerging Team",
+          "WI Emerging Team",
+          "WI B"
+        ],
+        "wiki": "West Indies B cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "West Indies B cricket team",
+          "date": "2026-11-27",
+          "key": "iw4kfg"
+        },
+        "views": 2081,
+        "tier": "four"
+      },
+      {
+        "name": "West Indies Under-19s",
+        "aliases": [
+          "West Indies U19",
+          "WI U19",
+          "West Indies Under-19"
+        ],
+        "wiki": "West Indies under-19 cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "West Indies under-19 cricket team",
+          "date": "2026-11-27",
+          "key": "1p0e4wd"
+        },
+        "views": 4489,
+        "tier": "six"
+      },
+      {
+        "name": "West Indies High Performance Centre",
+        "aliases": [
+          "WI High Performance Centre",
+          "High Performance Centre",
+          "HPC"
+        ],
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "West Indies High Performance Centre",
+          "date": "2026-11-27",
+          "key": "ixr9u1"
+        },
+        "views": 553,
+        "tier": "ootg"
+      },
+      {
+        "name": "University of the West Indies",
+        "aliases": [
+          "UWI"
+        ],
+        "wiki": "University of the West Indies cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "University of the West Indies cricket team",
+          "date": "2026-11-27",
+          "key": "2axxmi"
+        },
+        "views": 703,
+        "tier": "six"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "aliases": [
+          "Antigua"
+        ],
+        "wiki": "Antigua and Barbuda national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Antigua and Barbuda national cricket team",
+          "date": "2026-11-27",
+          "key": "1wuu78q"
+        },
+        "views": 3162,
+        "tier": "six"
+      },
+      {
+        "name": "Rest of Leeward Islands",
+        "aliases": [
+          "Rest of the Leeward Islands",
+          "Rest of Leewards"
+        ],
+        "wiki": "Leeward Islands cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Leeward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "1v9hwpy"
+        },
+        "views": 14503,
+        "tier": "four"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "St Vincent and the Grenadines",
+          "St Vincent",
+          "Saint Vincent"
+        ],
+        "wiki": "Saint Vincent and the Grenadines national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Saint Vincent and the Grenadines national cricket team",
+          "date": "2026-11-27",
+          "key": "1lgfbux"
+        },
+        "views": 1201,
+        "tier": "six"
+      },
+      {
+        "name": "Rest of Windward Islands",
+        "aliases": [
+          "Rest of the Windward Islands",
+          "Rest of Windwards"
+        ],
+        "wiki": "Windward Islands cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Windward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "1ktne4g"
+        },
+        "views": 8990,
+        "tier": "four"
+      },
+      {
+        "name": "Northern Windward Islands",
+        "aliases": [
+          "Northern Windwards"
+        ],
+        "wiki": "Windward Islands cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Windward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "np8fe0"
+        },
+        "views": 8990,
+        "tier": "four"
+      },
+      {
+        "name": "Southern Windward Islands",
+        "aliases": [
+          "Southern Windwards"
+        ],
+        "wiki": "Windward Islands cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Windward Islands cricket team",
+          "date": "2026-11-27",
+          "key": "detuh8"
+        },
+        "views": 8990,
+        "tier": "four"
+      },
+      {
+        "name": "Bermuda",
+        "wiki": "Bermuda national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Bermuda national cricket team",
+          "date": "2026-11-27",
+          "key": "1936x5"
+        },
+        "views": 18850,
+        "tier": "two"
+      },
+      {
+        "name": "Canada",
+        "wiki": "Canada national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Canada national cricket team",
+          "date": "2026-11-27",
+          "key": "bom2m1"
+        },
+        "views": 54093,
+        "tier": "two"
+      },
+      {
+        "name": "Cayman Islands",
+        "aliases": [
+          "Cayman",
+          "Caymans"
+        ],
+        "wiki": "Cayman Islands national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Cayman Islands national cricket team",
+          "date": "2026-11-27",
+          "key": "1ug1mo2"
+        },
+        "views": 7836,
+        "tier": "four"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "America"
+        ],
+        "wiki": "United States national cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-27",
+          "key": "5jw9xc"
+        },
+        "views": 186106,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "A guest side for five seasons; its views come from the national team article, like Canada and Ireland"
+        }
+      },
+      {
+        "name": "ICC Americas",
+        "wiki": "ICC Americas cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Super50 Cup",
+          "date": "2026-11-27",
+          "key": "1sbf3yj"
+        },
+        "views": 5426,
+        "tier": "six"
+      },
+      {
+        "name": "Ireland",
+        "wiki": "Ireland cricket team",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Ireland cricket team",
+          "date": "2026-11-27",
+          "key": "1ycgzf1"
+        },
+        "views": 96730,
+        "tier": "single"
+      },
+      {
+        "name": "Kent",
+        "wiki": "Kent County Cricket Club",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Kent County Cricket Club",
+          "date": "2026-11-27",
+          "key": "le8vg"
+        },
+        "views": 43478,
+        "tier": "two"
+      },
+      {
+        "name": "Hampshire",
+        "aliases": [
+          "Hants"
+        ],
+        "wiki": "Hampshire County Cricket Club",
+        "values": [
+          0
+        ],
+        "verified": {
+          "wiki": "Hampshire County Cricket Club",
+          "date": "2026-11-27",
+          "key": "1a989zg"
+        },
+        "views": 60084,
+        "tier": "two"
+      }
+    ]
+  }
+]

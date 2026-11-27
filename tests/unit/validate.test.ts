@@ -16,6 +16,13 @@ describe("validateQuestion", () => {
     expect(validateQuestion(q).join()).toMatch(/needs 20/);
   });
 
+  it("lets a county question have 16 answers, but not 15", () => {
+    const county = { ...groundsQuestion, answerType: "county" as const };
+    const at = (n: number) => validateQuestion({ ...county, answers: county.answers.slice(0, n) });
+    expect(at(16).join()).not.toMatch(/answers, needs/);
+    expect(at(15).join()).toMatch(/needs 16/);
+  });
+
   it("needs exactly one out-of-the-ground answer", () => {
     const answers = groundsQuestion.answers.map((a) =>
       a.name === "Sabina Park" ? { ...a, tier: "ootg" as const } : a,

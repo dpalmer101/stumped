@@ -1,0 +1,2913 @@
+[
+  {
+    "id": "england-wales-t20i-grounds-before-2027",
+    "prompt": "Name a ground in England or Wales that hosted a men's or women's T20 International before 2027",
+    "category": "English T20I grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "women",
+      "t20",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Twenty20_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_women%27s_Twenty20_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "T20Is hosted (men's and women's)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Googly",
+    "answers": [
+      {
+        "name": "Edgbaston",
+        "aliases": [
+          "Birmingham",
+          "Edgbaston Cricket Ground"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "values": [
+          32
+        ],
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1g3qrhm"
+        },
+        "views": 42934,
+        "tier": "single"
+      },
+      {
+        "name": "Rose Bowl",
+        "aliases": [
+          "Southampton",
+          "Ageas Bowl",
+          "Utilita Bowl",
+          "Hampshire Bowl"
+        ],
+        "wiki": "Rose Bowl (cricket ground)",
+        "values": [
+          26
+        ],
+        "verified": {
+          "wiki": "Rose Bowl (cricket ground)",
+          "date": "2026-11-27",
+          "key": "1bb1y16"
+        },
+        "views": 49760,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Taunton",
+        "aliases": [
+          "Taunton",
+          "Cooper Associates County Ground"
+        ],
+        "wiki": "County Ground, Taunton",
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-27",
+          "key": "1eq5zam"
+        },
+        "views": 14861,
+        "tier": "single"
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kia Oval",
+          "Brit Oval",
+          "Foster's Oval"
+        ],
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-27",
+          "key": "1ido3yf"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Bristol",
+        "aliases": [
+          "Bristol",
+          "Nevil Road",
+          "Seat Unique Stadium"
+        ],
+        "wiki": "Bristol County Ground",
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-27",
+          "key": "1o97wjv"
+        },
+        "views": 22391,
+        "tier": "two"
+      },
+      {
+        "name": "Old Trafford",
+        "aliases": [
+          "Manchester",
+          "Emirates Old Trafford"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-27",
+          "key": "ett9ao"
+        },
+        "views": 64941,
+        "tier": "single"
+      },
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ],
+        "values": [
+          17
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-27",
+          "key": "yno7wl"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "values": [
+          17
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-27",
+          "key": "mmaocz"
+        },
+        "views": 44633,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Chelmsford",
+        "aliases": [
+          "Chelmsford",
+          "Cloud County Ground"
+        ],
+        "wiki": "County Cricket Ground, Chelmsford",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Chelmsford",
+          "date": "2026-11-27",
+          "key": "104hzqx"
+        },
+        "views": 10577,
+        "tier": "two"
+      },
+      {
+        "name": "Sophia Gardens",
+        "aliases": [
+          "Cardiff",
+          "SWALEC Stadium",
+          "SSE SWALEC"
+        ],
+        "wiki": "Sophia Gardens (cricket ground)",
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-27",
+          "key": "1645tm9"
+        },
+        "views": 30221,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Hove",
+        "aliases": [
+          "Hove",
+          "1st Central County Ground"
+        ],
+        "wiki": "County Cricket Ground, Hove",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-27",
+          "key": "1jsxu3q"
+        },
+        "views": 11561,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Derby",
+        "aliases": [
+          "Derby",
+          "Racecourse Ground",
+          "Incora County Ground"
+        ],
+        "wiki": "County Ground, Derby",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "List of women's Twenty20 International cricket grounds",
+          "date": "2026-11-27",
+          "key": "fi40kj"
+        },
+        "views": 3538,
+        "tier": "two"
+      },
+      {
+        "name": "Riverside Ground",
+        "aliases": [
+          "Chester-le-Street",
+          "Riverside",
+          "Seat Unique Riverside",
+          "Emirates Riverside"
+        ],
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-27",
+          "key": "74uxsd"
+        },
+        "views": 33673,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Northampton",
+        "aliases": [
+          "Northampton",
+          "Wantage Road"
+        ],
+        "wiki": "County Ground, Northampton",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "List of women's Twenty20 International cricket grounds",
+          "date": "2026-11-27",
+          "key": "1jdosys"
+        },
+        "views": 3538,
+        "tier": "four"
+      },
+      {
+        "name": "Headingley",
+        "aliases": [
+          "Leeds",
+          "Emerald Headingley",
+          "Headingley Cricket Ground"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1976ypm"
+        },
+        "views": 34129,
+        "tier": "two"
+      },
+      {
+        "name": "Haslegrave Ground",
+        "aliases": [
+          "Loughborough",
+          "Haslegrave"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Haslegrave Ground",
+          "date": "2026-11-27",
+          "key": "ikue5q"
+        },
+        "views": 1410,
+        "tier": "four"
+      },
+      {
+        "name": "Scorers",
+        "aliases": [
+          "Solihull",
+          "Shirley"
+        ],
+        "wiki": "Scorers, Shirley",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Scorers, Shirley",
+          "date": "2026-11-27",
+          "key": "114rtgh"
+        },
+        "views": 247,
+        "tier": "four"
+      },
+      {
+        "name": "New Farnley Cricket Club",
+        "aliases": [
+          "New Farnley",
+          "Farnley"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "List of women's Twenty20 International cricket grounds",
+          "date": "2026-11-27",
+          "key": "1p3ktoq"
+        },
+        "views": 3538,
+        "tier": "four"
+      },
+      {
+        "name": "St Lawrence Ground",
+        "aliases": [
+          "Canterbury",
+          "Spitfire Ground"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-27",
+          "key": "8x8l09"
+        },
+        "views": 14888,
+        "tier": "two"
+      },
+      {
+        "name": "Norman Edwards Memorial Ground",
+        "aliases": [
+          "Winchester",
+          "Norman Edwards"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "List of women's Twenty20 International cricket grounds",
+          "date": "2026-11-27",
+          "key": "13wqibp"
+        },
+        "views": 3538,
+        "tier": "four"
+      },
+      {
+        "name": "Bath Cricket Club Ground",
+        "aliases": [
+          "Bath",
+          "North Parade"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Bath Cricket Club Ground",
+          "date": "2026-11-27",
+          "key": "2vupr0"
+        },
+        "views": 574,
+        "tier": "four"
+      },
+      {
+        "name": "New Road",
+        "aliases": [
+          "Worcester"
+        ],
+        "wiki": "New Road, Worcester",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-27",
+          "key": "aa341v"
+        },
+        "views": 9319,
+        "tier": "four"
+      },
+      {
+        "name": "Arundel Castle Cricket Ground",
+        "aliases": [
+          "Arundel",
+          "Arundel Castle"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Arundel Castle Cricket Ground",
+          "date": "2026-11-27",
+          "key": "14q3rk5"
+        },
+        "views": 2808,
+        "tier": "six"
+      },
+      {
+        "name": "Wellington College",
+        "aliases": [
+          "Crowthorne"
+        ],
+        "wiki": "Wellington College, Berkshire",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Wellington College, Berkshire",
+          "date": "2026-11-27",
+          "key": "4kr54p"
+        },
+        "views": 80354,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "Page views are for the school, not its ground; it hosted one women's T20I, in 2008"
+        }
+      },
+      {
+        "name": "Toby Howe Cricket Ground",
+        "aliases": [
+          "Billericay",
+          "Toby Howe"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Toby Howe Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1dcdiye"
+        },
+        "views": 305,
+        "tier": "ootg"
+      },
+      {
+        "name": "Clifton College Close Ground",
+        "aliases": [
+          "Clifton College",
+          "Clifton"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Clifton College Close Ground",
+          "date": "2026-11-27",
+          "key": "12wniak"
+        },
+        "views": 873,
+        "tier": "six"
+      },
+      {
+        "name": "Taunton Vale Sports Club Ground",
+        "aliases": [
+          "Taunton Vale"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Taunton Vale Sports Club Ground",
+          "date": "2026-11-27",
+          "key": "xtuw48"
+        },
+        "views": 715,
+        "tier": "six"
+      },
+      {
+        "name": "Officers Club Services Ground",
+        "aliases": [
+          "Aldershot",
+          "Officers Club"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Officers Club Services Ground",
+          "date": "2026-11-27",
+          "key": "1sqzvir"
+        },
+        "views": 484,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "south-africa-mens-womens-odi-grounds-before-2026",
+    "prompt": "Name a ground in South Africa that hosted a men's or women's ODI before 2026",
+    "category": "South African ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "women",
+      "odi",
+      "international",
+      "south-africa"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_women%27s_One_Day_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "ODIs hosted (men's and women's)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Doosra",
+    "answers": [
+      {
+        "name": "Centurion Park",
+        "aliases": [
+          "Centurion",
+          "SuperSport Park"
+        ],
+        "values": [
+          66
+        ],
+        "verified": {
+          "wiki": "Centurion Park",
+          "date": "2026-11-27",
+          "key": "1pjkwsb"
+        },
+        "views": 19576,
+        "tier": "single"
+      },
+      {
+        "name": "Wanderers Stadium",
+        "aliases": [
+          "Wanderers",
+          "Johannesburg",
+          "Bullring",
+          "Imperial Wanderers",
+          "DP World Wanderers"
+        ],
+        "values": [
+          63
+        ],
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-27",
+          "key": "q4ks51"
+        },
+        "views": 43896,
+        "tier": "single"
+      },
+      {
+        "name": "Kingsmead",
+        "aliases": [
+          "Durban",
+          "Hollywoodbets Kingsmead",
+          "Sahara Stadium Kingsmead"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "values": [
+          54
+        ],
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-27",
+          "key": "bysi27"
+        },
+        "views": 17194,
+        "tier": "single"
+      },
+      {
+        "name": "JB Marks Oval",
+        "aliases": [
+          "Potchefstroom",
+          "Senwes Park",
+          "Sedgars Park"
+        ],
+        "values": [
+          49
+        ],
+        "verified": {
+          "wiki": "JB Marks Oval",
+          "date": "2026-11-27",
+          "key": "fjkun5"
+        },
+        "views": 3753,
+        "tier": "two"
+      },
+      {
+        "name": "Newlands",
+        "aliases": [
+          "Cape Town",
+          "Sahara Park Newlands",
+          "PPC Newlands",
+          "Newlands Cricket Ground"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "values": [
+          47
+        ],
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1ibau21"
+        },
+        "views": 31985,
+        "tier": "single"
+      },
+      {
+        "name": "St George's Park",
+        "aliases": [
+          "Gqeberha",
+          "Port Elizabeth",
+          "St George's"
+        ],
+        "wiki": "St George's Park Cricket Ground",
+        "values": [
+          44
+        ],
+        "verified": {
+          "wiki": "St George's Park Cricket Ground",
+          "date": "2026-11-27",
+          "key": "rj28hz"
+        },
+        "views": 20273,
+        "tier": "single"
+      },
+      {
+        "name": "Mangaung Oval",
+        "aliases": [
+          "Bloemfontein",
+          "Goodyear Park",
+          "Chevrolet Park",
+          "OUTsurance Oval"
+        ],
+        "values": [
+          36
+        ],
+        "verified": {
+          "wiki": "Mangaung Oval",
+          "date": "2026-11-27",
+          "key": "lovfed"
+        },
+        "views": 9286,
+        "tier": "single"
+      },
+      {
+        "name": "Buffalo Park",
+        "aliases": [
+          "East London"
+        ],
+        "values": [
+          30
+        ],
+        "verified": {
+          "wiki": "Buffalo Park",
+          "date": "2026-11-27",
+          "key": "s8953e"
+        },
+        "views": 10577,
+        "tier": "two"
+      },
+      {
+        "name": "Willowmoore Park",
+        "aliases": [
+          "Benoni",
+          "Willowmoore"
+        ],
+        "values": [
+          27
+        ],
+        "verified": {
+          "wiki": "Willowmoore Park",
+          "date": "2026-11-27",
+          "key": "178btiz"
+        },
+        "views": 4806,
+        "tier": "two"
+      },
+      {
+        "name": "Diamond Oval",
+        "aliases": [
+          "Kimberley",
+          "De Beers Diamond Oval"
+        ],
+        "wiki": "De Beers Diamond Oval",
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "De Beers Diamond Oval",
+          "date": "2026-11-27",
+          "key": "8o7393"
+        },
+        "views": 4604,
+        "tier": "two"
+      },
+      {
+        "name": "Boland Park",
+        "aliases": [
+          "Paarl"
+        ],
+        "values": [
+          23
+        ],
+        "verified": {
+          "wiki": "Boland Park",
+          "date": "2026-11-27",
+          "key": "1taxrv0"
+        },
+        "views": 11927,
+        "tier": "two"
+      },
+      {
+        "name": "Absa Puk Oval",
+        "aliases": [
+          "Puk Oval"
+        ],
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "Absa Puk Oval",
+          "date": "2026-11-27",
+          "key": "zw0cqx"
+        },
+        "views": 526,
+        "tier": "two"
+      },
+      {
+        "name": "Harlequins",
+        "aliases": [
+          "Harlequins Cricket Ground"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "1kqvi0s"
+        },
+        "views": 2285,
+        "tier": "two"
+      },
+      {
+        "name": "Technikon Oval",
+        "aliases": [
+          "Tshwane University of Technology",
+          "TUT Oval"
+        ],
+        "wiki": "Tshwane University of Technology",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Tshwane University of Technology",
+          "date": "2026-11-27",
+          "key": "1s6b4sb"
+        },
+        "views": 26441,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "Page views are for the university, not its cricket ground; women's ODIs only, all in 2005"
+        }
+      },
+      {
+        "name": "Laudium Oval",
+        "aliases": [
+          "Laudium"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Laudium Oval",
+          "date": "2026-11-27",
+          "key": "obc1ym"
+        },
+        "views": 324,
+        "tier": "four"
+      },
+      {
+        "name": "Stellenbosch University Ground",
+        "aliases": [
+          "Stellenbosch",
+          "Stellenbosch University"
+        ],
+        "wiki": "Stellenbosch University",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Stellenbosch University",
+          "date": "2026-11-27",
+          "key": "1m5xoie"
+        },
+        "views": 58905,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Page views are for the university, not its cricket ground; six women's ODIs, all in 2008"
+        }
+      },
+      {
+        "name": "Witrand Cricket Field",
+        "aliases": [
+          "Witrand"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Witrand Cricket Field",
+          "date": "2026-11-27",
+          "key": "oih9w5"
+        },
+        "views": 311,
+        "tier": "four"
+      },
+      {
+        "name": "LC de Villiers Oval",
+        "aliases": [
+          "LC de Villiers",
+          "Tuks Oval"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "10ic06f"
+        },
+        "views": 2285,
+        "tier": "four"
+      },
+      {
+        "name": "City Oval",
+        "aliases": [
+          "Pietermaritzburg",
+          "Alexandra Park"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "City Oval",
+          "date": "2026-11-27",
+          "key": "1vmlzxf"
+        },
+        "views": 3469,
+        "tier": "four"
+      },
+      {
+        "name": "Sinovich Park",
+        "aliases": [
+          "Sinovich"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Sinovich Park",
+          "date": "2026-11-27",
+          "key": "tgqdru"
+        },
+        "views": 168,
+        "tier": "six"
+      },
+      {
+        "name": "Lenasia Stadium",
+        "aliases": [
+          "Lenasia"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Lenasia Stadium",
+          "date": "2026-11-27",
+          "key": "ci67b9"
+        },
+        "views": 610,
+        "tier": "six"
+      },
+      {
+        "name": "Eersterust Cricket Club",
+        "aliases": [
+          "Eersterust"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "far20x"
+        },
+        "views": 2285,
+        "tier": "four"
+      },
+      {
+        "name": "Green Point Common",
+        "aliases": [
+          "Green Point"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "uyn0y9"
+        },
+        "views": 2285,
+        "tier": "six"
+      },
+      {
+        "name": "ABSA Oval",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "ABSA Oval",
+          "date": "2026-11-27",
+          "key": "ppuq2x"
+        },
+        "views": 186,
+        "tier": "ootg"
+      },
+      {
+        "name": "Manzil Park",
+        "aliases": [
+          "Klerksdorp",
+          "Manzil"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "b6p8gh"
+        },
+        "views": 2285,
+        "tier": "six"
+      },
+      {
+        "name": "Olympia Park",
+        "aliases": [
+          "Rustenburg"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Olympia Park",
+          "date": "2026-11-27",
+          "key": "17ik4w"
+        },
+        "views": 5676,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "sri-lanka-bangladesh-mens-womens-odi-grounds-before-2026",
+    "prompt": "Name a ground in Sri Lanka or Bangladesh that hosted a men's or women's ODI before 2026",
+    "category": "Sri Lanka and Bangladesh ODI grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "women",
+      "odi",
+      "international",
+      "sri-lanka",
+      "bangladesh"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds",
+      "https://en.wikipedia.org/wiki/List_of_women%27s_One_Day_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "ODIs hosted (men's and women's)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 1
+    },
+    "delivery": "Good length",
+    "answers": [
+      {
+        "name": "R. Premadasa Stadium",
+        "aliases": [
+          "Premadasa",
+          "Khettarama",
+          "Colombo",
+          "Ranasinghe Premadasa Stadium"
+        ],
+        "values": [
+          188
+        ],
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-27",
+          "key": "h1uddt"
+        },
+        "views": 81929,
+        "tier": "single"
+      },
+      {
+        "name": "Sher-e-Bangla National Cricket Stadium",
+        "aliases": [
+          "Sher-e-Bangla",
+          "Mirpur",
+          "Dhaka",
+          "Sher-e-Bangla National Stadium"
+        ],
+        "values": [
+          150
+        ],
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "170xzz9"
+        },
+        "views": 27323,
+        "tier": "single"
+      },
+      {
+        "name": "Sinhalese Sports Club Ground",
+        "aliases": [
+          "SSC",
+          "Sinhalese Sports Club"
+        ],
+        "values": [
+          75
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "6m15m4"
+        },
+        "views": 4935,
+        "tier": "single"
+      },
+      {
+        "name": "Rangiri Dambulla International Stadium",
+        "aliases": [
+          "Dambulla",
+          "Rangiri"
+        ],
+        "values": [
+          70
+        ],
+        "verified": {
+          "wiki": "Rangiri Dambulla International Stadium",
+          "date": "2026-11-27",
+          "key": "zpsmhr"
+        },
+        "views": 13811,
+        "tier": "single"
+      },
+      {
+        "name": "Bangabandhu National Stadium",
+        "aliases": [
+          "Bangabandhu",
+          "National Stadium Dhaka",
+          "Dhaka Stadium"
+        ],
+        "values": [
+          58
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "m0ybzr"
+        },
+        "views": 4935,
+        "tier": "two"
+      },
+      {
+        "name": "Pallekele International Cricket Stadium",
+        "aliases": [
+          "Pallekele",
+          "Kandy"
+        ],
+        "values": [
+          48
+        ],
+        "verified": {
+          "wiki": "Pallekele International Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "1u82a0p"
+        },
+        "views": 40442,
+        "tier": "single"
+      },
+      {
+        "name": "Mahinda Rajapaksa International Cricket Stadium",
+        "aliases": [
+          "Hambantota",
+          "Sooriyawewa",
+          "Mahinda Rajapaksa"
+        ],
+        "values": [
+          34
+        ],
+        "verified": {
+          "wiki": "Mahinda Rajapaksa International Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "u79pw1"
+        },
+        "views": 11325,
+        "tier": "single"
+      },
+      {
+        "name": "Zohur Ahmed Chowdhury Stadium",
+        "aliases": [
+          "Chittagong",
+          "Chattogram",
+          "Zohur Ahmed Chowdhury",
+          "Zahur Ahmed Chowdhury Stadium"
+        ],
+        "values": [
+          32
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "w6jcfo"
+        },
+        "views": 4935,
+        "tier": "two"
+      },
+      {
+        "name": "Paikiasothy Saravanamuttu Stadium",
+        "aliases": [
+          "P Sara",
+          "P Sara Oval",
+          "Saravanamuttu Stadium",
+          "Colombo Oval"
+        ],
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Paikiasothy Saravanamuttu Stadium",
+          "date": "2026-11-27",
+          "key": "6prepl"
+        },
+        "views": 8362,
+        "tier": "two"
+      },
+      {
+        "name": "Fatullah Osmani Stadium",
+        "aliases": [
+          "Fatullah",
+          "Narayanganj",
+          "Khan Shaheb Osman Ali Stadium"
+        ],
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "rk84n8"
+        },
+        "views": 4935,
+        "tier": "two"
+      },
+      {
+        "name": "Galle International Stadium",
+        "aliases": [
+          "Galle"
+        ],
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Galle International Stadium",
+          "date": "2026-11-27",
+          "key": "ht8r8d"
+        },
+        "views": 24809,
+        "tier": "single"
+      },
+      {
+        "name": "Asgiriya Stadium",
+        "aliases": [
+          "Asgiriya"
+        ],
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Asgiriya Stadium",
+          "date": "2026-11-27",
+          "key": "xdq3in"
+        },
+        "views": 5872,
+        "tier": "two"
+      },
+      {
+        "name": "M. A. Aziz Stadium",
+        "aliases": [
+          "MA Aziz",
+          "Aziz Stadium"
+        ],
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "1ifx2y8"
+        },
+        "views": 4935,
+        "tier": "two"
+      },
+      {
+        "name": "Tyronne Fernando Stadium",
+        "aliases": [
+          "Moratuwa",
+          "Tyronne Fernando"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "vh0s9l"
+        },
+        "views": 4935,
+        "tier": "four"
+      },
+      {
+        "name": "Nondescripts Cricket Club Ground",
+        "aliases": [
+          "NCC",
+          "Nondescripts",
+          "Nondescripts Cricket Club"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Nondescripts Cricket Club Ground",
+          "date": "2026-11-27",
+          "key": "ne9x2h"
+        },
+        "views": 1621,
+        "tier": "four"
+      },
+      {
+        "name": "Sheikh Kamal International Stadium",
+        "aliases": [
+          "Cox's Bazar"
+        ],
+        "wiki": "Sheikh Kamal International Stadium, Cox's Bazar",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "148lqdz"
+        },
+        "views": 2285,
+        "tier": "four"
+      },
+      {
+        "name": "Sylhet International Cricket Stadium",
+        "aliases": [
+          "Sylhet",
+          "Sylhet Stadium"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Sylhet International Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "xxuo1k"
+        },
+        "views": 13088,
+        "tier": "two"
+      },
+      {
+        "name": "Shaheed Chandu Stadium",
+        "aliases": [
+          "Bogra",
+          "Bogura",
+          "Shaheed Chandu"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Shaheed Chandu Stadium",
+          "date": "2026-11-27",
+          "key": "syglry"
+        },
+        "views": 2793,
+        "tier": "four"
+      },
+      {
+        "name": "Sheikh Abu Naser Stadium",
+        "aliases": [
+          "Khulna",
+          "Abu Naser"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "List of One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "k7ws3u"
+        },
+        "views": 4935,
+        "tier": "four"
+      },
+      {
+        "name": "Moors Sports Club Ground",
+        "aliases": [
+          "Moors",
+          "Moors Sports Club"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Moors Sports Club Ground",
+          "date": "2026-11-27",
+          "key": "zgfk0d"
+        },
+        "views": 487,
+        "tier": "six"
+      },
+      {
+        "name": "BKSP Ground",
+        "aliases": [
+          "BKSP",
+          "Savar",
+          "Bangladesh Krira Shikkha Protisthan"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "List of women's One Day International cricket grounds",
+          "date": "2026-11-27",
+          "key": "1ur3w7l"
+        },
+        "views": 2285,
+        "tier": "six"
+      },
+      {
+        "name": "Welagedara Stadium",
+        "aliases": [
+          "Kurunegala",
+          "Welagedara"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Welagedara Stadium",
+          "date": "2026-11-27",
+          "key": "1g6uwmc"
+        },
+        "views": 1326,
+        "tier": "six"
+      },
+      {
+        "name": "Colombo Cricket Club Ground",
+        "aliases": [
+          "Colombo Cricket Club",
+          "CCC"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Colombo Cricket Club Ground",
+          "date": "2026-11-27",
+          "key": "18sdaw0"
+        },
+        "views": 4124,
+        "tier": "six"
+      },
+      {
+        "name": "Colts Cricket Club Ground",
+        "aliases": [
+          "Colts",
+          "Colts Cricket Club"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Colts Cricket Club Ground",
+          "date": "2026-11-27",
+          "key": "19xic7a"
+        },
+        "views": 806,
+        "tier": "six"
+      },
+      {
+        "name": "Chilaw Marians Cricket Club Ground",
+        "aliases": [
+          "Katunayake",
+          "Chilaw Marians"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Chilaw Marians Cricket Club Ground",
+          "date": "2026-11-27",
+          "key": "1bpy04o"
+        },
+        "views": 255,
+        "tier": "ootg"
+      },
+      {
+        "name": "S. Thomas' College",
+        "aliases": [
+          "Mount Lavinia",
+          "S. Thomas' College Ground",
+          "St Thomas' College"
+        ],
+        "wiki": "S. Thomas' College, Mount Lavinia",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "S. Thomas' College, Mount Lavinia",
+          "date": "2026-11-27",
+          "key": "8hjqva"
+        },
+        "views": 13109,
+        "tier": "four"
+      },
+      {
+        "name": "Thurstan College",
+        "aliases": [
+          "Thurstan College Ground",
+          "Thurstan"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Thurstan College",
+          "date": "2026-11-27",
+          "key": "18cx2nm"
+        },
+        "views": 5553,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "womens-t20-world-cup-grounds-2009-2024",
+    "prompt": "Name a ground that hosted a match at a women's T20 World Cup (2009–2024)",
+    "category": "Women's T20 World Cup venues",
+    "answerType": "ground",
+    "tags": [
+      "women",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2009_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2010_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2012_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2014_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2016_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2018_ICC_Women%27s_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2020_ICC_Women%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2023_ICC_Women%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2024_ICC_Women%27s_T20_World_Cup"
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Full toss",
+    "answers": [
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-27",
+          "key": "ijyw9u"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kia Oval",
+          "Brit Oval",
+          "Foster's Oval"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-27",
+          "key": "1tcehds"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-27",
+          "key": "18chyw4"
+        },
+        "views": 44633,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Taunton",
+        "aliases": [
+          "Taunton",
+          "Cooper Associates County Ground"
+        ],
+        "wiki": "County Ground, Taunton",
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-27",
+          "key": "bz4dtj"
+        },
+        "views": 14861,
+        "tier": "six"
+      },
+      {
+        "name": "Warner Park",
+        "aliases": [
+          "Basseterre",
+          "St Kitts",
+          "Saint Kitts",
+          "Warner Park Sporting Complex"
+        ],
+        "wiki": "Warner Park Sporting Complex",
+        "verified": {
+          "wiki": "Warner Park Sporting Complex",
+          "date": "2026-11-27",
+          "key": "1oloxjf"
+        },
+        "views": 10452,
+        "tier": "six"
+      },
+      {
+        "name": "Daren Sammy Cricket Ground",
+        "aliases": [
+          "Beausejour",
+          "Beausejour Stadium",
+          "Daren Sammy Stadium",
+          "Gros Islet",
+          "St Lucia",
+          "Saint Lucia"
+        ],
+        "verified": {
+          "wiki": "Daren Sammy Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1hagg1l"
+        },
+        "views": 9583,
+        "tier": "ootg"
+      },
+      {
+        "name": "Kensington Oval",
+        "aliases": [
+          "Bridgetown",
+          "Barbados"
+        ],
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-27",
+          "key": "1crzbl4"
+        },
+        "views": 29813,
+        "tier": "two"
+      },
+      {
+        "name": "Galle International Stadium",
+        "aliases": [
+          "Galle"
+        ],
+        "verified": {
+          "wiki": "Galle International Stadium",
+          "date": "2026-11-27",
+          "key": "16i589c"
+        },
+        "views": 24809,
+        "tier": "four"
+      },
+      {
+        "name": "R. Premadasa Stadium",
+        "aliases": [
+          "Premadasa",
+          "Khettarama",
+          "Colombo"
+        ],
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-27",
+          "key": "io09l7"
+        },
+        "views": 81929,
+        "tier": "two"
+      },
+      {
+        "name": "Sylhet International Cricket Stadium",
+        "aliases": [
+          "Sylhet",
+          "Sylhet Divisional Stadium"
+        ],
+        "verified": {
+          "wiki": "Sylhet International Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "e1zfvh"
+        },
+        "views": 13088,
+        "tier": "six"
+      },
+      {
+        "name": "Sher-e-Bangla National Cricket Stadium",
+        "aliases": [
+          "Sher-e-Bangla",
+          "Mirpur",
+          "Dhaka",
+          "Sher-e-Bangla National Stadium"
+        ],
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "4lcx14"
+        },
+        "views": 27323,
+        "tier": "four"
+      },
+      {
+        "name": "M. Chinnaswamy Stadium",
+        "aliases": [
+          "Chinnaswamy",
+          "Bengaluru",
+          "Bangalore"
+        ],
+        "verified": {
+          "wiki": "M. Chinnaswamy Stadium",
+          "date": "2026-11-27",
+          "key": "hmymvr"
+        },
+        "views": 95811,
+        "tier": "single"
+      },
+      {
+        "name": "M. A. Chidambaram Stadium",
+        "aliases": [
+          "Chepauk",
+          "Chennai",
+          "Chidambaram",
+          "Madras"
+        ],
+        "verified": {
+          "wiki": "M. A. Chidambaram Stadium",
+          "date": "2026-11-27",
+          "key": "r2ettv"
+        },
+        "views": 102895,
+        "tier": "single"
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "aliases": [
+          "HPCA Stadium",
+          "Dharamsala",
+          "Dharamshala",
+          "HPCA"
+        ],
+        "verified": {
+          "wiki": "Himachal Pradesh Cricket Association Stadium",
+          "date": "2026-11-27",
+          "key": "3641d9"
+        },
+        "views": 65056,
+        "tier": "two"
+      },
+      {
+        "name": "Punjab Cricket Association IS Bindra Stadium",
+        "aliases": [
+          "Mohali",
+          "PCA Stadium",
+          "IS Bindra Stadium",
+          "Bindra"
+        ],
+        "verified": {
+          "wiki": "2016 ICC Women's World Twenty20",
+          "date": "2026-11-27",
+          "key": "2c51ew"
+        },
+        "views": 3301,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "Mohali is a well-known Test ground; its views came from the tournament page, not its own article"
+        }
+      },
+      {
+        "name": "Wankhede Stadium",
+        "aliases": [
+          "Mumbai"
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-27",
+          "key": "1a7jm3y"
+        },
+        "views": 150283,
+        "tier": "single"
+      },
+      {
+        "name": "Vidarbha Cricket Association Stadium",
+        "aliases": [
+          "Nagpur",
+          "Jamtha",
+          "VCA Stadium"
+        ],
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Stadium",
+          "date": "2026-11-27",
+          "key": "1pkxkz4"
+        },
+        "views": 28533,
+        "tier": "four"
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "aliases": [
+          "Feroz Shah Kotla",
+          "Kotla",
+          "Delhi"
+        ],
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "uo7gl4"
+        },
+        "views": 72890,
+        "tier": "two"
+      },
+      {
+        "name": "Eden Gardens",
+        "aliases": [
+          "Kolkata",
+          "Calcutta"
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-27",
+          "key": "1qzvdbr"
+        },
+        "views": 154038,
+        "tier": "single"
+      },
+      {
+        "name": "Providence Stadium",
+        "aliases": [
+          "Providence",
+          "Guyana",
+          "Guyana National Stadium"
+        ],
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-27",
+          "key": "1or5pcz"
+        },
+        "views": 17300,
+        "tier": "six"
+      },
+      {
+        "name": "Sir Vivian Richards Stadium",
+        "aliases": [
+          "Antigua",
+          "North Sound",
+          "Viv Richards Stadium"
+        ],
+        "verified": {
+          "wiki": "Sir Vivian Richards Stadium",
+          "date": "2026-11-27",
+          "key": "u3lgps"
+        },
+        "views": 21461,
+        "tier": "four"
+      },
+      {
+        "name": "Manuka Oval",
+        "aliases": [
+          "Canberra",
+          "Manuka"
+        ],
+        "verified": {
+          "wiki": "Manuka Oval",
+          "date": "2026-11-27",
+          "key": "ti6c7v"
+        },
+        "views": 21782,
+        "tier": "four"
+      },
+      {
+        "name": "Junction Oval",
+        "aliases": [
+          "St Kilda",
+          "CitiPower Centre"
+        ],
+        "verified": {
+          "wiki": "Junction Oval",
+          "date": "2026-11-27",
+          "key": "1i8r474"
+        },
+        "views": 17206,
+        "tier": "six"
+      },
+      {
+        "name": "Melbourne Cricket Ground",
+        "aliases": [
+          "MCG",
+          "Melbourne",
+          "the G"
+        ],
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1tvm4cq"
+        },
+        "views": 310311,
+        "tier": "single"
+      },
+      {
+        "name": "WACA Ground",
+        "aliases": [
+          "WACA",
+          "Perth"
+        ],
+        "verified": {
+          "wiki": "WACA Ground",
+          "date": "2026-11-27",
+          "key": "qwfav7"
+        },
+        "views": 63298,
+        "tier": "two"
+      },
+      {
+        "name": "Sydney Showground Stadium",
+        "aliases": [
+          "Sydney Showground",
+          "Showground",
+          "Engie Stadium",
+          "Giants Stadium"
+        ],
+        "verified": {
+          "wiki": "Sydney Showground Stadium",
+          "date": "2026-11-27",
+          "key": "1vw125y"
+        },
+        "views": 45210,
+        "tier": "two"
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "aliases": [
+          "SCG",
+          "Sydney"
+        ],
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1qwatzi"
+        },
+        "views": 83269,
+        "tier": "single"
+      },
+      {
+        "name": "Newlands",
+        "aliases": [
+          "Cape Town",
+          "Newlands Cricket Ground"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-27",
+          "key": "1jm15d1"
+        },
+        "views": 31985,
+        "tier": "two"
+      },
+      {
+        "name": "St George's Park",
+        "aliases": [
+          "Gqeberha",
+          "Port Elizabeth"
+        ],
+        "wiki": "St George's Park Cricket Ground",
+        "verified": {
+          "wiki": "St George's Park Cricket Ground",
+          "date": "2026-11-27",
+          "key": "145zd30"
+        },
+        "views": 20273,
+        "tier": "four"
+      },
+      {
+        "name": "Boland Park",
+        "aliases": [
+          "Paarl"
+        ],
+        "verified": {
+          "wiki": "Boland Park",
+          "date": "2026-11-27",
+          "key": "1md42ir"
+        },
+        "views": 11927,
+        "tier": "six"
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "aliases": [
+          "Dubai",
+          "Dubai International Stadium"
+        ],
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "s2ptrp"
+        },
+        "views": 20522,
+        "tier": "four"
+      },
+      {
+        "name": "Sharjah Cricket Stadium",
+        "aliases": [
+          "Sharjah"
+        ],
+        "verified": {
+          "wiki": "Sharjah Cricket Stadium",
+          "date": "2026-11-27",
+          "key": "1v7zrur"
+        },
+        "views": 21929,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "womens-hundred-wpl-wcsl-wcpl-teams-to-2026",
+    "prompt": "Name a team that played in the women's Hundred, the Women's Premier League, the Women's Cricket Super League or the Women's Caribbean Premier League (up to 2026)",
+    "category": "Women's franchises",
+    "answerType": "team",
+    "tags": [
+      "women",
+      "t20",
+      "franchise",
+      "england",
+      "india",
+      "west-indies"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Hundred_(cricket)",
+      "https://en.wikipedia.org/wiki/Women%27s_Premier_League_(cricket)",
+      "https://en.wikipedia.org/wiki/Women%27s_Cricket_Super_League",
+      "https://en.wikipedia.org/wiki/Women%27s_Caribbean_Premier_League"
+    ],
+    "metrics": [
+      {
+        "label": "Seasons played to 2026",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Outswinger",
+    "answers": [
+      {
+        "name": "Birmingham Phoenix",
+        "aliases": [
+          "Phoenix",
+          "Birmingham"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Birmingham Phoenix",
+          "date": "2026-11-27",
+          "key": "xy6gaz"
+        },
+        "views": 140130,
+        "tier": "single"
+      },
+      {
+        "name": "London Spirit",
+        "aliases": [
+          "Spirit"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "London Spirit",
+          "date": "2026-11-27",
+          "key": "8s2e7r"
+        },
+        "views": 112566,
+        "tier": "single"
+      },
+      {
+        "name": "Manchester Super Giants",
+        "aliases": [
+          "Manchester Originals",
+          "Originals",
+          "Super Giants",
+          "Manchester"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Manchester Super Giants",
+          "date": "2026-11-27",
+          "key": "12pecph"
+        },
+        "views": 154706,
+        "tier": "single"
+      },
+      {
+        "name": "Sunrisers Leeds",
+        "aliases": [
+          "Northern Superchargers",
+          "Superchargers",
+          "Sunrisers",
+          "Leeds"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Sunrisers Leeds",
+          "date": "2026-11-27",
+          "key": "1spa9v7"
+        },
+        "views": 200980,
+        "tier": "single"
+      },
+      {
+        "name": "MI London",
+        "aliases": [
+          "Oval Invincibles",
+          "Invincibles"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "MI London",
+          "date": "2026-11-27",
+          "key": "119g271"
+        },
+        "views": 162097,
+        "tier": "single"
+      },
+      {
+        "name": "Southern Brave",
+        "aliases": [
+          "Brave"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Southern Brave",
+          "date": "2026-11-27",
+          "key": "19i4z3f"
+        },
+        "views": 98141,
+        "tier": "single"
+      },
+      {
+        "name": "Trent Rockets",
+        "aliases": [
+          "Rockets",
+          "Nottingham"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Trent Rockets",
+          "date": "2026-11-27",
+          "key": "tqo979"
+        },
+        "views": 84587,
+        "tier": "two"
+      },
+      {
+        "name": "Welsh Fire",
+        "aliases": [
+          "Fire",
+          "Wales",
+          "Cardiff"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Welsh Fire",
+          "date": "2026-11-27",
+          "key": "18s2eg1"
+        },
+        "views": 74888,
+        "tier": "two"
+      },
+      {
+        "name": "Mumbai Indians",
+        "aliases": [
+          "Mumbai"
+        ],
+        "wiki": "Mumbai Indians (WPL)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Mumbai Indians (WPL)",
+          "date": "2026-11-27",
+          "key": "17dd1d9"
+        },
+        "views": 66780,
+        "tier": "four"
+      },
+      {
+        "name": "Royal Challengers Bengaluru",
+        "aliases": [
+          "Royal Challengers Bangalore",
+          "RCB",
+          "Royal Challengers",
+          "Bengaluru",
+          "Bangalore"
+        ],
+        "wiki": "Royal Challengers Bengaluru (WPL)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Royal Challengers Bengaluru (WPL)",
+          "date": "2026-11-27",
+          "key": "11bdz5y"
+        },
+        "views": 132446,
+        "tier": "two"
+      },
+      {
+        "name": "Delhi Capitals",
+        "aliases": [
+          "Capitals",
+          "Delhi"
+        ],
+        "wiki": "Delhi Capitals (WPL)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Delhi Capitals (WPL)",
+          "date": "2026-11-27",
+          "key": "1tx7k39"
+        },
+        "views": 69854,
+        "tier": "four"
+      },
+      {
+        "name": "Gujarat Giants",
+        "aliases": [
+          "Gujarat",
+          "Giants"
+        ],
+        "wiki": "Gujarat Giants (WPL)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Gujarat Giants (WPL)",
+          "date": "2026-11-27",
+          "key": "xegz4a"
+        },
+        "views": 61398,
+        "tier": "four"
+      },
+      {
+        "name": "UP Warriorz",
+        "aliases": [
+          "UP Warriors",
+          "Uttar Pradesh Warriorz",
+          "Warriorz",
+          "Uttar Pradesh"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "UP Warriorz",
+          "date": "2026-11-27",
+          "key": "1ta8io8"
+        },
+        "views": 68371,
+        "tier": "four"
+      },
+      {
+        "name": "Southern Vipers",
+        "aliases": [
+          "Vipers"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Southern Vipers",
+          "date": "2026-11-27",
+          "key": "13cwvdp"
+        },
+        "views": 4771,
+        "tier": "four"
+      },
+      {
+        "name": "Western Storm",
+        "aliases": [
+          "Storm"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Western Storm",
+          "date": "2026-11-27",
+          "key": "1d12xi7"
+        },
+        "views": 4712,
+        "tier": "six"
+      },
+      {
+        "name": "Loughborough Lightning",
+        "aliases": [
+          "Lightning",
+          "Loughborough"
+        ],
+        "wiki": "Loughborough Lightning cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "The Hundred (cricket)",
+          "date": "2026-11-27",
+          "key": "1nucgaj"
+        },
+        "views": 537618,
+        "tier": "two"
+      },
+      {
+        "name": "Surrey Stars",
+        "aliases": [
+          "Stars",
+          "Surrey"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Surrey Stars",
+          "date": "2026-11-27",
+          "key": "15f826j"
+        },
+        "views": 950,
+        "tier": "six"
+      },
+      {
+        "name": "Lancashire Thunder",
+        "aliases": [
+          "Thunder",
+          "Lancashire"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Lancashire Thunder",
+          "date": "2026-11-27",
+          "key": "vsxwf9"
+        },
+        "views": 3226,
+        "tier": "six"
+      },
+      {
+        "name": "Yorkshire Diamonds",
+        "aliases": [
+          "Diamonds",
+          "Yorkshire"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Yorkshire Diamonds",
+          "date": "2026-11-27",
+          "key": "1l3xwdd"
+        },
+        "views": 2466,
+        "tier": "six"
+      },
+      {
+        "name": "Barbados Tridents",
+        "aliases": [
+          "Barbados Royals",
+          "Tridents",
+          "Royals",
+          "Barbados"
+        ],
+        "wiki": "Barbados Tridents (WCPL)",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Barbados Tridents (WCPL)",
+          "date": "2026-11-27",
+          "key": "byy45e"
+        },
+        "views": 1656,
+        "tier": "four"
+      },
+      {
+        "name": "Guyana Amazon Warriors",
+        "aliases": [
+          "Amazon Warriors",
+          "Guyana",
+          "GAW"
+        ],
+        "wiki": "Guyana Amazon Warriors (WCPL)",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Guyana Amazon Warriors (WCPL)",
+          "date": "2026-11-27",
+          "key": "1b7n7pg"
+        },
+        "views": 4020,
+        "tier": "two"
+      },
+      {
+        "name": "Trinbago Knight Riders",
+        "aliases": [
+          "TKR",
+          "Knight Riders",
+          "Trinbago",
+          "Trinidad"
+        ],
+        "wiki": "Trinbago Knight Riders (WCPL)",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Trinbago Knight Riders (WCPL)",
+          "date": "2026-11-27",
+          "key": "10lrf31"
+        },
+        "views": 8999,
+        "tier": "two"
+      },
+      {
+        "name": "Jamaica Empress",
+        "aliases": [
+          "Empress",
+          "Jamaica"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Jamaica Empress",
+          "date": "2026-11-27",
+          "key": "g4jh9x"
+        },
+        "views": 1988,
+        "tier": "ootg"
+      }
+    ]
+  },
+  {
+    "id": "quaid-e-azam-trophy-winners-to-2025-26",
+    "prompt": "Name a team that won (or shared) Pakistan's Quaid-e-Azam Trophy, up to 2025–26",
+    "category": "Quaid-e-Azam winners",
+    "answerType": "team",
+    "tags": [
+      "men",
+      "domestic",
+      "pakistan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Quaid-e-Azam_Trophy"
+    ],
+    "metrics": [
+      {
+        "label": "Titles",
+        "rarerWhen": "lower"
+      },
+      {
+        "label": "Year of most recent title",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Flipper",
+    "answers": [
+      {
+        "name": "Karachi Blues",
+        "wiki": "Karachi cricket teams",
+        "values": [
+          10,
+          2026
+        ],
+        "verified": {
+          "wiki": "List of Karachi first-class cricket teams",
+          "date": "2026-11-27",
+          "key": "1fgpf5d"
+        },
+        "views": 2426,
+        "tier": "two"
+      },
+      {
+        "name": "PIA",
+        "aliases": [
+          "Pakistan International Airlines"
+        ],
+        "wiki": "Pakistan International Airlines cricket team",
+        "values": [
+          7,
+          2012
+        ],
+        "verified": {
+          "wiki": "Pakistan International Airlines cricket team",
+          "date": "2026-11-27",
+          "key": "1y1o98d"
+        },
+        "views": 5144,
+        "tier": "single"
+      },
+      {
+        "name": "Karachi Whites",
+        "wiki": "Karachi cricket teams",
+        "values": [
+          5,
+          2024
+        ],
+        "verified": {
+          "wiki": "List of Karachi first-class cricket teams",
+          "date": "2026-11-27",
+          "key": "wsaif6"
+        },
+        "views": 2426,
+        "tier": "two"
+      },
+      {
+        "name": "Karachi",
+        "wiki": "Karachi cricket teams",
+        "values": [
+          5,
+          1986
+        ],
+        "verified": {
+          "wiki": "List of Karachi first-class cricket teams",
+          "date": "2026-11-27",
+          "key": "845epa"
+        },
+        "views": 2426,
+        "tier": "four"
+      },
+      {
+        "name": "National Bank",
+        "aliases": [
+          "National Bank of Pakistan",
+          "NBP"
+        ],
+        "wiki": "National Bank of Pakistan cricket team",
+        "values": [
+          5,
+          1987
+        ],
+        "verified": {
+          "wiki": "National Bank of Pakistan cricket team",
+          "date": "2026-11-27",
+          "key": "bt2ouj"
+        },
+        "views": 1994,
+        "tier": "four"
+      },
+      {
+        "name": "SNGPL",
+        "aliases": [
+          "Sui Northern Gas Pipelines Limited",
+          "Sui Northern Gas",
+          "Sui Northern"
+        ],
+        "wiki": "Sui Northern Gas Pipelines Limited cricket team",
+        "values": [
+          4,
+          2018
+        ],
+        "verified": {
+          "wiki": "Sui Northern Gas Pipelines Limited cricket team",
+          "date": "2026-11-27",
+          "key": "5kirsk"
+        },
+        "views": 4243,
+        "tier": "single"
+      },
+      {
+        "name": "United Bank",
+        "aliases": [
+          "United Bank Limited",
+          "UBL"
+        ],
+        "wiki": "United Bank Limited cricket team",
+        "values": [
+          4,
+          1985
+        ],
+        "verified": {
+          "wiki": "United Bank Limited cricket team",
+          "date": "2026-11-27",
+          "key": "bwe6fp"
+        },
+        "views": 1266,
+        "tier": "six"
+      },
+      {
+        "name": "Sialkot",
+        "wiki": "Sialkot cricket team",
+        "values": [
+          3,
+          2025
+        ],
+        "verified": {
+          "wiki": "Sialkot cricket team",
+          "date": "2026-11-27",
+          "key": "1hk12jn"
+        },
+        "views": 3516,
+        "tier": "single"
+      },
+      {
+        "name": "Habib Bank",
+        "aliases": [
+          "Habib Bank Limited",
+          "HBL"
+        ],
+        "wiki": "Habib Bank Limited cricket team",
+        "values": [
+          3,
+          2019
+        ],
+        "verified": {
+          "wiki": "Habib Bank Limited cricket team",
+          "date": "2026-11-27",
+          "key": "175i3p9"
+        },
+        "views": 3544,
+        "tier": "single"
+      },
+      {
+        "name": "Lahore",
+        "wiki": "Lahore cricket teams",
+        "values": [
+          3,
+          1997
+        ],
+        "verified": {
+          "wiki": "Lahore cricket teams",
+          "date": "2026-11-27",
+          "key": "19vg5ek"
+        },
+        "views": 3231,
+        "tier": "two"
+      },
+      {
+        "name": "Khyber Pakhtunkhwa",
+        "aliases": [
+          "KP",
+          "KPK"
+        ],
+        "wiki": "Khyber Pakhtunkhwa cricket team",
+        "values": [
+          2,
+          2022
+        ],
+        "verified": {
+          "wiki": "Khyber Pakhtunkhwa cricket team",
+          "date": "2026-11-27",
+          "key": "l2icl8"
+        },
+        "views": 4859,
+        "tier": "single"
+      },
+      {
+        "name": "Central Punjab",
+        "wiki": "Central Punjab cricket team",
+        "values": [
+          2,
+          2021
+        ],
+        "verified": {
+          "wiki": "Central Punjab cricket team",
+          "date": "2026-11-27",
+          "key": "don1nt"
+        },
+        "views": 3750,
+        "tier": "single"
+      },
+      {
+        "name": "Peshawar",
+        "wiki": "Peshawar cricket team",
+        "values": [
+          2,
+          2005
+        ],
+        "verified": {
+          "wiki": "Peshawar cricket team",
+          "date": "2026-11-27",
+          "key": "190xx09"
+        },
+        "views": 3471,
+        "tier": "two"
+      },
+      {
+        "name": "Railways",
+        "aliases": [
+          "Pakistan Railways"
+        ],
+        "wiki": "Pakistan Railways cricket team",
+        "values": [
+          2,
+          1974
+        ],
+        "verified": {
+          "wiki": "Pakistan Railways cricket team",
+          "date": "2026-11-27",
+          "key": "xz75o5"
+        },
+        "views": 1680,
+        "tier": "six"
+      },
+      {
+        "name": "Bahawalpur",
+        "wiki": "Bahawalpur cricket team",
+        "values": [
+          2,
+          1958
+        ],
+        "verified": {
+          "wiki": "Bahawalpur cricket team",
+          "date": "2026-11-27",
+          "key": "rxa7kt"
+        },
+        "views": 1762,
+        "tier": "six"
+      },
+      {
+        "name": "Northern",
+        "wiki": "Northern cricket team",
+        "values": [
+          1,
+          2023
+        ],
+        "verified": {
+          "wiki": "Northern cricket team",
+          "date": "2026-11-27",
+          "key": "1rzzsnl"
+        },
+        "views": 2677,
+        "tier": "two"
+      },
+      {
+        "name": "WAPDA",
+        "aliases": [
+          "Water and Power Development Authority"
+        ],
+        "wiki": "Water and Power Development Authority cricket team",
+        "values": [
+          1,
+          2017
+        ],
+        "verified": {
+          "wiki": "Water and Power Development Authority cricket team",
+          "date": "2026-11-27",
+          "key": "14321ds"
+        },
+        "views": 2816,
+        "tier": "two"
+      },
+      {
+        "name": "Rawalpindi",
+        "aliases": [
+          "Pindi"
+        ],
+        "wiki": "Rawalpindi cricket team",
+        "values": [
+          1,
+          2014
+        ],
+        "verified": {
+          "wiki": "Rawalpindi cricket team",
+          "date": "2026-11-27",
+          "key": "27tdzl"
+        },
+        "views": 2381,
+        "tier": "four"
+      },
+      {
+        "name": "Karachi Urban",
+        "wiki": "Karachi cricket teams",
+        "values": [
+          1,
+          2007
+        ],
+        "verified": {
+          "wiki": "List of Karachi first-class cricket teams",
+          "date": "2026-11-27",
+          "key": "1v9b2ji"
+        },
+        "views": 2426,
+        "tier": "four"
+      },
+      {
+        "name": "Faisalabad",
+        "wiki": "Faisalabad cricket team",
+        "values": [
+          1,
+          2004
+        ],
+        "verified": {
+          "wiki": "Faisalabad cricket team",
+          "date": "2026-11-27",
+          "key": "e46azd"
+        },
+        "views": 2453,
+        "tier": "four"
+      },
+      {
+        "name": "Lahore Blues",
+        "wiki": "Lahore cricket teams",
+        "values": [
+          1,
+          2001
+        ],
+        "verified": {
+          "wiki": "Lahore cricket teams",
+          "date": "2026-11-27",
+          "key": "18y30cx"
+        },
+        "views": 3231,
+        "tier": "four"
+      },
+      {
+        "name": "ADBP",
+        "aliases": [
+          "Agriculture Development Bank of Pakistan",
+          "Agriculture Development Bank"
+        ],
+        "wiki": "Agriculture Development Bank of Pakistan cricket team",
+        "values": [
+          1,
+          1989
+        ],
+        "verified": {
+          "wiki": "Quaid-e-Azam Trophy",
+          "date": "2026-11-27",
+          "key": "1s1xl0y"
+        },
+        "views": 17959,
+        "tier": "two"
+      },
+      {
+        "name": "Punjab A",
+        "wiki": "Punjab cricket team (Pakistan)",
+        "values": [
+          1,
+          1975
+        ],
+        "verified": {
+          "wiki": "Punjab cricket team (Pakistan)",
+          "date": "2026-11-27",
+          "key": "51wp2c"
+        },
+        "views": 2225,
+        "tier": "six"
+      },
+      {
+        "name": "Karachi A",
+        "wiki": "Karachi cricket teams",
+        "values": [
+          1,
+          1963
+        ],
+        "verified": {
+          "wiki": "List of Karachi first-class cricket teams",
+          "date": "2026-11-27",
+          "key": "66ht0b"
+        },
+        "views": 2426,
+        "tier": "six"
+      },
+      {
+        "name": "Punjab",
+        "wiki": "Punjab cricket team (Pakistan)",
+        "values": [
+          1,
+          1957
+        ],
+        "verified": {
+          "wiki": "Punjab cricket team (Pakistan)",
+          "date": "2026-11-27",
+          "key": "1gmthx7"
+        },
+        "views": 2225,
+        "tier": "ootg"
+      }
+    ]
+  }
+]

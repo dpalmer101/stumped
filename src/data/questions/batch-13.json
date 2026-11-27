@@ -1,0 +1,2616 @@
+[
+  {
+    "id": "asia-cup-champions-trophy-nations-to-2026",
+    "prompt": "Name a country that played in the men's or women's Asia Cup or the men's ICC Champions Trophy, up to 2026",
+    "category": "Asia Cup and Champions Trophy",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "women",
+      "odi",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Asia_Cup",
+      "https://en.wikipedia.org/wiki/Women's_Asia_Cup",
+      "https://en.wikipedia.org/wiki/ICC_Champions_Trophy"
+    ],
+    "metrics": [
+      {
+        "label": "Tournaments played (Asia Cups and Champions Trophies)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "India",
+        "wiki": "India national cricket team",
+        "values": [
+          35
+        ],
+        "verified": {
+          "wiki": "India national cricket team",
+          "date": "2026-11-27",
+          "key": "7w96dq"
+        },
+        "views": 1226611,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "wiki": "Sri Lanka national cricket team",
+        "values": [
+          35
+        ],
+        "verified": {
+          "wiki": "Sri Lanka national cricket team",
+          "date": "2026-11-27",
+          "key": "3ky6uq"
+        },
+        "views": 358735,
+        "tier": "single"
+      },
+      {
+        "name": "Pakistan",
+        "wiki": "Pakistan national cricket team",
+        "values": [
+          34
+        ],
+        "verified": {
+          "wiki": "Pakistan national cricket team",
+          "date": "2026-11-27",
+          "key": "y4xoz4"
+        },
+        "views": 387393,
+        "tier": "single"
+      },
+      {
+        "name": "Bangladesh",
+        "wiki": "Bangladesh national cricket team",
+        "values": [
+          29
+        ],
+        "verified": {
+          "wiki": "Bangladesh national cricket team",
+          "date": "2026-11-27",
+          "key": "xi59e4"
+        },
+        "views": 187675,
+        "tier": "two"
+      },
+      {
+        "name": "Afghanistan",
+        "wiki": "Afghanistan national cricket team",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Afghanistan national cricket team",
+          "date": "2026-11-27",
+          "key": "1eso6jk"
+        },
+        "views": 169500,
+        "tier": "two"
+      },
+      {
+        "name": "Hong Kong",
+        "wiki": "Hong Kong national cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Hong Kong national cricket team",
+          "date": "2026-11-27",
+          "key": "tfebxm"
+        },
+        "views": 21135,
+        "tier": "four"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "wiki": "United Arab Emirates national cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates national cricket team",
+          "date": "2026-11-27",
+          "key": "viilub"
+        },
+        "views": 50809,
+        "tier": "four"
+      },
+      {
+        "name": "Nepal",
+        "wiki": "Nepal national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Nepal national cricket team",
+          "date": "2026-11-27",
+          "key": "546e5k"
+        },
+        "views": 102790,
+        "tier": "four"
+      },
+      {
+        "name": "Oman",
+        "wiki": "Oman national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Oman national cricket team",
+          "date": "2026-11-27",
+          "key": "13tj4js"
+        },
+        "views": 32494,
+        "tier": "six"
+      },
+      {
+        "name": "Australia",
+        "aliases": [
+          "Aussies"
+        ],
+        "wiki": "Australia men's national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Australia national cricket team",
+          "date": "2026-11-27",
+          "key": "horvef"
+        },
+        "views": 406426,
+        "tier": "single"
+      },
+      {
+        "name": "England",
+        "wiki": "England cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "England cricket team",
+          "date": "2026-11-27",
+          "key": "1yy0tbs"
+        },
+        "views": 393417,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand",
+        "aliases": [
+          "Black Caps"
+        ],
+        "wiki": "New Zealand national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "New Zealand national cricket team",
+          "date": "2026-11-27",
+          "key": "1e1567a"
+        },
+        "views": 323278,
+        "tier": "two"
+      },
+      {
+        "name": "South Africa",
+        "aliases": [
+          "Proteas"
+        ],
+        "wiki": "South Africa national cricket team",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "South Africa national cricket team",
+          "date": "2026-11-27",
+          "key": "qoq9ko"
+        },
+        "views": 323686,
+        "tier": "two"
+      },
+      {
+        "name": "West Indies",
+        "aliases": [
+          "Windies"
+        ],
+        "wiki": "West Indies cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "West Indies cricket team",
+          "date": "2026-11-27",
+          "key": "1shuwl7"
+        },
+        "views": 433303,
+        "tier": "two"
+      },
+      {
+        "name": "Zimbabwe",
+        "wiki": "Zimbabwe national cricket team",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Zimbabwe national cricket team",
+          "date": "2026-11-27",
+          "key": "1vsovfs"
+        },
+        "views": 192592,
+        "tier": "two"
+      },
+      {
+        "name": "Kenya",
+        "wiki": "Kenya national cricket team",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Kenya national cricket team",
+          "date": "2026-11-27",
+          "key": "4crod4"
+        },
+        "views": 46608,
+        "tier": "four"
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "wiki": "Netherlands national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Netherlands national cricket team",
+          "date": "2026-11-27",
+          "key": "1uyk05s"
+        },
+        "views": 71942,
+        "tier": "six"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "United States of America",
+          "America"
+        ],
+        "wiki": "United States national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-27",
+          "key": "1124vp"
+        },
+        "views": 186106,
+        "tier": "four"
+      },
+      {
+        "name": "China",
+        "wiki": "China women's national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "China women's national cricket team",
+          "date": "2026-11-27",
+          "key": "vh4in6"
+        },
+        "views": 6569,
+        "tier": "six"
+      },
+      {
+        "name": "Indonesia",
+        "wiki": "Indonesia women's national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Indonesia women's national cricket team",
+          "date": "2026-11-27",
+          "key": "5lmjuc"
+        },
+        "views": 4713,
+        "tier": "ootg"
+      },
+      {
+        "name": "Malaysia",
+        "wiki": "Malaysia women's national cricket team",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Malaysia women's national cricket team",
+          "date": "2026-11-27",
+          "key": "xm2og8"
+        },
+        "views": 3319,
+        "tier": "six"
+      },
+      {
+        "name": "Thailand",
+        "wiki": "Thailand women's national cricket team",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Thailand women's national cricket team",
+          "date": "2026-11-27",
+          "key": "1pqsum4"
+        },
+        "views": 10879,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "mens-odi-umpire-countries-to-2023",
+    "prompt": "Name a country that has provided an on-field umpire for a men's ODI, up to 2023 (West Indies counts as one)",
+    "category": "Umpiring nations",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_umpires"
+    ],
+    "metrics": [
+      {
+        "label": "Umpires who stood in a men's ODI",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "India",
+        "values": [
+          95
+        ],
+        "verified": {
+          "wiki": "India",
+          "date": "2026-11-27",
+          "key": "jjv11p"
+        },
+        "views": 6377009,
+        "tier": "single"
+      },
+      {
+        "name": "Australia",
+        "values": [
+          47
+        ],
+        "verified": {
+          "wiki": "Australia",
+          "date": "2026-11-27",
+          "key": "12mhoy0"
+        },
+        "views": 4547836,
+        "tier": "single"
+      },
+      {
+        "name": "England",
+        "values": [
+          46
+        ],
+        "verified": {
+          "wiki": "England",
+          "date": "2026-11-27",
+          "key": "4toc3"
+        },
+        "views": 2879656,
+        "tier": "single"
+      },
+      {
+        "name": "Pakistan",
+        "values": [
+          41
+        ],
+        "verified": {
+          "wiki": "Pakistan",
+          "date": "2026-11-27",
+          "key": "tspq4d"
+        },
+        "views": 3343492,
+        "tier": "single"
+      },
+      {
+        "name": "West Indies",
+        "aliases": [
+          "Windies"
+        ],
+        "wiki": "Cricket West Indies",
+        "values": [
+          35
+        ],
+        "verified": {
+          "wiki": "Cricket West Indies",
+          "date": "2026-11-27",
+          "key": "17mbfm3"
+        },
+        "views": 48182,
+        "tier": "single",
+        "override": {
+          "tier": "single",
+          "reason": "Measured on the Cricket West Indies article, whose views cannot compare with the country articles the other answers use; the 35 umpires make it one of the most obvious answers"
+        }
+      },
+      {
+        "name": "New Zealand",
+        "values": [
+          32
+        ],
+        "verified": {
+          "wiki": "New Zealand",
+          "date": "2026-11-27",
+          "key": "1w8g41h"
+        },
+        "views": 2919640,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Sri Lanka",
+          "date": "2026-11-27",
+          "key": "18jz5jp"
+        },
+        "views": 2405699,
+        "tier": "two"
+      },
+      {
+        "name": "Zimbabwe",
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "Zimbabwe",
+          "date": "2026-11-27",
+          "key": "1ccd56z"
+        },
+        "views": 1529567,
+        "tier": "four"
+      },
+      {
+        "name": "South Africa",
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "South Africa",
+          "date": "2026-11-27",
+          "key": "l20ze3"
+        },
+        "views": 2917628,
+        "tier": "two"
+      },
+      {
+        "name": "Bangladesh",
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Bangladesh",
+          "date": "2026-11-27",
+          "key": "14emy0v"
+        },
+        "views": 2744511,
+        "tier": "two"
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Netherlands",
+          "date": "2026-11-27",
+          "key": "1642ym2"
+        },
+        "views": 3179229,
+        "tier": "two"
+      },
+      {
+        "name": "Ireland",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Ireland",
+          "date": "2026-11-27",
+          "key": "pplgw5"
+        },
+        "views": 1957145,
+        "tier": "four"
+      },
+      {
+        "name": "Kenya",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Kenya",
+          "date": "2026-11-27",
+          "key": "10cutqe"
+        },
+        "views": 1238992,
+        "tier": "six"
+      },
+      {
+        "name": "Scotland",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Scotland",
+          "date": "2026-11-27",
+          "key": "1wi7a66"
+        },
+        "views": 2154130,
+        "tier": "two"
+      },
+      {
+        "name": "Afghanistan",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Afghanistan",
+          "date": "2026-11-27",
+          "key": "1jr3a7s"
+        },
+        "views": 2628763,
+        "tier": "four"
+      },
+      {
+        "name": "Namibia",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Namibia",
+          "date": "2026-11-27",
+          "key": "1soj2b"
+        },
+        "views": 1551656,
+        "tier": "four"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates",
+          "date": "2026-11-27",
+          "key": "1rkhvp4"
+        },
+        "views": 3824424,
+        "tier": "two"
+      },
+      {
+        "name": "Oman",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Oman",
+          "date": "2026-11-27",
+          "key": "qr77c1"
+        },
+        "views": 2026975,
+        "tier": "six"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "United States of America",
+          "America"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "United States",
+          "date": "2026-11-27",
+          "key": "1omp9oy"
+        },
+        "views": 13351394,
+        "tier": "single"
+      },
+      {
+        "name": "Nepal",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Nepal",
+          "date": "2026-11-27",
+          "key": "rh6zp8"
+        },
+        "views": 2343863,
+        "tier": "four"
+      },
+      {
+        "name": "Hong Kong",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Hong Kong",
+          "date": "2026-11-27",
+          "key": "13806op"
+        },
+        "views": 2982425,
+        "tier": "four"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea",
+          "date": "2026-11-27",
+          "key": "1pchqj1"
+        },
+        "views": 1432028,
+        "tier": "six"
+      },
+      {
+        "name": "Denmark",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Denmark",
+          "date": "2026-11-27",
+          "key": "1v6najw"
+        },
+        "views": 2129989,
+        "tier": "six"
+      },
+      {
+        "name": "Canada",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Canada",
+          "date": "2026-11-27",
+          "key": "a3nus"
+        },
+        "views": 4573317,
+        "tier": "two"
+      },
+      {
+        "name": "Bermuda",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bermuda",
+          "date": "2026-11-27",
+          "key": "1v7kopq"
+        },
+        "views": 1204096,
+        "tier": "ootg"
+      },
+      {
+        "name": "Indonesia",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Indonesia",
+          "date": "2026-11-27",
+          "key": "6ya4pc"
+        },
+        "views": 3080572,
+        "tier": "four"
+      },
+      {
+        "name": "Uganda",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Uganda",
+          "date": "2026-11-27",
+          "key": "hldkp6"
+        },
+        "views": 1447314,
+        "tier": "six"
+      },
+      {
+        "name": "Singapore",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Singapore",
+          "date": "2026-11-27",
+          "key": "1q6qzu4"
+        },
+        "views": 4007214,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "womens-odi-host-countries-before-2026",
+    "prompt": "Name a country that hosted a women's ODI before 2026 (each West Indian nation, Wales and Northern Ireland count separately)",
+    "category": "Women's ODI hosts",
+    "answerType": "country",
+    "tags": [
+      "women",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_women's_One_Day_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "Women's ODIs hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "England",
+        "values": [
+          255
+        ],
+        "verified": {
+          "wiki": "England",
+          "date": "2026-11-27",
+          "key": "14c98wp"
+        },
+        "views": 2879656,
+        "tier": "single"
+      },
+      {
+        "name": "New Zealand",
+        "values": [
+          248
+        ],
+        "verified": {
+          "wiki": "New Zealand",
+          "date": "2026-11-27",
+          "key": "1bb71vr"
+        },
+        "views": 2919640,
+        "tier": "single"
+      },
+      {
+        "name": "India",
+        "values": [
+          214
+        ],
+        "verified": {
+          "wiki": "India",
+          "date": "2026-11-27",
+          "key": "1qecxj3"
+        },
+        "views": 6377009,
+        "tier": "single"
+      },
+      {
+        "name": "Australia",
+        "values": [
+          183
+        ],
+        "verified": {
+          "wiki": "Australia",
+          "date": "2026-11-27",
+          "key": "wu7msq"
+        },
+        "views": 4547836,
+        "tier": "single"
+      },
+      {
+        "name": "South Africa",
+        "values": [
+          139
+        ],
+        "verified": {
+          "wiki": "South Africa",
+          "date": "2026-11-27",
+          "key": "1dr6eup"
+        },
+        "views": 2917628,
+        "tier": "single"
+      },
+      {
+        "name": "Sri Lanka",
+        "values": [
+          120
+        ],
+        "verified": {
+          "wiki": "Sri Lanka",
+          "date": "2026-11-27",
+          "key": "n3sfon"
+        },
+        "views": 2405699,
+        "tier": "two"
+      },
+      {
+        "name": "Pakistan",
+        "values": [
+          61
+        ],
+        "verified": {
+          "wiki": "Pakistan",
+          "date": "2026-11-27",
+          "key": "pll5f3"
+        },
+        "views": 3343492,
+        "tier": "single"
+      },
+      {
+        "name": "Ireland",
+        "aliases": [
+          "Republic of Ireland"
+        ],
+        "wiki": "Republic of Ireland",
+        "values": [
+          57
+        ],
+        "verified": {
+          "wiki": "Republic of Ireland",
+          "date": "2026-11-27",
+          "key": "1tizhru"
+        },
+        "views": 1748542,
+        "tier": "two"
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "values": [
+          46
+        ],
+        "verified": {
+          "wiki": "Netherlands",
+          "date": "2026-11-27",
+          "key": "o8wfm0"
+        },
+        "views": 3179229,
+        "tier": "single"
+      },
+      {
+        "name": "Bangladesh",
+        "values": [
+          42
+        ],
+        "verified": {
+          "wiki": "Bangladesh",
+          "date": "2026-11-27",
+          "key": "srgfel"
+        },
+        "views": 2744511,
+        "tier": "two"
+      },
+      {
+        "name": "Zimbabwe",
+        "values": [
+          28
+        ],
+        "verified": {
+          "wiki": "Zimbabwe",
+          "date": "2026-11-27",
+          "key": "ol6vdd"
+        },
+        "views": 1529567,
+        "tier": "two"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "aliases": [
+          "Antigua"
+        ],
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Antigua and Barbuda",
+          "date": "2026-11-27",
+          "key": "dt349a"
+        },
+        "views": 573659,
+        "tier": "four"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "aliases": [
+          "St Kitts",
+          "Saint Kitts",
+          "St Kitts and Nevis"
+        ],
+        "values": [
+          20
+        ],
+        "verified": {
+          "wiki": "Saint Kitts and Nevis",
+          "date": "2026-11-27",
+          "key": "7cvqty"
+        },
+        "views": 725862,
+        "tier": "four"
+      },
+      {
+        "name": "Northern Ireland",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Northern Ireland",
+          "date": "2026-11-27",
+          "key": "iktrgl"
+        },
+        "views": 1593982,
+        "tier": "two"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates",
+          "date": "2026-11-27",
+          "key": "1lzy1ga"
+        },
+        "views": 3824424,
+        "tier": "single"
+      },
+      {
+        "name": "Denmark",
+        "values": [
+          12
+        ],
+        "verified": {
+          "wiki": "Denmark",
+          "date": "2026-11-27",
+          "key": "q4qirq"
+        },
+        "views": 2129989,
+        "tier": "two"
+      },
+      {
+        "name": "Barbados",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Barbados",
+          "date": "2026-11-27",
+          "key": "vqk3jy"
+        },
+        "views": 1165443,
+        "tier": "four"
+      },
+      {
+        "name": "Jamaica",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Jamaica",
+          "date": "2026-11-27",
+          "key": "jm5tpq"
+        },
+        "views": 1344611,
+        "tier": "four"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "St Vincent",
+          "Saint Vincent",
+          "St Vincent and the Grenadines"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Saint Vincent and the Grenadines",
+          "date": "2026-11-27",
+          "key": "1hgnszo"
+        },
+        "views": 573896,
+        "tier": "six"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "aliases": [
+          "Trinidad"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Trinidad and Tobago",
+          "date": "2026-11-27",
+          "key": "1npkg5z"
+        },
+        "views": 1268861,
+        "tier": "four"
+      },
+      {
+        "name": "Saint Lucia",
+        "aliases": [
+          "St Lucia"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Saint Lucia",
+          "date": "2026-11-27",
+          "key": "5dkqx2"
+        },
+        "views": 845895,
+        "tier": "six"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea",
+          "date": "2026-11-27",
+          "key": "1sf4f9b"
+        },
+        "views": 1432028,
+        "tier": "six"
+      },
+      {
+        "name": "Thailand",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Thailand",
+          "date": "2026-11-27",
+          "key": "1qha04n"
+        },
+        "views": 2277704,
+        "tier": "four"
+      },
+      {
+        "name": "Malaysia",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Malaysia",
+          "date": "2026-11-27",
+          "key": "yd7pm7"
+        },
+        "views": 2437129,
+        "tier": "four"
+      },
+      {
+        "name": "Qatar",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Qatar",
+          "date": "2026-11-27",
+          "key": "1oqsqcl"
+        },
+        "views": 1847583,
+        "tier": "four"
+      },
+      {
+        "name": "Germany",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Germany",
+          "date": "2026-11-27",
+          "key": "1ltoxd5"
+        },
+        "views": 4172483,
+        "tier": "two"
+      },
+      {
+        "name": "Wales",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Wales",
+          "date": "2026-11-27",
+          "key": "3y25fg"
+        },
+        "views": 1492323,
+        "tier": "six"
+      },
+      {
+        "name": "Dominica",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Dominica",
+          "date": "2026-11-27",
+          "key": "lbyfni"
+        },
+        "views": 757462,
+        "tier": "six"
+      },
+      {
+        "name": "Scotland",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Scotland",
+          "date": "2026-11-27",
+          "key": "dmzol0"
+        },
+        "views": 2154130,
+        "tier": "six"
+      },
+      {
+        "name": "Spain",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Spain",
+          "date": "2026-11-27",
+          "key": "13o4lf5"
+        },
+        "views": 3670871,
+        "tier": "two"
+      },
+      {
+        "name": "Jersey",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Jersey",
+          "date": "2026-11-27",
+          "key": "3aostc"
+        },
+        "views": 1044969,
+        "tier": "ootg"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "United States of America",
+          "America"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "United States",
+          "date": "2026-11-27",
+          "key": "846hgg"
+        },
+        "views": 13351394,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "t20-world-cup-global-qualifier-nations-2008-2022",
+    "prompt": "Name a country that played in a men's T20 World Cup global qualifier between 2008 and 2022",
+    "category": "T20 qualifiers",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ICC_Men's_T20_World_Cup_Qualifier"
+    ],
+    "metrics": [
+      {
+        "label": "Global qualifiers played",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "Canada",
+        "wiki": "Canada national cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Canada national cricket team",
+          "date": "2026-11-27",
+          "key": "9p2ch8"
+        },
+        "views": 54093,
+        "tier": "single"
+      },
+      {
+        "name": "Ireland",
+        "wiki": "Ireland cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Ireland cricket team",
+          "date": "2026-11-27",
+          "key": "6zhg9c"
+        },
+        "views": 96730,
+        "tier": "single"
+      },
+      {
+        "name": "Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "wiki": "Netherlands national cricket team",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Netherlands national cricket team",
+          "date": "2026-11-27",
+          "key": "clxbqs"
+        },
+        "views": 71942,
+        "tier": "single"
+      },
+      {
+        "name": "Kenya",
+        "wiki": "Kenya national cricket team",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Kenya national cricket team",
+          "date": "2026-11-27",
+          "key": "hgd2x8"
+        },
+        "views": 46608,
+        "tier": "single"
+      },
+      {
+        "name": "Scotland",
+        "aliases": [
+          "Saltires"
+        ],
+        "wiki": "Scotland national cricket team",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Scotland national cricket team",
+          "date": "2026-11-27",
+          "key": "o5ciif"
+        },
+        "views": 57727,
+        "tier": "single"
+      },
+      {
+        "name": "Hong Kong",
+        "wiki": "Hong Kong national cricket team",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Hong Kong national cricket team",
+          "date": "2026-11-27",
+          "key": "1kvf3pa"
+        },
+        "views": 21135,
+        "tier": "two"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG",
+          "Barramundis"
+        ],
+        "wiki": "Papua New Guinea national cricket team",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea national cricket team",
+          "date": "2026-11-27",
+          "key": "ux39jd"
+        },
+        "views": 17699,
+        "tier": "four"
+      },
+      {
+        "name": "United Arab Emirates",
+        "aliases": [
+          "UAE"
+        ],
+        "wiki": "United Arab Emirates national cricket team",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "United Arab Emirates national cricket team",
+          "date": "2026-11-27",
+          "key": "12eoq4h"
+        },
+        "views": 50809,
+        "tier": "two"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "United States of America",
+          "America"
+        ],
+        "wiki": "United States national cricket team",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "United States national cricket team",
+          "date": "2026-11-27",
+          "key": "16bgtg3"
+        },
+        "views": 186106,
+        "tier": "single"
+      },
+      {
+        "name": "Afghanistan",
+        "wiki": "Afghanistan national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Afghanistan national cricket team",
+          "date": "2026-11-27",
+          "key": "18mshz8"
+        },
+        "views": 169500,
+        "tier": "single"
+      },
+      {
+        "name": "Bermuda",
+        "wiki": "Bermuda national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Bermuda national cricket team",
+          "date": "2026-11-27",
+          "key": "1eeu84c"
+        },
+        "views": 18850,
+        "tier": "four"
+      },
+      {
+        "name": "Namibia",
+        "wiki": "Namibia national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Namibia national cricket team",
+          "date": "2026-11-27",
+          "key": "g4miue"
+        },
+        "views": 82011,
+        "tier": "two"
+      },
+      {
+        "name": "Nepal",
+        "wiki": "Nepal national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Nepal national cricket team",
+          "date": "2026-11-27",
+          "key": "1ce9i3g"
+        },
+        "views": 102790,
+        "tier": "two"
+      },
+      {
+        "name": "Oman",
+        "wiki": "Oman national cricket team",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Oman national cricket team",
+          "date": "2026-11-27",
+          "key": "zbt88s"
+        },
+        "views": 32494,
+        "tier": "four"
+      },
+      {
+        "name": "Jersey",
+        "wiki": "Jersey cricket team",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Jersey cricket team",
+          "date": "2026-11-27",
+          "key": "o6y65i"
+        },
+        "views": 32881,
+        "tier": "four"
+      },
+      {
+        "name": "Uganda",
+        "wiki": "Uganda national cricket team",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Uganda national cricket team",
+          "date": "2026-11-27",
+          "key": "l1prbw"
+        },
+        "views": 17648,
+        "tier": "four"
+      },
+      {
+        "name": "Denmark",
+        "wiki": "Denmark national cricket team",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Denmark national cricket team",
+          "date": "2026-11-27",
+          "key": "1talftg"
+        },
+        "views": 11493,
+        "tier": "six"
+      },
+      {
+        "name": "Italy",
+        "wiki": "Italy national cricket team",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Italy national cricket team",
+          "date": "2026-11-27",
+          "key": "1bxpkym"
+        },
+        "views": 175847,
+        "tier": "two"
+      },
+      {
+        "name": "Singapore",
+        "wiki": "Singapore national cricket team",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Singapore national cricket team",
+          "date": "2026-11-27",
+          "key": "3gj1w4"
+        },
+        "views": 14296,
+        "tier": "six"
+      },
+      {
+        "name": "Bahrain",
+        "wiki": "Bahrain national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bahrain national cricket team",
+          "date": "2026-11-27",
+          "key": "1b5yo52"
+        },
+        "views": 7851,
+        "tier": "six"
+      },
+      {
+        "name": "Germany",
+        "wiki": "Germany national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Germany national cricket team",
+          "date": "2026-11-27",
+          "key": "12vin9q"
+        },
+        "views": 23231,
+        "tier": "four"
+      },
+      {
+        "name": "Nigeria",
+        "wiki": "Nigeria national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Nigeria national cricket team",
+          "date": "2026-11-27",
+          "key": "1b1f2ti"
+        },
+        "views": 11452,
+        "tier": "six"
+      },
+      {
+        "name": "Philippines",
+        "wiki": "Philippines national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Philippines national cricket team",
+          "date": "2026-11-27",
+          "key": "1snzkd2"
+        },
+        "views": 7199,
+        "tier": "ootg"
+      },
+      {
+        "name": "Zimbabwe",
+        "wiki": "Zimbabwe national cricket team",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Zimbabwe national cricket team",
+          "date": "2026-11-27",
+          "key": "1tdwj4s"
+        },
+        "views": 192592,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "mens-test-cricketer-birthplaces-non-test-nations-to-oct-2023",
+    "prompt": "Name a country, outside today's Test-playing nations, where a man who played Test cricket up to October 2023 was born (today's names)",
+    "category": "Test birthplaces",
+    "answerType": "country",
+    "tags": [
+      "men",
+      "test",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_Test_cricketers_born_in_non-Test_playing_nations",
+      "https://en.wikipedia.org/wiki/List_of_alternative_country_names"
+    ],
+    "metrics": [
+      {
+        "label": "Men's Test cricketers born there",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 2,
+      "breadth": 0,
+      "conditions": 1
+    },
+    "delivery": "Off cutter",
+    "answers": [
+      {
+        "name": "Scotland",
+        "values": [
+          12
+        ],
+        "verified": {
+          "wiki": "Scotland",
+          "date": "2026-11-27",
+          "key": "1vvk4g0"
+        },
+        "views": 2154130,
+        "tier": "single"
+      },
+      {
+        "name": "Kenya",
+        "aliases": [
+          "Kenya Colony"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Kenya",
+          "date": "2026-11-27",
+          "key": "1vf8zf6"
+        },
+        "views": 1238992,
+        "tier": "two"
+      },
+      {
+        "name": "Kuwait",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Kuwait",
+          "date": "2026-11-27",
+          "key": "fi3q97"
+        },
+        "views": 1473078,
+        "tier": "two"
+      },
+      {
+        "name": "Zambia",
+        "aliases": [
+          "Northern Rhodesia"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Zambia",
+          "date": "2026-11-27",
+          "key": "1ivarc5"
+        },
+        "views": 826071,
+        "tier": "four"
+      },
+      {
+        "name": "Germany",
+        "aliases": [
+          "West Germany"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Germany",
+          "date": "2026-11-27",
+          "key": "11cvwnd"
+        },
+        "views": 4172483,
+        "tier": "single"
+      },
+      {
+        "name": "Malaysia",
+        "aliases": [
+          "British Malaya",
+          "Malaya"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Malaysia",
+          "date": "2026-11-27",
+          "key": "3hnw9e"
+        },
+        "views": 2437129,
+        "tier": "single"
+      },
+      {
+        "name": "Portugal",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Portugal",
+          "date": "2026-11-27",
+          "key": "15czu92"
+        },
+        "views": 2435803,
+        "tier": "single"
+      },
+      {
+        "name": "United States",
+        "aliases": [
+          "USA",
+          "US",
+          "United States of America",
+          "America"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "United States",
+          "date": "2026-11-27",
+          "key": "12uvuus"
+        },
+        "views": 13351394,
+        "tier": "single"
+      },
+      {
+        "name": "Bermuda",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bermuda",
+          "date": "2026-11-27",
+          "key": "ec9iw0"
+        },
+        "views": 1204096,
+        "tier": "six"
+      },
+      {
+        "name": "Brazil",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Brazil",
+          "date": "2026-11-27",
+          "key": "475im"
+        },
+        "views": 3496304,
+        "tier": "two"
+      },
+      {
+        "name": "Denmark",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Denmark",
+          "date": "2026-11-27",
+          "key": "1v1whpi"
+        },
+        "views": 2129989,
+        "tier": "four"
+      },
+      {
+        "name": "Egypt",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Egypt",
+          "date": "2026-11-27",
+          "key": "yka6e5"
+        },
+        "views": 2364650,
+        "tier": "four"
+      },
+      {
+        "name": "Eswatini",
+        "aliases": [
+          "Swaziland"
+        ],
+        "wiki": "Eswatini",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Eswatini",
+          "date": "2026-11-27",
+          "key": "1l521m8"
+        },
+        "views": 1459824,
+        "tier": "four"
+      },
+      {
+        "name": "Hong Kong",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Hong Kong",
+          "date": "2026-11-27",
+          "key": "15aix2t"
+        },
+        "views": 2982425,
+        "tier": "two"
+      },
+      {
+        "name": "Indonesia",
+        "aliases": [
+          "Dutch East Indies"
+        ],
+        "wiki": "Indonesia",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Indonesia",
+          "date": "2026-11-27",
+          "key": "1hrs582"
+        },
+        "views": 3080572,
+        "tier": "two"
+      },
+      {
+        "name": "Italy",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Italy",
+          "date": "2026-11-27",
+          "key": "1o3uk1"
+        },
+        "views": 2709174,
+        "tier": "two"
+      },
+      {
+        "name": "Mozambique",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Mozambique",
+          "date": "2026-11-27",
+          "key": "m4hq06"
+        },
+        "views": 934532,
+        "tier": "ootg"
+      },
+      {
+        "name": "Norway",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Norway",
+          "date": "2026-11-27",
+          "key": "7k4mpu"
+        },
+        "views": 2696833,
+        "tier": "four"
+      },
+      {
+        "name": "Panama",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Panama",
+          "date": "2026-11-27",
+          "key": "znbrqg"
+        },
+        "views": 1089214,
+        "tier": "six"
+      },
+      {
+        "name": "Papua New Guinea",
+        "aliases": [
+          "PNG"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Papua New Guinea",
+          "date": "2026-11-27",
+          "key": "7dfw15"
+        },
+        "views": 1432028,
+        "tier": "six"
+      },
+      {
+        "name": "Peru",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Peru",
+          "date": "2026-11-27",
+          "key": "ib4k7u"
+        },
+        "views": 1294892,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "icc-elite-panel-umpires-2002-2026",
+    "prompt": "Name an umpire who has been on the ICC Elite Panel of Umpires (2002–2026)",
+    "category": "Elite umpires",
+    "answerType": "other",
+    "tags": [
+      "men",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elite_Panel_of_ICC_Umpires"
+    ],
+    "metrics": [
+      {
+        "label": "Tests umpired",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Leg cutter",
+    "answers": [
+      {
+        "name": "Rod Tucker",
+        "aliases": [
+          "Tucker"
+        ],
+        "values": [
+          103
+        ],
+        "verified": {
+          "wiki": "Rod Tucker",
+          "date": "2026-11-27",
+          "key": "177jnse"
+        },
+        "views": 22278,
+        "tier": "single"
+      },
+      {
+        "name": "Kumar Dharmasena",
+        "aliases": [
+          "Dharmasena",
+          "Dharma"
+        ],
+        "values": [
+          98
+        ],
+        "verified": {
+          "wiki": "Kumar Dharmasena",
+          "date": "2026-11-27",
+          "key": "1b5j9py"
+        },
+        "views": 51606,
+        "tier": "single"
+      },
+      {
+        "name": "Richard Kettleborough",
+        "aliases": [
+          "Kettleborough"
+        ],
+        "values": [
+          100
+        ],
+        "verified": {
+          "wiki": "Richard Kettleborough",
+          "date": "2026-11-27",
+          "key": "1kqe0to"
+        },
+        "views": 32156,
+        "tier": "single"
+      },
+      {
+        "name": "Richard Illingworth",
+        "aliases": [
+          "Illingworth",
+          "Illy"
+        ],
+        "values": [
+          88
+        ],
+        "verified": {
+          "wiki": "Richard Illingworth",
+          "date": "2026-11-27",
+          "key": "ciuwry"
+        },
+        "views": 36197,
+        "tier": "single"
+      },
+      {
+        "name": "Paul Reiffel",
+        "aliases": [
+          "Reiffel",
+          "Pistol"
+        ],
+        "values": [
+          81
+        ],
+        "verified": {
+          "wiki": "Paul Reiffel",
+          "date": "2026-11-27",
+          "key": "7h8oyu"
+        },
+        "views": 28892,
+        "tier": "two"
+      },
+      {
+        "name": "Chris Gaffaney",
+        "aliases": [
+          "Gaffaney"
+        ],
+        "values": [
+          70
+        ],
+        "verified": {
+          "wiki": "Chris Gaffaney",
+          "date": "2026-11-27",
+          "key": "5scs1s"
+        },
+        "views": 18062,
+        "tier": "two"
+      },
+      {
+        "name": "Nitin Menon",
+        "aliases": [
+          "Menon"
+        ],
+        "values": [
+          39
+        ],
+        "verified": {
+          "wiki": "Nitin Menon",
+          "date": "2026-11-27",
+          "key": "7g7hpv"
+        },
+        "views": 42453,
+        "tier": "two"
+      },
+      {
+        "name": "Ahsan Raza",
+        "aliases": [
+          "Raza"
+        ],
+        "values": [
+          33
+        ],
+        "verified": {
+          "wiki": "Ahsan Raza",
+          "date": "2026-11-27",
+          "key": "u0jqoq"
+        },
+        "views": 22751,
+        "tier": "four"
+      },
+      {
+        "name": "Adrian Holdstock",
+        "aliases": [
+          "Holdstock"
+        ],
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "Adrian Holdstock",
+          "date": "2026-11-27",
+          "key": "12ydy8s"
+        },
+        "views": 10155,
+        "tier": "six"
+      },
+      {
+        "name": "Sharfuddoula",
+        "aliases": [
+          "Sharfuddoula Saikat",
+          "Sharfuddoula Ibne Shahid"
+        ],
+        "misspellings": [
+          "Sharafuddoula"
+        ],
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "Sharfuddoula",
+          "date": "2026-11-27",
+          "key": "vxojhv"
+        },
+        "views": 18737,
+        "tier": "four"
+      },
+      {
+        "name": "Alex Wharf",
+        "aliases": [
+          "Wharf"
+        ],
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Alex Wharf",
+          "date": "2026-11-27",
+          "key": "16ta87h"
+        },
+        "views": 13316,
+        "tier": "four"
+      },
+      {
+        "name": "Allahudien Paleker",
+        "aliases": [
+          "Paleker"
+        ],
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "Allahudien Paleker",
+          "date": "2026-11-27",
+          "key": "x410o"
+        },
+        "views": 23882,
+        "tier": "four"
+      },
+      {
+        "name": "Dave Orchard",
+        "aliases": [
+          "Orchard",
+          "David Orchard"
+        ],
+        "values": [
+          44
+        ],
+        "verified": {
+          "wiki": "Dave Orchard",
+          "date": "2026-11-27",
+          "key": "7muule"
+        },
+        "views": 2621,
+        "tier": "six"
+      },
+      {
+        "name": "Russell Tiffin",
+        "aliases": [
+          "Tiffin"
+        ],
+        "values": [
+          44
+        ],
+        "verified": {
+          "wiki": "Russell Tiffin",
+          "date": "2026-11-27",
+          "key": "1jpcr3x"
+        },
+        "views": 2779,
+        "tier": "six"
+      },
+      {
+        "name": "Srinivas Venkataraghavan",
+        "aliases": [
+          "Venkataraghavan",
+          "Venkat",
+          "S Venkataraghavan",
+          "Srini Venkat"
+        ],
+        "misspellings": [
+          "Venkatraghavan"
+        ],
+        "values": [
+          73
+        ],
+        "verified": {
+          "wiki": "Srinivasaraghavan Venkataraghavan",
+          "date": "2026-11-27",
+          "key": "vf1i2q"
+        },
+        "views": 36775,
+        "tier": "single"
+      },
+      {
+        "name": "David Shepherd",
+        "aliases": [
+          "Shepherd",
+          "Shep",
+          "Dave Shepherd"
+        ],
+        "wiki": "David Shepherd (umpire)",
+        "values": [
+          92
+        ],
+        "verified": {
+          "wiki": "David Shepherd (umpire)",
+          "date": "2026-11-27",
+          "key": "cmgic1"
+        },
+        "views": 29693,
+        "tier": "single"
+      },
+      {
+        "name": "Darrell Hair",
+        "aliases": [
+          "Hair"
+        ],
+        "values": [
+          78
+        ],
+        "verified": {
+          "wiki": "Darrell Hair",
+          "date": "2026-11-27",
+          "key": "dpyyf5"
+        },
+        "views": 18903,
+        "tier": "two"
+      },
+      {
+        "name": "Steve Bucknor",
+        "aliases": [
+          "Bucknor"
+        ],
+        "misspellings": [
+          "Steve Buckner"
+        ],
+        "values": [
+          128
+        ],
+        "verified": {
+          "wiki": "Steve Bucknor",
+          "date": "2026-11-27",
+          "key": "1p9ytzi"
+        },
+        "views": 60363,
+        "tier": "single"
+      },
+      {
+        "name": "Mark Benson",
+        "aliases": [
+          "Benson"
+        ],
+        "values": [
+          27
+        ],
+        "verified": {
+          "wiki": "Mark Benson",
+          "date": "2026-11-27",
+          "key": "197tbh2"
+        },
+        "views": 5382,
+        "tier": "six"
+      },
+      {
+        "name": "Rudi Koertzen",
+        "aliases": [
+          "Koertzen"
+        ],
+        "misspellings": [
+          "Rudi Kurtzen",
+          "Rudi Koertzan"
+        ],
+        "values": [
+          108
+        ],
+        "verified": {
+          "wiki": "Rudi Koertzen",
+          "date": "2026-11-27",
+          "key": "meghrt"
+        },
+        "views": 19237,
+        "tier": "single"
+      },
+      {
+        "name": "Asoka de Silva",
+        "aliases": [
+          "de Silva",
+          "Ashoka de Silva"
+        ],
+        "wiki": "Asoka de Silva (cricketer)",
+        "values": [
+          49
+        ],
+        "verified": {
+          "wiki": "Asoka de Silva (cricketer)",
+          "date": "2026-11-27",
+          "key": "168pc5i"
+        },
+        "views": 4485,
+        "tier": "four"
+      },
+      {
+        "name": "Daryl Harper",
+        "aliases": [
+          "Harper"
+        ],
+        "values": [
+          94
+        ],
+        "verified": {
+          "wiki": "Daryl Harper",
+          "date": "2026-11-27",
+          "key": "xs0ai1"
+        },
+        "views": 7046,
+        "tier": "two"
+      },
+      {
+        "name": "Billy Doctrove",
+        "aliases": [
+          "Doctrove"
+        ],
+        "values": [
+          38
+        ],
+        "verified": {
+          "wiki": "Billy Doctrove",
+          "date": "2026-11-27",
+          "key": "q7bx9z"
+        },
+        "views": 6253,
+        "tier": "six"
+      },
+      {
+        "name": "Simon Taufel",
+        "aliases": [
+          "Taufel"
+        ],
+        "values": [
+          74
+        ],
+        "verified": {
+          "wiki": "Simon Taufel",
+          "date": "2026-11-27",
+          "key": "10cbu5l"
+        },
+        "views": 32231,
+        "tier": "two"
+      },
+      {
+        "name": "Asad Rauf",
+        "aliases": [
+          "Rauf"
+        ],
+        "values": [
+          49
+        ],
+        "verified": {
+          "wiki": "Asad Rauf",
+          "date": "2026-11-27",
+          "key": "sttgla"
+        },
+        "views": 13412,
+        "tier": "two"
+      },
+      {
+        "name": "Tony Hill",
+        "aliases": [
+          "Hill"
+        ],
+        "wiki": "Tony Hill (umpire)",
+        "values": [
+          40
+        ],
+        "verified": {
+          "wiki": "Tony Hill (umpire)",
+          "date": "2026-11-27",
+          "key": "xpl37k"
+        },
+        "views": 1457,
+        "tier": "ootg"
+      },
+      {
+        "name": "Billy Bowden",
+        "aliases": [
+          "Bowden"
+        ],
+        "values": [
+          84
+        ],
+        "verified": {
+          "wiki": "Billy Bowden",
+          "date": "2026-11-27",
+          "key": "vquvhf"
+        },
+        "views": 43678,
+        "tier": "single"
+      },
+      {
+        "name": "Steve Davis",
+        "aliases": [
+          "Davis"
+        ],
+        "wiki": "Steve Davis (umpire)",
+        "values": [
+          57
+        ],
+        "verified": {
+          "wiki": "Steve Davis (umpire)",
+          "date": "2026-11-27",
+          "key": "p1k4aw"
+        },
+        "views": 3641,
+        "tier": "four"
+      },
+      {
+        "name": "Ian Gould",
+        "aliases": [
+          "Gould",
+          "Gunner"
+        ],
+        "values": [
+          74
+        ],
+        "verified": {
+          "wiki": "Ian Gould",
+          "date": "2026-11-27",
+          "key": "duh1lg"
+        },
+        "views": 11871,
+        "tier": "two"
+      },
+      {
+        "name": "Sundaram Ravi",
+        "aliases": [
+          "Ravi",
+          "S Ravi"
+        ],
+        "values": [
+          33
+        ],
+        "verified": {
+          "wiki": "Sundaram Ravi",
+          "date": "2026-11-27",
+          "key": "1miwqk9"
+        },
+        "views": 5584,
+        "tier": "six"
+      },
+      {
+        "name": "Nigel Llong",
+        "aliases": [
+          "Llong"
+        ],
+        "misspellings": [
+          "Nigel Long"
+        ],
+        "values": [
+          62
+        ],
+        "verified": {
+          "wiki": "Nigel Llong",
+          "date": "2026-11-27",
+          "key": "bpgcfq"
+        },
+        "views": 8891,
+        "tier": "two"
+      },
+      {
+        "name": "Bruce Oxenford",
+        "aliases": [
+          "Oxenford"
+        ],
+        "values": [
+          62
+        ],
+        "verified": {
+          "wiki": "Bruce Oxenford",
+          "date": "2026-11-27",
+          "key": "1k19tyk"
+        },
+        "views": 3585,
+        "tier": "four"
+      },
+      {
+        "name": "Aleem Dar",
+        "aliases": [
+          "Dar"
+        ],
+        "values": [
+          145
+        ],
+        "verified": {
+          "wiki": "Aleem Dar",
+          "date": "2026-11-27",
+          "key": "1b41t6h"
+        },
+        "views": 38429,
+        "tier": "single"
+      },
+      {
+        "name": "Marais Erasmus",
+        "aliases": [
+          "Erasmus"
+        ],
+        "values": [
+          82
+        ],
+        "verified": {
+          "wiki": "Marais Erasmus",
+          "date": "2026-11-27",
+          "key": "1c8lfvy"
+        },
+        "views": 15345,
+        "tier": "two"
+      },
+      {
+        "name": "Michael Gough",
+        "aliases": [
+          "Gough"
+        ],
+        "wiki": "Michael Gough (cricketer)",
+        "values": [
+          42
+        ],
+        "verified": {
+          "wiki": "Michael Gough (cricketer)",
+          "date": "2026-11-27",
+          "key": "15t6c6f"
+        },
+        "views": 9316,
+        "tier": "four"
+      },
+      {
+        "name": "Joel Wilson",
+        "aliases": [
+          "Wilson"
+        ],
+        "wiki": "Joel Wilson (umpire)",
+        "values": [
+          47
+        ],
+        "verified": {
+          "wiki": "Joel Wilson (umpire)",
+          "date": "2026-11-27",
+          "key": "cxtpen"
+        },
+        "views": 5651,
+        "tier": "four"
+      }
+    ]
+  }
+]

@@ -14,6 +14,7 @@ import {
   type Answer,
   BALLS_PER_INNINGS,
   MIN_ANSWERS,
+  MIN_COUNTY_ANSWERS,
   type Question,
   type Schedule,
   TAGS,
@@ -47,7 +48,8 @@ export function validateQuestion(q: Question): string[] {
     if (![0, 1, 2].includes(q.rating?.[factor] as number)) at(`rating.${factor} must be 0, 1 or 2`);
   }
   if (!isDelivery(q.delivery)) at("needs a delivery from its difficulty band (docs/CONTENT.md)");
-  if (q.answers.length < MIN_ANSWERS) at(`has ${q.answers.length} answers, needs ${MIN_ANSWERS}`);
+  const minAnswers = q.answerType === "county" ? MIN_COUNTY_ANSWERS : MIN_ANSWERS;
+  if (q.answers.length < minAnswers) at(`has ${q.answers.length} answers, needs ${minAnswers}`);
 
   for (const tier of TIERS) {
     const n = q.answers.filter((a) => a.tier === tier).length;

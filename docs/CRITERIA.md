@@ -65,7 +65,7 @@ Follow [CONTENT.md](CONTENT.md): write → verify → rank → schedule.
 - [ ] In any 7 days in a row a category appears on at most 2 days; a question is re-used only after 30 days. 🤖
 
 - [ ] Every question: ≥ 20 answers (≥ 16 for county questions), exactly 1 OOTG, ≥ 2 each of Six/Four/Two/Single.
-- [ ] Every answer list is **complete**: any correct answer a player could give is accepted (otherwise a right answer counts as a miss). Prefer closed sets of 20–60 answers (at least 16 for county questions); bound time-sensitive sets by date.
+- [ ] Every answer list is **complete**: any correct answer a player could give is accepted (otherwise a right answer counts as a miss). Prefer closed sets of 20–60 answers (at least 16 for county questions; easy questions up to about 110 from a complete list); bound time-sensitive sets by date.
 - [ ] No duplicate answers or aliases within a question after normalisation.
 - [ ] Nearly every question has a few answers a UK fan of county and international cricket since the mid-1990s would know, or answers guessable from geography; teams named after a place accept the place name.
 - [ ] Every question has `id`, `prompt`, `category`, `answerType`, `tags` and English Wikipedia `sources`; time-sensitive prompts are bounded by date.

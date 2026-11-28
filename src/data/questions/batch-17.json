@@ -1,0 +1,3605 @@
+[
+  {
+    "id": "ipl-grounds-2008-2026",
+    "prompt": "Name a ground that hosted an Indian Premier League match (2008–2026)",
+    "category": "IPL venues",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "t20",
+      "franchise",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2008_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2009_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2010_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2011_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2012_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2013_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2014_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2015_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2016_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2017_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2018_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2019_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2020_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2021_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2022_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2023_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2024_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2025_Indian_Premier_League",
+      "https://en.wikipedia.org/wiki/2026_Indian_Premier_League"
+    ],
+    "metrics": [
+      {
+        "label": "IPL seasons hosted (2008–2026)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 1,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "M. A. Chidambaram Stadium",
+        "aliases": [
+          "Chepauk",
+          "Chennai",
+          "Chidambaram",
+          "Madras"
+        ],
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "M. A. Chidambaram Stadium",
+          "date": "2026-11-28",
+          "key": "1cvrru7"
+        },
+        "views": 102895,
+        "tier": "single"
+      },
+      {
+        "name": "Wankhede Stadium",
+        "aliases": [
+          "Mumbai",
+          "Bombay"
+        ],
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-28",
+          "key": "vknn4g"
+        },
+        "views": 150283,
+        "tier": "single"
+      },
+      {
+        "name": "Punjab Cricket Association IS Bindra Stadium",
+        "aliases": [
+          "Mohali",
+          "PCA Stadium",
+          "IS Bindra Stadium",
+          "Bindra",
+          "Punjab Cricket Association Stadium"
+        ],
+        "values": [
+          12
+        ],
+        "verified": {
+          "wiki": "I. S. Bindra Stadium",
+          "date": "2026-11-28",
+          "key": "ggar61"
+        },
+        "views": 22619,
+        "tier": "two"
+      },
+      {
+        "name": "Eden Gardens",
+        "aliases": [
+          "Kolkata",
+          "Calcutta"
+        ],
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-28",
+          "key": "1xs9m5f"
+        },
+        "views": 154038,
+        "tier": "single"
+      },
+      {
+        "name": "M. Chinnaswamy Stadium",
+        "aliases": [
+          "Chinnaswamy",
+          "Bengaluru",
+          "Bangalore"
+        ],
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "M. Chinnaswamy Stadium",
+          "date": "2026-11-28",
+          "key": "w4x66b"
+        },
+        "views": 95811,
+        "tier": "single"
+      },
+      {
+        "name": "DY Patil Stadium",
+        "aliases": [
+          "DY Patil",
+          "Navi Mumbai",
+          "Nerul"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "DY Patil Stadium",
+          "date": "2026-11-28",
+          "key": "15slyub"
+        },
+        "views": 79926,
+        "tier": "single"
+      },
+      {
+        "name": "Rajiv Gandhi International Cricket Stadium",
+        "aliases": [
+          "Uppal",
+          "Hyderabad",
+          "Rajiv Gandhi Stadium",
+          "Rajiv Gandhi International Stadium"
+        ],
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Rajiv Gandhi International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "10lnj14"
+        },
+        "views": 63452,
+        "tier": "single"
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "aliases": [
+          "Feroz Shah Kotla",
+          "Kotla",
+          "Delhi",
+          "New Delhi",
+          "Arun Jaitley Cricket Stadium",
+          "Feroz Shah Kotla Ground"
+        ],
+        "wiki": "Arun Jaitley Cricket Stadium",
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "avo5uf"
+        },
+        "views": 72890,
+        "tier": "single"
+      },
+      {
+        "name": "Sawai Mansingh Stadium",
+        "aliases": [
+          "Jaipur",
+          "SMS Stadium"
+        ],
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Sawai Mansingh Stadium",
+          "date": "2026-11-28",
+          "key": "sge9dl"
+        },
+        "views": 35883,
+        "tier": "two"
+      },
+      {
+        "name": "Kingsmead",
+        "aliases": [
+          "Durban",
+          "Sahara Stadium Kingsmead",
+          "Hollywoodbets Kingsmead",
+          "Kingsmead Cricket Ground"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-28",
+          "key": "yk4gr7"
+        },
+        "views": 17194,
+        "tier": "six"
+      },
+      {
+        "name": "SuperSport Park",
+        "aliases": [
+          "Centurion",
+          "Centurion Park"
+        ],
+        "wiki": "Centurion Park",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "2009 Indian Premier League",
+          "date": "2026-11-28",
+          "key": "15mmg50"
+        },
+        "views": 54329,
+        "tier": "four"
+      },
+      {
+        "name": "Wanderers Stadium",
+        "aliases": [
+          "Johannesburg",
+          "Wanderers",
+          "Bullring",
+          "New Wanderers Stadium",
+          "Imperial Wanderers",
+          "DP World Wanderers"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-28",
+          "key": "1o7br64"
+        },
+        "views": 43896,
+        "tier": "four"
+      },
+      {
+        "name": "Newlands",
+        "aliases": [
+          "Cape Town",
+          "Newlands Cricket Ground",
+          "PPC Newlands",
+          "Sahara Park Newlands"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1bpb3gm"
+        },
+        "views": 31985,
+        "tier": "six"
+      },
+      {
+        "name": "St George's Park",
+        "aliases": [
+          "Gqeberha",
+          "Port Elizabeth",
+          "St George's Oval",
+          "St George's Park Cricket Ground"
+        ],
+        "wiki": "St George's Park Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "2009 Indian Premier League",
+          "date": "2026-11-28",
+          "key": "1djafpg"
+        },
+        "views": 54329,
+        "tier": "four"
+      },
+      {
+        "name": "Buffalo Park",
+        "aliases": [
+          "East London"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Buffalo Park",
+          "date": "2026-11-28",
+          "key": "1jy009"
+        },
+        "views": 10577,
+        "tier": "six"
+      },
+      {
+        "name": "Diamond Oval",
+        "aliases": [
+          "De Beers Diamond Oval",
+          "De Beers Oval",
+          "Kimberley"
+        ],
+        "wiki": "De Beers Diamond Oval",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "De Beers Diamond Oval",
+          "date": "2026-11-28",
+          "key": "1jflkv6"
+        },
+        "views": 4604,
+        "tier": "ootg"
+      },
+      {
+        "name": "Mangaung Oval",
+        "aliases": [
+          "Bloemfontein",
+          "OUTsurance Oval",
+          "Goodyear Park",
+          "Chevrolet Park",
+          "Springbok Park"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Mangaung Oval",
+          "date": "2026-11-28",
+          "key": "1nj1kzd"
+        },
+        "views": 9286,
+        "tier": "six"
+      },
+      {
+        "name": "Brabourne Stadium",
+        "aliases": [
+          "Brabourne",
+          "CCI",
+          "Cricket Club of India"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Brabourne Stadium",
+          "date": "2026-11-28",
+          "key": "1po27i"
+        },
+        "views": 39285,
+        "tier": "two"
+      },
+      {
+        "name": "Narendra Modi Stadium",
+        "aliases": [
+          "Motera",
+          "Ahmedabad",
+          "Sardar Patel Stadium",
+          "Motera Stadium",
+          "Sardar Patel Gujarat Stadium"
+        ],
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Narendra Modi Stadium",
+          "date": "2026-11-28",
+          "key": "tl93u0"
+        },
+        "views": 620850,
+        "tier": "single"
+      },
+      {
+        "name": "Barabati Stadium",
+        "aliases": [
+          "Cuttack",
+          "Barabati"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Barabati Stadium",
+          "date": "2026-11-28",
+          "key": "8putpn"
+        },
+        "views": 38632,
+        "tier": "four"
+      },
+      {
+        "name": "Vidarbha Cricket Association Stadium",
+        "aliases": [
+          "VCA Stadium",
+          "Jamtha",
+          "Nagpur"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "5i5zfw"
+        },
+        "views": 28533,
+        "tier": "six"
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "aliases": [
+          "HPCA Stadium",
+          "HPCA",
+          "Dharamsala",
+          "Dharamshala"
+        ],
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Himachal Pradesh Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "iyq6ql"
+        },
+        "views": 65056,
+        "tier": "single"
+      },
+      {
+        "name": "Jawaharlal Nehru Stadium, Kochi",
+        "aliases": [
+          "Kochi",
+          "Cochin",
+          "Kaloor"
+        ],
+        "wiki": "Jawaharlal Nehru Stadium (Kochi)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Jawaharlal Nehru Stadium (Kochi)",
+          "date": "2026-11-28",
+          "key": "12jk2tb"
+        },
+        "views": 39802,
+        "tier": "four"
+      },
+      {
+        "name": "Holkar Cricket Stadium",
+        "aliases": [
+          "Holkar Stadium",
+          "Holkar",
+          "Indore"
+        ],
+        "wiki": "Holkar Stadium",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Holkar Stadium",
+          "date": "2026-11-28",
+          "key": "1ezlvsh"
+        },
+        "views": 37094,
+        "tier": "four"
+      },
+      {
+        "name": "Maharashtra Cricket Association Stadium",
+        "aliases": [
+          "MCA Stadium",
+          "Gahunje",
+          "Pune",
+          "Subrata Roy Sahara Stadium",
+          "MCA International Stadium"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Maharashtra Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "vkk4cr"
+        },
+        "views": 26289,
+        "tier": "two"
+      },
+      {
+        "name": "ACA–VDCA Cricket Stadium",
+        "aliases": [
+          "ACA-VDCA Stadium",
+          "Visakhapatnam",
+          "Vizag",
+          "Y. S. Rajasekhara Reddy Stadium"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "ACA–VDCA Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1o8g03l"
+        },
+        "views": 42485,
+        "tier": "two"
+      },
+      {
+        "name": "JSCA International Cricket Stadium",
+        "aliases": [
+          "JSCA Stadium",
+          "Ranchi"
+        ],
+        "wiki": "JSCA International Stadium Complex",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "JSCA International Stadium Complex",
+          "date": "2026-11-28",
+          "key": "jece9g"
+        },
+        "views": 46591,
+        "tier": "two"
+      },
+      {
+        "name": "Shaheed Veer Narayan Singh International Cricket Stadium",
+        "aliases": [
+          "Raipur",
+          "Shaheed Veer Narayan Singh Stadium",
+          "Raipur International Cricket Stadium"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Shaheed Veer Narayan Singh International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1c01qha"
+        },
+        "views": 85273,
+        "tier": "single"
+      },
+      {
+        "name": "Sheikh Zayed Cricket Stadium",
+        "aliases": [
+          "Abu Dhabi",
+          "Sheikh Zayed",
+          "Zayed Cricket Stadium",
+          "Sheikh Zayed Stadium"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Sheikh Zayed Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "nz7ngw"
+        },
+        "views": 10445,
+        "tier": "four"
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "aliases": [
+          "Dubai",
+          "Dubai International Stadium",
+          "Dubai Sports City"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "os1wjw"
+        },
+        "views": 20522,
+        "tier": "four"
+      },
+      {
+        "name": "Sharjah Cricket Stadium",
+        "aliases": [
+          "Sharjah",
+          "Sharjah Cricket Association Stadium"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Sharjah Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1qo5iun"
+        },
+        "views": 21929,
+        "tier": "four"
+      },
+      {
+        "name": "Green Park",
+        "aliases": [
+          "Kanpur",
+          "Green Park Stadium"
+        ],
+        "wiki": "Green Park Stadium",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Green Park Stadium",
+          "date": "2026-11-28",
+          "key": "11wre9k"
+        },
+        "views": 21243,
+        "tier": "six"
+      },
+      {
+        "name": "Saurashtra Cricket Association Stadium",
+        "aliases": [
+          "SCA Stadium",
+          "Rajkot",
+          "Khandheri",
+          "Niranjan Shah Stadium"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "2016 Indian Premier League",
+          "date": "2026-11-28",
+          "key": "1f4suz2"
+        },
+        "wiki": "Niranjan Shah Stadium",
+        "views": 56821,
+        "tier": "two"
+      },
+      {
+        "name": "Ekana Cricket Stadium",
+        "aliases": [
+          "Ekana",
+          "Lucknow",
+          "Atal Bihari Vajpayee Ekana Cricket Stadium",
+          "BRSABV Ekana Cricket Stadium",
+          "Ekana Stadium"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Ekana Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "rmh9n5"
+        },
+        "views": 78892,
+        "tier": "two"
+      },
+      {
+        "name": "Barsapara Cricket Stadium",
+        "aliases": [
+          "Barsapara",
+          "Guwahati",
+          "ACA Stadium",
+          "Assam Cricket Association Stadium"
+        ],
+        "wiki": "Assam Cricket Association Stadium, Guwahati",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Assam Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "1o320b0"
+        },
+        "views": 27787,
+        "tier": "two"
+      },
+      {
+        "name": "Maharaja Yadavindra Singh International Cricket Stadium",
+        "aliases": [
+          "Mullanpur",
+          "New Chandigarh",
+          "Maharaja Yadavindra Singh Stadium",
+          "Yadavindra Singh Stadium"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Maharaja Yadavindra Singh International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1ga7jfe"
+        },
+        "views": 127207,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "mens-t20-world-cup-grounds-2007-2024",
+    "prompt": "Name a ground that hosted a match at a men's T20 World Cup (2007–2024)",
+    "category": "Men's T20 World Cup venues",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "t20",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2007_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2009_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2010_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2012_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2014_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2016_ICC_World_Twenty20",
+      "https://en.wikipedia.org/wiki/2021_ICC_Men%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2022_ICC_Men%27s_T20_World_Cup",
+      "https://en.wikipedia.org/wiki/2024_ICC_Men%27s_T20_World_Cup"
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "Newlands",
+        "aliases": [
+          "Cape Town",
+          "Newlands Cricket Ground",
+          "PPC Newlands",
+          "Sahara Park Newlands"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1ljri3m"
+        },
+        "views": 31985,
+        "tier": "two"
+      },
+      {
+        "name": "Kingsmead",
+        "aliases": [
+          "Durban",
+          "Sahara Stadium Kingsmead",
+          "Hollywoodbets Kingsmead",
+          "Kingsmead Cricket Ground"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1wnztqv"
+        },
+        "views": 17194,
+        "tier": "four"
+      },
+      {
+        "name": "Wanderers Stadium",
+        "aliases": [
+          "Johannesburg",
+          "Wanderers",
+          "Bullring",
+          "Imperial Wanderers",
+          "DP World Wanderers"
+        ],
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-28",
+          "key": "z1w282"
+        },
+        "views": 43896,
+        "tier": "two"
+      },
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-28",
+          "key": "1yzn0s2"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kia Oval",
+          "Brit Oval",
+          "Foster's Oval",
+          "Kennington"
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-28",
+          "key": "ol7a93"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-28",
+          "key": "o10vnk"
+        },
+        "views": 44633,
+        "tier": "two"
+      },
+      {
+        "name": "Daren Sammy Cricket Ground",
+        "aliases": [
+          "Beausejour",
+          "Beausejour Stadium",
+          "Daren Sammy Stadium",
+          "Gros Islet",
+          "St Lucia",
+          "Saint Lucia"
+        ],
+        "verified": {
+          "wiki": "Daren Sammy Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1peread"
+        },
+        "views": 9583,
+        "tier": "six"
+      },
+      {
+        "name": "Kensington Oval",
+        "aliases": [
+          "Bridgetown",
+          "Barbados"
+        ],
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-28",
+          "key": "1y7hq8c"
+        },
+        "views": 29813,
+        "tier": "two"
+      },
+      {
+        "name": "Providence Stadium",
+        "aliases": [
+          "Providence",
+          "Guyana",
+          "Guyana National Stadium"
+        ],
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-28",
+          "key": "cwunt7"
+        },
+        "views": 17300,
+        "tier": "four"
+      },
+      {
+        "name": "Pallekele International Cricket Stadium",
+        "aliases": [
+          "Pallekele",
+          "Kandy"
+        ],
+        "verified": {
+          "wiki": "Pallekele International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1x1euhs"
+        },
+        "views": 40442,
+        "tier": "two"
+      },
+      {
+        "name": "R. Premadasa Stadium",
+        "aliases": [
+          "Premadasa",
+          "Khettarama",
+          "Colombo"
+        ],
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-28",
+          "key": "12e5ipf"
+        },
+        "views": 81929,
+        "tier": "two"
+      },
+      {
+        "name": "Mahinda Rajapaksa International Cricket Stadium",
+        "aliases": [
+          "Hambantota",
+          "Sooriyawewa",
+          "Mahinda Rajapaksa"
+        ],
+        "verified": {
+          "wiki": "Mahinda Rajapaksa International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "xjs4go"
+        },
+        "views": 11325,
+        "tier": "six"
+      },
+      {
+        "name": "Zahur Ahmed Chowdhury Stadium",
+        "aliases": [
+          "Chittagong",
+          "Chattogram",
+          "ZAC Stadium",
+          "Zohur Ahmed Chowdhury Stadium"
+        ],
+        "verified": {
+          "wiki": "2014 ICC World Twenty20",
+          "date": "2026-11-28",
+          "key": "5p45gu"
+        },
+        "wiki": "Bir Shrestho Flight Lieutenant Matiur Rahman Cricket Stadium",
+        "views": 16863,
+        "tier": "four"
+      },
+      {
+        "name": "Sher-e-Bangla National Cricket Stadium",
+        "aliases": [
+          "Sher-e-Bangla",
+          "Mirpur",
+          "Dhaka",
+          "Sher-e-Bangla National Stadium"
+        ],
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1enr1x8"
+        },
+        "views": 27323,
+        "tier": "four"
+      },
+      {
+        "name": "Sylhet International Cricket Stadium",
+        "aliases": [
+          "Sylhet",
+          "Sylhet Divisional Stadium"
+        ],
+        "verified": {
+          "wiki": "Sylhet International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "18asog1"
+        },
+        "views": 13088,
+        "tier": "six"
+      },
+      {
+        "name": "M. Chinnaswamy Stadium",
+        "aliases": [
+          "Chinnaswamy",
+          "Bengaluru",
+          "Bangalore"
+        ],
+        "verified": {
+          "wiki": "M. Chinnaswamy Stadium",
+          "date": "2026-11-28",
+          "key": "161bvyf"
+        },
+        "views": 95811,
+        "tier": "single"
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "aliases": [
+          "HPCA Stadium",
+          "HPCA",
+          "Dharamsala",
+          "Dharamshala"
+        ],
+        "verified": {
+          "wiki": "Himachal Pradesh Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "1ll5jz9"
+        },
+        "views": 65056,
+        "tier": "two"
+      },
+      {
+        "name": "Punjab Cricket Association IS Bindra Stadium",
+        "aliases": [
+          "Mohali",
+          "PCA Stadium",
+          "IS Bindra Stadium",
+          "Bindra",
+          "Punjab Cricket Association Stadium"
+        ],
+        "verified": {
+          "wiki": "I. S. Bindra Stadium",
+          "date": "2026-11-28",
+          "key": "hhjjkp"
+        },
+        "views": 22619,
+        "tier": "four"
+      },
+      {
+        "name": "Eden Gardens",
+        "aliases": [
+          "Kolkata",
+          "Calcutta"
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-28",
+          "key": "1afgt7r"
+        },
+        "views": 154038,
+        "tier": "single"
+      },
+      {
+        "name": "Wankhede Stadium",
+        "aliases": [
+          "Mumbai",
+          "Bombay"
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-28",
+          "key": "z19x1k"
+        },
+        "views": 150283,
+        "tier": "single"
+      },
+      {
+        "name": "Vidarbha Cricket Association Stadium",
+        "aliases": [
+          "VCA Stadium",
+          "Jamtha",
+          "Nagpur"
+        ],
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "eqafwc"
+        },
+        "views": 28533,
+        "tier": "two"
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "aliases": [
+          "Feroz Shah Kotla",
+          "Kotla",
+          "Delhi",
+          "New Delhi",
+          "Arun Jaitley Cricket Stadium",
+          "Feroz Shah Kotla Ground"
+        ],
+        "wiki": "Arun Jaitley Cricket Stadium",
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1h5emub"
+        },
+        "views": 72890,
+        "tier": "two"
+      },
+      {
+        "name": "Dubai International Cricket Stadium",
+        "aliases": [
+          "Dubai",
+          "Dubai International Stadium",
+          "Dubai Sports City"
+        ],
+        "verified": {
+          "wiki": "Dubai International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "118dopo"
+        },
+        "views": 20522,
+        "tier": "four"
+      },
+      {
+        "name": "Sharjah Cricket Stadium",
+        "aliases": [
+          "Sharjah",
+          "Sharjah Cricket Association Stadium"
+        ],
+        "verified": {
+          "wiki": "Sharjah Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1dgsa5n"
+        },
+        "views": 21929,
+        "tier": "four"
+      },
+      {
+        "name": "Sheikh Zayed Cricket Stadium",
+        "aliases": [
+          "Abu Dhabi",
+          "Sheikh Zayed",
+          "Zayed Cricket Stadium",
+          "Sheikh Zayed Stadium"
+        ],
+        "verified": {
+          "wiki": "Sheikh Zayed Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "d1f83s"
+        },
+        "views": 10445,
+        "tier": "six"
+      },
+      {
+        "name": "Oman Cricket Academy Ground",
+        "aliases": [
+          "Al Amerat",
+          "Muscat",
+          "Oman",
+          "Oman Cricket Academy"
+        ],
+        "verified": {
+          "wiki": "Oman Cricket Academy Ground",
+          "date": "2026-11-28",
+          "key": "1ppvq2h"
+        },
+        "views": 3978,
+        "tier": "ootg"
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "aliases": [
+          "SCG",
+          "Sydney"
+        ],
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-28",
+          "key": "10d8i7a"
+        },
+        "views": 83269,
+        "tier": "single"
+      },
+      {
+        "name": "Melbourne Cricket Ground",
+        "aliases": [
+          "MCG",
+          "Melbourne",
+          "the G"
+        ],
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1g2xo1m"
+        },
+        "views": 310311,
+        "tier": "single"
+      },
+      {
+        "name": "Adelaide Oval",
+        "aliases": [
+          "Adelaide"
+        ],
+        "verified": {
+          "wiki": "Adelaide Oval",
+          "date": "2026-11-28",
+          "key": "1og2d3h"
+        },
+        "views": 83171,
+        "tier": "single"
+      },
+      {
+        "name": "The Gabba",
+        "aliases": [
+          "Brisbane",
+          "Brisbane Cricket Ground",
+          "Woolloongabba"
+        ],
+        "verified": {
+          "wiki": "The Gabba",
+          "date": "2026-11-28",
+          "key": "vrdw6x"
+        },
+        "views": 132489,
+        "tier": "single"
+      },
+      {
+        "name": "Kardinia Park",
+        "aliases": [
+          "Geelong",
+          "GMHBA Stadium",
+          "Simonds Stadium"
+        ],
+        "wiki": "Kardinia Park (stadium)",
+        "verified": {
+          "wiki": "Kardinia Park (stadium)",
+          "date": "2026-11-28",
+          "key": "nsxiol"
+        },
+        "views": 35983,
+        "tier": "two"
+      },
+      {
+        "name": "Bellerive Oval",
+        "aliases": [
+          "Hobart",
+          "Bellerive",
+          "Blundstone Arena",
+          "Ninja Stadium"
+        ],
+        "verified": {
+          "wiki": "Bellerive Oval",
+          "date": "2026-11-28",
+          "key": "1i1j7kz"
+        },
+        "views": 43969,
+        "tier": "two"
+      },
+      {
+        "name": "Perth Stadium",
+        "aliases": [
+          "Perth",
+          "Optus Stadium",
+          "Optus"
+        ],
+        "verified": {
+          "wiki": "Perth Stadium",
+          "date": "2026-11-28",
+          "key": "1cgwi9x"
+        },
+        "views": 149385,
+        "tier": "single"
+      },
+      {
+        "name": "Sir Vivian Richards Stadium",
+        "aliases": [
+          "Antigua",
+          "North Sound",
+          "Viv Richards Stadium",
+          "Vivian Richards Stadium"
+        ],
+        "verified": {
+          "wiki": "Sir Vivian Richards Stadium",
+          "date": "2026-11-28",
+          "key": "sdqjfi"
+        },
+        "views": 21461,
+        "tier": "four"
+      },
+      {
+        "name": "Arnos Vale Stadium",
+        "aliases": [
+          "Arnos Vale",
+          "Kingstown",
+          "St Vincent",
+          "Saint Vincent"
+        ],
+        "verified": {
+          "wiki": "Arnos Vale Stadium",
+          "date": "2026-11-28",
+          "key": "h5mcvo"
+        },
+        "views": 9800,
+        "tier": "six"
+      },
+      {
+        "name": "Brian Lara Cricket Academy",
+        "aliases": [
+          "Brian Lara Stadium",
+          "Tarouba",
+          "San Fernando",
+          "Trinidad"
+        ],
+        "verified": {
+          "wiki": "Brian Lara Cricket Academy",
+          "date": "2026-11-28",
+          "key": "1jfjz21"
+        },
+        "views": 11747,
+        "tier": "six"
+      },
+      {
+        "name": "Central Broward Park",
+        "aliases": [
+          "Lauderhill",
+          "Florida",
+          "Broward County Stadium",
+          "Central Broward Regional Park"
+        ],
+        "verified": {
+          "wiki": "Central Broward Park",
+          "date": "2026-11-28",
+          "key": "3jw9i3"
+        },
+        "views": 12458,
+        "tier": "six"
+      },
+      {
+        "name": "Nassau County International Cricket Stadium",
+        "aliases": [
+          "Nassau County",
+          "Nassau County Stadium",
+          "Eisenhower Park",
+          "New York",
+          "Long Island"
+        ],
+        "verified": {
+          "wiki": "Nassau County International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "9gghwm"
+        },
+        "views": 17696,
+        "tier": "four"
+      },
+      {
+        "name": "Grand Prairie Stadium",
+        "aliases": [
+          "Grand Prairie",
+          "Dallas",
+          "Texas"
+        ],
+        "verified": {
+          "wiki": "Grand Prairie Stadium",
+          "date": "2026-11-28",
+          "key": "15w1vfw"
+        },
+        "views": 27392,
+        "tier": "four"
+      }
+    ]
+  },
+  {
+    "id": "mens-odi-world-cup-grounds-1996-2023",
+    "prompt": "Name a ground that hosted a match at a men's ODI World Cup (1996–2023)",
+    "category": "ODI World Cup venues",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "odi",
+      "international"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/1996_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/1999_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2003_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2007_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2011_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2015_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/2023_Cricket_World_Cup",
+      "https://en.wikipedia.org/wiki/List_of_One_Day_International_cricket_grounds"
+    ],
+    "metrics": [
+      {
+        "label": "World Cups hosted (1996–2023)",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 0,
+      "conditions": 0
+    },
+    "delivery": "Fast ball",
+    "answers": [
+      {
+        "name": "Eden Gardens",
+        "aliases": [
+          "Kolkata",
+          "Calcutta"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Eden Gardens",
+          "date": "2026-11-28",
+          "key": "1efzd7l"
+        },
+        "views": 154038,
+        "tier": "single"
+      },
+      {
+        "name": "Green Park",
+        "aliases": [
+          "Kanpur",
+          "Green Park Stadium"
+        ],
+        "wiki": "Green Park Stadium",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Green Park Stadium",
+          "date": "2026-11-28",
+          "key": "vk4ulw"
+        },
+        "views": 21243,
+        "tier": "two"
+      },
+      {
+        "name": "Punjab Cricket Association IS Bindra Stadium",
+        "aliases": [
+          "Mohali",
+          "PCA Stadium",
+          "IS Bindra Stadium",
+          "Bindra",
+          "Punjab Cricket Association Stadium"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "1996 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "1vizssx"
+        },
+        "wiki": "I. S. Bindra Stadium",
+        "views": 181488,
+        "tier": "single"
+      },
+      {
+        "name": "M. Chinnaswamy Stadium",
+        "aliases": [
+          "Chinnaswamy",
+          "Bengaluru",
+          "Bangalore"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "M. Chinnaswamy Stadium",
+          "date": "2026-11-28",
+          "key": "qgajep"
+        },
+        "views": 95811,
+        "tier": "single"
+      },
+      {
+        "name": "M. A. Chidambaram Stadium",
+        "aliases": [
+          "Chepauk",
+          "Chennai",
+          "Chidambaram",
+          "Madras"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "M. A. Chidambaram Stadium",
+          "date": "2026-11-28",
+          "key": "1i9b565"
+        },
+        "views": 102895,
+        "tier": "single"
+      },
+      {
+        "name": "Lal Bahadur Shastri Stadium",
+        "aliases": [
+          "Fateh Maidan",
+          "LB Stadium",
+          "Lal Bahadur Shastri Stadium, Hyderabad"
+        ],
+        "wiki": "Lal Bahadur Shastri Stadium, Hyderabad",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Lal Bahadur Shastri Stadium, Hyderabad",
+          "date": "2026-11-28",
+          "key": "1qho66w"
+        },
+        "views": 16121,
+        "tier": "four"
+      },
+      {
+        "name": "Barabati Stadium",
+        "aliases": [
+          "Cuttack",
+          "Barabati"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Barabati Stadium",
+          "date": "2026-11-28",
+          "key": "1gahb3d"
+        },
+        "views": 38632,
+        "tier": "two"
+      },
+      {
+        "name": "Captain Roop Singh Stadium",
+        "aliases": [
+          "Roop Singh Stadium",
+          "Gwalior"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Captain Roop Singh Stadium",
+          "date": "2026-11-28",
+          "key": "1jre9pi"
+        },
+        "views": 7890,
+        "tier": "six"
+      },
+      {
+        "name": "Indira Priyadarshini Stadium",
+        "aliases": [
+          "Visakhapatnam",
+          "Vizag"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Indira Priyadarshini Stadium",
+          "date": "2026-11-28",
+          "key": "rzi7fp"
+        },
+        "views": 3932,
+        "tier": "six"
+      },
+      {
+        "name": "Moin-ul-Haq Stadium",
+        "aliases": [
+          "Patna"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Moin-ul-Haq Stadium",
+          "date": "2026-11-28",
+          "key": "1tyne2i"
+        },
+        "views": 20675,
+        "tier": "two"
+      },
+      {
+        "name": "Nehru Stadium, Pune",
+        "aliases": [
+          "Nehru Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Nehru Stadium, Pune",
+          "date": "2026-11-28",
+          "key": "1gpl113"
+        },
+        "views": 6153,
+        "tier": "six"
+      },
+      {
+        "name": "Wankhede Stadium",
+        "aliases": [
+          "Mumbai",
+          "Bombay"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Wankhede Stadium",
+          "date": "2026-11-28",
+          "key": "oo0eek"
+        },
+        "views": 150283,
+        "tier": "single"
+      },
+      {
+        "name": "Narendra Modi Stadium",
+        "aliases": [
+          "Motera",
+          "Ahmedabad",
+          "Sardar Patel Stadium",
+          "Motera Stadium",
+          "Sardar Patel Gujarat Stadium"
+        ],
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Narendra Modi Stadium",
+          "date": "2026-11-28",
+          "key": "19his04"
+        },
+        "views": 620850,
+        "tier": "single"
+      },
+      {
+        "name": "Reliance Stadium",
+        "aliases": [
+          "IPCL Ground",
+          "IPCL Sports Complex Ground",
+          "Vadodara",
+          "Baroda"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Reliance Stadium",
+          "date": "2026-11-28",
+          "key": "tutqv"
+        },
+        "views": 7688,
+        "tier": "six"
+      },
+      {
+        "name": "Sawai Mansingh Stadium",
+        "aliases": [
+          "Jaipur",
+          "SMS Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sawai Mansingh Stadium",
+          "date": "2026-11-28",
+          "key": "3ix2kv"
+        },
+        "views": 35883,
+        "tier": "two"
+      },
+      {
+        "name": "Vidarbha Cricket Association Ground",
+        "aliases": [
+          "VCA Ground",
+          "Civil Lines"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Ground",
+          "date": "2026-11-28",
+          "key": "1pmoldg"
+        },
+        "views": 7465,
+        "tier": "six"
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "aliases": [
+          "Feroz Shah Kotla",
+          "Kotla",
+          "Delhi",
+          "New Delhi",
+          "Arun Jaitley Cricket Stadium",
+          "Feroz Shah Kotla Ground"
+        ],
+        "wiki": "Arun Jaitley Cricket Stadium",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Arun Jaitley Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "jbixqt"
+        },
+        "views": 72890,
+        "tier": "single"
+      },
+      {
+        "name": "National Stadium, Karachi",
+        "aliases": [
+          "Karachi",
+          "National Stadium",
+          "National Bank Stadium",
+          "National Bank Cricket Arena"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "National Stadium, Karachi",
+          "date": "2026-11-28",
+          "key": "t0cgrm"
+        },
+        "views": 18434,
+        "tier": "two"
+      },
+      {
+        "name": "Gaddafi Stadium",
+        "aliases": [
+          "Gaddafi",
+          "Lahore"
+        ],
+        "misspellings": [
+          "Gadaffi Stadium",
+          "Qaddafi Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Gaddafi Stadium",
+          "date": "2026-11-28",
+          "key": "xelhl1"
+        },
+        "views": 65298,
+        "tier": "single"
+      },
+      {
+        "name": "Rawalpindi Cricket Stadium",
+        "aliases": [
+          "Rawalpindi",
+          "Pindi",
+          "Pindi Cricket Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Rawalpindi Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "hvg541"
+        },
+        "views": 25347,
+        "tier": "two"
+      },
+      {
+        "name": "Arbab Niaz Stadium",
+        "aliases": [
+          "Peshawar",
+          "Arbab Niaz",
+          "Imran Khan Cricket Stadium"
+        ],
+        "wiki": "Imran Khan Cricket Stadium",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "1996 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "viexmq"
+        },
+        "views": 181488,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Views are the 1996 World Cup page's (the source links a redirect); Peshawar is a lesser-known Test ground"
+        }
+      },
+      {
+        "name": "Iqbal Stadium",
+        "aliases": [
+          "Faisalabad",
+          "Iqbal"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Iqbal Stadium",
+          "date": "2026-11-28",
+          "key": "gipshc"
+        },
+        "views": 23159,
+        "tier": "two"
+      },
+      {
+        "name": "Jinnah Stadium, Gujranwala",
+        "aliases": [
+          "Gujranwala"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Jinnah Stadium, Gujranwala",
+          "date": "2026-11-28",
+          "key": "179p73u"
+        },
+        "views": 4153,
+        "tier": "six"
+      },
+      {
+        "name": "Sinhalese Sports Club Ground",
+        "aliases": [
+          "SSC",
+          "Sinhalese Sports Club",
+          "SSC Ground"
+        ],
+        "misspellings": [
+          "Singhalese Sports Club"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "1996 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "1mo6a3l"
+        },
+        "wiki": "Sinhalese Sports Club Cricket Ground",
+        "views": 181488,
+        "tier": "two",
+        "override": {
+          "tier": "two",
+          "reason": "Views are the 1996 World Cup page's (the source links a redirect); the SSC is a well-known Test ground"
+        }
+      },
+      {
+        "name": "Asgiriya Stadium",
+        "aliases": [
+          "Asgiriya"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Asgiriya Stadium",
+          "date": "2026-11-28",
+          "key": "13sg2hi"
+        },
+        "views": 5872,
+        "tier": "six"
+      },
+      {
+        "name": "Edgbaston",
+        "aliases": [
+          "Birmingham",
+          "Edgbaston Cricket Ground"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-28",
+          "key": "15ilvh1"
+        },
+        "views": 42934,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Bristol",
+        "aliases": [
+          "Bristol",
+          "Nevil Road",
+          "Seat Unique Stadium",
+          "Bristol County Ground"
+        ],
+        "wiki": "Bristol County Ground",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-28",
+          "key": "wedhgi"
+        },
+        "views": 22391,
+        "tier": "single"
+      },
+      {
+        "name": "St Lawrence Ground",
+        "aliases": [
+          "Canterbury",
+          "Spitfire Ground"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-28",
+          "key": "10x6ieu"
+        },
+        "views": 14888,
+        "tier": "four"
+      },
+      {
+        "name": "County Ground, Chelmsford",
+        "aliases": [
+          "Chelmsford",
+          "Cloud County Ground",
+          "County Cricket Ground, Chelmsford"
+        ],
+        "wiki": "County Cricket Ground, Chelmsford",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Chelmsford",
+          "date": "2026-11-28",
+          "key": "iqati7"
+        },
+        "views": 10577,
+        "tier": "four"
+      },
+      {
+        "name": "Riverside Ground",
+        "aliases": [
+          "Chester-le-Street",
+          "Riverside",
+          "Emirates Riverside",
+          "Seat Unique Riverside"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-28",
+          "key": "1040fi4"
+        },
+        "views": 33673,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Derby",
+        "aliases": [
+          "Derby",
+          "Racecourse Ground",
+          "Incora County Ground",
+          "County Cricket Ground, Derby"
+        ],
+        "wiki": "County Cricket Ground, Derby",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Derby",
+          "date": "2026-11-28",
+          "key": "1rulg49"
+        },
+        "views": 11540,
+        "tier": "four"
+      },
+      {
+        "name": "County Ground, Hove",
+        "aliases": [
+          "Hove",
+          "1st Central County Ground",
+          "County Cricket Ground, Hove"
+        ],
+        "wiki": "County Cricket Ground, Hove",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-28",
+          "key": "1e9o9bp"
+        },
+        "views": 11561,
+        "tier": "four"
+      },
+      {
+        "name": "Headingley",
+        "aliases": [
+          "Leeds",
+          "Headingley Cricket Ground",
+          "Emerald Headingley"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-28",
+          "key": "5fqln9"
+        },
+        "views": 34129,
+        "tier": "single"
+      },
+      {
+        "name": "Grace Road",
+        "aliases": [
+          "Leicester",
+          "Uptonsteel County Ground"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Grace Road",
+          "date": "2026-11-28",
+          "key": "1g3hdvt"
+        },
+        "views": 10562,
+        "tier": "four"
+      },
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-28",
+          "key": "1mwhx4a"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kia Oval",
+          "Brit Oval",
+          "Foster's Oval",
+          "Kennington"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-28",
+          "key": "kz9o0x"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "Old Trafford",
+        "aliases": [
+          "Manchester",
+          "Emirates Old Trafford",
+          "Old Trafford Cricket Ground"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1n8qyii"
+        },
+        "views": 64941,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Northampton",
+        "aliases": [
+          "Northampton",
+          "Wantage Road",
+          "County Cricket Ground, Northampton"
+        ],
+        "wiki": "County Cricket Ground, Northampton",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-28",
+          "key": "6tudbq"
+        },
+        "views": 11314,
+        "tier": "four"
+      },
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-28",
+          "key": "hxuygk"
+        },
+        "views": 44633,
+        "tier": "single"
+      },
+      {
+        "name": "Northlands Road",
+        "aliases": [
+          "County Ground, Southampton"
+        ],
+        "wiki": "County Ground, Southampton",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "County Ground, Southampton",
+          "date": "2026-11-28",
+          "key": "3ufqmh"
+        },
+        "views": 5961,
+        "tier": "six"
+      },
+      {
+        "name": "County Ground, Taunton",
+        "aliases": [
+          "Taunton",
+          "Cooper Associates County Ground"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-28",
+          "key": "3mvdyw"
+        },
+        "views": 14861,
+        "tier": "single"
+      },
+      {
+        "name": "New Road",
+        "aliases": [
+          "Worcester",
+          "New Road, Worcester"
+        ],
+        "wiki": "New Road, Worcester",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-28",
+          "key": "118zza8"
+        },
+        "views": 9319,
+        "tier": "four"
+      },
+      {
+        "name": "Sophia Gardens",
+        "aliases": [
+          "Cardiff",
+          "SWALEC Stadium"
+        ],
+        "wiki": "Sophia Gardens (cricket ground)",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-28",
+          "key": "1cfssp2"
+        },
+        "views": 30221,
+        "tier": "single"
+      },
+      {
+        "name": "The Grange Club",
+        "aliases": [
+          "The Grange",
+          "Raeburn Place",
+          "Edinburgh"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "The Grange Club",
+          "date": "2026-11-28",
+          "key": "dhm949"
+        },
+        "views": 10389,
+        "tier": "four"
+      },
+      {
+        "name": "Clontarf Cricket Club Ground",
+        "aliases": [
+          "Castle Avenue",
+          "Clontarf",
+          "Dublin"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "1999 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "j5fhsg"
+        },
+        "wiki": "Castle Avenue cricket ground",
+        "views": 183907,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "Views are the 1999 World Cup page's (the source links a redirect); Dublin's Clontarf hosted one game and is little known"
+        }
+      },
+      {
+        "name": "VRA Cricket Ground",
+        "aliases": [
+          "VRA",
+          "Amstelveen"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "1999 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "mp7pw1"
+        },
+        "wiki": "VRA Amsterdam Cricket Ground",
+        "views": 183907,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "Views are the 1999 World Cup page's (the source links a redirect); Amstelveen hosted one game and is little known"
+        }
+      },
+      {
+        "name": "Wanderers Stadium",
+        "aliases": [
+          "Johannesburg",
+          "Wanderers",
+          "Bullring",
+          "Imperial Wanderers",
+          "DP World Wanderers"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Wanderers Stadium",
+          "date": "2026-11-28",
+          "key": "xtg2e2"
+        },
+        "views": 43896,
+        "tier": "two"
+      },
+      {
+        "name": "Kingsmead",
+        "aliases": [
+          "Durban",
+          "Sahara Stadium Kingsmead",
+          "Hollywoodbets Kingsmead",
+          "Kingsmead Cricket Ground"
+        ],
+        "wiki": "Kingsmead Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Kingsmead Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1ysbik1"
+        },
+        "views": 17194,
+        "tier": "four"
+      },
+      {
+        "name": "Newlands",
+        "aliases": [
+          "Cape Town",
+          "Newlands Cricket Ground",
+          "PPC Newlands",
+          "Sahara Park Newlands"
+        ],
+        "wiki": "Newlands Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Newlands Cricket Ground",
+          "date": "2026-11-28",
+          "key": "i6n1h6"
+        },
+        "views": 31985,
+        "tier": "two"
+      },
+      {
+        "name": "Centurion Park",
+        "aliases": [
+          "Centurion",
+          "SuperSport Park"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Centurion Park",
+          "date": "2026-11-28",
+          "key": "1p4qaqi"
+        },
+        "views": 19576,
+        "tier": "two"
+      },
+      {
+        "name": "Mangaung Oval",
+        "aliases": [
+          "Bloemfontein",
+          "Goodyear Park",
+          "Springbok Park",
+          "Chevrolet Park",
+          "OUTsurance Oval"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Mangaung Oval",
+          "date": "2026-11-28",
+          "key": "105cq71"
+        },
+        "views": 9286,
+        "tier": "six"
+      },
+      {
+        "name": "St George's Park",
+        "aliases": [
+          "Gqeberha",
+          "Port Elizabeth",
+          "St George's Oval",
+          "St George's Park Cricket Ground"
+        ],
+        "wiki": "St George's Park Cricket Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "St George's Park Cricket Ground",
+          "date": "2026-11-28",
+          "key": "jdw934"
+        },
+        "views": 20273,
+        "tier": "two"
+      },
+      {
+        "name": "JB Marks Oval",
+        "aliases": [
+          "Potchefstroom",
+          "Senwes Park",
+          "North West Cricket Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "JB Marks Oval",
+          "date": "2026-11-28",
+          "key": "wwzdg3"
+        },
+        "views": 3753,
+        "tier": "six"
+      },
+      {
+        "name": "Buffalo Park",
+        "aliases": [
+          "East London"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Buffalo Park",
+          "date": "2026-11-28",
+          "key": "6rwp33"
+        },
+        "views": 10577,
+        "tier": "four"
+      },
+      {
+        "name": "Diamond Oval",
+        "aliases": [
+          "De Beers Diamond Oval",
+          "Kimberley"
+        ],
+        "wiki": "De Beers Diamond Oval",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "De Beers Diamond Oval",
+          "date": "2026-11-28",
+          "key": "1hn9hxm"
+        },
+        "views": 4604,
+        "tier": "six"
+      },
+      {
+        "name": "Boland Park",
+        "aliases": [
+          "Paarl",
+          "Boland Bank Park"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Boland Park",
+          "date": "2026-11-28",
+          "key": "26kbxb"
+        },
+        "views": 11927,
+        "tier": "four"
+      },
+      {
+        "name": "Willowmoore Park",
+        "aliases": [
+          "Benoni",
+          "Willowmoore"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Willowmoore Park",
+          "date": "2026-11-28",
+          "key": "130f7oa"
+        },
+        "views": 4806,
+        "tier": "six"
+      },
+      {
+        "name": "City Oval",
+        "aliases": [
+          "Pietermaritzburg",
+          "Pietermaritzburg Oval",
+          "Alexandra Park"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "City Oval",
+          "date": "2026-11-28",
+          "key": "t4d3zo"
+        },
+        "views": 3469,
+        "tier": "ootg"
+      },
+      {
+        "name": "Harare Sports Club",
+        "aliases": [
+          "Harare"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Harare Sports Club",
+          "date": "2026-11-28",
+          "key": "x4dnho"
+        },
+        "views": 24814,
+        "tier": "two"
+      },
+      {
+        "name": "Queens Sports Club",
+        "aliases": [
+          "Bulawayo",
+          "Queens"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Queens Sports Club",
+          "date": "2026-11-28",
+          "key": "c0l4vk"
+        },
+        "views": 13935,
+        "tier": "four"
+      },
+      {
+        "name": "Nairobi Gymkhana Club",
+        "aliases": [
+          "Nairobi",
+          "Gymkhana Club Ground",
+          "Nairobi Gymkhana"
+        ],
+        "wiki": "Gymkhana Club Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Gymkhana Club Ground",
+          "date": "2026-11-28",
+          "key": "xnr3fk"
+        },
+        "views": 4417,
+        "tier": "six"
+      },
+      {
+        "name": "Sir Vivian Richards Stadium",
+        "aliases": [
+          "Antigua",
+          "North Sound",
+          "Viv Richards Stadium",
+          "Vivian Richards Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sir Vivian Richards Stadium",
+          "date": "2026-11-28",
+          "key": "1wsc9r2"
+        },
+        "views": 21461,
+        "tier": "two"
+      },
+      {
+        "name": "Kensington Oval",
+        "aliases": [
+          "Bridgetown",
+          "Barbados"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Kensington Oval",
+          "date": "2026-11-28",
+          "key": "150i0oo"
+        },
+        "views": 29813,
+        "tier": "two"
+      },
+      {
+        "name": "National Cricket Stadium, Grenada",
+        "aliases": [
+          "Grenada",
+          "Queen's Park, Grenada",
+          "Grenada National Stadium"
+        ],
+        "wiki": "National Cricket Stadium (Grenada)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "National Cricket Stadium (Grenada)",
+          "date": "2026-11-28",
+          "key": "1lbhjum"
+        },
+        "views": 5257,
+        "tier": "six"
+      },
+      {
+        "name": "Providence Stadium",
+        "aliases": [
+          "Providence",
+          "Guyana",
+          "Guyana National Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Providence Stadium",
+          "date": "2026-11-28",
+          "key": "15giufh"
+        },
+        "views": 17300,
+        "tier": "four"
+      },
+      {
+        "name": "Sabina Park",
+        "aliases": [
+          "Kingston",
+          "Jamaica",
+          "Sabina"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sabina Park",
+          "date": "2026-11-28",
+          "key": "uf9fpe"
+        },
+        "views": 18227,
+        "tier": "four"
+      },
+      {
+        "name": "Warner Park",
+        "aliases": [
+          "Basseterre",
+          "St Kitts",
+          "Saint Kitts",
+          "Warner Park Stadium"
+        ],
+        "wiki": "Warner Park Sporting Complex",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Warner Park Sporting Complex",
+          "date": "2026-11-28",
+          "key": "1q9u8d2"
+        },
+        "views": 10452,
+        "tier": "four"
+      },
+      {
+        "name": "Daren Sammy Cricket Ground",
+        "aliases": [
+          "Beausejour",
+          "Beausejour Stadium",
+          "Daren Sammy Stadium",
+          "Gros Islet",
+          "St Lucia",
+          "Saint Lucia"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "2007 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "1kp9l9v"
+        },
+        "views": 208696,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Views are the 2007 World Cup page's (the source links a redirect); St Lucia's ground is moderately known"
+        }
+      },
+      {
+        "name": "Queen's Park Oval",
+        "aliases": [
+          "Port of Spain",
+          "Trinidad",
+          "QPO"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Queen's Park Oval",
+          "date": "2026-11-28",
+          "key": "y0o69l"
+        },
+        "views": 16429,
+        "tier": "four"
+      },
+      {
+        "name": "Vidarbha Cricket Association Stadium",
+        "aliases": [
+          "VCA Stadium",
+          "Jamtha",
+          "Nagpur"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Vidarbha Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "qp8kg8"
+        },
+        "views": 28533,
+        "tier": "two"
+      },
+      {
+        "name": "R. Premadasa Stadium",
+        "aliases": [
+          "Premadasa",
+          "Khettarama",
+          "Colombo"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "R. Premadasa Stadium",
+          "date": "2026-11-28",
+          "key": "12mxtl1"
+        },
+        "views": 81929,
+        "tier": "single"
+      },
+      {
+        "name": "Pallekele International Cricket Stadium",
+        "aliases": [
+          "Pallekele",
+          "Kandy"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Pallekele International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "12k7tzo"
+        },
+        "views": 40442,
+        "tier": "two"
+      },
+      {
+        "name": "Mahinda Rajapaksa International Cricket Stadium",
+        "aliases": [
+          "Hambantota",
+          "Sooriyawewa",
+          "Mahinda Rajapaksa"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Mahinda Rajapaksa International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "2i9an0"
+        },
+        "views": 11325,
+        "tier": "four"
+      },
+      {
+        "name": "Zahur Ahmed Chowdhury Stadium",
+        "aliases": [
+          "Chittagong",
+          "Chattogram",
+          "ZAC Stadium",
+          "Zohur Ahmed Chowdhury Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bir Shrestho Flight Lieutenant Matiur Rahman Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1lt9gcq"
+        },
+        "views": 16882,
+        "tier": "four"
+      },
+      {
+        "name": "Sher-e-Bangla National Cricket Stadium",
+        "aliases": [
+          "Sher-e-Bangla",
+          "Mirpur",
+          "Dhaka",
+          "Sher-e-Bangla National Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sher-e-Bangla National Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "zdff9k"
+        },
+        "views": 27323,
+        "tier": "two"
+      },
+      {
+        "name": "Adelaide Oval",
+        "aliases": [
+          "Adelaide"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Adelaide Oval",
+          "date": "2026-11-28",
+          "key": "6q1057"
+        },
+        "views": 83171,
+        "tier": "single"
+      },
+      {
+        "name": "The Gabba",
+        "aliases": [
+          "Brisbane",
+          "Brisbane Cricket Ground",
+          "Woolloongabba"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "The Gabba",
+          "date": "2026-11-28",
+          "key": "1r7zilb"
+        },
+        "views": 132489,
+        "tier": "single"
+      },
+      {
+        "name": "Manuka Oval",
+        "aliases": [
+          "Canberra",
+          "Manuka"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Manuka Oval",
+          "date": "2026-11-28",
+          "key": "1tlu7x1"
+        },
+        "views": 21782,
+        "tier": "two"
+      },
+      {
+        "name": "Bellerive Oval",
+        "aliases": [
+          "Hobart",
+          "Bellerive",
+          "Blundstone Arena",
+          "Ninja Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Bellerive Oval",
+          "date": "2026-11-28",
+          "key": "1it0dat"
+        },
+        "views": 43969,
+        "tier": "two"
+      },
+      {
+        "name": "Melbourne Cricket Ground",
+        "aliases": [
+          "MCG",
+          "Melbourne",
+          "the G"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Melbourne Cricket Ground",
+          "date": "2026-11-28",
+          "key": "17um5s2"
+        },
+        "views": 310311,
+        "tier": "single"
+      },
+      {
+        "name": "WACA Ground",
+        "aliases": [
+          "WACA",
+          "Perth"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "WACA Ground",
+          "date": "2026-11-28",
+          "key": "123t7e5"
+        },
+        "views": 63298,
+        "tier": "two"
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "aliases": [
+          "SCG",
+          "Sydney"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sydney Cricket Ground",
+          "date": "2026-11-28",
+          "key": "l648nq"
+        },
+        "views": 83269,
+        "tier": "single"
+      },
+      {
+        "name": "Eden Park",
+        "aliases": [
+          "Auckland"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Eden Park",
+          "date": "2026-11-28",
+          "key": "p49ht6"
+        },
+        "views": 108504,
+        "tier": "single"
+      },
+      {
+        "name": "Hagley Oval",
+        "aliases": [
+          "Christchurch",
+          "Hagley"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Hagley Oval",
+          "date": "2026-11-28",
+          "key": "u9qlwt"
+        },
+        "views": 21018,
+        "tier": "two"
+      },
+      {
+        "name": "University Oval",
+        "aliases": [
+          "Dunedin",
+          "University of Otago Oval"
+        ],
+        "wiki": "University of Otago Oval",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "2015 Cricket World Cup",
+          "date": "2026-11-28",
+          "key": "1s83fj1"
+        },
+        "views": 222030,
+        "tier": "four",
+        "override": {
+          "tier": "four",
+          "reason": "Views are the 2015 World Cup page's (the source links a redirect); Dunedin is a lesser-known Test ground"
+        }
+      },
+      {
+        "name": "Seddon Park",
+        "aliases": [
+          "Hamilton",
+          "Seddon"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Seddon Park",
+          "date": "2026-11-28",
+          "key": "do9s3r"
+        },
+        "views": 11830,
+        "tier": "four"
+      },
+      {
+        "name": "McLean Park",
+        "aliases": [
+          "Napier",
+          "McLean"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "McLean Park",
+          "date": "2026-11-28",
+          "key": "54jqsg"
+        },
+        "views": 13363,
+        "tier": "four"
+      },
+      {
+        "name": "Saxton Oval",
+        "aliases": [
+          "Nelson",
+          "Saxton",
+          "Saxton Field"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Saxton Oval",
+          "date": "2026-11-28",
+          "key": "840owp"
+        },
+        "views": 6170,
+        "tier": "six"
+      },
+      {
+        "name": "Wellington Regional Stadium",
+        "aliases": [
+          "Wellington",
+          "Cake Tin",
+          "Sky Stadium",
+          "Westpac Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Wellington Regional Stadium",
+          "date": "2026-11-28",
+          "key": "b5m2dw"
+        },
+        "views": 71930,
+        "tier": "single"
+      },
+      {
+        "name": "Rose Bowl",
+        "aliases": [
+          "Southampton",
+          "Ageas Bowl",
+          "Utilita Bowl",
+          "Hampshire Bowl"
+        ],
+        "wiki": "Rose Bowl (cricket ground)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Rose Bowl (cricket ground)",
+          "date": "2026-11-28",
+          "key": "1ru2hmd"
+        },
+        "views": 49760,
+        "tier": "two"
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "aliases": [
+          "HPCA Stadium",
+          "HPCA",
+          "Dharamsala",
+          "Dharamshala"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Himachal Pradesh Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "1wy86xv"
+        },
+        "views": 65056,
+        "tier": "single"
+      },
+      {
+        "name": "Rajiv Gandhi International Cricket Stadium",
+        "aliases": [
+          "Uppal",
+          "Hyderabad",
+          "Rajiv Gandhi Stadium",
+          "Rajiv Gandhi International Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Rajiv Gandhi International Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "uxl0us"
+        },
+        "views": 63452,
+        "tier": "two"
+      },
+      {
+        "name": "Ekana Cricket Stadium",
+        "aliases": [
+          "Ekana",
+          "Lucknow",
+          "Atal Bihari Vajpayee Ekana Cricket Stadium",
+          "BRSABV Ekana Cricket Stadium",
+          "Ekana Stadium"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Ekana Cricket Stadium",
+          "date": "2026-11-28",
+          "key": "1fxqnk7"
+        },
+        "views": 78892,
+        "tier": "single"
+      },
+      {
+        "name": "Maharashtra Cricket Association Stadium",
+        "aliases": [
+          "MCA Stadium",
+          "Gahunje",
+          "Pune"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Maharashtra Cricket Association Stadium",
+          "date": "2026-11-28",
+          "key": "1ktwhhq"
+        },
+        "views": 26289,
+        "tier": "two"
+      }
+    ]
+  },
+  {
+    "id": "county-championship-grounds-2025",
+    "prompt": "Name a ground in England or Wales that hosted a County Championship match in 2025",
+    "category": "Championship grounds",
+    "answerType": "ground",
+    "tags": [
+      "men",
+      "domestic",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2025_County_Championship"
+    ],
+    "metrics": [
+      {
+        "label": "2025 Championship matches hosted",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 0
+    },
+    "delivery": "Leg cutter",
+    "answers": [
+      {
+        "name": "Trent Bridge",
+        "aliases": [
+          "Nottingham"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Trent Bridge",
+          "date": "2026-11-28",
+          "key": "1ckql2o"
+        },
+        "views": 44633,
+        "tier": "single"
+      },
+      {
+        "name": "The Oval",
+        "aliases": [
+          "Kennington Oval",
+          "Kia Oval",
+          "Brit Oval",
+          "Foster's Oval",
+          "Kennington"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "The Oval",
+          "date": "2026-11-28",
+          "key": "18uti8n"
+        },
+        "views": 117145,
+        "tier": "single"
+      },
+      {
+        "name": "St Lawrence Ground",
+        "aliases": [
+          "Canterbury",
+          "Spitfire Ground"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "St Lawrence Ground",
+          "date": "2026-11-28",
+          "key": "nnuu6a"
+        },
+        "views": 14888,
+        "tier": "two"
+      },
+      {
+        "name": "Sophia Gardens",
+        "aliases": [
+          "Cardiff",
+          "SWALEC Stadium"
+        ],
+        "wiki": "Sophia Gardens (cricket ground)",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Sophia Gardens (cricket ground)",
+          "date": "2026-11-28",
+          "key": "gaix3m"
+        },
+        "views": 30221,
+        "tier": "single"
+      },
+      {
+        "name": "Rose Bowl",
+        "aliases": [
+          "Southampton",
+          "Utilita Bowl",
+          "Ageas Bowl",
+          "Hampshire Bowl"
+        ],
+        "wiki": "Rose Bowl (cricket ground)",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Rose Bowl (cricket ground)",
+          "date": "2026-11-28",
+          "key": "zmtmjh"
+        },
+        "views": 49760,
+        "tier": "single"
+      },
+      {
+        "name": "Riverside Ground",
+        "aliases": [
+          "Chester-le-Street",
+          "Riverside",
+          "Seat Unique Riverside",
+          "Emirates Riverside",
+          "Banks Homes Riverside"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Riverside Ground",
+          "date": "2026-11-28",
+          "key": "19nfxvk"
+        },
+        "views": 33673,
+        "tier": "single"
+      },
+      {
+        "name": "New Road",
+        "aliases": [
+          "Worcester",
+          "New Road, Worcester"
+        ],
+        "wiki": "New Road, Worcester",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "New Road, Worcester",
+          "date": "2026-11-28",
+          "key": "1c2ases"
+        },
+        "views": 9319,
+        "tier": "four"
+      },
+      {
+        "name": "Grace Road",
+        "aliases": [
+          "Leicester",
+          "Uptonsteel County Ground"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Grace Road",
+          "date": "2026-11-28",
+          "key": "um8e73"
+        },
+        "views": 10562,
+        "tier": "four"
+      },
+      {
+        "name": "Edgbaston",
+        "aliases": [
+          "Birmingham",
+          "Edgbaston Cricket Ground"
+        ],
+        "wiki": "Edgbaston Cricket Ground",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Edgbaston Cricket Ground",
+          "date": "2026-11-28",
+          "key": "1km4h4z"
+        },
+        "views": 42934,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Taunton",
+        "aliases": [
+          "Taunton",
+          "Cooper Associates County Ground"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "County Ground, Taunton",
+          "date": "2026-11-28",
+          "key": "155rhe4"
+        },
+        "views": 14861,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Northampton",
+        "aliases": [
+          "Northampton",
+          "Wantage Road",
+          "County Cricket Ground, Northampton"
+        ],
+        "wiki": "County Cricket Ground, Northampton",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Northampton",
+          "date": "2026-11-28",
+          "key": "33h5s2"
+        },
+        "views": 11314,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Hove",
+        "aliases": [
+          "Hove",
+          "1st Central County Ground",
+          "County Cricket Ground, Hove"
+        ],
+        "wiki": "County Cricket Ground, Hove",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Hove",
+          "date": "2026-11-28",
+          "key": "gfgpyb"
+        },
+        "views": 11561,
+        "tier": "two"
+      },
+      {
+        "name": "County Ground, Chelmsford",
+        "aliases": [
+          "Chelmsford",
+          "Cloud County Ground",
+          "County Cricket Ground, Chelmsford"
+        ],
+        "wiki": "County Cricket Ground, Chelmsford",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Chelmsford",
+          "date": "2026-11-28",
+          "key": "16a3bl9"
+        },
+        "views": 10577,
+        "tier": "two"
+      },
+      {
+        "name": "Old Trafford",
+        "aliases": [
+          "Manchester",
+          "Emirates Old Trafford",
+          "Old Trafford Cricket Ground"
+        ],
+        "wiki": "Old Trafford Cricket Ground",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Old Trafford Cricket Ground",
+          "date": "2026-11-28",
+          "key": "a8uggu"
+        },
+        "views": 64941,
+        "tier": "two"
+      },
+      {
+        "name": "Lord's",
+        "aliases": [
+          "Lord's Cricket Ground",
+          "Home of Cricket"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Lord's",
+          "date": "2026-11-28",
+          "key": "mffpfy"
+        },
+        "views": 149180,
+        "tier": "single"
+      },
+      {
+        "name": "County Ground, Derby",
+        "aliases": [
+          "Derby",
+          "Incora County Ground",
+          "Racecourse Ground",
+          "County Cricket Ground, Derby"
+        ],
+        "wiki": "County Cricket Ground, Derby",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "County Cricket Ground, Derby",
+          "date": "2026-11-28",
+          "key": "1lys1tl"
+        },
+        "views": 11540,
+        "tier": "four"
+      },
+      {
+        "name": "County Ground, Bristol",
+        "aliases": [
+          "Bristol",
+          "Nevil Road",
+          "Seat Unique Stadium",
+          "Bristol County Ground"
+        ],
+        "wiki": "Bristol County Ground",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Bristol County Ground",
+          "date": "2026-11-28",
+          "key": "ugbq1y"
+        },
+        "views": 22391,
+        "tier": "four"
+      },
+      {
+        "name": "Headingley",
+        "aliases": [
+          "Leeds",
+          "Headingley Cricket Ground",
+          "Clean Slate Headingley",
+          "Emerald Headingley"
+        ],
+        "wiki": "Headingley Cricket Ground",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Headingley Cricket Ground",
+          "date": "2026-11-28",
+          "key": "6sz7zn"
+        },
+        "views": 34129,
+        "tier": "four"
+      },
+      {
+        "name": "North Marine Road",
+        "aliases": [
+          "Scarborough",
+          "North Marine Road Ground"
+        ],
+        "wiki": "North Marine Road Ground, Scarborough",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "2025 County Championship",
+          "date": "2026-11-28",
+          "key": "1u8o1ud"
+        },
+        "views": 34222,
+        "tier": "four"
+      },
+      {
+        "name": "College Ground, Cheltenham",
+        "aliases": [
+          "Cheltenham",
+          "Cheltenham College",
+          "College Ground"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "College Ground, Cheltenham",
+          "date": "2026-11-28",
+          "key": "z4ltlb"
+        },
+        "views": 1315,
+        "tier": "six"
+      },
+      {
+        "name": "Stanley Park, Blackpool",
+        "aliases": [
+          "Blackpool",
+          "Stanley Park"
+        ],
+        "wiki": "Stanley Park, Blackpool",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Stanley Park, Blackpool",
+          "date": "2026-11-28",
+          "key": "192rjkl"
+        },
+        "views": 6925,
+        "tier": "six"
+      },
+      {
+        "name": "Queen's Park, Chesterfield",
+        "aliases": [
+          "Chesterfield",
+          "Queen's Park"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Queen's Park, Chesterfield",
+          "date": "2026-11-28",
+          "key": "1467xwt"
+        },
+        "views": 2811,
+        "tier": "six"
+      },
+      {
+        "name": "Merchant Taylors' School, Northwood",
+        "aliases": [
+          "Northwood",
+          "Merchant Taylors'",
+          "Merchant Taylors' School Ground"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Merchant Taylors' School, Northwood",
+          "date": "2026-11-28",
+          "key": "pij5x9"
+        },
+        "views": 95731,
+        "tier": "six",
+        "override": {
+          "tier": "six",
+          "reason": "Views are the school's, not the ground's; Middlesex's one-off Northwood fixture is little known"
+        }
+      },
+      {
+        "name": "Clifton Park, York",
+        "aliases": [
+          "York",
+          "Clifton Park",
+          "Clifton Park Ground"
+        ],
+        "wiki": "Clifton Park Ground",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Clifton Park Ground",
+          "date": "2026-11-28",
+          "key": "1hwsd7a"
+        },
+        "views": 2200,
+        "tier": "ootg"
+      }
+    ]
+  }
+]

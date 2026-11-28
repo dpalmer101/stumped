@@ -264,3 +264,4 @@ the anonymous counts in §1.
 - 2026-11-26: At the owner's request, day 4 changed a few hours after it started at UTC+14, so the one-women's-question rule now applies from day 4: two of its three women's questions swapped with men's questions from days 8 and 10. Changes like this to a started day are recorded in `src/data/relocked-days.json`, which the lock and CI checks accept.
 - 2026-11-26: A one-time What's new sheet tells returning players about changes to how the game is played (§10a), up to the latest 5; new players skip it. First item: deliveries.
 - 2026-11-27: County questions need at least 16 answers instead of 20, as England has only 18 first-class counties (e.g. one-day cup winners since 1995).
+- 2026-11-28: Easy questions, where nearly any sensible guess is right and the challenge is a rare answer, can have up to about 110 answers when a source keeps a complete list. One goes on each day that hasn't started, from day 7.

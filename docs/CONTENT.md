@@ -131,6 +131,8 @@ Rules for the question:
 
 - **A closed set.** Choose a question with a fixed, listable set of 20–60 correct answers (16–60 for
   county questions) and list **all** of them. A correct answer that's missing counts as a miss for the player.
+  Easy questions, where nearly any sensible guess is right, can go up to about 110 when a source
+  keeps a complete list.
 - **Bounded in time.** Anything that can change gets a date bound in the prompt ("before 2025"), so
   the answer set never goes stale. Use `asOf` only if a bound is impossible.
 - **Wikipedia-backed.** `sources` are English Wikipedia pages that list the answers, usually a

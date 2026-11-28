@@ -1,0 +1,2549 @@
+[
+  {
+    "id": "england-men-test-players-2015-2025",
+    "prompt": "Name a man who played a men's Test for England from 2015 to 2025",
+    "category": "England Test men 2015–25",
+    "answerType": "player",
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "england"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_England_Test_cricketers"
+    ],
+    "metrics": [
+      {
+        "label": "Career Tests to November 2026",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Leg-break",
+    "answers": [
+      {
+        "name": "James Anderson",
+        "aliases": [
+          "Jimmy Anderson",
+          "Jimmy"
+        ],
+        "wiki": "James Anderson (cricketer)",
+        "values": [
+          188
+        ],
+        "verified": {
+          "wiki": "James Anderson (cricketer)",
+          "date": "2026-11-28",
+          "key": "h6ytni"
+        },
+        "views": 249104,
+        "tier": "single"
+      },
+      {
+        "name": "Gareth Batty",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Gareth Batty",
+          "date": "2026-11-28",
+          "key": "1f044ch"
+        },
+        "views": 22657,
+        "tier": "four"
+      },
+      {
+        "name": "Ian Bell",
+        "values": [
+          118
+        ],
+        "verified": {
+          "wiki": "Ian Bell",
+          "date": "2026-11-28",
+          "key": "1ubvj9"
+        },
+        "views": 70652,
+        "tier": "single"
+      },
+      {
+        "name": "Alastair Cook",
+        "aliases": [
+          "Chef"
+        ],
+        "values": [
+          161
+        ],
+        "verified": {
+          "wiki": "Alastair Cook",
+          "date": "2026-11-28",
+          "key": "53ff8j"
+        },
+        "views": 228267,
+        "tier": "single"
+      },
+      {
+        "name": "Stuart Broad",
+        "values": [
+          167
+        ],
+        "verified": {
+          "wiki": "Stuart Broad",
+          "date": "2026-11-28",
+          "key": "1iaop3"
+        },
+        "views": 283903,
+        "tier": "single"
+      },
+      {
+        "name": "Jonathan Trott",
+        "values": [
+          52
+        ],
+        "verified": {
+          "wiki": "Jonathan Trott",
+          "date": "2026-11-28",
+          "key": "1hscxqe"
+        },
+        "views": 85304,
+        "tier": "single"
+      },
+      {
+        "name": "Steven Finn",
+        "aliases": [
+          "Steve Finn"
+        ],
+        "values": [
+          36
+        ],
+        "verified": {
+          "wiki": "Steven Finn",
+          "date": "2026-11-28",
+          "key": "120x3bc"
+        },
+        "views": 64075,
+        "tier": "two"
+      },
+      {
+        "name": "James Tredwell",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "James Tredwell",
+          "date": "2026-11-28",
+          "key": "382393"
+        },
+        "views": 8205,
+        "tier": "six"
+      },
+      {
+        "name": "Samit Patel",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Samit Patel",
+          "date": "2026-11-28",
+          "key": "zo84lq"
+        },
+        "views": 27227,
+        "tier": "four"
+      },
+      {
+        "name": "Jonny Bairstow",
+        "values": [
+          100
+        ],
+        "verified": {
+          "wiki": "Jonny Bairstow",
+          "date": "2026-11-28",
+          "key": "dzdjix"
+        },
+        "views": 147834,
+        "tier": "single",
+        "aliases": [
+          "Jonathan Bairstow"
+        ]
+      },
+      {
+        "name": "James Taylor",
+        "wiki": "James Taylor (cricketer, born 1990)",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "James Taylor (cricketer, born 1990)",
+          "date": "2026-11-28",
+          "key": "1pfw6sq"
+        },
+        "views": 28572,
+        "tier": "four"
+      },
+      {
+        "name": "Nick Compton",
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Nick Compton",
+          "date": "2026-11-28",
+          "key": "qc2iu3"
+        },
+        "views": 16189,
+        "tier": "four"
+      },
+      {
+        "name": "Joe Root",
+        "aliases": [
+          "Rooty"
+        ],
+        "values": [
+          169
+        ],
+        "verified": {
+          "wiki": "Joe Root",
+          "date": "2026-11-28",
+          "key": "eautwb"
+        },
+        "views": 1183603,
+        "tier": "single"
+      },
+      {
+        "name": "Chris Woakes",
+        "values": [
+          62
+        ],
+        "verified": {
+          "wiki": "Chris Woakes",
+          "date": "2026-11-28",
+          "key": "pn6wlz"
+        },
+        "views": 70893,
+        "tier": "single"
+      },
+      {
+        "name": "Ben Stokes",
+        "aliases": [
+          "Stokesy"
+        ],
+        "values": [
+          122
+        ],
+        "verified": {
+          "wiki": "Ben Stokes",
+          "date": "2026-11-28",
+          "key": "ffqsw"
+        },
+        "views": 820241,
+        "tier": "single"
+      },
+      {
+        "name": "Gary Ballance",
+        "values": [
+          23
+        ],
+        "verified": {
+          "wiki": "Gary Ballance",
+          "date": "2026-11-28",
+          "key": "vdnjrx"
+        },
+        "views": 25115,
+        "tier": "two"
+      },
+      {
+        "name": "Moeen Ali",
+        "aliases": [
+          "Mo Ali",
+          "Moeen"
+        ],
+        "values": [
+          68
+        ],
+        "verified": {
+          "wiki": "Moeen Ali",
+          "date": "2026-11-28",
+          "key": "gco7eg"
+        },
+        "views": 141630,
+        "tier": "single"
+      },
+      {
+        "name": "Chris Jordan",
+        "wiki": "Chris Jordan (cricketer)",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Chris Jordan (cricketer)",
+          "date": "2026-11-28",
+          "key": "3dvr7o"
+        },
+        "views": 46156,
+        "tier": "four"
+      },
+      {
+        "name": "Jos Buttler",
+        "values": [
+          57
+        ],
+        "verified": {
+          "wiki": "Jos Buttler",
+          "date": "2026-11-28",
+          "key": "14p7bwg"
+        },
+        "views": 273064,
+        "tier": "single"
+      },
+      {
+        "name": "Adam Lyth",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Adam Lyth",
+          "date": "2026-11-28",
+          "key": "h3c3ku"
+        },
+        "views": 17683,
+        "tier": "six"
+      },
+      {
+        "name": "Mark Wood",
+        "aliases": [
+          "Woody"
+        ],
+        "wiki": "Mark Wood (cricketer)",
+        "values": [
+          38
+        ],
+        "verified": {
+          "wiki": "Mark Wood (cricketer)",
+          "date": "2026-11-28",
+          "key": "1m6a33y"
+        },
+        "views": 135562,
+        "tier": "single"
+      },
+      {
+        "name": "Adil Rashid",
+        "values": [
+          19
+        ],
+        "verified": {
+          "wiki": "Adil Rashid",
+          "date": "2026-11-28",
+          "key": "zc4sb"
+        },
+        "views": 186865,
+        "tier": "single"
+      },
+      {
+        "name": "Alex Hales",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Alex Hales",
+          "date": "2026-11-28",
+          "key": "1qxeklx"
+        },
+        "views": 65737,
+        "tier": "two"
+      },
+      {
+        "name": "James Vince",
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "James Vince",
+          "date": "2026-11-28",
+          "key": "7zrbp1"
+        },
+        "views": 42474,
+        "tier": "four"
+      },
+      {
+        "name": "Jake Ball",
+        "wiki": "Jake Ball (cricketer)",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Jake Ball (cricketer)",
+          "date": "2026-11-28",
+          "key": "k2b780"
+        },
+        "views": 10628,
+        "tier": "six"
+      },
+      {
+        "name": "Ben Duckett",
+        "values": [
+          49
+        ],
+        "verified": {
+          "wiki": "Ben Duckett",
+          "date": "2026-11-28",
+          "key": "pasz0h"
+        },
+        "views": 208972,
+        "tier": "single"
+      },
+      {
+        "name": "Zafar Ansari",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Zafar Ansari",
+          "date": "2026-11-28",
+          "key": "1kzo190"
+        },
+        "views": 8592,
+        "tier": "six"
+      },
+      {
+        "name": "Haseeb Hameed",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Haseeb Hameed",
+          "date": "2026-11-28",
+          "key": "1u5ap7w"
+        },
+        "views": 39646,
+        "tier": "four"
+      },
+      {
+        "name": "Keaton Jennings",
+        "values": [
+          17
+        ],
+        "verified": {
+          "wiki": "Keaton Jennings",
+          "date": "2026-11-28",
+          "key": "1fckvb0"
+        },
+        "views": 18087,
+        "tier": "four"
+      },
+      {
+        "name": "Liam Dawson",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Liam Dawson",
+          "date": "2026-11-28",
+          "key": "39mi0j"
+        },
+        "views": 76326,
+        "tier": "four"
+      },
+      {
+        "name": "Dawid Malan",
+        "misspellings": [
+          "David Malan"
+        ],
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Dawid Malan",
+          "date": "2026-11-28",
+          "key": "sf4glg"
+        },
+        "views": 66203,
+        "tier": "two"
+      },
+      {
+        "name": "Toby Roland-Jones",
+        "aliases": [
+          "Roland-Jones"
+        ],
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Toby Roland-Jones",
+          "date": "2026-11-28",
+          "key": "d9oz7g"
+        },
+        "views": 12232,
+        "tier": "six"
+      },
+      {
+        "name": "Tom Westley",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Tom Westley",
+          "date": "2026-11-28",
+          "key": "9glv7n"
+        },
+        "views": 8305,
+        "tier": "six"
+      },
+      {
+        "name": "Mark Stoneman",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Mark Stoneman",
+          "date": "2026-11-28",
+          "key": "som6uo"
+        },
+        "views": 7743,
+        "tier": "six"
+      },
+      {
+        "name": "Craig Overton",
+        "values": [
+          8
+        ],
+        "verified": {
+          "wiki": "Craig Overton",
+          "date": "2026-11-28",
+          "key": "1rsuhnr"
+        },
+        "views": 73943,
+        "tier": "two"
+      },
+      {
+        "name": "Tom Curran",
+        "wiki": "Tom Curran (cricketer)",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Tom Curran (cricketer)",
+          "date": "2026-11-28",
+          "key": "1wg0kgg"
+        },
+        "views": 120676,
+        "tier": "four"
+      },
+      {
+        "name": "Mason Crane",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Mason Crane",
+          "date": "2026-11-28",
+          "key": "16zs2gv"
+        },
+        "views": 25804,
+        "tier": "six"
+      },
+      {
+        "name": "Jack Leach",
+        "values": [
+          39
+        ],
+        "verified": {
+          "wiki": "Jack Leach",
+          "date": "2026-11-28",
+          "key": "1bmt5qe"
+        },
+        "views": 35414,
+        "tier": "two"
+      },
+      {
+        "name": "Dom Bess",
+        "aliases": [
+          "Dominic Bess"
+        ],
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Dom Bess",
+          "date": "2026-11-28",
+          "key": "78yq8l"
+        },
+        "views": 17675,
+        "tier": "four"
+      },
+      {
+        "name": "Sam Curran",
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "Sam Curran",
+          "date": "2026-11-28",
+          "key": "1t0qr32"
+        },
+        "views": 241150,
+        "tier": "single"
+      },
+      {
+        "name": "Ollie Pope",
+        "aliases": [
+          "Oliver Pope",
+          "Olly Pope"
+        ],
+        "values": [
+          64
+        ],
+        "verified": {
+          "wiki": "Ollie Pope",
+          "date": "2026-11-28",
+          "key": "1x1mqfa"
+        },
+        "views": 104919,
+        "tier": "single"
+      },
+      {
+        "name": "Rory Burns",
+        "values": [
+          32
+        ],
+        "verified": {
+          "wiki": "Rory Burns",
+          "date": "2026-11-28",
+          "key": "1guqbd0"
+        },
+        "views": 36402,
+        "tier": "two"
+      },
+      {
+        "name": "Ben Foakes",
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Ben Foakes",
+          "date": "2026-11-28",
+          "key": "1gntvik"
+        },
+        "views": 34931,
+        "tier": "two"
+      },
+      {
+        "name": "Joe Denly",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Joe Denly",
+          "date": "2026-11-28",
+          "key": "1szrnt2"
+        },
+        "views": 22848,
+        "tier": "four"
+      },
+      {
+        "name": "Jason Roy",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Jason Roy",
+          "date": "2026-11-28",
+          "key": "10zi5k5"
+        },
+        "views": 82669,
+        "tier": "four"
+      },
+      {
+        "name": "Olly Stone",
+        "misspellings": [
+          "Ollie Stone"
+        ],
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Olly Stone",
+          "date": "2026-11-28",
+          "key": "1w8ygq5"
+        },
+        "views": 11932,
+        "tier": "six"
+      },
+      {
+        "name": "Jofra Archer",
+        "aliases": [
+          "Jofra"
+        ],
+        "values": [
+          23
+        ],
+        "verified": {
+          "wiki": "Jofra Archer",
+          "date": "2026-11-28",
+          "key": "1fx2hqv"
+        },
+        "views": 387153,
+        "tier": "single"
+      },
+      {
+        "name": "Dom Sibley",
+        "aliases": [
+          "Dominic Sibley"
+        ],
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Dom Sibley",
+          "date": "2026-11-28",
+          "key": "19l8wih"
+        },
+        "views": 24860,
+        "tier": "two"
+      },
+      {
+        "name": "Zak Crawley",
+        "values": [
+          64
+        ],
+        "verified": {
+          "wiki": "Zak Crawley",
+          "date": "2026-11-28",
+          "key": "182q7yf"
+        },
+        "views": 165478,
+        "tier": "single"
+      },
+      {
+        "name": "Dan Lawrence",
+        "aliases": [
+          "Daniel Lawrence"
+        ],
+        "values": [
+          17
+        ],
+        "verified": {
+          "wiki": "Dan Lawrence",
+          "date": "2026-11-28",
+          "key": "mv4oji"
+        },
+        "views": 75183,
+        "tier": "two"
+      },
+      {
+        "name": "James Bracey",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "James Bracey",
+          "date": "2026-11-28",
+          "key": "xwbvju"
+        },
+        "views": 9517,
+        "tier": "six"
+      },
+      {
+        "name": "Ollie Robinson",
+        "aliases": [
+          "Oliver Robinson"
+        ],
+        "values": [
+          24
+        ],
+        "verified": {
+          "wiki": "Ollie Robinson",
+          "date": "2026-11-28",
+          "key": "s082js"
+        },
+        "views": 181841,
+        "tier": "single"
+      },
+      {
+        "name": "Sam Billings",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Sam Billings",
+          "date": "2026-11-28",
+          "key": "mdg6ld"
+        },
+        "views": 71345,
+        "tier": "four"
+      },
+      {
+        "name": "Alex Lees",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Alex Lees",
+          "date": "2026-11-28",
+          "key": "72z7er"
+        },
+        "views": 13865,
+        "tier": "four"
+      },
+      {
+        "name": "Matthew Fisher",
+        "aliases": [
+          "Matt Fisher"
+        ],
+        "wiki": "Matthew Fisher (English cricketer)",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Matthew Fisher (English cricketer)",
+          "date": "2026-11-28",
+          "key": "o2cl2r"
+        },
+        "views": 68318,
+        "tier": "four"
+      },
+      {
+        "name": "Saqib Mahmood",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Saqib Mahmood",
+          "date": "2026-11-28",
+          "key": "1c7iol5"
+        },
+        "views": 53619,
+        "tier": "four"
+      },
+      {
+        "name": "Matthew Potts",
+        "aliases": [
+          "Matt Potts"
+        ],
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Matthew Potts",
+          "date": "2026-11-28",
+          "key": "1mfia3c"
+        },
+        "views": 50079,
+        "tier": "two"
+      },
+      {
+        "name": "Matt Parkinson",
+        "aliases": [
+          "Matthew Parkinson"
+        ],
+        "wiki": "Matt Parkinson (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Matt Parkinson (cricketer)",
+          "date": "2026-11-28",
+          "key": "2ub9s3"
+        },
+        "views": 10549,
+        "tier": "ootg"
+      },
+      {
+        "name": "Jamie Overton",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Jamie Overton",
+          "date": "2026-11-28",
+          "key": "7638kl"
+        },
+        "views": 172137,
+        "tier": "two"
+      },
+      {
+        "name": "Harry Brook",
+        "values": [
+          41
+        ],
+        "verified": {
+          "wiki": "Harry Brook",
+          "date": "2026-11-28",
+          "key": "1imuhq9"
+        },
+        "views": 429768,
+        "tier": "single"
+      },
+      {
+        "name": "Will Jacks",
+        "aliases": [
+          "William Jacks"
+        ],
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Will Jacks",
+          "date": "2026-11-28",
+          "key": "vwq1bn"
+        },
+        "views": 190941,
+        "tier": "two"
+      },
+      {
+        "name": "Liam Livingstone",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Liam Livingstone",
+          "date": "2026-11-28",
+          "key": "121t48r"
+        },
+        "views": 80988,
+        "tier": "four"
+      },
+      {
+        "name": "Rehan Ahmed",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Rehan Ahmed",
+          "date": "2026-11-28",
+          "key": "1ic8i4p"
+        },
+        "views": 213675,
+        "tier": "two"
+      },
+      {
+        "name": "Josh Tongue",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Josh Tongue",
+          "date": "2026-11-28",
+          "key": "8qbbp4"
+        },
+        "views": 150910,
+        "tier": "two"
+      },
+      {
+        "name": "Tom Hartley",
+        "wiki": "Tom Hartley (cricketer)",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Tom Hartley (cricketer)",
+          "date": "2026-11-28",
+          "key": "18gt19a"
+        },
+        "views": 14800,
+        "tier": "six"
+      },
+      {
+        "name": "Shoaib Bashir",
+        "values": [
+          21
+        ],
+        "verified": {
+          "wiki": "Shoaib Bashir",
+          "date": "2026-11-28",
+          "key": "4w4d75"
+        },
+        "views": 91421,
+        "tier": "two"
+      },
+      {
+        "name": "Gus Atkinson",
+        "aliases": [
+          "Augustus Atkinson"
+        ],
+        "values": [
+          21
+        ],
+        "verified": {
+          "wiki": "Gus Atkinson",
+          "date": "2026-11-28",
+          "key": "ln8c66"
+        },
+        "views": 142438,
+        "tier": "two"
+      },
+      {
+        "name": "Jamie Smith",
+        "wiki": "Jamie Smith (cricketer)",
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Jamie Smith (cricketer)",
+          "date": "2026-11-28",
+          "key": "1oycpvu"
+        },
+        "views": 124025,
+        "tier": "single"
+      },
+      {
+        "name": "Josh Hull",
+        "wiki": "Josh Hull (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Josh Hull (cricketer)",
+          "date": "2026-11-28",
+          "key": "1865fu6"
+        },
+        "views": 14921,
+        "tier": "six"
+      },
+      {
+        "name": "Brydon Carse",
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Brydon Carse",
+          "date": "2026-11-28",
+          "key": "eg4vai"
+        },
+        "views": 225430,
+        "tier": "two"
+      },
+      {
+        "name": "Jacob Bethell",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Jacob Bethell",
+          "date": "2026-11-28",
+          "key": "1hwut7f"
+        },
+        "views": 769541,
+        "tier": "two"
+      },
+      {
+        "name": "Sam Cook",
+        "wiki": "Sam Cook (cricketer, born 1997)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Sam Cook (cricketer, born 1997)",
+          "date": "2026-11-28",
+          "key": "1gtxa3t"
+        },
+        "views": 17816,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "australia-men-ashes-players-2013-2023",
+    "prompt": "Name a man who played for Australia in a men's Ashes Test from the 2013 series to the 2023 series",
+    "category": "Australia's Ashes men 2013–23",
+    "answerType": "player",
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "australia"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2013_Ashes_series",
+      "https://en.wikipedia.org/wiki/2013%E2%80%9314_Ashes_series",
+      "https://en.wikipedia.org/wiki/2015_Ashes_series",
+      "https://en.wikipedia.org/wiki/2017%E2%80%9318_Ashes_series",
+      "https://en.wikipedia.org/wiki/2019_Ashes_series",
+      "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ashes_series",
+      "https://en.wikipedia.org/wiki/2023_Ashes_series",
+      "https://en.wikipedia.org/wiki/List_of_Australia_Test_cricketers"
+    ],
+    "metrics": [
+      {
+        "label": "Career Tests to November 2026",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 1,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Inswinger",
+    "answers": [
+      {
+        "name": "Michael Clarke",
+        "aliases": [
+          "Pup"
+        ],
+        "wiki": "Michael Clarke (cricketer)",
+        "values": [
+          115
+        ],
+        "verified": {
+          "wiki": "Michael Clarke (cricketer)",
+          "date": "2026-11-28",
+          "key": "b2g0ka"
+        },
+        "views": 166866,
+        "tier": "single"
+      },
+      {
+        "name": "Shane Watson",
+        "aliases": [
+          "Watto"
+        ],
+        "values": [
+          59
+        ],
+        "verified": {
+          "wiki": "Shane Watson",
+          "date": "2026-11-28",
+          "key": "izys4l"
+        },
+        "views": 133007,
+        "tier": "two"
+      },
+      {
+        "name": "Chris Rogers",
+        "aliases": [
+          "Bucky Rogers",
+          "Buck Rogers"
+        ],
+        "wiki": "Chris Rogers (cricketer)",
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Chris Rogers (cricketer)",
+          "date": "2026-11-28",
+          "key": "1rqzfm4"
+        },
+        "views": 31714,
+        "tier": "four"
+      },
+      {
+        "name": "Ed Cowan",
+        "aliases": [
+          "Edward Cowan"
+        ],
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "Ed Cowan",
+          "date": "2026-11-28",
+          "key": "qb21xr"
+        },
+        "views": 16597,
+        "tier": "six"
+      },
+      {
+        "name": "Phillip Hughes",
+        "aliases": [
+          "Phil Hughes"
+        ],
+        "values": [
+          26
+        ],
+        "verified": {
+          "wiki": "Phillip Hughes",
+          "date": "2026-11-28",
+          "key": "vc7n30"
+        },
+        "views": 369889,
+        "tier": "two"
+      },
+      {
+        "name": "Steve Smith",
+        "aliases": [
+          "Steven Smith",
+          "Smudge"
+        ],
+        "wiki": "Steve Smith (cricketer)",
+        "values": [
+          127
+        ],
+        "verified": {
+          "wiki": "Steve Smith (cricketer)",
+          "date": "2026-11-28",
+          "key": "18aphou"
+        },
+        "views": 619131,
+        "tier": "single"
+      },
+      {
+        "name": "Usman Khawaja",
+        "aliases": [
+          "Uzzie"
+        ],
+        "values": [
+          88
+        ],
+        "verified": {
+          "wiki": "Usman Khawaja",
+          "date": "2026-11-28",
+          "key": "nvtvxb"
+        },
+        "views": 405619,
+        "tier": "single"
+      },
+      {
+        "name": "David Warner",
+        "aliases": [
+          "Davey Warner"
+        ],
+        "wiki": "David Warner (cricketer)",
+        "values": [
+          112
+        ],
+        "verified": {
+          "wiki": "David Warner (cricketer)",
+          "date": "2026-11-28",
+          "key": "1bi5jmd"
+        },
+        "views": 240165,
+        "tier": "single"
+      },
+      {
+        "name": "Brad Haddin",
+        "aliases": [
+          "Hadds"
+        ],
+        "values": [
+          66
+        ],
+        "verified": {
+          "wiki": "Brad Haddin",
+          "date": "2026-11-28",
+          "key": "zzab7g"
+        },
+        "views": 54876,
+        "tier": "two"
+      },
+      {
+        "name": "Ashton Agar",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Ashton Agar",
+          "date": "2026-11-28",
+          "key": "ajdpmd"
+        },
+        "views": 51221,
+        "tier": "six"
+      },
+      {
+        "name": "Peter Siddle",
+        "aliases": [
+          "Sidds"
+        ],
+        "values": [
+          67
+        ],
+        "verified": {
+          "wiki": "Peter Siddle",
+          "date": "2026-11-28",
+          "key": "1x7yrc9"
+        },
+        "views": 121986,
+        "tier": "two"
+      },
+      {
+        "name": "James Pattinson",
+        "values": [
+          21
+        ],
+        "verified": {
+          "wiki": "James Pattinson",
+          "date": "2026-11-28",
+          "key": "mftd4t"
+        },
+        "views": 27086,
+        "tier": "four"
+      },
+      {
+        "name": "Mitchell Starc",
+        "aliases": [
+          "Mitch Starc"
+        ],
+        "values": [
+          110
+        ],
+        "verified": {
+          "wiki": "Mitchell Starc",
+          "date": "2026-11-28",
+          "key": "1rck3qe"
+        },
+        "views": 645734,
+        "tier": "single"
+      },
+      {
+        "name": "Ryan Harris",
+        "aliases": [
+          "Rhino"
+        ],
+        "wiki": "Ryan Harris (cricketer)",
+        "values": [
+          27
+        ],
+        "verified": {
+          "wiki": "Ryan Harris (cricketer)",
+          "date": "2026-11-28",
+          "key": "1knllnt"
+        },
+        "views": 41985,
+        "tier": "four"
+      },
+      {
+        "name": "Nathan Lyon",
+        "aliases": [
+          "Gary Lyon"
+        ],
+        "misspellings": [
+          "Nathan Lion"
+        ],
+        "values": [
+          145
+        ],
+        "verified": {
+          "wiki": "Nathan Lyon",
+          "date": "2026-11-28",
+          "key": "11t9mbc"
+        },
+        "views": 218028,
+        "tier": "single"
+      },
+      {
+        "name": "Jackson Bird",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Jackson Bird",
+          "date": "2026-11-28",
+          "key": "zsp0mt"
+        },
+        "views": 9844,
+        "tier": "ootg"
+      },
+      {
+        "name": "James Faulkner",
+        "wiki": "James Faulkner (cricketer)",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "James Faulkner (cricketer)",
+          "date": "2026-11-28",
+          "key": "1r2i68h"
+        },
+        "views": 49141,
+        "tier": "six"
+      },
+      {
+        "name": "George Bailey",
+        "wiki": "George Bailey (cricketer, born 1982)",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "George Bailey (cricketer, born 1982)",
+          "date": "2026-11-28",
+          "key": "lasafe"
+        },
+        "views": 45431,
+        "tier": "six"
+      },
+      {
+        "name": "Mitchell Johnson",
+        "aliases": [
+          "Mitch Johnson"
+        ],
+        "wiki": "Mitchell Johnson (cricketer)",
+        "values": [
+          73
+        ],
+        "verified": {
+          "wiki": "Mitchell Johnson",
+          "date": "2026-11-28",
+          "key": "1nmi45j"
+        },
+        "views": 114545,
+        "tier": "two"
+      },
+      {
+        "name": "Adam Voges",
+        "values": [
+          20
+        ],
+        "verified": {
+          "wiki": "Adam Voges",
+          "date": "2026-11-28",
+          "key": "1jw1w1o"
+        },
+        "views": 46397,
+        "tier": "four"
+      },
+      {
+        "name": "Josh Hazlewood",
+        "misspellings": [
+          "Josh Hazelwood",
+          "Hazelwood"
+        ],
+        "values": [
+          81
+        ],
+        "verified": {
+          "wiki": "Josh Hazlewood",
+          "date": "2026-11-28",
+          "key": "1a7mjui"
+        },
+        "views": 204229,
+        "tier": "single"
+      },
+      {
+        "name": "Mitchell Marsh",
+        "aliases": [
+          "Mitch Marsh"
+        ],
+        "values": [
+          46
+        ],
+        "verified": {
+          "wiki": "Mitchell Marsh",
+          "date": "2026-11-28",
+          "key": "158994u"
+        },
+        "views": 208253,
+        "tier": "two"
+      },
+      {
+        "name": "Peter Nevill",
+        "aliases": [
+          "Pete Nevill"
+        ],
+        "misspellings": [
+          "Peter Neville",
+          "Neville"
+        ],
+        "values": [
+          17
+        ],
+        "verified": {
+          "wiki": "Peter Nevill",
+          "date": "2026-11-28",
+          "key": "1mknqdp"
+        },
+        "views": 13923,
+        "tier": "six"
+      },
+      {
+        "name": "Shaun Marsh",
+        "values": [
+          38
+        ],
+        "verified": {
+          "wiki": "Shaun Marsh",
+          "date": "2026-11-28",
+          "key": "2tyv93"
+        },
+        "views": 92591,
+        "tier": "two"
+      },
+      {
+        "name": "Cameron Bancroft",
+        "aliases": [
+          "Cam Bancroft"
+        ],
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Cameron Bancroft",
+          "date": "2026-11-28",
+          "key": "s8l6on"
+        },
+        "views": 88226,
+        "tier": "four"
+      },
+      {
+        "name": "Peter Handscomb",
+        "aliases": [
+          "Pete Handscomb"
+        ],
+        "values": [
+          20
+        ],
+        "verified": {
+          "wiki": "Peter Handscomb",
+          "date": "2026-11-28",
+          "key": "18f99tv"
+        },
+        "views": 27748,
+        "tier": "four"
+      },
+      {
+        "name": "Tim Paine",
+        "values": [
+          35
+        ],
+        "verified": {
+          "wiki": "Tim Paine",
+          "date": "2026-11-28",
+          "key": "x9k6wu"
+        },
+        "views": 96893,
+        "tier": "four"
+      },
+      {
+        "name": "Pat Cummins",
+        "values": [
+          77
+        ],
+        "verified": {
+          "wiki": "Pat Cummins",
+          "date": "2026-11-28",
+          "key": "nj2ry0"
+        },
+        "views": 354518,
+        "tier": "single"
+      },
+      {
+        "name": "Travis Head",
+        "values": [
+          70
+        ],
+        "verified": {
+          "wiki": "Travis Head",
+          "date": "2026-11-28",
+          "key": "1pr0b0a"
+        },
+        "views": 447401,
+        "tier": "single"
+      },
+      {
+        "name": "Matthew Wade",
+        "aliases": [
+          "Matt Wade"
+        ],
+        "values": [
+          36
+        ],
+        "verified": {
+          "wiki": "Matthew Wade",
+          "date": "2026-11-28",
+          "key": "1p9jhw9"
+        },
+        "views": 56245,
+        "tier": "four"
+      },
+      {
+        "name": "Marnus Labuschagne",
+        "aliases": [
+          "Marnus"
+        ],
+        "misspellings": [
+          "Marnus Labuschange",
+          "Labuschange"
+        ],
+        "values": [
+          68
+        ],
+        "verified": {
+          "wiki": "Marnus Labuschagne",
+          "date": "2026-11-28",
+          "key": "1tx93zu"
+        },
+        "views": 304835,
+        "tier": "single"
+      },
+      {
+        "name": "Marcus Harris",
+        "wiki": "Marcus Harris (cricketer)",
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Marcus Harris (cricketer)",
+          "date": "2026-11-28",
+          "key": "dr6bd"
+        },
+        "views": 21232,
+        "tier": "six"
+      },
+      {
+        "name": "Cameron Green",
+        "aliases": [
+          "Cam Green"
+        ],
+        "values": [
+          40
+        ],
+        "verified": {
+          "wiki": "Cameron Green",
+          "date": "2026-11-28",
+          "key": "1t1srz5"
+        },
+        "views": 282938,
+        "tier": "two"
+      },
+      {
+        "name": "Alex Carey",
+        "aliases": [
+          "Alexander Carey"
+        ],
+        "wiki": "Alex Carey (cricketer)",
+        "values": [
+          53
+        ],
+        "override": {
+          "tier": "two",
+          "reason": "Australia's Test keeper in the 2021–22 and 2023 Ashes; his 34k page views sit far below the other regulars in this list, so they understate how well known he is"
+        },
+        "verified": {
+          "wiki": "Alex Carey",
+          "date": "2026-11-28",
+          "key": "1naoi7d"
+        },
+        "views": 34263,
+        "tier": "two"
+      },
+      {
+        "name": "Michael Neser",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Michael Neser",
+          "date": "2026-11-28",
+          "key": "1qje7hl"
+        },
+        "views": 219100,
+        "tier": "four"
+      },
+      {
+        "name": "Jhye Richardson",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Jhye Richardson",
+          "date": "2026-11-28",
+          "key": "1m9fyne"
+        },
+        "views": 73660,
+        "tier": "four"
+      },
+      {
+        "name": "Scott Boland",
+        "values": [
+          20
+        ],
+        "verified": {
+          "wiki": "Scott Boland",
+          "date": "2026-11-28",
+          "key": "115deto"
+        },
+        "views": 234905,
+        "tier": "two"
+      },
+      {
+        "name": "Todd Murphy",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Todd Murphy",
+          "date": "2026-11-28",
+          "key": "1w24wix"
+        },
+        "views": 34169,
+        "tier": "six"
+      }
+    ]
+  },
+  {
+    "id": "india-men-test-players-2015-2025",
+    "prompt": "Name a man who played a men's Test for India from 2015 to 2025",
+    "category": "India Test men 2015–25",
+    "answerType": "player",
+    "tags": [
+      "men",
+      "test",
+      "international",
+      "india"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_India_Test_cricketers"
+    ],
+    "metrics": [
+      {
+        "label": "Career Tests to November 2026",
+        "rarerWhen": "lower"
+      }
+    ],
+    "rating": {
+      "recency": 0,
+      "breadth": 2,
+      "conditions": 1
+    },
+    "delivery": "Off-break",
+    "answers": [
+      {
+        "name": "Harbhajan Singh",
+        "aliases": [
+          "Bhajji"
+        ],
+        "values": [
+          103
+        ],
+        "verified": {
+          "wiki": "Harbhajan Singh",
+          "date": "2026-11-28",
+          "key": "alcam6"
+        },
+        "views": 292516,
+        "tier": "single"
+      },
+      {
+        "name": "Parthiv Patel",
+        "values": [
+          25
+        ],
+        "verified": {
+          "wiki": "Parthiv Patel",
+          "date": "2026-11-28",
+          "key": "1mo2mkq"
+        },
+        "views": 104121,
+        "tier": "two"
+      },
+      {
+        "name": "Gautam Gambhir",
+        "values": [
+          58
+        ],
+        "verified": {
+          "wiki": "Gautam Gambhir",
+          "date": "2026-11-28",
+          "key": "1dtq0j3"
+        },
+        "views": 420153,
+        "tier": "single"
+      },
+      {
+        "name": "Dinesh Karthik",
+        "aliases": [
+          "DK"
+        ],
+        "values": [
+          26
+        ],
+        "verified": {
+          "wiki": "Dinesh Karthik",
+          "date": "2026-11-28",
+          "key": "dm407s"
+        },
+        "views": 315346,
+        "tier": "two"
+      },
+      {
+        "name": "Ishant Sharma",
+        "values": [
+          105
+        ],
+        "verified": {
+          "wiki": "Ishant Sharma",
+          "date": "2026-11-28",
+          "key": "1igmxlf"
+        },
+        "views": 121099,
+        "tier": "two"
+      },
+      {
+        "name": "Amit Mishra",
+        "values": [
+          22
+        ],
+        "verified": {
+          "wiki": "Amit Mishra",
+          "date": "2026-11-28",
+          "key": "dtb0mn"
+        },
+        "views": 47553,
+        "tier": "four"
+      },
+      {
+        "name": "Murali Vijay",
+        "aliases": [
+          "M Vijay"
+        ],
+        "values": [
+          61
+        ],
+        "verified": {
+          "wiki": "Murali Vijay",
+          "date": "2026-11-28",
+          "key": "1feud3l"
+        },
+        "views": 158414,
+        "tier": "two"
+      },
+      {
+        "name": "Wriddhiman Saha",
+        "misspellings": [
+          "Wridhiman Saha",
+          "Riddhiman Saha"
+        ],
+        "values": [
+          40
+        ],
+        "verified": {
+          "wiki": "Wriddhiman Saha",
+          "date": "2026-11-28",
+          "key": "ly2ywa"
+        },
+        "views": 69353,
+        "tier": "four"
+      },
+      {
+        "name": "Suresh Raina",
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "Suresh Raina",
+          "date": "2026-11-28",
+          "key": "1mef4g1"
+        },
+        "views": 202746,
+        "tier": "two"
+      },
+      {
+        "name": "Cheteshwar Pujara",
+        "aliases": [
+          "Pujara"
+        ],
+        "values": [
+          103
+        ],
+        "verified": {
+          "wiki": "Cheteshwar Pujara",
+          "date": "2026-11-28",
+          "key": "cafje2"
+        },
+        "views": 126035,
+        "tier": "two"
+      },
+      {
+        "name": "Jaydev Unadkat",
+        "values": [
+          4
+        ],
+        "verified": {
+          "wiki": "Jaydev Unadkat",
+          "date": "2026-11-28",
+          "key": "1dcxj9j"
+        },
+        "views": 48689,
+        "tier": "six"
+      },
+      {
+        "name": "Abhinav Mukund",
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Abhinav Mukund",
+          "date": "2026-11-28",
+          "key": "ehhsld"
+        },
+        "views": 46806,
+        "tier": "six"
+      },
+      {
+        "name": "Virat Kohli",
+        "aliases": [
+          "Virat"
+        ],
+        "values": [
+          123
+        ],
+        "verified": {
+          "wiki": "Virat Kohli",
+          "date": "2026-11-28",
+          "key": "128u0sn"
+        },
+        "views": 3396194,
+        "tier": "single"
+      },
+      {
+        "name": "Ravichandran Ashwin",
+        "aliases": [
+          "R Ashwin",
+          "Ashwin",
+          "Ravi Ashwin"
+        ],
+        "values": [
+          106
+        ],
+        "verified": {
+          "wiki": "Ravichandran Ashwin",
+          "date": "2026-11-28",
+          "key": "1qdrwdv"
+        },
+        "views": 228075,
+        "tier": "single"
+      },
+      {
+        "name": "Umesh Yadav",
+        "values": [
+          57
+        ],
+        "verified": {
+          "wiki": "Umesh Yadav",
+          "date": "2026-11-28",
+          "key": "1tictmt"
+        },
+        "views": 102250,
+        "tier": "two"
+      },
+      {
+        "name": "Varun Aaron",
+        "values": [
+          9
+        ],
+        "verified": {
+          "wiki": "Varun Aaron",
+          "date": "2026-11-28",
+          "key": "z3v9zx"
+        },
+        "views": 81660,
+        "tier": "four"
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "aliases": [
+          "Jaddu",
+          "Ravi Jadeja"
+        ],
+        "values": [
+          89
+        ],
+        "verified": {
+          "wiki": "Ravindra Jadeja",
+          "date": "2026-11-28",
+          "key": "1wra9sd"
+        },
+        "views": 552124,
+        "tier": "single"
+      },
+      {
+        "name": "Bhuvneshwar Kumar",
+        "aliases": [
+          "Bhuvi"
+        ],
+        "values": [
+          21
+        ],
+        "verified": {
+          "wiki": "Bhuvneshwar Kumar",
+          "date": "2026-11-28",
+          "key": "1ou2kqd"
+        },
+        "views": 408543,
+        "tier": "two"
+      },
+      {
+        "name": "Shikhar Dhawan",
+        "aliases": [
+          "Gabbar"
+        ],
+        "values": [
+          34
+        ],
+        "verified": {
+          "wiki": "Shikhar Dhawan",
+          "date": "2026-11-28",
+          "key": "u3whic"
+        },
+        "views": 332773,
+        "tier": "single"
+      },
+      {
+        "name": "Ajinkya Rahane",
+        "aliases": [
+          "Jinks"
+        ],
+        "values": [
+          85
+        ],
+        "verified": {
+          "wiki": "Ajinkya Rahane",
+          "date": "2026-11-28",
+          "key": "26yglh"
+        },
+        "views": 278386,
+        "tier": "single"
+      },
+      {
+        "name": "Mohammed Shami",
+        "aliases": [
+          "Shami"
+        ],
+        "misspellings": [
+          "Mohammad Shami"
+        ],
+        "values": [
+          64
+        ],
+        "verified": {
+          "wiki": "Mohammed Shami",
+          "date": "2026-11-28",
+          "key": "1e8oq24"
+        },
+        "views": 288476,
+        "tier": "single"
+      },
+      {
+        "name": "Rohit Sharma",
+        "aliases": [
+          "Hitman"
+        ],
+        "values": [
+          67
+        ],
+        "verified": {
+          "wiki": "Rohit Sharma",
+          "date": "2026-11-28",
+          "key": "jcwb17"
+        },
+        "views": 1247259,
+        "tier": "single"
+      },
+      {
+        "name": "Stuart Binny",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Stuart Binny",
+          "date": "2026-11-28",
+          "key": "1p9mf7x"
+        },
+        "views": 116901,
+        "tier": "four"
+      },
+      {
+        "name": "KL Rahul",
+        "values": [
+          68
+        ],
+        "aliases": [
+          "Lokesh Rahul"
+        ],
+        "verified": {
+          "wiki": "KL Rahul",
+          "date": "2026-11-28",
+          "key": "1ttrv3"
+        },
+        "views": 715023,
+        "tier": "single"
+      },
+      {
+        "name": "Naman Ojha",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Naman Ojha",
+          "date": "2026-11-28",
+          "key": "k86n6x"
+        },
+        "views": 21129,
+        "tier": "ootg"
+      },
+      {
+        "name": "Jayant Yadav",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Jayant Yadav",
+          "date": "2026-11-28",
+          "key": "ph7b6m"
+        },
+        "views": 16685,
+        "tier": "six"
+      },
+      {
+        "name": "Karun Nair",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Karun Nair",
+          "date": "2026-11-28",
+          "key": "1fqqacv"
+        },
+        "views": 80145,
+        "tier": "four"
+      },
+      {
+        "name": "Kuldeep Yadav",
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "Kuldeep Yadav",
+          "date": "2026-11-28",
+          "key": "1jaa829"
+        },
+        "views": 254071,
+        "tier": "two"
+      },
+      {
+        "name": "Hardik Pandya",
+        "values": [
+          11
+        ],
+        "verified": {
+          "wiki": "Hardik Pandya",
+          "date": "2026-11-28",
+          "key": "n6etd2"
+        },
+        "views": 901042,
+        "tier": "single"
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "aliases": [
+          "Jasprit"
+        ],
+        "values": [
+          52
+        ],
+        "verified": {
+          "wiki": "Jasprit Bumrah",
+          "date": "2026-11-28",
+          "key": "1bwdxyt"
+        },
+        "views": 1017575,
+        "tier": "single"
+      },
+      {
+        "name": "Rishabh Pant",
+        "values": [
+          50
+        ],
+        "verified": {
+          "wiki": "Rishabh Pant",
+          "date": "2026-11-28",
+          "key": "ct0c0y"
+        },
+        "views": 320113,
+        "tier": "single"
+      },
+      {
+        "name": "Hanuma Vihari",
+        "values": [
+          16
+        ],
+        "verified": {
+          "wiki": "Hanuma Vihari",
+          "date": "2026-11-28",
+          "key": "s1bn45"
+        },
+        "views": 42058,
+        "tier": "six"
+      },
+      {
+        "name": "Prithvi Shaw",
+        "values": [
+          5
+        ],
+        "verified": {
+          "wiki": "Prithvi Shaw",
+          "date": "2026-11-28",
+          "key": "zeu8dx"
+        },
+        "views": 259192,
+        "tier": "four"
+      },
+      {
+        "name": "Shardul Thakur",
+        "values": [
+          13
+        ],
+        "verified": {
+          "wiki": "Shardul Thakur",
+          "date": "2026-11-28",
+          "key": "177rte"
+        },
+        "views": 92631,
+        "tier": "four"
+      },
+      {
+        "name": "Mayank Agarwal",
+        "values": [
+          21
+        ],
+        "verified": {
+          "wiki": "Mayank Agarwal",
+          "date": "2026-11-28",
+          "key": "44fpjc"
+        },
+        "views": 78875,
+        "tier": "four"
+      },
+      {
+        "name": "Shahbaz Nadeem",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Shahbaz Nadeem",
+          "date": "2026-11-28",
+          "key": "1fpktj7"
+        },
+        "views": 26818,
+        "tier": "six"
+      },
+      {
+        "name": "Shubman Gill",
+        "values": [
+          41
+        ],
+        "verified": {
+          "wiki": "Shubman Gill",
+          "date": "2026-11-28",
+          "key": "gfpatm"
+        },
+        "views": 1147923,
+        "tier": "single"
+      },
+      {
+        "name": "Mohammed Siraj",
+        "aliases": [
+          "Siraj"
+        ],
+        "misspellings": [
+          "Mohammad Siraj"
+        ],
+        "values": [
+          46
+        ],
+        "verified": {
+          "wiki": "Mohammed Siraj",
+          "date": "2026-11-28",
+          "key": "119x7pe"
+        },
+        "views": 336053,
+        "tier": "single"
+      },
+      {
+        "name": "Navdeep Saini",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Navdeep Saini",
+          "date": "2026-11-28",
+          "key": "9p49ab"
+        },
+        "views": 46682,
+        "tier": "six"
+      },
+      {
+        "name": "Thangarasu Natarajan",
+        "aliases": [
+          "T Natarajan",
+          "Natarajan",
+          "Natty"
+        ],
+        "wiki": "T. Natarajan",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "T. Natarajan",
+          "date": "2026-11-28",
+          "key": "uplm2n"
+        },
+        "views": 60864,
+        "tier": "six"
+      },
+      {
+        "name": "Washington Sundar",
+        "values": [
+          18
+        ],
+        "verified": {
+          "wiki": "Washington Sundar",
+          "date": "2026-11-28",
+          "key": "1e70tbp"
+        },
+        "views": 310166,
+        "tier": "two"
+      },
+      {
+        "name": "Axar Patel",
+        "values": [
+          15
+        ],
+        "verified": {
+          "wiki": "Axar Patel",
+          "date": "2026-11-28",
+          "key": "nlaeow"
+        },
+        "views": 294562,
+        "tier": "two"
+      },
+      {
+        "name": "Shreyas Iyer",
+        "values": [
+          14
+        ],
+        "verified": {
+          "wiki": "Shreyas Iyer",
+          "date": "2026-11-28",
+          "key": "1wbnih0"
+        },
+        "views": 728936,
+        "tier": "two"
+      },
+      {
+        "name": "K.S. Bharat",
+        "aliases": [
+          "Srikar Bharat"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "K. S. Bharat",
+          "date": "2026-11-28",
+          "key": "1y8tchm"
+        },
+        "views": 54128,
+        "tier": "six"
+      },
+      {
+        "name": "Suryakumar Yadav",
+        "aliases": [
+          "SKY",
+          "Surya"
+        ],
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Suryakumar Yadav",
+          "date": "2026-11-28",
+          "key": "1pwf99y"
+        },
+        "views": 842150,
+        "tier": "two"
+      },
+      {
+        "name": "Yashasvi Jaiswal",
+        "misspellings": [
+          "Yashashvi Jaiswal"
+        ],
+        "values": [
+          29
+        ],
+        "verified": {
+          "wiki": "Yashasvi Jaiswal",
+          "date": "2026-11-28",
+          "key": "1lclrax"
+        },
+        "views": 534868,
+        "tier": "single"
+      },
+      {
+        "name": "Ishan Kishan",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Ishan Kishan",
+          "date": "2026-11-28",
+          "key": "13new8n"
+        },
+        "views": 862802,
+        "tier": "two"
+      },
+      {
+        "name": "Mukesh Kumar",
+        "wiki": "Mukesh Kumar (cricketer)",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Mukesh Kumar (cricketer)",
+          "date": "2026-11-28",
+          "key": "1r68vb2"
+        },
+        "views": 46831,
+        "tier": "six"
+      },
+      {
+        "name": "Prasidh Krishna",
+        "misspellings": [
+          "Prasid Krishna"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Prasidh Krishna",
+          "date": "2026-11-28",
+          "key": "1mv9tp1"
+        },
+        "views": 156673,
+        "tier": "four"
+      },
+      {
+        "name": "Rajat Patidar",
+        "values": [
+          3
+        ],
+        "verified": {
+          "wiki": "Rajat Patidar",
+          "date": "2026-11-28",
+          "key": "1gnfdfd"
+        },
+        "views": 683286,
+        "tier": "two"
+      },
+      {
+        "name": "Sarfaraz Khan",
+        "wiki": "Sarfaraz Khan (cricketer)",
+        "values": [
+          6
+        ],
+        "verified": {
+          "wiki": "Sarfaraz Khan (cricketer)",
+          "date": "2026-11-28",
+          "key": "kxuq8m"
+        },
+        "views": 221976,
+        "tier": "four"
+      },
+      {
+        "name": "Dhruv Jurel",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Dhruv Jurel",
+          "date": "2026-11-28",
+          "key": "1657kg3"
+        },
+        "views": 175221,
+        "tier": "four"
+      },
+      {
+        "name": "Akash Deep",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Akash Deep",
+          "date": "2026-11-28",
+          "key": "lydd3o"
+        },
+        "views": 73400,
+        "tier": "four"
+      },
+      {
+        "name": "Devdutt Padikkal",
+        "aliases": [
+          "Padikkal"
+        ],
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Devdutt Padikkal",
+          "date": "2026-11-28",
+          "key": "vi7h0y"
+        },
+        "views": 430593,
+        "tier": "two"
+      },
+      {
+        "name": "Nitish Kumar Reddy",
+        "values": [
+          10
+        ],
+        "verified": {
+          "wiki": "Nitish Kumar Reddy",
+          "date": "2026-11-28",
+          "key": "16m42d2"
+        },
+        "views": 224563,
+        "tier": "four",
+        "aliases": [
+          "Nitish Reddy"
+        ]
+      },
+      {
+        "name": "Harshit Rana",
+        "values": [
+          2
+        ],
+        "verified": {
+          "wiki": "Harshit Rana",
+          "date": "2026-11-28",
+          "key": "1kcfx8t"
+        },
+        "views": 225316,
+        "tier": "four"
+      },
+      {
+        "name": "Sai Sudharsan",
+        "aliases": [
+          "B Sai Sudharsan"
+        ],
+        "misspellings": [
+          "Sai Sudarshan"
+        ],
+        "values": [
+          7
+        ],
+        "verified": {
+          "wiki": "Sai Sudharsan",
+          "date": "2026-11-28",
+          "key": "1rko1ai"
+        },
+        "views": 234815,
+        "tier": "four"
+      },
+      {
+        "name": "Anshul Kamboj",
+        "values": [
+          1
+        ],
+        "verified": {
+          "wiki": "Anshul Kamboj",
+          "date": "2026-11-28",
+          "key": "9ipcg3"
+        },
+        "views": 222541,
+        "tier": "six"
+      }
+    ]
+  }
+]
